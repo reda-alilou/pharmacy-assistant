@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=20",
+  "parsed_at_utc": "2026-09-22T13:46:26.670177+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "5623",
+      "brand_name": "AGRASTAT",
+      "details": {
+        "Substance active": "TIROFIBAN",
+        "EPI": "SOTHEMA",
+        "Dosage": "50 µG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION",
+        "Présentation": "POCHE DE 250 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "2.042.00 DH",
+        "PH": "1.793.00 DH"
+      }
+    },
+    {
+      "source_record_id": "8138",
+      "brand_name": "AGRASTAT",
+      "details": {
+        "Substance active": "TIROFIBAN",
+        "EPI": "SOTHEMA",
+        "Dosage": "250 µG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION",
+        "Présentation": "FLACON DE 50 ML",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "3834",
+      "brand_name": "AGREL",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "PHARMA 5",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "189,80 DH",
+        "PH": "118,60 DH"
+      }
+    },
+    {
+      "source_record_id": "3835",
+      "brand_name": "AGREL",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "PHARMA 5",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 50",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH"
+      }
+    },
+    {
+      "source_record_id": "8139",
+      "brand_name": "AGREL",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "PHARMA 5",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 100",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "8140",
+      "brand_name": "AGREL",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "PHARMA 5",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 84",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "769",
+      "brand_name": "AGRETER",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 14",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "110,00 DH",
+        "PH": "68,80 DH"
+      }
+    },
+    {
+      "source_record_id": "770",
+      "brand_name": "AGRETER",
+      "details": {
+        "Substance active": "CLOPIDOGREL",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "198,00 DH",
+        "PH": "123,80 DH"
+      }
+    },
+    {
+      "source_record_id": "5624",
+      "brand_name": "AGYRAX",
+      "details": {
+        "Substance active": "MECLOZINE (CHLORHYDRATE )",
+        "EPI": "SOTHEMA",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH"
+      }
+    },
+    {
+      "source_record_id": "3177",
+      "brand_name": "AIRATHON",
+      "details": {
+        "Substance active": "MONTELUKAST",
+        "EPI": "MSD",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME A CROQUER",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "190,00 DH",
+        "PH": "118,70 DH"
+      }
+    },
+    {
+      "source_record_id": "7055",
+      "brand_name": "AIRATHON",
+      "details": {
+        "Substance active": "MONTELUKAST",
+        "EPI": "MSD",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "190,80 DH",
+        "PH": "119,20 DH"
+      }
+    },
+    {
+      "source_record_id": "7056",
+      "brand_name": "AIRATHON",
+      "details": {
+        "Substance active": "MONTELUKAST",
+        "EPI": "MSD",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "193,10 DH",
+        "PH": "120,70 DH"
+      }
+    }
+  ]
+}

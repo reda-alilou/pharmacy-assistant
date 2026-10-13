@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 96,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=96",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1829",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "65,00 DH",
+        "PH": "40,50 DH",
+        "PFHT": "36,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1830",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "31,30 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "380",
+      "brand_name": "CLARADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "16,00 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "381",
+      "brand_name": "CLARADOL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CAFEINE // PROPYPHENAZONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "16,10 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "(250   MG  /  50   MG  /  150   MG)",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "382",
+      "brand_name": "CLARADOL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CAFEINE // PROPYPHENAZONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "28,60 DH",
+        "PH": "17,90 DH",
+        "PFHT": "17,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "(250   MG  /  50   MG  /  150   MG)",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2735",
+      "brand_name": "CLARELUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100G",
+        "PP / GN": "PP",
+        "Substance active": "CLOBETASOL (PROPIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "124,00 DH",
+        "PH": "77,50 DH",
+        "PFHT": "73,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µg  /  G",
+        "Forme": "MOUSSE POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "1389",
+      "brand_name": "CLARIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "92,80 DH",
+        "PH": "58,00 DH",
+        "PFHT": "55,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1390",
+      "brand_name": "CLARIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "149,50 DH",
+        "PH": "93,40 DH",
+        "PFHT": "89,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8304",
+      "brand_name": "CLARIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "8305",
+      "brand_name": "CLARIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7291",
+      "brand_name": "CLARISCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "267,00 DH",
+        "PH": "177,60 DH",
+        "PFHT": "169,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7292",
+      "brand_name": "CLARISCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "247,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7293",
+      "brand_name": "CLARISCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "457,00 DH",
+        "PH": "304,00 DH",
+        "PFHT": "289,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3191",
+      "brand_name": "CLARITYNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "66,20 DH",
+        "PH": "41,30 DH",
+        "PFHT": "36,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3192",
+      "brand_name": "CLARITYNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "94,90 DH",
+        "PH": "59,10 DH",
+        "PFHT": "52,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "3193",
+      "brand_name": "CLARITYNE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON 120 ML",
+        "PP / GN": "PP",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MSD",
+        "PPV": "60,70 DH",
+        "PH": "37,90 DH",
+        "PFHT": "36,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "3194",
+      "brand_name": "CLARITYNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MSD",
+        "PPV": "34,10 DH",
+        "PH": "21,20 DH",
+        "PFHT": "18,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "3910",
+      "brand_name": "CLARTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3911",
+      "brand_name": "CLARTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "29,90 DH",
+        "PH": "18,70 DH",
+        "PFHT": "17,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3912",
+      "brand_name": "CLARTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

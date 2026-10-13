@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 4,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=4",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4780",
+      "brand_name": "ACIDE ZOLEDRONIQUE PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.356.00 DH",
+        "PH": "1.088.00 DH",
+        "PFHT": "1.036.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5118",
+      "brand_name": "ACIDE ZOLEDRONIQUE SP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.255.00 DH",
+        "PH": "983,00 DH",
+        "PFHT": "936,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6886",
+      "brand_name": "ACIGAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6887",
+      "brand_name": "ACIGAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "9673",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "37,20 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9674",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "91,10 DH",
+        "PH": "57,00 DH",
+        "PFHT": "54,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9675",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "86,60 DH",
+        "PH": "54,10 DH",
+        "PFHT": "51,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9676",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "210,00 DH",
+        "PH": "131,50 DH",
+        "PFHT": "125,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "763",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "226,00 DH",
+        "PH": "141,30 DH",
+        "PFHT": "134,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "764",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "223,00 DH",
+        "PH": "139,60 DH",
+        "PFHT": "132,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "765",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "346,00 DH",
+        "PH": "230,00 DH",
+        "PFHT": "219,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6888",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "91,10 DH",
+        "PH": "56,90 DH",
+        "PFHT": "54,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3310",
+      "brand_name": "ACLASTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "3.041.00 DH",
+        "PH": "2.718.00 DH",
+        "PFHT": "2.589.47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3807",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  100   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3808",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "92,50 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3809",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "107,50 DH",
+        "PH": "67,20 DH",
+        "PFHT": "63,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3810",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "123,40 DH",
+        "PH": "77,10 DH",
+        "PFHT": "73,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3811",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "174,80 DH",
+        "PH": "109,20 DH",
+        "PFHT": "104,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3812",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "30,80 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  200   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3813",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "2 FLACONS DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "60,50 DH",
+        "PH": "37,80 DH",
+        "PFHT": "36,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 69,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=69",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1352",
+      "brand_name": "BUCOCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LYSOZYME // PAPAINE // BACITRACINE // TETRACAINE // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "10,20 DH",
+        "PH": "6,40 DH",
+        "PFHT": "6,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3899",
+      "brand_name": "BUCOPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PHENOXYMETHYLPENICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "27,10 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000000 UI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4101",
+      "brand_name": "BUCOPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHENOXIMETHYLPENICILLINE BENZATHINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "18,10 DH",
+        "PH": "11,30 DH",
+        "PFHT": "10,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400000 UI",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "33",
+      "brand_name": "BUDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 MCG",
+        "Forme": "AEROSOL NASAL"
+      }
+    },
+    {
+      "source_record_id": "34",
+      "brand_name": "BUDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "234,00 DH",
+        "PH": "146,20 DH",
+        "PFHT": "139,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 MCG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "35",
+      "brand_name": "BUDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "67,90 DH",
+        "PH": "42,40 DH",
+        "PFHT": "40,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "64 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR PELVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "1617",
+      "brand_name": "BULMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "42,20 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "INHALER"
+      }
+    },
+    {
+      "source_record_id": "1618",
+      "brand_name": "BULMOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "32,00 DH",
+        "PH": "20,00 DH",
+        "PFHT": "19,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1619",
+      "brand_name": "BULMOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "38,00 DH",
+        "PH": "23,70 DH",
+        "PFHT": "22,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2020",
+      "brand_name": "BUPIVACAINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "220,00 DH",
+        "PH": "137,90 DH",
+        "PFHT": "131,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2021",
+      "brand_name": "BUPIVACAINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "220,00 DH",
+        "PH": "137,90 DH",
+        "PFHT": "131,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6337",
+      "brand_name": "BUPIVACAINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 FL",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "744,00 DH",
+        "PH": "494,00 DH",
+        "PFHT": "471,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  4  ML",
+        "Forme": "SOLUTTION INJECTABLE PAR VOIE INTRARACHIDIENNE"
+      }
+    },
+    {
+      "source_record_id": "8269",
+      "brand_name": "BUPIVACAINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  20  ML",
+        "Forme": "-"
+      }
+    },
+    {
+      "source_record_id": "6338",
+      "brand_name": "BUPIVACAINE MYLAN 0,50%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "379,00 DH",
+        "PH": "252,00 DH",
+        "PFHT": "240,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  20  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2022",
+      "brand_name": "BUPIVACAINE POUR RACHIANESTHESIE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 AMPOULE DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "38,00 DH",
+        "PH": "23,70 DH",
+        "PFHT": "21,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2023",
+      "brand_name": "BUPIVACAINE POUR RACHIANESTHESIE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 AMPOULE DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "675,00 DH",
+        "PH": "448,00 DH",
+        "PFHT": "427,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9283",
+      "brand_name": "BUPIVACAINE POUR RECHIANESTHESIE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE (CHLORHYDRATE MONOHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "216,00 DH",
+        "PH": "135,40 DH",
+        "PFHT": "129,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE PAR VOIE INTRARACHIDIENNE"
+      }
+    },
+    {
+      "source_record_id": "9754",
+      "brand_name": "BURNASORES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "B-SITOSTEROL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "POMMADE DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "9755",
+      "brand_name": "BURNASORES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "B-SITOSTEROL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "POMMADE DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5226",
+      "brand_name": "BUSCOPAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "BUTYLSCOPOLAMINE (BROMURE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "21,60 DH",
+        "PH": "13,50 DH",
+        "PFHT": "12,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=12",
+  "parsed_at_utc": "2026-09-22T13:44:31.518593+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "6577",
+      "brand_name": "ACUCARB",
+      "details": {
+        "Substance active": "CARBOPLATINE",
+        "EPI": "ZENITH PHARMA",
+        "Dosage": "450   MG",
+        "Forme": "SOLUTION POUR PERFUSION",
+        "Présentation": "FLACON DE 45 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "906,00 DH",
+        "PH": "602,00 DH"
+      }
+    },
+    {
+      "source_record_id": "3570",
+      "brand_name": "ACUILIX",
+      "details": {
+        "Substance active": "QUINAPRIL // HYDROCHLOROTHIAZIDE",
+        "EPI": "PFIZER",
+        "Dosage": "12,5  /  20   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "64,50 DH",
+        "PH": "40,30 DH"
+      }
+    },
+    {
+      "source_record_id": "1",
+      "brand_name": "ACULAR",
+      "details": {
+        "Substance active": "KETOROLAC TROMETHAMINE",
+        "EPI": "AFRIC PHAR",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE",
+        "Présentation": "FLACON DE 5 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "36,30 DH",
+        "PH": "22,70 DH"
+      }
+    },
+    {
+      "source_record_id": "463",
+      "brand_name": "ACUPAN",
+      "details": {
+        "Substance active": "NEFOPAM",
+        "EPI": "BIOCODEX MAROC",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE",
+        "Présentation": "BOITE DE 5 AMPOULE DE 2 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "47,60 DH",
+        "PH": "29,70 DH"
+      }
+    },
+    {
+      "source_record_id": "6578",
+      "brand_name": "ACUPAXIL-30",
+      "details": {
+        "Substance active": "PACLITAXEL",
+        "EPI": "ZENITH PHARMA",
+        "Dosage": "30   MG",
+        "Forme": "SOLUTION POUR PERFUSION",
+        "Présentation": "FLACON DE 5 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "430,00 DH",
+        "PH": "285,00 DH"
+      }
+    },
+    {
+      "source_record_id": "2",
+      "brand_name": "ACUVAIL",
+      "details": {
+        "Substance active": "KETOROLAC TROMETHAMINE",
+        "EPI": "AFRIC PHAR",
+        "Dosage": "0.0045",
+        "Forme": "COLLYRE EN SOLUTION",
+        "Présentation": "BOITE DE 30 RECIPIENTS UNIDOSE DE 0,4 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "127,50 DH",
+        "PH": "79,70 DH"
+      }
+    },
+    {
+      "source_record_id": "7398",
+      "brand_name": "ADACEL POLIO",
+      "details": {
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE ACELLULAIRE )",
+        "EPI": "SANOFI AVENTIS",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE",
+        "Présentation": "BOITE DE 1",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "332,00 DH",
+        "PH": "220,00 DH"
+      }
+    },
+    {
+      "source_record_id": "347",
+      "brand_name": "ADALATE",
+      "details": {
+        "Substance active": "NIFEDIPINE",
+        "EPI": "BAYER",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE",
+        "Présentation": "BOITE DE 100",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "103,90 DH",
+        "PH": "64,90 DH"
+      }
+    },
+    {
+      "source_record_id": "348",
+      "brand_name": "ADALATE",
+      "details": {
+        "Substance active": "NIFEDIPINE",
+        "EPI": "BAYER",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH"
+      }
+    },
+    {
+      "source_record_id": "349",
+      "brand_name": "ADALATE RETARD",
+      "details": {
+        "Substance active": "NIFEDIPINE",
+        "EPI": "BAYER",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "50,80 DH",
+        "PH": "31,70 DH"
+      }
+    },
+    {
+      "source_record_id": "350",
+      "brand_name": "ADALATE RETARD",
+      "details": {
+        "Substance active": "NIFEDIPINE",
+        "EPI": "BAYER",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 50",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "114,00 DH",
+        "PH": "71,20 DH"
+      }
+    },
+    {
+      "source_record_id": "767",
+      "brand_name": "ADANCOR",
+      "details": {
+        "Substance active": "NICORANDIL",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "72,80 DH",
+        "PH": "45,50 DH"
+      }
+    }
+  ]
+}

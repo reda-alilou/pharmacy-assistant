@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 21,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=21",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "503",
+      "brand_name": "ALYSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "109,70 DH",
+        "PH": "68,60 DH",
+        "PFHT": "65,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "504",
+      "brand_name": "ALYSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "449,00 DH",
+        "PH": "298,00 DH",
+        "PFHT": "284,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "505",
+      "brand_name": "ALYSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "234,00 DH",
+        "PH": "146,40 DH",
+        "PFHT": "139,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6165",
+      "brand_name": "ALYVIR RANBAXY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VALACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "111,60 DH",
+        "PH": "69,80 DH",
+        "PFHT": "66,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7234",
+      "brand_name": "ALZIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "44,00 DH",
+        "PH": "27,50 DH",
+        "PFHT": "26,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8161",
+      "brand_name": "ALZIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8090",
+      "brand_name": "ALZIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE  A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8091",
+      "brand_name": "ALZIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "60,60 DH",
+        "PH": "37,90 DH",
+        "PFHT": "36,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE  A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8092",
+      "brand_name": "ALZIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "106,90 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE  A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8093",
+      "brand_name": "ALZIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "156,70 DH",
+        "PH": "97,90 DH",
+        "PFHT": "93,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE  A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8162",
+      "brand_name": "ALZIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE  A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4403",
+      "brand_name": "ALZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "42,10 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4404",
+      "brand_name": "ALZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "79,40 DH",
+        "PH": "49,60 DH",
+        "PFHT": "47,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4405",
+      "brand_name": "ALZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6048",
+      "brand_name": "AM-10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "29,80 DH",
+        "PH": "18,60 DH",
+        "PFHT": "17,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6049",
+      "brand_name": "AM-10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "52,40 DH",
+        "PH": "32,80 DH",
+        "PFHT": "31,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6050",
+      "brand_name": "AM-10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "75,90 DH",
+        "PH": "47,50 DH",
+        "PFHT": "45,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6051",
+      "brand_name": "AM-10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "145,90 DH",
+        "PH": "91,20 DH",
+        "PFHT": "86,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6052",
+      "brand_name": "AM-5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "19,70 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6053",
+      "brand_name": "AM-5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "35,70 DH",
+        "PH": "22,30 DH",
+        "PFHT": "21,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

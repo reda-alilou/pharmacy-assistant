@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 87,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=87",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2374",
+      "brand_name": "CHLORAMPHENICOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "NA",
+        "Substance active": "CHLORAMPHENICOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,250 G",
+        "Forme": "DRAGEE"
+      }
+    },
+    {
+      "source_record_id": "7192",
+      "brand_name": "CHLORPROMAZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,90 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7193",
+      "brand_name": "CHLORPROMAZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "16,00 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8288",
+      "brand_name": "CHLORPROMAZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8289",
+      "brand_name": "CHLORPROMAZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7374",
+      "brand_name": "CHLORPROMAZINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "12,90 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7375",
+      "brand_name": "CHLORPROMAZINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "16,00 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2375",
+      "brand_name": "CHLORTETRACYCLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "CHLORTETRACYCLINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "7,80 DH",
+        "PH": "4,90 DH",
+        "PFHT": "4,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.03",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "9212",
+      "brand_name": "CHLORURE DE POTASSIUM SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULES DE 5ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE POTASSIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "205,00 DH",
+        "PH": "128,70 DH",
+        "PFHT": "122,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.2",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN AMPOULE DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "9213",
+      "brand_name": "CHLORURE DE POTASSIUM SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULES DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE POTASSIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "395,00 DH",
+        "PH": "262,00 DH",
+        "PFHT": "250,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN AMPOULE DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "4865",
+      "brand_name": "CHLORURE DE SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "198,30 DH",
+        "PH": "123,90 DH",
+        "PFHT": "118,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.009",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4866",
+      "brand_name": "CHLORURE DE SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULE DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.009",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4867",
+      "brand_name": "CHLORURE DE SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULE DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "395,00 DH",
+        "PH": "262,00 DH",
+        "PFHT": "250,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8290",
+      "brand_name": "CHLORURE DE SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "POCHE DE 1000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.009",
+        "Forme": "SOLUTION INJECTABLE ISOTONIQUE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8291",
+      "brand_name": "CHLORURE DE SODIUM 0,9 %",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 1000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000  ML",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 1000 ML"
+      }
+    },
+    {
+      "source_record_id": "8292",
+      "brand_name": "CHLORURE DE SODIUM 0,9 %",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POCHE DE 2000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "47,50 DH",
+        "PH": "29,70 DH",
+        "PFHT": "28,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000  ML",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 2000 ML"
+      }
+    },
+    {
+      "source_record_id": "8293",
+      "brand_name": "CHLORURE DE SODIUM 0,9 %",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250  ML",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 250 ML"
+      }
+    },
+    {
+      "source_record_id": "8294",
+      "brand_name": "CHLORURE DE SODIUM 0,9 %",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 3000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "100,60 DH",
+        "PH": "62,90 DH",
+        "PFHT": "59,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3000  ML",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 3000 ML"
+      }
+    },
+    {
+      "source_record_id": "8295",
+      "brand_name": "CHLORURE DE SODIUM 0,9 %",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "19,20 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  ML",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 500 ML"
+      }
+    },
+    {
+      "source_record_id": "5685",
+      "brand_name": "CHLORURE DE SODIUM 0,9% SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POCHE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.009",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

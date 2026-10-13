@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=11",
+  "parsed_at_utc": "2026-09-22T13:44:20.911460+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "8131",
+      "brand_name": "ACTIFED",
+      "details": {
+        "Substance active": "PSEUDOEPHEDRINE (CHLORHYDRATE) // TRIPROLIDINE (CHLORHYDRATE)",
+        "EPI": "GSK",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "FLACON DE 100 ML",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "8132",
+      "brand_name": "ACTIFED",
+      "details": {
+        "Substance active": "PSEUDOEPHEDRINE (CHLORHYDRATE) // TRIPROLIDINE (CHLORHYDRATE)",
+        "EPI": "GSK",
+        "Dosage": "-",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "1775",
+      "brand_name": "ACTIFED RHUME",
+      "details": {
+        "Substance active": "PSEUDOEPHEDRINE (CHLORHYDRATE) // TRIPROLIDINE (CHLORHYDRATE)",
+        "EPI": "GSK",
+        "Dosage": "60  /  2,5   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "17,00 DH",
+        "PH": "10,60 DH"
+      }
+    },
+    {
+      "source_record_id": "5620",
+      "brand_name": "ACTISOUFRE",
+      "details": {
+        "Substance active": "SULFURE DE SODIUM",
+        "EPI": "SOTHEMA",
+        "Dosage": "4   MG",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "BOITE DE 30 AMPOULES DE 10 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "46,40 DH",
+        "PH": "29,00 DH"
+      }
+    },
+    {
+      "source_record_id": "2308",
+      "brand_name": "ACTIVAROL C 100",
+      "details": {
+        "Substance active": "HEMATOPORPHYRINE //VITAMINE C (ACIDE ASCORBIQUE) // ACIDE AMINO ACETIQUE // EXTRAIT (AMINE DE LEVURE)",
+        "EPI": "LAPROPHAN",
+        "Dosage": "0,003   MG  /  0,1   MG  /  0,250   MG  /  0,050   MG",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "BOITE DE 24 AMPOULES DE 5 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "28,60 DH",
+        "PH": "17,90 DH"
+      }
+    },
+    {
+      "source_record_id": "2309",
+      "brand_name": "ACTIVAROL C 500",
+      "details": {
+        "Substance active": "HEMATOPORPHYRINE //VITAMINE C (ACIDE ASCORBIQUE) // ACIDE AMINO ACETIQUE // EXTRAIT (AMINE DE LEVURE)",
+        "EPI": "LAPROPHAN",
+        "Dosage": "0,006   MG  /  0,5   MG  /  0,5   MG  /  0,1   MG",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "BOITE DE 24 AMPOULES DE 10 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "58,80 DH",
+        "PH": "36,70 DH"
+      }
+    },
+    {
+      "source_record_id": "5175",
+      "brand_name": "ACTONEL",
+      "details": {
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "EPI": "SANOFI AVENTIS",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "296,00 DH",
+        "PH": "184,60 DH"
+      }
+    },
+    {
+      "source_record_id": "5176",
+      "brand_name": "ACTONEL ONCE-A-WEEK",
+      "details": {
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "EPI": "SANOFI AVENTIS",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 4",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "293,00 DH",
+        "PH": "182,90 DH"
+      }
+    },
+    {
+      "source_record_id": "5177",
+      "brand_name": "ACTONEL PLUS CALCIUM D",
+      "details": {
+        "Substance active": "RISEDRONATE (MONOSODIQUE) // CALCIUM (CARBONATE) // VITAMINE D3 (CHOLECALCIFEROL)",
+        "EPI": "SANOFI AVENTIS",
+        "Dosage": "35   MG + 1000   MG  /  880 UI",
+        "Forme": "COMPRIME PELLICULE ET GRANULE EFFERVESCENT",
+        "Présentation": "BOITE DE 4",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "340,00 DH",
+        "PH": "225,00 DH"
+      }
+    },
+    {
+      "source_record_id": "2310",
+      "brand_name": "ACTRAPID HM",
+      "details": {
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+        "EPI": "LAPROPHAN",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "186,00 DH",
+        "PH": "116,20 DH"
+      }
+    },
+    {
+      "source_record_id": "2311",
+      "brand_name": "ACTRAPID HM PENFILL",
+      "details": {
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+        "EPI": "LAPROPHAN",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE",
+        "Présentation": "BOITE DE 5 CARTOUCHES 3 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "350,00 DH",
+        "PH": "232,00 DH"
+      }
+    },
+    {
+      "source_record_id": "6576",
+      "brand_name": "ACUCARB",
+      "details": {
+        "Substance active": "CARBOPLATINE",
+        "EPI": "ZENITH PHARMA",
+        "Dosage": "150   MG",
+        "Forme": "SOLUTION POUR PERFUSION",
+        "Présentation": "FLACON DE 15 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "408,00 DH",
+        "PH": "271,00 DH"
+      }
+    }
+  ]
+}

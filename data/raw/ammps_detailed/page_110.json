@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 110,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=110",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5062",
+      "brand_name": "COPEGUS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 168",
+        "PP / GN": "PP",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "1.688.00 DH",
+        "PH": "1.429.00 DH",
+        "PFHT": "1.361.13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5063",
+      "brand_name": "COPEGUS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 42",
+        "PP / GN": "PP",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "5.510.00 DH",
+        "PH": "5.260.00 DH",
+        "PFHT": "5.010.07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5250",
+      "brand_name": "COPLAVIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CLOPIDOGREL // ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "270,00 DH",
+        "PH": "169,30 DH",
+        "PFHT": "161,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG  /  100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5710",
+      "brand_name": "COQUELUSEDAL PARACETAMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // GRINDELIA // GELSEMIUM // NIAOULI",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "16,20 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1 G  /  0,01 G  /  0,005 G  /  0,01 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "5711",
+      "brand_name": "COQUELUSEDAL PARACETAMOL ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // GRINDELIA // GELSEMIUM // NIAOULI",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  0,04 G  /  0,02 G  /  0,04 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "5712",
+      "brand_name": "COQUELUSEDAL PARACETAMOL ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // GRINDELIA // GELSEMIUM // NIAOULI",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25 G  /  0,02 G  /  0,01 G  /  0,02 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "8317",
+      "brand_name": "CORACTEN 20 MG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "-",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5503",
+      "brand_name": "CORALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IVABRADINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "188,40 DH",
+        "PH": "117,80 DH",
+        "PFHT": "112,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5504",
+      "brand_name": "CORALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "IVABRADINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5505",
+      "brand_name": "CORALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IVABRADINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "205,00 DH",
+        "PH": "128,30 DH",
+        "PFHT": "122,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5506",
+      "brand_name": "CORALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "IVABRADINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "344,00 DH",
+        "PH": "229,00 DH",
+        "PFHT": "218,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5251",
+      "brand_name": "CORDARONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMP",
+        "PP / GN": "PP",
+        "Substance active": "AMIODARONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "54,40 DH",
+        "PH": "34,00 DH",
+        "PFHT": "32,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5252",
+      "brand_name": "CORDARONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "AMIODARONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "89,70 DH",
+        "PH": "56,10 DH",
+        "PFHT": "53,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3117",
+      "brand_name": "CORINAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 100 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "6648",
+      "brand_name": "CORNEREGEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "DEXPANTHENOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "71,10 DH",
+        "PH": "44,40 DH",
+        "PFHT": "42,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "9332",
+      "brand_name": "COROLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TICAGRELOR",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "81,80 DH",
+        "PH": "51,10 DH",
+        "PFHT": "48,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9333",
+      "brand_name": "COROLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TICAGRELOR",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "193,90 DH",
+        "PH": "121,20 DH",
+        "PFHT": "115,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9334",
+      "brand_name": "COROLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  60",
+        "PP / GN": "GN",
+        "Substance active": "TICAGRELOR",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "303,00 DH",
+        "PH": "201,00 DH",
+        "PFHT": "192,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9335",
+      "brand_name": "COROLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TICAGRELOR",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "98,50 DH",
+        "PH": "61,50 DH",
+        "PFHT": "58,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9336",
+      "brand_name": "COROLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TICAGRELOR",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "273,00 DH",
+        "PH": "171,10 DH",
+        "PFHT": "162,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

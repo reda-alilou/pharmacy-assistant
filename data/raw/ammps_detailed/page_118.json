@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 118,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=118",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8341",
+      "brand_name": "D-CURE CALCIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  1000 UI",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "1265",
+      "brand_name": "D-CURE FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ERGO MAROC",
+        "PPV": "46,30 DH",
+        "PH": "28,90 DH",
+        "PFHT": "27,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 000 UI",
+        "Forme": "SOLUTION HUILEUSE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3498",
+      "brand_name": "D-RUBICIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "91,50 DH",
+        "PH": "57,20 DH",
+        "PFHT": "54,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10  ML",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "3499",
+      "brand_name": "D-RUBICIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "409,00 DH",
+        "PH": "272,00 DH",
+        "PFHT": "259,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  50  ML",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "9789",
+      "brand_name": "DACARBAZINE LIPOMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "DACARBAZINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "LYOPHILISAT POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "1576",
+      "brand_name": "DACIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 FLACONS - AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "DACARBAZINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "428,00 DH",
+        "PH": "284,00 DH",
+        "PFHT": "270,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1577",
+      "brand_name": "DACIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 FLACONS - AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "DACARBAZINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "727,00 DH",
+        "PH": "483,00 DH",
+        "PFHT": "460,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1396",
+      "brand_name": "DACLAR GALENICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DACLATASVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "1.500.00 DH",
+        "PH": "1.235.00 DH",
+        "PFHT": "1.177.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "853",
+      "brand_name": "DACRYOSERUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 RECIP UNID",
+        "PP / GN": "NA",
+        "Substance active": "BORAX // ACIDE BORIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION POUR LAVAGE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "854",
+      "brand_name": "DACRYOSERUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "NA",
+        "Substance active": "BORAX // ACIDE BORIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "30,80 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 G  /  1,8 G",
+        "Forme": "SOLUTION POUR LAVAGE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5513",
+      "brand_name": "DAFLON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "FRACTION FLAVONOIQUE PURIFIEE MICRONISEE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "82,90 DH",
+        "PH": "51,60 DH",
+        "PFHT": "46,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5514",
+      "brand_name": "DAFLON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FRACTION FLAVONOIQUE PURIFIEE MICRONISEE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "114,70 DH",
+        "PH": "71,70 DH",
+        "PFHT": "68,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6894",
+      "brand_name": "DAFLON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "111,70 DH",
+        "PH": "69,80 DH",
+        "PFHT": "66,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6895",
+      "brand_name": "DAFLON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "187,90 DH",
+        "PH": "117,40 DH",
+        "PFHT": "111,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9549",
+      "brand_name": "DAGLIZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DAPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "169,00 DH",
+        "PH": "105,60 DH",
+        "PFHT": "100,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9550",
+      "brand_name": "DAGLIZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DAPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "269,00 DH",
+        "PH": "179,00 DH",
+        "PFHT": "170,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "2762",
+      "brand_name": "DAILY GE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "3 * (BOITE DE 6 ROSES, 5 BLANCS, 10 JAUNES)",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05   MG  /  0,03   MG ET 0,075   MG  /  0,04   MG ET 0,125   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2763",
+      "brand_name": "DAILY GE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 ROSES, 5 BLANCS, 10 JAUNES",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05   MG  /  0,03   MG ET 0,075   MG  /  0,04   MG ET 0,125   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4643",
+      "brand_name": "DAIVOBET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "CALCIPOTRIOL // BETAMETHASONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "274,00 DH",
+        "PH": "182,10 DH",
+        "PFHT": "173,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  0,5 G",
+        "Forme": "GEL DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4644",
+      "brand_name": "DAIVOBET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "CALCIPOTRIOL // BETAMETHASONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "272,00 DH",
+        "PH": "181,40 DH",
+        "PFHT": "172,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  0,5 G",
+        "Forme": "POMMADE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=13",
+  "parsed_at_utc": "2026-09-22T13:44:45.658107+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "768",
+      "brand_name": "ADANCOR",
+      "details": {
+        "Substance active": "NICORANDIL",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "138,60 DH",
+        "PH": "86,60 DH"
+      }
+    },
+    {
+      "source_record_id": "7252",
+      "brand_name": "ADENOL LP",
+      "details": {
+        "Substance active": "ALFUZOSINE (CHLORHYDRATE)",
+        "EPI": "SYNTHEMEDIC",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE",
+        "Présentation": "BOITE DE 10",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "53,40 DH",
+        "PH": "33,40 DH"
+      }
+    },
+    {
+      "source_record_id": "7253",
+      "brand_name": "ADENOL LP",
+      "details": {
+        "Substance active": "ALFUZOSINE (CHLORHYDRATE)",
+        "EPI": "SYNTHEMEDIC",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "137,90 DH",
+        "PH": "86,20 DH"
+      }
+    },
+    {
+      "source_record_id": "7473",
+      "brand_name": "ADENOSINE SP",
+      "details": {
+        "Substance active": "ADENOSINE",
+        "EPI": "AMANYS PHARMA",
+        "Dosage": "3   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 2 ML",
+        "Présentation": "BOITE DE 10",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "380,00 DH",
+        "PH": "253,00 DH"
+      }
+    },
+    {
+      "source_record_id": "7305",
+      "brand_name": "ADENURIC",
+      "details": {
+        "Substance active": "FEBUXOSTAT",
+        "EPI": "SOTHEMA",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "272,00 DH",
+        "PH": "170,60 DH"
+      }
+    },
+    {
+      "source_record_id": "7306",
+      "brand_name": "ADENURIC",
+      "details": {
+        "Substance active": "FEBUXOSTAT",
+        "EPI": "SOTHEMA",
+        "Dosage": "120   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 28",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "272,00 DH",
+        "PH": "170,60 DH"
+      }
+    },
+    {
+      "source_record_id": "2711",
+      "brand_name": "ADEPAL",
+      "details": {
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "EPI": "MAPHAR",
+        "Dosage": "0,15   MG  /  0,03   MG ET 0,20   MG  /  0,04   MG",
+        "Forme": "COMPRIME ENROBE",
+        "Présentation": "BOITE DE 21",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "13,00 DH",
+        "PH": "8,10 DH"
+      }
+    },
+    {
+      "source_record_id": "2712",
+      "brand_name": "ADEPAL",
+      "details": {
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "EPI": "MAPHAR",
+        "Dosage": "0,15   MG  /  0,03   MG ET 0,20   MG  /  0,04   MG",
+        "Forme": "COMPRIME ENROBE",
+        "Présentation": "BOITE DE 63",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "31,10 DH",
+        "PH": "19,40 DH"
+      }
+    },
+    {
+      "source_record_id": "5621",
+      "brand_name": "ADEX",
+      "details": {
+        "Substance active": "INDAPAMIDE",
+        "EPI": "SOTHEMA",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "38,00 DH",
+        "PH": "23,70 DH"
+      }
+    },
+    {
+      "source_record_id": "5548",
+      "brand_name": "ADEX LP",
+      "details": {
+        "Substance active": "INDAPAMIDE",
+        "EPI": "SOTHEMA",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "30,10 DH",
+        "PH": "18,80 DH"
+      }
+    },
+    {
+      "source_record_id": "9305",
+      "brand_name": "ADFENE",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "9306",
+      "brand_name": "ADFENE",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 77,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=77",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "366",
+      "brand_name": "CARDIOASPIRINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "27,70 DH",
+        "PH": "17,30 DH",
+        "PFHT": "16,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7338",
+      "brand_name": "CARDIOFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "23,60 DH",
+        "PH": "14,70 DH",
+        "PFHT": "14,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4635",
+      "brand_name": "CARDIOGREL POLYMEDIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "213,00 DH",
+        "PH": "133,50 DH",
+        "PFHT": "127,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7285",
+      "brand_name": "CARDIVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "116,40 DH",
+        "PH": "72,80 DH",
+        "PFHT": "69,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7286",
+      "brand_name": "CARDIVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "164,00 DH",
+        "PH": "102,50 DH",
+        "PFHT": "97,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4424",
+      "brand_name": "CARDIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "38,00 DH",
+        "PH": "23,70 DH",
+        "PFHT": "22,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4425",
+      "brand_name": "CARDIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "84,20 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4426",
+      "brand_name": "CARDIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4427",
+      "brand_name": "CARDIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "41,90 DH",
+        "PH": "26,20 DH",
+        "PFHT": "24,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3610",
+      "brand_name": "CARDURA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DOXAZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "95,80 DH",
+        "PH": "59,90 DH",
+        "PFHT": "57,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3611",
+      "brand_name": "CARDURA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DOXAZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "58,50 DH",
+        "PH": "36,60 DH",
+        "PFHT": "34,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3612",
+      "brand_name": "CARDURA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DOXAZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "64,20 DH",
+        "PH": "40,10 DH",
+        "PFHT": "38,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7872",
+      "brand_name": "CARIBAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "DOXYLAMINE SUCCINATE // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "VERSALYA",
+        "PPV": "233,00 DH",
+        "PH": "145,90 DH",
+        "PFHT": "139,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7726",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "262,00 DH",
+        "PH": "164,20 DH",
+        "PFHT": "156,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7727",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "441,00 DH",
+        "PH": "293,00 DH",
+        "PFHT": "279,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7728",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "335,00 DH",
+        "PH": "222,00 DH",
+        "PFHT": "212,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG  /  7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7729",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "589,00 DH",
+        "PH": "391,00 DH",
+        "PFHT": "373,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG  /  7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7730",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "159,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7731",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "451,00 DH",
+        "PH": "299,00 DH",
+        "PFHT": "285,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7732",
+      "brand_name": "CARIVALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL // IVABRADINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "337,00 DH",
+        "PH": "224,00 DH",
+        "PFHT": "213,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

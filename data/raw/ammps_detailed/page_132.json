@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 132,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=132",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1406",
+      "brand_name": "DIFAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "41,30 DH",
+        "PH": "25,80 DH",
+        "PFHT": "24,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1407",
+      "brand_name": "DIFAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 AMPOULES 3 ML",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "14,50 DH",
+        "PH": "9,10 DH",
+        "PFHT": "8,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1408",
+      "brand_name": "DIFAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES 3 ML",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "34,10 DH",
+        "PH": "21,30 DH",
+        "PFHT": "20,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8371",
+      "brand_name": "DIFAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 3 AMPOULES DE 3 ML",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5722",
+      "brand_name": "DIFFERINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ADAPALENE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "67,80 DH",
+        "PH": "42,40 DH",
+        "PFHT": "40,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5723",
+      "brand_name": "DIFFERINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ADAPALENE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "61,70 DH",
+        "PH": "38,60 DH",
+        "PFHT": "36,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "5724",
+      "brand_name": "DIFFU-K",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE POTASSIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "31,10 DH",
+        "PH": "19,40 DH",
+        "PFHT": "18,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3633",
+      "brand_name": "DIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "53,70 DH",
+        "PH": "33,60 DH",
+        "PFHT": "31,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3634",
+      "brand_name": "DIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "176,30 DH",
+        "PH": "110,20 DH",
+        "PFHT": "104,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3635",
+      "brand_name": "DIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "148,40 DH",
+        "PH": "92,70 DH",
+        "PFHT": "88,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8372",
+      "brand_name": "DIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "865",
+      "brand_name": "DIFRAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT ANTHOCYANOSIDIQUE DE MYRTILLE // BETA-CAROTENE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "8373",
+      "brand_name": "DIFRAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT ANTHOCYANOSIDIQUE DE VACCINIUM MYRTILLUS B CAROTENE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "866",
+      "brand_name": "DIFRAREL E",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT ANTHOCYANOSIDIQUE DE MYRTILLE // TOCOPHEROL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "33,00 DH",
+        "PH": "20,60 DH",
+        "PFHT": "19,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2159",
+      "brand_name": "DIGERVIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "FAMOTIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "24,20 DH",
+        "PH": "15,10 DH",
+        "PFHT": "14,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2160",
+      "brand_name": "DIGERVIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "FAMOTIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "42,60 DH",
+        "PH": "26,60 DH",
+        "PFHT": "25,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2161",
+      "brand_name": "DIGERVIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "FAMOTIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "44,40 DH",
+        "PH": "27,70 DH",
+        "PFHT": "26,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "867",
+      "brand_name": "DIGEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TRIMEBUTINE (MALEATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "868",
+      "brand_name": "DIGEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRIMEBUTINE (MALEATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4.8   MG  /   ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5725",
+      "brand_name": "DIGESTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

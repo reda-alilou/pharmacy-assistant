@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 233,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=233",
+  "fetched_at_utc": "2026-10-18T16:25:13.758068+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "144",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "108,70 DH",
+        "PH": "67,90 DH",
+        "PFHT": "64,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "145",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "146",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "84,00 DH",
+        "PH": "52,50 DH",
+        "PFHT": "50,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "147",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "150,00 DH",
+        "PH": "93,80 DH",
+        "PFHT": "89,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "148",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "47,00 DH",
+        "PH": "29,40 DH",
+        "PFHT": "28,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7265",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "12,70 DH",
+        "PH": "7,90 DH",
+        "PFHT": "7,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7266",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "25,40 DH",
+        "PH": "15,90 DH",
+        "PFHT": "15,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7267",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "44,70 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1237",
+      "brand_name": "ISALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "52,30 DH",
+        "PH": "32,70 DH",
+        "PFHT": "31,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1238",
+      "brand_name": "ISALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "104,70 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1239",
+      "brand_name": "ISALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "206,00 DH",
+        "PH": "129,10 DH",
+        "PFHT": "122,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1240",
+      "brand_name": "ISALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "383,00 DH",
+        "PH": "255,00 DH",
+        "PFHT": "242,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3231",
+      "brand_name": "ISENTRESS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "RALTEGRAVIR (POTASSIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "4.003.00 DH",
+        "PH": "3.709.00 DH",
+        "PFHT": "3.532.85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8529",
+      "brand_name": "ISENTRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "RALTEGRAVIR (POTASSIUM)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "8530",
+      "brand_name": "ISENTRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "RALTEGRAVIR (POTASSIUM)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "1450",
+      "brand_name": "ISO-BK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "160,10 DH",
+        "PH": "100,10 DH",
+        "PFHT": "95,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1451",
+      "brand_name": "ISO-BK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "281,00 DH",
+        "PH": "187,30 DH",
+        "PFHT": "178,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1452",
+      "brand_name": "ISOF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SOFOSBUVIR",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "3.000.00 DH",
+        "PH": "2.676.00 DH",
+        "PFHT": "2.549.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "945",
+      "brand_name": "ISOFLURANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "ISOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "675,00 DH",
+        "PH": "448,00 DH",
+        "PFHT": "427,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1",
+        "Forme": "LIQUIDE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "5794",
+      "brand_name": "ISOLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "57,10 DH",
+        "PH": "35,70 DH",
+        "PFHT": "33,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

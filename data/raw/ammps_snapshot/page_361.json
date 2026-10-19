@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 361,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=361",
+  "fetched_at_utc": "2026-10-18T16:29:30.397177+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7745",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "276,00 DH",
+        "PH": "173,10 DH",
+        "PFHT": "164,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7746",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "115,50 DH",
+        "PH": "72,20 DH",
+        "PFHT": "68,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7747",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "331,00 DH",
+        "PH": "220,00 DH",
+        "PFHT": "209,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7748",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "145,40 DH",
+        "PH": "90,80 DH",
+        "PFHT": "86,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  0,6  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7749",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "384,00 DH",
+        "PH": "255,00 DH",
+        "PFHT": "243,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  0,6  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7750",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "171,00 DH",
+        "PH": "106,90 DH",
+        "PFHT": "101,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7751",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "477,00 DH",
+        "PH": "317,00 DH",
+        "PFHT": "302,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7752",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "199,00 DH",
+        "PH": "124,40 DH",
+        "PFHT": "118,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7753",
+      "brand_name": "QUINUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "541,00 DH",
+        "PH": "359,00 DH",
+        "PFHT": "342,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "1038",
+      "brand_name": "R-AZM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "132,50 DH",
+        "PH": "82,80 DH",
+        "PFHT": "78,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µg  /  25 µg",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "1039",
+      "brand_name": "R-AZM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "174,50 DH",
+        "PH": "109,10 DH",
+        "PFHT": "103,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µg  /  25 µg",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "5400",
+      "brand_name": "R.O.R",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE, ATTENUE )",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "109,30 DH",
+        "PH": "68,30 DH",
+        "PFHT": "65,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 DOSE",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8733",
+      "brand_name": "RABIPUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS RABIQUE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN POUDRE ET SOLVANT POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9095",
+      "brand_name": "RABISHIELD - 100",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 2,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ANTICORPS MONOCLONAL HUMAIN ANTIRABIQUE (RADN)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /  2,5  ML (40 UI  /   ML )",
+        "Forme": "SOLUTION POUR INJECTION EN FLACON DE 2,5 ML"
+      }
+    },
+    {
+      "source_record_id": "9026",
+      "brand_name": "RABIVAX-S",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50 FLACONS DE LYOPHILISAT ET 50 AMPOULES DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "ANTIGENE RABIQUE PURIFIE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "2.645.00 DH",
+        "PH": "2.311.00 DH",
+        "PFHT": "2.201.55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5 UI  /   ML",
+        "Forme": "LYOPHILISAT EN FLACON ET SOLVANT EN AMPOULE DE 1ML POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9027",
+      "brand_name": "RABIVAX-S",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 FLACONS DE LYOPHILISAT ET 5 AMPOULES DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "ANTIGENE RABIQUE PURIFIE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "347,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5 UI  /   ML",
+        "Forme": "LYOPHILISAT EN FLACON ET SOLVANT EN AMPOULE DE 1ML POUR SUSPENSION PARENTERALE"
+      }
+    },
+    {
+      "source_record_id": "6231",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "76,70 DH",
+        "PH": "48,00 DH",
+        "PFHT": "45,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6232",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "135,10 DH",
+        "PH": "84,40 DH",
+        "PFHT": "80,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6233",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "43,00 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6234",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "114,80 DH",
+        "PH": "71,70 DH",
+        "PFHT": "68,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    }
+  ]
+}

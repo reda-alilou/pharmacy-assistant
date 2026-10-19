@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 224,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=224",
+  "fetched_at_utc": "2026-10-18T16:24:55.689714+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1692",
+      "brand_name": "INFERON ALPHA-2A",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "INTERFERON ALFA-2A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "764,00 DH",
+        "PH": "507,00 DH",
+        "PFHT": "483,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "9 MUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7526",
+      "brand_name": "INFLUVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ANTIGRIPPAL / ANTIGENE DE SURFACE / INACTIVE 5",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MAPHAR",
+        "PPV": "68,00 DH",
+        "PH": "42,50 DH",
+        "PFHT": "40,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0,5 ML"
+      }
+    },
+    {
+      "source_record_id": "7990",
+      "brand_name": "INFLUVAC TETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN SERINGUE PRE REMPLIE  DE 0.5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ANTIGENE DE SURFACE DU VIRUS DE LA GRIPPE TYPE A ET B INACTIVE (4 SOUCHES)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MAPHAR",
+        "PPV": "125,30 DH",
+        "PH": "78,30 DH",
+        "PFHT": "74,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "0.5  ML",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PREREMPLIE"
+      }
+    },
+    {
+      "source_record_id": "5071",
+      "brand_name": "INHIBACE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CILAZAPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "109,70 DH",
+        "PH": "68,60 DH",
+        "PFHT": "65,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5072",
+      "brand_name": "INHIBACE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CILAZAPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "179,90 DH",
+        "PH": "112,40 DH",
+        "PFHT": "107,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6906",
+      "brand_name": "INIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "167,10 DH",
+        "PH": "104,40 DH",
+        "PFHT": "99,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6907",
+      "brand_name": "INIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "116,80 DH",
+        "PH": "73,00 DH",
+        "PFHT": "69,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3135",
+      "brand_name": "INIKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "31,20 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3136",
+      "brand_name": "INIKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "75,90 DH",
+        "PH": "47,50 DH",
+        "PFHT": "45,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3137",
+      "brand_name": "INIKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "19,00 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3138",
+      "brand_name": "INIKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3139",
+      "brand_name": "INIKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "81,00 DH",
+        "PH": "50,60 DH",
+        "PFHT": "48,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2492",
+      "brand_name": "INILASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "118,30 DH",
+        "PH": "74,00 DH",
+        "PFHT": "70,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2493",
+      "brand_name": "INILASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "213,00 DH",
+        "PH": "133,50 DH",
+        "PFHT": "127,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6908",
+      "brand_name": "INIZOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "52,20 DH",
+        "PH": "32,50 DH",
+        "PFHT": "29,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6909",
+      "brand_name": "INIZOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "91,90 DH",
+        "PH": "57,20 DH",
+        "PFHT": "51,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6910",
+      "brand_name": "INIZOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "75,00 DH",
+        "PH": "46,70 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6911",
+      "brand_name": "INIZOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "132,00 DH",
+        "PH": "82,20 DH",
+        "PFHT": "73,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "3682",
+      "brand_name": "INLYTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AXITINIBUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "4.588.00 DH",
+        "PH": "4.311.00 DH",
+        "PFHT": "4.106.09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3683",
+      "brand_name": "INLYTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "AXITINIBUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "6.832.00 DH",
+        "PH": "6.621.00 DH",
+        "PFHT": "6.306.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

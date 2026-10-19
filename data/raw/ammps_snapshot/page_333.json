@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 333,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=333",
+  "fetched_at_utc": "2026-10-18T16:28:34.262088+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2619",
+      "brand_name": "PARANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "14,20 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "7167",
+      "brand_name": "PARANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "7,50 DH",
+        "PH": "4,70 DH",
+        "PFHT": "4,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GRANULE SOUS SACHET"
+      }
+    },
+    {
+      "source_record_id": "7168",
+      "brand_name": "PARANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "10,50 DH",
+        "PH": "6,50 DH",
+        "PFHT": "6,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GRANULE SOUS SACHET"
+      }
+    },
+    {
+      "source_record_id": "7169",
+      "brand_name": "PARANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "9,50 DH",
+        "PH": "5,90 DH",
+        "PFHT": "5,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2620",
+      "brand_name": "PARANTAL C 1000",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "18,30 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  1 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2621",
+      "brand_name": "PARASPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // ACIDE ACETYLSALICYLIQUE // CAFEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,20 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,135 G  /  0,265 G  /  0,040 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2622",
+      "brand_name": "PARASPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // ACIDE ACETYLSALICYLIQUE // CAFEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "28,90 DH",
+        "PH": "18,00 DH",
+        "PFHT": "17,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,135 G  /  0,265 G  /  0,040 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "6482",
+      "brand_name": "PARFENAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "BUFEXAMAC",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "18,20 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2623",
+      "brand_name": "PARGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 AMPOULES DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "ARGININE (ASPARTATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "104,70 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2624",
+      "brand_name": "PARLODEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "BROMOCRIPTINE (MESILATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "117,00 DH",
+        "PH": "73,10 DH",
+        "PFHT": "69,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,870   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4097",
+      "brand_name": "PARODAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "9,50 DH",
+        "PH": "5,90 DH",
+        "PFHT": "5,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4098",
+      "brand_name": "PARODAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "13,60 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8695",
+      "brand_name": "PAROXETINE DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLOROHYDRATE HEMIHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPEIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8696",
+      "brand_name": "PAROXETINE DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLOROHYDRATE HEMIHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPEIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8697",
+      "brand_name": "PAROXETINE DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLOROHYDRATE HEMIHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPEIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "313",
+      "brand_name": "PAROXETINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "82,20 DH",
+        "PH": "51,40 DH",
+        "PFHT": "48,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "314",
+      "brand_name": "PAROXETINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "43,30 DH",
+        "PH": "27,00 DH",
+        "PFHT": "25,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "315",
+      "brand_name": "PAROXETINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "117,80 DH",
+        "PH": "73,60 DH",
+        "PFHT": "70,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5381",
+      "brand_name": "PAROXETINE WIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "75,00 DH",
+        "PH": "46,70 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5382",
+      "brand_name": "PAROXETINE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "120,50 DH",
+        "PH": "75,30 DH",
+        "PFHT": "71,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

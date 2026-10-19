@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 229,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=229",
+  "fetched_at_utc": "2026-10-18T16:25:05.723068+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7875",
+      "brand_name": "IPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "71,20 DH",
+        "PH": "44,50 DH",
+        "PFHT": "42,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "7876",
+      "brand_name": "IPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "26,60 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "5792",
+      "brand_name": "IPROST LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ALFUZOSINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "52,30 DH",
+        "PH": "32,70 DH",
+        "PFHT": "31,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5793",
+      "brand_name": "IPROST LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ALFUZOSINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "137,80 DH",
+        "PH": "86,10 DH",
+        "PFHT": "82,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4705",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "55,20 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4706",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "102,80 DH",
+        "PH": "64,30 DH",
+        "PFHT": "61,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4707",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "30,90 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4708",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "101,00 DH",
+        "PH": "63,10 DH",
+        "PFHT": "60,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4709",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "196,30 DH",
+        "PH": "122,70 DH",
+        "PFHT": "116,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4710",
+      "brand_name": "IPSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "55,20 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "6214",
+      "brand_name": "IRBESAR SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "60,90 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6215",
+      "brand_name": "IRBESAR SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "108,70 DH",
+        "PH": "67,90 DH",
+        "PFHT": "64,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6216",
+      "brand_name": "IRBESAR SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "84,80 DH",
+        "PH": "53,00 DH",
+        "PFHT": "50,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6217",
+      "brand_name": "IRBESAR SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "150,80 DH",
+        "PH": "94,30 DH",
+        "PFHT": "89,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2866",
+      "brand_name": "IRBEWIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "60,90 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2867",
+      "brand_name": "IRBEWIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "108,70 DH",
+        "PH": "67,90 DH",
+        "PFHT": "64,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2868",
+      "brand_name": "IRBEWIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "105,00 DH",
+        "PH": "65,60 DH",
+        "PFHT": "62,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2869",
+      "brand_name": "IRBEWIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "190,00 DH",
+        "PH": "118,70 DH",
+        "PFHT": "113,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2870",
+      "brand_name": "IRESSA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "GEFITINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "9.355.00 DH",
+        "PH": "9.180.00 DH",
+        "PFHT": "15.356.57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4458",
+      "brand_name": "IRINOCYT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "1.313.00 DH",
+        "PH": "1.043.00 DH",
+        "PFHT": "993,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

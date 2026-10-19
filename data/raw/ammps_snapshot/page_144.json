@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 144,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=144",
+  "fetched_at_utc": "2026-10-18T16:22:15.327292+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6968",
+      "brand_name": "DOZICEPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "262,00 DH",
+        "PH": "163,80 DH",
+        "PFHT": "156,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "6969",
+      "brand_name": "DOZICEPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "421,00 DH",
+        "PH": "279,00 DH",
+        "PFHT": "266,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "582",
+      "brand_name": "DOZYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "438,00 DH",
+        "PH": "291,00 DH",
+        "PFHT": "277,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "583",
+      "brand_name": "DOZYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "265,00 DH",
+        "PH": "165,90 DH",
+        "PFHT": "157,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3639",
+      "brand_name": "DRAMAMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DIMENHYDRINATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "7,00 DH",
+        "PH": "4,40 DH",
+        "PFHT": "4,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "885",
+      "brand_name": "DRILL EXPECTORANT ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "25,50 DH",
+        "PH": "15,90 DH",
+        "PFHT": "15,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "886",
+      "brand_name": "DRILL EXPECTORANT ADULTE SS SUCRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "23,80 DH",
+        "PH": "14,90 DH",
+        "PFHT": "14,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "887",
+      "brand_name": "DRILL TOUX SECHE ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "DEXTROMETHORPHANE (BROMHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "888",
+      "brand_name": "DRILL TOUX SECHE ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "DEXTROMETHORPHANE (BROMHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6947",
+      "brand_name": "DRO-SPA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "DROTAVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "25,40 DH",
+        "PH": "15,90 DH",
+        "PFHT": "15,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6995",
+      "brand_name": "DRO-SPA FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "DROTAVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "35,70 DH",
+        "PH": "22,30 DH",
+        "PFHT": "21,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7514",
+      "brand_name": "DROPERIDOL AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DROPERIDOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "497,00 DH",
+        "PH": "330,00 DH",
+        "PFHT": "315,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE (IV) EN AMPOULE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "6946",
+      "brand_name": "DROPIRAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28 (24 COMPRIMES ACTIFS + 4 COMPRIMES PLACEBOS)",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "86,10 DH",
+        "PH": "53,80 DH",
+        "PFHT": "51,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,02   MG  /  3   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4443",
+      "brand_name": "DUAC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE // CLINDAMYCINE PHOSPHATE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "184,10 DH",
+        "PH": "115,10 DH",
+        "PFHT": "109,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,67%  /  1,28%",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "8005",
+      "brand_name": "DUALKOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN-Hybride",
+        "Substance active": "DORZOLAMIDE // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "117,80 DH",
+        "PH": "73,60 DH",
+        "PFHT": "70,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "8508",
+      "brand_name": "DUALKOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN-Hybride",
+        "Substance active": "DORZOLAMIDE // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "200,00 DH",
+        "PH": "125,20 DH",
+        "PFHT": "119,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION, FLACON MULTIDOSE DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "5026",
+      "brand_name": "DULASTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // THIOCOLCHICOSIDE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "9436",
+      "brand_name": "DULLARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "45.058.00 DH",
+        "PH": "44.182.00 DH",
+        "PFHT": "43.782.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140  MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "4444",
+      "brand_name": "DULOPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DULOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "100,00 DH",
+        "PH": "62,50 DH",
+        "PFHT": "59,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRORESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4445",
+      "brand_name": "DULOPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DULOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "149,50 DH",
+        "PH": "93,40 DH",
+        "PFHT": "89,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE GASTRORESISTANTE"
+      }
+    }
+  ]
+}

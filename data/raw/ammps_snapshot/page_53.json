@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 53,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=53",
+  "fetched_at_utc": "2026-10-18T16:19:12.889724+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8234",
+      "brand_name": "BACLOFENE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "BACLOFENE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8235",
+      "brand_name": "BACLOFENE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 AMPOULE DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "BACLOFENE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR VOIE INTRATHECALE"
+      }
+    },
+    {
+      "source_record_id": "8236",
+      "brand_name": "BACLOFENE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "BACLOFENE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR VOIE INTRATHECALE"
+      }
+    },
+    {
+      "source_record_id": "6172",
+      "brand_name": "BACQURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "116,00 DH",
+        "PH": "72,50 DH",
+        "PFHT": "69,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  500   MG",
+        "Forme": "POUDRE POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "3463",
+      "brand_name": "BACTALL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "31,80 DH",
+        "PH": "19,90 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3464",
+      "brand_name": "BACTALL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "57,90 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5055",
+      "brand_name": "BACTRIM FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "31,40 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG  /  160   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5056",
+      "brand_name": "BACTRIM FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "58,70 DH",
+        "PH": "36,70 DH",
+        "PFHT": "34,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG  /  160   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5057",
+      "brand_name": "BACTRIM NOURRISSONS ET ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "26,30 DH",
+        "PH": "16,50 DH",
+        "PFHT": "15,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  40   MG DANS 5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1810",
+      "brand_name": "BACTROBAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "MUPIROCINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "55,80 DH",
+        "PH": "34,90 DH",
+        "PFHT": "33,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "5667",
+      "brand_name": "BACTROCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 10ML + UN FLACON DE 10ML DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "COLISTIMETHATE SODIQUE // BACITRACINE // HYDROCORTISONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "22,90 DH",
+        "PH": "14,30 DH",
+        "PFHT": "13,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 MUI  /  50000 UI  /  1 G",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3884",
+      "brand_name": "BAITANET D",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "275,00 DH",
+        "PH": "182,90 DH",
+        "PFHT": "174,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "SOLUTION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3885",
+      "brand_name": "BAITANET D",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "14,10 DH",
+        "PH": "8,80 DH",
+        "PFHT": "8,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "SOLUTION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3886",
+      "brand_name": "BAITANET D",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 550 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "38,30 DH",
+        "PH": "23,90 DH",
+        "PFHT": "22,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "SOLUTION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3887",
+      "brand_name": "BAITANET G",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMA 5",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "SOLUTION GYNECOLOGIQUE"
+      }
+    },
+    {
+      "source_record_id": "3888",
+      "brand_name": "BAITANET G",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 550 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMA 5",
+        "PPV": "38,30 DH",
+        "PH": "23,90 DH",
+        "PFHT": "22,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "SOLUTION GYNECOLOGIQUE"
+      }
+    },
+    {
+      "source_record_id": "3889",
+      "brand_name": "BAITANET SCRUB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "15,10 DH",
+        "PH": "9,40 DH",
+        "PFHT": "9,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION MOUSSANTE POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "3890",
+      "brand_name": "BAITANET SCRUB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "36,50 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION MOUSSANTE POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "2720",
+      "brand_name": "BARACLUDE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ENTECAVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "5.266.00 DH",
+        "PH": "5.009.00 DH",
+        "PFHT": "4.770.96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2721",
+      "brand_name": "BARACLUDE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ENTECAVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "5.357.00 DH",
+        "PH": "5.102.00 DH",
+        "PFHT": "4.859.81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

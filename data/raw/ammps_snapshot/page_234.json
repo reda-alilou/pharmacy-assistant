@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 234,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=234",
+  "fetched_at_utc": "2026-10-18T16:25:15.768989+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5795",
+      "brand_name": "ISOLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "5796",
+      "brand_name": "ISOLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "22,00 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5797",
+      "brand_name": "ISOLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "5798",
+      "brand_name": "ISOLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "85,80 DH",
+        "PH": "53,60 DH",
+        "PFHT": "51,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5799",
+      "brand_name": "ISONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "12,30 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5800",
+      "brand_name": "ISONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "45,80 DH",
+        "PH": "28,60 DH",
+        "PFHT": "27,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5801",
+      "brand_name": "ISONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "19,00 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5802",
+      "brand_name": "ISONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "85,80 DH",
+        "PH": "53,60 DH",
+        "PFHT": "51,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1453",
+      "brand_name": "ISONIAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "27,70 DH",
+        "PH": "17,30 DH",
+        "PFHT": "16,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1454",
+      "brand_name": "ISONIAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2871",
+      "brand_name": "ISOPRINOSINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "INOSINE ACEDOBENE DIMEPRANOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "76,30 DH",
+        "PH": "47,60 DH",
+        "PFHT": "42,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2872",
+      "brand_name": "ISOPRINOSINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "INOSINE ACEDOBENE DIMEPRANOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "171,10 DH",
+        "PH": "106,60 DH",
+        "PFHT": "95,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2873",
+      "brand_name": "ISOPTINE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "54,00 DH",
+        "PH": "33,70 DH",
+        "PFHT": "32,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2874",
+      "brand_name": "ISOPTINE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "136,00 DH",
+        "PH": "85,00 DH",
+        "PFHT": "80,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4478",
+      "brand_name": "ISOTREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "78,80 DH",
+        "PH": "49,20 DH",
+        "PFHT": "46,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "GEL POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "1241",
+      "brand_name": "ISOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CELECOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "76,60 DH",
+        "PH": "47,90 DH",
+        "PFHT": "45,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1242",
+      "brand_name": "ISOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CELECOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "76,60 DH",
+        "PH": "47,90 DH",
+        "PFHT": "45,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1243",
+      "brand_name": "ISOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CELECOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "134,90 DH",
+        "PH": "84,30 DH",
+        "PFHT": "80,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "946",
+      "brand_name": "ISPERID COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "76,50 DH",
+        "PH": "47,80 DH",
+        "PFHT": "45,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "947",
+      "brand_name": "ISPERID COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "134,70 DH",
+        "PH": "84,20 DH",
+        "PFHT": "80,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

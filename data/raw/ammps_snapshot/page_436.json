@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 436,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=436",
+  "fetched_at_utc": "2026-10-18T16:32:00.658867+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1098",
+      "brand_name": "TIMABAK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "77,70 DH",
+        "PH": "48,50 DH",
+        "PFHT": "46,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "1099",
+      "brand_name": "TIMABAK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "80,50 DH",
+        "PH": "50,30 DH",
+        "PFHT": "47,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "1762",
+      "brand_name": "TIMEZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "82,10 DH",
+        "PH": "51,30 DH",
+        "PFHT": "48,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "8893",
+      "brand_name": "TIMEZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "LYOPHYLISAT"
+      }
+    },
+    {
+      "source_record_id": "8894",
+      "brand_name": "TIMEZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "LYOPHYLISAT"
+      }
+    },
+    {
+      "source_record_id": "6144",
+      "brand_name": "TIMO-COMOD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "96,30 DH",
+        "PH": "60,20 DH",
+        "PFHT": "57,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6145",
+      "brand_name": "TIMO-COMOD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "93,40 DH",
+        "PH": "58,40 DH",
+        "PFHT": "55,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6146",
+      "brand_name": "TIMOLOL-POS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "50,50 DH",
+        "PH": "31,50 DH",
+        "PFHT": "30,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6147",
+      "brand_name": "TIMOLOL-POS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "51,40 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3278",
+      "brand_name": "TIMOPTOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MSD",
+        "PPV": "47,60 DH",
+        "PH": "29,70 DH",
+        "PFHT": "28,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3279",
+      "brand_name": "TIMOPTOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "51,20 DH",
+        "PH": "32,00 DH",
+        "PFHT": "30,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3280",
+      "brand_name": "TIMOPTOL LP COLLYRE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D’UN FLACON DE 2,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "92,30 DH",
+        "PH": "57,70 DH",
+        "PFHT": "54,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "1551",
+      "brand_name": "TINIZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "TINIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1552",
+      "brand_name": "TINIZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "TINIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "19,10 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7290",
+      "brand_name": "TIOLASTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "THIOCOLCHICOSIDE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "39,30 DH",
+        "PH": "24,60 DH",
+        "PFHT": "23,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6967",
+      "brand_name": "TIORFAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "RACECADOTRIL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "99,60 DH",
+        "PH": "62,20 DH",
+        "PFHT": "59,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3059",
+      "brand_name": "TIORFAN ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "RACECADOTRIL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "82,30 DH",
+        "PH": "51,40 DH",
+        "PFHT": "48,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "POUDRE ORALE"
+      }
+    },
+    {
+      "source_record_id": "3060",
+      "brand_name": "TIORFAN NOURRISSONS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "RACECADOTRIL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "104,70 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "POUDRE ORALE"
+      }
+    },
+    {
+      "source_record_id": "7517",
+      "brand_name": "TIOVA ROTACAPS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "TIOTROPIUM (BROMURE MONOHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "151,20 DH",
+        "PH": "94,50 DH",
+        "PFHT": "90,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18 µG",
+        "Forme": "POUDE POUR INHALATION EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "9196",
+      "brand_name": "TIOVA ROTACAPS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 PILULIER DE 30 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TIOTROPIUM (BROMURE MONOHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "266,00 DH",
+        "PH": "166,30 DH",
+        "PFHT": "158,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18 µG",
+        "Forme": "POUDRE POUR INHALATION EN GELULE"
+      }
+    }
+  ]
+}

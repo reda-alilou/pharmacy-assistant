@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 210,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=210",
+  "fetched_at_utc": "2026-10-18T16:24:27.619771+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2844",
+      "brand_name": "HEPT-A-MYL 30,5%",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "HEPTAMINOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "27,20 DH",
+        "PH": "17,00 DH",
+        "PFHT": "15,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30,5 G",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2843",
+      "brand_name": "HEPT-AMYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "HEPTAMINOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "21,10 DH",
+        "PH": "13,20 DH",
+        "PFHT": "11,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "187,8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5069",
+      "brand_name": "HERCEPTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "10.533.00 DH",
+        "PH": "10.335.00 DH",
+        "PFHT": "9.935.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5070",
+      "brand_name": "HERCEPTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "4.261.00 DH",
+        "PH": "3.975.00 DH",
+        "PFHT": "3.786.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "LYOPHILISAT POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "2167",
+      "brand_name": "HERPEVIR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "IBERMA",
+        "PPV": "40,00 DH",
+        "PH": "24,90 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2168",
+      "brand_name": "HERPEVIR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 2 G",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "IBERMA",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2169",
+      "brand_name": "HERPEVIR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "IBERMA",
+        "PPV": "171,00 DH",
+        "PH": "106,50 DH",
+        "PFHT": "95,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2170",
+      "brand_name": "HERPEVIR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 35",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "NA",
+        "EPI": "IBERMA",
+        "PPV": "736,00 DH",
+        "PH": "487,00 DH",
+        "PFHT": "435,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3299",
+      "brand_name": "HERTRAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE 1 FLACON DE POUDRE + 1 FLACON DE DE SOLVANT 10ML",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "3.317.00 DH",
+        "PH": "3.003.00 DH",
+        "PFHT": "2.860.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION A DILUER"
+      }
+    },
+    {
+      "source_record_id": "3300",
+      "brand_name": "HERTRAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE 1 FLACON DE POUDRE + 2 FLACONS DE DE SOLVANT 10 ML",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "8.917.00 DH",
+        "PH": "8.750.00 DH",
+        "PFHT": "8.350.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "440   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION A DILUER"
+      }
+    },
+    {
+      "source_record_id": "7356",
+      "brand_name": "HERZUMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.791.00 DH",
+        "PH": "1.535.00 DH",
+        "PFHT": "1.462.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7357",
+      "brand_name": "HERZUMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE DE 50 ML ET 1 FLACON DE SOLVANT DE 20 ML",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "8.917.00 DH",
+        "PH": "8.750.00 DH",
+        "PFHT": "8.350.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "440   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7634",
+      "brand_name": "HEVAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EFAVIRENZ",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "275,00 DH",
+        "PH": "183,00 DH",
+        "PFHT": "174,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2845",
+      "brand_name": "HEXABRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IOXAGLIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "481,00 DH",
+        "PH": "319,00 DH",
+        "PFHT": "304,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2846",
+      "brand_name": "HEXABRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IOXAGLIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "74,90 DH",
+        "PH": "46,80 DH",
+        "PFHT": "44,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2847",
+      "brand_name": "HEXABRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 200ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IOXAGLIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "861,00 DH",
+        "PH": "572,00 DH",
+        "PFHT": "545,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2848",
+      "brand_name": "HEXABRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IOXAGLIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "118,90 DH",
+        "PH": "74,30 DH",
+        "PFHT": "70,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2849",
+      "brand_name": "HEXABRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IOXAGLIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "259,00 DH",
+        "PH": "162,40 DH",
+        "PFHT": "154,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4014",
+      "brand_name": "HEXAMIDINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 45 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEXAMIDINE (DI-ISETHIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,60 DH",
+        "PH": "7,90 DH",
+        "PFHT": "7,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "1438",
+      "brand_name": "HEXAPNEUMINE",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // EUCALYPTOL // PARACETAMOL // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "28,20 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    }
+  ]
+}

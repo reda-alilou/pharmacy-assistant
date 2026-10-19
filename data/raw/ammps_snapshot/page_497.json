@@ -1,0 +1,330 @@
+{
+  "source": "AMMPS",
+  "source_page": 497,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=497",
+  "fetched_at_utc": "2026-10-18T16:34:02.887609+00:00",
+  "advertised_total": 9936,
+  "record_count": 16,
+  "records": [
+    {
+      "source_record_id": "8997",
+      "brand_name": "ZYPREXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2698",
+      "brand_name": "ZYRDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "15,90 DH",
+        "PH": "9,90 DH",
+        "PFHT": "9,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2699",
+      "brand_name": "ZYRDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2700",
+      "brand_name": "ZYRDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "27,10 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2701",
+      "brand_name": "ZYRDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2702",
+      "brand_name": "ZYRDOL-GYN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "6040",
+      "brand_name": "ZYRTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "25,60 DH",
+        "PH": "16,00 DH",
+        "PFHT": "15,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6041",
+      "brand_name": "ZYRTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "46,40 DH",
+        "PH": "29,00 DH",
+        "PFHT": "27,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6042",
+      "brand_name": "ZYRTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "59,10 DH",
+        "PH": "36,90 DH",
+        "PFHT": "35,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3102",
+      "brand_name": "ZYTIGA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 120",
+        "PP / GN": "PP",
+        "Substance active": "ABIRATERONE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "11.451.00 DH",
+        "PH": "11.235.00 DH",
+        "PFHT": "10.835.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7487",
+      "brand_name": "ZYTIGA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "SOUS PLAQUETTES THERMOFORMEES BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "ABIRATERONE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "10.688.00 DH",
+        "PH": "10.487.00 DH",
+        "PFHT": "10.087.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7129",
+      "brand_name": "ZYVANOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "206,00 DH",
+        "PH": "129,10 DH",
+        "PFHT": "122,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7136",
+      "brand_name": "ZYVANOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "106,90 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7179",
+      "brand_name": "ZYVANOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3805",
+      "brand_name": "ZYVOXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 POCHES DE 300 ML",
+        "PP / GN": "PP",
+        "Substance active": "LINEZOLIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "3.759.00 DH",
+        "PH": "3.458.00 DH",
+        "PFHT": "3.293.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3806",
+      "brand_name": "ZYVOXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "LINEZOLIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "3.778.00 DH",
+        "PH": "3.478.00 DH",
+        "PFHT": "3.312.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-10-19T14:25:11.880140+00:00",
+  "mode": "bounded_live_provider_diagnostic",
+  "diagnostics": [
+    {
+      "status_code": 400,
+      "provider_error_code": "json_validate_failed",
+      "failed_generation_provided": true,
+      "generation_characters": 24,
+      "json_parses": false,
+      "parse_error": "Expecting property name enclosed in double quotes",
+      "parse_position": 1
+    },
+    {
+      "status_code": 400,
+      "provider_error_code": "json_validate_failed",
+      "failed_generation_provided": true,
+      "generation_characters": 7,
+      "json_parses": false,
+      "parse_error": "Expecting property name enclosed in double quotes",
+      "parse_position": 1
+    }
+  ],
+  "held_out_execution": "not_run",
+  "status": "stopped_error",
+  "error_code": "provider_generation_failed",
+  "budget": {
+    "max_requests": 2,
+    "attempts_reserved": 2,
+    "total_attempts_reserved": 2
+  }
+}

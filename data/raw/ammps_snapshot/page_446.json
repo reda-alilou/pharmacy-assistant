@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 446,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=446",
+  "fetched_at_utc": "2026-10-18T16:32:20.777715+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "226",
+      "brand_name": "TRINOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 MG / 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "62,80 DH",
+        "PH": "39,30 DH",
+        "PFHT": "37,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "227",
+      "brand_name": "TRINOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 50 MG / 25 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "72,90 DH",
+        "PH": "45,50 DH",
+        "PFHT": "43,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "228",
+      "brand_name": "TRINOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 MG / 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "250,00 DH",
+        "PH": "156,60 DH",
+        "PFHT": "149,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "229",
+      "brand_name": "TRINOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 400 MG / 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "425,00 DH",
+        "PH": "282,00 DH",
+        "PFHT": "269,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3759",
+      "brand_name": "TRINORDIOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "25,50 DH",
+        "PH": "15,90 DH",
+        "PFHT": "15,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05   MG  /  0,03   MG - 0,075   MG  /  0,04   MG - 0,125   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1121",
+      "brand_name": "TRIOMUNE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "STAVUDINE // LAMIVUDINE // NEVIRAPINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "75,60 DH",
+        "PH": "47,20 DH",
+        "PFHT": "45,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  150   MG  /  200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1122",
+      "brand_name": "TRIOMUNE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "STAVUDINE // LAMIVUDINE // NEVIRAPINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "98,30 DH",
+        "PH": "61,40 DH",
+        "PFHT": "58,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  150   MG  /  200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7244",
+      "brand_name": "TRIPLIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PERINDOPRIL (ARGININE) // INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "164,70 DH",
+        "PH": "102,90 DH",
+        "PFHT": "98,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2,5   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7245",
+      "brand_name": "TRIPLIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PERINDOPRIL (ARGININE) // INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "184,00 DH",
+        "PH": "115,00 DH",
+        "PFHT": "109,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2,5   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8912",
+      "brand_name": "TRIPLIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PERINDOPRIL (ARGININE) // INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  1,25   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8913",
+      "brand_name": "TRIPLIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PERINDOPRIL (ARGININE) // INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  1,25   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8914",
+      "brand_name": "TRIPLIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PERINDOPRIL (ARGININE) // INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  2,5   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9033",
+      "brand_name": "TRIPVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 24 FLACONS DE 5 ML (10 DOSES).",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5  ML",
+        "Forme": "SUSPENSION POUR INJECTION INTRAMUSCULAIRE EN FLACON DE 5 ML (10 DOSES)"
+      }
+    },
+    {
+      "source_record_id": "9317",
+      "brand_name": "TRIRHUM ADULTES SANS SUCRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // PHENIRAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG / 200  MG / 25  MG",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHETS"
+      }
+    },
+    {
+      "source_record_id": "9318",
+      "brand_name": "TRIRHUM ENFANTS SANS SUCRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // PHENIRAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "17,70 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "280  MG / 100  MG / 10  MG",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHETS"
+      }
+    },
+    {
+      "source_record_id": "2666",
+      "brand_name": "TRISEQUENS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ESTRADIOL // NORETHISTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "87,50 DH",
+        "PH": "54,70 DH",
+        "PFHT": "52,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME PELLICULE SOUS DISTRIBUTEUR JOURNALIER"
+      }
+    },
+    {
+      "source_record_id": "1123",
+      "brand_name": "TRISIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME // BROMHEXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "28,10 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1124",
+      "brand_name": "TRISIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "PP",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME // BROMHEXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1553",
+      "brand_name": "TRISULFA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "19,10 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4  /  0,8 G",
+        "Forme": "SUSPENSION"
+      }
+    },
+    {
+      "source_record_id": "1554",
+      "brand_name": "TRISULFA ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  80   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

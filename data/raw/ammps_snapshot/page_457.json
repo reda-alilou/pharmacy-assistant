@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 457,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=457",
+  "fetched_at_utc": "2026-10-18T16:32:43.136916+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7979",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "164,60 DH",
+        "PH": "102,90 DH",
+        "PFHT": "98,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG  /  160   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7991",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "164,60 DH",
+        "PH": "102,90 DH",
+        "PFHT": "98,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  160   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7992",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "135,00 DH",
+        "PH": "84,40 DH",
+        "PFHT": "80,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  80   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9793",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9794",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9795",
+      "brand_name": "VALMEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4231",
+      "brand_name": "VALPAKINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "FLACON DE 40ML",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "41,30 DH",
+        "PH": "25,80 DH",
+        "PFHT": "24,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4232",
+      "brand_name": "VALPAKINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5,764 G  /  100  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4576",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "78,00 DH",
+        "PH": "48,80 DH",
+        "PFHT": "46,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4577",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4578",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "39,00 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4579",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "70,00 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4580",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "56,00 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4581",
+      "brand_name": "VALPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "100,00 DH",
+        "PH": "62,50 DH",
+        "PFHT": "59,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4582",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "72,00 DH",
+        "PH": "45,00 DH",
+        "PFHT": "42,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4583",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "130,00 DH",
+        "PH": "81,30 DH",
+        "PFHT": "77,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4584",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "75,00 DH",
+        "PH": "46,90 DH",
+        "PFHT": "44,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4585",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "133,00 DH",
+        "PH": "83,10 DH",
+        "PFHT": "79,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4586",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "53,00 DH",
+        "PH": "33,10 DH",
+        "PFHT": "31,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4587",
+      "brand_name": "VALPHI PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "95,00 DH",
+        "PH": "59,40 DH",
+        "PFHT": "56,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

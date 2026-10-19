@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 460,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=460",
+  "fetched_at_utc": "2026-10-18T16:32:48.743648+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8941",
+      "brand_name": "VARIVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA VARICELLE (VIVANT ET ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75  ML",
+        "Forme": "POUDRE EN FLAÇON ET SOLUANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8942",
+      "brand_name": "VARIVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE  DE 10 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA VARICELLE (VIVANT ET ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75  ML",
+        "Forme": "POUDRE EN FLAÇON ET SOLUANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3281",
+      "brand_name": "VARIVAX VACCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS VIVANTS ATTENUES DE LA VARICELLE SOUCHE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "2.756.00 DH",
+        "PH": "2.425.00 DH",
+        "PFHT": "2.310.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3282",
+      "brand_name": "VARIVAX VACCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS VIVANTS ATTENUES DE LA VARICELLE SOUCHE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "364,00 DH",
+        "PH": "242,00 DH",
+        "PFHT": "231,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5594",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "85,70 DH",
+        "PH": "53,50 DH",
+        "PFHT": "50,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5595",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "153,00 DH",
+        "PH": "95,60 DH",
+        "PFHT": "91,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5596",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "44,80 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5597",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "78,80 DH",
+        "PH": "49,30 DH",
+        "PFHT": "46,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5598",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "74,70 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5599",
+      "brand_name": "VARTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "131,50 DH",
+        "PH": "82,20 DH",
+        "PFHT": "78,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1134",
+      "brand_name": "VASCOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "67,30 DH",
+        "PH": "42,10 DH",
+        "PFHT": "40,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "1135",
+      "brand_name": "VASCOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "58,90 DH",
+        "PH": "36,80 DH",
+        "PFHT": "35,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1136",
+      "brand_name": "VASCOR LM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "49,80 DH",
+        "PH": "31,10 DH",
+        "PFHT": "29,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "1137",
+      "brand_name": "VASCOR LM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "87,70 DH",
+        "PH": "54,80 DH",
+        "PFHT": "52,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "1138",
+      "brand_name": "VASCOR LM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "128,50 DH",
+        "PH": "80,30 DH",
+        "PFHT": "76,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "5531",
+      "brand_name": "VASTAREL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "103,20 DH",
+        "PH": "64,50 DH",
+        "PFHT": "61,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5532",
+      "brand_name": "VASTAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "137,20 DH",
+        "PH": "85,80 DH",
+        "PFHT": "81,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7627",
+      "brand_name": "VASTAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "112,50 DH",
+        "PH": "70,30 DH",
+        "PFHT": "66,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2286",
+      "brand_name": "VASURIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "49,50 DH",
+        "PH": "30,90 DH",
+        "PFHT": "29,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2287",
+      "brand_name": "VASURIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "83,00 DH",
+        "PH": "51,90 DH",
+        "PFHT": "49,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    }
+  ]
+}

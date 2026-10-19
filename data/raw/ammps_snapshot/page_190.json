@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 190,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=190",
+  "fetched_at_utc": "2026-10-18T16:23:47.531316+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "117",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "106,90 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "118",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "191,60 DH",
+        "PH": "119,70 DH",
+        "PFHT": "114,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "906",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "21,70 DH",
+        "PH": "13,60 DH",
+        "PFHT": "12,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3217",
+      "brand_name": "GARDASIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 6 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 11 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 16 // PROTEINE L1 DU HPV18 // // // // // // // // // // // // // // // // //",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "5.203.00 DH",
+        "PH": "4.945.00 DH",
+        "PFHT": "4.709.69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µG  /  40 µG  /  40 µG  /  20 µG",
+        "Forme": "SUSPENSION INJECTABLE DE VACCIN"
+      }
+    },
+    {
+      "source_record_id": "3218",
+      "brand_name": "GARDASIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "SERINGUE PREREMPLIE DE 1 DOSE",
+        "PP / GN": "PP",
+        "Substance active": "PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 6 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 11 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 16 // PROTEINE L1 DU HPV18 // // // // // // // // // // // // // // // // //",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "744,00 DH",
+        "PH": "494,00 DH",
+        "PFHT": "470,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µG  /  40 µG  /  40 µG  /  20 µG",
+        "Forme": "SUSPENSION INJECTABLE DE VACCIN"
+      }
+    },
+    {
+      "source_record_id": "8478",
+      "brand_name": "GARDASIL 9",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 SERINGUE DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 6 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 11 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 16 // PROTEINE L1 DU HPV18 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 31 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 33 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 45 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 52 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 58 // // // // // // // // // // // //",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  40 µG  /  60 µG  /  40 µG  /  20 µG  /  20 µG  /  20 µG  /  20 µG  /  20 µG",
+        "Forme": "SUSPENSION INJECTABLE PAR VOIE IM EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "8479",
+      "brand_name": "GARDASIL 9",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 SERINGUES DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 6 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 11 // PROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 16 // PROTEINE L1 DU HPV18 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 31 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 33 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 45 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 52 // ROTEINE L1 RECOMBINANTE ADSORBEE DU VIRUS HUMAIN PAPILLOMAVIRUS TYPE 58 // // // // // // // // // // // //",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  40 µG  /  60 µG  /  40 µG  /  20 µG  /  20 µG  /  20 µG  /  20 µG  /  20 µG",
+        "Forme": "SUSPENSION INJECTABLE PAR VOIE IM EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "5303",
+      "brand_name": "GARDENAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 80",
+        "PP / GN": "PP",
+        "Substance active": "PHENOBARBITAL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5304",
+      "brand_name": "GARDENAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "PHENOBARBITAL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "77,30 DH",
+        "PH": "48,30 DH",
+        "PFHT": "46,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5305",
+      "brand_name": "GARDENAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PHENOBARBITAL",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "11,30 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "592",
+      "brand_name": "GASTROCYNESINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1433",
+      "brand_name": "GASTROGEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "ALUMINIUM (HYDROXYDE) // MAGNESIUM (HYDROXYDE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "14,30 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1434",
+      "brand_name": "GASTROGEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "ALUMINIUM (HYDROXYDE) // MAGNESIUM (HYDROXYDE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "19,10 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,490 G  /  3,990 G",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "388",
+      "brand_name": "GASTROGRAFINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMIDOTRIZOATE (MEGLUMINE) // AMIDOTRIZOATE (SODIUM)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "BAYER",
+        "PPV": "140,80 DH",
+        "PH": "88,00 DH",
+        "PFHT": "83,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE OU RECTALE"
+      }
+    },
+    {
+      "source_record_id": "119",
+      "brand_name": "GASTROLIBER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "135,50 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "282",
+      "brand_name": "GASTROLIBER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8480",
+      "brand_name": "GASTROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "MICROGRANULE GASTRO-RESISTANT EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "8481",
+      "brand_name": "GASTROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16   MG",
+        "Forme": "MICROGRANULE GASTRO-RESISTANT EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "8482",
+      "brand_name": "GASTROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "MICROGRANULE GASTRO-RESISTANT EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "8483",
+      "brand_name": "GASTROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "MICROGRANULE GASTRO-RESISTANT EN GELULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 147,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=147",
+  "fetched_at_utc": "2026-10-18T16:22:21.355722+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2412",
+      "brand_name": "EAU POUR PREPARATIONS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50 AMPOULE DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "EAU POUR PREPARATIONS INJECTABLES",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "34,10 DH",
+        "PH": "21,30 DH",
+        "PFHT": "20,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4659",
+      "brand_name": "EBETAXEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 16,7 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.115.00 DH",
+        "PH": "839,00 DH",
+        "PFHT": "799,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  16,7  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4660",
+      "brand_name": "EBETAXEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 25 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "2.317.00 DH",
+        "PH": "1.973.00 DH",
+        "PFHT": "1.879.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  25  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4661",
+      "brand_name": "EBETAXEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "590,00 DH",
+        "PH": "392,00 DH",
+        "PFHT": "373,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4662",
+      "brand_name": "EBETAXEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON 50ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "2.069.00 DH",
+        "PH": "1.821.00 DH",
+        "PFHT": "1.735.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  50  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2796",
+      "brand_name": "EBIXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "215,00 DH",
+        "PH": "135,00 DH",
+        "PFHT": "128,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2797",
+      "brand_name": "EBIXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "347,00 DH",
+        "PH": "230,00 DH",
+        "PFHT": "219,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7859",
+      "brand_name": "ECALTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "ANIDULAFUNGINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.845.00 DH",
+        "PH": "1.590.00 DH",
+        "PFHT": "1.514.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9339",
+      "brand_name": "ECINQ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "ULIPRISTAL (ACETATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "96,90 DH",
+        "PH": "60,60 DH",
+        "PFHT": "57,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2798",
+      "brand_name": "ECLARAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 45 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "29,40 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "GEL POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "2799",
+      "brand_name": "ECLARAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 45 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "29,40 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G",
+        "Forme": "GEL POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "4889",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12 SACHETS-DOSE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "82,20 DH",
+        "PH": "51,40 DH",
+        "PFHT": "48,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4890",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16 SACHETS-DOSE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "108,40 DH",
+        "PH": "67,70 DH",
+        "PFHT": "64,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4891",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12 SACHETS-DOSE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4892",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16 SACHETS-DOSE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "72,70 DH",
+        "PH": "45,50 DH",
+        "PFHT": "43,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7283",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE (TRIHYDRATEE) // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "95,30 DH",
+        "PH": "59,50 DH",
+        "PFHT": "56,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE"
+      }
+    },
+    {
+      "source_record_id": "7284",
+      "brand_name": "ECOCLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE (TRIHYDRATEE) // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "144,60 DH",
+        "PH": "90,40 DH",
+        "PFHT": "86,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE"
+      }
+    },
+    {
+      "source_record_id": "4790",
+      "brand_name": "ECOCLAV ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE (TRIHYDRATEE) // CLAVALANATE (POTASSIUM)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "58,90 DH",
+        "PH": "36,80 DH",
+        "PFHT": "35,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4791",
+      "brand_name": "ECOCLAV NOURRISSON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE (TRIHYDRATEE) // CLAVALANATE (POTASSIUM)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "34,20 DH",
+        "PH": "21,40 DH",
+        "PFHT": "20,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8386",
+      "brand_name": "EDARBI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AZILSARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "155,60 DH",
+        "PH": "97,20 DH",
+        "PFHT": "92,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

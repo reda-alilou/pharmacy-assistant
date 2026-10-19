@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 164,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=164",
+  "fetched_at_utc": "2026-10-18T16:22:55.415619+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6949",
+      "brand_name": "ETIDRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28 (21 COMPRIMES ACTIFS+7 PLACEBOS)",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  30 µG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "898",
+      "brand_name": "ETOPOSIDE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "118,00 DH",
+        "PH": "73,70 DH",
+        "PFHT": "70,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "899",
+      "brand_name": "ETOPOSIDE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "529,00 DH",
+        "PH": "352,00 DH",
+        "PFHT": "335,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4673",
+      "brand_name": "ETOPOSIDE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "62,00 DH",
+        "PH": "38,70 DH",
+        "PFHT": "36,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4674",
+      "brand_name": "ETOPOSIDE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "118,00 DH",
+        "PH": "73,70 DH",
+        "PFHT": "70,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6405",
+      "brand_name": "ETOPOSIDE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.013.00 DH",
+        "PH": "734,00 DH",
+        "PFHT": "699,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION 0"
+      }
+    },
+    {
+      "source_record_id": "6406",
+      "brand_name": "ETOPOSIDE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.465.00 DH",
+        "PH": "1.200.00 DH",
+        "PFHT": "1.142.86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8416",
+      "brand_name": "ETOPOSIDE THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "-",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8417",
+      "brand_name": "ETOPOSIDE THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  10  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8418",
+      "brand_name": "ETOPOSIDE THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  20  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7879",
+      "brand_name": "ETOSIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "122,00 DH",
+        "PH": "76,20 DH",
+        "PFHT": "72,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  MG / 5 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7880",
+      "brand_name": "ETOSIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ETOPOSIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "214,00 DH",
+        "PH": "133,90 DH",
+        "PFHT": "127,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200  MG / 10 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2822",
+      "brand_name": "EUCALYPTINE LE BRUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CINEOLE // CODEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "18,00 DH",
+        "PH": "11,20 DH",
+        "PFHT": "10,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,02135 G  /  0,12200 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "99",
+      "brand_name": "EUCARBON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CHARBON VEGETAL // EXTRAIT DE RHUBARBE // FEUILLES DE SENE // SOUFRE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "29,90 DH",
+        "PH": "18,70 DH",
+        "PFHT": "17,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180   MG  /  25   MG  /  105   MG  /  25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "100",
+      "brand_name": "EUCARBON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "CHARBON VEGETAL // EXTRAIT DE RHUBARBE // FEUILLES DE SENE // SOUFRE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180   MG  /  25   MG  /  105   MG  /  50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3211",
+      "brand_name": "EULEXINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FLUTAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "283,00 DH",
+        "PH": "188,40 DH",
+        "PFHT": "179,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3973",
+      "brand_name": "EUMOXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMBROXOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  5  ML (0,30%)",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3974",
+      "brand_name": "EUMOXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 250ML",
+        "PP / GN": "GN",
+        "Substance active": "AMBROXOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "30,50 DH",
+        "PH": "19,00 DH",
+        "PFHT": "18,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  5  ML (0,30%)",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "900",
+      "brand_name": "EUPANTOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "185,00 DH",
+        "PH": "115,60 DH",
+        "PFHT": "110,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "901",
+      "brand_name": "EUPANTOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "164,30 DH",
+        "PH": "102,70 DH",
+        "PFHT": "97,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    }
+  ]
+}

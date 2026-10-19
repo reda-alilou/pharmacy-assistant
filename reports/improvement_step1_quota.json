@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-10-18T23:57:49.026895+00:00",
+  "step": "improvement_step_1_quota_management",
+  "status": "implemented_awaiting_user_validation",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "local_minimum_interval_seconds": 30,
+  "default_evaluation_budget": 4,
+  "budget_unit": "outbound_attempt_reservation_including_retries",
+  "shared_state": "SQLite; API and evaluator coordinate by scope/provider/model across local processes",
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 119,
+    "failed": 0,
+    "new_quota_resume_tests": 22
+  },
+  "zero_request_cli": {
+    "report": "reports/quota_zero_request_check.json",
+    "status": "paused_budget",
+    "attempts_reserved": 0,
+    "completed_cases": 0
+  },
+  "resume_simulation": {
+    "report": "reports/quota_resume_offline_demo.json",
+    "mode": "offline_control_flow_simulation",
+    "steps": [
+      {
+        "request_budget": 1,
+        "resume": false,
+        "status": "paused_budget",
+        "completed_cases": 1,
+        "requests_reserved_this_invocation": 1
+      },
+      {
+        "request_budget": 2,
+        "resume": true,
+        "status": "paused_budget",
+        "completed_cases": 3,
+        "requests_reserved_this_invocation": 2
+      },
+      {
+        "request_budget": 0,
+        "resume": true,
+        "status": "paused_budget",
+        "completed_cases": 3,
+        "requests_reserved_this_invocation": 0
+      }
+    ],
+    "repeated_completed_cases": 0
+  },
+  "live_provider_requests_this_step": 0,
+  "services_started_or_stopped": false,
+  "historical_live_reports_overwritten": false,
+  "limits": [
+    "Local spacing does not discover provider RPM/TPM/RPD quotas or track other applications.",
+    "Per-invocation budgets apply to the interpretation evaluator; legacy chat/UI smoke utilities use only the API shared gate.",
+    "Raw adapter construction without an injected control is reserved for isolated adapter tests; application code uses create_interpreter."
+  ],
+  "next_step": "80-example annotated evaluation dataset, only after user validation and continuation."
+}

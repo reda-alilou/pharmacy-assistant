@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 270,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=270",
+  "fetched_at_utc": "2026-10-18T16:26:28.005845+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1463",
+      "brand_name": "MEBIZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "MEBENDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "13,40 DH",
+        "PH": "8,30 DH",
+        "PFHT": "7,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3517",
+      "brand_name": "MEBO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "BETA SITOSTEROL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "130,80 DH",
+        "PH": "81,80 DH",
+        "PFHT": "77,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "81 - 85,5 G  /  100 G",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "627",
+      "brand_name": "MECIR LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "TAMSULOSINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BOTTU",
+        "PPV": "121,40 DH",
+        "PH": "75,60 DH",
+        "PFHT": "67,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,4   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1273",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "36,70 DH",
+        "PH": "22,90 DH",
+        "PFHT": "21,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1274",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "70,90 DH",
+        "PH": "44,30 DH",
+        "PFHT": "42,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1275",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "140,10 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1276",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1277",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "48,30 DH",
+        "PH": "30,20 DH",
+        "PFHT": "28,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1278",
+      "brand_name": "MEDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "95,50 DH",
+        "PH": "59,70 DH",
+        "PFHT": "56,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5835",
+      "brand_name": "MEDIBRONC ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G  /  100  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5836",
+      "brand_name": "MEDIBRONC ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "15,30 DH",
+        "PH": "9,60 DH",
+        "PFHT": "9,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  100  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5837",
+      "brand_name": "MEDIVEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5838",
+      "brand_name": "MEDIVEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "58,30 DH",
+        "PH": "36,40 DH",
+        "PFHT": "34,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5839",
+      "brand_name": "MEDIVEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4486",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "106,80 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4487",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "272,00 DH",
+        "PH": "170,20 DH",
+        "PFHT": "162,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4488",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "48,70 DH",
+        "PH": "30,50 DH",
+        "PFHT": "29,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4489",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "106,00 DH",
+        "PH": "66,30 DH",
+        "PFHT": "63,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4490",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "61,30 DH",
+        "PH": "38,30 DH",
+        "PFHT": "36,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4491",
+      "brand_name": "MEDIZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "156,40 DH",
+        "PH": "97,80 DH",
+        "PFHT": "93,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

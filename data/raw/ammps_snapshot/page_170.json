@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 170,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=170",
+  "fetched_at_utc": "2026-10-18T16:23:07.453527+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "457",
+      "brand_name": "EYLEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "AFLIBERCEPT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "5.847.00 DH",
+        "PH": "5.608.00 DH",
+        "PFHT": "5.341.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8434",
+      "brand_name": "EYLEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOÎTE D’UNE SERINGUE PREREMPLIE DE 90 µL.",
+        "PP / GN": "PP",
+        "Substance active": "AFLIBERCEPT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 90 µL"
+      }
+    },
+    {
+      "source_record_id": "3212",
+      "brand_name": "EZETROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "EZETIMIB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "375,00 DH",
+        "PH": "249,00 DH",
+        "PFHT": "237,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "585",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "76,70 DH",
+        "PH": "48,00 DH",
+        "PFHT": "45,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "586",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "135,10 DH",
+        "PH": "84,40 DH",
+        "PFHT": "80,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "587",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "43,00 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "588",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "111,40 DH",
+        "PH": "69,60 DH",
+        "PFHT": "66,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "589",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "195,30 DH",
+        "PH": "122,10 DH",
+        "PFHT": "116,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "590",
+      "brand_name": "EZIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "63,30 DH",
+        "PH": "39,50 DH",
+        "PFHT": "37,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "9369",
+      "brand_name": "F-GYN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 2 ML CONTENANT LA POUDRE ET D'UNE AMPOULE DE 2 ML CONTENANT 1 ML DE SOLUTION POUR RECONTITUTION",
+        "PP / GN": "BS",
+        "Substance active": "MENOTROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "244,00 DH",
+        "PH": "152,70 DH",
+        "PFHT": "145,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 UI",
+        "Forme": "POUDRE IYOPHILISEE DE MENOTROPINE POUR INJECTION + SOLUTION DE CHLORURE DE SODIUM A 0,9% P/V SOLUTION POUR RECONSTITUTION"
+      }
+    },
+    {
+      "source_record_id": "5291",
+      "brand_name": "FABRAZYME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "AGALSIDASE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "35.486.00 DH",
+        "PH": "34.798.00 DH",
+        "PFHT": "34.398.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2046",
+      "brand_name": "FACTANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "5.550.00 DH",
+        "PH": "5.301.00 DH",
+        "PFHT": "5.049.49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2047",
+      "brand_name": "FACTANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 2,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.688.00 DH",
+        "PH": "1.429.00 DH",
+        "PFHT": "1.361.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2048",
+      "brand_name": "FACTANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "2.906.00 DH",
+        "PH": "2.580.00 DH",
+        "PFHT": "2.457.18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8435",
+      "brand_name": "FACTANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 MI  /   ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8436",
+      "brand_name": "FACTANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 UI  /   ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "757",
+      "brand_name": "FACTEUR IX DE COAGULATION HUMAINE-CNTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE + FLACON / 10 ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR IX DE COAGULATION HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMSD",
+        "PPV": "1.483.00 DH",
+        "PH": "1.217.00 DH",
+        "PFHT": "1.159.91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 UI  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "758",
+      "brand_name": "FACTEUR VIII DE COAGULATION HUMAIN-CNTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON + FLACON / 5 ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMSD",
+        "PPV": "1.741.00 DH",
+        "PH": "1.483.00 DH",
+        "PFHT": "1.413.08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "POUDRE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "6668",
+      "brand_name": "FACTIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "GEMIFLOXACINE (DE MESYLATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "213,00 DH",
+        "PH": "133,00 DH",
+        "PFHT": "118,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6669",
+      "brand_name": "FACTIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "GEMIFLOXACINE (DE MESYLATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "282,00 DH",
+        "PH": "187,30 DH",
+        "PFHT": "167,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "320   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

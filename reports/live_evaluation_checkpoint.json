@@ -1,0 +1,148 @@
+{
+  "generated_at_utc": "2026-10-19T20:12:19.819575+00:00",
+  "status": "evaluation_complete_with_known_matching_and_extraction_gaps",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "output_mode": "json_object",
+  "freeze_sha256": "f53929dec348a320222388bf86a327aab975b024185221004f2b4bc42cadd4ec",
+  "frozen_files": 68,
+  "freeze_verified_after_evaluation": true,
+  "active_datasets_unchanged": {
+    "ammps_medications_enriched.jsonl": true,
+    "medicament_medications.jsonl": true,
+    "saydalia_medications.jsonl": true,
+    "pharmacies_rabat.jsonl": true,
+    "pharmacy_duty_observations.jsonl": true
+  },
+  "annotation_files_unchanged": true,
+  "offline_tests": {
+    "passed": 225,
+    "elapsed_seconds": 204.477,
+    "log": "reports/frozen_evaluation_offline_tests.log"
+  },
+  "development_first_pass_backend": {
+    "total": 40,
+    "completed": 40,
+    "passed": 39,
+    "by_group": {
+      "fr": {
+        "completed": 10,
+        "passed": 10
+      },
+      "ar": {
+        "completed": 10,
+        "passed": 10
+      },
+      "darija": {
+        "completed": 10,
+        "passed": 10
+      },
+      "mixed": {
+        "completed": 10,
+        "passed": 9
+      }
+    },
+    "medication_resolution": {
+      "correct": 28,
+      "scored": 29,
+      "expected": 29
+    }
+  },
+  "development_rechecked_backend": {
+    "total": 40,
+    "completed": 40,
+    "passed": 40,
+    "by_group": {
+      "fr": {
+        "completed": 10,
+        "passed": 10
+      },
+      "ar": {
+        "completed": 10,
+        "passed": 10
+      },
+      "darija": {
+        "completed": 10,
+        "passed": 10
+      },
+      "mixed": {
+        "completed": 10,
+        "passed": 10
+      }
+    },
+    "medication_resolution": {
+      "correct": 29,
+      "scored": 29,
+      "expected": 29
+    }
+  },
+  "development_rechecks_are_a_mixed_prompt_history": true,
+  "held_out_backend": {
+    "total": 40,
+    "completed": 40,
+    "passed": 34,
+    "by_group": {
+      "fr": {
+        "completed": 10,
+        "passed": 10
+      },
+      "ar": {
+        "completed": 10,
+        "passed": 8
+      },
+      "darija": {
+        "completed": 10,
+        "passed": 8
+      },
+      "mixed": {
+        "completed": 10,
+        "passed": 8
+      }
+    },
+    "medication_resolution": {
+      "correct": 25,
+      "scored": 31,
+      "expected": 31
+    }
+  },
+  "held_out_intent_metrics": {
+    "tp": 39,
+    "fp": 3,
+    "fn": 3,
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1": 0.9285714285714286
+  },
+  "held_out_entity_metrics": {
+    "tp": 82,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.9647058823529412,
+    "recall": 0.9534883720930233,
+    "f1": 0.9590643274853801
+  },
+  "held_out_targets_met": true,
+  "held_out_schema": {
+    "returned_completions": 48,
+    "valid_completions": 48,
+    "validity_rate": 1.0,
+    "evidence_rejections": 0,
+    "transport_failures": 1
+  },
+  "held_out_attempts": 49,
+  "total_checkpoint_outbound_attempts": 103,
+  "provider_rate_limit_events": 1,
+  "quota_pause_recovered_without_changing_key_or_model": true,
+  "servers_started_or_stopped": false,
+  "bulk_collection_requests": 0,
+  "remaining_behavior_failures": [
+    "held-ar-01",
+    "held-ar-02",
+    "held-darija-02",
+    "held-mixed-04",
+    "held-darija-09",
+    "held-mixed-09"
+  ],
+  "next_checkpoint": "Arabic brand normalization and package-count follow-up extraction, before cosmetics",
+  "report": "docs/evaluation-checkpoint.md"
+}

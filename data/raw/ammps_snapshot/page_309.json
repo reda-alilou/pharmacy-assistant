@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 309,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=309",
+  "fetched_at_utc": "2026-10-18T16:27:46.168618+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3530",
+      "brand_name": "NOVOSAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "100,00 DH",
+        "PH": "62,50 DH",
+        "PFHT": "59,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6922",
+      "brand_name": "NOVOSAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8113",
+      "brand_name": "NOVOSAR PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "95,00 DH",
+        "PH": "59,40 DH",
+        "PFHT": "56,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  12,5   MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "8114",
+      "brand_name": "NOVOSAR PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "133,00 DH",
+        "PH": "83,20 DH",
+        "PFHT": "79,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  25   MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "2587",
+      "brand_name": "NOVOSEVEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON POUDRE DE 2,4 MG ET KIT D'INJECTION",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "14.149.00 DH",
+        "PH": "13.852.00 DH",
+        "PFHT": "12.572.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2588",
+      "brand_name": "NOVOSEVEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON POUDRE DE 4,8 MG ET KIT D'INJECTION",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "27.870.00 DH",
+        "PH": "27.304.00 DH",
+        "PFHT": "25.144.64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2589",
+      "brand_name": "NOVOSEVEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON POUDRE DE 1,2 MG ET KIT D'INJECTION",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "7.288.00 DH",
+        "PH": "7.040.00 DH",
+        "PFHT": "6.285.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2590",
+      "brand_name": "NOVOSEVEN RT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON POUDRE DE 2 ML+FLACON DE SOLVANT DE 2,1 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "12.396.00 DH",
+        "PH": "12.161.00 DH",
+        "PFHT": "11.761.46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2591",
+      "brand_name": "NOVOSEVEN RT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON POUDRE DE 2 ML+FLACON DE SOLVANT DE 5,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "25.429.00 DH",
+        "PH": "24.938.00 DH",
+        "PFHT": "24.538.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2592",
+      "brand_name": "NOVOSEVEN RT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON POUDRE DE 2 ML+FLACON DE SOLVANT DE 1,1 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPTACOG ALFA ACTIV (R F VII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "6.398.00 DH",
+        "PH": "6.174.00 DH",
+        "PFHT": "5.880.73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 KUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "181",
+      "brand_name": "NOVOTER",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "FLUOCINOLONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "25,50 DH",
+        "PH": "15,90 DH",
+        "PFHT": "14,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME A USAGE TOPIQUE"
+      }
+    },
+    {
+      "source_record_id": "182",
+      "brand_name": "NOVOTER",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 60 G",
+        "PP / GN": "GN",
+        "Substance active": "FLUOCINOLONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "45,90 DH",
+        "PH": "28,60 DH",
+        "PFHT": "25,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME A USAGE TOPIQUE"
+      }
+    },
+    {
+      "source_record_id": "8670",
+      "brand_name": "NOVOTER GENTAMICINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE POUR 30 G",
+        "PP / GN": "GN",
+        "Substance active": "FLUOCINOLONE // GENTAMICINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05%  /  0,10%",
+        "Forme": "CREME POUR APPLICATION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "8671",
+      "brand_name": "NOVOTER GENTAMICINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE POUR 60 G",
+        "PP / GN": "GN",
+        "Substance active": "FLUOCINOLONE // GENTAMICINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05%  /  0,10%",
+        "Forme": "CREME POUR APPLICATION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5588",
+      "brand_name": "NOXIDEM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "25,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5368",
+      "brand_name": "NOZINAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEVOMEPROMAZINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5369",
+      "brand_name": "NOZINAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "LEVOMEPROMAZINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "53,50 DH",
+        "PH": "33,50 DH",
+        "PFHT": "31,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5370",
+      "brand_name": "NOZINAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "LEVOMEPROMAZINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5371",
+      "brand_name": "NOZINAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "LEVOMEPROMAZINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "15,10 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5876",
+      "brand_name": "NPLATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ROMIPLOSTIM",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "6.373.00 DH",
+        "PH": "6.149.00 DH",
+        "PFHT": "5.856.56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µG",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION"
+      }
+    }
+  ]
+}

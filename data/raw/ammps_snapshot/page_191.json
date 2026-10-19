@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 191,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=191",
+  "fetched_at_utc": "2026-10-18T16:23:49.511912+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8484",
+      "brand_name": "GASTROMIRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "61,24   MG",
+        "Forme": "SOLUTION EN FLACON DE 100 ML"
+      }
+    },
+    {
+      "source_record_id": "3996",
+      "brand_name": "GASTROP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CIMETIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8485",
+      "brand_name": "GASTROP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CIMETIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9836",
+      "brand_name": "GASTROTIDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "FAMOTIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "20   MG  /  2   ML",
+        "Forme": "SOLUTION POUR INJECTION IV/IM"
+      }
+    },
+    {
+      "source_record_id": "3997",
+      "brand_name": "GATSROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "37,80 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "3998",
+      "brand_name": "GATSROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "66,50 DH",
+        "PH": "41,60 DH",
+        "PFHT": "39,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "3999",
+      "brand_name": "GATSROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "54,30 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4000",
+      "brand_name": "GATSROMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "104,90 DH",
+        "PH": "65,60 DH",
+        "PFHT": "62,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4448",
+      "brand_name": "GAVISCON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "40,20 DH",
+        "PH": "25,10 DH",
+        "PFHT": "23,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4449",
+      "brand_name": "GAVISCON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "32,90 DH",
+        "PH": "20,50 DH",
+        "PFHT": "19,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G  /  2,670 G",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4450",
+      "brand_name": "GAVISCON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 24 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "34,20 DH",
+        "PH": "21,30 DH",
+        "PFHT": "19,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G  /  2,670 G",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7126",
+      "brand_name": "GAVISCON ADVANCE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "92,40 DH",
+        "PH": "57,70 DH",
+        "PFHT": "55,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100   MG",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4451",
+      "brand_name": "GAVISCON ADVANCE GOUT ANIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "45,20 DH",
+        "PH": "28,30 DH",
+        "PFHT": "26,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100   MG",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4452",
+      "brand_name": "GAVISCON ADVANCE GOUT MENTHE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "45,20 DH",
+        "PH": "28,30 DH",
+        "PFHT": "26,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100   MG",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7981",
+      "brand_name": "GAVISCON DOUBLE ACTION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "37,80 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "7982",
+      "brand_name": "GAVISCON DOUBLE ACTION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "51,10 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "7980",
+      "brand_name": "GAVISCON DOUBLE ACTION MENTHE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "63,00 DH",
+        "PH": "39,40 DH",
+        "PFHT": "37,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "4453",
+      "brand_name": "GAVISCON NOURRISSON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALGINATE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "23,10 DH",
+        "PH": "14,40 DH",
+        "PFHT": "12,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G  /  2,670 G",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5068",
+      "brand_name": "GAZYVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 40 ML",
+        "PP / GN": "PP",
+        "Substance active": "OBINUTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "25.900.00 DH",
+        "PH": "25.400.00 DH",
+        "PFHT": "25.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  40  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8028",
+      "brand_name": "GEFLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "GEFITINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "9.355.00 DH",
+        "PH": "9.180.00 DH",
+        "PFHT": "8.780.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

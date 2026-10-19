@@ -1,0 +1,15 @@
+{
+  "fresh_launch_health": {
+    "8001": 200,
+    "8502": 200
+  },
+  "test_api_port": 8001,
+  "test_ui_port": 8502,
+  "after_stop": {
+    "8000": 200,
+    "8501": 200,
+    "8001": "stopped",
+    "8502": "stopped"
+  },
+  "passed": true
+}

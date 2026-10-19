@@ -1,0 +1,10 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+2026-10-19 11:25:58.257 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:26:02.136 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-42' coro=<ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation.py:71> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.109 seconds
+Executing <Task finished name='Task-97' coro=<ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation.py:94> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.141 seconds
+----------------------------------------------------------------------
+Ran 19 tests in 7.565s
+
+OK

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 237,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=237",
+  "fetched_at_utc": "2026-10-18T16:25:21.816269+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3371",
+      "brand_name": "JAKAVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "RUXOLITINIB (PHOSPHATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "15.864.00 DH",
+        "PH": "16.416.00 DH",
+        "PFHT": "15.161.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9792",
+      "brand_name": "JAMP-TIMOLOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3232",
+      "brand_name": "JANUMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "SITAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "376,00 DH",
+        "PH": "249,00 DH",
+        "PFHT": "238,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50  /  1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3233",
+      "brand_name": "JANUMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "SITAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "428,00 DH",
+        "PH": "284,00 DH",
+        "PFHT": "270,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50  /  850   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3234",
+      "brand_name": "JANUVIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SITAGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "393,00 DH",
+        "PH": "261,00 DH",
+        "PFHT": "248,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3235",
+      "brand_name": "JANUVIA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SITAGLIPTINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "151,10 DH",
+        "PH": "94,40 DH",
+        "PFHT": "89,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3236",
+      "brand_name": "JANUVIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SITAGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "301,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "190,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "485",
+      "brand_name": "JARDIANCE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "EMPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "448,00 DH",
+        "PH": "298,00 DH",
+        "PFHT": "284,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "486",
+      "brand_name": "JARDIANCE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "EMPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "448,00 DH",
+        "PH": "298,00 DH",
+        "PFHT": "284,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "393",
+      "brand_name": "JASMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "93,40 DH",
+        "PH": "58,40 DH",
+        "PFHT": "55,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  30 µG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2878",
+      "brand_name": "JAVLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "VINFLUNINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "9.996.00 DH",
+        "PH": "9.808.00 DH",
+        "PFHT": "9.408.57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2879",
+      "brand_name": "JAVLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "VINFLUNINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.318.00 DH",
+        "PH": "1.975.00 DH",
+        "PFHT": "1.880.95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7314",
+      "brand_name": "JENTADUETO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "LINAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "471,00 DH",
+        "PH": "313,00 DH",
+        "PFHT": "298,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  850   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7315",
+      "brand_name": "JENTADUETO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "LINAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "471,00 DH",
+        "PH": "313,00 DH",
+        "PFHT": "298,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5311",
+      "brand_name": "JEVTANA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 1,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "CABAZITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "22.044.00 DH",
+        "PH": "21.619.00 DH",
+        "PFHT": "21.219.61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  1,5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9289",
+      "brand_name": "JIVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE SERINGUE PREREMPLIE CONTENANT 2,5 ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "DAMOCTOCOG ALFA PEGOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "3.357.00 DH",
+        "PH": "3.044.00 DH",
+        "PFHT": "2.899.82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9290",
+      "brand_name": "JIVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIOTE D'UN FLACON DE POUDRE, UNE SERINGUE PREREMPLIE CONTENANT 2,5 ML DE SOLVANT, UN PISTON DE SERINGUE , UN ADAPTATEUR POUR FLACON ( AVEC FILTRE )ET UN NECESSAIRE DE PONCTION VEINEUSE",
+        "PP / GN": "PP",
+        "Substance active": "DAMOCTOCOG ALFA PEGOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "6.315.00 DH",
+        "PH": "6.089.00 DH",
+        "PFHT": "5.799.64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "394",
+      "brand_name": "JOSACINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "JOSAMYCINE (PROPIONATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "172,90 DH",
+        "PH": "108,10 DH",
+        "PFHT": "102,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "5803",
+      "brand_name": "JOSACINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "JOSAMYCINE (PROPIONATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "42,90 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5804",
+      "brand_name": "JOSACINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "JOSAMYCINE (PROPIONATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "73,40 DH",
+        "PH": "45,90 DH",
+        "PFHT": "43,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    }
+  ]
+}

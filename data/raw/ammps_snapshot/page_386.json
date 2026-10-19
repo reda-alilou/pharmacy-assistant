@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 386,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=386",
+  "fetched_at_utc": "2026-10-18T16:30:20.539917+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8787",
+      "brand_name": "ROWASA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "PP",
+        "Substance active": "MESALAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "3543",
+      "brand_name": "ROXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "45,70 DH",
+        "PH": "28,60 DH",
+        "PFHT": "27,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3544",
+      "brand_name": "ROXAM",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "3545",
+      "brand_name": "ROXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "2 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3546",
+      "brand_name": "ROXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "29,40 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1531",
+      "brand_name": "ROXID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "21,20 DH",
+        "PH": "13,20 DH",
+        "PFHT": "12,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.044",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1532",
+      "brand_name": "ROXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "10,70 DH",
+        "PH": "6,70 DH",
+        "PFHT": "6,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1533",
+      "brand_name": "ROXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "20,20 DH",
+        "PH": "12,60 DH",
+        "PFHT": "12,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1534",
+      "brand_name": "ROXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "17,10 DH",
+        "PH": "10,70 DH",
+        "PFHT": "10,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1535",
+      "brand_name": "ROXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "28,80 DH",
+        "PH": "18,00 DH",
+        "PFHT": "17,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3169",
+      "brand_name": "ROXOLID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3170",
+      "brand_name": "ROXOLID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "78,20 DH",
+        "PH": "48,90 DH",
+        "PFHT": "46,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2118",
+      "brand_name": "ROYEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CALCIUM (ACETATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "130,80 DH",
+        "PH": "81,80 DH",
+        "PFHT": "77,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "CAPSULE DURE"
+      }
+    },
+    {
+      "source_record_id": "700",
+      "brand_name": "ROZAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "147,10 DH",
+        "PH": "92,00 DH",
+        "PFHT": "87,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "701",
+      "brand_name": "ROZAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "238,00 DH",
+        "PH": "149,00 DH",
+        "PFHT": "141,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5949",
+      "brand_name": "ROZEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "81,40 DH",
+        "PH": "50,90 DH",
+        "PFHT": "48,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0075",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "9349",
+      "brand_name": "ROZLYTREK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 GELULES EN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "ENTRECTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "8.138.00 DH",
+        "PH": "7.966.00 DH",
+        "PFHT": "7.587.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9350",
+      "brand_name": "ROZLYTREK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90 GELULES EN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "ENTRECTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "46.804.00 DH",
+        "PH": "45.895.00 DH",
+        "PFHT": "45.495.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "5413",
+      "brand_name": "RULID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "99,80 DH",
+        "PH": "62,20 DH",
+        "PFHT": "55,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5414",
+      "brand_name": "RULID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "83,70 DH",
+        "PH": "52,10 DH",
+        "PFHT": "46,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 134,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=134",
+  "fetched_at_utc": "2026-10-18T16:21:55.250908+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9004",
+      "brand_name": "DINOCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "DACTINOMYCINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UG",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "2772",
+      "brand_name": "DIOVENOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "35,60 DH",
+        "PH": "22,20 DH",
+        "PFHT": "19,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2773",
+      "brand_name": "DIOVENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIOSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "124,80 DH",
+        "PH": "78,00 DH",
+        "PFHT": "74,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "88",
+      "brand_name": "DIPICOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "75,90 DH",
+        "PH": "47,50 DH",
+        "PFHT": "45,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "89",
+      "brand_name": "DIPICOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "150,10 DH",
+        "PH": "93,80 DH",
+        "PFHT": "89,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "90",
+      "brand_name": "DIPICOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "51,80 DH",
+        "PH": "32,30 DH",
+        "PFHT": "30,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "91",
+      "brand_name": "DIPICOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "99,00 DH",
+        "PH": "61,90 DH",
+        "PFHT": "58,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "554",
+      "brand_name": "DIPREZAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN POTASSIQUE // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "106,70 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "555",
+      "brand_name": "DIPREZAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "114,30 DH",
+        "PH": "71,50 DH",
+        "PFHT": "68,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "556",
+      "brand_name": "DIPREZAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "308,00 DH",
+        "PH": "204,00 DH",
+        "PFHT": "194,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "557",
+      "brand_name": "DIPREZAR FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN POTASSIQUE // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "139,70 DH",
+        "PH": "87,30 DH",
+        "PFHT": "83,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "558",
+      "brand_name": "DIPREZAR FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "149,70 DH",
+        "PH": "93,60 DH",
+        "PFHT": "89,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "559",
+      "brand_name": "DIPREZAR FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "403,00 DH",
+        "PH": "268,00 DH",
+        "PFHT": "255,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2774",
+      "brand_name": "DIPRIVAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROPOFOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "275,00 DH",
+        "PH": "183,20 DH",
+        "PFHT": "174,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  20  ML",
+        "Forme": "EMULSION INJECTABLE EN IV"
+      }
+    },
+    {
+      "source_record_id": "2775",
+      "brand_name": "DIPRIVAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "PROPOFOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "271,00 DH",
+        "PH": "169,40 DH",
+        "PFHT": "161,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50  ML",
+        "Forme": "EMULSION INJECTABLE EN IV"
+      }
+    },
+    {
+      "source_record_id": "3204",
+      "brand_name": "DIPROLENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE (DIPROPIONATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "23,90 DH",
+        "PH": "14,90 DH",
+        "PFHT": "13,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "3205",
+      "brand_name": "DIPROLENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE (DIPROPIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "22,30 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "4437",
+      "brand_name": "DIPROSALIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE (DIPROPIONATE) // ACIDE SALICYLIQUE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "35,10 DH",
+        "PH": "22,00 DH",
+        "PFHT": "20,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "4438",
+      "brand_name": "DIPROSALIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE (DIPROPIONATE) // ACIDE SALICYLIQUE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,064 G  /  2 G",
+        "Forme": "LOTION"
+      }
+    },
+    {
+      "source_record_id": "4439",
+      "brand_name": "DIPROSONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE (DIPROPIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "16,20 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "CREME"
+      }
+    }
+  ]
+}

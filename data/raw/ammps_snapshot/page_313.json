@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 313,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=313",
+  "fetched_at_utc": "2026-10-18T16:27:54.316088+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5148",
+      "brand_name": "OCTAGAM 5%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.851.00 DH",
+        "PH": "2.523.00 DH",
+        "PFHT": "2.403.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5149",
+      "brand_name": "OCTAGAM 5%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "5.302.00 DH",
+        "PH": "5.046.00 DH",
+        "PFHT": "4.806.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7083",
+      "brand_name": "OCTAGAM 5%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 50 ml",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.553.00 DH",
+        "PH": "1.290.00 DH",
+        "PFHT": "1.228.96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5150",
+      "brand_name": "OCTANATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "3.577.00 DH",
+        "PH": "3.271.00 DH",
+        "PFHT": "3.115.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5151",
+      "brand_name": "OCTANATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.752.00 DH",
+        "PH": "1.495.00 DH",
+        "PFHT": "1.424.12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 UI  /   ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5152",
+      "brand_name": "OCTANATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR VIII DE COAGULATION",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.071.00 DH",
+        "PH": "794,00 DH",
+        "PFHT": "756,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 UI  /   ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5153",
+      "brand_name": "OCTAPLAS LG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POCHE DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROTEINES PLASMATIQUES HUMAINES",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.394.00 DH",
+        "PH": "1.126.00 DH",
+        "PFHT": "1.073.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "45 - 70   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5154",
+      "brand_name": "OCTAPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 FLACON DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR II DE COAGULATION HUMAIN // FACTEUR VII DE COAGULATION HUMAIN // FACTEUR IX DE COAGULATION HUMAIN // FACTEUR X DE COAGULATION HUMAIN // PROTEINE C // PROTEINE S",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.806.00 DH",
+        "PH": "2.477.00 DH",
+        "PFHT": "2.359.28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5881",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "15,70 DH",
+        "PH": "9,80 DH",
+        "PFHT": "9,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5882",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "26,90 DH",
+        "PH": "16,80 DH",
+        "PFHT": "16,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5883",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "52,60 DH",
+        "PH": "32,90 DH",
+        "PFHT": "31,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5884",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5885",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "23,20 DH",
+        "PH": "14,50 DH",
+        "PFHT": "13,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5886",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5887",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "78,10 DH",
+        "PH": "48,80 DH",
+        "PFHT": "46,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5888",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "103,10 DH",
+        "PH": "64,50 DH",
+        "PFHT": "61,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5889",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "34,90 DH",
+        "PH": "21,80 DH",
+        "PFHT": "20,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5890",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "60,00 DH",
+        "PH": "37,50 DH",
+        "PFHT": "35,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5891",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "117,20 DH",
+        "PH": "73,20 DH",
+        "PFHT": "69,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5892",
+      "brand_name": "ODIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "154,80 DH",
+        "PH": "96,70 DH",
+        "PFHT": "92,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

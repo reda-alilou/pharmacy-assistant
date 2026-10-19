@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 161,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=161",
+  "fetched_at_utc": "2026-10-18T16:22:49.381529+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9152",
+      "brand_name": "ERMYZIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  28 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "201,00 DH",
+        "PH": "126,00 DH",
+        "PFHT": "120,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "9092",
+      "brand_name": "EROSTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES ORODISPERSIBLES",
+        "PP / GN": "GN",
+        "Substance active": "EBASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "21,80 DH",
+        "PH": "13,60 DH",
+        "PFHT": "12,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "9093",
+      "brand_name": "EROSTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES ORODISPERSIBLES",
+        "PP / GN": "GN",
+        "Substance active": "EBASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "34,90 DH",
+        "PH": "21,80 DH",
+        "PFHT": "20,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "9094",
+      "brand_name": "EROSTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES ORODISPERSIBLES",
+        "PP / GN": "GN",
+        "Substance active": "EBASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "47,60 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "9737",
+      "brand_name": "ERTAPENEM HIKMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "ERTAPENEM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 MG",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION  POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8411",
+      "brand_name": "ERVEVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON MONODOSE",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA RUBEOLE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHYLISE"
+      }
+    },
+    {
+      "source_record_id": "4893",
+      "brand_name": "ERY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4894",
+      "brand_name": "ERY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "59,30 DH",
+        "PH": "37,10 DH",
+        "PFHT": "35,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4895",
+      "brand_name": "ERY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "84,60 DH",
+        "PH": "52,80 DH",
+        "PFHT": "50,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5740",
+      "brand_name": "ERYACNE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "61,90 DH",
+        "PH": "38,70 DH",
+        "PFHT": "36,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "2815",
+      "brand_name": "ERYFLUID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "62,80 DH",
+        "PH": "39,20 DH",
+        "PFHT": "37,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2816",
+      "brand_name": "ERYTHROCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE (ETHYLSUCCINATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "39,80 DH",
+        "PH": "24,80 DH",
+        "PFHT": "23,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2817",
+      "brand_name": "ERYTHROCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE (ETHYLSUCCINATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "44,50 DH",
+        "PH": "27,80 DH",
+        "PFHT": "26,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE ORALE"
+      }
+    },
+    {
+      "source_record_id": "4896",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "76,70 DH",
+        "PH": "48,00 DH",
+        "PFHT": "45,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4897",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "135,10 DH",
+        "PH": "84,40 DH",
+        "PFHT": "80,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4898",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "43,00 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4899",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "114,80 DH",
+        "PH": "71,70 DH",
+        "PFHT": "68,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4900",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "211,00 DH",
+        "PH": "132,40 DH",
+        "PFHT": "126,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4901",
+      "brand_name": "ESAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "5570",
+      "brand_name": "ESCIPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "207,00 DH",
+        "PH": "129,50 DH",
+        "PFHT": "123,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    }
+  ]
+}

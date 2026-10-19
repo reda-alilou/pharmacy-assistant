@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 362,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=362",
+  "fetched_at_utc": "2026-10-18T16:29:32.385968+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6235",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "201,00 DH",
+        "PH": "126,20 DH",
+        "PFHT": "120,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6236",
+      "brand_name": "RACIPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "424",
+      "brand_name": "RADIOSELECTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMIDOTRIZOATE (MEGLUMINE) // AMIDOTRIZOATE (SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "203,00 DH",
+        "PH": "127,00 DH",
+        "PFHT": "120,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.3",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "425",
+      "brand_name": "RADIOSELECTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMIDOTRIZOATE (MEGLUMINE) // AMIDOTRIZOATE (SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "214,00 DH",
+        "PH": "133,50 DH",
+        "PFHT": "119,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.76",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "426",
+      "brand_name": "RADIOSELECTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMIDOTRIZOATE (MEGLUMINE) // AMIDOTRIZOATE (SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "49,10 DH",
+        "PH": "30,60 DH",
+        "PFHT": "27,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.76",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "427",
+      "brand_name": "RADIOSELECTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMIDOTRIZOATE (MEGLUMINE) // AMIDOTRIZOATE (SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "127,80 DH",
+        "PH": "79,90 DH",
+        "PFHT": "76,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.76",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6820",
+      "brand_name": "RAFENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "RALOXIFENE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "78,30 DH",
+        "PH": "49,00 DH",
+        "PFHT": "46,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6821",
+      "brand_name": "RAFENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RALOXIFENE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "145,60 DH",
+        "PH": "91,00 DH",
+        "PFHT": "86,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2987",
+      "brand_name": "RAMIPRIL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "56,00 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2988",
+      "brand_name": "RAMIPRIL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "108,00 DH",
+        "PH": "67,50 DH",
+        "PFHT": "64,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2989",
+      "brand_name": "RAMIPRIL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2990",
+      "brand_name": "RAMIPRIL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "54,00 DH",
+        "PH": "33,70 DH",
+        "PFHT": "32,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6497",
+      "brand_name": "RAMITEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "76,10 DH",
+        "PH": "47,60 DH",
+        "PFHT": "45,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6498",
+      "brand_name": "RAMITEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "26,50 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6499",
+      "brand_name": "RAMITEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "44,90 DH",
+        "PH": "28,10 DH",
+        "PFHT": "26,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6237",
+      "brand_name": "RANCIPHEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RABEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "46,60 DH",
+        "PH": "29,10 DH",
+        "PFHT": "27,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6238",
+      "brand_name": "RANCIPHEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RABEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "77,40 DH",
+        "PH": "48,40 DH",
+        "PFHT": "46,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6239",
+      "brand_name": "RANCIPHEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RABEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "123,10 DH",
+        "PH": "76,90 DH",
+        "PFHT": "73,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6240",
+      "brand_name": "RANCIPHEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RABEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "60,30 DH",
+        "PH": "37,70 DH",
+        "PFHT": "35,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6241",
+      "brand_name": "RANCIPHEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RABEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "106,30 DH",
+        "PH": "66,40 DH",
+        "PFHT": "63,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 216,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=216",
+  "fetched_at_utc": "2026-10-18T16:24:39.634779+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7941",
+      "brand_name": "HYPURIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7942",
+      "brand_name": "HYPURIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "158,90 DH",
+        "PH": "99,30 DH",
+        "PFHT": "94,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9090",
+      "brand_name": "HYRIMOZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS PREREMPLIS",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "4.174.00 DH",
+        "PH": "3.885.00 DH",
+        "PFHT": "3.700.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 0.8 ML"
+      }
+    },
+    {
+      "source_record_id": "6427",
+      "brand_name": "HYTACAND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CANDESARTAN CILEXETIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "176,20 DH",
+        "PH": "110,10 DH",
+        "PFHT": "104,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6428",
+      "brand_name": "HYTACAND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CANDESARTAN CILEXETIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "94,70 DH",
+        "PH": "59,20 DH",
+        "PFHT": "56,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3224",
+      "brand_name": "HYZAAR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "LOSARTAN POTASSIQUE // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "86,90 DH",
+        "PH": "54,30 DH",
+        "PFHT": "51,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3225",
+      "brand_name": "HYZAAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LOSARTAN POTASSIQUE // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "130,00 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1445",
+      "brand_name": "I P P",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1446",
+      "brand_name": "I P P",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "88,80 DH",
+        "PH": "55,50 DH",
+        "PFHT": "52,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6712",
+      "brand_name": "IBANDRO ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE IBANDRONIQUE (SODIUM MONOHYDRATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "497,00 DH",
+        "PH": "330,00 DH",
+        "PFHT": "314,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  2  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6713",
+      "brand_name": "IBANDRO ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE IBANDRONIQUE (SODIUM MONOHYDRATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "747,00 DH",
+        "PH": "496,00 DH",
+        "PFHT": "473,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6714",
+      "brand_name": "IBANDRO ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE IBANDRONIQUE (SODIUM MONOHYDRATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.146.00 DH",
+        "PH": "871,00 DH",
+        "PFHT": "830,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6715",
+      "brand_name": "IBANDRO ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE IBANDRONIQUE (SODIUM MONOHYDRATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.570.00 DH",
+        "PH": "1.307.00 DH",
+        "PFHT": "1.245.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6716",
+      "brand_name": "IBANDRO ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE IBANDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.459.00 DH",
+        "PH": "1.193.00 DH",
+        "PFHT": "1.136.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /  6  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2186",
+      "brand_name": "IBEFLOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "57,90 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2205",
+      "brand_name": "IBERMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "37,10 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2206",
+      "brand_name": "IBERMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "72,60 DH",
+        "PH": "45,40 DH",
+        "PFHT": "43,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2207",
+      "brand_name": "IBERMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "95,80 DH",
+        "PH": "59,90 DH",
+        "PFHT": "57,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2208",
+      "brand_name": "IBERMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2209",
+      "brand_name": "IBERMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

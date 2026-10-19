@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 133,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=133",
+  "fetched_at_utc": "2026-10-18T16:21:53.230320+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "868",
+      "brand_name": "DIGEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRIMEBUTINE (MALEATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4.8   MG  /   ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5725",
+      "brand_name": "DIGESTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "552",
+      "brand_name": "DIGOXINE NATIVELLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "DIGOXINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "22,60 DH",
+        "PH": "14,10 DH",
+        "PFHT": "13,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "553",
+      "brand_name": "DIGOXINE NATIVELLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIGOXINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5726",
+      "brand_name": "DIGREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "110,50 DH",
+        "PH": "69,00 DH",
+        "PFHT": "65,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5727",
+      "brand_name": "DIGREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "199,40 DH",
+        "PH": "124,60 DH",
+        "PFHT": "118,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "869",
+      "brand_name": "DILATOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 RECIPIENTS DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "41,20 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "870",
+      "brand_name": "DILATOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 RECIPIENTS DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "73,40 DH",
+        "PH": "45,90 DH",
+        "PFHT": "43,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "871",
+      "brand_name": "DILATOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60 RECIPIENTS DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "167,40 DH",
+        "PH": "104,60 DH",
+        "PFHT": "99,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "872",
+      "brand_name": "DILATOR ECOSPRAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 300 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "63,30 DH",
+        "PH": "42,20 DH",
+        "PFHT": "37,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION + NEO-HALER"
+      }
+    },
+    {
+      "source_record_id": "873",
+      "brand_name": "DILATOR ECOSPRAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 300 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "55,00 DH",
+        "PH": "34,40 DH",
+        "PFHT": "32,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "5065",
+      "brand_name": "DILATREND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "125,00 DH",
+        "PH": "78,10 DH",
+        "PFHT": "74,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5066",
+      "brand_name": "DILATREND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "71,10 DH",
+        "PH": "44,40 DH",
+        "PFHT": "42,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "86",
+      "brand_name": "DILOVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "72,80 DH",
+        "PH": "45,50 DH",
+        "PFHT": "43,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "87",
+      "brand_name": "DILOVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "31,20 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6384",
+      "brand_name": "DILRENE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4882",
+      "brand_name": "DIMAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CARBIMAZOLE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "44,80 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6385",
+      "brand_name": "DIMETANE EXPECTORANT ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHOLCODINE // PROMPHENIRAMINE (MALEATE) // NEOSYNEPHRINE (CHLORHYDRATE) // GAIACOLATE DE GLYCERYLE // BENZOATE (DE SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "16,40 DH",
+        "PH": "10,20 DH",
+        "PFHT": "9,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6386",
+      "brand_name": "DIMETANE EXPECTORANT ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "BROMPHENIRAMINE (MALEATE) // GUAIFENESINE // BENZOATE DE SODIUM",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "10,60 DH",
+        "PH": "6,60 DH",
+        "PFHT": "6,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "874",
+      "brand_name": "DINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "DIDANOSINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "204,00 DH",
+        "PH": "127,60 DH",
+        "PFHT": "121,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME POUR SUSPENSION BUVABLE"
+      }
+    }
+  ]
+}

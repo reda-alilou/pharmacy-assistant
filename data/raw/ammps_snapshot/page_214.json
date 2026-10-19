@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 214,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=214",
+  "fetched_at_utc": "2026-10-18T16:24:35.636541+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8506",
+      "brand_name": "HUMAN ALBUMIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALBUMINE HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "1.095.00 DH",
+        "PH": "819,00 DH",
+        "PFHT": "780,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20% BEHRING ,PAUVRE EN SEL ,200G / L",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6087",
+      "brand_name": "HUMEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 35 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // BENZALKONIUM CHLORURE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,30%  /  0,03%",
+        "Forme": "COLLUTOIRE"
+      }
+    },
+    {
+      "source_record_id": "6088",
+      "brand_name": "HUMEX EXPEXTORANT AD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "GN",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "28,50 DH",
+        "PH": "17,80 DH",
+        "PFHT": "16,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6089",
+      "brand_name": "HUMEX EXPEXTORANT ENF-NOUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "11,90 DH",
+        "PH": "7,40 DH",
+        "PFHT": "7,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6090",
+      "brand_name": "HUMEX MAL DE GORGE MIEL CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "BICLOTHYMOL",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "PASTILLE"
+      }
+    },
+    {
+      "source_record_id": "6091",
+      "brand_name": "HUMEX MAL DE GORGE ORANGE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "PASTILLE"
+      }
+    },
+    {
+      "source_record_id": "6092",
+      "brand_name": "HUMEX RHUME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12 ET 4",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CHLORPHENAMINE (MALEATE) // PSEUDOEPHEDRINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "21,90 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG + 60   MG  /  COMPRIME 500   MG + 4   MG  /  GELULE",
+        "Forme": "COMPRIME / GELULE"
+      }
+    },
+    {
+      "source_record_id": "6093",
+      "brand_name": "HUMEX RHUME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "BENZALKONIUM (CHLORURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "19,10 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0004",
+        "Forme": "SOLUTION POUR PULVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "6094",
+      "brand_name": "HUMEX TAMPON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 TAMPON IMPREGNE EN TUBE",
+        "PP / GN": "NA",
+        "Substance active": "LEVOMENTHOL // CAMPHRE // SALICYLATE DE METHYLE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "17,70 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "42,11 G  /  42,11 G  /  11,58 G",
+        "Forme": "TAMPON IMPREGNE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "2851",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES DE 0,8 ML",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE-IMMUNOMODULATION",
+        "EPI": "MAPHAR",
+        "PPV": "6.290.00 DH",
+        "PH": "6.063.00 DH",
+        "PFHT": "5.774.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2852",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS DE 0,8 ML",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE-IMMUNOMODULATION",
+        "EPI": "MAPHAR",
+        "PPV": "7.623.00 DH",
+        "PH": "7.436.00 DH",
+        "PFHT": "7.082.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7987",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "3.262.00 DH",
+        "PH": "2.946.00 DH",
+        "PFHT": "2.805.96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  0,2  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7988",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "6.124.00 DH",
+        "PH": "5.892.00 DH",
+        "PFHT": "5.611.87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  08  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE  PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "8100",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "5.842.00 DH",
+        "PH": "5.602.00 DH",
+        "PFHT": "5.335.55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "8107",
+      "brand_name": "HUMIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "5.842.00 DH",
+        "PH": "5.602.00 DH",
+        "PFHT": "5.335.55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  0.4  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6705",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6706",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "122,40 DH",
+        "PH": "76,50 DH",
+        "PFHT": "72,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6707",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "71,00 DH",
+        "PH": "44,40 DH",
+        "PFHT": "42,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "6708",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "69,10 DH",
+        "PH": "43,20 DH",
+        "PFHT": "41,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6709",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "178,20 DH",
+        "PH": "111,40 DH",
+        "PFHT": "106,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

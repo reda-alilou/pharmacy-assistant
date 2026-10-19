@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 312,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=312",
+  "fetched_at_utc": "2026-10-18T16:27:52.143881+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6787",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "463,00 DH",
+        "PH": "308,00 DH",
+        "PFHT": "293,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "6788",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "141,80 DH",
+        "PH": "88,60 DH",
+        "PFHT": "84,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "6789",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "91,10 DH",
+        "PH": "56,80 DH",
+        "PFHT": "50,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "6790",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "146,00 DH",
+        "PH": "91,20 DH",
+        "PFHT": "86,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "6791",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "42,90 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "9838",
+      "brand_name": "O-LINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7945",
+      "brand_name": "OCEDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CEFPODOXIME PROXETIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "132,80 DH",
+        "PH": "83,00 DH",
+        "PFHT": "79,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7969",
+      "brand_name": "OCEDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CEFPODOXIME PROXETIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "75,40 DH",
+        "PH": "47,10 DH",
+        "PFHT": "44,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7970",
+      "brand_name": "OCEDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFPODOXIME PROXETIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  5 ML",
+        "Forme": "GRANULES POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7971",
+      "brand_name": "OCEDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFPODOXIME PROXETIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "53,00 DH",
+        "PH": "33,10 DH",
+        "PFHT": "31,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "41   MG  /  5 ML",
+        "Forme": "GRANULES POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8676",
+      "brand_name": "OCEDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "CEFPODOXIME PROXETIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5878",
+      "brand_name": "OCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "55,00 DH",
+        "PH": "34,40 DH",
+        "PFHT": "32,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5879",
+      "brand_name": "OCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5880",
+      "brand_name": "OCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "100,90 DH",
+        "PH": "63,10 DH",
+        "PFHT": "60,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7194",
+      "brand_name": "OCREVUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "OCRELIZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "42.099.00 DH",
+        "PH": "41.282.00 DH",
+        "PFHT": "40.882.35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5143",
+      "brand_name": "OCTAFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR IX DE COAGULATION HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "4.577.00 DH",
+        "PH": "4.300.00 DH",
+        "PFHT": "4.095.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5144",
+      "brand_name": "OCTAFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR IX DE COAGULATION HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.488.00 DH",
+        "PH": "2.150.00 DH",
+        "PFHT": "2.047.95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5145",
+      "brand_name": "OCTAGAM 10%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "5.361.00 DH",
+        "PH": "5.107.00 DH",
+        "PFHT": "4.864.31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5146",
+      "brand_name": "OCTAGAM 10%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "10.323.00 DH",
+        "PH": "10.128.00 DH",
+        "PFHT": "9.728.63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5147",
+      "brand_name": "OCTAGAM 10%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.880.00 DH",
+        "PH": "2.553.00 DH",
+        "PFHT": "2.432.15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 146,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=146",
+  "fetched_at_utc": "2026-10-18T16:22:19.360872+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2789",
+      "brand_name": "DUROGESIC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "167,50 DH",
+        "PH": "104,40 DH",
+        "PFHT": "93,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12 µG  /  H",
+        "Forme": "DISPOSITIF EMULSION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "2790",
+      "brand_name": "DUROGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "225,00 DH",
+        "PH": "140,80 DH",
+        "PFHT": "134,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG  /  H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "2791",
+      "brand_name": "DUROGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "363,00 DH",
+        "PH": "241,00 DH",
+        "PFHT": "230,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "2792",
+      "brand_name": "DUROGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "627,00 DH",
+        "PH": "417,00 DH",
+        "PFHT": "397,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 µG  /  H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5732",
+      "brand_name": "DUROS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CALCIUM (CARBONATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME A CROQUER OU A SUCER"
+      }
+    },
+    {
+      "source_record_id": "2793",
+      "brand_name": "DUSPATALIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "MEBEVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "50,50 DH",
+        "PH": "31,60 DH",
+        "PFHT": "30,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6904",
+      "brand_name": "DUSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "152,50 DH",
+        "PH": "95,30 DH",
+        "PFHT": "90,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULES MOLLES"
+      }
+    },
+    {
+      "source_record_id": "6905",
+      "brand_name": "DUSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "369,00 DH",
+        "PH": "245,00 DH",
+        "PFHT": "233,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULES MOLLES"
+      }
+    },
+    {
+      "source_record_id": "9524",
+      "brand_name": "DUSTA PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE // TAMSULOSINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "165,80 DH",
+        "PH": "103,60 DH",
+        "PFHT": "98,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MG / 0,4 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "7934",
+      "brand_name": "DYMISTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACN DE 23G DE SUSPENSION EN FLACON DE 25ML (ENVIRON 120 DOSES)",
+        "PP / GN": "PP",
+        "Substance active": "AZELASTINE (CHLORHYDRATE) // FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "204,00 DH",
+        "PH": "127,80 DH",
+        "PFHT": "121,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "137 µG  /  50 µG",
+        "Forme": "SUSPENSION POUR PULVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "3640",
+      "brand_name": "DYNASTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10FL",
+        "PP / GN": "PP",
+        "Substance active": "PARECOXIB (SODIUM)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "815,00 DH",
+        "PH": "542,00 DH",
+        "PFHT": "516,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3641",
+      "brand_name": "DYNASTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FL",
+        "PP / GN": "PP",
+        "Substance active": "PARECOXIB (SODIUM)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3642",
+      "brand_name": "DYNASTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10FL",
+        "PP / GN": "PP",
+        "Substance active": "PARECOXIB (SODIUM)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "914,00 DH",
+        "PH": "607,00 DH",
+        "PFHT": "578,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8385",
+      "brand_name": "DYNASTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "PARECOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "2794",
+      "brand_name": "DYSPORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "CLOSTRIDIUM BOTULINUM TYPE A",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.812.00 DH",
+        "PH": "2.482.00 DH",
+        "PFHT": "2.364.75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UNITES SPEYWOOD",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2795",
+      "brand_name": "DYSPORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "CLOSTRIDIUM BOTULINUM TYPE A",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "3.741.00 DH",
+        "PH": "3.439.00 DH",
+        "PFHT": "3.275.93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UNITES SPEYWOOD",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7522",
+      "brand_name": "DYSPORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "CLOSTRIDIUM BOTULINUM TYPE A",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.489.00 DH",
+        "PH": "2.150.00 DH",
+        "PFHT": "2.048.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9383",
+      "brand_name": "EASYSIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D’UNE SERINGUE PRE-REMPLIE DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE ENTIER INACTIVE // HEPATITE B // HAEMOPHILUS INFLUENZAE TYPE B CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": ">= 30 UI , >= 60 UI , >=4 UI , >= 10 UG , 10 UG , 40 UD ,8 UD , 32 UD PAR DOSE DE 0,5 ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4887",
+      "brand_name": "EAU P.P.I",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "EAU POUR PREPARATIONS INJECTABLES",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4888",
+      "brand_name": "EAU P.P.I",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "EAU POUR PREPARATIONS INJECTABLES",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "284,00 DH",
+        "PH": "189,00 DH",
+        "PFHT": "180,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-10-18T16:37:43.284821+00:00",
+  "mode": "live_local_http",
+  "passed": true,
+  "health": {
+    "status": "ok",
+    "catalog_scope": "partial",
+    "catalog_dataset": "ammps_medications_enriched.jsonl",
+    "catalog_record_count": 9936,
+    "catalog_brand_count": 4087,
+    "interpretation_configured": true,
+    "interpretation_model": "qwen/qwen3.8-27b"
+  },
+  "abip_15mg_count": 2,
+  "zinnat_count": 8,
+  "enriched_record_id": "9080",
+  "enriched_atc": "N05AX12",
+  "official_conflict_record_price": 164.5,
+  "conflicts": [
+    {
+      "field": "ppv_price_mad",
+      "reference_value": 164.5,
+      "observed_value": 184.5,
+      "source": "saydalia.ma",
+      "source_url": "https://saydalia.ma/fr/produit/acide-alendronique-normon-70-mg-comprime/"
+    },
+    {
+      "field": "commercialization_status",
+      "reference_value": "Non Commercialisé",
+      "observed_value": "Commercialisé",
+      "source": "saydalia.ma",
+      "source_url": "https://saydalia.ma/fr/produit/acide-alendronique-normon-70-mg-comprime/"
+    }
+  ]
+}

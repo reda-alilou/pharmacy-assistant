@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 289,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=289",
+  "fetched_at_utc": "2026-10-18T16:27:06.138463+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7381",
+      "brand_name": "MYCOPHENOLATE MOFETIL GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "MYCOPHENOLATE MOFETIL",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ATLAS PHARM",
+        "PPV": "574,00 DH",
+        "PH": "381,00 DH",
+        "PFHT": "363,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7382",
+      "brand_name": "MYCOPHENOLATE MOFETIL GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "MYCOPHENOLATE MOFETIL",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ATLAS PHARM",
+        "PPV": "574,00 DH",
+        "PH": "381,00 DH",
+        "PFHT": "363,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6952",
+      "brand_name": "MYCOPHENOLATE MOFETIL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "MYCOPHENOLATE MOFETIL",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "638,00 DH",
+        "PH": "424,00 DH",
+        "PFHT": "404,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2215",
+      "brand_name": "MYCOPHENOLATE MOFETIL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "MYCOPHENOLATE MOFETIL",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "IBERMA",
+        "PPV": "606,00 DH",
+        "PH": "403,00 DH",
+        "PFHT": "383,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2216",
+      "brand_name": "MYCOPHENOLATE MOFETIL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "MYCOPHENOLATE MOFETIL",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "IBERMA",
+        "PPV": "638,00 DH",
+        "PH": "424,00 DH",
+        "PFHT": "404,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "417",
+      "brand_name": "MYCOSPOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "BIFONAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "59,80 DH",
+        "PH": "37,40 DH",
+        "PFHT": "35,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "418",
+      "brand_name": "MYCOSPOR ONYCHOSET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "BIFONAZOLE // UREE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "167,60 DH",
+        "PH": "104,40 DH",
+        "PFHT": "93,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1%  /  40%",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "2559",
+      "brand_name": "MYCOSTATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "NYSTATINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "10,70 DH",
+        "PH": "6,70 DH",
+        "PFHT": "6,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100000 UI",
+        "Forme": "COMPRIME VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "2921",
+      "brand_name": "MYCOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "CICLOPIROXOLAMINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "42,20 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2922",
+      "brand_name": "MYCOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "CICLOPIROXOLAMINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "40,70 DH",
+        "PH": "25,40 DH",
+        "PFHT": "24,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "2923",
+      "brand_name": "MYCOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "CICLOPIROXOLAMINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "120,90 DH",
+        "PH": "75,60 DH",
+        "PFHT": "71,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.08",
+        "Forme": "SOLUTION FILMOGENE"
+      }
+    },
+    {
+      "source_record_id": "4824",
+      "brand_name": "MYDOFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "TOLPERISONE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "87,90 DH",
+        "PH": "54,90 DH",
+        "PFHT": "52,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5586",
+      "brand_name": "MYDRIASERT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 INSERTS ET 20 PINCES",
+        "PP / GN": "PP",
+        "Substance active": "TROPICAMIDE // PHENYLEPHRINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.376.00 DH",
+        "PH": "1.107.00 DH",
+        "PFHT": "1.054.96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "INSERT OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5853",
+      "brand_name": "MYDRIATICUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "TROPICAMIDE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "24,20 DH",
+        "PH": "15,10 DH",
+        "PFHT": "14,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3378",
+      "brand_name": "MYFORTIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "PP",
+        "Substance active": "MYCOPHENOLATE (SODIUM)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.271.00 DH",
+        "PH": "999,00 DH",
+        "PFHT": "952,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "180   MG",
+        "Forme": "COMPRIME PELLICULE GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "3379",
+      "brand_name": "MYFORTIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "PP",
+        "Substance active": "MYCOPHENOLATE (SODIUM)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "2.265.00 DH",
+        "PH": "1.920.00 DH",
+        "PFHT": "1.829.37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "360   MG",
+        "Forme": "COMPRIME PELLICULE GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "7240",
+      "brand_name": "MYHEP ALL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SOFOSBUVIR // VELPATASVIR",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "4.395.00 DH",
+        "PH": "4.112.00 DH",
+        "PFHT": "3.916.70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4722",
+      "brand_name": "MYK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "SULCONAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "37,00 DH",
+        "PH": "23,10 DH",
+        "PFHT": "22,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4723",
+      "brand_name": "MYK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "SULCONAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "60,30 DH",
+        "PH": "37,70 DH",
+        "PFHT": "35,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "4947",
+      "brand_name": "MYNAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

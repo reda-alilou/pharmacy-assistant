@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 253,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=253",
+  "fetched_at_utc": "2026-10-18T16:25:53.877954+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4713",
+      "brand_name": "LEVOMAZINE POLYMEDIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "82,40 DH",
+        "PH": "51,50 DH",
+        "PFHT": "49,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4714",
+      "brand_name": "LEVOMAZINE POLYMEDIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "15,10 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4715",
+      "brand_name": "LEVOMAZINE POLYMEDIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "37,80 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4816",
+      "brand_name": "LEVONIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UNSAC DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE HEMIHYDRATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "173,70 DH",
+        "PH": "108,60 DH",
+        "PFHT": "103,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  50  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4817",
+      "brand_name": "LEVONIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 FLACONS DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE HEMIHYDRATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "987,00 DH",
+        "PH": "708,00 DH",
+        "PFHT": "674,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4818",
+      "brand_name": "LEVONIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE HEMIHYDRATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "284,00 DH",
+        "PH": "188,80 DH",
+        "PFHT": "179,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4819",
+      "brand_name": "LEVONIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN SAC DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE HEMIHYDRATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "284,00 DH",
+        "PH": "188,80 DH",
+        "PFHT": "179,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7002",
+      "brand_name": "LEVONOGESTREL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "61,20 DH",
+        "PH": "38,20 DH",
+        "PFHT": "36,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6749",
+      "brand_name": "LEVOPHTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEVOCABASTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "966",
+      "brand_name": "LEVOTHYROX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LEVOTHYROXINE SODIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "967",
+      "brand_name": "LEVOTHYROX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LEVOTHYROXINE SODIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "34,70 DH",
+        "PH": "21,70 DH",
+        "PFHT": "20,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "968",
+      "brand_name": "LEVOTHYROX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LEVOTHYROXINE SODIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "6,30 DH",
+        "PH": "4,00 DH",
+        "PFHT": "3,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "969",
+      "brand_name": "LEVOTHYROX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LEVOTHYROXINE SODIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "12,50 DH",
+        "PH": "7,80 DH",
+        "PFHT": "7,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4031",
+      "brand_name": "LEVOZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON COMPTE GOUTTES 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "100,70 DH",
+        "PH": "63,00 DH",
+        "PFHT": "59,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4032",
+      "brand_name": "LEVOZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON COMPTE GOUTTES 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "30,60 DH",
+        "PH": "19,00 DH",
+        "PFHT": "18,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4033",
+      "brand_name": "LEVOZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "37,50 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4034",
+      "brand_name": "LEVOZINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8590",
+      "brand_name": "LEVOZINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8591",
+      "brand_name": "LEVOZINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "LEVOMEPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5078",
+      "brand_name": "LEXOMIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "BROMAZEPAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "42,80 DH",
+        "PH": "26,70 DH",
+        "PFHT": "23,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG",
+        "Forme": "COMPRIME QUADRISECABLE"
+      }
+    }
+  ]
+}

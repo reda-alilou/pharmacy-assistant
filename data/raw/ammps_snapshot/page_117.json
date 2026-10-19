@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 117,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=117",
+  "fetched_at_utc": "2026-10-18T16:21:21.176856+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7195",
+      "brand_name": "CYCLOLUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "OITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "267,00 DH",
+        "PH": "177,80 DH",
+        "PFHT": "169,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7196",
+      "brand_name": "CYCLOLUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "OITE D'UN FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "247,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3486",
+      "brand_name": "CYCLOMIDE NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 1000 MG",
+        "PP / GN": "GN",
+        "Substance active": "CYCLOPHOSPHAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "80,00 DH",
+        "PH": "50,00 DH",
+        "PFHT": "47,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERALE"
+      }
+    },
+    {
+      "source_record_id": "3487",
+      "brand_name": "CYCLOMIDE NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 500 MG",
+        "PP / GN": "GN",
+        "Substance active": "CYCLOPHOSPHAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "47,00 DH",
+        "PH": "29,40 DH",
+        "PFHT": "28,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERALE"
+      }
+    },
+    {
+      "source_record_id": "5717",
+      "brand_name": "CYMBALTA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DULOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "284,00 DH",
+        "PH": "177,40 DH",
+        "PFHT": "158,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5718",
+      "brand_name": "CYMBALTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DULOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "274,00 DH",
+        "PH": "182,60 DH",
+        "PFHT": "173,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5064",
+      "brand_name": "CYMEVENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "GANCICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "537,00 DH",
+        "PH": "357,00 DH",
+        "PFHT": "340,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "7310",
+      "brand_name": "CYRAMZA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "UN FLACON DE 10 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "RAMUCIRUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "4.999.00 DH",
+        "PH": "4.734.00 DH",
+        "PFHT": "4.509.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7311",
+      "brand_name": "CYRAMZA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "UN FLACON DE 50 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "RAMUCIRUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "23.396.00 DH",
+        "PH": "22.945.00 DH",
+        "PFHT": "22.545.24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4641",
+      "brand_name": "CYTARABINE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYTARABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "25,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4642",
+      "brand_name": "CYTARABINE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CYTARABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "195,00 DH",
+        "PH": "121,90 DH",
+        "PFHT": "116,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3340",
+      "brand_name": "CYTEAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "CHLORHEXIDINE (DIGLUCONATE) // CHLOROCRESOL // HEXAMIDINE (DI-ISETHIONATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "27,10 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5  ML  /  0,30 G  /  0,10 G",
+        "Forme": "SOLUTION MOUSSANTE"
+      }
+    },
+    {
+      "source_record_id": "3341",
+      "brand_name": "CYTEAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "CHLORHEXIDINE (DIGLUCONATE) // CHLOROCRESOL // HEXAMIDINE (DI-ISETHIONATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "46,10 DH",
+        "PH": "28,80 DH",
+        "PFHT": "27,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5  ML  /  0,30 G  /  0,10 G",
+        "Forme": "SOLUTION MOUSSANTE"
+      }
+    },
+    {
+      "source_record_id": "7877",
+      "brand_name": "CYTOMIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "BORTEZOMIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "3.306.00 DH",
+        "PH": "2.991.00 DH",
+        "PFHT": "2.849.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,5  MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3625",
+      "brand_name": "CYTOTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "MISOPROSTOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PFIZER",
+        "PPV": "181,50 DH",
+        "PH": "113,40 DH",
+        "PFHT": "108,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3488",
+      "brand_name": "D-BLASTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON UNITAIRE+ 1AMPOULE D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "DAUNORUBICINE HYDROCHLORIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "126,00 DH",
+        "PH": "78,70 DH",
+        "PFHT": "75,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1260",
+      "brand_name": "D-CURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 AMPOULE DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ERGO MAROC",
+        "PPV": "52,60 DH",
+        "PH": "32,90 DH",
+        "PFHT": "31,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI",
+        "Forme": "CURE AMPOULE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7001",
+      "brand_name": "D-CURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "UN FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ERGO MAROC",
+        "PPV": "51,50 DH",
+        "PH": "32,20 DH",
+        "PFHT": "30,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 400 UI",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "8339",
+      "brand_name": "D-CURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 GELULES",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ERGO MAROC",
+        "PPV": "58,00 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8340",
+      "brand_name": "D-CURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 GELULES",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ERGO MAROC",
+        "PPV": "173,50 DH",
+        "PH": "108,50 DH",
+        "PFHT": "103,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI",
+        "Forme": "GELULES"
+      }
+    }
+  ]
+}

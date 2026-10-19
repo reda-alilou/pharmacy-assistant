@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 34,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=34",
+  "fetched_at_utc": "2026-10-18T16:18:34.872705+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1329",
+      "brand_name": "APRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "71,20 DH",
+        "PH": "44,50 DH",
+        "PFHT": "42,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5554",
+      "brand_name": "APROKAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "CEFUROXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.191.00 DH",
+        "PH": "917,00 DH",
+        "PFHT": "873,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5555",
+      "brand_name": "APROKAM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "CEFUROXIME",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "157,00 DH",
+        "PH": "97,80 DH",
+        "PFHT": "87,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "5197",
+      "brand_name": "APROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "179,50 DH",
+        "PH": "112,20 DH",
+        "PFHT": "106,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5198",
+      "brand_name": "APROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "155,80 DH",
+        "PH": "97,40 DH",
+        "PFHT": "92,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5199",
+      "brand_name": "APROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "209,00 DH",
+        "PH": "130,80 DH",
+        "PFHT": "124,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5200",
+      "brand_name": "APROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "185,60 DH",
+        "PH": "116,00 DH",
+        "PFHT": "110,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5201",
+      "brand_name": "APROVEL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "87,10 DH",
+        "PH": "54,40 DH",
+        "PFHT": "51,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5202",
+      "brand_name": "APROVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "108,70 DH",
+        "PH": "67,90 DH",
+        "PFHT": "64,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5203",
+      "brand_name": "APROVEL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "119,90 DH",
+        "PH": "75,00 DH",
+        "PFHT": "71,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5204",
+      "brand_name": "APROVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "218,00 DH",
+        "PH": "136,30 DH",
+        "PFHT": "129,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9190",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "85,10 DH",
+        "PH": "53,20 DH",
+        "PFHT": "50,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9191",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "151,90 DH",
+        "PH": "94,90 DH",
+        "PFHT": "90,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9192",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "349,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9193",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 200 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "945,00 DH",
+        "PH": "664,00 DH",
+        "PFHT": "633,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9194",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "151,90 DH",
+        "PH": "94,90 DH",
+        "PFHT": "90,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9276",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "197,00 DH",
+        "PH": "123,10 DH",
+        "PFHT": "117,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9277",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "325,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "206,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9278",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "349,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9279",
+      "brand_name": "APXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 200 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "945,00 DH",
+        "PH": "663,00 DH",
+        "PFHT": "632,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

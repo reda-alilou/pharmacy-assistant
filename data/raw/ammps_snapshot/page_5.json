@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 5,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=5",
+  "fetched_at_utc": "2026-10-18T16:17:36.802500+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3814",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "2 FLACONS DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "105,30 DH",
+        "PH": "65,80 DH",
+        "PFHT": "62,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3815",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "34,20 DH",
+        "PH": "21,40 DH",
+        "PFHT": "20,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3816",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "60,50 DH",
+        "PH": "37,80 DH",
+        "PFHT": "36,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3817",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  200   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3818",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3819",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "74,60 DH",
+        "PH": "46,60 DH",
+        "PFHT": "44,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3820",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "99,50 DH",
+        "PH": "62,20 DH",
+        "PFHT": "59,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3821",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "113,50 DH",
+        "PH": "71,00 DH",
+        "PFHT": "67,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8127",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8128",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  125   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8129",
+      "brand_name": "ACLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6564",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "55,80 DH",
+        "PH": "34,80 DH",
+        "PFHT": "31,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6565",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "106,10 DH",
+        "PH": "66,10 DH",
+        "PFHT": "59,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6566",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "142,10 DH",
+        "PH": "88,80 DH",
+        "PFHT": "84,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6567",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "288,00 DH",
+        "PH": "191,00 DH",
+        "PFHT": "170,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6568",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "106,20 DH",
+        "PH": "66,20 DH",
+        "PFHT": "59,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6569",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "202,00 DH",
+        "PH": "125,90 DH",
+        "PFHT": "112,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6570",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "269,00 DH",
+        "PH": "179,10 DH",
+        "PFHT": "170,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6571",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "497,00 DH",
+        "PH": "330,00 DH",
+        "PFHT": "314,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6572",
+      "brand_name": "ACNO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "140,40 DH",
+        "PH": "87,50 DH",
+        "PFHT": "78,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    }
+  ]
+}

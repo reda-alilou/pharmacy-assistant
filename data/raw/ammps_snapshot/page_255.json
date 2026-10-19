@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 255,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=255",
+  "fetched_at_utc": "2026-10-18T16:25:57.903845+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2524",
+      "brand_name": "LIDOCAINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 24 ML",
+        "PP / GN": "GN",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "24,40 DH",
+        "PH": "15,20 DH",
+        "PFHT": "14,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION POUR ANESTHESIE DE CONTACT"
+      }
+    },
+    {
+      "source_record_id": "2525",
+      "brand_name": "LIDOCAINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "14,70 DH",
+        "PH": "9,20 DH",
+        "PFHT": "8,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2526",
+      "brand_name": "LIDOCAINE NAPHAZOLINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 24 ML",
+        "PP / GN": "GN",
+        "Substance active": "LIDOCAINE // NAPHAZOLINE (NITRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION DE CONTACT"
+      }
+    },
+    {
+      "source_record_id": "2527",
+      "brand_name": "LIDOCAINE VISQUEUSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 100 G",
+        "PP / GN": "GN",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "30,10 DH",
+        "PH": "18,80 DH",
+        "PFHT": "17,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "GEL ORAL"
+      }
+    },
+    {
+      "source_record_id": "3148",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "33,20 DH",
+        "PH": "20,70 DH",
+        "PFHT": "19,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "3149",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "55,10 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "3150",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 30 ML AVEC DISPO PULVE",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "55,10 DH",
+        "PH": "34,40 DH",
+        "PFHT": "32,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION POUR PULVERISATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "3151",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "129,90 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3152",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "232,00 DH",
+        "PH": "145,40 DH",
+        "PFHT": "138,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3153",
+      "brand_name": "LIFONGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6913",
+      "brand_name": "LIKACIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMIKACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "63,80 DH",
+        "PH": "39,90 DH",
+        "PFHT": "38,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2  ML",
+        "Forme": "SOLUTION POUR INJECTION IM/IV"
+      }
+    },
+    {
+      "source_record_id": "6914",
+      "brand_name": "LIKACIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 FLACONS DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMIKACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "1.888.00 DH",
+        "PH": "1.635.00 DH",
+        "PFHT": "1.557.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2  ML",
+        "Forme": "SOLUTION POUR INJECTION IM/IV"
+      }
+    },
+    {
+      "source_record_id": "970",
+      "brand_name": "LINCOCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "LINCOMYCINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "COOPER PHARMA",
+        "PPV": "43,00 DH",
+        "PH": "26,80 DH",
+        "PFHT": "23,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "971",
+      "brand_name": "LINCOCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "LINCOMYCINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "14,90 DH",
+        "PH": "9,30 DH",
+        "PFHT": "8,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "972",
+      "brand_name": "LINCOCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "LINCOMYCINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "82,50 DH",
+        "PH": "51,60 DH",
+        "PFHT": "49,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5331",
+      "brand_name": "LINDILANE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "22,60 DH",
+        "PH": "14,10 DH",
+        "PFHT": "12,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400  /  25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4936",
+      "brand_name": "LIOMETACEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "INDOMETACINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "55,80 DH",
+        "PH": "34,90 DH",
+        "PFHT": "33,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "3373",
+      "brand_name": "LIORESAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "BACLOFENE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "86,10 DH",
+        "PH": "53,80 DH",
+        "PFHT": "51,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4485",
+      "brand_name": "LIOTON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "49,50 DH",
+        "PH": "30,90 DH",
+        "PFHT": "29,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 000 UI",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "5332",
+      "brand_name": "LIPANOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CIPROFIBRATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "82,00 DH",
+        "PH": "51,20 DH",
+        "PFHT": "48,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2232 @@
+{
+  "generated_at_utc": "2026-10-19T18:51:29.751718+00:00",
+  "mode": "offline_backend_with_annotated_extraction",
+  "live_provider_requests": 0,
+  "is_model_accuracy_measurement": false,
+  "split": "development",
+  "held_out_execution": "not_run",
+  "conversation_request_contract": "text + opaque session_id from preceding response",
+  "catalogue_sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+  "pharmacy_directory_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+  "catalogue_path": "data\\staging\\demo_enrichment_v1\\ammps_medications_enriched.jsonl",
+  "pharmacy_directory_path": "data\\staging\\demo_enrichment_v1\\pharmacies_rabat.jsonl",
+  "backend_source_sha256": {
+    "chat.py": "a93ae24446705cd6ad6a6aea3f8c5c56e5750882f8ce822709e5dc17662a64cf",
+    "chat_models.py": "44bd2472c166ba14e8b12018e36e53ef621420f2bce90f083ff82ded5eafb461",
+    "conversation.py": "9c9ee67dfbf760eb13fccfa92d88282e03e7b6b0cfa1a7d6648c3c7d4ff5587c",
+    "pricing.py": "da75ea9c9f743b912f0825758116bb5f6f9b8ff4384252bf98019834174e4a5c",
+    "resolution.py": "19eabb30e41f082f965e4b975a3656b309364fb2c2983be71f308f8ad807f92a",
+    "medication_normalization.py": "66fa48d4d16bc3bd4d455e5664da9e2ec10bba5891fec138e2a24649cc6aba78",
+    "catalog.py": "4b728bce1d4e37b9558539104ea789ce11fec52c9ff6b43c5b85e098f4cf50e5",
+    "pharmacy_directory.py": "bd52e09cb63a4df42e54826913e7bb73a74467bff5218812884a707fe68644da",
+    "pharmacy_normalization.py": "838967633d27090f00b9921acc712b9de49b0ac2893c7602f1833a77c5165247",
+    "answer_templates.py": "49c0e3ba0e9f200819bf8ef391fbc0be809588008cb7b1034988c5e54c77fbd0"
+  },
+  "annotations_sha256": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+  "dataset_validation": {
+    "examples": 80,
+    "development": 40,
+    "held_out": 40,
+    "by_split_and_group": {
+      "development": {
+        "fr": 10,
+        "ar": 10,
+        "darija": 10,
+        "mixed": 10
+      },
+      "held_out": {
+        "fr": 10,
+        "ar": 10,
+        "darija": 10,
+        "mixed": 10
+      }
+    },
+    "kinds": {
+      "single_turn": 64,
+      "conversation_turn": 16
+    },
+    "catalogue_matches_annotation_snapshot": true,
+    "held_out_execution": "not_run",
+    "annotation_provenance": "Assistant-authored synthetic examples, reviewed against the extraction contract, raw text spans and stored catalogue. No independent human/native-speaker review or inter-annotator agreement is claimed."
+  },
+  "summary": {
+    "cases": 40,
+    "passed_cases": 40,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 32
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 8
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {},
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "results": [
+    {
+      "id": "dev-fr-01",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "misspelling",
+        "confirmation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORTT: Nom à confirmer : choisissez une proposition, aucune correspondance approximative n'a été sélectionnée.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "suggestions",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": "confirm_name"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-01",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_substance",
+        "alias"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "AMOXICILLINE",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "أموكسيسيلين: ما التركيز الذي تبحث عنه؟\n\nالقيم المسجلة: 1 G; 1 G / ML; 1000 MG (IM); 125 MG; 2 G; 2000 MG (IM); 250 MG; 250 MG / 5 ML; …\n\nحدد التفاصيل لتضييق البحث أو اعرض العبوات التالية.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "3842",
+              "4122",
+              "4116",
+              "3841",
+              "4120"
+            ],
+            "candidate_count": 148,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": "strength",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-01",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "arabizi_brand",
+        "misspelling"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "airkort: 2akked smit ddwa b chi ikhtiyar; ta wa7ed ma tkhtar automatiquement.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "suggestions",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": "confirm_name"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-01",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "code_switching",
+        "quantity",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9079"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 20 COMPRIMES PELLICULES\nPrix public enregistré: 268.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 268.00 MAD = 536.00 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "536.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9079",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "deux boîtes",
+              "presentation_count": 2,
+              "unit_price_mad": "268.00",
+              "total_price_mad": "536.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-02",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "substance",
+        "strength",
+        "broad_candidates"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "AMOXICILLINE",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AMOXICILLINE: Quelle forme recherchez-vous ?\n\nValeurs enregistrées: COMPRIME DISPERSIBLE; GELULE; POUDRE ET SOLVANT POUR PREPARATION INJECTABLE; POUDRE POUR SOLUTION BUVABLE; POUDRE POUR SUSPENSION BUVABLE; POUDRE POUR SUSPENSION ORALE; SACHET\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "4121",
+              "3848",
+              "8145",
+              "3849",
+              "6310"
+            ],
+            "candidate_count": 44,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": "form",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-02",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_digits",
+        "quantity",
+        "presentation",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nالثمن العمومي المسجل: 372.00 MAD.\nالمجموع المحسوب لـ 2 عبوة كاملة: 2 × 372.00 MAD = 744.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "744.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "علبتين",
+              "presentation_count": 2,
+              "unit_price_mad": "372.00",
+              "total_price_mad": "744.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-02",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "darija_arabic",
+        "quantity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nالثمن العمومي المسجل: 83.00 MAD.\nالمجموع المحسوب ديال 2 عبوة كاملة: 2 × 83.00 MAD = 166.00 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nالستوك فالصيدلية ما معروفش. حالة التسويق ما كتأكدش بلي الدوا كاين فشي صيدلية.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "جوج علب",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-02",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_medications",
+        "partial_ambiguity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\nSubstance active: BECLOMETASONE.\n\nABIP: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          },
+          {
+            "mention_index": 1,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-03",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "unmatched_strength",
+        "recovery"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "filters_not_matched"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ABIP: Nom trouvé, mais aucun enregistrement ne correspond au dosage, à la forme ou à la présentation demandés. Vérifiez ces précisions. Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 15 MG",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "filters_not_matched",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": "strength",
+            "clarification_kind": "correct_filters"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-03",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_brand",
+        "ambiguous_form"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "دوليبران: يرجى تحديد الدواء أو التركيز أو العبوة من الخيارات المقترحة.\n\nمخزون الصيدليات غير معروف. حالة التسويق لا تؤكد توفر الدواء في صيدلية معينة.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "572",
+              "573",
+              "574",
+              "575",
+              "576"
+            ],
+            "candidate_count": 5,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-03",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_intents",
+        "presentation_ambiguity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ABIP: Khtar smit ddwa, tarkiz wla l3elba men l'ikhtiyarat.\n\nStock f ssaydaliya ma m3roufch. Statut dyal commercialisation ma kay2akkedch belli ddwa kayn f chi saydaliya.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-03",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "strength",
+        "presentation",
+        "code_switching"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "2004"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ZINNAT — 250 MG — COMPRIME PELLICULE — BOITE DE 14\nPrix public enregistré: 130.10 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "2004",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-04",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "quantity",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 83.00 MAD = 166.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "deux boîtes",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-04",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "unknown_medication"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "not_found",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "QQQMISSING2026: لم يتم العثور على تطابق في هذا الكتالوج الجزئي. هذا لا يثبت أن الدواء غير موجود أو غير متوفر.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "not_found",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-04",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "darija_latin",
+        "pharmacy_contact"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Hadi nata2ij men annuaire nna9es dyal Rabat, mrattbin b smiya, machi b l9orb. 2akked lma3loumat b telephone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-mixed-04",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_substance",
+        "broad_candidates"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "PARACETAMOL",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "باراسيتامول: Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 0.024; 0.03; 10 MG / ML; 100 MG; 100 MG / ML; 1000 MG; 120 MG / 5 ML; 125 MG; …\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "8151",
+              "5122",
+              "787",
+              "789",
+              "7871"
+            ],
+            "candidate_count": 141,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": "strength",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-05",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_medications",
+        "quantity",
+        "presentation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9079"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 20 COMPRIMES PELLICULES\nPrix public enregistré: 268.00 MAD.\nTotal calculé pour 1 présentation(s) complète(s) : 1 × 268.00 MAD = 268.00 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.\n\nAIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 83.00 MAD = 166.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\n\nTotal calculé de toutes les lignes : 434.00 MAD.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "434.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9079",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "une boîte",
+              "presentation_count": 1,
+              "unit_price_mad": "268.00",
+              "total_price_mad": "268.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          },
+          {
+            "mention_index": 1,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "deux boîtes",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-05",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_pharmacy_alias"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "نتائج من دليل جزئي للرباط مرتبة حسب الاسم؛ لم يتم حساب القرب. يرجى تأكيد البيانات المسجلة هاتفياً.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-darija-05",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "district",
+        "darija_latin"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Hadi nata2ij men annuaire nna9es dyal Rabat, mrattbin b smiya, machi b l9orb. 2akked lma3loumat b telephone.\n\nPharmacie Al Amana — 0537262773 — 425 bd hassan ii n°7 diour jamâa (prés hotel oscar) Rabat\n\nPharmacie les Almohades — 0537707001 — 5 rue zagora hassan (a cote de l'école st gabriel) Rabat\n\nPharmacie Anasse — 0537298899 — résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)\n\nPharmacie Anzi — 0537691313 — n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)\n\nPharmacie Ben Omar — 0537769930 — 72 bis av du chellah - hassan Rabat",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-mixed-05",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_intents",
+        "pharmacy_contact",
+        "hours"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat\n\nHoraires d'ouverture non vérifiés ; contactez la pharmacie pour confirmation.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-fr-06",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "pharmacy_contact"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-ar-06",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "duty",
+        "time"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "نتائج من دليل جزئي للرباط مرتبة حسب الاسم؛ لم يتم حساب القرب. يرجى تأكيد البيانات المسجلة هاتفياً.\n\nPharmacie du 16 novembre — 0537670024 — 16.av du 16 novembre - haut agdal (prés du kitea) Rabat\n\nPharmacie Abdelkrim ElKhattabi — 0537203881 — 272, avenue Abdelkrim Al Khattabi, Océan Rabat\n\nPharmacie Abi Hourayra — 0537795072 — 73, lot haj slimane j3 c.y.m ( prés de souk laghzel) Rabat\n\nPharmacie Abou Bakr Assedik — 0537651874 — rue Chaouiah, imm. J n°5 q. Mabella Rabat\n\nPharmacie Abtal — 0537653710 — 53 groupe zouhour (en face dar chabab) - Rabat\n\nلا تتوفر بيانات حراسة مؤرخة ومؤكدة. هذه النتائج لا تحدد صيدليات الحراسة.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-darija-06",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "outside_coverage",
+        "date",
+        "darija_arabic"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "هاد الديمو عندها غير دليل ناقص ديال الصيدليات فالرباط.\n\nما عندناش حراسة بتاريخ مؤكد. هاد النتائج ما كيحددوش صيدليات الحراسة.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "outside_coverage"
+      }
+    },
+    {
+      "id": "dev-mixed-06",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_district",
+        "code_switching"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Attannoub — 0537713885 — av attannoub hay riad, 5d 11 Rabat\n\nPharmacie City Center Ryad — 0537563277 — Pharmacie City Center Ryad RABAT\n\nPharmacie la Fidelité — 0537710815 — bd Mehdi Benbarka -ex Béni Znassen, Hay Riad Rabat\n\nPharmacie Ghayt — 0537571572 — av nakhil résidence ryad al otors Rabat\n\nPharmacie Hay Gare Riad — 0537711748 — Rabat",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-fr-07",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "pharmacy_search",
+        "hours",
+        "multiple_intents"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie du 16 novembre — 0537670024 — 16.av du 16 novembre - haut agdal (prés du kitea) Rabat\n\nPharmacie De L'agdal — 0537671600 — avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat\n\nPharmacie Alam — 0537775269 — 33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat\n\nPharmacie Anasse — 0537298899 — résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)\n\nPharmacie Anzi — 0537691313 — n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)\n\nHoraires d'ouverture non vérifiés ; contactez la pharmacie pour confirmation.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-ar-07",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "incomplete"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-07",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "incomplete"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-07",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "instruction_injection",
+        "unrelated"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Je peux consulter les médicaments et l'annuaire disponible. Je ne fournis ni diagnostic ni recommandation de traitement ; demandez conseil à un pharmacien ou un médecin.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-08",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "clinical_boundary"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Je peux consulter les médicaments et l'annuaire disponible. Je ne fournis ni diagnostic ni recommandation de traitement ; demandez conseil à un pharmacien ou un médecin.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-08",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "unmatched_strength",
+        "units"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "filters_not_matched"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORT: تم العثور على الاسم، لكن التركيز أو الشكل أو العبوة المطلوبة لا تطابق السجلات. يرجى التحقق من هذه التفاصيل. ما التركيز الذي تبحث عنه؟\n\nالقيم المسجلة: 250 µG / DOSE\n\nمخزون الصيدليات غير معروف. حالة التسويق لا تؤكد توفر الدواء في صيدلية معينة.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "filters_not_matched",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": "strength",
+            "clarification_kind": "correct_filters"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-08",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "unknown_medication"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "not_found",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ZZUNKNOWN77: Ma l9itch tatabo9 f had catalogue nna9es. Hadchi ma kay3nich belli ddwa ma kaynch wla ma mtwfferch.\n\nStock f ssaydaliya ma m3roufch. Statut dyal commercialisation ma kay2akkedch belli ddwa kayn f chi saydaliya.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "not_found",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-08",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "missing_price",
+        "presentation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9302"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "18F PSMA RIM — 250 MBQ / ML — SOLUTION INJECTABLE — BOITE D'UN FLACON MONODOSE DE 15 ML\nPrix public non renseigné.\nStatut de commercialisation enregistré: AMM sans prix.",
+        "context_inherited_fields": [],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9302",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-09",
+      "group": "fr",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-09",
+      "group": "ar",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nالثمن العمومي المسجل: 372.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-09",
+      "group": "darija",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nTaman l3omomi lmsjjel: 372.00 MAD.\nStatut dyal commercialisation lmsjjel: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-09",
+      "group": "mixed",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-10",
+      "group": "fr",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 83.00 MAD = 166.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name",
+          "medications.0.strength",
+          "medications.0.form",
+          "medications.0.presentation"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "deux boîtes",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-10",
+      "group": "ar",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nالثمن العمومي المسجل: 83.00 MAD.\nالمجموع المحسوب لـ 2 عبوة كاملة: 2 × 83.00 MAD = 166.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name",
+          "medications.0.strength",
+          "medications.0.form",
+          "medications.0.presentation"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "علبتين",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-10",
+      "group": "darija",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nTaman l3omomi lmsjjel: 83.00 MAD.\nLmajmou3 lme7soub dyal 2 présentation kamla: 2 × 83.00 MAD = 166.00 MAD.\nStatut dyal commercialisation lmsjjel: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name",
+          "medications.0.strength",
+          "medications.0.form",
+          "medications.0.presentation"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "jouj l3lab",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-10",
+      "group": "mixed",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 83.00 MAD = 166.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "context_inherited_fields": [
+          "medications.0.name",
+          "medications.0.strength",
+          "medications.0.form",
+          "medications.0.presentation"
+        ],
+        "needs_reference": false,
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "166.00",
+          "currency": "MAD"
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "جوج علب",
+              "presentation_count": 2,
+              "unit_price_mad": "83.00",
+              "total_price_mad": "166.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            },
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    }
+  ]
+}

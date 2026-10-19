@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 340,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=340",
+  "fetched_at_utc": "2026-10-18T16:28:48.299559+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4344",
+      "brand_name": "PHARMAFLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 6 AMPOULES (IM)",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "40,90 DH",
+        "PH": "25,60 DH",
+        "PFHT": "24,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4345",
+      "brand_name": "PHARMAFLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "35,30 DH",
+        "PH": "22,10 DH",
+        "PFHT": "21,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4346",
+      "brand_name": "PHARMAFLAM RETARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "47,80 DH",
+        "PH": "29,90 DH",
+        "PFHT": "28,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4347",
+      "brand_name": "PHARMAFLAM RETARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "57,80 DH",
+        "PH": "36,10 DH",
+        "PFHT": "34,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2968",
+      "brand_name": "PHARMATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "PP",
+        "Substance active": "BENZALKONIUM (CHLORURE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18,9   MG",
+        "Forme": "CAPSULE MOLLE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "2969",
+      "brand_name": "PHARMATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "BENZALKONIUM (CHLORURE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "41,30 DH",
+        "PH": "25,80 DH",
+        "PFHT": "24,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18,9   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "3535",
+      "brand_name": "PHARMAURACIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "FLUOROURACIL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "8992",
+      "brand_name": "PHARMAURACIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "FLUOROURACIL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  20  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "4726",
+      "brand_name": "PHENERGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "PROMETHAZINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "10,10 DH",
+        "PH": "6,30 DH",
+        "PFHT": "6,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4727",
+      "brand_name": "PHENERGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PROMETHAZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "9,90 DH",
+        "PH": "6,20 DH",
+        "PFHT": "5,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "DRAGEE"
+      }
+    },
+    {
+      "source_record_id": "4728",
+      "brand_name": "PHENERGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROMETHAZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "12,40 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5919",
+      "brand_name": "PHENOCILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PHENOXYMETHYLPENICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 MUI",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5920",
+      "brand_name": "PHENOCILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "PHENOXYMETHYLPENICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 MUI",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9370",
+      "brand_name": "PHENYLEPHRINE AFUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "NA",
+        "Substance active": "PHENYLEPHRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 μg  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9482",
+      "brand_name": "PHENYLEPHRINE AFUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "NA",
+        "Substance active": "PHENYLEPHRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.257.00 DH",
+        "PH": "985,00 DH",
+        "PFHT": "939,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µg / ML+5 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2114",
+      "brand_name": "PHENYLEPHRINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHENYLEPHRINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.365.00 DH",
+        "PH": "1.096.00 DH",
+        "PFHT": "1.044.39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9022",
+      "brand_name": "PHESGO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 15ML.",
+        "PP / GN": "PP",
+        "Substance active": "PERTUZUMAB // TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "55.051.00 DH",
+        "PH": "53.980.00 DH",
+        "PFHT": "53.580.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1200   MG  /  600   MG  /  15  ML",
+        "Forme": "SOLUTION PARENTERALE PAR VOIE SOUS-CUTANEE, FLACON DE 15 ML"
+      }
+    },
+    {
+      "source_record_id": "9023",
+      "brand_name": "PHESGO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 10ML.",
+        "PP / GN": "PP",
+        "Substance active": "PERTUZUMAB // TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "32.101.00 DH",
+        "PH": "31.480.00 DH",
+        "PFHT": "31.080.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  600   MG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE PAR VOIE SOUS-CUTANÉE, FLACON DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "6986",
+      "brand_name": "PHIPIXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE HYDROCHLORHDRATE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "133,30 DH",
+        "PH": "83,30 DH",
+        "PFHT": "79,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6987",
+      "brand_name": "PHIPIXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE HYDROCHLORHDRATE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "220,00 DH",
+        "PH": "137,90 DH",
+        "PFHT": "131,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 136,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=136",
+  "fetched_at_utc": "2026-10-18T16:21:59.268695+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3496",
+      "brand_name": "DISPAMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "32,30 DH",
+        "PH": "20,20 DH",
+        "PFHT": "19,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3497",
+      "brand_name": "DISPAMOX",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8374",
+      "brand_name": "DISULONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "-",
+        "Substance active": "DAPSONE // FER OXALATE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2776",
+      "brand_name": "DITROPAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "OXYBUTYNINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "66,30 DH",
+        "PH": "41,30 DH",
+        "PFHT": "36,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2406",
+      "brand_name": "DIUREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "XIPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "68,80 DH",
+        "PH": "43,00 DH",
+        "PFHT": "40,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4883",
+      "brand_name": "DIURIMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "30,10 DH",
+        "PH": "18,80 DH",
+        "PFHT": "17,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4884",
+      "brand_name": "DIURIMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "44,00 DH",
+        "PH": "27,50 DH",
+        "PFHT": "26,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9005",
+      "brand_name": "DIUZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "36,60 DH",
+        "PH": "22,90 DH",
+        "PFHT": "21,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4885",
+      "brand_name": "DIVARIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4886",
+      "brand_name": "DIVARIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "115,10 DH",
+        "PH": "71,90 DH",
+        "PFHT": "68,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6656",
+      "brand_name": "DIVIDO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "27,30 DH",
+        "PH": "17,00 DH",
+        "PFHT": "16,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6657",
+      "brand_name": "DIVIDO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "48,00 DH",
+        "PH": "30,00 DH",
+        "PFHT": "28,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2040",
+      "brand_name": "DOBUTAMINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "DOBUTAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.463.00 DH",
+        "PH": "1.197.00 DH",
+        "PFHT": "1.140.30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  20  ML",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "2041",
+      "brand_name": "DOBUTAMINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOBUTAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "802,00 DH",
+        "PH": "533,00 DH",
+        "PFHT": "508,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  20  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6387",
+      "brand_name": "DOBUTAMINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "DOBUTAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.463.00 DH",
+        "PH": "1.197.00 DH",
+        "PFHT": "1.140.30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  20  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5728",
+      "brand_name": "DOBUTREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "DOBUTAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "221,00 DH",
+        "PH": "138,70 DH",
+        "PFHT": "132,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  20  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9006",
+      "brand_name": "DOCE SPAL-L 160",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 8 ML DE SOLUTION.",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "3.208.00 DH",
+        "PH": "2.891.00 DH",
+        "PFHT": "2.753.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG  /  8  ML",
+        "Forme": "SOLUTION À DILUER POUR PERFUSION, FLACON DE 8 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9007",
+      "brand_name": "DOCE SPAL-L 20",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 1 ML DE SOLUTION.",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "800,00 DH",
+        "PH": "531,00 DH",
+        "PFHT": "506,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  1  ML",
+        "Forme": "SOLUTION À DILUER POUR PERFUSION, FLACON DE 1 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9008",
+      "brand_name": "DOCE SPAL-L 80",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 4 ML DE SOLUTION.",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "2.499.00 DH",
+        "PH": "2.161.00 DH",
+        "PFHT": "2.058.82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  4  ML",
+        "Forme": "SOLUTION À DILUER POUR PERFUSION, FLACON DE 4 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "877",
+      "brand_name": "DOCETAXEL COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1FLACON DE 0,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "821,00 DH",
+        "PH": "546,00 DH",
+        "PFHT": "520,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5685 @@
+{
+  "version": 1,
+  "evaluation_id": "e71267f16cb945e5b030c8684b7ecd17",
+  "fingerprint": "29e109953c5620ef31a5b61c9d974898048d7f5d13b3a94c75d1c7622b7061c0",
+  "generated_at_utc": "2026-10-19T20:17:21.471169+00:00",
+  "sources": {
+    "annotations_sha256": "cb2983d0b8f865c2db5069ad348b3e469f271504b48bae3ce793dd9f7112f8cd",
+    "catalogue_sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+    "pharmacy_directory_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+    "backend_sha256": {
+      "chat.py": "a93ae24446705cd6ad6a6aea3f8c5c56e5750882f8ce822709e5dc17662a64cf",
+      "chat_models.py": "44bd2472c166ba14e8b12018e36e53ef621420f2bce90f083ff82ded5eafb461",
+      "conversation.py": "9c9ee67dfbf760eb13fccfa92d88282e03e7b6b0cfa1a7d6648c3c7d4ff5587c",
+      "pricing.py": "da75ea9c9f743b912f0825758116bb5f6f9b8ff4384252bf98019834174e4a5c",
+      "resolution.py": "19eabb30e41f082f965e4b975a3656b309364fb2c2983be71f308f8ad807f92a",
+      "medication_normalization.py": "ca8987a2654f3ebdfaba93e64c082ec68bd1778318b06dd411ff8f84a67e3d67",
+      "catalog.py": "4b728bce1d4e37b9558539104ea789ce11fec52c9ff6b43c5b85e098f4cf50e5",
+      "pharmacy_directory.py": "bd52e09cb63a4df42e54826913e7bb73a74467bff5218812884a707fe68644da",
+      "pharmacy_normalization.py": "838967633d27090f00b9921acc712b9de49b0ac2893c7602f1833a77c5165247",
+      "answer_templates.py": "49c0e3ba0e9f200819bf8ef391fbc0be809588008cb7b1034988c5e54c77fbd0",
+      "baseline_metrics.py": "151add8f2ca275722a0aec42f12395b575c695411fea2dd4064bb405d1b7ac85",
+      "evaluate_baseline.py": "53165215aab9b257e9bea97c78a6370b16f03c685289b2dc862292dbf678c640",
+      "evaluate_development.py": "175a2d7ebff6cff6edfd15a863fa182bb3373f06e88b294fb5a78c41afd0a712"
+    },
+    "annotations_path": "data\\evaluation\\matching_regressions_v1.json"
+  },
+  "mode": "live_predictions_with_backend_replay",
+  "split": "development",
+  "held_out_execution": "not_run",
+  "freeze": null,
+  "selected_case_ids": [
+    "seen-held-ar-01",
+    "seen-held-ar-02",
+    "seen-held-darija-02",
+    "seen-held-mixed-04",
+    "seen-held-darija-09",
+    "seen-held-mixed-09",
+    "fresh-ar-ventoline-v",
+    "fresh-fr-diacritics",
+    "fresh-darija-augmentin-total",
+    "fresh-darija-box20",
+    "fresh-mixed-box30",
+    "fresh-fr-box40",
+    "fresh-fr-unitless-strength",
+    "fresh-fr-unnamed-order"
+  ],
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "output_mode": "json_object",
+  "predictions": [
+    {
+      "id": "seen-held-ar-01",
+      "case_id": "seen-held-ar-01",
+      "group": "ar",
+      "role": "current",
+      "text": "ما ثمن فنتولين 100 ميكروغرام / جرعة؟",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "فنتولين",
+                "strength": "100 ميكروغرام / جرعة",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1328.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-7d79cc9c-ad64-4b80-8272-9723cb974765",
+          "usage": {
+            "prompt_tokens": 1960,
+            "completion_tokens": 161,
+            "total_tokens": 2121
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1960,
+            "completion_tokens": 161,
+            "total_tokens": 2121
+          },
+          "latency_ms": 1328.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-ar-02",
+      "case_id": "seen-held-ar-02",
+      "group": "ar",
+      "role": "current",
+      "text": "أريد ثمن ثلاث علب من أوغمنتين 1 g / 125 mg، علبة 24.",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوغمنتين",
+                "strength": "1 g / 125 mg",
+                "quantity": "ثلاث علب",
+                "form": null,
+                "presentation": "علبة 24"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 765.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-3c3f8397-94da-4b5a-a076-de2fe10893f8",
+          "usage": {
+            "prompt_tokens": 1970,
+            "completion_tokens": 170,
+            "total_tokens": 2140
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1970,
+            "completion_tokens": 170,
+            "total_tokens": 2140
+          },
+          "latency_ms": 734.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-darija-02",
+      "case_id": "seen-held-darija-02",
+      "group": "darija",
+      "role": "current",
+      "text": "بغيت علبة ديال أوغمنتين 1 g / 125 mg، فيها 16 كيس.",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوغمنتين",
+                "strength": "1 g / 125 mg",
+                "quantity": "علبة",
+                "form": "كيس",
+                "presentation": "16 كيس"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 766.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-2a0213a6-7f8a-4e3d-89c4-6180a75b81dc",
+          "usage": {
+            "prompt_tokens": 1969,
+            "completion_tokens": 172,
+            "total_tokens": 2141
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1969,
+            "completion_tokens": 172,
+            "total_tokens": 2141
+          },
+          "latency_ms": 750.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-mixed-04",
+      "case_id": "seen-held-mixed-04",
+      "group": "mixed",
+      "role": "current",
+      "text": "Est-ce que أوجمنتين disponible en boîte de 12 ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "availability"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوجمنتين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": "boîte de 12"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1032.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-46d45fdd-8065-4ec9-89cd-a08f69cef187",
+          "usage": {
+            "prompt_tokens": 1957,
+            "completion_tokens": 158,
+            "total_tokens": 2115
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1957,
+            "completion_tokens": 158,
+            "total_tokens": 2115
+          },
+          "latency_ms": 969.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-darija-09:context:0",
+      "case_id": "seen-held-darija-09",
+      "group": "darija",
+      "role": "context",
+      "text": "Ch7al taman VENTOLINE?",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "VENTOLINE",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1063.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-a41de3c5-1d01-4760-bb0d-cbd2faccb16e",
+          "usage": {
+            "prompt_tokens": 1951,
+            "completion_tokens": 152,
+            "total_tokens": 2103
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1951,
+            "completion_tokens": 152,
+            "total_tokens": 2103
+          },
+          "latency_ms": 1016.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-darija-09",
+      "case_id": "seen-held-darija-09",
+      "group": "darija",
+      "role": "current",
+      "text": "Bghit lboita dyal 40 dyal l9ras.",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": null,
+                "strength": null,
+                "quantity": "lboita",
+                "form": null,
+                "presentation": "40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 797.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-7206a4d7-7cd4-498b-ad0e-b5aac8df584f",
+          "usage": {
+            "prompt_tokens": 1959,
+            "completion_tokens": 157,
+            "total_tokens": 2116
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1959,
+            "completion_tokens": 157,
+            "total_tokens": 2116
+          },
+          "latency_ms": 765.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-mixed-09:context:0",
+      "case_id": "seen-held-mixed-09",
+      "group": "mixed",
+      "role": "context",
+      "text": "Quel prix ديال VENTOLINE ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "VENTOLINE",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 672.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-35ae598a-d7f6-476f-8b5d-81fdb846c9b3",
+          "usage": {
+            "prompt_tokens": 1952,
+            "completion_tokens": 150,
+            "total_tokens": 2102
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1952,
+            "completion_tokens": 150,
+            "total_tokens": 2102
+          },
+          "latency_ms": 672.0
+        }
+      ]
+    },
+    {
+      "id": "seen-held-mixed-09",
+      "case_id": "seen-held-mixed-09",
+      "group": "mixed",
+      "role": "current",
+      "text": "Les comprimés ديال 40 من فضلك.",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "medication_information"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": null,
+                "strength": null,
+                "quantity": null,
+                "form": "comprimés",
+                "presentation": "comprimés ديال 40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1703.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-270a3b4e-037d-4abe-af3c-6b5cbf6afc74",
+          "usage": {
+            "prompt_tokens": 1954,
+            "completion_tokens": 161,
+            "total_tokens": 2115
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1954,
+            "completion_tokens": 161,
+            "total_tokens": 2115
+          },
+          "latency_ms": 1641.0
+        }
+      ]
+    },
+    {
+      "id": "fresh-ar-ventoline-v",
+      "case_id": "fresh-ar-ventoline-v",
+      "group": "ar",
+      "role": "current",
+      "text": "ما ثمن ڤينتولين ١٠٠ ميكروغرام / جرعة؟",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ڤينتولين",
+                "strength": "١٠٠ ميكروغرام / جرعة",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 937.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-5d95ecb1-29bf-4168-9a22-84d4090fa007",
+          "usage": {
+            "prompt_tokens": 1965,
+            "completion_tokens": 165,
+            "total_tokens": 2130
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1965,
+            "completion_tokens": 165,
+            "total_tokens": 2130
+          },
+          "latency_ms": 922.0
+        }
+      ]
+    },
+    {
+      "id": "fresh-fr-diacritics",
+      "case_id": "fresh-fr-diacritics",
+      "group": "fr",
+      "role": "current",
+      "text": "Quel est le prix de فِينْتُولِين 2 mg en comprimés, boîte de 40 ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "فِينْتُولِين",
+                "strength": "2 mg",
+                "quantity": null,
+                "form": "comprimés",
+                "presentation": "boîte de 40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1219.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-b96f4ed5-8e64-4a33-abb0-7aaff6238e62",
+          "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 164,
+            "total_tokens": 2130
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 164,
+            "total_tokens": 2130
+          },
+          "latency_ms": 1188.0
+        }
+      ]
+    },
+    {
+      "id": "fresh-darija-augmentin-total",
+      "case_id": "fresh-darija-augmentin-total",
+      "group": "darija",
+      "role": "current",
+      "text": "شحال جوج علب ديال أُوغْمَنْتِين 1 g / 125 mg، علبة 12؟",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أُوغْمَنْتِين",
+                "strength": "1 g / 125 mg",
+                "quantity": "جوج علب",
+                "form": null,
+                "presentation": "علبة 12"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 750.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-f189f678-3fb7-4999-87be-ace897c75f4d",
+          "usage": {
+            "prompt_tokens": 1973,
+            "completion_tokens": 175,
+            "total_tokens": 2148
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": true,
+          "evidence_valid": true,
+          "finish_reason": "stop",
+          "model": "qwen/qwen3.8-27b",
+          "usage": {
+            "prompt_tokens": 1973,
+            "completion_tokens": 175,
+            "total_tokens": 2148
+          },
+          "latency_ms": 719.0
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": "fresh-ar-ventoline-v",
+      "at_utc": "2026-10-19T20:19:54.293465+00:00",
+      "error": {
+        "code": "evaluation_budget_exhausted",
+        "message": "This invocation's provider request budget has been reached. Resume with a new explicit budget.",
+        "retryable": false,
+        "retry_after_seconds": null
+      },
+      "attempt_audit": [],
+      "saved_as_prediction": false
+    },
+    {
+      "id": "fresh-darija-box20:context:0",
+      "at_utc": "2026-10-19T20:20:58.105171+00:00",
+      "error": {
+        "code": "provider_rate_limited",
+        "message": "Groq's rate limit was reached. Try again later.",
+        "retryable": true,
+        "retry_after_seconds": 853.0
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": null,
+          "evidence_valid": null,
+          "transport_failed": true,
+          "latency_ms": 344.0
+        }
+      ],
+      "saved_as_prediction": false
+    }
+  ],
+  "invocations": [
+    {
+      "id": "111dd1a5b02b4da5a9bff5fefc55f6a3",
+      "started_at_utc": "2026-10-19T20:17:21.682451+00:00",
+      "max_requests": 8,
+      "attempts_reserved": 8,
+      "total_attempts_reserved": 8,
+      "finished_at_utc": "2026-10-19T20:19:54.293465+00:00"
+    },
+    {
+      "id": "9d06fd7ecf0143cda0551a90722ab8a8",
+      "started_at_utc": "2026-10-19T20:20:00.509743+00:00",
+      "max_requests": 8,
+      "attempts_reserved": 4,
+      "total_attempts_reserved": 12,
+      "finished_at_utc": "2026-10-19T20:20:58.105171+00:00"
+    }
+  ],
+  "limitations": [
+    "Synthetic assistant-authored/reviewed annotations; no independent speaker review.",
+    "8 standalone extractions scored raw; all 14 cases scored after real context merging.",
+    "6 context setup calls are additional to the 14 scored current messages.",
+    "Invalid outputs remain failed cases; transport/quota failures remain visibly pending.",
+    "Schema rate uses SDK-returned completions; HTTP failures are a separate denominator.",
+    "Token usage excludes transport failures that returned no usage.",
+    "Saved model outputs replayed only for evaluation; the demo has no saved-answer fallback."
+  ],
+  "raw_single_turn_scores": [
+    {
+      "id": "seen-held-ar-01",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-ar-02",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-darija-02",
+      "group": "darija",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-mixed-04",
+      "group": "mixed",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-ar-ventoline-v",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-fr-diacritics",
+      "group": "fr",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": false,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-darija-augmentin-total",
+      "group": "darija",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    }
+  ],
+  "effective_scores": [
+    {
+      "id": "seen-held-ar-01",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-ar-02",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-darija-02",
+      "group": "darija",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-mixed-04",
+      "group": "mixed",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-darija-09",
+      "group": "darija",
+      "intents_correct": false,
+      "entities_exact": false,
+      "intent_counts": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "slot_counts": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "missing_entities": [
+        "medications.0.form",
+        "medications.0.presentation"
+      ],
+      "slot_by_field": {
+        "name": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": 0.0
+        },
+        "strength": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": 0.0
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [
+        "unexpected_medication.0.name",
+        "unexpected_medication.0.quantity",
+        "unexpected_medication.0.presentation"
+      ],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "seen-held-mixed-09",
+      "group": "mixed",
+      "intents_correct": true,
+      "entities_exact": false,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1": 0.4
+      },
+      "missing_entities": [
+        "medications.0.presentation"
+      ],
+      "slot_by_field": {
+        "name": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": 0.0
+        },
+        "strength": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [
+        "medications.0.name",
+        "medications.0.presentation"
+      ],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-ar-ventoline-v",
+      "group": "ar",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-fr-diacritics",
+      "group": "fr",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": false,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    },
+    {
+      "id": "fresh-darija-augmentin-total",
+      "group": "darija",
+      "intents_correct": true,
+      "entities_exact": true,
+      "intent_counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "slot_counts": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "missing_entities": [],
+      "slot_by_field": {
+        "name": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "incorrect_nonnull_entities": [],
+      "language_correct": true,
+      "reply_language_correct": true,
+      "reply_script_correct": true
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "seen-held-ar-01",
+      "group": "ar",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1972"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "فنتولين",
+                "strength": "100 ميكروغرام / جرعة",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "فنتولين",
+              "strength": "100 ميكروغرام / جرعة",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1972",
+              "brand_name": "VENTOLINE",
+              "active_substance": "SALBUTAMOL (SULFATE)",
+              "epi": "GSK",
+              "dosage": "100 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE",
+              "presentation": "FLACON DE 200DOSES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 42.2,
+              "hospital_price_mad": 26.4,
+              "source": "AMMPS",
+              "source_page": 463,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PNEUMOLOGIE-ALLERGOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 25.14,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "source_fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "VENTOLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "VENTOLINE — 100 µG / DOSE — SUSPENSION POUR INHALATION EN FLACON PRESSURISE — FLACON DE 200DOSES\nالثمن العمومي المسجل: 42.20 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+            "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+            "record_ids": [
+              "1972"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1328.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-7d79cc9c-ad64-4b80-8272-9723cb974765",
+          "usage": {
+            "prompt_tokens": 1960,
+            "completion_tokens": 161,
+            "total_tokens": 2121
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "WT9ayt44-h-UewEERV4Vj8ztW_QQoQVIXWBzR4tcahQ",
+        "session_expires_at_utc": "2026-10-19T20:35:59.270169+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "ar",
+            "reply_language": "ar",
+            "reply_script": "arabic",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "فنتولين",
+                  "strength": "100 ميكروغرام / جرعة",
+                  "quantity": null,
+                  "form": null,
+                  "presentation": null
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "seen-held-ar-02",
+      "group": "ar",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1792"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوغمنتين",
+                "strength": "1 g / 125 mg",
+                "quantity": "ثلاث علب",
+                "form": null,
+                "presentation": "علبة 24"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أوغمنتين",
+              "strength": "1 g / 125 mg",
+              "quantity": "ثلاث علب",
+              "form": null,
+              "presentation": "علبة 24"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1792",
+              "brand_name": "AUGMENTIN",
+              "active_substance": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+              "epi": "GSK",
+              "dosage": "1 G / 125 MG",
+              "form": "SACHET",
+              "presentation": "BOITE DE 24",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 207.0,
+              "hospital_price_mad": 129.7,
+              "source": "AMMPS",
+              "source_page": 45,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 123.53,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "source_fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+              "atc_code": "J01CR02",
+              "reimbursement_status": "yes",
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "augmentin-1g125mg-sachets",
+                  "source_url": "https://medicament.ma/medicament/augmentin-1g125mg-sachets/",
+                  "fetched_at_utc": "2026-10-19T18:27:50.021977+00:00",
+                  "source_updated_at_raw": "22 octobre 2025",
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 207.0,
+                  "hospital_price_mad": 129.7,
+                  "commercialization_status": "Commercialisé"
+                },
+                {
+                  "source": "saydalia.ma",
+                  "source_record_id": "12116",
+                  "source_url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-3/",
+                  "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+                  "source_updated_at_raw": null,
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 207.0,
+                  "hospital_price_mad": null,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "AUGMENTIN",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "ثلاث علب",
+              "presentation_count": 3,
+              "unit_price_mad": "207.00",
+              "total_price_mad": "621.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AUGMENTIN — 1 G / 125 MG — SACHET — BOITE DE 24\nالثمن العمومي المسجل: 207.00 MAD.\nالمجموع المحسوب لـ 3 عبوة كاملة: 3 × 207.00 MAD = 621.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+            "fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+            "record_ids": [
+              "1792"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/augmentin-1g125mg-sachets/",
+            "fetched_at_utc": "2026-10-19T18:27:50.021977+00:00",
+            "record_ids": [
+              "1792"
+            ]
+          },
+          {
+            "source": "saydalia.ma",
+            "url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-3/",
+            "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+            "record_ids": [
+              "1792"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 765.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-3c3f8397-94da-4b5a-a076-de2fe10893f8",
+          "usage": {
+            "prompt_tokens": 1970,
+            "completion_tokens": 170,
+            "total_tokens": 2140
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "tJ_38AFsa2EskCsSmz8U0nvLzquRqhGFnfrj6UIaRmw",
+        "session_expires_at_utc": "2026-10-19T20:35:59.287144+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "ar",
+            "reply_language": "ar",
+            "reply_script": "arabic",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "أوغمنتين",
+                  "strength": "1 g / 125 mg",
+                  "quantity": "ثلاث علب",
+                  "form": null,
+                  "presentation": "علبة 24"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "621.00",
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "seen-held-darija-02",
+      "group": "darija",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوغمنتين",
+                "strength": "1 g / 125 mg",
+                "quantity": "علبة",
+                "form": "كيس",
+                "presentation": "16 كيس"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أوغمنتين",
+              "strength": "1 g / 125 mg",
+              "quantity": "علبة",
+              "form": "كيس",
+              "presentation": "16 كيس"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1791",
+              "brand_name": "AUGMENTIN",
+              "active_substance": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+              "epi": "GSK",
+              "dosage": "1 G / 125 MG",
+              "form": "SACHET",
+              "presentation": "BOITE DE 16",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 157.2,
+              "hospital_price_mad": 98.2,
+              "source": "AMMPS",
+              "source_page": 45,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 93.57,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "source_fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+              "atc_code": "J01CR02",
+              "reimbursement_status": "yes",
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "augmentin-1-g125-mg-sachet-2",
+                  "source_url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet-2/",
+                  "fetched_at_utc": "2026-10-19T18:27:53.990111+00:00",
+                  "source_updated_at_raw": "22 octobre 2025",
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 157.2,
+                  "hospital_price_mad": 98.2,
+                  "commercialization_status": "Commercialisé"
+                },
+                {
+                  "source": "saydalia.ma",
+                  "source_record_id": "12114",
+                  "source_url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet/",
+                  "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+                  "source_updated_at_raw": null,
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 157.2,
+                  "hospital_price_mad": null,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "AUGMENTIN",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "needs_quantity_clarification",
+              "requested_quantity": "علبة",
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": "unclear_package_count"
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AUGMENTIN — 1 G / 125 MG — SACHET — BOITE DE 16\nالثمن العمومي المسجل: 157.20 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nأوغمنتين: شحال من عبوة كاملة بغيتي؟ عطينا عدد صحيح ديال العلب بين 1 و1000؛ ما حسبنا حتى مجموع لهاد الكمية.\n\nالستوك فالصيدلية ما معروفش. حالة التسويق ما كتأكدش بلي الدوا كاين فشي صيدلية.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+            "fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+            "record_ids": [
+              "1791"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet-2/",
+            "fetched_at_utc": "2026-10-19T18:27:53.990111+00:00",
+            "record_ids": [
+              "1791"
+            ]
+          },
+          {
+            "source": "saydalia.ma",
+            "url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet/",
+            "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+            "record_ids": [
+              "1791"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 766.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-2a0213a6-7f8a-4e3d-89c4-6180a75b81dc",
+          "usage": {
+            "prompt_tokens": 1969,
+            "completion_tokens": 172,
+            "total_tokens": 2141
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "2W_StaEE-MGvTpYDV1wDsbzwCj_n9hEBsBu5BC4TUIU",
+        "session_expires_at_utc": "2026-10-19T20:35:59.310534+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "darija",
+            "reply_language": "darija",
+            "reply_script": "arabic",
+            "intents": [
+              "medication_request"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "أوغمنتين",
+                  "strength": "1 g / 125 mg",
+                  "quantity": "علبة",
+                  "form": "كيس",
+                  "presentation": "16 كيس"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "incomplete",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "seen-held-mixed-04",
+      "group": "mixed",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1790"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "availability"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أوجمنتين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": "boîte de 12"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أوجمنتين",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": "boîte de 12"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1790",
+              "brand_name": "AUGMENTIN",
+              "active_substance": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+              "epi": "GSK",
+              "dosage": "1 G / 125 MG",
+              "form": "SACHET",
+              "presentation": "BOITE DE 12",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 118.0,
+              "hospital_price_mad": 73.7,
+              "source": "AMMPS",
+              "source_page": 45,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 70.24,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "source_fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+              "atc_code": "J01CR02",
+              "reimbursement_status": "yes",
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "augmentin-1-g125-mg-sachet",
+                  "source_url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet/",
+                  "fetched_at_utc": "2026-10-19T18:27:51.994713+00:00",
+                  "source_updated_at_raw": "22 octobre 2025",
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 118.0,
+                  "hospital_price_mad": 73.7,
+                  "commercialization_status": "Commercialisé"
+                },
+                {
+                  "source": "saydalia.ma",
+                  "source_record_id": "12115",
+                  "source_url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-2/",
+                  "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+                  "source_updated_at_raw": null,
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 118.0,
+                  "hospital_price_mad": null,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "AUGMENTIN",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AUGMENTIN — 1 G / 125 MG — SACHET — BOITE DE 12\nPrix public enregistré: 118.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+            "fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet/",
+            "fetched_at_utc": "2026-10-19T18:27:51.994713+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          },
+          {
+            "source": "saydalia.ma",
+            "url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-2/",
+            "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1032.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-46d45fdd-8065-4ec9-89cd-a08f69cef187",
+          "usage": {
+            "prompt_tokens": 1957,
+            "completion_tokens": 158,
+            "total_tokens": 2115
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "RaH7NMXp7FGnPuPX_FcSPOV22sMUy_JeJofsMqhrn24",
+        "session_expires_at_utc": "2026-10-19T20:35:59.326848+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "mixed",
+            "reply_language": "fr",
+            "reply_script": "latin",
+            "intents": [
+              "availability"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "أوجمنتين",
+                  "strength": null,
+                  "quantity": null,
+                  "form": null,
+                  "presentation": "boîte de 12"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "seen-held-darija-09",
+      "group": "darija",
+      "kind": "conversation_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": null,
+                "strength": null,
+                "quantity": "lboita",
+                "form": null,
+                "presentation": "40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "VENTOLINE",
+              "strength": null,
+              "quantity": "lboita",
+              "form": null,
+              "presentation": "40"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1974",
+              "brand_name": "VENTOLINE",
+              "active_substance": "SALBUTAMOL (SULFATE)",
+              "epi": "GSK",
+              "dosage": "2 MG",
+              "form": "COMPRIME",
+              "presentation": "BOITE DE 40",
+              "commercialization_status": "Retiré du Marché",
+              "ppv_price_mad": 18.7,
+              "hospital_price_mad": 11.7,
+              "source": "AMMPS",
+              "source_page": 463,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "authorization_status": "AMM RETIREE",
+              "therapeutic_class": "NA",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 11.12,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "source_fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": null,
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "needs_quantity_clarification",
+              "requested_quantity": "lboita",
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": "unclear_package_count"
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "VENTOLINE — 2 MG — COMPRIME — BOITE DE 40\nTaman l3omomi lmsjjel: 18.70 MAD.\nStatut dyal commercialisation lmsjjel: Retiré du Marché.\n\nVENTOLINE: Ch7al men présentation kamla bghiti? 3ti 3adad s7i7 dyal l3lab bin 1 w 1000; ma 7sebna ta total lhad quantité.\n\nStock f ssaydaliya ma m3roufch. Statut dyal commercialisation ma kay2akkedch belli ddwa kayn f chi saydaliya.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+            "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+            "record_ids": [
+              "1974"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 797.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-7206a4d7-7cd4-498b-ad0e-b5aac8df584f",
+          "usage": {
+            "prompt_tokens": 1959,
+            "completion_tokens": 157,
+            "total_tokens": 2116
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "tCz9qfonV_D3jJsInVJGNSP7eLs_dLQnxe4wE1fCieE",
+        "session_expires_at_utc": "2026-10-19T20:35:59.351041+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "darija",
+            "reply_language": "darija",
+            "reply_script": "latin",
+            "intents": [
+              "medication_request"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "VENTOLINE",
+                  "strength": null,
+                  "quantity": "lboita",
+                  "form": null,
+                  "presentation": "40"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [
+            "medications.0.name"
+          ],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "followup"
+        },
+        "order_pricing": {
+          "status": "incomplete",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "seen-held-mixed-09",
+      "group": "mixed",
+      "kind": "conversation_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "medication_information"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": null,
+                "strength": null,
+                "quantity": null,
+                "form": "comprimés",
+                "presentation": "comprimés ديال 40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "VENTOLINE",
+              "strength": null,
+              "quantity": null,
+              "form": "comprimés",
+              "presentation": "comprimés ديال 40"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1974",
+              "brand_name": "VENTOLINE",
+              "active_substance": "SALBUTAMOL (SULFATE)",
+              "epi": "GSK",
+              "dosage": "2 MG",
+              "form": "COMPRIME",
+              "presentation": "BOITE DE 40",
+              "commercialization_status": "Retiré du Marché",
+              "ppv_price_mad": 18.7,
+              "hospital_price_mad": 11.7,
+              "source": "AMMPS",
+              "source_page": 463,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "authorization_status": "AMM RETIREE",
+              "therapeutic_class": "NA",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 11.12,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "source_fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": null,
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "VENTOLINE — 2 MG — COMPRIME — BOITE DE 40\nPrix public enregistré: 18.70 MAD.\nStatut de commercialisation enregistré: Retiré du Marché.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+            "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+            "record_ids": [
+              "1974"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1703.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-270a3b4e-037d-4abe-af3c-6b5cbf6afc74",
+          "usage": {
+            "prompt_tokens": 1954,
+            "completion_tokens": 161,
+            "total_tokens": 2115
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "xxxt4_fSKGTLnWd6Gn1bWZpSh_Y6Vr-RrdvhDpYz9Ks",
+        "session_expires_at_utc": "2026-10-19T20:35:59.373261+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "mixed",
+            "reply_language": "fr",
+            "reply_script": "latin",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "VENTOLINE",
+                  "strength": null,
+                  "quantity": null,
+                  "form": "comprimés",
+                  "presentation": "comprimés ديال 40"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [
+            "intents",
+            "medications.0.name"
+          ],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "followup"
+        },
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "fresh-ar-ventoline-v",
+      "group": "ar",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1972"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ڤينتولين",
+                "strength": "١٠٠ ميكروغرام / جرعة",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ڤينتولين",
+              "strength": "١٠٠ ميكروغرام / جرعة",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1972",
+              "brand_name": "VENTOLINE",
+              "active_substance": "SALBUTAMOL (SULFATE)",
+              "epi": "GSK",
+              "dosage": "100 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE",
+              "presentation": "FLACON DE 200DOSES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 42.2,
+              "hospital_price_mad": 26.4,
+              "source": "AMMPS",
+              "source_page": 463,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PNEUMOLOGIE-ALLERGOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 25.14,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "source_fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "VENTOLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "VENTOLINE — 100 µG / DOSE — SUSPENSION POUR INHALATION EN FLACON PRESSURISE — FLACON DE 200DOSES\nالثمن العمومي المسجل: 42.20 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+            "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+            "record_ids": [
+              "1972"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 937.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-5d95ecb1-29bf-4168-9a22-84d4090fa007",
+          "usage": {
+            "prompt_tokens": 1965,
+            "completion_tokens": 165,
+            "total_tokens": 2130
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "YJRQsPN1XdVsaXaxBdaadQaoFvk6USBsHz08cjyFu2o",
+        "session_expires_at_utc": "2026-10-19T20:35:59.378403+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "ar",
+            "reply_language": "ar",
+            "reply_script": "arabic",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "ڤينتولين",
+                  "strength": "١٠٠ ميكروغرام / جرعة",
+                  "quantity": null,
+                  "form": null,
+                  "presentation": null
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "fresh-fr-diacritics",
+      "group": "fr",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "فِينْتُولِين",
+                "strength": "2 mg",
+                "quantity": null,
+                "form": "comprimés",
+                "presentation": "boîte de 40"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "فِينْتُولِين",
+              "strength": "2 mg",
+              "quantity": null,
+              "form": "comprimés",
+              "presentation": "boîte de 40"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1974",
+              "brand_name": "VENTOLINE",
+              "active_substance": "SALBUTAMOL (SULFATE)",
+              "epi": "GSK",
+              "dosage": "2 MG",
+              "form": "COMPRIME",
+              "presentation": "BOITE DE 40",
+              "commercialization_status": "Retiré du Marché",
+              "ppv_price_mad": 18.7,
+              "hospital_price_mad": 11.7,
+              "source": "AMMPS",
+              "source_page": 463,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "authorization_status": "AMM RETIREE",
+              "therapeutic_class": "NA",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 11.12,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+              "source_fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "VENTOLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "not_requested",
+              "requested_quantity": null,
+              "presentation_count": null,
+              "unit_price_mad": null,
+              "total_price_mad": null,
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "VENTOLINE — 2 MG — COMPRIME — BOITE DE 40\nPrix public enregistré: 18.70 MAD.\nStatut de commercialisation enregistré: Retiré du Marché.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+            "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+            "record_ids": [
+              "1974"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 1219.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-b96f4ed5-8e64-4a33-abb0-7aaff6238e62",
+          "usage": {
+            "prompt_tokens": 1966,
+            "completion_tokens": 164,
+            "total_tokens": 2130
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "lAFDusG8QvWY2EXMjwC57fn5UAYaFZ5d2Pb-hJHkhdI",
+        "session_expires_at_utc": "2026-10-19T20:35:59.399188+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "mixed",
+            "reply_language": "fr",
+            "reply_script": "latin",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "فِينْتُولِين",
+                  "strength": "2 mg",
+                  "quantity": null,
+                  "form": "comprimés",
+                  "presentation": "boîte de 40"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "not_requested",
+          "total_price_mad": null,
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    },
+    {
+      "id": "fresh-darija-augmentin-total",
+      "group": "darija",
+      "kind": "single_turn",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1790"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أُوغْمَنْتِين",
+                "strength": "1 g / 125 mg",
+                "quantity": "جوج علب",
+                "form": null,
+                "presentation": "علبة 12"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أُوغْمَنْتِين",
+              "strength": "1 g / 125 mg",
+              "quantity": "جوج علب",
+              "form": null,
+              "presentation": "علبة 12"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "1790",
+              "brand_name": "AUGMENTIN",
+              "active_substance": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+              "epi": "GSK",
+              "dosage": "1 G / 125 MG",
+              "form": "SACHET",
+              "presentation": "BOITE DE 12",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 118.0,
+              "hospital_price_mad": 73.7,
+              "source": "AMMPS",
+              "source_page": 45,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+              "pp_gn_raw": "PP",
+              "pfht_price_mad": 70.24,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+              "source_fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+              "atc_code": "J01CR02",
+              "reimbursement_status": "yes",
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "augmentin-1-g125-mg-sachet",
+                  "source_url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet/",
+                  "fetched_at_utc": "2026-10-19T18:27:51.994713+00:00",
+                  "source_updated_at_raw": "22 octobre 2025",
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 118.0,
+                  "hospital_price_mad": 73.7,
+                  "commercialization_status": "Commercialisé"
+                },
+                {
+                  "source": "saydalia.ma",
+                  "source_record_id": "12115",
+                  "source_url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-2/",
+                  "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+                  "source_updated_at_raw": null,
+                  "atc_code": "J01CR02",
+                  "reimbursement_raw": "Oui",
+                  "ppv_price_mad": 118.0,
+                  "hospital_price_mad": null,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "AUGMENTIN",
+            "candidate_offset": 0,
+            "next_candidate_offset": null,
+            "pricing": {
+              "status": "calculated",
+              "requested_quantity": "جوج علب",
+              "presentation_count": 2,
+              "unit_price_mad": "118.00",
+              "total_price_mad": "236.00",
+              "currency": "MAD",
+              "basis": "per_catalogue_presentation",
+              "clarification_reason": null
+            }
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AUGMENTIN — 1 G / 125 MG — SACHET — BOITE DE 12\nالثمن العمومي المسجل: 118.00 MAD.\nالمجموع المحسوب ديال 2 عبوة كاملة: 2 × 118.00 MAD = 236.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=45",
+            "fetched_at_utc": "2026-10-18T16:18:56.868047+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/augmentin-1-g125-mg-sachet/",
+            "fetched_at_utc": "2026-10-19T18:27:51.994713+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          },
+          {
+            "source": "saydalia.ma",
+            "url": "https://saydalia.ma/fr/produit/augmentin-1-g-125-mg-sachet-2/",
+            "fetched_at_utc": "2026-10-19T17:41:42.597859+00:00",
+            "record_ids": [
+              "1790"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_object",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step9-package-selection-v1",
+          "latency_ms": 750.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-f189f678-3fb7-4999-87be-ace897c75f4d",
+          "usage": {
+            "prompt_tokens": 1973,
+            "completion_tokens": 175,
+            "total_tokens": 2148
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "session_id": "yP3Viex77DE6cLC_K-4zqDW-lQqZrwPotOoXsoF6SL0",
+        "session_expires_at_utc": "2026-10-19T20:35:59.409337+00:00",
+        "context": {
+          "effective_interpretation": {
+            "language": "darija",
+            "reply_language": "darija",
+            "reply_script": "arabic",
+            "intents": [
+              "price"
+            ],
+            "entities": {
+              "medications": [
+                {
+                  "name": "أُوغْمَنْتِين",
+                  "strength": "1 g / 125 mg",
+                  "quantity": "جوج علب",
+                  "form": null,
+                  "presentation": "علبة 12"
+                }
+              ],
+              "pharmacy": null,
+              "city": null,
+              "area": null,
+              "date": null,
+              "time": null,
+              "symptom": null
+            }
+          },
+          "inherited_fields": [],
+          "needs_reference": false,
+          "reference_options": [],
+          "action": "independent"
+        },
+        "order_pricing": {
+          "status": "calculated",
+          "total_price_mad": "236.00",
+          "currency": "MAD"
+        },
+        "catalog_scope": "partial"
+      }
+    }
+  ],
+  "summary": {
+    "cases": 14,
+    "inference_jobs": 20,
+    "completed_inference_jobs": 11,
+    "accepted_inference_jobs": 11,
+    "raw_single_turn_extraction": {
+      "total_cases": 8,
+      "completed_cases": 7,
+      "intent_micro": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "entity_slot_micro": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "entity_slots_by_field": {
+        "name": {
+          "tp": 7,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "form": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "presentation": {
+          "tp": 5,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "intents_correct": 7,
+      "entities_exact_cases": 7,
+      "incorrect_nonnull_entities": 0,
+      "by_group": {
+        "fr": {
+          "completed_cases": 1,
+          "intent_micro": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "ar": {
+          "completed_cases": 3,
+          "intent_micro": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "darija": {
+          "completed_cases": 2,
+          "intent_micro": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "form": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "presentation": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "mixed": {
+          "completed_cases": 1,
+          "intent_micro": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      },
+      "passed": false
+    },
+    "effective_dialogue_extraction": {
+      "total_cases": 14,
+      "completed_cases": 9,
+      "intent_micro": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1": 0.8888888888888888
+      },
+      "entity_slot_micro": {
+        "tp": 24,
+        "fp": 5,
+        "fn": 3,
+        "precision": 0.8275862068965517,
+        "recall": 0.8888888888888888,
+        "f1": 0.8571428571428571
+      },
+      "entity_slots_by_field": {
+        "name": {
+          "tp": 7,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.7777777777777778,
+          "recall": 1.0,
+          "f1": 0.875
+        },
+        "strength": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "quantity": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "form": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571
+        },
+        "presentation": {
+          "tp": 5,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.7142857142857143,
+          "recall": 0.7142857142857143,
+          "f1": 0.7142857142857143
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "intents_correct": 8,
+      "entities_exact_cases": 7,
+      "incorrect_nonnull_entities": 5,
+      "by_group": {
+        "fr": {
+          "completed_cases": 1,
+          "intent_micro": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "ar": {
+          "completed_cases": 3,
+          "intent_micro": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "strength": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "darija": {
+          "completed_cases": 3,
+          "intent_micro": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 1,
+            "precision": 0.6666666666666666,
+            "recall": 0.6666666666666666,
+            "f1": 0.6666666666666666
+          },
+          "entity_slot_micro": {
+            "tp": 9,
+            "fp": 3,
+            "fn": 2,
+            "precision": 0.75,
+            "recall": 0.8181818181818182,
+            "f1": 0.782608695652174
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 2,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "f1": 0.8
+            },
+            "strength": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "quantity": {
+              "tp": 2,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.6666666666666666,
+              "recall": 1.0,
+              "f1": 0.8
+            },
+            "form": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 1,
+              "precision": 1.0,
+              "recall": 0.5,
+              "f1": 0.6666666666666666
+            },
+            "presentation": {
+              "tp": 2,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "f1": 0.6666666666666666
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "mixed": {
+          "completed_cases": 2,
+          "intent_micro": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "entity_slot_micro": {
+            "tp": 3,
+            "fp": 2,
+            "fn": 1,
+            "precision": 0.6,
+            "recall": 0.75,
+            "f1": 0.6666666666666666
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 1,
+              "fp": 1,
+              "fn": 0,
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.6666666666666666
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "presentation": {
+              "tp": 1,
+              "fp": 1,
+              "fn": 1,
+              "precision": 0.5,
+              "recall": 0.5,
+              "f1": 0.5
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      },
+      "passed": false
+    },
+    "completed_outcomes": 9,
+    "passed_outcomes": 9,
+    "outcomes_by_group": {
+      "fr": {
+        "completed": 1,
+        "passed": 1
+      },
+      "ar": {
+        "completed": 3,
+        "passed": 3
+      },
+      "darija": {
+        "completed": 3,
+        "passed": 3
+      },
+      "mixed": {
+        "completed": 2,
+        "passed": 2
+      }
+    },
+    "medication_resolution": {
+      "correct": 9,
+      "scored": 9,
+      "expected": 14
+    },
+    "schema": {
+      "returned_completions": 11,
+      "valid_completions": 11,
+      "validity_rate": 1.0,
+      "evidence_rejections": 0,
+      "transport_failures": 1
+    },
+    "latency_ms": {
+      "min": 672.0,
+      "median": 937.0,
+      "p95": 1703.0,
+      "max": 1703.0
+    },
+    "tokens_returned_completions": {
+      "prompt_tokens": 21576,
+      "completion_tokens": 1785,
+      "total_tokens": 23361
+    }
+  },
+  "status": "paused_provider"
+}

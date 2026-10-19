@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 432,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=432",
+  "fetched_at_utc": "2026-10-18T16:31:53.018683+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5994",
+      "brand_name": "TERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "205,00 DH",
+        "PH": "128,20 DH",
+        "PFHT": "122,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5995",
+      "brand_name": "TERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "67,30 DH",
+        "PH": "42,00 DH",
+        "PFHT": "40,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3276",
+      "brand_name": "TERLOMEXIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "FENTICONAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "52,00 DH",
+        "PH": "32,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "CAPSULE MOLLE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "5996",
+      "brand_name": "TERPONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "PP",
+        "Substance active": "TERPINE // HUILLES ESSENTIELLES",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "22,00 DH",
+        "PH": "13,80 DH",
+        "PFHT": "13,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "8892",
+      "brand_name": "TESTOBINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "TESTOSTERONE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "DRAGEE"
+      }
+    },
+    {
+      "source_record_id": "5454",
+      "brand_name": "TETANEA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "PP",
+        "Substance active": "FRAGEMENTS F(AB)2 D'IMMUNOGLOBULINE ANTITETANIQUE EQUINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "43,00 DH",
+        "PH": "26,80 DH",
+        "PFHT": "23,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1500 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2663",
+      "brand_name": "TETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TETRACYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "23,50 DH",
+        "PH": "14,70 DH",
+        "PFHT": "14,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    },
+    {
+      "source_record_id": "4999",
+      "brand_name": "TETRACINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TETRACYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "40,30 DH",
+        "PH": "25,20 DH",
+        "PFHT": "24,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2664",
+      "brand_name": "TETRACYCLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "TETRACYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "22,20 DH",
+        "PH": "13,90 DH",
+        "PFHT": "13,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    },
+    {
+      "source_record_id": "5997",
+      "brand_name": "TETRALYSAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "LYMECYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "40,90 DH",
+        "PH": "25,60 DH",
+        "PFHT": "24,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5998",
+      "brand_name": "TETRALYSAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "LYMECYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "64,50 DH",
+        "PH": "40,30 DH",
+        "PFHT": "38,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5455",
+      "brand_name": "TETRAXIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE ACELLULAIRE // POLYOMYELITE INACTIVE ADSORBE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "134,60 DH",
+        "PH": "84,10 DH",
+        "PFHT": "80,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3054",
+      "brand_name": "TEVETEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "EPROSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "216,00 DH",
+        "PH": "135,10 DH",
+        "PFHT": "128,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9492",
+      "brand_name": "TEZSPIRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN STYLO PREREMPLI DE 1,91 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "TEZEPELUMAB",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "10.656.00 DH",
+        "PH": "10.455.00 DH",
+        "PFHT": "10.055.41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "210 MG ( 110 MG / ML )",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "3055",
+      "brand_name": "THALIDOMIDE CELGENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "THALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.276.00 DH",
+        "PH": "1.005.00 DH",
+        "PFHT": "957,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6529",
+      "brand_name": "THEOPHYLINE BRUNEAU AD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "THEOPHYLLINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6530",
+      "brand_name": "THEOPHYLINE BRUNEAU ENF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "THEOPHYLLINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "10,90 DH",
+        "PH": "6,80 DH",
+        "PFHT": "6,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3056",
+      "brand_name": "THEOSTAT LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "THEOPHYLLINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "17,50 DH",
+        "PH": "11,00 DH",
+        "PFHT": "10,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3057",
+      "brand_name": "THEOSTAT LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "THEOPHYLLINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "29,20 DH",
+        "PH": "18,30 DH",
+        "PFHT": "17,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1097",
+      "brand_name": "THERALENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALIMEMAZINE (TARTRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "12,90 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "SIROP"
+      }
+    }
+  ]
+}

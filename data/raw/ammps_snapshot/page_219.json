@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 219,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=219",
+  "fetched_at_utc": "2026-10-18T16:24:45.640565+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7636",
+      "brand_name": "ICOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MEBEVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "135   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "610",
+      "brand_name": "ICOMB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TOBRAMYCINE // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "28,30 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  1   MG",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7430",
+      "brand_name": "ICTAVES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "106,50 DH",
+        "PH": "66,60 DH",
+        "PFHT": "63,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7431",
+      "brand_name": "ICTAVES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "154,10 DH",
+        "PH": "96,30 DH",
+        "PFHT": "91,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7432",
+      "brand_name": "ICTAVES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "250,00 DH",
+        "PH": "156,30 DH",
+        "PFHT": "148,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8509",
+      "brand_name": "ICTAVES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7838",
+      "brand_name": "IDACIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 2 SERINGUES PRE-REMPLIES AVEC 2 TAMPONS D'ALCOOL",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIES DE 0,8 ML ET EN STYLO PRE-REMPLI DE 0,8 ML"
+      }
+    },
+    {
+      "source_record_id": "7839",
+      "brand_name": "IDACIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 2 STYLOS PRE-REMPLIES AVEC 2 TAMPONS D'ALCOOL",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIS  DE 0,8 ML ET EN STYLO PRE-REMPLI DE 0,8 ML"
+      }
+    },
+    {
+      "source_record_id": "9131",
+      "brand_name": "IDACIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUE PRE-REMPLIES AVEC 2 TAMPONS D'ALCOOL",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "4.522.00 DH",
+        "PH": "4.244.00 DH",
+        "PFHT": "4.042.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.8 ML"
+      }
+    },
+    {
+      "source_record_id": "9132",
+      "brand_name": "IDACIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS PRE-REMPLIS AVEC 2 TAMPONS D'ALCOOL",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "4.522.00 DH",
+        "PH": "4.244.00 DH",
+        "PFHT": "4.042.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLIE DE 0.8 ML"
+      }
+    },
+    {
+      "source_record_id": "5310",
+      "brand_name": "IDARAC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "FLOCTAFENINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "27,70 DH",
+        "PH": "17,30 DH",
+        "PFHT": "15,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2855",
+      "brand_name": "IDEOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 TUBES DE 15",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "40,70 DH",
+        "PH": "25,50 DH",
+        "PFHT": "24,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  400 UI",
+        "Forme": "COMPRIME A CROQUER OU A SUCER"
+      }
+    },
+    {
+      "source_record_id": "2856",
+      "brand_name": "IDEOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4 TUBES DE 15",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "87,80 DH",
+        "PH": "54,90 DH",
+        "PFHT": "52,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  400 UI",
+        "Forme": "COMPRIME A CROQUER OU A SUCER"
+      }
+    },
+    {
+      "source_record_id": "2195",
+      "brand_name": "IDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "INDOMETACINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "18,60 DH",
+        "PH": "11,60 DH",
+        "PFHT": "11,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2196",
+      "brand_name": "IDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "INDOMETACINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "34,50 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "7848",
+      "brand_name": "IG VENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "835,00 DH",
+        "PH": "554,00 DH",
+        "PFHT": "528,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 G  /  L",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7849",
+      "brand_name": "IG VENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "5.301.00 DH",
+        "PH": "5.045.00 DH",
+        "PFHT": "4.805.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 G  /  L",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7850",
+      "brand_name": "IG VENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "1.539.00 DH",
+        "PH": "1.275.00 DH",
+        "PFHT": "1.214.76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 G  /  L",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7862",
+      "brand_name": "IG VENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "2.850.00 DH",
+        "PH": "2.523.00 DH",
+        "PFHT": "2.402.86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 G  /  L",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9731",
+      "brand_name": "IKERVIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 RECIPIENTS UNIDOSES DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  ML",
+        "Forme": "COLLYRE EN EMULSION"
+      }
+    }
+  ]
+}

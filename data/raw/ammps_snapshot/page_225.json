@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 225,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=225",
+  "fetched_at_utc": "2026-10-18T16:24:57.690545+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3684",
+      "brand_name": "INLYTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AXITINIBUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "21.341.00 DH",
+        "PH": "20.930.00 DH",
+        "PFHT": "20.530.78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3685",
+      "brand_name": "INLYTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "AXITINIBUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "29.450.00 DH",
+        "PH": "28.880.00 DH",
+        "PFHT": "28.480.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4693",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.001.00 DH",
+        "PH": "721,00 DH",
+        "PFHT": "687,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI ANTI-XA  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4694",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "267,00 DH",
+        "PH": "167,10 DH",
+        "PFHT": "159,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI ANTI-XA  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4695",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.214.00 DH",
+        "PH": "941,00 DH",
+        "PFHT": "896,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "14000 UI ANTI - XA  /  0,7  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4696",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "301,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "190,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "14000 UI ANTI - XA  /  0,7  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4697",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.433.00 DH",
+        "PH": "1.166.00 DH",
+        "PFHT": "1.110.78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18000 UI ANTI - XA  /  0,9  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4698",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "360,00 DH",
+        "PH": "239,00 DH",
+        "PFHT": "228,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18000 UI ANTI - XA  /  0,9  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4699",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "306,00 DH",
+        "PH": "204,00 DH",
+        "PFHT": "194,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI ANTI - XA  /  0,25  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4700",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "73,10 DH",
+        "PH": "45,70 DH",
+        "PFHT": "43,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI ANTI - XA  /  0,25  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4701",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "417,00 DH",
+        "PH": "277,00 DH",
+        "PFHT": "264,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3500 UI ANTI - XA  /  0,35  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4702",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "100,50 DH",
+        "PH": "62,80 DH",
+        "PFHT": "59,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3500 UI ANTI - XA  /  0,35  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4703",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "547,00 DH",
+        "PH": "363,00 DH",
+        "PFHT": "346,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4500 UI ANTI - XA  /  0,45  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4704",
+      "brand_name": "INNOHEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "TINZAPARINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "133,10 DH",
+        "PH": "83,20 DH",
+        "PFHT": "79,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4500 UI ANTI - XA  /  0,45  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1447",
+      "brand_name": "INONGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 55 G",
+        "PP / GN": "GN",
+        "Substance active": "SALICYLATE DE METHYLE // CAMPHRE // CAMPOULEHRE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "12,40 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "5580",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "35,00 DH",
+        "PH": "21,80 DH",
+        "PFHT": "20,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5581",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "161,90 DH",
+        "PH": "101,20 DH",
+        "PFHT": "96,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5582",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "54,20 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5583",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "251,00 DH",
+        "PH": "156,90 DH",
+        "PFHT": "149,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5778",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "92,00 DH",
+        "PH": "57,50 DH",
+        "PFHT": "54,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    }
+  ]
+}

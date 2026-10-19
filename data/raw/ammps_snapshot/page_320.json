@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 320,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=320",
+  "fetched_at_utc": "2026-10-18T16:28:08.634728+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1212",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON EN VERRE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "347,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1213",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON EN VERRE DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "174,80 DH",
+        "PH": "109,20 DH",
+        "PFHT": "104,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1214",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON EN VERRE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "400,00 DH",
+        "PH": "265,00 DH",
+        "PFHT": "253,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1215",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON EN VERRE DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "200,00 DH",
+        "PH": "125,60 DH",
+        "PFHT": "119,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9854",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON EN POLYPROPYLENE DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "300   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9855",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON EN POLYPROPYLENE DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "300   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9856",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON EN POLYPROPYLENE DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "350   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9857",
+      "brand_name": "OMNIPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON EN POLYPROPYLENE DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOHEXOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "350   MG I  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1216",
+      "brand_name": "OMNISCAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "GADODIAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "297,00 DH",
+        "PH": "198,00 DH",
+        "PFHT": "188,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1217",
+      "brand_name": "OMNISCAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "GADODIAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "447,00 DH",
+        "PH": "297,00 DH",
+        "PFHT": "282,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1218",
+      "brand_name": "OMNISCAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "GADODIAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "539,00 DH",
+        "PH": "358,00 DH",
+        "PFHT": "341,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3382",
+      "brand_name": "OMNITROPE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 1,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "3.434.00 DH",
+        "PH": "3.123.00 DH",
+        "PFHT": "2.975.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  1,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3383",
+      "brand_name": "ONBREZ BREEZHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "INDACATEROL (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "452,00 DH",
+        "PH": "300,00 DH",
+        "PFHT": "286,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 µG",
+        "Forme": "POUDRE POUR INHALATION EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "3384",
+      "brand_name": "ONBREZ BREEZHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "INDACATEROL (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "452,00 DH",
+        "PH": "300,00 DH",
+        "PFHT": "286,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 µG",
+        "Forme": "POUDRE POUR INHALATION EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "2106",
+      "brand_name": "ONDANSETRON AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "326,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "192,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2107",
+      "brand_name": "ONDANSETRON AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "522,00 DH",
+        "PH": "346,00 DH",
+        "PFHT": "309,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "307",
+      "brand_name": "ONDANSETRON GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "87,80 DH",
+        "PH": "54,90 DH",
+        "PFHT": "52,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "308",
+      "brand_name": "ONDANSETRON GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "565,00 DH",
+        "PH": "375,00 DH",
+        "PFHT": "357,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6474",
+      "brand_name": "ONDANSETRON MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "235,00 DH",
+        "PH": "147,10 DH",
+        "PFHT": "140,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "6475",
+      "brand_name": "ONDANSETRON MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "410,00 DH",
+        "PH": "272,00 DH",
+        "PFHT": "259,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    }
+  ]
+}

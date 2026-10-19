@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 158,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=158",
+  "fetched_at_utc": "2026-10-18T16:22:43.376331+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1647",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "957,00 DH",
+        "PH": "676,00 DH",
+        "PFHT": "644,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "3506",
+      "brand_name": "ERACID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "74,40 DH",
+        "PH": "46,50 DH",
+        "PFHT": "44,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3507",
+      "brand_name": "ERACID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "130,40 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6992",
+      "brand_name": "ERANFU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PREREMPLIE ET DE 2 AIGUILLES PROTEGEES",
+        "PP / GN": "GN",
+        "Substance active": "FULVESTRANT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "2.893.00 DH",
+        "PH": "2.567.00 DH",
+        "PFHT": "2.445.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6398",
+      "brand_name": "ERAXIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "130,40 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6399",
+      "brand_name": "ERAXIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "103,70 DH",
+        "PH": "64,80 DH",
+        "PFHT": "61,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "896",
+      "brand_name": "ERBITUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "CETUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "10.899.00 DH",
+        "PH": "10.693.00 DH",
+        "PFHT": "10.293.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "897",
+      "brand_name": "ERBITUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "CETUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "2.331.00 DH",
+        "PH": "1.988.00 DH",
+        "PFHT": "1.893.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5283",
+      "brand_name": "ERCEFURYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN FLACON DE 90 ML",
+        "PP / GN": "PP",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "30,60 DH",
+        "PH": "19,10 DH",
+        "PFHT": "17,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5284",
+      "brand_name": "ERCEFURYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "22,10 DH",
+        "PH": "13,80 DH",
+        "PFHT": "13,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1648",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1649",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "379,00 DH",
+        "PH": "252,00 DH",
+        "PFHT": "240,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1650",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "75,70 DH",
+        "PH": "47,30 DH",
+        "PFHT": "45,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1651",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "134,60 DH",
+        "PH": "84,10 DH",
+        "PFHT": "80,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1652",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "269,00 DH",
+        "PH": "168,20 DH",
+        "PFHT": "160,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1653",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1654",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "224,00 DH",
+        "PH": "140,20 DH",
+        "PFHT": "133,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1655",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1656",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1657",
+      "brand_name": "ERECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "149,50 DH",
+        "PH": "93,40 DH",
+        "PFHT": "89,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    }
+  ]
+}

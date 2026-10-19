@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 461,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=461",
+  "fetched_at_utc": "2026-10-18T16:32:50.873642+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2296",
+      "brand_name": "VAXIGRIP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20 SERINGUES PRE-REMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA GRIPPE QUADRIVALENT FRAGMENTE INACTIVE",
+        "Classe thérapeutique": "NA",
+        "EPI": "IPM",
+        "PPV": "1.153.00 DH",
+        "PH": "878,00 DH",
+        "PFHT": "836,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 µG",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5487",
+      "brand_name": "VAXIGRIP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE / 0,25 ML",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA GRIPPE QUADRIVALENT FRAGMENTE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "45,40 DH",
+        "PH": "28,40 DH",
+        "PFHT": "27,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5488",
+      "brand_name": "VAXIGRIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE / 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA GRIPPE QUADRIVALENT FRAGMENTE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "68,00 DH",
+        "PH": "42,50 DH",
+        "PFHT": "40,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9907",
+      "brand_name": "VAXIGRIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN GRIPPAL TRIVALENT (INACTIVE,A VIRION FRAGMENTE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 µg HA / SOUCHE",
+        "Forme": "0,5 ML DE SUSPENSION INJECTABLE EN SERINGUE PREREMBLIE"
+      }
+    },
+    {
+      "source_record_id": "9908",
+      "brand_name": "VAXIGRIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE  DE 10",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN GRIPPAL TRIVALENT (INACTIVE,A VIRION FRAGMENTE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 µg HA / SOUCHE",
+        "Forme": "0,5 ML DE SUSPENSION INJECTABLE EN SERINGUE PREREMBLIE"
+      }
+    },
+    {
+      "source_record_id": "7492",
+      "brand_name": "VAXIGRIPTETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA GRIPPE QUADRIVALENT FRAGMENTE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "125,30 DH",
+        "PH": "78,30 DH",
+        "PFHT": "74,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0,5 ML"
+      }
+    },
+    {
+      "source_record_id": "7556",
+      "brand_name": "VAXIGRIPTETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "VIRUS DE LA GRIPPE QUADRIVALENT FRAGMENTE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "1.008.00 DH",
+        "PH": "729,00 DH",
+        "PFHT": "694,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0,5 ML"
+      }
+    },
+    {
+      "source_record_id": "7592",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "100,90 DH",
+        "PH": "63,10 DH",
+        "PFHT": "60,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7593",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "168,20 DH",
+        "PH": "105,10 DH",
+        "PFHT": "100,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8943",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8944",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8945",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8946",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8947",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8948",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8949",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8950",
+      "brand_name": "VECA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6021",
+      "brand_name": "VECTIBIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "PANITUMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "17.580.00 DH",
+        "PH": "17.244.00 DH",
+        "PFHT": "16.844.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "6022",
+      "brand_name": "VECTIBIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "PANITUMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "4.680.00 DH",
+        "PH": "4.406.00 DH",
+        "PFHT": "4.196.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "8072",
+      "brand_name": "VECTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SACHET",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SACHET"
+      }
+    }
+  ]
+}

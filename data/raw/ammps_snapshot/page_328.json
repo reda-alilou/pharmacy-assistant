@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 328,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=328",
+  "fetched_at_utc": "2026-10-18T16:28:24.286110+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5756",
+      "brand_name": "OXYFLOW",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "AEROSOL DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "130,00 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG  /  25 µG  /  DOSE",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "8686",
+      "brand_name": "OXYFLOW",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µG  /  25 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9712",
+      "brand_name": "OXYGENE  MEDICINAL LIQUIDE FLOSIT PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "EVAPORATEUR FIXE REMPLIE DE CITERNES MOBILES",
+        "PP / GN": "-",
+        "Substance active": "OXYGENE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "FLOSIT PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "SOUS PRESSION DE 10 A 15 BAR, DE -155 A 145 ° C",
+        "Forme": "GAZ POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "4530",
+      "brand_name": "OXYGENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "45,00 DH",
+        "PH": "28,10 DH",
+        "PFHT": "26,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7444",
+      "brand_name": "OXYLETAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OXCARBAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "81,20 DH",
+        "PH": "50,70 DH",
+        "PFHT": "48,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7463",
+      "brand_name": "OXYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "273,00 DH",
+        "PH": "181,50 DH",
+        "PFHT": "172,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8687",
+      "brand_name": "OXYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8688",
+      "brand_name": "OXYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8689",
+      "brand_name": "OXYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8690",
+      "brand_name": "OXYNORM CONCENTRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN FLACON DE 120 ML"
+      }
+    },
+    {
+      "source_record_id": "8691",
+      "brand_name": "OXYNORM LIQUIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN FLACON DE 250 ML"
+      }
+    },
+    {
+      "source_record_id": "4096",
+      "brand_name": "OXYTOCINE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "OXYTOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMA 5",
+        "PPV": "16,10 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8692",
+      "brand_name": "OXYTOCINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OXYTOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9145",
+      "brand_name": "OZEMPIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO PREREMPLI DE 1.5 ML ET 4 AIGUILLES A USAGE UNIQUE",
+        "PP / GN": "PP",
+        "Substance active": "SEMAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.099.00 DH",
+        "PH": "822,00 DH",
+        "PFHT": "783,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5   MG",
+        "Forme": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML"
+      }
+    },
+    {
+      "source_record_id": "9146",
+      "brand_name": "OZEMPIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO PREREMPLI DE 1.5 ML ET 4 AIGUILLES A USAGE UNIQUE",
+        "PP / GN": "PP",
+        "Substance active": "SEMAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.099.00 DH",
+        "PH": "822,00 DH",
+        "PFHT": "783,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.25   MG",
+        "Forme": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 1.5 ML"
+      }
+    },
+    {
+      "source_record_id": "9147",
+      "brand_name": "OZEMPIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO PREREMPLI DE 3 ML ET 4 AIGUILLES A USAGE UNIQUE",
+        "PP / GN": "PP",
+        "Substance active": "SEMAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.099.00 DH",
+        "PH": "822,00 DH",
+        "PFHT": "783,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "SOLUTION INJECTABLE (SC) EN STYLO PRE-REMPLI DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "2277",
+      "brand_name": "OZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "39,90 DH",
+        "PH": "24,90 DH",
+        "PFHT": "23,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2278",
+      "brand_name": "OZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "77,20 DH",
+        "PH": "48,20 DH",
+        "PFHT": "45,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2279",
+      "brand_name": "OZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6804",
+      "brand_name": "OZIL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 49,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=49",
+  "fetched_at_utc": "2026-10-18T16:19:04.888721+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6167",
+      "brand_name": "AVIRANZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EFAVIRENZ",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "422,00 DH",
+        "PH": "281,00 DH",
+        "PFHT": "267,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6168",
+      "brand_name": "AVIRO-Z",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "464,00 DH",
+        "PH": "308,00 DH",
+        "PFHT": "294,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3883",
+      "brand_name": "AVLOCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "PROPRANOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "30,00 DH",
+        "PH": "18,70 DH",
+        "PFHT": "17,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2717",
+      "brand_name": "AVLOCARDYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "PROPRANOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "41,80 DH",
+        "PH": "26,20 DH",
+        "PFHT": "24,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2718",
+      "brand_name": "AVLOCARDYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 FLACONS DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROPRANOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "21,60 DH",
+        "PH": "13,50 DH",
+        "PFHT": "12,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2719",
+      "brand_name": "AVLOCARDYL LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PROPRANOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "88,20 DH",
+        "PH": "55,10 DH",
+        "PFHT": "52,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6169",
+      "brand_name": "AVOCOMB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMIVUDINE // ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "615,00 DH",
+        "PH": "408,00 DH",
+        "PFHT": "389,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1803",
+      "brand_name": "AVODART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GSK",
+        "PPV": "254,00 DH",
+        "PH": "158,90 DH",
+        "PFHT": "151,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "1804",
+      "brand_name": "AVODART",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "PP",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "791,00 DH",
+        "PH": "524,00 DH",
+        "PFHT": "468,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6170",
+      "brand_name": "AVOLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMIVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "162,00 DH",
+        "PH": "101,20 DH",
+        "PFHT": "96,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5659",
+      "brand_name": "AVONEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 SERINGUES DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "INTERFERON BETA-1A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "8.010.00 DH",
+        "PH": "7.834.00 DH",
+        "PFHT": "7.461.16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5660",
+      "brand_name": "AVONEX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 4 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "INTERFERON BETA-1A",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "9.818.00 DH",
+        "PH": "9.606.00 DH",
+        "PFHT": "8.604.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG",
+        "Forme": "POUDRE + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "6171",
+      "brand_name": "AVOSTAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "337,00 DH",
+        "PH": "224,00 DH",
+        "PFHT": "213,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6984",
+      "brand_name": "AXAIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "101,70 DH",
+        "PH": "63,60 DH",
+        "PFHT": "60,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG",
+        "Forme": "POUDRE POUR INHALATION EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "6985",
+      "brand_name": "AXAIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "171,70 DH",
+        "PH": "107,30 DH",
+        "PFHT": "102,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µG",
+        "Forme": "POUDRE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9493",
+      "brand_name": "AXEMEM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITES DE 14",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "123,50 DH",
+        "PH": "77,20 DH",
+        "PFHT": "73,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9494",
+      "brand_name": "AXEMEM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITES DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "220,00 DH",
+        "PH": "137,90 DH",
+        "PFHT": "131,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9495",
+      "brand_name": "AXEMEM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITES DE 56",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "365,00 DH",
+        "PH": "242,00 DH",
+        "PFHT": "231,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7413",
+      "brand_name": "AXIFY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "889,00 DH",
+        "PH": "591,00 DH",
+        "PFHT": "563,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7414",
+      "brand_name": "AXIFY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "1.299.00 DH",
+        "PH": "1.029.00 DH",
+        "PFHT": "980,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 112,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=112",
+  "fetched_at_utc": "2026-10-18T16:21:11.153030+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5257",
+      "brand_name": "CORVASAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "MOLSIDOMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "40,20 DH",
+        "PH": "25,10 DH",
+        "PFHT": "23,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "544",
+      "brand_name": "CORYZALIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    },
+    {
+      "source_record_id": "8318",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "75,20 DH",
+        "PH": "47,00 DH",
+        "PFHT": "44,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8319",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "146,60 DH",
+        "PH": "91,60 DH",
+        "PFHT": "87,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8320",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "261,00 DH",
+        "PH": "163,60 DH",
+        "PFHT": "155,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8321",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "104,60 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8322",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "203,00 DH",
+        "PH": "127,40 DH",
+        "PFHT": "121,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8323",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56  COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "328,00 DH",
+        "PH": "218,00 DH",
+        "PFHT": "207,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8324",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMÉS",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "128,50 DH",
+        "PH": "80,30 DH",
+        "PFHT": "76,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8325",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28  COMPRIMÉS",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "250,00 DH",
+        "PH": "156,40 DH",
+        "PFHT": "148,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8326",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMÉS",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "420,00 DH",
+        "PH": "279,00 DH",
+        "PFHT": "266,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8327",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "45,90 DH",
+        "PH": "28,70 DH",
+        "PFHT": "27,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8328",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "86,00 DH",
+        "PH": "53,80 DH",
+        "PFHT": "51,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8329",
+      "brand_name": "COSAPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56  COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "LACOSAMIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "153,60 DH",
+        "PH": "96,00 DH",
+        "PFHT": "91,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "3332",
+      "brand_name": "COSENTYX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "SECUKINUMAB",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "11.617.00 DH",
+        "PH": "11.397.00 DH",
+        "PFHT": "10.997.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "3333",
+      "brand_name": "COSENTYX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "SECUKINUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "11.617.00 DH",
+        "PH": "11.397.00 DH",
+        "PFHT": "10.997.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "72",
+      "brand_name": "COSMOFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (HYDROXIDE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "288,00 DH",
+        "PH": "191,50 DH",
+        "PFHT": "182,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE IV-IM"
+      }
+    },
+    {
+      "source_record_id": "3196",
+      "brand_name": "COSOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "117,80 DH",
+        "PH": "73,60 DH",
+        "PFHT": "70,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  5   MG",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3197",
+      "brand_name": "COSOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4 SACHETS CONTENANT 15 RECIPIENTS UNIDOSES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "245,00 DH",
+        "PH": "153,60 DH",
+        "PFHT": "146,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  5   MG",
+        "Forme": "COLLYRE RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "3118",
+      "brand_name": "COSTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

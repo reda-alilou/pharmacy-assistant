@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 302,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=302",
+  "fetched_at_utc": "2026-10-18T16:27:32.125320+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8655",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 FLACONS ET 100 AMPOULES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHILISE"
+      }
+    },
+    {
+      "source_record_id": "420",
+      "brand_name": "NIMOTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "NIMODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "181,10 DH",
+        "PH": "113,20 DH",
+        "PFHT": "107,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  50  ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3380",
+      "brand_name": "NITRODERM TTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "TRINITRINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "90,00 DH",
+        "PH": "56,30 DH",
+        "PFHT": "53,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "PATCH TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3381",
+      "brand_name": "NITRODERM TTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "TRINITRINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "68,50 DH",
+        "PH": "42,80 DH",
+        "PFHT": "40,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "PATCH TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4955",
+      "brand_name": "NITROGLICERINE PH&T",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "TRINITRINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.611.00 DH",
+        "PH": "1.350.00 DH",
+        "PFHT": "1.285.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  5  ML",
+        "Forme": "CONCENTRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4956",
+      "brand_name": "NITROGLICERINE PH&T",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "TRINITRINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "662,00 DH",
+        "PH": "440,00 DH",
+        "PFHT": "419,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5357",
+      "brand_name": "NIVAQUINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "CHLOROQUINE (SULFATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "11,20 DH",
+        "PH": "7,00 DH",
+        "PFHT": "6,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3720",
+      "brand_name": "NIVESTIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 SERINGUES PRE-REMPLIES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "868,00 DH",
+        "PH": "577,00 DH",
+        "PFHT": "549,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12 MU",
+        "Forme": "SOULUTION POUR INJECTION OU PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3721",
+      "brand_name": "NIVESTIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 SERINGUES PRE-REMPLIES DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.116.00 DH",
+        "PH": "840,00 DH",
+        "PFHT": "800,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 MU  /  0,5  ML",
+        "Forme": "SOULUTION POUR INJECTION OU PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3722",
+      "brand_name": "NIVESTIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 SERINGUES PRE-REMPLIES DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.728.00 DH",
+        "PH": "1.470.00 DH",
+        "PFHT": "1.400.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "48 MU  /  0,5  ML",
+        "Forme": "SOULUTION POUR INJECTION OU PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4504",
+      "brand_name": "NO-DEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4505",
+      "brand_name": "NO-DEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "118,50 DH",
+        "PH": "74,10 DH",
+        "PFHT": "70,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4506",
+      "brand_name": "NO-DEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "188,00 DH",
+        "PH": "117,50 DH",
+        "PFHT": "111,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5358",
+      "brand_name": "NO-DOL CODEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5359",
+      "brand_name": "NO-DOL FEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "5360",
+      "brand_name": "NO-DOL FEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "21,90 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5361",
+      "brand_name": "NO-DOL FEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8658",
+      "brand_name": "NO-DOL FEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5362",
+      "brand_name": "NO-DOL PEDIATRIQUE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "17,00 DH",
+        "PH": "10,60 DH",
+        "PFHT": "9,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5587",
+      "brand_name": "NO-FLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    }
+  ]
+}

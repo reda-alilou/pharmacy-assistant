@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 157,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=157",
+  "fetched_at_utc": "2026-10-18T16:22:41.377657+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2809",
+      "brand_name": "EPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PREREMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.383.00 DH",
+        "PH": "1.115.00 DH",
+        "PFHT": "1.062.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2810",
+      "brand_name": "EPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PREREMPLIE DE 0,4 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.710.00 DH",
+        "PH": "1.452.00 DH",
+        "PFHT": "1.383.06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2811",
+      "brand_name": "EPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PREREMPLIE DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "5.064.00 DH",
+        "PH": "4.802.00 DH",
+        "PFHT": "4.573.52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2812",
+      "brand_name": "EPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PREREMPLIE DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "767,00 DH",
+        "PH": "509,00 DH",
+        "PFHT": "485,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2813",
+      "brand_name": "EPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PREREMPLIE DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.011.00 DH",
+        "PH": "732,00 DH",
+        "PFHT": "697,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9288",
+      "brand_name": "EPTADONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 1000 ML DE SOLUTION AVEC MESURETTE",
+        "PP / GN": "GN",
+        "Substance active": "METHADONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE SANS SUCRE"
+      }
+    },
+    {
+      "source_record_id": "8399",
+      "brand_name": "EPTAVIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  880 UI",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8400",
+      "brand_name": "EPTAVIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE de 90",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  880 UI",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8401",
+      "brand_name": "EPURAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "L-ORNITHINE // L-CITRULLINE // L-CHLORHYDRATE D'ARGININE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "-"
+      }
+    },
+    {
+      "source_record_id": "4792",
+      "brand_name": "EPYCA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "97,30 DH",
+        "PH": "60,80 DH",
+        "PFHT": "57,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4793",
+      "brand_name": "EPYCA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "56,20 DH",
+        "PH": "35,10 DH",
+        "PFHT": "33,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4794",
+      "brand_name": "EPYCA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "68,90 DH",
+        "PH": "43,00 DH",
+        "PFHT": "41,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2814",
+      "brand_name": "EQUANIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "MEPROBAMATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "54,00 DH",
+        "PH": "33,70 DH",
+        "PFHT": "30,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7212",
+      "brand_name": "EQUIRAB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "SERUM ANTIRABIQUE EQUINE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "147,90 DH",
+        "PH": "92,40 DH",
+        "PFHT": "88,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI  /  5  ML",
+        "Forme": "SOLUTION STERILE"
+      }
+    },
+    {
+      "source_record_id": "1641",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON 50ML",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "1.622.00 DH",
+        "PH": "1.361.00 DH",
+        "PFHT": "1.297.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1642",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "1.038.00 DH",
+        "PH": "759,00 DH",
+        "PFHT": "723,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "1643",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "1.489.00 DH",
+        "PH": "1.224.00 DH",
+        "PFHT": "1.166.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "1644",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "1645",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "508,00 DH",
+        "PH": "338,00 DH",
+        "PFHT": "322,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "1646",
+      "brand_name": "EQUORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "653,00 DH",
+        "PH": "434,00 DH",
+        "PFHT": "413,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "CAPSULE"
+      }
+    }
+  ]
+}

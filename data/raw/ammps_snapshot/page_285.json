@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 285,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=285",
+  "fetched_at_utc": "2026-10-18T16:26:58.083377+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6462",
+      "brand_name": "MOPRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "122,50 DH",
+        "PH": "76,60 DH",
+        "PFHT": "72,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6463",
+      "brand_name": "MOPRAL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 FLACONS 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "503,00 DH",
+        "PH": "333,00 DH",
+        "PFHT": "297,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "LYOPHILISAT POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1471",
+      "brand_name": "MORIDIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "GN",
+        "Substance active": "CARRAGHENATE // ZINC (OXYDE) // DIOXYDE DE TITANE // LIDOCAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "12,40 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "1472",
+      "brand_name": "MORIDIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "CARRAGHENATE // ZINC (OXYDE) // DIOXYDE DE TITANE // LIDOCAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "16,20 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "5851",
+      "brand_name": "MORPHINE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "68,60 DH",
+        "PH": "42,90 DH",
+        "PFHT": "40,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5852",
+      "brand_name": "MORPHINE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "77,60 DH",
+        "PH": "48,50 DH",
+        "PFHT": "46,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2552",
+      "brand_name": "MOSCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "41,70 DH",
+        "PH": "26,00 DH",
+        "PFHT": "24,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2553",
+      "brand_name": "MOSCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "270,00 DH",
+        "PH": "179,90 DH",
+        "PFHT": "171,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2554",
+      "brand_name": "MOSCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "94,20 DH",
+        "PH": "58,90 DH",
+        "PFHT": "56,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2555",
+      "brand_name": "MOSCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "179,60 DH",
+        "PH": "112,20 DH",
+        "PFHT": "106,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2918",
+      "brand_name": "MOTILIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "38,10 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2919",
+      "brand_name": "MOTILIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "32,10 DH",
+        "PH": "20,10 DH",
+        "PFHT": "19,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7756",
+      "brand_name": "MOTRINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MONTELUKAST",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "196,40 DH",
+        "PH": "122,70 DH",
+        "PFHT": "116,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "7757",
+      "brand_name": "MOTRINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MONTELUKAST",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "205,00 DH",
+        "PH": "128,60 DH",
+        "PFHT": "122,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "7758",
+      "brand_name": "MOTRINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MONTELUKAST",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "209,00 DH",
+        "PH": "130,80 DH",
+        "PFHT": "124,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "9924",
+      "brand_name": "MOUNJARO 10 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9925",
+      "brand_name": "MOUNJARO 12,5 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9926",
+      "brand_name": "MOUNJARO 15 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9921",
+      "brand_name": "MOUNJARO 2,5 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9922",
+      "brand_name": "MOUNJARO 5 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    }
+  ]
+}

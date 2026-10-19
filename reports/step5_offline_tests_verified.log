@@ -1,0 +1,73 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+Executing <Task finished name='Task-2' coro=<BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:127> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 3.094 seconds
+Executing <Task finished name='Task-7' coro=<BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:163> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.328 seconds
+2026-10-19 11:42:22.913 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:42:26.772 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-108' coro=<ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation.py:38> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.141 seconds
+Executing <Task finished name='Task-188' coro=<ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:49> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 1.094 seconds
+Executing <Task finished name='Task-193' coro=<ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:37> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 3.000 seconds
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1667987906848'> | Ctrl+C to stop
+Reusing the running FastAPI service; it will be left running on exit.
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1667966113488'> | Ctrl+C to stop
+2026-10-19 11:42:34.312 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:42:34.949 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:42:35.728 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:42:36.908 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 11:42:37.990 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-204' coro=<ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.140 seconds
+Executing <Task finished name='Task-209' coro=<ResumeTests.test_duplicate_saved_results_are_rejected() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:164> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.110 seconds
+Executing <Task finished name='Task-219' coro=<ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:132> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.359 seconds
+Executing <Task finished name='Task-234' coro=<ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:112> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.313 seconds
+Executing <Task finished name='Task-239' coro=<ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:123> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.157 seconds
+Executing <Task finished name='Task-249' coro=<ResumeTests.test_three_invocations_complete_without_repeating_saved_cases() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:81> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.344 seconds
+Executing <Task finished name='Task-254' coro=<ResumeTests.test_zero_budget_sends_nothing_and_is_resumable() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:72> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.125 seconds
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_permission_denied attempts=1
+Interpretation failed provider=gemini code=provider_model_unavailable attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed provider=gemini code=provider_timeout attempts=2
+Interpretation failed provider=gemini code=provider_unavailable attempts=2
+Interpretation failed provider=gemini code=provider_unreachable attempts=2
+Interpretation failed provider=gemini code=provider_timeout attempts=2
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed code=provider_rate_limited attempts=1
+Interpretation failed code=provider_authentication_failed attempts=1
+Interpretation failed code=provider_permission_denied attempts=1
+Interpretation failed code=provider_request_rejected attempts=1
+Interpretation failed code=provider_rate_limited attempts=1
+Interpretation failed code=provider_unreachable attempts=2
+Interpretation failed code=provider_timeout attempts=2
+Interpretation failed code=provider_timeout attempts=2
+Interpretation failed code=provider_generation_failed attempts=2
+Interpretation failed code=provider_unavailable attempts=2
+2026-10-19 11:42:56.351 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-383' coro=<RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_matching_improvements.py:119> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.204 seconds
+Executing <Task finished name='Task-393' coro=<RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_matching_improvements.py:161> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.172 seconds
+Executing <Task finished name='Task-397' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 1.594 seconds
+Executing <Task finished name='Task-403' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.578 seconds
+Executing <Task finished name='Task-409' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.391 seconds
+Executing <Task finished name='Task-415' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.640 seconds
+Executing <Task finished name='Task-421' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.953 seconds
+Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_authentication_failed attempts=1
+Interpretation failed provider=opencode code=provider_payment_required attempts=1
+Interpretation failed provider=opencode code=provider_permission_denied attempts=1
+Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_rate_limited attempts=1
+Interpretation failed provider=opencode code=provider_free_tier_restricted attempts=1
+Interpretation failed provider=opencode code=provider_timeout attempts=2
+Interpretation failed provider=opencode code=provider_generation_failed attempts=2
+Interpretation failed provider=opencode code=provider_unreachable attempts=2
+Interpretation failed provider=opencode code=provider_timeout attempts=2
+2026-10-19 11:43:11.871 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Interpretation failed provider=gemini code=provider_daily_quota_exhausted attempts=1
+----------------------------------------------------------------------
+Ran 184 tests in 74.277s
+
+OK

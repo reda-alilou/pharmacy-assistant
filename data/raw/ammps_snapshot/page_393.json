@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 393,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=393",
+  "fetched_at_utc": "2026-10-18T16:30:34.870296+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5416",
+      "brand_name": "SECTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACEBUTOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "104,60 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7026",
+      "brand_name": "SEDALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "325   MG  /  37,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "703",
+      "brand_name": "SEDATIF PC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "42,50 DH",
+        "PH": "26,60 DH",
+        "PFHT": "25,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "704",
+      "brand_name": "SEDATIF PC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "80 GRANULE ENVIRON",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "43,30 DH",
+        "PH": "27,00 DH",
+        "PFHT": "25,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GRANULE"
+      }
+    },
+    {
+      "source_record_id": "2650",
+      "brand_name": "SEDERGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "15,30 DH",
+        "PH": "9,60 DH",
+        "PFHT": "9,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "330   MG  /  200   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "4747",
+      "brand_name": "SEDONASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "STREPTOKINASE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "2.097.00 DH",
+        "PH": "1.850.00 DH",
+        "PFHT": "1.761.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1500000 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3402",
+      "brand_name": "SEEBRI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "GLYCOPYRRONIUM (BROMURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "457,00 DH",
+        "PH": "303,00 DH",
+        "PFHT": "289,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "50 µG",
+        "Forme": "POUDRE POUR INHALATION EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "8802",
+      "brand_name": "SEGLUROMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "ERTUGLIFLOZIN (L-PGA) // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2.5   MG  /  1000   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8803",
+      "brand_name": "SEGLUROMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "ERTUGLIFLOZIN (L-PGA) // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2.5   MG  /  1000   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8804",
+      "brand_name": "SEGLUROMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "ERTUGLIFLOZIN (L-PGA) // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG  / 1000   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8805",
+      "brand_name": "SEGLUROMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "ERTUGLIFLOZIN (L-PGA) // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG / 1000   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "4748",
+      "brand_name": "SELEXID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "PIVMECILLINAM (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "71,90 DH",
+        "PH": "44,90 DH",
+        "PFHT": "42,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8055",
+      "brand_name": "SEMGLEE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  5 STYLOS",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "520,00 DH",
+        "PH": "346,00 DH",
+        "PFHT": "329,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "8056",
+      "brand_name": "SEMGLEE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "106,70 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "3011",
+      "brand_name": "SENOPHILE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "ZINC (OXYDE) // CHOLESTEROL BENZOATE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "13,60 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 G  /  1 G",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "2231",
+      "brand_name": "SEPCEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "51,40 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2232",
+      "brand_name": "SEPCEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2233",
+      "brand_name": "SEPCEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "338,00 DH",
+        "PH": "224,00 DH",
+        "PFHT": "214,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9791",
+      "brand_name": "SEPCEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4167",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "154,20 DH",
+        "PH": "96,40 DH",
+        "PFHT": "91,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

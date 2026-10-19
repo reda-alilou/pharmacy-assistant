@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 409,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=409",
+  "fetched_at_utc": "2026-10-18T16:31:06.739024+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5973",
+      "brand_name": "STAGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "METFORMINE (EMBONATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "107,60 DH",
+        "PH": "67,20 DH",
+        "PFHT": "64,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "700   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5974",
+      "brand_name": "STAGID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "METFORMINE (EMBONATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "36,20 DH",
+        "PH": "22,60 DH",
+        "PFHT": "21,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "700   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "3406",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "317,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  /  25  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3407",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.089.00 DH",
+        "PH": "788,00 DH",
+        "PFHT": "704,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  /  25  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3408",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "329,00 DH",
+        "PH": "218,00 DH",
+        "PFHT": "208,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150  /  37,5  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3409",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.113.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "725,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150  /  37,5  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3410",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.080.00 DH",
+        "PH": "779,00 DH",
+        "PFHT": "695,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50  /  12,5  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3411",
+      "brand_name": "STALEVO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ENTACAPONE // LEVODOPA // CARBIDOPA",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "300,00 DH",
+        "PH": "199,90 DH",
+        "PFHT": "190,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50  /  12,5  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9762",
+      "brand_name": "STALORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "COFFRE DE MAINTENANCE D'1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT ALLERGENIQUE STANDARISE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "670,00 DH",
+        "PH": "445,00 DH",
+        "PFHT": "424,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1 - 1 - 10 + 100   IC  /  ML OU 300   IC  /  ML",
+        "Forme": "SOLUTION SUBLINGUALE"
+      }
+    },
+    {
+      "source_record_id": "9763",
+      "brand_name": "STALORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "COFFRET D'INITIATION DE 2 OU 3 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT ALLERGENIQUE STANDARISE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "858,00 DH",
+        "PH": "570,00 DH",
+        "PFHT": "543,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 - 100   IC  /  ML OU 10 - 100 - 300   IC  / ML OU 10 - 300   IC  /  ML",
+        "Forme": "SOLUTION SUBLINGUALE"
+      }
+    },
+    {
+      "source_record_id": "2290",
+      "brand_name": "STAMARIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DELYOPHILYSAT + 1 SERINGUE PRE REMPLIE DE SOLVANT",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : VIRUS DE LA FIEVRE JAUNE ATTENUE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "210,00 DH",
+        "PH": "131,20 DH",
+        "PFHT": "125,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "≥ 1000 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8838",
+      "brand_name": "STAMICIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "RX",
+        "Substance active": "TETRAKIS (TETRA-FLUOROBORATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9039",
+      "brand_name": "STANLIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FENOFIBRATE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "64,80 DH",
+        "PH": "40,50 DH",
+        "PFHT": "38,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "145   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "6839",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6840",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "57,80 DH",
+        "PH": "36,10 DH",
+        "PFHT": "34,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6841",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "36,30 DH",
+        "PH": "22,70 DH",
+        "PFHT": "21,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6842",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "97,30 DH",
+        "PH": "60,80 DH",
+        "PFHT": "57,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6843",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6844",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "130,10 DH",
+        "PH": "81,30 DH",
+        "PFHT": "77,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6845",
+      "brand_name": "STANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE (CALCIUM TRIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "64,30 DH",
+        "PH": "40,20 DH",
+        "PFHT": "38,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

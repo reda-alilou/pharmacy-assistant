@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 371,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=371",
+  "fetched_at_utc": "2026-10-18T16:29:50.532624+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7620",
+      "brand_name": "REPAGLINIDE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "25,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7621",
+      "brand_name": "REPAGLINIDE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "126,00 DH",
+        "PH": "78,70 DH",
+        "PFHT": "75,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7622",
+      "brand_name": "REPAGLINIDE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "46,00 DH",
+        "PH": "28,70 DH",
+        "PFHT": "27,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7623",
+      "brand_name": "REPAGLINIDE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "138,00 DH",
+        "PH": "86,20 DH",
+        "PFHT": "82,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7246",
+      "brand_name": "REPATHA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN STYLO PRE REMPLI DE 1ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "EVOLOCUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.637.00 DH",
+        "PH": "2.303.00 DH",
+        "PFHT": "2.193.36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7247",
+      "brand_name": "REPATHA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS PRE REMPLIS DE 1ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "EVOLOCUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "4.874.00 DH",
+        "PH": "4.606.00 DH",
+        "PFHT": "4.386.74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1927",
+      "brand_name": "REQUIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "ROPINIROLE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "31,20 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1928",
+      "brand_name": "REQUIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "ROPINIROLE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "37,00 DH",
+        "PH": "23,10 DH",
+        "PFHT": "22,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1929",
+      "brand_name": "REQUIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "ROPINIROLE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "83,80 DH",
+        "PH": "52,40 DH",
+        "PFHT": "49,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1930",
+      "brand_name": "REQUIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "ROPINIROLE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "156,10 DH",
+        "PH": "97,60 DH",
+        "PFHT": "92,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1931",
+      "brand_name": "REQUIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "ROPINIROLE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "311,00 DH",
+        "PH": "207,00 DH",
+        "PFHT": "197,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5541",
+      "brand_name": "RESINCAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 400G",
+        "PP / GN": "GN",
+        "Substance active": "POLYSTYRENE SULFONATE DE CALCIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "298,00 DH",
+        "PH": "198,40 DH",
+        "PFHT": "189,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "99,75 G  /  100 G",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2116",
+      "brand_name": "RESINCALCIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 400 G",
+        "PP / GN": "GN",
+        "Substance active": "POLYSTYRENE SULFONATE DE CALCIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "333,00 DH",
+        "PH": "221,00 DH",
+        "PFHT": "210,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "99,75 G  /  100 G",
+        "Forme": "POUDRE POUR SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "5542",
+      "brand_name": "RESINSOD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 400G",
+        "PP / GN": "GN",
+        "Substance active": "POLYSTYRENE SULFONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "298,00 DH",
+        "PH": "198,40 DH",
+        "PFHT": "189,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "99,75 G  /  100 G",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2117",
+      "brand_name": "RESINSODIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 400 G",
+        "PP / GN": "GN",
+        "Substance active": "POLYSTYRENE SULFONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "333,00 DH",
+        "PH": "221,00 DH",
+        "PFHT": "210,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "99,75 G  /  100 G",
+        "Forme": "POUDRE POUR SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "9697",
+      "brand_name": "RESPIQA CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "ALCOOL 2,4-DICHLOROBENZYLIQUE // AMYLMETACRESOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "24,20 DH",
+        "PH": "15,10 DH",
+        "PFHT": "14,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 MG / 0,6 MG",
+        "Forme": "PASTILLES"
+      }
+    },
+    {
+      "source_record_id": "9698",
+      "brand_name": "RESPIQA CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "ALCOOL 2,4-DICHLOROBENZYLIQUE // AMYLMETACRESOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "41,50 DH",
+        "PH": "25,90 DH",
+        "PFHT": "24,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 MG / 0,6 MG",
+        "Forme": "PASTILLES"
+      }
+    },
+    {
+      "source_record_id": "9699",
+      "brand_name": "RESPIQA CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 48",
+        "PP / GN": "PP",
+        "Substance active": "ALCOOL 2,4-DICHLOROBENZYLIQUE // AMYLMETACRESOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "76,00 DH",
+        "PH": "47,50 DH",
+        "PFHT": "45,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 MG / 0,6 MG",
+        "Forme": "PASTILLES"
+      }
+    },
+    {
+      "source_record_id": "9700",
+      "brand_name": "RESPIQA MIEL CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "ALCOOL 2,4-DICHLOROBENZYLIQUE // AMYLMETACRESOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "24,20 DH",
+        "PH": "15,10 DH",
+        "PFHT": "14,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 MG / 0,6 MG",
+        "Forme": "PASTILLES"
+      }
+    },
+    {
+      "source_record_id": "9701",
+      "brand_name": "RESPIQA MIEL CITRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "ALCOOL 2,4-DICHLOROBENZYLIQUE // AMYLMETACRESOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "41,50 DH",
+        "PH": "25,90 DH",
+        "PFHT": "24,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 MG / 0,6 MG",
+        "Forme": "PASTILLES"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 412,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=412",
+  "fetched_at_utc": "2026-10-18T16:31:12.903464+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3022",
+      "brand_name": "STELARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "SERINGUE PRE-REMPLIE DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "USTEKINUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "25.673.00 DH",
+        "PH": "25.177.00 DH",
+        "PFHT": "24.777.89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7452",
+      "brand_name": "STELARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "USTEKINUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "26.060.00 DH",
+        "PH": "25.557.00 DH",
+        "PFHT": "25.157.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "45   MG",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 0,5 ML"
+      }
+    },
+    {
+      "source_record_id": "7453",
+      "brand_name": "STELARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "USTEKINUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "26.060.00 DH",
+        "PH": "25.557.00 DH",
+        "PFHT": "25.157.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "130   MG",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "1076",
+      "brand_name": "STERDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE // OXYTETRACYCLINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,70 DH",
+        "PH": "15,40 DH",
+        "PFHT": "14,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,267   MG  /  1,335   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "7174",
+      "brand_name": "STERIDIOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "DESOGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "22,60 DH",
+        "PH": "14,10 DH",
+        "PFHT": "13,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,03   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7175",
+      "brand_name": "STEROFUNDIN ISO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM DIHYDRATE // CHLORURE DE MAGNESIUM HEXAHYDRATE // ACETATE DE SODIUM // ACIDE L-MALIQUE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PHI",
+        "PPV": "302,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "191,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000  ML",
+        "Forme": "SOLUTION POUR PERFUSION SOUS FLACON"
+      }
+    },
+    {
+      "source_record_id": "7176",
+      "brand_name": "STEROFUNDIN ISO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM DIHYDRATE // CHLORURE DE MAGNESIUM HEXAHYDRATE // ACETATE DE SODIUM // ACIDE L-MALIQUE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PHI",
+        "PPV": "236,00 DH",
+        "PH": "147,60 DH",
+        "PFHT": "140,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  ML",
+        "Forme": "SOLUTION POUR PERFUSION SOUS FLACON"
+      }
+    },
+    {
+      "source_record_id": "5978",
+      "brand_name": "STEROGYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 1,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D2 (ERGOCALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 H 600 000 UI",
+        "Forme": "SOLUTION HUILEUSE BUVABLE ET INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5979",
+      "brand_name": "STEROGYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D2 (ERGOCALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000000 UI",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4559",
+      "brand_name": "STIEVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "PP",
+        "Substance active": "TRETINOINE // ERYTHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "90,50 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,01%  /  4%",
+        "Forme": "GEL DOUX"
+      }
+    },
+    {
+      "source_record_id": "4560",
+      "brand_name": "STIEVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "PP",
+        "Substance active": "TRETINOINE // ERYTHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "92,50 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,03%  /  4%",
+        "Forme": "GEL REGULIER"
+      }
+    },
+    {
+      "source_record_id": "4561",
+      "brand_name": "STIEVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "PP",
+        "Substance active": "TRETINOINE // ERYTHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "97,60 DH",
+        "PH": "61,00 DH",
+        "PFHT": "58,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05%  /  4%",
+        "Forme": "GEL FORT"
+      }
+    },
+    {
+      "source_record_id": "6847",
+      "brand_name": "STIGMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE (HYDROGENE TARTRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "88,30 DH",
+        "PH": "55,20 DH",
+        "PFHT": "52,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6848",
+      "brand_name": "STIGMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE (HYDROGENE TARTRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "91,80 DH",
+        "PH": "57,30 DH",
+        "PFHT": "54,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6849",
+      "brand_name": "STIGMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE (HYDROGENE TARTRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "172,90 DH",
+        "PH": "108,10 DH",
+        "PFHT": "102,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6850",
+      "brand_name": "STIGMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE (HYDROGENE TARTRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "172,90 DH",
+        "PH": "108,10 DH",
+        "PFHT": "102,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5437",
+      "brand_name": "STILNOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "52,90 DH",
+        "PH": "33,00 DH",
+        "PFHT": "31,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5438",
+      "brand_name": "STILNOX CR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "114,00 DH",
+        "PH": "71,30 DH",
+        "PFHT": "67,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION CONTRÔLEE"
+      }
+    },
+    {
+      "source_record_id": "5439",
+      "brand_name": "STILNOX CR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "91,60 DH",
+        "PH": "57,20 DH",
+        "PFHT": "54,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION CONTRÔLEE"
+      }
+    },
+    {
+      "source_record_id": "468",
+      "brand_name": "STIMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 AMPOULES DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "CITRULLINE (MALEATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "1 G  /  10  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

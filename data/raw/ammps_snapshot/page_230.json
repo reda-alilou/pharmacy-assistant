@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 230,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=230",
+  "fetched_at_utc": "2026-10-18T16:25:07.691058+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4459",
+      "brand_name": "IRINOCYT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "533,00 DH",
+        "PH": "354,00 DH",
+        "PFHT": "337,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9233",
+      "brand_name": "IRINOTEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "520,00 DH",
+        "PH": "345,00 DH",
+        "PFHT": "329,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 2 ML"
+      }
+    },
+    {
+      "source_record_id": "9234",
+      "brand_name": "IRINOTEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.313.00 DH",
+        "PH": "1.043.00 DH",
+        "PFHT": "993,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "943",
+      "brand_name": "IRINOTECAN COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "1.096.00 DH",
+        "PH": "819,00 DH",
+        "PFHT": "780,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "944",
+      "brand_name": "IRINOTECAN COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "506,00 DH",
+        "PH": "336,00 DH",
+        "PFHT": "320,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "SOLUTION POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "5030",
+      "brand_name": "IRINOTECAN KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "506,00 DH",
+        "PH": "336,00 DH",
+        "PFHT": "320,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5031",
+      "brand_name": "IRINOTECAN KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "1.166.00 DH",
+        "PH": "892,00 DH",
+        "PFHT": "849,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6218",
+      "brand_name": "IRINOTECAN RANBAXY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "1.095.00 DH",
+        "PH": "819,00 DH",
+        "PFHT": "780,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6219",
+      "brand_name": "IRINOTECAN RANBAXY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "505,00 DH",
+        "PH": "336,00 DH",
+        "PFHT": "320,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4809",
+      "brand_name": "IRINOTECAN THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.313.00 DH",
+        "PH": "1.042.00 DH",
+        "PFHT": "993,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4810",
+      "brand_name": "IRINOTECAN THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.576.00 DH",
+        "PH": "1.313.00 DH",
+        "PFHT": "1.251.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  15  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4811",
+      "brand_name": "IRINOTECAN THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "520,00 DH",
+        "PH": "345,00 DH",
+        "PFHT": "329,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4812",
+      "brand_name": "IRINOTECAN THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 25 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "2.527.00 DH",
+        "PH": "2.189.00 DH",
+        "PFHT": "2.085.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  25  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3301",
+      "brand_name": "IRINOTECAN VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "1.418.00 DH",
+        "PH": "1.150.00 DH",
+        "PFHT": "1.096.10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3302",
+      "brand_name": "IRINOTECAN VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "450,00 DH",
+        "PH": "299,00 DH",
+        "PFHT": "285,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3303",
+      "brand_name": "IRINOTECAN VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "975,00 DH",
+        "PH": "695,00 DH",
+        "PFHT": "662,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6723",
+      "brand_name": "IRINOTECAN ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.185.00 DH",
+        "PH": "911,00 DH",
+        "PFHT": "868,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6724",
+      "brand_name": "IRINOTECAN ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "499,00 DH",
+        "PH": "331,00 DH",
+        "PFHT": "316,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6725",
+      "brand_name": "IRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24 COMPRIMES ACTIFS PELLICULES ROSES ET 4 COMPRIMES PLACEBOS PELLICULES BLANCS",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "86,10 DH",
+        "PH": "53,80 DH",
+        "PFHT": "51,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  0,02   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4460",
+      "brand_name": "IRPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "43,50 DH",
+        "PH": "27,20 DH",
+        "PFHT": "25,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

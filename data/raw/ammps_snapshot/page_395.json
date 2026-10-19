@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 395,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=395",
+  "fetched_at_utc": "2026-10-18T16:30:39.358786+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1944",
+      "brand_name": "SERETIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "218,00 DH",
+        "PH": "136,20 DH",
+        "PFHT": "129,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µg  /  25 µg",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "1945",
+      "brand_name": "SERETIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  25 µG",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "1946",
+      "brand_name": "SERETIDE DISKUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 RECIPIENTS UNIDOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "199,00 DH",
+        "PH": "124,40 DH",
+        "PFHT": "118,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  50 µG PAR DOSE",
+        "Forme": "POUDRE POUR INHALATION EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "1947",
+      "brand_name": "SERETIDE DISKUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "248,00 DH",
+        "PH": "155,00 DH",
+        "PFHT": "147,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µG  /  50 µG PAR DOSE",
+        "Forme": "POUDRE POUR INHALATION EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "1948",
+      "brand_name": "SERETIDE DISKUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 RECIPIENTS UNIDOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "338,00 DH",
+        "PH": "224,00 DH",
+        "PFHT": "214,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µG  /  50 µG PAR DOSE",
+        "Forme": "POUDRE POUR INHALATION EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "8808",
+      "brand_name": "SEREVENT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 60 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE"
+      }
+    },
+    {
+      "source_record_id": "8809",
+      "brand_name": "SEREVENT ROTADISK",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "-",
+        "Substance active": "SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "-"
+      }
+    },
+    {
+      "source_record_id": "7651",
+      "brand_name": "SERFLUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "169,60 DH",
+        "PH": "106,00 DH",
+        "PFHT": "100,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µg / 250 µG",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE DE 120 DOSES"
+      }
+    },
+    {
+      "source_record_id": "7652",
+      "brand_name": "SERFLUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "111,20 DH",
+        "PH": "69,50 DH",
+        "PFHT": "66,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µg / 50 µG",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE DE 120 DOSES"
+      }
+    },
+    {
+      "source_record_id": "5950",
+      "brand_name": "SEROHALE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "AEROSOL DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "142,00 DH",
+        "PH": "88,70 DH",
+        "PFHT": "84,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG  / 25 µG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "5951",
+      "brand_name": "SEROHALE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "AEROSOL DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "185,00 DH",
+        "PH": "115,60 DH",
+        "PFHT": "110,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µg  /  25 µg",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "5952",
+      "brand_name": "SEROHALE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "AEROSOL DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "123,00 DH",
+        "PH": "76,90 DH",
+        "PFHT": "73,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  25 µG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "5417",
+      "brand_name": "SEROPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "113,10 DH",
+        "PH": "70,70 DH",
+        "PFHT": "67,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5418",
+      "brand_name": "SEROPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "224,00 DH",
+        "PH": "140,20 DH",
+        "PFHT": "133,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6506",
+      "brand_name": "SEROQUEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6507",
+      "brand_name": "SEROQUEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "516,00 DH",
+        "PH": "342,00 DH",
+        "PFHT": "326,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6508",
+      "brand_name": "SEROQUEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "140,70 DH",
+        "PH": "88,00 DH",
+        "PFHT": "83,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6509",
+      "brand_name": "SEROQUEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "813,00 DH",
+        "PH": "540,00 DH",
+        "PFHT": "515,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6510",
+      "brand_name": "SERTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "66,30 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6511",
+      "brand_name": "SERTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "103,40 DH",
+        "PH": "64,60 DH",
+        "PFHT": "61,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

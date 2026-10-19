@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 301,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=301",
+  "fetched_at_utc": "2026-10-18T16:27:30.507307+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1725",
+      "brand_name": "NIFEGEN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "75,00 DH",
+        "PH": "46,90 DH",
+        "PFHT": "44,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2572",
+      "brand_name": "NIFLURIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "PP",
+        "Substance active": "MORNIFLUMATE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2573",
+      "brand_name": "NIFLURIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "PP",
+        "Substance active": "MORNIFLUMATE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "28,30 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "700   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2574",
+      "brand_name": "NIFLURIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE NIFLUMIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "31,80 DH",
+        "PH": "19,90 DH",
+        "PFHT": "18,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1726",
+      "brand_name": "NIFOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "10,70 DH",
+        "PH": "6,70 DH",
+        "PFHT": "6,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1727",
+      "brand_name": "NIFOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1008",
+      "brand_name": "NIFROZID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "COOPER PHARMA",
+        "PPV": "19,60 DH",
+        "PH": "12,20 DH",
+        "PFHT": "10,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1009",
+      "brand_name": "NIFROZID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "12,30 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4082",
+      "brand_name": "NIFUROXAZIDE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "10,70 DH",
+        "PH": "6,70 DH",
+        "PFHT": "6,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4083",
+      "brand_name": "NIFUROXAZIDE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4084",
+      "brand_name": "NIFUROXAZIDE PHARMA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHARMA 5",
+        "PPV": "17,70 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "220   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1891",
+      "brand_name": "NIMBEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "CISATRACURIUM (BESILATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "204,00 DH",
+        "PH": "127,60 DH",
+        "PFHT": "121,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1892",
+      "brand_name": "NIMBEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "CISATRACURIUM (BESILATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "326,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "206,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3719",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON ET 1 SERINGUE PRE-REMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "567,00 DH",
+        "PH": "377,00 DH",
+        "PFHT": "359,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5  ML",
+        "Forme": "LYOPHILISAT ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8649",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 AMPOULES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "-"
+      }
+    },
+    {
+      "source_record_id": "8650",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8651",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 SERINGUES PRE-REMPLIES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8652",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON ET 1 AMPOULE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHILISE"
+      }
+    },
+    {
+      "source_record_id": "8653",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON ET UNE SERINGUE PRE-REMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHILISE"
+      }
+    },
+    {
+      "source_record_id": "8654",
+      "brand_name": "NIMENRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS ET 10 AMPOULES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHILISE"
+      }
+    }
+  ]
+}

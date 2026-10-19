@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 419,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=419",
+  "fetched_at_utc": "2026-10-18T16:31:27.249293+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4205",
+      "brand_name": "SUPPOSEDAL PARACETAMOL ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // GRINDELIA // GELSEMIUM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4206",
+      "brand_name": "SUPPOSEDAL PARACETAMOL NOURRISSON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // GRINDELIA // GELSEMIUM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "15,90 DH",
+        "PH": "9,90 DH",
+        "PFHT": "9,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "8858",
+      "brand_name": "SUPRADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "SOLUTE"
+      }
+    },
+    {
+      "source_record_id": "8859",
+      "brand_name": "SUPRADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8860",
+      "brand_name": "SUPRADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "439",
+      "brand_name": "SUPRADYNE PRONATAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "NA",
+        "Substance active": "ASSOCIATION VITAMINIQUE // SELS MINERAUX",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BAYER",
+        "PPV": "72,60 DH",
+        "PH": "45,40 DH",
+        "PFHT": "43,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1756",
+      "brand_name": "SUPRALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1757",
+      "brand_name": "SUPRALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "65,90 DH",
+        "PH": "41,20 DH",
+        "PFHT": "39,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1758",
+      "brand_name": "SUPRALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1079",
+      "brand_name": "SUPRALOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "F/250ML",
+        "PP / GN": "PP",
+        "Substance active": "ALUMINIUM (PHOSPHATE) // ALUMINIUM (HYDROXYDE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "43,90 DH",
+        "PH": "27,40 DH",
+        "PFHT": "26,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  900   MG",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8861",
+      "brand_name": "SUPRANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 6 FLACONS DE CAPACITE DE 250 ML CONTENANT 240 ML DE DESFLURANE",
+        "PP / GN": "PP",
+        "Substance active": "DESFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "4.801.00 DH",
+        "PH": "4.530.00 DH",
+        "PFHT": "4.315.11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  ML  /   ML",
+        "Forme": "LIQUIDE POUR INHALATION PAR VAPEUR"
+      }
+    },
+    {
+      "source_record_id": "335",
+      "brand_name": "SUPRIMASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "73,80 DH",
+        "PH": "46,10 DH",
+        "PFHT": "43,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "336",
+      "brand_name": "SUPRIMASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "337",
+      "brand_name": "SUPRIMASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "78,30 DH",
+        "PH": "48,90 DH",
+        "PFHT": "46,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "338",
+      "brand_name": "SUPRIMASE DUO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "39,50 DH",
+        "PH": "24,70 DH",
+        "PFHT": "23,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5440",
+      "brand_name": "SURGAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5441",
+      "brand_name": "SURGAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "51,80 DH",
+        "PH": "32,40 DH",
+        "PFHT": "30,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "3028",
+      "brand_name": "SURMONTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "TRIMIPRAMINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "50,70 DH",
+        "PH": "31,70 DH",
+        "PFHT": "30,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3029",
+      "brand_name": "SURMONTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "TRIMIPRAMINE (MALEATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "46,30 DH",
+        "PH": "28,90 DH",
+        "PFHT": "27,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3271",
+      "brand_name": "SUSTANON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "TESTOSTERONE (PROPIONATE) // TESTOSTERONE (PHENYLPROPIONATE) // TESTOSTERONE (ISOCAPROATE) // TESTOSTERONE (DECANOATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MSD",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "SOLUTE INJECTABLE IM"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 248,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=248",
+  "fetched_at_utc": "2026-10-18T16:25:43.845413+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5325",
+      "brand_name": "LASILIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "7,40 DH",
+        "PH": "4,60 DH",
+        "PFHT": "4,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5326",
+      "brand_name": "LASILIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5327",
+      "brand_name": "LASILIX RETARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "71,40 DH",
+        "PH": "44,60 DH",
+        "PFHT": "42,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5328",
+      "brand_name": "LASIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES DE 25 ML",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "91,80 DH",
+        "PH": "57,40 DH",
+        "PFHT": "54,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  25  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5329",
+      "brand_name": "LASIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "302,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "191,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5330",
+      "brand_name": "LASIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "635,00 DH",
+        "PH": "422,00 DH",
+        "PFHT": "402,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7251",
+      "brand_name": "LASIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 DE 25 ML",
+        "PP / GN": "PP",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "88,40 DH",
+        "PH": "55,30 DH",
+        "PFHT": "52,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  25  ML",
+        "Forme": "SOLUTION INJECTABLE EN AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "487",
+      "brand_name": "LATANO JP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "91,80 DH",
+        "PH": "57,40 DH",
+        "PFHT": "54,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5.0E-5",
+        "Forme": "SOLUTION OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6912",
+      "brand_name": "LATANOCOM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML CONTENANT 2,5 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "83,70 DH",
+        "PH": "52,30 DH",
+        "PFHT": "49,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  5   MG",
+        "Forme": "SOLUTION OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3147",
+      "brand_name": "LATAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "91,80 DH",
+        "PH": "57,40 DH",
+        "PFHT": "54,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5.0E-5",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6744",
+      "brand_name": "LAXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML BOITE UNITAIRE CONTENANT 2,5 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "91,80 DH",
+        "PH": "57,40 DH",
+        "PFHT": "54,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5.0E-5",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6745",
+      "brand_name": "LAXAMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML CONTENANT 2,5 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "83,70 DH",
+        "PH": "52,30 DH",
+        "PFHT": "49,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  5   MG",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "959",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "960",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "57,80 DH",
+        "PH": "36,10 DH",
+        "PFHT": "34,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "961",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "36,30 DH",
+        "PH": "22,70 DH",
+        "PFHT": "21,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "962",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "97,30 DH",
+        "PH": "60,80 DH",
+        "PFHT": "57,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "963",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "964",
+      "brand_name": "LD-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "130,10 DH",
+        "PH": "81,30 DH",
+        "PFHT": "77,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4935",
+      "brand_name": "LECTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "BETAHISTINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3688",
+      "brand_name": "LEDERFOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FOLINATE (DE CALCIUM)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "102,10 DH",
+        "PH": "63,80 DH",
+        "PFHT": "60,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    }
+  ]
+}

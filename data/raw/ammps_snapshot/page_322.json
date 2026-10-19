@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 322,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=322",
+  "fetched_at_utc": "2026-10-18T16:28:12.211541+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9514",
+      "brand_name": "ONIVYDE PEGYLATED LIPOSOMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "9.645.00 DH",
+        "PH": "9.463.00 DH",
+        "PFHT": "9.063.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,3 MG / ML",
+        "Forme": "DISPERSION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3531",
+      "brand_name": "ONSET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 AMPOULE DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "84,60 DH",
+        "PH": "52,80 DH",
+        "PFHT": "50,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3532",
+      "brand_name": "ONSET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "302,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "191,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "340",
+      "brand_name": "ONYCAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "132,70 DH",
+        "PH": "82,90 DH",
+        "PFHT": "78,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "341",
+      "brand_name": "ONYCAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "251,00 DH",
+        "PH": "157,10 DH",
+        "PFHT": "149,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "342",
+      "brand_name": "ONYCAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6794",
+      "brand_name": "ONYXINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 2,5 ML AVEC 10 SPATULES",
+        "PP / GN": "GN",
+        "Substance active": "AMOROLFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "191,70 DH",
+        "PH": "119,80 DH",
+        "PFHT": "114,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "VERNIS A ONGLES MEDICAMENTEUX"
+      }
+    },
+    {
+      "source_record_id": "5902",
+      "brand_name": "OPATANOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "OLOPATADINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "84,80 DH",
+        "PH": "53,00 DH",
+        "PFHT": "50,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6924",
+      "brand_name": "OPAVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ENTECAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "1.521.00 DH",
+        "PH": "1.257.00 DH",
+        "PFHT": "1.197.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6925",
+      "brand_name": "OPAVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ENTECAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "1.754.00 DH",
+        "PH": "1.496.00 DH",
+        "PFHT": "1.425.65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1247",
+      "brand_name": "OPRA DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "36,40 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "1248",
+      "brand_name": "OPRA DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "73,80 DH",
+        "PH": "46,10 DH",
+        "PFHT": "43,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "1249",
+      "brand_name": "OPRA DEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "191",
+      "brand_name": "OPSUMIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "MACITENTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "26.000.00 DH",
+        "PH": "25.498.00 DH",
+        "PFHT": "25.098.30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2593",
+      "brand_name": "OPTICILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 6 FLACON +6 SOLVANTS: ALCOOL BENZYLIQUE 3%",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "80,90 DH",
+        "PH": "50,60 DH",
+        "PFHT": "48,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2594",
+      "brand_name": "OPTICILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON + 1 SOLVANT: ALCOOL BENZYLIQUE 3%",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2595",
+      "brand_name": "OPTICILLINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "47,30 DH",
+        "PH": "29,50 DH",
+        "PFHT": "26,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2596",
+      "brand_name": "OPTICILLINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "83,40 DH",
+        "PH": "52,00 DH",
+        "PFHT": "46,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2597",
+      "brand_name": "OPTICILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON + 1 SOLVANT: ALCOOL BENZYLIQUE 3%",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "10,40 DH",
+        "PH": "6,50 DH",
+        "PFHT": "6,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2955",
+      "brand_name": "OPTICRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "CROMOGLICATE DE SODIUM",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "COLLYRE"
+      }
+    }
+  ]
+}

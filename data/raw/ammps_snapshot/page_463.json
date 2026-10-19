@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 463,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=463",
+  "fetched_at_utc": "2026-10-18T16:32:54.785971+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1140",
+      "brand_name": "VENDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "112,20 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1141",
+      "brand_name": "VENDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "28,30 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1142",
+      "brand_name": "VENDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "25,10 DH",
+        "PH": "15,70 DH",
+        "PFHT": "14,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1143",
+      "brand_name": "VENDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "66,20 DH",
+        "PH": "41,30 DH",
+        "PFHT": "39,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1318",
+      "brand_name": "VENOFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULE DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "474,00 DH",
+        "PH": "315,00 DH",
+        "PFHT": "300,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1971",
+      "brand_name": "VENTOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "25,10 DH",
+        "PH": "15,70 DH",
+        "PFHT": "14,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1972",
+      "brand_name": "VENTOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200DOSES",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "42,20 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE"
+      }
+    },
+    {
+      "source_record_id": "1973",
+      "brand_name": "VENTOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "27,30 DH",
+        "PH": "17,10 DH",
+        "PFHT": "16,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  5  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1974",
+      "brand_name": "VENTOLINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1975",
+      "brand_name": "VENTOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "29,50 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  10  ML",
+        "Forme": "SOLUTION POUR INHALATION PAR NEBULISEUR"
+      }
+    },
+    {
+      "source_record_id": "8954",
+      "brand_name": "VENTOLINE DISKUS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR INHALATION BUCCALE"
+      }
+    },
+    {
+      "source_record_id": "8955",
+      "brand_name": "VENTOLINE DISKUS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR INHALATION BUCCALE"
+      }
+    },
+    {
+      "source_record_id": "1976",
+      "brand_name": "VENTOLINE NEBULES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "110,00 DH",
+        "PH": "68,70 DH",
+        "PFHT": "65,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION PAR NEBULISEUR EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "1977",
+      "brand_name": "VENTOLINE NEBULES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION PAR NEBULISEUR EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "1978",
+      "brand_name": "VENTOLINE NEBULES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "73,50 DH",
+        "PH": "45,90 DH",
+        "PFHT": "43,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  2,5  ML",
+        "Forme": "SOLUTION POUR INHALATION PAR NEBULISEUR EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "2247",
+      "brand_name": "VENULA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "HYDROSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "35,50 DH",
+        "PH": "22,20 DH",
+        "PFHT": "21,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2248",
+      "brand_name": "VENULA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "HYDROSMINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "91,60 DH",
+        "PH": "57,30 DH",
+        "PFHT": "54,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5655",
+      "brand_name": "VEPRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "60,90 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5656",
+      "brand_name": "VEPRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE de 28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "108,70 DH",
+        "PH": "67,90 DH",
+        "PFHT": "64,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5657",
+      "brand_name": "VEPRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "84,00 DH",
+        "PH": "52,50 DH",
+        "PFHT": "50,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

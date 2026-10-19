@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 292,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=292",
+  "fetched_at_utc": "2026-10-18T16:27:12.093152+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4073",
+      "brand_name": "NATEAD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE ANTI-D",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "664,00 DH",
+        "PH": "441,00 DH",
+        "PFHT": "420,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  2  ML",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "638",
+      "brand_name": "NATISPRAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 18 ML / 300 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "TRINITRINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "69,30 DH",
+        "PH": "43,30 DH",
+        "PFHT": "41,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3   MG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "5498",
+      "brand_name": "NATRIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "87,50 DH",
+        "PH": "54,70 DH",
+        "PFHT": "52,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG  /  10   MG",
+        "Forme": "COMPRIME A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "5499",
+      "brand_name": "NATRIXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "INDAPAMIDE // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "79,90 DH",
+        "PH": "49,90 DH",
+        "PFHT": "47,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG  /  5   MG",
+        "Forme": "COMPRIME A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "7401",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "42,70 DH",
+        "PH": "26,70 DH",
+        "PFHT": "25,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "7402",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "131,40 DH",
+        "PH": "82,10 DH",
+        "PFHT": "78,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "8631",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "8632",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "8633",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "8634",
+      "brand_name": "NATZON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "4074",
+      "brand_name": "NAUREUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4075",
+      "brand_name": "NAUREUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "38,00 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4076",
+      "brand_name": "NAUREUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "70,00 DH",
+        "PH": "43,70 DH",
+        "PFHT": "41,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4077",
+      "brand_name": "NAUSELIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "GN",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "22,90 DH",
+        "PH": "14,30 DH",
+        "PFHT": "13,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4078",
+      "brand_name": "NAUSELIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5356",
+      "brand_name": "NAUTAMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DIPHENHYDRAMINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7191",
+      "brand_name": "NAVELA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BOTTU",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2926",
+      "brand_name": "NAVELBINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "VINORELBINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "246,00 DH",
+        "PH": "154,00 DH",
+        "PFHT": "146,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2927",
+      "brand_name": "NAVELBINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "PP",
+        "Substance active": "VINORELBINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.666.00 DH",
+        "PH": "1.407.00 DH",
+        "PFHT": "1.340.04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2928",
+      "brand_name": "NAVELBINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "VINORELBINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "771,00 DH",
+        "PH": "512,00 DH",
+        "PFHT": "488,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 305,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=305",
+  "fetched_at_utc": "2026-10-18T16:27:38.104931+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "179",
+      "brand_name": "NOPOROSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "464,00 DH",
+        "PH": "308,00 DH",
+        "PFHT": "294,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "180",
+      "brand_name": "NOPOROSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "181,90 DH",
+        "PH": "113,70 DH",
+        "PFHT": "108,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2104",
+      "brand_name": "NORADRENALINE TARTRATE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "NORADRENALINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "756,00 DH",
+        "PH": "503,00 DH",
+        "PFHT": "479,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.002",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3246",
+      "brand_name": "NORCURON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "VECURONIUM (BROMURE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "132,00 DH",
+        "PH": "82,20 DH",
+        "PFHT": "73,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4957",
+      "brand_name": "NORDAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NORDAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "27,20 DH",
+        "PH": "17,00 DH",
+        "PFHT": "16,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME QUADRISECABLE"
+      }
+    },
+    {
+      "source_record_id": "4958",
+      "brand_name": "NORDAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NORDAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "18,20 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7899",
+      "brand_name": "NORDITROPINE NORDIFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.193.00 DH",
+        "PH": "919,00 DH",
+        "PFHT": "875,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5  MG / 1,5 ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE REMPLI"
+      }
+    },
+    {
+      "source_record_id": "7900",
+      "brand_name": "NORDITROPINE NORDIFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "2.086.00 DH",
+        "PH": "1.838.00 DH",
+        "PFHT": "1.751.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  1,5  ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE REMPLI"
+      }
+    },
+    {
+      "source_record_id": "7901",
+      "brand_name": "NORDITROPINE NORDIFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "3.079.00 DH",
+        "PH": "2.757.00 DH",
+        "PFHT": "2.626.53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  1,5  ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE REMPLI"
+      }
+    },
+    {
+      "source_record_id": "8660",
+      "brand_name": "NORDITROPINE NORDIFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  / 1.5  ML",
+        "Forme": "SOLUTION INJEVTABLE EN STYLO PRE REMPLI"
+      }
+    },
+    {
+      "source_record_id": "2575",
+      "brand_name": "NORDITROPINE NORDILET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO PRE/REMPLI",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.193.00 DH",
+        "PH": "919,00 DH",
+        "PFHT": "875,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  1,5  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5867",
+      "brand_name": "NORLEVO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "61,70 DH",
+        "PH": "38,50 DH",
+        "PFHT": "36,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4329",
+      "brand_name": "NORMACIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "76,20 DH",
+        "PH": "47,60 DH",
+        "PFHT": "45,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4330",
+      "brand_name": "NORMACIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "114,40 DH",
+        "PH": "71,50 DH",
+        "PFHT": "68,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1010",
+      "brand_name": "NORMACOL LAVEMENT ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 130 ML",
+        "PP / GN": "PP",
+        "Substance active": "GOMME DE STERCULIA // ELECTROLYTES",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "23,66 G  /  10,40 G",
+        "Forme": "SOLUTION RECTALE"
+      }
+    },
+    {
+      "source_record_id": "1011",
+      "brand_name": "NORMACOL LAVEMENT ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "GOMME DE STERCULIA // ELECTROLYTES",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "19,60 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10,92 G  /  4,80 G",
+        "Forme": "SOLUTION RECTALE"
+      }
+    },
+    {
+      "source_record_id": "2269",
+      "brand_name": "NORMATENS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "39,50 DH",
+        "PH": "24,70 DH",
+        "PFHT": "23,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2270",
+      "brand_name": "NORMATENS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "76,50 DH",
+        "PH": "47,80 DH",
+        "PFHT": "45,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2271",
+      "brand_name": "NORMATENS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "26,00 DH",
+        "PH": "16,20 DH",
+        "PFHT": "15,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1729",
+      "brand_name": "NORMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "56,30 DH",
+        "PH": "35,20 DH",
+        "PFHT": "33,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    }
+  ]
+}

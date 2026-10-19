@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 481,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=481",
+  "fetched_at_utc": "2026-10-18T16:33:30.823488+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3561",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "12,60 DH",
+        "PH": "7,80 DH",
+        "PFHT": "7,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3562",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "43,60 DH",
+        "PH": "27,20 DH",
+        "PFHT": "25,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3563",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "2 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "14,50 DH",
+        "PH": "9,10 DH",
+        "PFHT": "8,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG  /  3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3564",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "6 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "40,90 DH",
+        "PH": "25,60 DH",
+        "PFHT": "24,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG  /  3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9571",
+      "brand_name": "XENPOZYME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "OLIPUDASE ALFA",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "6862",
+      "brand_name": "XEPINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.947.00 DH",
+        "PH": "1.695.00 DH",
+        "PFHT": "1.615.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3087",
+      "brand_name": "XEPLION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE-REMPLIE ET 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.002.00 DH",
+        "PH": "1.752.00 DH",
+        "PFHT": "1.669.18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "3088",
+      "brand_name": "XEPLION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE-REMPLIE ET 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.763.00 DH",
+        "PH": "2.433.00 DH",
+        "PFHT": "2.317.46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "3089",
+      "brand_name": "XEPLION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE-REMPLIE ET 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "814,00 DH",
+        "PH": "541,00 DH",
+        "PFHT": "515,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "3090",
+      "brand_name": "XEPLION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE-REMPLIE ET 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.269.00 DH",
+        "PH": "998,00 DH",
+        "PFHT": "950,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "3091",
+      "brand_name": "XEPLION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE-REMPLIE ET 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.612.00 DH",
+        "PH": "1.350.00 DH",
+        "PFHT": "1.286.35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6996",
+      "brand_name": "XERACTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "142,30 DH",
+        "PH": "88,90 DH",
+        "PFHT": "84,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6997",
+      "brand_name": "XERACTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "265,00 DH",
+        "PH": "165,90 DH",
+        "PFHT": "158,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "2680",
+      "brand_name": "XERIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2681",
+      "brand_name": "XERIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "115,10 DH",
+        "PH": "71,90 DH",
+        "PFHT": "68,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2682",
+      "brand_name": "XERIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "202,00 DH",
+        "PH": "126,60 DH",
+        "PFHT": "120,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7211",
+      "brand_name": "XERIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "UN FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "111,90 DH",
+        "PH": "69,90 DH",
+        "PFHT": "66,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  10  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7800",
+      "brand_name": "XEROBACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "PIPERACILLINE SODIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "56,60 DH",
+        "PH": "35,40 DH",
+        "PFHT": "33,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  0,25   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7801",
+      "brand_name": "XEROBACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "PIPERACILLINE SODIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "155,70 DH",
+        "PH": "97,30 DH",
+        "PFHT": "92,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G  /  0,5   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7255",
+      "brand_name": "XETAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    }
+  ]
+}

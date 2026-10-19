@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 485,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=485",
+  "fetched_at_utc": "2026-10-18T16:33:38.851531+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2685",
+      "brand_name": "YRIAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "73,50 DH",
+        "PH": "45,90 DH",
+        "PFHT": "43,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2686",
+      "brand_name": "YRIAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "20,20 DH",
+        "PH": "12,60 DH",
+        "PFHT": "12,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2687",
+      "brand_name": "YRIAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2688",
+      "brand_name": "YRIAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "38,00 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9282",
+      "brand_name": "YUFLYMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS PRÉ-REMPLIS AVEC CHACUN 1 TAMPON D'ALCOOL",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.174.00 DH",
+        "PH": "3.885.00 DH",
+        "PFHT": "3.700.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRÉ-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "2689",
+      "brand_name": "ZADITEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "KETOTIFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "67,70 DH",
+        "PH": "42,30 DH",
+        "PFHT": "40,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "2690",
+      "brand_name": "ZADITEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "KETOTIFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "84,50 DH",
+        "PH": "52,80 DH",
+        "PFHT": "50,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2691",
+      "brand_name": "ZADITEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "KETOTIFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "119,20 DH",
+        "PH": "74,50 DH",
+        "PFHT": "70,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4777",
+      "brand_name": "ZADRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "25,60 DH",
+        "PH": "16,00 DH",
+        "PFHT": "15,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "4778",
+      "brand_name": "ZADRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "42,80 DH",
+        "PH": "26,70 DH",
+        "PFHT": "25,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4779",
+      "brand_name": "ZADRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "82,70 DH",
+        "PH": "51,70 DH",
+        "PFHT": "49,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4594",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "46,50 DH",
+        "PH": "29,00 DH",
+        "PFHT": "27,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4595",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "84,00 DH",
+        "PH": "52,50 DH",
+        "PFHT": "49,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4596",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "149,90 DH",
+        "PH": "93,70 DH",
+        "PFHT": "89,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4597",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "72,40 DH",
+        "PH": "45,20 DH",
+        "PFHT": "43,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4598",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "130,80 DH",
+        "PH": "81,80 DH",
+        "PFHT": "77,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4599",
+      "brand_name": "ZAIDENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "UDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "233,00 DH",
+        "PH": "146,00 DH",
+        "PFHT": "139,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1189",
+      "brand_name": "ZALERG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "KETOTIFENE (FUMARATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "70,70 DH",
+        "PH": "44,20 DH",
+        "PFHT": "42,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5172",
+      "brand_name": "ZALTRAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 4 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "AFLIBERCEPT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "4.024.00 DH",
+        "PH": "3.731.00 DH",
+        "PFHT": "3.553.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5173",
+      "brand_name": "ZALTRAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 8 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "AFLIBERCEPT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "7.649.00 DH",
+        "PH": "7.462.00 DH",
+        "PFHT": "7.107.24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    }
+  ]
+}

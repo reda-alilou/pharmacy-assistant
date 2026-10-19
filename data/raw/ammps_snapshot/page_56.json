@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 56,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=56",
+  "fetched_at_utc": "2026-10-18T16:19:18.887201+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3597",
+      "brand_name": "BENAD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "21,30 DH",
+        "PH": "13,30 DH",
+        "PFHT": "12,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "375   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3598",
+      "brand_name": "BENADRYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "DIPHENHYDRAMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "11,40 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0028",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "4850",
+      "brand_name": "BENCLAMID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIBENCLAMIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4851",
+      "brand_name": "BENCLAMID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIBENCLAMIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "36,20 DH",
+        "PH": "22,60 DH",
+        "PFHT": "21,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3599",
+      "brand_name": "BENEFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POUDRE EN FLACON DE 10 ML + 5 ML DE SOLVANT EN SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "NONACOG ALFA (FACTEUR IX DE COAGULATION RECOMBINANT)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "7.481.00 DH",
+        "PH": "7.289.00 DH",
+        "PFHT": "6.942.74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3600",
+      "brand_name": "BENEFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POUDRE EN FLACON DE 10 ML +5 ML DE SOLVANT EN SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "NONACOG ALFA (FACTEUR IX DE COAGULATION RECOMBINANT)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "14.563.00 DH",
+        "PH": "14.285.00 DH",
+        "PFHT": "13.885.55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3601",
+      "brand_name": "BENEFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POUDRE EN FLACON DE 10 ML + 5 ML DE SOLVANT EN SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "NONACOG ALFA (FACTEUR IX DE COAGULATION RECOMBINANT)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "2.218.00 DH",
+        "PH": "1.872.00 DH",
+        "PFHT": "1.782.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3602",
+      "brand_name": "BENEFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POUDRE EN FLACON DE 10 ML + 5 ML DE SOLVANT EN SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "NONACOG ALFA (FACTEUR IX DE COAGULATION RECOMBINANT)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "3.881.00 DH",
+        "PH": "3.583.00 DH",
+        "PFHT": "3.413.06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8246",
+      "brand_name": "BENLYSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "BELIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8247",
+      "brand_name": "BENLYSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "BELIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "359",
+      "brand_name": "BEROCCA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "NA",
+        "Substance active": "ASSOCIATION VITAMINIQUE // SELS MINERAUX",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "70,00 DH",
+        "PH": "43,60 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "360",
+      "brand_name": "BEROCCA ZINC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "NA",
+        "Substance active": "VITAMINE B1 (THIAMINE) // VITAMINE B2 (RIBOFLAVINE) // VITAMINE B6 (CHLORHYDRATE DE PYRIDOXINE) // VITAMINE B12 (CYANOCOBALAMINE) // VITAMINE B3 (NICOTINAMIDE) // VITAMINE B5 (ACIDE PANTOTHENIQUE) // VITAMINE B8 (BIOTINE) // VITAMINE C (ACIDE ASCORBIQUE) // CALCIUM // VITAMINE B9 (ACIDE FOLIQUE) // MAGNESUIM // ZINC",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "42,10 DH",
+        "PH": "26,20 DH",
+        "PFHT": "23,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  15   MG  /  10   MG  /  0,01   MG  /  50   MG  /  23   MG  /  0,15   MG  /  500   MG  /  0,4   MG  /  100   MG 2  /  100   MG 3  /  10   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "361",
+      "brand_name": "BEROCCA ZINC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "NA",
+        "Substance active": "VITAMINE B1 (THIAMINE) // VITAMINE B2 (RIBOFLAVINE) // VITAMINE B6 (CHLORHYDRATE DE PYRIDOXINE) // VITAMINE B12 (CYANOCOBALAMINE) // VITAMINE B3 (NICOTINAMIDE) // VITAMINE B5 (ACIDE PANTOTHENIQUE) // VITAMINE B8 (BIOTINE) // VITAMINE C (ACIDE ASCORBIQUE) // CALCIUM // VITAMINE B9 (ACIDE FOLIQUE) // MAGNESUIM // ZINC",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "84,20 DH",
+        "PH": "52,50 DH",
+        "PFHT": "46,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  15   MG  /  10   MG  /  0,01   MG  /  50   MG  /  23   MG  /  0,15   MG  /  500   MG  /  0,4   MG  /  100   MG 2  /  100   MG 3  /  10   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "4623",
+      "brand_name": "BERTOCIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "GN",
+        "Substance active": "BETAXOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  3  ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7764",
+      "brand_name": "BESIVANCE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 7,5 ML CONTENANT 5 ML DE SUSPENSION OPHTALMIQUE",
+        "PP / GN": "PP",
+        "Substance active": "BESIFLOXACINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "106,90 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.006",
+        "Forme": "SUSPENSION OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6998",
+      "brand_name": "BESTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "111,80 DH",
+        "PH": "69,90 DH",
+        "PFHT": "66,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6999",
+      "brand_name": "BESTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "154,10 DH",
+        "PH": "96,30 DH",
+        "PFHT": "91,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7000",
+      "brand_name": "BESTOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "250,00 DH",
+        "PH": "156,30 DH",
+        "PFHT": "148,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2349",
+      "brand_name": "BETADINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "19,90 DH",
+        "PH": "12,40 DH",
+        "PFHT": "11,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "BAIN DE BOUCHE"
+      }
+    },
+    {
+      "source_record_id": "2350",
+      "brand_name": "BETADINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE 100G",
+        "PP / GN": "PP",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "GEL DERMIQUE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 455,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=455",
+  "fetched_at_utc": "2026-10-18T16:32:38.786139+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6018",
+      "brand_name": "URISPAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FLAVOXATE (CHLORHYDRATE )",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "58,40 DH",
+        "PH": "36,50 DH",
+        "PFHT": "34,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7426",
+      "brand_name": "URITAB XL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ALFUZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "137,90 DH",
+        "PH": "86,20 DH",
+        "PFHT": "82,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6019",
+      "brand_name": "UROBACID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "NORFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "112,10 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1128",
+      "brand_name": "UROCTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "NORFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1129",
+      "brand_name": "UROCTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "NORFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "92,50 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3555",
+      "brand_name": "URODINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TOLTERODINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "88,50 DH",
+        "PH": "55,30 DH",
+        "PFHT": "52,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3556",
+      "brand_name": "URODINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TOLTERODINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "161,00 DH",
+        "PH": "100,60 DH",
+        "PFHT": "95,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5483",
+      "brand_name": "UROFLOX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "50,00 DH",
+        "PH": "31,10 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2669",
+      "brand_name": "UROMITEXAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15 AMPOULE DE 4 ML",
+        "PP / GN": "PP",
+        "Substance active": "MESNA",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "317,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8939",
+      "brand_name": "UROMITEXAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "MESNA",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "744",
+      "brand_name": "UROSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "OXYBUTYNINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "58,60 DH",
+        "PH": "36,60 DH",
+        "PFHT": "34,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2670",
+      "brand_name": "UROXINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5010",
+      "brand_name": "UTROGESTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "63,30 DH",
+        "PH": "39,60 DH",
+        "PFHT": "37,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "5011",
+      "brand_name": "UTROGESTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "PROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "88,80 DH",
+        "PH": "55,50 DH",
+        "PFHT": "52,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "7318",
+      "brand_name": "UVEDOSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE AMPOULE DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "MAPHAR",
+        "PPV": "18,20 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "100 000 UI",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6020",
+      "brand_name": "UVIMAG B6",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "20 AMPOULES DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (GLYCEROPHOSPHATE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "45,50 DH",
+        "PH": "28,40 DH",
+        "PFHT": "27,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  125   MG",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9297",
+      "brand_name": "VABYSMO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 0,24 ML AVEC UNE AIGUILLE-FILTRE",
+        "PP / GN": "PP",
+        "Substance active": "FARICIMAB",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "5.625.00 DH",
+        "PH": "5.378.00 DH",
+        "PFHT": "5.122.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "28,8   MG  /  0,24  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2293",
+      "brand_name": "VACCIN ANTIDIPHTERIQUE ET ANTITETANIQUE ADSORBE POUR ADULTES ET ADOLESCENTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE UNE DOSE"
+      }
+    },
+    {
+      "source_record_id": "2294",
+      "brand_name": "VACCIN BCG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DELYOPHILYSAT + 1 FLACON DESOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "SOUCHE BACILE DE CALMETTE - GUERIN",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "75,40 DH",
+        "PH": "47,10 DH",
+        "PFHT": "44,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 X 105 ET 33 X 105 CFU DE BCG VIVANT",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION"
+      }
+    },
+    {
+      "source_record_id": "2295",
+      "brand_name": "VACCIN MENINGOCOCCIQUE A+C POLYOSIDIQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POUDRE (10 DOSES) EN FLACON + 5 ML DE SOLVANT EN FLACON, BOITE DE 10",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS AC )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "112,10 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE EN MULTIDOSE"
+      }
+    }
+  ]
+}

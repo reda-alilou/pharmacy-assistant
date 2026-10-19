@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-10-18T21:09:54.066904+00:00",
+  "checkpoint": "step4_streamlit",
+  "implementation_complete": true,
+  "awaiting_user_validation": true,
+  "step5_started": false,
+  "streamlit_version": "1.66.0",
+  "startup_command": ".\\.venv\\Scripts\\python.exe -m pharmacy_assistant.run_demo",
+  "ui_url": "http://127.0.0.1:8501",
+  "api_url": "http://127.0.0.1:8000",
+  "offline_tests": {
+    "passed": 76,
+    "failed": 0,
+    "new_checks": 10
+  },
+  "live_apptest": {
+    "report": "reports/streamlit_live_smoke.json",
+    "passed": true,
+    "completed_cases": 5,
+    "manual_retry_clicks": 1,
+    "mocked_inference": false
+  },
+  "launcher_smoke": {
+    "report": "reports/streamlit_launcher_smoke.json",
+    "passed": true
+  },
+  "browser_visual_qa": {
+    "status": "not_run",
+    "reason": "No connected computer-use browser; Opera connector also disconnected."
+  },
+  "remaining_limitations": [
+    "Browser responsive/Arabic glyph layout awaits manual validation.",
+    "Qwen provider failures remain visible; one live flow required an explicit manual retry."
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 431,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=431",
+  "fetched_at_utc": "2026-10-18T16:31:50.708837+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3053",
+      "brand_name": "TENORMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "58,70 DH",
+        "PH": "36,70 DH",
+        "PFHT": "34,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9031",
+      "brand_name": "TENOTEN ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40 COMPRIMES",
+        "PP / GN": "NA",
+        "Substance active": "ANTICORPS PURIFIES PAR AFFINITE DIRIGES CONTRE LA PROTEINE S-100 SPECIFIQUE DU CERVEAU : UN MELANGE DE DILUTIONS HOMEOPATHIQUES C12, C30 ET C200",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PHARMAPROM",
+        "PPV": "124,70 DH",
+        "PH": "77,90 DH",
+        "PFHT": "74,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003 G",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "9032",
+      "brand_name": "TENOTEN ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40 COMPRIMES",
+        "PP / GN": "NA",
+        "Substance active": "ANTICORPS PURIFIES PAR AFFINITE DIRIGES CONTRE LA PROTEINE S-100 SPECIFIQUE DU CERVEAU : UN MELANGE DE DILUTIONS HOMEOPATHIQUES C12, C30 ET C50",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PHARMAPROM",
+        "PPV": "124,70 DH",
+        "PH": "77,90 DH",
+        "PFHT": "74,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003 G",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "2236",
+      "brand_name": "TENSEMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TORASEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "47,10 DH",
+        "PH": "29,40 DH",
+        "PFHT": "28,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2237",
+      "brand_name": "TENSEMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TORASEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "33,30 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2238",
+      "brand_name": "TENSEMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TORASEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "39,30 DH",
+        "PH": "24,60 DH",
+        "PFHT": "23,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4752",
+      "brand_name": "TENSIOTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "114,00 DH",
+        "PH": "71,20 DH",
+        "PFHT": "67,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4753",
+      "brand_name": "TENSIOTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "46,00 DH",
+        "PH": "28,70 DH",
+        "PFHT": "27,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4754",
+      "brand_name": "TENSIOTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4208",
+      "brand_name": "TEPHACYCLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TETRACYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "37,70 DH",
+        "PH": "23,50 DH",
+        "PFHT": "22,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5452",
+      "brand_name": "TERALITHE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "LITHIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "150,40 DH",
+        "PH": "94,00 DH",
+        "PFHT": "89,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2239",
+      "brand_name": "TERAZOSINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "TERAZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "42,30 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2240",
+      "brand_name": "TERAZOSINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TERAZOSINE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "79,50 DH",
+        "PH": "49,70 DH",
+        "PFHT": "47,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5453",
+      "brand_name": "TERBINAFINE MAPHAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "168,20 DH",
+        "PH": "105,10 DH",
+        "PFHT": "100,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4996",
+      "brand_name": "TERFINE PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "103,70 DH",
+        "PH": "64,80 DH",
+        "PFHT": "61,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4997",
+      "brand_name": "TERFINE PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "186,00 DH",
+        "PH": "116,20 DH",
+        "PFHT": "110,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4998",
+      "brand_name": "TERFINE PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "57,90 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5991",
+      "brand_name": "TERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "33,20 DH",
+        "PH": "20,70 DH",
+        "PFHT": "19,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5992",
+      "brand_name": "TERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "55,50 DH",
+        "PH": "34,70 DH",
+        "PFHT": "33,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5993",
+      "brand_name": "TERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "116,80 DH",
+        "PH": "73,00 DH",
+        "PFHT": "69,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

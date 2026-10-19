@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 232,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=232",
+  "fetched_at_utc": "2026-10-18T16:25:11.744774+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9066",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "55,10 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9067",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9068",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9069",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9070",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "92,60 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9071",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9072",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "55,10 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9073",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "90,60 DH",
+        "PH": "56,60 DH",
+        "PFHT": "53,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9074",
+      "brand_name": "IRSOPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "130,90 DH",
+        "PH": "81,80 DH",
+        "PFHT": "77,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7781",
+      "brand_name": "IRVANION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "92,70 DH",
+        "PH": "58,00 DH",
+        "PFHT": "55,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "7782",
+      "brand_name": "IRVANION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "64,40 DH",
+        "PH": "40,20 DH",
+        "PFHT": "38,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "8034",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "62,30 DH",
+        "PH": "39,00 DH",
+        "PFHT": "37,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG   /   10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8035",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "111,30 DH",
+        "PH": "69,60 DH",
+        "PFHT": "66,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG   /   10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8036",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG   /   5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8037",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "96,60 DH",
+        "PH": "60,40 DH",
+        "PFHT": "57,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG   /   5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9342",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "72,60 DH",
+        "PH": "45,40 DH",
+        "PFHT": "43,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG   /   10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9343",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "129,70 DH",
+        "PH": "81,10 DH",
+        "PFHT": "77,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /   10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9344",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "64,40 DH",
+        "PH": "40,30 DH",
+        "PFHT": "38,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /   5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9345",
+      "brand_name": "IRVECOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  28",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "115,10 DH",
+        "PH": "72,00 DH",
+        "PFHT": "68,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /   5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "143",
+      "brand_name": "IRVEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "IRBESARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "60,90 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

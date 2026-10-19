@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 326,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=326",
+  "fetched_at_utc": "2026-10-18T16:28:20.278336+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "192",
+      "brand_name": "OXALIPLATINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 40 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.701.00 DH",
+        "PH": "1.442.00 DH",
+        "PFHT": "1.374.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  40  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3723",
+      "brand_name": "OXALIPLATINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.093.00 DH",
+        "PH": "816,00 DH",
+        "PFHT": "778,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  20  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3724",
+      "brand_name": "OXALIPLATINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "723,00 DH",
+        "PH": "480,00 DH",
+        "PFHT": "458,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  10  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5038",
+      "brand_name": "OXALIPLATINE KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "852,00 DH",
+        "PH": "566,00 DH",
+        "PFHT": "539,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5039",
+      "brand_name": "OXALIPLATINE KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "1.197.00 DH",
+        "PH": "923,00 DH",
+        "PFHT": "879,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6477",
+      "brand_name": "OXALIPLATINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 MG",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.866.00 DH",
+        "PH": "1.613.00 DH",
+        "PFHT": "1.536.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6478",
+      "brand_name": "OXALIPLATINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 MG",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "POUDRE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2957",
+      "brand_name": "OXALIPLATINE WIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "1.468.00 DH",
+        "PH": "1.203.00 DH",
+        "PFHT": "1.145.97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2958",
+      "brand_name": "OXALIPLATINE WIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 36 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "1.049.00 DH",
+        "PH": "771,00 DH",
+        "PFHT": "735,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2108",
+      "brand_name": "OXALISIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN 1 FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2109",
+      "brand_name": "OXALISIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN 1 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.864.00 DH",
+        "PH": "1.610.00 DH",
+        "PFHT": "1.534.05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8680",
+      "brand_name": "OXAPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "OXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9197",
+      "brand_name": "OXAROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "49,00 DH",
+        "PH": "30,60 DH",
+        "PFHT": "29,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9198",
+      "brand_name": "OXAROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "90,40 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9199",
+      "brand_name": "OXAROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9200",
+      "brand_name": "OXAROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9201",
+      "brand_name": "OXAROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "275,00 DH",
+        "PH": "172,10 DH",
+        "PFHT": "163,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "4528",
+      "brand_name": "OXIDEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHI",
+        "PPV": "37,20 DH",
+        "PH": "23,30 DH",
+        "PFHT": "22,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4529",
+      "brand_name": "OXIDEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHI",
+        "PPV": "48,00 DH",
+        "PH": "30,00 DH",
+        "PFHT": "28,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2600",
+      "brand_name": "OXIFLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

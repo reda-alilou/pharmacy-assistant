@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 470,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=470",
+  "fetched_at_utc": "2026-10-18T16:33:08.923592+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1149",
+      "brand_name": "VINCRISTINE COOPER",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "VINCRISTINE (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "COOPER PHARMA",
+        "PPV": "65,00 DH",
+        "PH": "40,60 DH",
+        "PFHT": "38,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "1150",
+      "brand_name": "VINCRISTINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "VINCRISTINE (SULFATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "306,00 DH",
+        "PH": "204,00 DH",
+        "PFHT": "194,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "1151",
+      "brand_name": "VINORELBINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "VINORELBINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "219,00 DH",
+        "PH": "137,40 DH",
+        "PFHT": "130,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "1152",
+      "brand_name": "VINORELBINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "VINORELBINE (DITARTRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "843,00 DH",
+        "PH": "560,00 DH",
+        "PFHT": "533,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "7686",
+      "brand_name": "VIOLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "OLOPATADINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "59,30 DH",
+        "PH": "37,10 DH",
+        "PFHT": "35,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "8966",
+      "brand_name": "VIPDOMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMES",
+        "PP / GN": "PP",
+        "Substance active": "ALOGLIPTINE // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "360,00 DH",
+        "PH": "239,00 DH",
+        "PFHT": "228,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12.5   MG  /  500   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8967",
+      "brand_name": "VIPDOMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMES",
+        "PP / GN": "PP",
+        "Substance active": "ALOGLIPTINE // METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "360,00 DH",
+        "PH": "239,00 DH",
+        "PFHT": "228,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12.5   MG /  1000   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8968",
+      "brand_name": "VIPIDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES",
+        "PP / GN": "PP",
+        "Substance active": "ALOGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "163,60 DH",
+        "PH": "102,20 DH",
+        "PFHT": "97,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12.5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8969",
+      "brand_name": "VIPIDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES",
+        "PP / GN": "PP",
+        "Substance active": "ALOGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "319,00 DH",
+        "PH": "212,00 DH",
+        "PFHT": "202,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "498",
+      "brand_name": "VIRABINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 80",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "906,00 DH",
+        "PH": "602,00 DH",
+        "PFHT": "573,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4766",
+      "brand_name": "VIRABINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 160",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.469.00 DH",
+        "PH": "1.204.00 DH",
+        "PFHT": "1.146.84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3284",
+      "brand_name": "VIRAFERON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "INTERFERON ALFA-2B",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MSD",
+        "PPV": "391,00 DH",
+        "PH": "260,00 DH",
+        "PFHT": "247,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3285",
+      "brand_name": "VIRAFERON PEG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "STYLO PRE-REMPLIBOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON ALFA-2B",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "1.177.00 DH",
+        "PH": "902,00 DH",
+        "PFHT": "859,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3286",
+      "brand_name": "VIRAFERON PEG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "STYLO PRE-REMPLIBOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON ALFA-2B",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "2.028.00 DH",
+        "PH": "1.779.00 DH",
+        "PFHT": "1.694.42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3287",
+      "brand_name": "VIRAFERON PEG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "STYLO PRE-REMPLI BOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON ALFA-2B",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "2.497.00 DH",
+        "PH": "2.159.00 DH",
+        "PFHT": "2.056.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3288",
+      "brand_name": "VIRAFERON PEG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "STYLO PRE-REMPLI BOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON ALFA-2B",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "3.067.00 DH",
+        "PH": "2.746.00 DH",
+        "PFHT": "2.615.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3289",
+      "brand_name": "VIRAFERON PEG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "STYLO PRE-REMPLI BOITE DE 1 NECESSAIRE",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON ALFA-2B",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "1.692.00 DH",
+        "PH": "1.433.00 DH",
+        "PFHT": "1.365.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80 µG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4233",
+      "brand_name": "VIRECTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "43,40 DH",
+        "PH": "27,10 DH",
+        "PFHT": "25,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4234",
+      "brand_name": "VIRECTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "144,00 DH",
+        "PH": "90,00 DH",
+        "PFHT": "85,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4235",
+      "brand_name": "VIRECTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "25,20 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

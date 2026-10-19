@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 475,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=475",
+  "fetched_at_utc": "2026-10-18T16:33:18.826469+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1774",
+      "brand_name": "VOLTARENE EMULGEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (DIETHYLAMINE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "41,90 DH",
+        "PH": "26,20 DH",
+        "PFHT": "24,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "GEL EMULSION"
+      }
+    },
+    {
+      "source_record_id": "3440",
+      "brand_name": "VOLTARENE EMULGEL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (DIETHYLAMINE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "23,70 DH",
+        "PH": "14,80 DH",
+        "PFHT": "13,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "GEL EMULSION"
+      }
+    },
+    {
+      "source_record_id": "3441",
+      "brand_name": "VOLTARENE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "48,00 DH",
+        "PH": "30,00 DH",
+        "PFHT": "28,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3442",
+      "brand_name": "VOLTARENE SR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "58,40 DH",
+        "PH": "36,50 DH",
+        "PFHT": "34,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3443",
+      "brand_name": "VOLTFAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 9",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (POTASSIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "37,70 DH",
+        "PH": "23,50 DH",
+        "PFHT": "22,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4767",
+      "brand_name": "VOLUVEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "HYDROXYETHYLAMIDON 130 000 // CHLORURE DE SODIUM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "POLYMEDIC",
+        "PPV": "144,80 DH",
+        "PH": "90,50 DH",
+        "PFHT": "86,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.06",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4237",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 45 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "10,30 DH",
+        "PH": "6,40 DH",
+        "PFHT": "6,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,240 G  /  100  ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "4238",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 12 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "20,60 DH",
+        "PH": "12,90 DH",
+        "PFHT": "12,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4239",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 6 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,90 DH",
+        "PH": "8,00 DH",
+        "PFHT": "7,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4240",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4241",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "8,40 DH",
+        "PH": "5,30 DH",
+        "PFHT": "5,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4242",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4243",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 130 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "10,30 DH",
+        "PH": "6,40 DH",
+        "PFHT": "6,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8971",
+      "brand_name": "VOMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7881",
+      "brand_name": "VONAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VORICONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "690,00 DH",
+        "PH": "458,00 DH",
+        "PFHT": "437,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200  MG",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3309",
+      "brand_name": "VORICONAZOLE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "VORICONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "2.076.00 DH",
+        "PH": "1.828.00 DH",
+        "PFHT": "1.741.37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1979",
+      "brand_name": "VOTRIENT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "PP",
+        "Substance active": "PAZOPANIB (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "9.478.00 DH",
+        "PH": "9.300.00 DH",
+        "PFHT": "8.900.64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1980",
+      "brand_name": "VOTRIENT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PAZOPANIB (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "7.439.00 DH",
+        "PH": "7.246.00 DH",
+        "PFHT": "6.901.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3444",
+      "brand_name": "VOTRIENT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PAZOPANIB (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "3.918.00 DH",
+        "PH": "3.622.00 DH",
+        "PFHT": "3.449.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3445",
+      "brand_name": "VOTRIENT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "PAZOPANIB (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "14.477.00 DH",
+        "PH": "14.201.00 DH",
+        "PFHT": "13.801.41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

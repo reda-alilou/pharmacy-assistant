@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 458,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=458",
+  "fetched_at_utc": "2026-10-18T16:32:44.716189+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7776",
+      "brand_name": "VALPRO COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "30,90 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1130",
+      "brand_name": "VALPRO COOPER LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "28,10 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1131",
+      "brand_name": "VALPRO COOPER LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "74,10 DH",
+        "PH": "46,30 DH",
+        "PFHT": "44,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1132",
+      "brand_name": "VALPRO COOPER LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "130,40 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1133",
+      "brand_name": "VALPRO COOPER LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "191,20 DH",
+        "PH": "119,50 DH",
+        "PFHT": "113,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7676",
+      "brand_name": "VALPROATE DE SODIUM MYLAN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "69,60 DH",
+        "PH": "43,50 DH",
+        "PFHT": "41,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5485",
+      "brand_name": "VALSARTAN MAPHAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "153,00 DH",
+        "PH": "95,60 DH",
+        "PFHT": "91,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5486",
+      "brand_name": "VALSARTAN MAPHAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "131,50 DH",
+        "PH": "82,20 DH",
+        "PFHT": "78,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3067",
+      "brand_name": "VALSARTAN WIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "104,30 DH",
+        "PH": "65,20 DH",
+        "PFHT": "62,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3068",
+      "brand_name": "VALSARTAN WIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "74,70 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9553",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "90,40 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9554",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9555",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "274,00 DH",
+        "PH": "182,10 DH",
+        "PFHT": "173,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9556",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 42",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "398,00 DH",
+        "PH": "264,00 DH",
+        "PFHT": "251,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9557",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9558",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "274,00 DH",
+        "PH": "182,10 DH",
+        "PFHT": "173,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9559",
+      "brand_name": "VALTERIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "549,00 DH",
+        "PH": "364,00 DH",
+        "PFHT": "347,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9720",
+      "brand_name": "VALZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  80   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9721",
+      "brand_name": "VALZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  160   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9722",
+      "brand_name": "VALZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  160   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

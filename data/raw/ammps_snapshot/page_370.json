@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 370,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=370",
+  "fetched_at_utc": "2026-10-18T16:29:48.454016+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "205",
+      "brand_name": "REMOX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "18,10 DH",
+        "PH": "11,30 DH",
+        "PFHT": "10,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "206",
+      "brand_name": "REMOX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "36,20 DH",
+        "PH": "22,60 DH",
+        "PFHT": "21,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "207",
+      "brand_name": "REMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "39,00 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "208",
+      "brand_name": "REMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "37,20 DH",
+        "PH": "23,30 DH",
+        "PFHT": "22,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "209",
+      "brand_name": "REMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "24,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4978",
+      "brand_name": "REMSIMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.267.00 DH",
+        "PH": "3.981.00 DH",
+        "PFHT": "3.791.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9109",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 STYLO PREREMPLI DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "2.233.00 DH",
+        "PH": "1.887.00 DH",
+        "PFHT": "1.798.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "9110",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 STYLOS PREREMPLIS DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.067.00 DH",
+        "PH": "3.775.00 DH",
+        "PFHT": "3.596.07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "9111",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 4 STYLOS PREREMPLIS DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "6.268.00 DH",
+        "PH": "6.041.00 DH",
+        "PFHT": "5.753.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "9112",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "2.233.00 DH",
+        "PH": "1.887.00 DH",
+        "PFHT": "1.798.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1 ML AVEC DISPOSITIF DE PROTECTION DE L’AIGUILLE AUTOMATIQUE"
+      }
+    },
+    {
+      "source_record_id": "9113",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 2 SERINGUE PREREMPLIE DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.067.00 DH",
+        "PH": "3.775.00 DH",
+        "PFHT": "3.596.07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1 ML AVEC DISPOSITIF DE PROTECTION DE L’AIGUILLE AUTOMATIQUE"
+      }
+    },
+    {
+      "source_record_id": "9114",
+      "brand_name": "REMSIMA SC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 4 SERINGUE PREREMPLIE DE 1 ML",
+        "PP / GN": "BS",
+        "Substance active": "INFLIXIMAB",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "6.268.00 DH",
+        "PH": "6.041.00 DH",
+        "PFHT": "5.753.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1 ML AVEC DISPOSITIF DE PROTECTION DE L’AIGUILLE AUTOMATIQUE"
+      }
+    },
+    {
+      "source_record_id": "5402",
+      "brand_name": "RENAGEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 180",
+        "PP / GN": "PP",
+        "Substance active": "SEVELAMAR",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.305.00 DH",
+        "PH": "1.035.00 DH",
+        "PFHT": "986,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3263",
+      "brand_name": "RENITEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3264",
+      "brand_name": "RENITEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "51,80 DH",
+        "PH": "32,40 DH",
+        "PFHT": "30,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "434",
+      "brand_name": "RENNIE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 36",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // MAGNESIUM (CARBONATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "13,50 DH",
+        "PH": "8,40 DH",
+        "PFHT": "8,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "680   MG  /  80   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "435",
+      "brand_name": "RENNIE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 72",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (CARBONATE) // MAGNESIUM (CARBONATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "24,00 DH",
+        "PH": "15,00 DH",
+        "PFHT": "14,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "680   MG  /  80   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "8757",
+      "brand_name": "RENOCIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "RX",
+        "Substance active": "ACIDE DIMERCAPOTSUCCINIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5171",
+      "brand_name": "RENVELA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "SEVELAMER (CARBONATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.750.00 DH",
+        "PH": "2.420.00 DH",
+        "PFHT": "2.304.77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,4 G",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6926",
+      "brand_name": "RENVELA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 180",
+        "PP / GN": "PP",
+        "Substance active": "SEVELAMER (CARBONATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.488.00 DH",
+        "PH": "1.223.00 DH",
+        "PFHT": "1.165.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

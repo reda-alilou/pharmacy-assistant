@@ -1,0 +1,2940 @@
+{
+  "generated_at_utc": "2026-10-19T17:58:58.383516+00:00",
+  "staging_only": true,
+  "inference_requests": 0,
+  "medications": {
+    "medicament": {
+      "manifest": {
+        "source": "medicament",
+        "scope": "full_discovered_catalogue",
+        "started_at_utc": "2026-10-19T17:49:18.745901+00:00",
+        "collection_complete": false,
+        "discovery_complete": true,
+        "staging_only": true,
+        "delay_seconds": 2,
+        "stop_reason": "running",
+        "retained_previous_records": 0,
+        "sitemap_count": 6,
+        "sitemap_medication_urls": 10999,
+        "listing_letters": {
+          "A": {
+            "advertised_records": 579,
+            "pages": 29,
+            "unique_urls": 579
+          },
+          "B": {
+            "advertised_records": 189,
+            "pages": 10,
+            "unique_urls": 189
+          },
+          "C": {
+            "advertised_records": 506,
+            "pages": 26,
+            "unique_urls": 506
+          },
+          "D": {
+            "advertised_records": 304,
+            "pages": 16,
+            "unique_urls": 304
+          },
+          "E": {
+            "advertised_records": 224,
+            "pages": 12,
+            "unique_urls": 222
+          },
+          "F": {
+            "advertised_records": 169,
+            "pages": 9,
+            "unique_urls": 169
+          },
+          "G": {
+            "advertised_records": 175,
+            "pages": 9,
+            "unique_urls": 175
+          },
+          "H": {
+            "advertised_records": 110,
+            "pages": 6,
+            "unique_urls": 110
+          },
+          "I": {
+            "advertised_records": 213,
+            "pages": 11,
+            "unique_urls": 213
+          },
+          "J": {
+            "advertised_records": 26,
+            "pages": 2,
+            "unique_urls": 26
+          },
+          "K": {
+            "advertised_records": 64,
+            "pages": 4,
+            "unique_urls": 64
+          },
+          "L": {
+            "advertised_records": 202,
+            "pages": 11,
+            "unique_urls": 201
+          },
+          "M": {
+            "advertised_records": 292,
+            "pages": 15,
+            "unique_urls": 292
+          },
+          "N": {
+            "advertised_records": 260,
+            "pages": 13,
+            "unique_urls": 260
+          },
+          "O": {
+            "advertised_records": 188,
+            "pages": 10,
+            "unique_urls": 187
+          },
+          "P": {
+            "advertised_records": 240,
+            "pages": 12,
+            "unique_urls": 240
+          },
+          "Q": {
+            "advertised_records": 18,
+            "pages": 1,
+            "unique_urls": 18
+          },
+          "R": {
+            "advertised_records": 197,
+            "pages": 10,
+            "unique_urls": 196
+          },
+          "S": {
+            "advertised_records": 329,
+            "pages": 17,
+            "unique_urls": 328
+          },
+          "T": {
+            "advertised_records": 260,
+            "pages": 13,
+            "unique_urls": 260
+          },
+          "U": {
+            "advertised_records": 63,
+            "pages": 4,
+            "unique_urls": 63
+          },
+          "V": {
+            "advertised_records": 209,
+            "pages": 11,
+            "unique_urls": 209
+          },
+          "W": {
+            "advertised_records": 5,
+            "pages": 1,
+            "unique_urls": 5
+          },
+          "X": {
+            "advertised_records": 72,
+            "pages": 4,
+            "unique_urls": 72
+          },
+          "Y": {
+            "advertised_records": 10,
+            "pages": 1,
+            "unique_urls": 10
+          },
+          "Z": {
+            "advertised_records": 138,
+            "pages": 7,
+            "unique_urls": 138
+          }
+        },
+        "listing_warnings": [
+          {
+            "letter": "E",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 224,
+            "unique_urls": 222,
+            "duplicates": {
+              "https://medicament.ma/medicament/erector-100-mg-comprime-enrobe-4/": 2,
+              "https://medicament.ma/medicament/erector-100-mg-comprime-enrobe-5/": 2
+            }
+          },
+          {
+            "letter": "L",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 202,
+            "unique_urls": 201,
+            "duplicates": {
+              "https://medicament.ma/medicament/levamox-1-g-125-mg-comprime-effervescent-2/": 2
+            }
+          },
+          {
+            "letter": "O",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 188,
+            "unique_urls": 187,
+            "duplicates": {
+              "https://medicament.ma/medicament/omiz-10-mg-gelules-3/": 2
+            }
+          },
+          {
+            "letter": "R",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 197,
+            "unique_urls": 196,
+            "duplicates": {
+              "https://medicament.ma/medicament/ranpirole-025-mg-comprime/": 2
+            }
+          },
+          {
+            "letter": "S",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 329,
+            "unique_urls": 328,
+            "duplicates": {
+              "https://medicament.ma/medicament/saphir-1g-sachet/": 2
+            }
+          },
+          {
+            "reason": "Duplicate discovery URLs retained once, original listings cached",
+            "listing_slots": 5042,
+            "unique_urls": 5036
+          }
+        ],
+        "updated_at_utc": "2026-10-19T17:58:25.726062+00:00",
+        "network_requests_this_run": 271,
+        "units_completed": 100,
+        "record_count": 100,
+        "errors": [],
+        "quality": {
+          "records": 100,
+          "unique_ids": 100,
+          "unique_source_urls": 100,
+          "missing_fields": {
+            "dosage": 15,
+            "form": 0,
+            "presentation": 0,
+            "active_substance": 0,
+            "ppv_price_mad": 13,
+            "atc_code": 14,
+            "reimbursement_raw": 27
+          },
+          "invalid_atc_observations": 4
+        },
+        "discovered_units": 5036,
+        "discovered_medication_urls": 5036,
+        "advertised_counts_reconciled": false
+      },
+      "quality": {
+        "records": 100,
+        "unique_ids": 100,
+        "unique_source_urls": 100,
+        "missing_fields": {
+          "dosage": 15,
+          "form": 0,
+          "presentation": 0,
+          "active_substance": 0,
+          "ppv_price_mad": 13,
+          "atc_code": 14,
+          "reimbursement_raw": 27
+        },
+        "non_full_atc_observations": 4,
+        "invalid_atc_observations": 1
+      },
+      "cache_integrity": {
+        "cached_responses": 387,
+        "sha256_errors": [],
+        "earliest_fetch_utc": "2026-10-19T17:40:44.819707+00:00",
+        "latest_fetch_utc": "2026-10-19T17:58:57.340786+00:00"
+      },
+      "provenance_errors": [],
+      "records_sha256": "a51490ce4e73295c398a0a3ccde533cc7b5294da112f1d8e4894655b4a251820"
+    },
+    "saydalia": {
+      "manifest": {
+        "source": "saydalia",
+        "scope": "full_discovered_catalogue",
+        "started_at_utc": "2026-10-19T17:40:25.826526+00:00",
+        "collection_complete": false,
+        "discovery_complete": true,
+        "staging_only": true,
+        "delay_seconds": 2,
+        "stop_reason": "running",
+        "discovered_units": 442,
+        "discovered_listing_pages": 442,
+        "updated_at_utc": "2026-10-19T17:57:17.666744+00:00",
+        "network_requests_this_run": 200,
+        "units_completed": 200,
+        "record_count": 2400,
+        "errors": [],
+        "quality": {
+          "records": 2400,
+          "unique_ids": 2400,
+          "unique_source_urls": 2400,
+          "missing_fields": {
+            "dosage": 323,
+            "form": 12,
+            "presentation": 1,
+            "active_substance": 54,
+            "ppv_price_mad": 181,
+            "atc_code": 260,
+            "reimbursement_raw": 794
+          },
+          "invalid_atc_observations": 88
+        }
+      },
+      "quality": {
+        "records": 2400,
+        "unique_ids": 2400,
+        "unique_source_urls": 2400,
+        "missing_fields": {
+          "dosage": 323,
+          "form": 12,
+          "presentation": 1,
+          "active_substance": 54,
+          "ppv_price_mad": 181,
+          "atc_code": 260,
+          "reimbursement_raw": 794
+        },
+        "non_full_atc_observations": 88,
+        "invalid_atc_observations": 15
+      },
+      "cache_integrity": {
+        "cached_responses": 220,
+        "sha256_errors": [],
+        "earliest_fetch_utc": "2026-10-19T17:40:26.568623+00:00",
+        "latest_fetch_utc": "2026-10-19T17:59:00.697561+00:00"
+      },
+      "provenance_errors": [],
+      "records_sha256": "dfcf918a2e0024bbff143b078b0a83146fd88e3f59b116bf809b4d9db3056c5c"
+    }
+  },
+  "pharmacies": {
+    "manifest": {
+      "source": "saydalia.ma",
+      "city": "Rabat",
+      "scope": "systematic_city_map_grid",
+      "configuration": {
+        "city": "Rabat",
+        "bounds": [
+          33.91,
+          34.06,
+          -6.94,
+          -6.77
+        ],
+        "grid_step_degrees": 0.015,
+        "requested_limit": 35,
+        "observed_result_cap": 40,
+        "scope_note": "Search rectangle around Rabat, not an administrative boundary; keep only source-labelled Rabat records. No authoritative city total is available."
+      },
+      "config_sha256": "f592723283fb362a74cf2b4a9b187acb74547e73f577f238ec2e8c814f97255f",
+      "search_points_planned": 143,
+      "point_results": [
+        {
+          "index": 0,
+          "origin": [
+            33.91,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:45.489771+00:00"
+        },
+        {
+          "index": 1,
+          "origin": [
+            33.91,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:46.889285+00:00"
+        },
+        {
+          "index": 2,
+          "origin": [
+            33.91,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:48.918084+00:00"
+        },
+        {
+          "index": 3,
+          "origin": [
+            33.91,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:50.941575+00:00"
+        },
+        {
+          "index": 4,
+          "origin": [
+            33.91,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:52.879380+00:00"
+        },
+        {
+          "index": 5,
+          "origin": [
+            33.91,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 5,
+          "other_city_records": 35,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:54.848259+00:00"
+        },
+        {
+          "index": 6,
+          "origin": [
+            33.91,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 18,
+          "other_city_records": 22,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:57.050594+00:00"
+        },
+        {
+          "index": 7,
+          "origin": [
+            33.91,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 27,
+          "other_city_records": 13,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:42:59.018524+00:00"
+        },
+        {
+          "index": 8,
+          "origin": [
+            33.91,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 34,
+          "other_city_records": 6,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:00.978746+00:00"
+        },
+        {
+          "index": 9,
+          "origin": [
+            33.91,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:03.371211+00:00"
+        },
+        {
+          "index": 10,
+          "origin": [
+            33.91,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:05.344498+00:00"
+        },
+        {
+          "index": 11,
+          "origin": [
+            33.91,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:07.315403+00:00"
+        },
+        {
+          "index": 12,
+          "origin": [
+            33.91,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:09.695019+00:00"
+        },
+        {
+          "index": 13,
+          "origin": [
+            33.925,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:11.227612+00:00"
+        },
+        {
+          "index": 14,
+          "origin": [
+            33.925,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:12.959482+00:00"
+        },
+        {
+          "index": 15,
+          "origin": [
+            33.925,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:14.852871+00:00"
+        },
+        {
+          "index": 16,
+          "origin": [
+            33.925,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:16.976538+00:00"
+        },
+        {
+          "index": 17,
+          "origin": [
+            33.925,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 6,
+          "other_city_records": 34,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:18.944616+00:00"
+        },
+        {
+          "index": 18,
+          "origin": [
+            33.925,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 15,
+          "other_city_records": 25,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:20.897665+00:00"
+        },
+        {
+          "index": 19,
+          "origin": [
+            33.925,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 31,
+          "other_city_records": 9,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:23.006565+00:00"
+        },
+        {
+          "index": 20,
+          "origin": [
+            33.925,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:25.564889+00:00"
+        },
+        {
+          "index": 21,
+          "origin": [
+            33.925,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:27.206559+00:00"
+        },
+        {
+          "index": 22,
+          "origin": [
+            33.925,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:29.148730+00:00"
+        },
+        {
+          "index": 23,
+          "origin": [
+            33.925,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:31.800723+00:00"
+        },
+        {
+          "index": 24,
+          "origin": [
+            33.925,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:33.028852+00:00"
+        },
+        {
+          "index": 25,
+          "origin": [
+            33.925,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:34.973924+00:00"
+        },
+        {
+          "index": 26,
+          "origin": [
+            33.94,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:36.935525+00:00"
+        },
+        {
+          "index": 27,
+          "origin": [
+            33.94,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:39.231006+00:00"
+        },
+        {
+          "index": 28,
+          "origin": [
+            33.94,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:41.328421+00:00"
+        },
+        {
+          "index": 29,
+          "origin": [
+            33.94,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 8,
+          "other_city_records": 32,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:43.169103+00:00"
+        },
+        {
+          "index": 30,
+          "origin": [
+            33.94,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 21,
+          "other_city_records": 19,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:45.004081+00:00"
+        },
+        {
+          "index": 31,
+          "origin": [
+            33.94,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:47.014204+00:00"
+        },
+        {
+          "index": 32,
+          "origin": [
+            33.94,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:49.198430+00:00"
+        },
+        {
+          "index": 33,
+          "origin": [
+            33.94,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:51.077267+00:00"
+        },
+        {
+          "index": 34,
+          "origin": [
+            33.94,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:53.099511+00:00"
+        },
+        {
+          "index": 35,
+          "origin": [
+            33.94,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:55.256170+00:00"
+        },
+        {
+          "index": 36,
+          "origin": [
+            33.94,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:57.189276+00:00"
+        },
+        {
+          "index": 37,
+          "origin": [
+            33.94,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:43:58.874073+00:00"
+        },
+        {
+          "index": 38,
+          "origin": [
+            33.94,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:01.187086+00:00"
+        },
+        {
+          "index": 39,
+          "origin": [
+            33.955,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 2,
+          "other_city_records": 38,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:03.227560+00:00"
+        },
+        {
+          "index": 40,
+          "origin": [
+            33.955,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 6,
+          "other_city_records": 34,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:05.479260+00:00"
+        },
+        {
+          "index": 41,
+          "origin": [
+            33.955,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:07.322570+00:00"
+        },
+        {
+          "index": 42,
+          "origin": [
+            33.955,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 31,
+          "other_city_records": 9,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:09.078656+00:00"
+        },
+        {
+          "index": 43,
+          "origin": [
+            33.955,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:11.008782+00:00"
+        },
+        {
+          "index": 44,
+          "origin": [
+            33.955,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:13.889669+00:00"
+        },
+        {
+          "index": 45,
+          "origin": [
+            33.955,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:15.835561+00:00"
+        },
+        {
+          "index": 46,
+          "origin": [
+            33.955,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:17.916069+00:00"
+        },
+        {
+          "index": 47,
+          "origin": [
+            33.955,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:19.936579+00:00"
+        },
+        {
+          "index": 48,
+          "origin": [
+            33.955,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:21.863892+00:00"
+        },
+        {
+          "index": 49,
+          "origin": [
+            33.955,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:23.453894+00:00"
+        },
+        {
+          "index": 50,
+          "origin": [
+            33.955,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:25.505198+00:00"
+        },
+        {
+          "index": 51,
+          "origin": [
+            33.955,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 25,
+          "other_city_records": 15,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:27.446094+00:00"
+        },
+        {
+          "index": 52,
+          "origin": [
+            33.97,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:29.462807+00:00"
+        },
+        {
+          "index": 53,
+          "origin": [
+            33.97,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 30,
+          "other_city_records": 10,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:31.587822+00:00"
+        },
+        {
+          "index": 54,
+          "origin": [
+            33.97,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:33.437750+00:00"
+        },
+        {
+          "index": 55,
+          "origin": [
+            33.97,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:35.293149+00:00"
+        },
+        {
+          "index": 56,
+          "origin": [
+            33.97,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:37.125974+00:00"
+        },
+        {
+          "index": 57,
+          "origin": [
+            33.97,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:39.264317+00:00"
+        },
+        {
+          "index": 58,
+          "origin": [
+            33.97,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:41.037563+00:00"
+        },
+        {
+          "index": 59,
+          "origin": [
+            33.97,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:42.959629+00:00"
+        },
+        {
+          "index": 60,
+          "origin": [
+            33.97,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:44.956447+00:00"
+        },
+        {
+          "index": 61,
+          "origin": [
+            33.97,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:46.952954+00:00"
+        },
+        {
+          "index": 62,
+          "origin": [
+            33.97,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:49.259170+00:00"
+        },
+        {
+          "index": 63,
+          "origin": [
+            33.97,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 21,
+          "other_city_records": 19,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:51.152555+00:00"
+        },
+        {
+          "index": 64,
+          "origin": [
+            33.97,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 12,
+          "other_city_records": 28,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:52.907007+00:00"
+        },
+        {
+          "index": 65,
+          "origin": [
+            33.985,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 33,
+          "other_city_records": 7,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:55.314184+00:00"
+        },
+        {
+          "index": 66,
+          "origin": [
+            33.985,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:57.091007+00:00"
+        },
+        {
+          "index": 67,
+          "origin": [
+            33.985,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:44:59.137951+00:00"
+        },
+        {
+          "index": 68,
+          "origin": [
+            33.985,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:00.956077+00:00"
+        },
+        {
+          "index": 69,
+          "origin": [
+            33.985,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:03.195217+00:00"
+        },
+        {
+          "index": 70,
+          "origin": [
+            33.985,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00"
+        },
+        {
+          "index": 71,
+          "origin": [
+            33.985,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:07.038617+00:00"
+        },
+        {
+          "index": 72,
+          "origin": [
+            33.985,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:09.184090+00:00"
+        },
+        {
+          "index": 73,
+          "origin": [
+            33.985,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:11.709633+00:00"
+        },
+        {
+          "index": 74,
+          "origin": [
+            33.985,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:12.969612+00:00"
+        },
+        {
+          "index": 75,
+          "origin": [
+            33.985,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:15.620469+00:00"
+        },
+        {
+          "index": 76,
+          "origin": [
+            33.985,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 11,
+          "other_city_records": 29,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:17.037417+00:00"
+        },
+        {
+          "index": 77,
+          "origin": [
+            33.985,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:19.110136+00:00"
+        },
+        {
+          "index": 78,
+          "origin": [
+            34.0,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:21.134753+00:00"
+        },
+        {
+          "index": 79,
+          "origin": [
+            34.0,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:22.930276+00:00"
+        },
+        {
+          "index": 80,
+          "origin": [
+            34.0,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:25.374527+00:00"
+        },
+        {
+          "index": 81,
+          "origin": [
+            34.0,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:27.436914+00:00"
+        },
+        {
+          "index": 82,
+          "origin": [
+            34.0,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:29.353924+00:00"
+        },
+        {
+          "index": 83,
+          "origin": [
+            34.0,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00"
+        },
+        {
+          "index": 84,
+          "origin": [
+            34.0,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00"
+        },
+        {
+          "index": 85,
+          "origin": [
+            34.0,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:36.031683+00:00"
+        },
+        {
+          "index": 86,
+          "origin": [
+            34.0,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:38.463107+00:00"
+        },
+        {
+          "index": 87,
+          "origin": [
+            34.0,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:39.982619+00:00"
+        },
+        {
+          "index": 88,
+          "origin": [
+            34.0,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 22,
+          "other_city_records": 18,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:41.844213+00:00"
+        },
+        {
+          "index": 89,
+          "origin": [
+            34.0,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:43.711350+00:00"
+        },
+        {
+          "index": 90,
+          "origin": [
+            34.0,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:46.056592+00:00"
+        },
+        {
+          "index": 91,
+          "origin": [
+            34.015,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:48.032068+00:00"
+        },
+        {
+          "index": 92,
+          "origin": [
+            34.015,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:50.114615+00:00"
+        },
+        {
+          "index": 93,
+          "origin": [
+            34.015,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:51.894919+00:00"
+        },
+        {
+          "index": 94,
+          "origin": [
+            34.015,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:54.040940+00:00"
+        },
+        {
+          "index": 95,
+          "origin": [
+            34.015,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:55.673856+00:00"
+        },
+        {
+          "index": 96,
+          "origin": [
+            34.015,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:57.714775+00:00"
+        },
+        {
+          "index": 97,
+          "origin": [
+            34.015,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00"
+        },
+        {
+          "index": 98,
+          "origin": [
+            34.015,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:01.597758+00:00"
+        },
+        {
+          "index": 99,
+          "origin": [
+            34.015,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:03.874747+00:00"
+        },
+        {
+          "index": 100,
+          "origin": [
+            34.015,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 8,
+          "other_city_records": 32,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:06.736403+00:00"
+        },
+        {
+          "index": 101,
+          "origin": [
+            34.015,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:08.015829+00:00"
+        },
+        {
+          "index": 102,
+          "origin": [
+            34.015,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:10.291954+00:00"
+        },
+        {
+          "index": 103,
+          "origin": [
+            34.015,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:12.035489+00:00"
+        },
+        {
+          "index": 104,
+          "origin": [
+            34.03,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:13.710567+00:00"
+        },
+        {
+          "index": 105,
+          "origin": [
+            34.03,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:15.795916+00:00"
+        },
+        {
+          "index": 106,
+          "origin": [
+            34.03,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:17.834861+00:00"
+        },
+        {
+          "index": 107,
+          "origin": [
+            34.03,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:19.673025+00:00"
+        },
+        {
+          "index": 108,
+          "origin": [
+            34.03,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:21.944925+00:00"
+        },
+        {
+          "index": 109,
+          "origin": [
+            34.03,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:23.931165+00:00"
+        },
+        {
+          "index": 110,
+          "origin": [
+            34.03,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:25.867929+00:00"
+        },
+        {
+          "index": 111,
+          "origin": [
+            34.03,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 29,
+          "other_city_records": 11,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:28.104170+00:00"
+        },
+        {
+          "index": 112,
+          "origin": [
+            34.03,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 10,
+          "other_city_records": 30,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:30.545814+00:00"
+        },
+        {
+          "index": 113,
+          "origin": [
+            34.03,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:32.054669+00:00"
+        },
+        {
+          "index": 114,
+          "origin": [
+            34.03,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:34.118935+00:00"
+        },
+        {
+          "index": 115,
+          "origin": [
+            34.03,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:35.759157+00:00"
+        },
+        {
+          "index": 116,
+          "origin": [
+            34.03,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:37.864726+00:00"
+        },
+        {
+          "index": 117,
+          "origin": [
+            34.045,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:39.521643+00:00"
+        },
+        {
+          "index": 118,
+          "origin": [
+            34.045,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:41.673331+00:00"
+        },
+        {
+          "index": 119,
+          "origin": [
+            34.045,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:43.516086+00:00"
+        },
+        {
+          "index": 120,
+          "origin": [
+            34.045,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:45.394537+00:00"
+        },
+        {
+          "index": 121,
+          "origin": [
+            34.045,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:47.388970+00:00"
+        },
+        {
+          "index": 122,
+          "origin": [
+            34.045,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:49.424824+00:00"
+        },
+        {
+          "index": 123,
+          "origin": [
+            34.045,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:51.536285+00:00"
+        },
+        {
+          "index": 124,
+          "origin": [
+            34.045,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:53.831270+00:00"
+        },
+        {
+          "index": 125,
+          "origin": [
+            34.045,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:56.233758+00:00"
+        },
+        {
+          "index": 126,
+          "origin": [
+            34.045,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:57.599300+00:00"
+        },
+        {
+          "index": 127,
+          "origin": [
+            34.045,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:46:59.740501+00:00"
+        },
+        {
+          "index": 128,
+          "origin": [
+            34.045,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:01.613807+00:00"
+        },
+        {
+          "index": 129,
+          "origin": [
+            34.045,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:03.621098+00:00"
+        },
+        {
+          "index": 130,
+          "origin": [
+            34.06,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:05.387180+00:00"
+        },
+        {
+          "index": 131,
+          "origin": [
+            34.06,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:07.378626+00:00"
+        },
+        {
+          "index": 132,
+          "origin": [
+            34.06,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:09.823819+00:00"
+        },
+        {
+          "index": 133,
+          "origin": [
+            34.06,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 34,
+          "other_city_records": 6,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:11.556174+00:00"
+        },
+        {
+          "index": 134,
+          "origin": [
+            34.06,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 26,
+          "other_city_records": 14,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:13.714013+00:00"
+        },
+        {
+          "index": 135,
+          "origin": [
+            34.06,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 13,
+          "other_city_records": 27,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:16.144997+00:00"
+        },
+        {
+          "index": 136,
+          "origin": [
+            34.06,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:17.798587+00:00"
+        },
+        {
+          "index": 137,
+          "origin": [
+            34.06,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:19.754895+00:00"
+        },
+        {
+          "index": 138,
+          "origin": [
+            34.06,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:21.936587+00:00"
+        },
+        {
+          "index": 139,
+          "origin": [
+            34.06,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:23.474640+00:00"
+        },
+        {
+          "index": 140,
+          "origin": [
+            34.06,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:25.566394+00:00"
+        },
+        {
+          "index": 141,
+          "origin": [
+            34.06,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:27.414660+00:00"
+        },
+        {
+          "index": 142,
+          "origin": [
+            34.06,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "fetched_at_utc": "2026-10-19T17:47:29.376815+00:00"
+        }
+      ],
+      "errors": [],
+      "record_conflicts": [],
+      "collection_complete": true,
+      "complete_city_directory": false,
+      "staging_only": true,
+      "coverage_limitation": "A completed grid is not proof of complete city coverage. The source supplies no authoritative total or pagination.",
+      "stop_reason": "finished",
+      "updated_at_utc": "2026-10-19T17:49:41.716407+00:00",
+      "search_points_completed": 143,
+      "network_requests_this_run": 0,
+      "possibly_truncated_points": 143,
+      "quality": {
+        "records": 327,
+        "unique_ids": 327,
+        "missing_phone": 0,
+        "invalid_phone_format": 0,
+        "missing_address": 11,
+        "possible_duplicate_id_groups": [],
+        "verified_duty_records": 0,
+        "verified_opening_hours": 0,
+        "stock_available": false
+      },
+      "record_count": 327
+    },
+    "quality": {
+      "records": 327,
+      "unique_ids": 327,
+      "missing_phone": 0,
+      "invalid_phone_format": 0,
+      "missing_address": 11,
+      "possible_duplicate_id_groups": [],
+      "verified_duty_records": 0,
+      "verified_opening_hours": 0,
+      "stock_available": false
+    },
+    "cache_integrity": {
+      "cached_responses": 157,
+      "sha256_errors": [],
+      "earliest_fetch_utc": "2026-10-19T17:42:42.866500+00:00",
+      "latest_fetch_utc": "2026-10-19T17:47:55.875014+00:00"
+    },
+    "baseline_records": 115,
+    "added_ids": [
+      "saydalia:10012",
+      "saydalia:1094",
+      "saydalia:1350",
+      "saydalia:1493",
+      "saydalia:1880",
+      "saydalia:1901",
+      "saydalia:2088",
+      "saydalia:2199",
+      "saydalia:2243",
+      "saydalia:2359",
+      "saydalia:242",
+      "saydalia:2668",
+      "saydalia:2870",
+      "saydalia:2970",
+      "saydalia:2993",
+      "saydalia:3015",
+      "saydalia:3142",
+      "saydalia:3245",
+      "saydalia:3263",
+      "saydalia:3267",
+      "saydalia:3271",
+      "saydalia:3285",
+      "saydalia:3288",
+      "saydalia:3289",
+      "saydalia:3297",
+      "saydalia:3301",
+      "saydalia:3303",
+      "saydalia:3335",
+      "saydalia:3349",
+      "saydalia:3371",
+      "saydalia:3385",
+      "saydalia:3411",
+      "saydalia:3418",
+      "saydalia:3419",
+      "saydalia:3420",
+      "saydalia:3440",
+      "saydalia:3472",
+      "saydalia:3475",
+      "saydalia:3490",
+      "saydalia:3501",
+      "saydalia:3526",
+      "saydalia:3557",
+      "saydalia:3581",
+      "saydalia:3583",
+      "saydalia:3588",
+      "saydalia:3612",
+      "saydalia:3639",
+      "saydalia:3640",
+      "saydalia:3647",
+      "saydalia:3661",
+      "saydalia:3663",
+      "saydalia:3671",
+      "saydalia:3673",
+      "saydalia:3715",
+      "saydalia:3717",
+      "saydalia:3740",
+      "saydalia:3754",
+      "saydalia:3782",
+      "saydalia:3827",
+      "saydalia:3862",
+      "saydalia:3910",
+      "saydalia:3927",
+      "saydalia:3956",
+      "saydalia:3963",
+      "saydalia:3996",
+      "saydalia:3997",
+      "saydalia:4038",
+      "saydalia:4060",
+      "saydalia:4080",
+      "saydalia:4100",
+      "saydalia:4129",
+      "saydalia:4142",
+      "saydalia:4150",
+      "saydalia:4158",
+      "saydalia:4173",
+      "saydalia:4204",
+      "saydalia:4239",
+      "saydalia:4273",
+      "saydalia:4286",
+      "saydalia:4311",
+      "saydalia:4324",
+      "saydalia:4371",
+      "saydalia:4409",
+      "saydalia:4427",
+      "saydalia:4435",
+      "saydalia:4536",
+      "saydalia:4565",
+      "saydalia:4569",
+      "saydalia:4579",
+      "saydalia:4582",
+      "saydalia:4604",
+      "saydalia:4605",
+      "saydalia:4630",
+      "saydalia:4649",
+      "saydalia:4653",
+      "saydalia:4664",
+      "saydalia:4677",
+      "saydalia:4689",
+      "saydalia:4707",
+      "saydalia:4746",
+      "saydalia:4747",
+      "saydalia:4748",
+      "saydalia:4798",
+      "saydalia:4801",
+      "saydalia:4813",
+      "saydalia:4820",
+      "saydalia:4842",
+      "saydalia:4856",
+      "saydalia:4862",
+      "saydalia:4876",
+      "saydalia:4877",
+      "saydalia:4896",
+      "saydalia:4922",
+      "saydalia:4925",
+      "saydalia:4944",
+      "saydalia:4956",
+      "saydalia:4957",
+      "saydalia:4974",
+      "saydalia:5063",
+      "saydalia:5069",
+      "saydalia:5070",
+      "saydalia:5107",
+      "saydalia:5110",
+      "saydalia:5111",
+      "saydalia:5167",
+      "saydalia:5187",
+      "saydalia:5229",
+      "saydalia:5234",
+      "saydalia:5247",
+      "saydalia:5268",
+      "saydalia:5301",
+      "saydalia:5339",
+      "saydalia:5373",
+      "saydalia:5386",
+      "saydalia:5407",
+      "saydalia:5408",
+      "saydalia:543",
+      "saydalia:5447",
+      "saydalia:5479",
+      "saydalia:5531",
+      "saydalia:5546",
+      "saydalia:5553",
+      "saydalia:5622",
+      "saydalia:5653",
+      "saydalia:5663",
+      "saydalia:5689",
+      "saydalia:5697",
+      "saydalia:5704",
+      "saydalia:5729",
+      "saydalia:5734",
+      "saydalia:5789",
+      "saydalia:579",
+      "saydalia:5802",
+      "saydalia:5826",
+      "saydalia:5859",
+      "saydalia:5912",
+      "saydalia:5949",
+      "saydalia:5959",
+      "saydalia:5996",
+      "saydalia:6086",
+      "saydalia:610",
+      "saydalia:6108",
+      "saydalia:6132",
+      "saydalia:6429",
+      "saydalia:6479",
+      "saydalia:650",
+      "saydalia:6547",
+      "saydalia:6578",
+      "saydalia:6579",
+      "saydalia:6606",
+      "saydalia:6888",
+      "saydalia:7006",
+      "saydalia:7023",
+      "saydalia:7044",
+      "saydalia:7067",
+      "saydalia:7167",
+      "saydalia:7268",
+      "saydalia:7367",
+      "saydalia:74",
+      "saydalia:7538",
+      "saydalia:7622",
+      "saydalia:7638",
+      "saydalia:7659",
+      "saydalia:7681",
+      "saydalia:7775",
+      "saydalia:7814",
+      "saydalia:7854",
+      "saydalia:7897",
+      "saydalia:8024",
+      "saydalia:8233",
+      "saydalia:8324",
+      "saydalia:8368",
+      "saydalia:8387",
+      "saydalia:8390",
+      "saydalia:8510",
+      "saydalia:8569",
+      "saydalia:8600",
+      "saydalia:8602",
+      "saydalia:8614",
+      "saydalia:8647",
+      "saydalia:8679",
+      "saydalia:8706",
+      "saydalia:8718",
+      "saydalia:9080",
+      "saydalia:9117",
+      "saydalia:9251",
+      "saydalia:9261",
+      "saydalia:9281",
+      "saydalia:9282",
+      "saydalia:9682",
+      "saydalia:9897",
+      "saydalia:9981"
+    ],
+    "missing_baseline_ids": [],
+    "ibn_nafis_phone_unchanged": true,
+    "records_outside_search_rectangle": [
+      "saydalia:2970",
+      "saydalia:9281"
+    ],
+    "retrieval_checks": [
+      {
+        "name": "french_name",
+        "entities": {
+          "pharmacy": "Pharmacie Ibn Nafis",
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 1,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:5256",
+              "name": "Pharmacie Ibn Nafis",
+              "city": "Rabat",
+              "address": "12, rue Jazirat Al Arab Rabat",
+              "phone": "0537720657",
+              "latitude": 34.0218555,
+              "longitude": -6.8419573,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "exact_name",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "arabic_name",
+        "entities": {
+          "pharmacy": "صيدلية ابن نفيس",
+          "city": "الرباط"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "الرباط",
+          "city_defaulted": false,
+          "result_count": 1,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:5256",
+              "name": "Pharmacie Ibn Nafis",
+              "city": "Rabat",
+              "address": "12, rue Jazirat Al Arab Rabat",
+              "phone": "0537720657",
+              "latitude": 34.0218555,
+              "longitude": -6.8419573,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "reviewed_alias",
+          "name_alias": "ibn nafis",
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "area_french",
+        "entities": {
+          "city": "Rabat",
+          "area": "Agdal"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 11,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:4301",
+              "name": "Pharmacie De L'agdal",
+              "city": "Rabat",
+              "address": "avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat",
+              "phone": "0537671600",
+              "latitude": 33.9886494,
+              "longitude": -6.8480575,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3245",
+              "name": "Pharmacie Alam",
+              "city": "Rabat",
+              "address": "33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat",
+              "phone": "0537775269",
+              "latitude": 34.0083236,
+              "longitude": -6.8447358,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3499",
+              "name": "Pharmacie Anasse",
+              "city": "Rabat",
+              "address": "résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)",
+              "phone": "0537298899",
+              "latitude": 33.9985458,
+              "longitude": -6.8606985,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3531",
+              "name": "Pharmacie Anzi",
+              "city": "Rabat",
+              "address": "n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+              "phone": "0537691313",
+              "latitude": 34.0031887,
+              "longitude": -6.8584875,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "area_filter",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      },
+      {
+        "name": "area_arabic",
+        "entities": {
+          "city": "الرباط",
+          "area": "اكدال"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "الرباط",
+          "city_defaulted": false,
+          "result_count": 11,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:4301",
+              "name": "Pharmacie De L'agdal",
+              "city": "Rabat",
+              "address": "avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat",
+              "phone": "0537671600",
+              "latitude": 33.9886494,
+              "longitude": -6.8480575,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3245",
+              "name": "Pharmacie Alam",
+              "city": "Rabat",
+              "address": "33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat",
+              "phone": "0537775269",
+              "latitude": 34.0083236,
+              "longitude": -6.8447358,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3499",
+              "name": "Pharmacie Anasse",
+              "city": "Rabat",
+              "address": "résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)",
+              "phone": "0537298899",
+              "latitude": 33.9985458,
+              "longitude": -6.8606985,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3531",
+              "name": "Pharmacie Anzi",
+              "city": "Rabat",
+              "address": "n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+              "phone": "0537691313",
+              "latitude": 34.0031887,
+              "longitude": -6.8584875,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "area_filter",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      },
+      {
+        "name": "explicit_other_city",
+        "entities": {
+          "city": "Casablanca"
+        },
+        "result": {
+          "status": "outside_coverage",
+          "applied_city": "Casablanca",
+          "city_defaulted": false,
+          "result_count": 0,
+          "pharmacies": [],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": null,
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "unknown_name",
+        "entities": {
+          "pharmacy": "NoSuchPharmacyZXQ"
+        },
+        "result": {
+          "status": "not_found",
+          "applied_city": "Rabat",
+          "city_defaulted": true,
+          "result_count": 0,
+          "pharmacies": [],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "name_tokens",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "ambiguous_name",
+        "entities": {
+          "pharmacy": "Bab",
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "ambiguous",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 2,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:3691",
+              "name": "Pharmacie Bab Jdid",
+              "city": "Rabat",
+              "address": "265, avenue Mohammed V, Legza Rabat",
+              "phone": "0537726227",
+              "latitude": 34.0222024,
+              "longitude": -6.8380904,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.835000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:46:01.597758+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3692",
+              "name": "Pharmacie Bab Marrakech",
+              "city": "Rabat",
+              "address": "rue al achàari (face au monument bab marrakech) Rabat",
+              "phone": "0537779500",
+              "latitude": 34.007055,
+              "longitude": -6.8482161,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "name_tokens",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "browse_is_truncated",
+        "entities": {
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 327,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:43",
+              "name": "Pharmacie Abdelkrim ElKhattabi",
+              "city": "Rabat",
+              "address": "272, avenue Abdelkrim Al Khattabi, Océan Rabat",
+              "phone": "0537203881",
+              "latitude": 34.0213667,
+              "longitude": -6.8528115,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.880000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:55.673856+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:74",
+              "name": "Pharmacie Abi Hourayra",
+              "city": "Rabat",
+              "address": "73, lot haj slimane j3 c.y.m ( prés de souk laghzel) Rabat",
+              "phone": "0537795072",
+              "latitude": 33.9881489,
+              "longitude": -6.8824375,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.940000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:44:55.314184+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:242",
+              "name": "Pharmacie Abou Bakr Assedik",
+              "city": "Rabat",
+              "address": "rue Chaouiah, imm. J n°5 q. Mabella Rabat",
+              "phone": "0537651874",
+              "latitude": 33.9929638,
+              "longitude": -6.8208048,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.835000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:09.184090+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:543",
+              "name": "Pharmacie Abtal",
+              "city": "Rabat",
+              "address": "53 groupe zouhour (en face dar chabab) - Rabat",
+              "phone": "0537653710",
+              "latitude": 33.9829909,
+              "longitude": -6.8240507,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.955000%2C-6.820000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:44:19.936579+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "browse",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      }
+    ],
+    "records_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8"
+  },
+  "active_dataset_sha256": {
+    "ammps_medications_enriched.jsonl": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+    "medicament_medications.jsonl": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+    "saydalia_medications.jsonl": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+    "pharmacies_rabat.jsonl": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+    "pharmacy_duty_observations.jsonl": "c2539715e9a17e4ef5b367395fdefab3e02ba3e9503e7afd3f241ae23f12e04a"
+  },
+  "all_collections_finished": false,
+  "offline_integrity_passed": true
+}

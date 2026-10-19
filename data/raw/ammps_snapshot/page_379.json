@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 379,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=379",
+  "fetched_at_utc": "2026-10-18T16:30:06.564380+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3001",
+      "brand_name": "RISPERDAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "274,00 DH",
+        "PH": "171,20 DH",
+        "PFHT": "163,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3002",
+      "brand_name": "RISPERDAL CONSTA LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 KIT (FL+SOLVANT EN SERINGUE)",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.786.00 DH",
+        "PH": "1.530.00 DH",
+        "PFHT": "1.457.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  2  ML",
+        "Forme": "POUDRE POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3003",
+      "brand_name": "RISPERDAL CONSTA LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 KIT (FL+SOLVANT EN SERINGUE)",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.229.00 DH",
+        "PH": "956,00 DH",
+        "PFHT": "910,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  2  ML",
+        "Forme": "POUDRE POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3004",
+      "brand_name": "RISPERDAL CONSTA LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 KIT (FL+SOLVANT EN SERINGUE)",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.507.00 DH",
+        "PH": "1.243.00 DH",
+        "PFHT": "1.184.28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  2  ML",
+        "Forme": "POUDRE POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3005",
+      "brand_name": "RISPERDAL ORO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "134,00 DH",
+        "PH": "83,50 DH",
+        "PFHT": "74,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3006",
+      "brand_name": "RISPERDAL ORO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "231,00 DH",
+        "PH": "144,10 DH",
+        "PFHT": "128,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3007",
+      "brand_name": "RISPERDAL ORO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "331,00 DH",
+        "PH": "219,00 DH",
+        "PFHT": "195,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3008",
+      "brand_name": "RISPERDAL ORO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "426,00 DH",
+        "PH": "282,00 DH",
+        "PFHT": "252,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3009",
+      "brand_name": "RISPERDAL ORO",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "93,30 DH",
+        "PH": "58,10 DH",
+        "PFHT": "51,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "327",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "26,80 DH",
+        "PH": "16,70 DH",
+        "PFHT": "15,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "328",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "138,70 DH",
+        "PH": "86,70 DH",
+        "PFHT": "82,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "329",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "47,80 DH",
+        "PH": "29,90 DH",
+        "PFHT": "28,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "330",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "247,00 DH",
+        "PH": "154,70 DH",
+        "PFHT": "147,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "331",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "66,30 DH",
+        "PH": "41,40 DH",
+        "PFHT": "39,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "332",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "322,00 DH",
+        "PH": "214,00 DH",
+        "PFHT": "204,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6822",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "52,70 DH",
+        "PH": "32,90 DH",
+        "PFHT": "31,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6823",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "94,00 DH",
+        "PH": "58,80 DH",
+        "PFHT": "55,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6824",
+      "brand_name": "RISPERIDONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "130,30 DH",
+        "PH": "81,40 DH",
+        "PFHT": "77,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8774",
+      "brand_name": "RITOCOM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 120",
+        "PP / GN": "GN",
+        "Substance active": "LOPINAVIR / RITONAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "884,00 DH",
+        "PH": "588,00 DH",
+        "PFHT": "560,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  50   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "1530",
+      "brand_name": "RITROCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "78,20 DH",
+        "PH": "48,90 DH",
+        "PFHT": "46,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

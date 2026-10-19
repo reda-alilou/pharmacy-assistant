@@ -1,0 +1,55 @@
+{
+  "dataset_version": "baseline_v1.1",
+  "frozen_at_utc": "2026-10-19T09:39:03.929795+00:00",
+  "annotation_provenance": "Assistant-authored synthetic examples, reviewed against the extraction contract, raw text spans and stored catalogue. No independent human/native-speaker review or inter-annotator agreement is claimed.",
+  "split_policy": "40 development and 40 held-out examples; 10 per language group per split; each contains 32 single-turn and 8 contextual follow-up examples. Held-out annotations were read for authoring and integrity validation only; no held-out inference or backend evaluation in this checkpoint.",
+  "catalogue_sha256": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+  "files": {
+    "development.json": {
+      "sha256": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+      "examples": 40
+    },
+    "held_out.json": {
+      "sha256": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9",
+      "examples": 40
+    }
+  },
+  "targets": {
+    "intent_micro_f1": 0.9,
+    "entity_slot_micro_f1": 0.85,
+    "minimum_group_intent_micro_f1": 0.8
+  },
+  "limitations": [
+    "Synthetic, small, single-author dataset; not population-representative.",
+    "Language groups share domain terminology and some scenario structures; this is not an independently sourced external benchmark.",
+    "Conversation targets describe desired functionality; the current API has no free-text session context.",
+    "Future annotation corrections require a new version and disclosed changes, not silent edits after model evaluation."
+  ],
+  "annotation_revisions": [
+    {
+      "from_version": "baseline_v1",
+      "before_files": {
+        "development.json": {
+          "sha256": "084708466ff9d997287d2a25eddbe5f652062cc08f8305a7299eb8c5255392aa",
+          "examples": 40
+        },
+        "held_out.json": {
+          "sha256": "90bd19ffc20b14116acf055e97051c3f458530b27c6d6036296c6398c62269e7",
+          "examples": 40
+        }
+      },
+      "reason": "Pre-live annotation review: add explicit form coverage in each development language group; annotate form words in held-out packaging follow-ups and sachet presentation. No held-out inference or backend execution was used for these corrections.",
+      "case_ids": [
+        "dev-ar-02",
+        "dev-darija-02",
+        "dev-mixed-03",
+        "dev-fr-05",
+        "held-darija-02",
+        "held-fr-09",
+        "held-ar-09",
+        "held-darija-09",
+        "held-mixed-09"
+      ]
+    }
+  ]
+}

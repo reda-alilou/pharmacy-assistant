@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 167,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=167",
+  "fetched_at_utc": "2026-10-18T16:23:01.458005+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9195",
+      "brand_name": "EVRYSDI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE 2 G DE POUDRE POUR SOLUTION BUVABLE, AVEC 1 ADAPTATEUR POUR FLACON, DEUX SERINGUES ORALES AMBREES GRADUEES REUTILISABLES DE 6 ML , ET 2 SERINGUES ORALES AMBREES GRADUEES REUTILISABLES DE 12 ML .",
+        "PP / GN": "PP",
+        "Substance active": "RISDIPLAM",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "ROCHE",
+        "PPV": "83.578.00 DH",
+        "PH": "81.948.00 DH",
+        "PFHT": "81.548.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5285",
+      "brand_name": "EXACYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TRANEXAMIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "98,10 DH",
+        "PH": "61,30 DH",
+        "PFHT": "58,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5286",
+      "brand_name": "EXACYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TRANEXAMIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  10  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5287",
+      "brand_name": "EXACYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TRANEXAMIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "28,30 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5288",
+      "brand_name": "EXACYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE TRANEXAMIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "53,20 DH",
+        "PH": "33,20 DH",
+        "PFHT": "31,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3344",
+      "brand_name": "EXELON PATCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "915,00 DH",
+        "PH": "633,00 DH",
+        "PFHT": "603,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "10 PATCHS TRANSDERMIQUES"
+      }
+    },
+    {
+      "source_record_id": "3345",
+      "brand_name": "EXELON PATCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "810,00 DH",
+        "PH": "538,00 DH",
+        "PFHT": "513,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "5 PATCHS TRANSDERMIQUES"
+      }
+    },
+    {
+      "source_record_id": "3346",
+      "brand_name": "EXELON PATCH 15",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "942,00 DH",
+        "PH": "660,00 DH",
+        "PFHT": "629,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "PATCH TRANSDERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "7123",
+      "brand_name": "EXEMESTANE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EXEMESTANE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "518,00 DH",
+        "PH": "344,00 DH",
+        "PFHT": "327,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2162",
+      "brand_name": "EXEMESTANE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EXEMESTANE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "518,00 DH",
+        "PH": "344,00 DH",
+        "PFHT": "328,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6667",
+      "brand_name": "EXEMESTANE ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EXEMESTANE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "518,00 DH",
+        "PH": "344,00 DH",
+        "PFHT": "328,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9551",
+      "brand_name": "EXEMPTIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’ UNE SERINGUE PRE-REMPLIE A USAGE UNIQUE",
+        "PP / GN": "BS",
+        "Substance active": "ADALIMUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "BOTTU",
+        "PPV": "1.900.00 DH",
+        "PH": "1.647.00 DH",
+        "PFHT": "1.568.63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3347",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "247,00 DH",
+        "PH": "154,60 DH",
+        "PFHT": "147,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3348",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "190,60 DH",
+        "PH": "119,10 DH",
+        "PFHT": "113,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3349",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "224,00 DH",
+        "PH": "140,40 DH",
+        "PFHT": "133,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3350",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "190,60 DH",
+        "PH": "119,10 DH",
+        "PFHT": "113,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3351",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "195,00 DH",
+        "PH": "121,90 DH",
+        "PFHT": "116,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3352",
+      "brand_name": "EXFORGE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "156,20 DH",
+        "PH": "97,60 DH",
+        "PFHT": "92,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3353",
+      "brand_name": "EXFORGE HCT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "310,00 DH",
+        "PH": "206,00 DH",
+        "PFHT": "196,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG  /  12,5   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3354",
+      "brand_name": "EXFORGE HCT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "310,00 DH",
+        "PH": "206,00 DH",
+        "PFHT": "196,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "10   MG  /  25   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

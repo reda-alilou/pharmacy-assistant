@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 368,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=368",
+  "fetched_at_utc": "2026-10-18T16:29:44.553225+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3800",
+      "brand_name": "REFACTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "MOROCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "6.377.00 DH",
+        "PH": "6.153.00 DH",
+        "PFHT": "5.860.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3801",
+      "brand_name": "REFACTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "MOROCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "12.355.00 DH",
+        "PH": "12.120.00 DH",
+        "PFHT": "11.720.67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3802",
+      "brand_name": "REFACTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "MOROCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.855.00 DH",
+        "PH": "1.600.00 DH",
+        "PFHT": "1.524.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3803",
+      "brand_name": "REFACTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "MOROCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "3.520.00 DH",
+        "PH": "3.211.00 DH",
+        "PFHT": "3.058.83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5170",
+      "brand_name": "REGAXIDIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "MINOXIDIL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "242,00 DH",
+        "PH": "151,90 DH",
+        "PFHT": "144,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION (POUR APPLICATION CUTANEE)"
+      }
+    },
+    {
+      "source_record_id": "7903",
+      "brand_name": "REGAXIDIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1  FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "MINOXIDIL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "172,90 DH",
+        "PH": "108,10 DH",
+        "PFHT": "102,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SOLUTION POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "4382",
+      "brand_name": "REGOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "441,00 DH",
+        "PH": "293,00 DH",
+        "PFHT": "279,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4383",
+      "brand_name": "REGOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "RISEDRONATE (MONOSODIQUE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1528",
+      "brand_name": "REGULAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TEGUMENTS D'ISPAGHUL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "52,80 DH",
+        "PH": "33,00 DH",
+        "PFHT": "31,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4541",
+      "brand_name": "REJUVA A",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "CREME A 0,025% TUBE DE 20G+CREME DE JOUR TUBE DE 40G",
+        "PP / GN": "PP",
+        "Substance active": "TRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "213,00 DH",
+        "PH": "133,20 DH",
+        "PFHT": "126,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0003",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5401",
+      "brand_name": "RELAXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // THIOCOLCHICOSIDE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "49,60 DH",
+        "PH": "31,00 DH",
+        "PFHT": "29,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1926",
+      "brand_name": "RELENZA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 RECIPIENTS",
+        "PP / GN": "PP",
+        "Substance active": "ZANAMIVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "213,00 DH",
+        "PH": "133,20 DH",
+        "PFHT": "126,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  DOSE",
+        "Forme": "POUDRE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "8741",
+      "brand_name": "RELIDOMIDE 10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "6.258.00 DH",
+        "PH": "6.031.00 DH",
+        "PFHT": "5.744.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8742",
+      "brand_name": "RELIDOMIDE 10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "16.215.00 DH",
+        "PH": "15.905.00 DH",
+        "PFHT": "15.505.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8743",
+      "brand_name": "RELIDOMIDE 10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 42 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "29.737.00 DH",
+        "PH": "29.161.00 DH",
+        "PFHT": "28.761.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8744",
+      "brand_name": "RELIDOMIDE 10",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 63 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "43.405.00 DH",
+        "PH": "42.562.00 DH",
+        "PFHT": "42.162.36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8745",
+      "brand_name": "RELIDOMIDE 15",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "6.584.00 DH",
+        "PH": "6.366.00 DH",
+        "PFHT": "6.063.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8746",
+      "brand_name": "RELIDOMIDE 15",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "17.057.00 DH",
+        "PH": "16.731.00 DH",
+        "PFHT": "16.331.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8747",
+      "brand_name": "RELIDOMIDE 15",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 42 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "31.297.00 DH",
+        "PH": "30.691.00 DH",
+        "PFHT": "30.291.36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "8748",
+      "brand_name": "RELIDOMIDE 15",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 63 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "LENALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "45.692.00 DH",
+        "PH": "44.804.00 DH",
+        "PFHT": "44.404.38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULES"
+      }
+    }
+  ]
+}

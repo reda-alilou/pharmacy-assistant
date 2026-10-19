@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 494,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=494",
+  "fetched_at_utc": "2026-10-18T16:33:56.943295+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3566",
+      "brand_name": "ZOLTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "59,70 DH",
+        "PH": "37,20 DH",
+        "PFHT": "33,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3567",
+      "brand_name": "ZOLTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "109,40 DH",
+        "PH": "68,20 DH",
+        "PFHT": "60,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4337",
+      "brand_name": "ZOLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4338",
+      "brand_name": "ZOLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "89,10 DH",
+        "PH": "55,70 DH",
+        "PFHT": "53,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "4339",
+      "brand_name": "ZOLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "3448",
+      "brand_name": "ZOMETA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "2.513.00 DH",
+        "PH": "2.176.00 DH",
+        "PFHT": "2.072.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "POUDRE POUR PERFUSION EN FLACON DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "7057",
+      "brand_name": "ZOMETA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ZOLEDRONIQUE ANHYDRE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.334.00 DH",
+        "PH": "1.065.00 DH",
+        "PFHT": "1.014.58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3101",
+      "brand_name": "ZOMIG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "PP",
+        "Substance active": "ZOLMITRIPTAN",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "302,00 DH",
+        "PH": "200,00 DH",
+        "PFHT": "191,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6881",
+      "brand_name": "ZONOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.356.00 DH",
+        "PH": "1.088.00 DH",
+        "PFHT": "1.036.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2007",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 AMPOULE DE 4 ML",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "205,00 DH",
+        "PH": "128,10 DH",
+        "PFHT": "114,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2008",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 AMPOULES DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "119,50 DH",
+        "PH": "74,50 DH",
+        "PFHT": "66,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2009",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "461,00 DH",
+        "PH": "305,00 DH",
+        "PFHT": "272,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2010",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 AMPOULES DE 4 ML",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "793,00 DH",
+        "PH": "525,00 DH",
+        "PFHT": "469,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2011",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GSK",
+        "PPV": "418,00 DH",
+        "PH": "277,00 DH",
+        "PFHT": "264,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2012",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GSK",
+        "PPV": "569,00 DH",
+        "PH": "378,00 DH",
+        "PFHT": "360,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8994",
+      "brand_name": "ZOPHREN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ONDANSETRON (CHLOHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6562",
+      "brand_name": "ZOPIDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "23,50 DH",
+        "PH": "14,70 DH",
+        "PFHT": "14,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6563",
+      "brand_name": "ZOPIDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7787",
+      "brand_name": "ZORIFORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DEFERASIROX",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "PROMOPHARM",
+        "PPV": "2.606.00 DH",
+        "PH": "2.271.00 DH",
+        "PFHT": "2.162.86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES DISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "8070",
+      "brand_name": "ZORIFORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DEFERASIROX",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.613.00 DH",
+        "PH": "1.351.00 DH",
+        "PFHT": "1.287.29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES DISPERSIBLES"
+      }
+    }
+  ]
+}

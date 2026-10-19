@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 425,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=425",
+  "fetched_at_utc": "2026-10-18T16:31:38.757880+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3032",
+      "brand_name": "TANAKAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "GINKGO BILOBA",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "63,40 DH",
+        "PH": "39,60 DH",
+        "PFHT": "37,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "3033",
+      "brand_name": "TANAKAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "GINKGO BILOBA",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "66,70 DH",
+        "PH": "41,70 DH",
+        "PFHT": "39,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "9859",
+      "brand_name": "TANFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 120 ML",
+        "PP / GN": "GN",
+        "Substance active": "BENZYDAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "BOTTU S.A",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0015",
+        "Forme": "SOLUTION POUR GARGARISME"
+      }
+    },
+    {
+      "source_record_id": "9860",
+      "brand_name": "TANFLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "BENZYDAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "BOTTU S.A",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0015",
+        "Forme": "SOLUTION POUR PULVERISATION BUCCALE"
+      }
+    },
+    {
+      "source_record_id": "9858",
+      "brand_name": "TANFLEX FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "BENZYDAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "BOTTU S.A",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003",
+        "Forme": "SOLUTION POUR PULVERISATION BUCCALE"
+      }
+    },
+    {
+      "source_record_id": "3034",
+      "brand_name": "TANGANIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "ACETYLLEUCINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "31,40 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3035",
+      "brand_name": "TANGANIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACETYLLEUCINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "46,80 DH",
+        "PH": "29,30 DH",
+        "PFHT": "27,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "214",
+      "brand_name": "TANZAAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "138,10 DH",
+        "PH": "86,30 DH",
+        "PFHT": "82,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "215",
+      "brand_name": "TANZAAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "216",
+      "brand_name": "TANZAAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "77,20 DH",
+        "PH": "48,20 DH",
+        "PFHT": "45,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5593",
+      "brand_name": "TARAXET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "HYDROXYZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "23,10 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8062",
+      "brand_name": "TARAXET  SIROP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "HYDROXYZINE DICHLORHYDRATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "16,10 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SIROP EN FLACON DE 200 ML"
+      }
+    },
+    {
+      "source_record_id": "5109",
+      "brand_name": "TARCEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ERLOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "14.878.00 DH",
+        "PH": "14.595.00 DH",
+        "PFHT": "14.195.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5110",
+      "brand_name": "TARCEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ERLOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "9.451.00 DH",
+        "PH": "9.274.00 DH",
+        "PFHT": "8.874.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1088",
+      "brand_name": "TARDYFERON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FER (SULFATE FERREUX SESQUIHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "37,80 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1089",
+      "brand_name": "TARDYFERON B9",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FER (SULFATE FERREUX SESQUIHYDRATE) // VITAMINE B9 (ACIDE FOLIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "48,20 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  0,35   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9734",
+      "brand_name": "TARDYFERON ENFANTS ET ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (SULFATE FERREUX HEPTAHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG / ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3413",
+      "brand_name": "TAREG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "153,00 DH",
+        "PH": "95,60 DH",
+        "PFHT": "91,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3414",
+      "brand_name": "TAREG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "120,50 DH",
+        "PH": "75,30 DH",
+        "PFHT": "71,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3415",
+      "brand_name": "TAREG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "98,40 DH",
+        "PH": "61,50 DH",
+        "PFHT": "58,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

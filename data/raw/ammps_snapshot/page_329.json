@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 329,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=329",
+  "fetched_at_utc": "2026-10-18T16:28:26.233237+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6805",
+      "brand_name": "OZIL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "95,30 DH",
+        "PH": "59,60 DH",
+        "PFHT": "56,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "193",
+      "brand_name": "OZURDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "9.959.00 DH",
+        "PH": "9.771.00 DH",
+        "PFHT": "9.371.98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "700 µG",
+        "Forme": "IMPLANT INTRAVITRE EN AVEC APPLICATEUR"
+      }
+    },
+    {
+      "source_record_id": "7489",
+      "brand_name": "PABAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 FLACONS DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBETOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "1.248.00 DH",
+        "PH": "976,00 DH",
+        "PFHT": "930,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µgG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9117",
+      "brand_name": "PACLI SPAL-L  300",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "2.068.00 DH",
+        "PH": "1.821.00 DH",
+        "PFHT": "1.734.31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  50  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION, FLACON DE 50 ML"
+      }
+    },
+    {
+      "source_record_id": "9116",
+      "brand_name": "PACLI SPAL-L 100",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "1.081.00 DH",
+        "PH": "803,00 DH",
+        "PFHT": "765,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  16,7  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION, FLACON DE 20 ML"
+      }
+    },
+    {
+      "source_record_id": "9118",
+      "brand_name": "PACLI SPAL-L 30",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "429,00 DH",
+        "PH": "285,00 DH",
+        "PFHT": "272,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION, FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "1032",
+      "brand_name": "PACLITAXEL COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "1.115.00 DH",
+        "PH": "839,00 DH",
+        "PFHT": "799,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  16,7  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1033",
+      "brand_name": "PACLITAXEL COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "452,00 DH",
+        "PH": "300,00 DH",
+        "PFHT": "286,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  5  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9402",
+      "brand_name": "PACLITAXEL ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "490,00 DH",
+        "PH": "325,00 DH",
+        "PFHT": "310,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30  MG / 5 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9403",
+      "brand_name": "PACLITAXEL ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "1.115.00 DH",
+        "PH": "839,00 DH",
+        "PFHT": "799,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  MG / 16,7 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5040",
+      "brand_name": "PACLITAXEL KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 16,7 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "1.081.00 DH",
+        "PH": "803,00 DH",
+        "PFHT": "765,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5041",
+      "brand_name": "PACLITAXEL KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "490,00 DH",
+        "PH": "325,00 DH",
+        "PFHT": "310,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5042",
+      "brand_name": "PACLITAXEL KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "2.069.00 DH",
+        "PH": "1.821.00 DH",
+        "PFHT": "1.735.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7843",
+      "brand_name": "PACLITAXEL MC PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "436,00 DH",
+        "PH": "289,00 DH",
+        "PFHT": "276,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6  MG /  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7844",
+      "brand_name": "PACLITAXEL MC PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 16,7ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "995,00 DH",
+        "PH": "716,00 DH",
+        "PFHT": "682,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6  MG /  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7845",
+      "brand_name": "PACLITAXEL MC PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "1.591.00 DH",
+        "PH": "1.329.00 DH",
+        "PFHT": "1.266.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6  MG /  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6479",
+      "brand_name": "PACLITAXEL MYLANPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "823,00 DH",
+        "PH": "547,00 DH",
+        "PFHT": "521,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  16,7  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6480",
+      "brand_name": "PACLITAXEL MYLANPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "430,00 DH",
+        "PH": "285,00 DH",
+        "PFHT": "272,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6481",
+      "brand_name": "PACLITAXEL MYLANPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.574.00 DH",
+        "PH": "1.312.00 DH",
+        "PFHT": "1.249.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  50  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2110",
+      "brand_name": "PACLITAXEL PHARMACHEMIE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 MG / 16,7 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "823,00 DH",
+        "PH": "547,00 DH",
+        "PFHT": "521,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

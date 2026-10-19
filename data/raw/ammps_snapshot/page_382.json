@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 382,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=382",
+  "fetched_at_utc": "2026-10-18T16:30:12.496749+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5101",
+      "brand_name": "ROCEPHINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "295,00 DH",
+        "PH": "195,80 DH",
+        "PFHT": "174,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5102",
+      "brand_name": "ROCEPHINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "58,80 DH",
+        "PH": "36,60 DH",
+        "PFHT": "32,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE LYOPHILISEE IM"
+      }
+    },
+    {
+      "source_record_id": "5103",
+      "brand_name": "ROCEPHINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "58,80 DH",
+        "PH": "36,60 DH",
+        "PFHT": "32,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE LYOPHILISEE IV"
+      }
+    },
+    {
+      "source_record_id": "5104",
+      "brand_name": "ROCEPHINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "80,80 DH",
+        "PH": "50,30 DH",
+        "PFHT": "44,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE LYOPHILISEE IM"
+      }
+    },
+    {
+      "source_record_id": "5105",
+      "brand_name": "ROCEPHINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "86,40 DH",
+        "PH": "53,80 DH",
+        "PFHT": "48,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE LYOPHILISEE IV"
+      }
+    },
+    {
+      "source_record_id": "3542",
+      "brand_name": "ROCMALINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 AMPOULE DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "ARGININE (CHLORHYDRATE) // ACIDE MALIQUE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "NOVOPHARMA",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "413   MG  /  1,5 G",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9851",
+      "brand_name": "ROCURONIUM ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ROCURONIUM (BROMURE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9852",
+      "brand_name": "ROCURONIUM ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ROCURONIUM (BROMURE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5160",
+      "brand_name": "ROCURONIUM SP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ROCURONIUM (BROMURE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "345,00 DH",
+        "PH": "229,00 DH",
+        "PFHT": "218,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5408",
+      "brand_name": "RODOGYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "SPIRAMYCINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "88,80 DH",
+        "PH": "55,50 DH",
+        "PFHT": "52,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75 MUI  /  125   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5106",
+      "brand_name": "ROFERON-A",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "SERINGUE EN VERRE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "INTERFERON ALFA-2A",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "269,00 DH",
+        "PH": "179,40 DH",
+        "PFHT": "170,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5107",
+      "brand_name": "ROFERON-A",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "SERINGUE EN VERRE PRE-REMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "INTERFERON ALFA-2A",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "764,00 DH",
+        "PH": "508,00 DH",
+        "PFHT": "484,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "9 MUI",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2228",
+      "brand_name": "ROMAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2229",
+      "brand_name": "ROMAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "78,20 DH",
+        "PH": "48,90 DH",
+        "PFHT": "46,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "319",
+      "brand_name": "ROMAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "55,00 DH",
+        "PH": "34,40 DH",
+        "PFHT": "32,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "320",
+      "brand_name": "ROMAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "96,80 DH",
+        "PH": "60,50 DH",
+        "PFHT": "57,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "321",
+      "brand_name": "ROMAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "60,10 DH",
+        "PH": "37,60 DH",
+        "PFHT": "35,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "322",
+      "brand_name": "ROMAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "107,50 DH",
+        "PH": "67,20 DH",
+        "PFHT": "63,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8776",
+      "brand_name": "ROMAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6260",
+      "brand_name": "ROMILAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "MONTELUKAST SODIQUE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "78,40 DH",
+        "PH": "49,00 DH",
+        "PFHT": "46,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

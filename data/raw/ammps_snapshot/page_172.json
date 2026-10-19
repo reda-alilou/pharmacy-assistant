@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 172,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=172",
+  "fetched_at_utc": "2026-10-18T16:23:11.427102+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5292",
+      "brand_name": "FASTURTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3 FLACON + 3 AMPOULES SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "RASBURICASE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.690.00 DH",
+        "PH": "1.431.00 DH",
+        "PFHT": "1.363.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG  /   ML",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8101",
+      "brand_name": "FAXIVEN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10  GELULES A LIBERATION PROLONGEE",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37.5   MG",
+        "Forme": "GELULES A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8102",
+      "brand_name": "FAXIVEN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 GELULES A LIBERATION PROLONGEE",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "66,20 DH",
+        "PH": "41,40 DH",
+        "PFHT": "39,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37.5   MG",
+        "Forme": "GELULES A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8103",
+      "brand_name": "FAXIVEN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 GELULES A LIBERATION PROLONGEE",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULES A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8104",
+      "brand_name": "FAXIVEN LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 GELULES A LIBERATION PROLONGEE",
+        "PP / GN": "GN",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "66,20 DH",
+        "PH": "41,40 DH",
+        "PFHT": "39,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULES A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4675",
+      "brand_name": "FAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "ISOCONAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4676",
+      "brand_name": "FAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "ISOCONAZOLE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "POLYMEDIC",
+        "PPV": "43,30 DH",
+        "PH": "27,00 DH",
+        "PFHT": "25,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "7124",
+      "brand_name": "FEBRATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "FENOFIBRATE MICRONISE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "44,00 DH",
+        "PH": "27,50 DH",
+        "PFHT": "26,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7125",
+      "brand_name": "FEBRATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FENOFIBRATE MICRONISE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "113,40 DH",
+        "PH": "70,90 DH",
+        "PFHT": "67,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4268",
+      "brand_name": "FEBREX ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // PHENIRAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "19,60 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  0,2 G  /  0,025 G",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "4269",
+      "brand_name": "FEBREX ADULTE SS SUCRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // PHENIRAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  0,2 G  /  0,025 G",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "4270",
+      "brand_name": "FEBREX ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // PHENIRAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "17,70 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,28 G  /  0,1 G  /  0,01 G",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9389",
+      "brand_name": "FEBULIV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "103,50 DH",
+        "PH": "64,70 DH",
+        "PFHT": "61,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9390",
+      "brand_name": "FEBULIV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "175,40 DH",
+        "PH": "109,60 DH",
+        "PFHT": "104,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "1857",
+      "brand_name": "FEFOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FER (SULFATE FERREUX) // VITAMINE B9 (ACIDE FOLIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GSK",
+        "PPV": "22,70 DH",
+        "PH": "14,20 DH",
+        "PFHT": "12,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  0,5   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "102",
+      "brand_name": "FEIBA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "COFFRET(2 FLACONS / 20 ML+ SERINGUE + AIGUILLE + DISPOSITIF DE TRANSFERT + 1 NECESSAIRE)",
+        "PP / GN": "PP",
+        "Substance active": "FACTEURS DE COAGULATION AYANT ACTIVITE COURT-CIRCUITANT L'INHIBITEUR DU FACTEUR VIII",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "6.472.00 DH",
+        "PH": "6.251.00 DH",
+        "PFHT": "5.953.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI  /  20  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION OU PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "103",
+      "brand_name": "FEIBA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "COFFRET(2 FLACONS / 20 ML+ SERINGUE + AIGUILLE + DISPOSITIF DE TRANSFERT + 1 NECESSAIRE)",
+        "PP / GN": "PP",
+        "Substance active": "FACTEURS DE COAGULATION AYANT ACTIVITE COURT-CIRCUITANT L'INHIBITEUR DU FACTEUR VIII",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "3.435.00 DH",
+        "PH": "3.124.00 DH",
+        "PFHT": "2.975.52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI  /  20  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION OU PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "3660",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "33,70 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "3661",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "55,20 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "3662",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "41,40 DH",
+        "PH": "25,90 DH",
+        "PFHT": "24,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 413,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=413",
+  "fetched_at_utc": "2026-10-18T16:31:15.380069+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "469",
+      "brand_name": "STIMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 18 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "CITRULLINE (MALEATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "77,50 DH",
+        "PH": "48,40 DH",
+        "PFHT": "46,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE EFFERVESCENTE POUR SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4562",
+      "brand_name": "STIMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "62,00 DH",
+        "PH": "38,80 DH",
+        "PFHT": "36,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0209",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "438",
+      "brand_name": "STIVARGA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3 FLACON DE 28",
+        "PP / GN": "PP",
+        "Substance active": "REGORAFENIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "26.806.00 DH",
+        "PH": "26.288.00 DH",
+        "PFHT": "25.888.89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3270",
+      "brand_name": "STOCRIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "EFAVIRENZ",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "705,00 DH",
+        "PH": "468,00 DH",
+        "PFHT": "446,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "721",
+      "brand_name": "STODAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "8057",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "143,80 DH",
+        "PH": "89,90 DH",
+        "PFHT": "85,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8058",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "81,70 DH",
+        "PH": "51,10 DH",
+        "PFHT": "48,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8059",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "119,50 DH",
+        "PH": "74,70 DH",
+        "PFHT": "71,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8060",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8061",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "65,90 DH",
+        "PH": "41,20 DH",
+        "PFHT": "39,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8843",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8844",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8845",
+      "brand_name": "STORIXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES  PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "124,00 DH",
+        "PH": "77,50 DH",
+        "PFHT": "73,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "5980",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "940,00 DH",
+        "PH": "659,00 DH",
+        "PFHT": "627,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5981",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "249,00 DH",
+        "PH": "155,70 DH",
+        "PFHT": "148,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5982",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "940,00 DH",
+        "PH": "659,00 DH",
+        "PFHT": "627,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5983",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "249,00 DH",
+        "PH": "155,70 DH",
+        "PFHT": "148,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5984",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "940,00 DH",
+        "PH": "659,00 DH",
+        "PFHT": "627,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5985",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "249,00 DH",
+        "PH": "155,70 DH",
+        "PFHT": "148,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5986",
+      "brand_name": "STRATTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ATOMOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "940,00 DH",
+        "PH": "659,00 DH",
+        "PFHT": "627,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

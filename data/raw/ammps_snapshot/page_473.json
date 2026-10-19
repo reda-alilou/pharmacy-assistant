@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 473,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=473",
+  "fetched_at_utc": "2026-10-18T16:33:14.817725+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2675",
+      "brand_name": "VITA C 1000",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "25,10 DH",
+        "PH": "15,70 DH",
+        "PFHT": "14,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "6157",
+      "brand_name": "VITAIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "42,20 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "9804",
+      "brand_name": "VITAMINE C",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES EFFERVESCENTS"
+      }
+    },
+    {
+      "source_record_id": "9853",
+      "brand_name": "VITAMINE C",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES EFFERVESCENTS"
+      }
+    },
+    {
+      "source_record_id": "1563",
+      "brand_name": "VITAMINE C 1000",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GALENICA",
+        "PPV": "13,80 DH",
+        "PH": "8,60 DH",
+        "PFHT": "8,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "1564",
+      "brand_name": "VITAMINE C 1000",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GALENICA",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8970",
+      "brand_name": "VITAMINE C 1000 MG BOTTU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BOTTU",
+        "PPV": "14,30 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIMES EFFERVESCENTS"
+      }
+    },
+    {
+      "source_record_id": "6861",
+      "brand_name": "VITAMINE D3 B.O.N.",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "AMPOULE DE 1 ML BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "19,50 DH",
+        "PH": "12,20 DH",
+        "PFHT": "11,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 000 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE (IM)"
+      }
+    },
+    {
+      "source_record_id": "6555",
+      "brand_name": "VITANEVRIL FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "BENFOTIAMINE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "26,90 DH",
+        "PH": "16,80 DH",
+        "PFHT": "16,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    },
+    {
+      "source_record_id": "2676",
+      "brand_name": "VITATLON 500",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE) // VITAMINE C (ASCORBATE DE SODIUM)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "17,50 DH",
+        "PH": "10,90 DH",
+        "PFHT": "10,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  281,30   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "2677",
+      "brand_name": "VITATLON PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE) // VITAMINE B3 (NICOTINAMIDE) // ASPARTATE DE MAGNESIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  10   MG  /  50   MG  /  200   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2678",
+      "brand_name": "VITATLON PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE) // VITAMINE B3 (NICOTINAMIDE) // ASPARTATE DE MAGNESIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  10   MG  /  50   MG  /  200   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "5016",
+      "brand_name": "VIVACE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DELAPRIL // MANIDIPINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "218,00 DH",
+        "PH": "136,20 DH",
+        "PFHT": "129,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6556",
+      "brand_name": "VIVAMYNE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "ASSOCIATION VITAMINIQUE // SELS MINERAUX",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1158",
+      "brand_name": "VIZARTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "33,00 DH",
+        "PH": "20,60 DH",
+        "PFHT": "19,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1159",
+      "brand_name": "VIZARTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "58,00 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7027",
+      "brand_name": "VIZARTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "102,00 DH",
+        "PH": "63,70 DH",
+        "PFHT": "60,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7282",
+      "brand_name": "VIZARTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "77,30 DH",
+        "PH": "48,30 DH",
+        "PFHT": "46,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1162",
+      "brand_name": "VOGALENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "METOPIMAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "26,20 DH",
+        "PH": "16,40 DH",
+        "PFHT": "15,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1163",
+      "brand_name": "VOGALENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "METOPIMAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "16,40 DH",
+        "PH": "10,30 DH",
+        "PFHT": "9,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.004",
+        "Forme": "GOUTTE"
+      }
+    }
+  ]
+}

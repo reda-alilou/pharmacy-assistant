@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 173,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=173",
+  "fetched_at_utc": "2026-10-18T16:23:13.451649+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3663",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "39,00 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3664",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3665",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "55,80 DH",
+        "PH": "34,90 DH",
+        "PFHT": "33,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3666",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 AMPOULES DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "21,80 DH",
+        "PH": "13,60 DH",
+        "PFHT": "12,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTE INJECTABLE IM"
+      }
+    },
+    {
+      "source_record_id": "3667",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "55,30 DH",
+        "PH": "34,60 DH",
+        "PFHT": "32,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTE INJECTABLE IM"
+      }
+    },
+    {
+      "source_record_id": "3668",
+      "brand_name": "FELDENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "53,20 DH",
+        "PH": "33,30 DH",
+        "PFHT": "31,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3669",
+      "brand_name": "FELDENE FAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "23,90 DH",
+        "PH": "14,90 DH",
+        "PFHT": "14,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3670",
+      "brand_name": "FELDENE FAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "42,30 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ORODISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3360",
+      "brand_name": "FEMARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LETROZOLE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "743,00 DH",
+        "PH": "494,00 DH",
+        "PFHT": "470,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6670",
+      "brand_name": "FEMISOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "LETROZOLE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "630,00 DH",
+        "PH": "418,00 DH",
+        "PFHT": "398,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6203",
+      "brand_name": "FEMOLET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LETROZOLE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "713,00 DH",
+        "PH": "474,00 DH",
+        "PFHT": "451,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4904",
+      "brand_name": "FENAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "37,60 DH",
+        "PH": "23,50 DH",
+        "PFHT": "22,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "GEL DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4905",
+      "brand_name": "FENAC PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "28,10 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "4906",
+      "brand_name": "FENAC PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "26,00 DH",
+        "PH": "16,20 DH",
+        "PFHT": "14,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4907",
+      "brand_name": "FENAC PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "41,30 DH",
+        "PH": "25,80 DH",
+        "PFHT": "24,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5748",
+      "brand_name": "FENOGAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FENOFIBRATE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "99,50 DH",
+        "PH": "62,20 DH",
+        "PFHT": "59,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5749",
+      "brand_name": "FENOSUP LIDOSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FENOFIBRATE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "113,40 DH",
+        "PH": "70,90 DH",
+        "PFHT": "67,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2824",
+      "brand_name": "FENTANYL JANSSEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2825",
+      "brand_name": "FENTANYL JANSSEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "270,00 DH",
+        "PH": "180,10 DH",
+        "PFHT": "171,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6407",
+      "brand_name": "FENTANYL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "6,70 DH",
+        "PH": "4,20 DH",
+        "PFHT": "4,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

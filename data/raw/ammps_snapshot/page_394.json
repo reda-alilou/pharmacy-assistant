@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 394,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=394",
+  "fetched_at_utc": "2026-10-18T16:30:36.704910+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4168",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "87,60 DH",
+        "PH": "54,70 DH",
+        "PFHT": "52,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7221",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 40 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "46,20 DH",
+        "PH": "28,80 DH",
+        "PFHT": "27,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7222",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 2 FLACONS DE 40 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "80,30 DH",
+        "PH": "50,20 DH",
+        "PFHT": "47,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7223",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "66,90 DH",
+        "PH": "41,80 DH",
+        "PFHT": "39,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7224",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 2 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "116,40 DH",
+        "PH": "72,70 DH",
+        "PFHT": "69,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8806",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8807",
+      "brand_name": "SEPRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 48",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6125",
+      "brand_name": "SEPTANEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "ARTICAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "466,00 DH",
+        "PH": "309,00 DH",
+        "PFHT": "295,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML 1  /  100000",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "6126",
+      "brand_name": "SEPTANEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "ARTICAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "466,00 DH",
+        "PH": "309,00 DH",
+        "PFHT": "295,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML 1  /  200000",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "4169",
+      "brand_name": "SEPTAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,60 DH",
+        "PH": "7,80 DH",
+        "PFHT": "7,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4170",
+      "brand_name": "SEPTAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NIFUROXAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "35,30 DH",
+        "PH": "22,10 DH",
+        "PFHT": "21,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1050",
+      "brand_name": "SEPTEAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "28,50 DH",
+        "PH": "17,80 DH",
+        "PFHT": "16,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "1051",
+      "brand_name": "SEPTEAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "11,40 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "210",
+      "brand_name": "SEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON 10 G",
+        "PP / GN": "GN",
+        "Substance active": "POLYVIDONE (IODEE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE POUR USAGE EXTERNE"
+      }
+    },
+    {
+      "source_record_id": "3012",
+      "brand_name": "SEPTIVON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "TRICLOCARBAN",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "26,80 DH",
+        "PH": "16,80 DH",
+        "PFHT": "15,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "3013",
+      "brand_name": "SEPTIVON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "TRICLOCARBAN",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "47,20 DH",
+        "PH": "29,50 DH",
+        "PFHT": "28,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "3014",
+      "brand_name": "SERC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "BETAHISTINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "64,70 DH",
+        "PH": "40,40 DH",
+        "PFHT": "38,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2234",
+      "brand_name": "SERDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "IBERMA",
+        "PPV": "83,80 DH",
+        "PH": "52,40 DH",
+        "PFHT": "49,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2235",
+      "brand_name": "SERDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "IBERMA",
+        "PPV": "152,50 DH",
+        "PH": "95,30 DH",
+        "PFHT": "90,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1943",
+      "brand_name": "SERETIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GSK",
+        "PPV": "175,00 DH",
+        "PH": "109,40 DH",
+        "PFHT": "104,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG  /  25 µG PAR DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 228,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=228",
+  "fetched_at_utc": "2026-10-18T16:25:03.696849+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5789",
+      "brand_name": "IONAX T",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "PP",
+        "Substance active": "COAL TAR // ACIDE SALICYLIQUE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "86,00 DH",
+        "PH": "53,70 DH",
+        "PFHT": "51,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,25%  /  2%",
+        "Forme": "SHAMPOOING"
+      }
+    },
+    {
+      "source_record_id": "9572",
+      "brand_name": "IOPAMIDOL 300 -GS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "135,60 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 MGI / ML ( 15 G / 50 ML )",
+        "Forme": "SOLUTION AQUEUSE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9573",
+      "brand_name": "IOPAMIDOL 300 -GS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "219,00 DH",
+        "PH": "137,50 DH",
+        "PFHT": "130,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 MGI / ML ( 30 G / 100 ML )",
+        "Forme": "SOLUTION AQUEUSE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9574",
+      "brand_name": "IOPAMIDOL 370 -GS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "145,80 DH",
+        "PH": "91,10 DH",
+        "PFHT": "86,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370 MGI / ML ( 18,5 G / 50 ML )",
+        "Forme": "SOLUTION AQUEUSE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9575",
+      "brand_name": "IOPAMIDOL 370 -GS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "256,00 DH",
+        "PH": "160,20 DH",
+        "PFHT": "152,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370 MGI / ML ( 37 G / 100 ML )",
+        "Forme": "SOLUTION AQUEUSE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8525",
+      "brand_name": "IOPAMIRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150",
+        "Forme": "SOLUTION AQUEUSE POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "8526",
+      "brand_name": "IOPAMIRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 AMPOULE DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200",
+        "Forme": "SOLUTION AQUEUSE POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "8527",
+      "brand_name": "IOPAMIRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 AMPOULES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300",
+        "Forme": "SOLUTION AQUEUSE POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "8528",
+      "brand_name": "IOPAMIRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370",
+        "Forme": "SOLUTION AQUEUSE POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "5790",
+      "brand_name": "IOPIDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "APRACLONIDINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "143,30 DH",
+        "PH": "89,50 DH",
+        "PFHT": "85,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "4934",
+      "brand_name": "IPERTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "MANIDIPINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "152,00 DH",
+        "PH": "95,00 DH",
+        "PFHT": "90,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5791",
+      "brand_name": "IPNODIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "121,50 DH",
+        "PH": "75,90 DH",
+        "PFHT": "72,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "141",
+      "brand_name": "IPOSEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "55,10 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "142",
+      "brand_name": "IPOSEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "111,20 DH",
+        "PH": "69,50 DH",
+        "PFHT": "66,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1448",
+      "brand_name": "IPP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "129,00 DH",
+        "PH": "80,60 DH",
+        "PFHT": "76,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1449",
+      "brand_name": "IPP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7471",
+      "brand_name": "IPRADIA LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "12,90 DH",
+        "PH": "8,00 DH",
+        "PFHT": "7,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7472",
+      "brand_name": "IPRADIA LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "25,10 DH",
+        "PH": "15,70 DH",
+        "PFHT": "14,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "2094",
+      "brand_name": "IPRATROPIUM AGUETTANT ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 RECIPIENT UNIDOSE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "IPRATROPIUM (BROMURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "57,60 DH",
+        "PH": "36,00 DH",
+        "PFHT": "34,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /  2  ML",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "2095",
+      "brand_name": "IPRATROPIUM AGUETTANT ENFANTS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 RECIPIENT UNIDOSE DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "IPRATROPIUM (BROMURE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "40,30 DH",
+        "PH": "25,20 DH",
+        "PFHT": "24,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG  /   ML",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    }
+  ]
+}

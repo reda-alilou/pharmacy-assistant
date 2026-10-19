@@ -1,0 +1,24 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_real_api_returns_exact_string_amounts_and_rejects_injected_prices (test_pricing.PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices) ... ok
+test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls (test_pricing.PricingApiAndUiTests.test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls) ... 2026-10-19 11:38:29.381 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ambiguous_abip_selection_calculates_without_another_model_call (test_pricing.PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call) ... ok
+test_multilingual_answers_have_identical_math_and_keep_stock_unknown (test_pricing.PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown) ... ok
+test_quantity_followups_replace_previous_quantity_and_keep_presentation (test_pricing.PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation) ... ok
+test_source_conflicts_keep_official_price_in_arithmetic (test_pricing.PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic) ... ok
+test_unclear_quantity_asks_for_packages_then_a_clear_followup_works (test_pricing.PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works) ... ok
+test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown (test_pricing.PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown) ... ok
+test_missing_price_never_becomes_zero_but_stored_zero_is_preserved (test_pricing.PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved) ... ok
+test_money_uses_decimal_cents_and_changed_source_price (test_pricing.PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price) ... ok
+test_multimedication_order_has_no_partial_or_implicit_quantity_total (test_pricing.PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total) ... ok
+test_real_prices_and_presentation_identity_determine_the_total (test_pricing.PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total) ... ok
+test_specific_containers_must_be_the_selected_retail_presentation (test_pricing.PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation) ... ok
+test_spelling_and_presentation_ambiguity_prevent_totals (test_pricing.PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals) ... ok
+test_reviewed_number_words_digits_and_duals_in_four_language_groups (test_pricing.QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups) ... ok
+test_unclear_fractional_negative_range_or_physical_units_never_become_packages (test_pricing.QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 9.707s
+
+OK

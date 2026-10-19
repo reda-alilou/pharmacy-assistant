@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 407,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=407",
+  "fetched_at_utc": "2026-10-18T16:31:02.687292+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1072",
+      "brand_name": "SPECTRUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1073",
+      "brand_name": "SPECTRUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "131,60 DH",
+        "PH": "82,20 DH",
+        "PFHT": "78,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1074",
+      "brand_name": "SPECTRUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "140,20 DH",
+        "PH": "87,60 DH",
+        "PFHT": "83,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7268",
+      "brand_name": "SPECTRUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE POCHE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "133,60 DH",
+        "PH": "83,50 DH",
+        "PFHT": "79,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION EN POCHE"
+      }
+    },
+    {
+      "source_record_id": "7435",
+      "brand_name": "SPECTRUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 POCHES DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "2.591.00 DH",
+        "PH": "2.255.00 DH",
+        "PFHT": "2.148.04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200  ML  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION EN POCHE"
+      }
+    },
+    {
+      "source_record_id": "6128",
+      "brand_name": "SPIBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6129",
+      "brand_name": "SPIBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7173",
+      "brand_name": "SPIOLTO RESPIMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIOTROPIUM // OLODATEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "683,00 DH",
+        "PH": "454,00 DH",
+        "PFHT": "432,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5 µG  / 2,5 µG  /  DOSE",
+        "Forme": "SOLUTION A INHALER"
+      }
+    },
+    {
+      "source_record_id": "714",
+      "brand_name": "SPIRALIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "64,90 DH",
+        "PH": "40,60 DH",
+        "PFHT": "38,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "715",
+      "brand_name": "SPIRALIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "103,90 DH",
+        "PH": "64,90 DH",
+        "PFHT": "61,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "716",
+      "brand_name": "SPIRALIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "45,20 DH",
+        "PH": "28,30 DH",
+        "PFHT": "26,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2654",
+      "brand_name": "SPIRAMYCINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "32,00 DH",
+        "PH": "20,00 DH",
+        "PFHT": "19,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2655",
+      "brand_name": "SPIRAMYCINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "44,30 DH",
+        "PH": "27,70 DH",
+        "PFHT": "26,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2656",
+      "brand_name": "SPIRAMYCINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "64,90 DH",
+        "PH": "40,60 DH",
+        "PFHT": "38,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2657",
+      "brand_name": "SPIRAMYCINE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "80,50 DH",
+        "PH": "50,30 DH",
+        "PFHT": "47,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "717",
+      "brand_name": "SPIRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "71,90 DH",
+        "PH": "45,00 DH",
+        "PFHT": "42,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75 MUI  /  125   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "718",
+      "brand_name": "SPIRIVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "30 GELULE",
+        "PP / GN": "PP",
+        "Substance active": "TIOTROPIUM (BROMURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "488,00 DH",
+        "PH": "324,00 DH",
+        "PFHT": "309,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18 µG",
+        "Forme": "GELULE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "719",
+      "brand_name": "SPIRIVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "30 GELULE",
+        "PP / GN": "PP",
+        "Substance active": "TIOTROPIUM (BROMURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "427,00 DH",
+        "PH": "284,00 DH",
+        "PFHT": "270,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "18 µG",
+        "Forme": "GELULE POUR INHALATION + INHALATEUR"
+      }
+    },
+    {
+      "source_record_id": "490",
+      "brand_name": "SPIRIVA RESPIMAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE CARTOUCHE DE 60 DOSES ET D'UN INHALATEUR RESPIMAT",
+        "PP / GN": "PP",
+        "Substance active": "TIOTROPIUM (BROMURE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "422,00 DH",
+        "PH": "280,00 DH",
+        "PFHT": "267,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5 µG  /  DOSE",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9900",
+      "brand_name": "SPITORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SPIMACO",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

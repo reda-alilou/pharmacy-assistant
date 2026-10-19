@@ -1,0 +1,182 @@
+{
+  "generated_at_utc": "2026-10-18T15:57:53.318807+00:00",
+  "mode": "live",
+  "model": "qwen/qwen3.8-27b",
+  "prompt_version": "step2-v1",
+  "fixture": "data\\evaluation\\interpretation_smoke.json",
+  "status": "stopped_provider_error",
+  "acceptance": "12 completed cases, at least 10 correct intent sets and 10 exact entity cases, no incorrect non-null entities",
+  "results": [
+    {
+      "id": "fr-price",
+      "group": "fr",
+      "text": "Quel est le prix de ABIP 15 mg, boîte de 20 ?",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15 mg",
+                "quantity": null,
+                "form": null,
+                "presentation": "boîte de 20"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 891.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-7c10b360-3573-4041-ac8c-da6b556527aa",
+          "usage": {
+            "prompt_tokens": 708,
+            "completion_tokens": 105,
+            "total_tokens": 813
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "fr-order",
+      "group": "fr",
+      "text": "Je voudrais deux boîtes de AIRCORT et une boîte de ABIP.",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": "deux boîtes",
+                "form": null,
+                "presentation": null
+              },
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": "une boîte",
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 516.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-e78b5b89-b270-40b6-a928-bff2508a580c",
+          "usage": {
+            "prompt_tokens": 706,
+            "completion_tokens": 131,
+            "total_tokens": 837
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "fr-contact",
+      "group": "fr",
+      "text": "Quel est le numéro de téléphone de la pharmacie Centrale à Rabat ?",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "pharmacy_contact"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": "pharmacie Centrale",
+            "city": "Rabat",
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 407.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-4eec835c-f51a-4d6b-845f-1e664186c4d8",
+          "usage": {
+            "prompt_tokens": 705,
+            "completion_tokens": 77,
+            "total_tokens": 782
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "ar-availability",
+      "group": "ar",
+      "text": "هل ABIP 15mg متوفر؟",
+      "error": {
+        "code": "provider_request_rejected",
+        "message": "Groq rejected the configured model or request schema.",
+        "retryable": false,
+        "retry_after_seconds": null
+      }
+    }
+  ],
+  "summary": {
+    "total_cases": 12,
+    "completed_cases": 3,
+    "intents_correct": 3,
+    "entities_exact_cases": 3,
+    "incorrect_nonnull_entities": 0,
+    "passed": false
+  }
+}

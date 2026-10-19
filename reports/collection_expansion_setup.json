@@ -1,0 +1,60 @@
+{
+  "snapshot_at_utc": "2026-10-19T18:23:15.052717+00:00",
+  "status": "background_collection_running",
+  "all_medication_collection_finished": false,
+  "staging_only": true,
+  "inference_requests": 0,
+  "demo_services_started": false,
+  "active_datasets_unchanged_since_runner_start": true,
+  "sources": {
+    "medicament": {
+      "record_count": 340,
+      "units_completed": 340,
+      "discovered_units": 5036,
+      "collection_complete": false,
+      "stop_reason": "running",
+      "errors": []
+    },
+    "saydalia": {
+      "record_count": 3120,
+      "units_completed": 100,
+      "discovered_units": 442,
+      "collection_complete": false,
+      "stop_reason": "running",
+      "errors": []
+    }
+  },
+  "pharmacies": {
+    "record_count": 327,
+    "collection_complete": true,
+    "search_points_completed": 149,
+    "search_points_planned": 149,
+    "complete_city_directory": false,
+    "possibly_truncated_points": 149,
+    "unresolved_dense_points": 0,
+    "record_conflicts": [],
+    "quality": {
+      "records": 327,
+      "unique_ids": 327,
+      "missing_phone": 0,
+      "invalid_phone_format": 0,
+      "missing_address": 11,
+      "possible_duplicate_id_groups": [],
+      "verified_duty_records": 0,
+      "verified_opening_hours": 0,
+      "stock_available": false
+    }
+  },
+  "offline_tests": {
+    "passed": true,
+    "tests": 215,
+    "seconds": 142.02,
+    "log": "reports/collection_expansion_offline_tests_final.log"
+  },
+  "duplicate_runner_rejected": true,
+  "runtime_status": "reports/collection_expansion_run.json",
+  "automatic_final_report": "reports/collection_expansion_checkpoint.json",
+  "publication": "Deferred until user validates collection checkpoint",
+  "historical_snapshot": true,
+  "superseded_by": "reports/demo_enrichment_candidate.json"
+}

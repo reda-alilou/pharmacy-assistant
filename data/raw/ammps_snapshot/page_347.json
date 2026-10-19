@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 347,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=347",
+  "fetched_at_utc": "2026-10-18T16:29:02.348350+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "653",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "733,00 DH",
+        "PH": "487,00 DH",
+        "PFHT": "464,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "110   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "654",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "803,00 DH",
+        "PH": "534,00 DH",
+        "PFHT": "508,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "655",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "197,80 DH",
+        "PH": "123,60 DH",
+        "PFHT": "117,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "656",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "530,00 DH",
+        "PH": "352,00 DH",
+        "PFHT": "335,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "657",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BOTTU",
+        "PPV": "1.006.00 DH",
+        "PH": "727,00 DH",
+        "PFHT": "692,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8712",
+      "brand_name": "PRAMER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 SERINGUES PREREMPLIES",
+        "PP / GN": "GN",
+        "Substance active": "GLATIRAMERE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "9271",
+      "brand_name": "PRAMER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITES DE 3 SERINGUES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "GLATIRAMERE (ACETATE)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "1.042.00 DH",
+        "PH": "763,00 DH",
+        "PFHT": "727,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE - REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "9272",
+      "brand_name": "PRAMER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITES DE 12 SERINGUES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "GLATIRAMERE (ACETATE)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "2.873.00 DH",
+        "PH": "2.546.00 DH",
+        "PFHT": "2.425.23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE - REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "1509",
+      "brand_name": "PRAMIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "11,10 DH",
+        "PH": "6,90 DH",
+        "PFHT": "6,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0026",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1510",
+      "brand_name": "PRAMIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "15,60 DH",
+        "PH": "9,70 DH",
+        "PFHT": "9,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1511",
+      "brand_name": "PRAMIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "13,40 DH",
+        "PH": "8,40 DH",
+        "PFHT": "7,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1512",
+      "brand_name": "PRAMIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2630",
+      "brand_name": "PRASTENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "147,40 DH",
+        "PH": "92,10 DH",
+        "PFHT": "87,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2631",
+      "brand_name": "PRASTENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "378,00 DH",
+        "PH": "251,00 DH",
+        "PFHT": "239,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2632",
+      "brand_name": "PRASTENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "273,00 DH",
+        "PH": "181,80 DH",
+        "PFHT": "173,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2633",
+      "brand_name": "PRASTENOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "705,00 DH",
+        "PH": "468,00 DH",
+        "PFHT": "446,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1279",
+      "brand_name": "PRAVAFENIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PRAVASTATINE // FENOFIBRATE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "206,00 DH",
+        "PH": "129,20 DH",
+        "PFHT": "123,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  160   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "316",
+      "brand_name": "PRAVASTATINE GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "PILLULIER DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ATLAS PHARM",
+        "PPV": "67,10 DH",
+        "PH": "41,90 DH",
+        "PFHT": "39,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "317",
+      "brand_name": "PRAVASTATINE GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "PILLULIER DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ATLAS PHARM",
+        "PPV": "121,00 DH",
+        "PH": "75,60 DH",
+        "PFHT": "72,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6813",
+      "brand_name": "PRAVASTATINE GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "PILLULIER DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

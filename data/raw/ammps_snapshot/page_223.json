@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 223,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=223",
+  "fetched_at_utc": "2026-10-18T16:24:53.668796+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3680",
+      "brand_name": "INDUCTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "TRIMEBUTINE (MALEATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3681",
+      "brand_name": "INDUCTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "TRIMEBUTINE (MALEATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "74,30 DH",
+        "PH": "46,40 DH",
+        "PFHT": "44,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3227",
+      "brand_name": "INEGY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SIMVASTATINE // EZETIMIBE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MSD",
+        "PPV": "253,00 DH",
+        "PH": "158,60 DH",
+        "PFHT": "151,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3228",
+      "brand_name": "INEGY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SIMVASTATINE // EZETIMIBE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MSD",
+        "PPV": "314,00 DH",
+        "PH": "208,00 DH",
+        "PFHT": "198,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3229",
+      "brand_name": "INEGY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SIMVASTATINE // EZETIMIBE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MSD",
+        "PPV": "427,00 DH",
+        "PH": "284,00 DH",
+        "PFHT": "270,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "140",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "129,90 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "1234",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "92,60 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "1235",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "1236",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "2864",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "2865",
+      "brand_name": "INESO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "36,40 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "6429",
+      "brand_name": "INEXIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "218,00 DH",
+        "PH": "136,80 DH",
+        "PFHT": "130,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "SUSPENSION BUVABLE EN SACHETS"
+      }
+    },
+    {
+      "source_record_id": "6430",
+      "brand_name": "INEXIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "617,00 DH",
+        "PH": "410,00 DH",
+        "PFHT": "390,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6431",
+      "brand_name": "INEXIUM GR 4",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "115,50 DH",
+        "PH": "72,20 DH",
+        "PFHT": "68,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6432",
+      "brand_name": "INEXIUM GR 4",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "76,70 DH",
+        "PH": "48,00 DH",
+        "PFHT": "45,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1875",
+      "brand_name": "INFANRIX HEXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE EN SUSPENSION + FLACON DE POUDRE LYOPHILISE HIB",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE // POLYOMYELITE // HEPATITE B // HEAMOPHILUS INFLUENZAE TYPE B )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "325,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "206,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SUSPENSION POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1876",
+      "brand_name": "INFANRIX IPV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN CONTRE D, T, COQUELUCHE (PERTUSSIS) ET POLIOMYELITE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "165,40 DH",
+        "PH": "103,40 DH",
+        "PFHT": "98,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN"
+      }
+    },
+    {
+      "source_record_id": "1877",
+      "brand_name": "INFANRIX IPV+HIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "SERINGUE PREREMPLIE + FLACON DE VACCIN LYOPHILISE HIB, BOITE DE 1",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN CONTRE D, T, COQUELUCHE (PERTUSSIS), POLIOMYELITE ET HI B",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "280,00 DH",
+        "PH": "186,10 DH",
+        "PFHT": "177,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN"
+      }
+    },
+    {
+      "source_record_id": "1690",
+      "brand_name": "INFERON ALPHA-2A",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "INTERFERON ALFA-2A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "269,00 DH",
+        "PH": "168,10 DH",
+        "PFHT": "160,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1691",
+      "brand_name": "INFERON ALPHA-2A",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "INTERFERON ALFA-2A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "GENPHARMA",
+        "PPV": "395,00 DH",
+        "PH": "262,00 DH",
+        "PFHT": "250,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,5 MUI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    }
+  ]
+}

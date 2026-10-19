@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 439,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=439",
+  "fetched_at_utc": "2026-10-18T16:32:07.068150+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5006",
+      "brand_name": "TOTIFEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "KETOTIFENE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "53,30 DH",
+        "PH": "33,30 DH",
+        "PFHT": "31,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,02 G (1   MG  /  5  ML)",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "7215",
+      "brand_name": "TOUCOF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUTAMIRATE (CITRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "32,20 DH",
+        "PH": "20,20 DH",
+        "PFHT": "19,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  100  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "7399",
+      "brand_name": "TOUJEO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "579,00 DH",
+        "PH": "385,00 DH",
+        "PFHT": "366,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 UI",
+        "Forme": "SOLUTION INJECTABLE SOLOSTAR EN STYLO"
+      }
+    },
+    {
+      "source_record_id": "6857",
+      "brand_name": "TRACET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "15,70 DH",
+        "PH": "9,80 DH",
+        "PFHT": "9,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  325   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6858",
+      "brand_name": "TRACET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  325   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1960",
+      "brand_name": "TRACRIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "ATRACURIUM (DIBESYLATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "263,00 DH",
+        "PH": "175,40 DH",
+        "PFHT": "167,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  2,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1961",
+      "brand_name": "TRACRIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "ATRACURIUM (DIBESYLATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "330,00 DH",
+        "PH": "219,00 DH",
+        "PFHT": "209,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7695",
+      "brand_name": "TRACTOCILE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "ATOSIBAN",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "348,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,75   MG  /  0,9  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7696",
+      "brand_name": "TRACTOCILE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "ATOSIBAN",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "996,00 DH",
+        "PH": "717,00 DH",
+        "PFHT": "683,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "726",
+      "brand_name": "TRAJENTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LINAGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "374,00 DH",
+        "PH": "248,00 DH",
+        "PFHT": "236,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8064",
+      "brand_name": "TRALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "24,90 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8065",
+      "brand_name": "TRALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "44,20 DH",
+        "PH": "27,60 DH",
+        "PFHT": "26,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8897",
+      "brand_name": "TRALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8898",
+      "brand_name": "TRALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "7985",
+      "brand_name": "TRALGIC FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "17,80 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  325   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "7986",
+      "brand_name": "TRALGIC FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG  /  325   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2242",
+      "brand_name": "TRAMADOL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "IBERMA",
+        "PPV": "26,20 DH",
+        "PH": "16,40 DH",
+        "PFHT": "15,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7238",
+      "brand_name": "TRAMADOL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "IBERMA",
+        "PPV": "513,00 DH",
+        "PH": "341,00 DH",
+        "PFHT": "325,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7239",
+      "brand_name": "TRAMADOL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "IBERMA",
+        "PPV": "33,30 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "727",
+      "brand_name": "TRAMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "BOTTU",
+        "PPV": "38,50 DH",
+        "PH": "24,10 DH",
+        "PFHT": "22,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

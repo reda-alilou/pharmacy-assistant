@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 239,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=239",
+  "fetched_at_utc": "2026-10-18T16:25:25.809183+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7579",
+      "brand_name": "KANJINTI",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "3.317.00 DH",
+        "PH": "3.003.00 DH",
+        "PFHT": "2.860.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7580",
+      "brand_name": "KANJINTI",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "8.917.00 DH",
+        "PH": "8.750.00 DH",
+        "PFHT": "8.350.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "420   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5312",
+      "brand_name": "KARDEGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACETYLSALICYLATE DE LYSINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "35,70 DH",
+        "PH": "22,30 DH",
+        "PFHT": "21,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "5313",
+      "brand_name": "KARDEGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACETYLSALICYLATE DE LYSINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "5314",
+      "brand_name": "KARDEGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACETYLSALICYLATE DE LYSINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "612",
+      "brand_name": "KARHLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BOTTU",
+        "PPV": "81,50 DH",
+        "PH": "50,90 DH",
+        "PFHT": "48,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,02   MG  /  3   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "613",
+      "brand_name": "KARHLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BOTTU",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  30 µG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2880",
+      "brand_name": "KAYEXALATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 454 G",
+        "PP / GN": "PP",
+        "Substance active": "POLYSTYRENE SULFONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "300,00 DH",
+        "PH": "199,80 DH",
+        "PFHT": "190,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "454 G",
+        "Forme": "POUDRE POUR SUSPENSION ORALE ET RECTALE"
+      }
+    },
+    {
+      "source_record_id": "5807",
+      "brand_name": "KEFADIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "68,70 DH",
+        "PH": "42,90 DH",
+        "PFHT": "40,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5808",
+      "brand_name": "KEFLIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CEFALOTINE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "4021",
+      "brand_name": "KEFOTAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "64,50 DH",
+        "PH": "40,30 DH",
+        "PFHT": "38,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "4022",
+      "brand_name": "KEFOTAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "64,50 DH",
+        "PH": "40,30 DH",
+        "PFHT": "38,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE IM"
+      }
+    },
+    {
+      "source_record_id": "5809",
+      "brand_name": "KEFZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "CEFAZOLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5810",
+      "brand_name": "KEFZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "CEFAZOLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "25,70 DH",
+        "PH": "16,10 DH",
+        "PFHT": "15,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "2503",
+      "brand_name": "KENACORT RETARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE / 1 ML + 1 SERINGUE + 2 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "TRIAMCINOLONE ACETONIDE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "30,50 DH",
+        "PH": "19,00 DH",
+        "PFHT": "18,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "614",
+      "brand_name": "KEPAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "342,00 DH",
+        "PH": "227,00 DH",
+        "PFHT": "216,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION CONCENTREE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1878",
+      "brand_name": "KEPPRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "294,00 DH",
+        "PH": "195,50 DH",
+        "PFHT": "186,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1879",
+      "brand_name": "KEPPRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "524,00 DH",
+        "PH": "348,00 DH",
+        "PFHT": "332,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9140",
+      "brand_name": "KEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "39,80 DH",
+        "PH": "24,90 DH",
+        "PFHT": "23,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9141",
+      "brand_name": "KEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "104,80 DH",
+        "PH": "65,50 DH",
+        "PFHT": "62,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

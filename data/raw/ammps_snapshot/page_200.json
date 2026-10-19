@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 200,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=200",
+  "fetched_at_utc": "2026-10-18T16:24:07.547801+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "389",
+      "brand_name": "GLUCOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACARBOSE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BAYER",
+        "PPV": "85,30 DH",
+        "PH": "53,30 DH",
+        "PFHT": "50,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "390",
+      "brand_name": "GLUCOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACARBOSE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BAYER",
+        "PPV": "49,70 DH",
+        "PH": "31,10 DH",
+        "PFHT": "29,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9012",
+      "brand_name": "GLUCOSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 250ML.",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE MONOHYDRATE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 250ML"
+      }
+    },
+    {
+      "source_record_id": "9013",
+      "brand_name": "GLUCOSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 500ML.",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE MONOHYDRATE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ARWA MEDIC",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE APYROGENE ET ISOTONIQUE POUR PERFUSION IV, POCHE DE 500ML"
+      }
+    },
+    {
+      "source_record_id": "1580",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE TWIST OFF EN PVC PLASTIFIE, 250ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1581",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE FLIP OFF EN PVC PLASTIFIE, 250ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1582",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE FLIP OFF EN PVC PLASTIFIE, 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "14,60 DH",
+        "PH": "9,10 DH",
+        "PFHT": "8,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1583",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE TWIST OFF EN PVC PLASTIFIE, 500ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1584",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE FLIP OFF EN PVC PLASTIFIE, 1000ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "26,40 DH",
+        "PH": "16,50 DH",
+        "PFHT": "15,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1585",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE FLIP OFF EN PVC PLASTIFIE, 500ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1586",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE TWIST OFF EN PVC PLASTIFIE, 1000ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1587",
+      "brand_name": "GLUCOSE GENERATION SANTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE SOUPLE TWIST OFF EN PVC PLASTIFIE, 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2457",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 250ML CARTON DE 12",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "147,60 DH",
+        "PH": "92,20 DH",
+        "PFHT": "87,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2458",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 125 ML CARTON DE 12",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "140,50 DH",
+        "PH": "87,80 DH",
+        "PFHT": "83,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2459",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 500 ML CARTON DE 12",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "217,00 DH",
+        "PH": "136,00 DH",
+        "PFHT": "129,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2460",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POCHE DE 1000ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "26,40 DH",
+        "PH": "16,50 DH",
+        "PFHT": "15,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2461",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POCHE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "14,60 DH",
+        "PH": "9,10 DH",
+        "PFHT": "8,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2462",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 250ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2463",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 500ML",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2464",
+      "brand_name": "GLUCOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 500 ML CARTON DE 12",
+        "PP / GN": "GN",
+        "Substance active": "GLUCOSE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "192,90 DH",
+        "PH": "120,50 DH",
+        "PFHT": "114,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

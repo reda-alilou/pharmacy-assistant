@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 339,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=339",
+  "fetched_at_utc": "2026-10-18T16:28:46.357747+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3390",
+      "brand_name": "PEROMENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE PABLE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "365,00 DH",
+        "PH": "242,00 DH",
+        "PFHT": "216,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6810",
+      "brand_name": "PEROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "75,90 DH",
+        "PH": "47,50 DH",
+        "PFHT": "45,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6811",
+      "brand_name": "PEROVASC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "649",
+      "brand_name": "PERSANTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIPYRIDAMOLE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "31,50 DH",
+        "PH": "19,70 DH",
+        "PFHT": "18,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1507",
+      "brand_name": "PERVITAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // VITAMINES",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "23,10 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1508",
+      "brand_name": "PERVITAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // VITAMINES",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "41,00 DH",
+        "PH": "25,60 DH",
+        "PFHT": "24,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8701",
+      "brand_name": "PERVITAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // VITAMINES",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4107",
+      "brand_name": "PEVAGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "29,50 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4108",
+      "brand_name": "PEVAGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMA 5",
+        "PPV": "41,40 DH",
+        "PH": "25,90 DH",
+        "PFHT": "24,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "OVULE GYNECOLOGIQUE"
+      }
+    },
+    {
+      "source_record_id": "2965",
+      "brand_name": "PEVARYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "47,60 DH",
+        "PH": "29,70 DH",
+        "PFHT": "28,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2966",
+      "brand_name": "PEVARYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "54,20 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "EMULSION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "2967",
+      "brand_name": "PEVARYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON PULVERISATEUR DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "61,90 DH",
+        "PH": "38,70 DH",
+        "PFHT": "36,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9464",
+      "brand_name": "PEXITAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PEMETREXED DISODIQUE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "1.579.00 DH",
+        "PH": "1.317.00 DH",
+        "PFHT": "1.254.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9465",
+      "brand_name": "PEXITAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PEMETREXED DISODIQUE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "4.644.00 DH",
+        "PH": "4.369.00 DH",
+        "PFHT": "4.161.76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "421",
+      "brand_name": "PHAEVA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "GESTODENE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "75,40 DH",
+        "PH": "47,00 DH",
+        "PFHT": "41,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3534",
+      "brand_name": "PHARMACRISTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "VINCRISTINE (SULFATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "55,90 DH",
+        "PH": "34,90 DH",
+        "PFHT": "33,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "4340",
+      "brand_name": "PHARMADIPINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "35,90 DH",
+        "PH": "22,40 DH",
+        "PFHT": "21,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "4341",
+      "brand_name": "PHARMADIPINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "59,80 DH",
+        "PH": "37,40 DH",
+        "PFHT": "35,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "4342",
+      "brand_name": "PHARMADIPINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "4343",
+      "brand_name": "PHARMAFLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "43,60 DH",
+        "PH": "27,20 DH",
+        "PFHT": "25,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

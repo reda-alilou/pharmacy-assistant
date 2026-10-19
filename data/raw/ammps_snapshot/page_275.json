@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 275,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=275",
+  "fetched_at_utc": "2026-10-18T16:26:38.046280+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3707",
+      "brand_name": "MEROPENEME HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "63,60 DH",
+        "PH": "39,80 DH",
+        "PFHT": "37,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3708",
+      "brand_name": "MEROPENEME HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "341,00 DH",
+        "PH": "227,00 DH",
+        "PFHT": "216,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7436",
+      "brand_name": "MERSAVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7437",
+      "brand_name": "MERSAVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.162.00 DH",
+        "PH": "887,00 DH",
+        "PFHT": "845,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7438",
+      "brand_name": "MERSAVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "328,00 DH",
+        "PH": "218,00 DH",
+        "PFHT": "208,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7439",
+      "brand_name": "MERSAVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.999.00 DH",
+        "PH": "1.748.00 DH",
+        "PFHT": "1.665.70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6109",
+      "brand_name": "MESTINON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PYRIDOSTIGMINE (BROMURE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "58,80 DH",
+        "PH": "36,70 DH",
+        "PFHT": "34,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "982",
+      "brand_name": "METAGLIZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "17,60 DH",
+        "PH": "11,00 DH",
+        "PFHT": "10,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  100  ML",
+        "Forme": "SOLUTION ORALE"
+      }
+    },
+    {
+      "source_record_id": "8937",
+      "brand_name": "METAIODOBENZYIGUANIDINE-131I (MIBG-131I) FOR THERAPEUTIC USE®",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DANS UN RECIPIENT DE PROTECTION",
+        "PP / GN": "RX",
+        "Substance active": "IOBENGUANE (131-I)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370 -740 MBQ  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "628",
+      "brand_name": "METALYSE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML + SERINGUE DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "TENECTEPLASE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "11.007.00 DH",
+        "PH": "10.799.00 DH",
+        "PFHT": "10.399.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "983",
+      "brand_name": "METANAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML / 140 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "MOMETASONE (FUROATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "102,80 DH",
+        "PH": "64,20 DH",
+        "PFHT": "61,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR PULVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "984",
+      "brand_name": "METEOSPASMYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ALVERINE (CITRATE) // SIMETHICONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "37,70 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60 G  /  300   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "8614",
+      "brand_name": "METFORMINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8615",
+      "brand_name": "METFORMINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELICULLE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8616",
+      "brand_name": "METFORMINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "850   MG",
+        "Forme": "COMPRIME PELICULLE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5166",
+      "brand_name": "METFORMINE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "19,90 DH",
+        "PH": "12,40 DH",
+        "PFHT": "11,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5167",
+      "brand_name": "METFORMINE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "10,40 DH",
+        "PH": "6,50 DH",
+        "PFHT": "6,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5168",
+      "brand_name": "METFORMINE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "17,10 DH",
+        "PH": "10,70 DH",
+        "PFHT": "10,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "850   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5846",
+      "brand_name": "METHADONE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHADONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "31,40 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,33   MG  /   ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "2542",
+      "brand_name": "METHERGIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3 AMPOULESS DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHYLERGOMETRINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "17,80 DH",
+        "PH": "11,20 DH",
+        "PFHT": "10,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,20   MG  /   ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    }
+  ]
+}

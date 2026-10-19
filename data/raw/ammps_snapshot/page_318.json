@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 318,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=318",
+  "fetched_at_utc": "2026-10-18T16:28:04.166870+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7829",
+      "brand_name": "OLIPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE // CINEOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "82,10 DH",
+        "PH": "51,30 DH",
+        "PFHT": "48,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG / 62,5   MG / 100   MG",
+        "Forme": "POUDRE POUR SUPENSION BUVABLE EN SACHET-DOSE"
+      }
+    },
+    {
+      "source_record_id": "7830",
+      "brand_name": "OLIPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE // CINEOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "109,50 DH",
+        "PH": "68,40 DH",
+        "PFHT": "65,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG / 62,5   MG / 100   MG",
+        "Forme": "POUDRE POUR SUPENSION BUVABLE EN SACHET-DOSE"
+      }
+    },
+    {
+      "source_record_id": "7831",
+      "brand_name": "OLIPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE // CINEOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "144,50 DH",
+        "PH": "90,30 DH",
+        "PFHT": "86,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG / 62,5   MG / 100   MG",
+        "Forme": "POUDRE POUR SUPENSION BUVABLE EN SACHET-DOSE"
+      }
+    },
+    {
+      "source_record_id": "1738",
+      "brand_name": "OLIPLAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "1.866.00 DH",
+        "PH": "1.613.00 DH",
+        "PFHT": "1.536.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "POUDRE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1739",
+      "brand_name": "OLIPLAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2272",
+      "brand_name": "OLMADIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "31,20 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2273",
+      "brand_name": "OLMADIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "54,90 DH",
+        "PH": "34,30 DH",
+        "PFHT": "32,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2274",
+      "brand_name": "OLMADIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "19,00 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2275",
+      "brand_name": "OLMADIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "33,40 DH",
+        "PH": "20,90 DH",
+        "PFHT": "19,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1023",
+      "brand_name": "OLMETEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "158,40 DH",
+        "PH": "99,00 DH",
+        "PFHT": "94,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1024",
+      "brand_name": "OLMETEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1025",
+      "brand_name": "OLMETEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "256,00 DH",
+        "PH": "160,40 DH",
+        "PFHT": "152,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9648",
+      "brand_name": "OLOHISTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "OLOPATADINE HYDROCHLORIDE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ARWA MEDIC",
+        "PPV": "58,00 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 MG / ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "4521",
+      "brand_name": "OLOXINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHI",
+        "PPV": "92,50 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4522",
+      "brand_name": "OLOXINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHI",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9166",
+      "brand_name": "OLUMIANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "BARICITINIB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "6.853.00 DH",
+        "PH": "6.643.00 DH",
+        "PFHT": "6.326.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9167",
+      "brand_name": "OLUMIANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "BARICITINIB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "6.853.00 DH",
+        "PH": "6.643.00 DH",
+        "PFHT": "6.326.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5036",
+      "brand_name": "OLYNZA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "272,00 DH",
+        "PH": "170,20 DH",
+        "PFHT": "162,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5037",
+      "brand_name": "OLYNZA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "156,40 DH",
+        "PH": "97,80 DH",
+        "PFHT": "93,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2952",
+      "brand_name": "OMACOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ESTERS ETHYLIQUES D'ACIDES GRAS IODES DE L'HUILE D'OEILLETTE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "263,00 DH",
+        "PH": "164,70 DH",
+        "PFHT": "156,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "CAPSULE MOLLE OBLONGUE"
+      }
+    }
+  ]
+}

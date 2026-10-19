@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-10-18T22:26:14.630445+00:00",
+  "provider": "opencode",
+  "model": "glm-5.3-flash-free",
+  "endpoint": "https://opencode.ai/inference/openai/v1/chat/completions",
+  "requested_output_mode": "json_schema",
+  "key_configured": true,
+  "offline_tests": {
+    "passed": 86,
+    "failed": 0,
+    "new_tests": 10,
+    "final_targeted_recheck_passed": 10
+  },
+  "live_validation": "blocked_free_tier_restricted",
+  "live_report": "reports/interpretation_smoke_opencode.json",
+  "strict_endpoint_support_verified": false,
+  "model_fallback": false,
+  "schema_downgrade_automatic": false,
+  "services_left_running": false,
+  "diagnosis": {
+    "http_status": 403,
+    "provider_error_type": "FreeTierError",
+    "safe_message": "OpenCode free tier is restricted to use within OpenCode; direct app inference was rejected."
+  },
+  "latest_targeted_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "live_completed_cases": 0,
+  "services_started": false
+}

@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "status": 429,
+      "quota_families": [
+        "tokens per day"
+      ]
+    }
+  ],
+  "raw_provider_text_saved": false,
+  "credentials_saved": false
+}

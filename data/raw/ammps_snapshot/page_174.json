@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 174,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=174",
+  "fetched_at_utc": "2026-10-18T16:23:15.481179+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6408",
+      "brand_name": "FENTANYL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "56,70 DH",
+        "PH": "35,40 DH",
+        "PFHT": "33,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6409",
+      "brand_name": "FENTANYL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "29,40 DH",
+        "PH": "18,40 DH",
+        "PFHT": "17,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6410",
+      "brand_name": "FENTANYL MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "270,00 DH",
+        "PH": "180,10 DH",
+        "PFHT": "171,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9729",
+      "brand_name": "FER ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "COMPLEXE D'HYDROXYDE FERRIQUE-SACCHAROSE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100MG / 5ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9730",
+      "brand_name": "FER ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "COMPLEXE D'HYDROXYDE FERRIQUE-SACCHAROSE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "365,00 DH",
+        "PH": "243,00 DH",
+        "PFHT": "231,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100MG / 5ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9544",
+      "brand_name": "FER NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (PROTEINE SUCCINYLATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG / 10 ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9545",
+      "brand_name": "FER NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (PROTEINE SUCCINYLATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MG / 10 ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5137",
+      "brand_name": "FER SP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5750",
+      "brand_name": "FER UCB",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "12 AMPOULES DE 5 ML",
+        "PP / GN": "NA",
+        "Substance active": "FER (CHLORURE FERREUX)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "32,20 DH",
+        "PH": "20,10 DH",
+        "PFHT": "17,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4804",
+      "brand_name": "FERINJECT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.371.00 DH",
+        "PH": "1.102.00 DH",
+        "PFHT": "1.050.08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR INJECTION/PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6950",
+      "brand_name": "FERIVINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6951",
+      "brand_name": "FERIVINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE AMPOULE DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "57,20 DH",
+        "PH": "35,70 DH",
+        "PFHT": "34,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5540",
+      "brand_name": "FERMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7477",
+      "brand_name": "FEROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "NOVOPHARMA",
+        "PPV": "228,00 DH",
+        "PH": "143,00 DH",
+        "PFHT": "136,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2163",
+      "brand_name": "FERPLEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (PROTEINSUCCINYLATE FERRIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "VERSALYA",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  15  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2164",
+      "brand_name": "FERPLEX FOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM / FER",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "VERSALYA",
+        "PPV": "87,90 DH",
+        "PH": "54,90 DH",
+        "PFHT": "52,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  15  ML",
+        "Forme": "SOLUTION BUVABLE EN FLACON UNI-DOSE"
+      }
+    },
+    {
+      "source_record_id": "9678",
+      "brand_name": "FERRICURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE DE POLYSACCHRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9679",
+      "brand_name": "FERRICURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE DE POLYSACCHRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9680",
+      "brand_name": "FERRICURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE DE POLYSACCHRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9681",
+      "brand_name": "FERRICURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D’UN FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE DE POLYSACCHRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 MG / ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

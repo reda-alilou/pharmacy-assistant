@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 449,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=449",
+  "fetched_at_utc": "2026-10-18T16:32:26.724410+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9316",
+      "brand_name": "TUNELUZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML CONTENANT 70 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "43,60 DH",
+        "PH": "27,20 DH",
+        "PFHT": "25,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20  MG / 5 ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1963",
+      "brand_name": "TUSSIFED",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "NA",
+        "Substance active": "TRIPROLIDINE (CHLORHYDRATE) // DEXTROMETHORPHANE (BROMHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "34,10 DH",
+        "PH": "21,30 DH",
+        "PFHT": "19,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,025 G  /  0,20 G",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1964",
+      "brand_name": "TUSSIFED",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "NA",
+        "Substance active": "TRIPROLIDINE (CHLORHYDRATE) // DEXTROMETHORPHANE (BROMHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "27,80 DH",
+        "PH": "17,30 DH",
+        "PFHT": "15,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2667",
+      "brand_name": "TUSSIPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPHENOXAMINE (CHLORHYDRATE) // SULFOGAIACOLATE DE POTASSIUM // BENZOATE DE SODIUM // PARACETAMOL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "13,80 DH",
+        "PH": "8,60 DH",
+        "PFHT": "8,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,032 G  /  0,680 G  /  0,680 G  /  0,680 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1965",
+      "brand_name": "TWINRIX ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( HEPATITE A // HEPATITE B )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "455,00 DH",
+        "PH": "302,00 DH",
+        "PFHT": "288,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN"
+      }
+    },
+    {
+      "source_record_id": "1966",
+      "brand_name": "TWINRIX ENFANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( HEPATITE A // HEPATITE B )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "267,00 DH",
+        "PH": "178,00 DH",
+        "PFHT": "169,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN"
+      }
+    },
+    {
+      "source_record_id": "493",
+      "brand_name": "TWYNSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "244,00 DH",
+        "PH": "152,80 DH",
+        "PFHT": "145,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "494",
+      "brand_name": "TWYNSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "214,00 DH",
+        "PH": "134,30 DH",
+        "PFHT": "127,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "495",
+      "brand_name": "TWYNSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "268,00 DH",
+        "PH": "178,10 DH",
+        "PFHT": "169,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "743",
+      "brand_name": "TWYNSTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN // AMLODIPINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "267,00 DH",
+        "PH": "167,50 DH",
+        "PFHT": "159,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4761",
+      "brand_name": "TYARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "81,30 DH",
+        "PH": "50,80 DH",
+        "PFHT": "48,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4762",
+      "brand_name": "TYARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "25,20 DH",
+        "PH": "15,70 DH",
+        "PFHT": "15,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3804",
+      "brand_name": "TYGACIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "TIGECYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "3.321.00 DH",
+        "PH": "3.007.00 DH",
+        "PFHT": "2.864.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "3426",
+      "brand_name": "TYKERB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 70",
+        "PP / GN": "PP",
+        "Substance active": "LAPATINIB DITOSYLATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "11.182.00 DH",
+        "PH": "10.971.00 DH",
+        "PFHT": "10.571.43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9243",
+      "brand_name": "TYMOKS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 5ML",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "42,50 DH",
+        "PH": "26,60 DH",
+        "PFHT": "25,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5%",
+        "Forme": "GOUTTES OPHTALMIQUES"
+      }
+    },
+    {
+      "source_record_id": "8928",
+      "brand_name": "TYPHERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN FIEVRE TYPHOIDE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "5480",
+      "brand_name": "TYPHIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN TYPHOIDIQUE POLYOSIDIQUE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "126,20 DH",
+        "PH": "78,80 DH",
+        "PFHT": "75,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2292",
+      "brand_name": "TYPHIM VI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 10ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN TYPHOIDIQUE POLYOSIDIQUE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "4.766.00 DH",
+        "PH": "4.494.00 DH",
+        "PFHT": "4.280.76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "FLACON DE 20 DOSES"
+      }
+    },
+    {
+      "source_record_id": "6010",
+      "brand_name": "TYSABRI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "NATALIZUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "14.234.00 DH",
+        "PH": "13.963.00 DH",
+        "PFHT": "13.563.49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6859",
+      "brand_name": "U-GESTAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "52,10 DH",
+        "PH": "32,60 DH",
+        "PFHT": "31,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    }
+  ]
+}

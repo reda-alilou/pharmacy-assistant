@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 483,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=483",
+  "fetched_at_utc": "2026-10-18T16:33:34.815875+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8982",
+      "brand_name": "XULTOPHY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3 STYLOS DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE DEGLUDEC / LIRAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U  /  3,6   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "5720",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "70,60 DH",
+        "PH": "44,10 DH",
+        "PFHT": "42,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7519",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "40,10 DH",
+        "PH": "25,10 DH",
+        "PFHT": "23,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7598",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "136,40 DH",
+        "PH": "85,20 DH",
+        "PFHT": "81,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7599",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "202,00 DH",
+        "PH": "126,40 DH",
+        "PFHT": "120,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "9518",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE DIHYDROCHLORIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MG / ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "9519",
+      "brand_name": "XYCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE  120 ML",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE DIHYDROCHLORIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "33,70 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MG / ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "7511",
+      "brand_name": "XYFLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "229,00 DH",
+        "PH": "143,40 DH",
+        "PFHT": "136,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7512",
+      "brand_name": "XYFLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "130,30 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7513",
+      "brand_name": "XYFLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "182,50 DH",
+        "PH": "114,00 DH",
+        "PFHT": "108,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6863",
+      "brand_name": "XYLATIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POUDRE POUR FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.866.00 DH",
+        "PH": "1.613.00 DH",
+        "PFHT": "1.536.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "POUDRE POUR SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6864",
+      "brand_name": "XYLATIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POUDRE POUR FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "4028",
+      "brand_name": "XYLER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4029",
+      "brand_name": "XYLER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "65,90 DH",
+        "PH": "41,20 DH",
+        "PFHT": "39,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4030",
+      "brand_name": "XYLER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "21,00 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6557",
+      "brand_name": "XYLOCAINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "14,80 DH",
+        "PH": "9,30 DH",
+        "PFHT": "8,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "6558",
+      "brand_name": "XYLOCAINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 FLACON + 8 CANULES",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "136,50 DH",
+        "PH": "85,30 DH",
+        "PFHT": "81,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "NEBULISEUR"
+      }
+    },
+    {
+      "source_record_id": "6560",
+      "brand_name": "XYLOCAINE ADRENALINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "16,10 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2%  /  0,0005%",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6559",
+      "brand_name": "XYLOCAINE NAPHAZOLINE L",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 24 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // NAPHAZOLINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6561",
+      "brand_name": "XYLOCAINE VISQUEUSE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 100 G",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "32,20 DH",
+        "PH": "20,10 DH",
+        "PFHT": "17,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "GEL ORAL"
+      }
+    }
+  ]
+}

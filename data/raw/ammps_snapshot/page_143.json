@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 143,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=143",
+  "fetched_at_utc": "2026-10-18T16:22:13.334184+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2783",
+      "brand_name": "DOTAREM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "661,00 DH",
+        "PH": "439,00 DH",
+        "PFHT": "418,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9434",
+      "brand_name": "DOTEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "2.521.00 DH",
+        "PH": "2.183.00 DH",
+        "PFHT": "2.079.99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80  MG / 4 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 4 ML"
+      }
+    },
+    {
+      "source_record_id": "9435",
+      "brand_name": "DOTEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "821,00 DH",
+        "PH": "546,00 DH",
+        "PFHT": "520,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20  MG / ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "1410",
+      "brand_name": "DOUCIA PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G 65 G",
+        "PP / GN": "GN",
+        "Substance active": "ZINC (OXYDE) // VITAMINE A // VITAMINE D",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "10,20 DH",
+        "PH": "6,40 DH",
+        "PFHT": "6,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.27",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "1411",
+      "brand_name": "DOUCIA PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 65 G",
+        "PP / GN": "GN",
+        "Substance active": "ZINC (OXYDE) // VITAMINE A // VITAMINE D",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "17,00 DH",
+        "PH": "10,60 DH",
+        "PFHT": "10,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.27",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "93",
+      "brand_name": "DOXICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TENOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "94",
+      "brand_name": "DOXICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TENOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "72,40 DH",
+        "PH": "45,20 DH",
+        "PFHT": "43,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "95",
+      "brand_name": "DOXICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "TENOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "8383",
+      "brand_name": "DOXICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TENOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7975",
+      "brand_name": "DOXORUBICIN NAPROD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "91,50 DH",
+        "PH": "57,20 DH",
+        "PFHT": "54,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE EN FLACON A RECONSTITUER PAR 5 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "7976",
+      "brand_name": "DOXORUBICIN NAPROD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "409,00 DH",
+        "PH": "272,00 DH",
+        "PFHT": "259,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE EN FLACON A RECONSTITUER PAR 25 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "883",
+      "brand_name": "DOXORUBICINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1/10ML",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "91,50 DH",
+        "PH": "57,20 DH",
+        "PFHT": "54,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10  ML",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "884",
+      "brand_name": "DOXORUBICINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1/50ML",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "409,00 DH",
+        "PH": "272,00 DH",
+        "PFHT": "259,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  50  ML",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "4656",
+      "brand_name": "DOXORUBICINE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 25 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "313,00 DH",
+        "PH": "208,00 DH",
+        "PFHT": "198,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4657",
+      "brand_name": "DOXORUBICINE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "74,00 DH",
+        "PH": "46,20 DH",
+        "PFHT": "44,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1412",
+      "brand_name": "DOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DOXYCYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "28,60 DH",
+        "PH": "17,90 DH",
+        "PFHT": "17,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1413",
+      "brand_name": "DOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "DOXYCYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2409",
+      "brand_name": "DOXYMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DOXYCYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "2410",
+      "brand_name": "DOXYMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DOXYCYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "102,80 DH",
+        "PH": "64,20 DH",
+        "PFHT": "61,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "2411",
+      "brand_name": "DOXYMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DOXYCYCLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    }
+  ]
+}

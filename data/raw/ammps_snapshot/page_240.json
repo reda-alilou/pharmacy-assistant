@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 240,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=240",
+  "fetched_at_utc": "2026-10-18T16:25:27.825000+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9142",
+      "brand_name": "KEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE  60 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "187,20 DH",
+        "PH": "117,00 DH",
+        "PFHT": "111,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9143",
+      "brand_name": "KEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "64,00 DH",
+        "PH": "40,00 DH",
+        "PFHT": "38,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9144",
+      "brand_name": "KEPTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30  COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "LEVETIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "171,90 DH",
+        "PH": "107,50 DH",
+        "PFHT": "102,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "5315",
+      "brand_name": "KERLONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "BETAXOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "97,90 DH",
+        "PH": "61,20 DH",
+        "PFHT": "58,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8532",
+      "brand_name": "KETALAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25 FLACONS DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "KETAMINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8533",
+      "brand_name": "KETALAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25 FLACONS DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "KETAMINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2260",
+      "brand_name": "KETALGIC LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "KETOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2261",
+      "brand_name": "KETALGIC LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "KETOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7767",
+      "brand_name": "KETESE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DEXKETOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "RIM PHARMA",
+        "PPV": "33,80 DH",
+        "PH": "21,10 DH",
+        "PFHT": "20,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6729",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "66,50 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6730",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "135,50 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6731",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "80,50 DH",
+        "PH": "50,30 DH",
+        "PFHT": "47,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6732",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "163,50 DH",
+        "PH": "102,20 DH",
+        "PFHT": "97,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6733",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "110,90 DH",
+        "PH": "69,30 DH",
+        "PFHT": "66,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6734",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "241,00 DH",
+        "PH": "151,20 DH",
+        "PFHT": "144,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6735",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "147,90 DH",
+        "PH": "92,40 DH",
+        "PFHT": "88,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6736",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "327,00 DH",
+        "PH": "217,00 DH",
+        "PFHT": "207,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6737",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6738",
+      "brand_name": "KETINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "58,80 DH",
+        "PH": "36,70 DH",
+        "PFHT": "35,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7840",
+      "brand_name": "KETIPINOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "307,00 DH",
+        "PH": "204,00 DH",
+        "PFHT": "194,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    }
+  ]
+}

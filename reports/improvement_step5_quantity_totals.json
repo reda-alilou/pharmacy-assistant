@@ -1,0 +1,185 @@
+{
+  "generated_at_utc": "2026-10-19T11:44:22.918758+00:00",
+  "step": "improvement_step_5_quantity_totals",
+  "status": "offline_and_three_turn_live_verified_awaiting_user_validation",
+  "offline_backend_before": {
+    "cases": 40,
+    "passed_cases": 32,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 28
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 4
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 4
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "offline_backend_after": {
+    "cases": 40,
+    "passed_cases": 39,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 31
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 8
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "pharmacy": 2
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "quantity_total_cases": [
+    {
+      "id": "dev-mixed-01",
+      "expected_mad": "536.00",
+      "observed_mad": "536.00"
+    },
+    {
+      "id": "dev-ar-02",
+      "expected_mad": "744.00",
+      "observed_mad": "744.00"
+    },
+    {
+      "id": "dev-fr-04",
+      "expected_mad": "166.00",
+      "observed_mad": "166.00"
+    },
+    {
+      "id": "dev-fr-10",
+      "expected_mad": "166.00",
+      "observed_mad": "166.00"
+    },
+    {
+      "id": "dev-ar-10",
+      "expected_mad": "166.00",
+      "observed_mad": "166.00"
+    },
+    {
+      "id": "dev-darija-10",
+      "expected_mad": "166.00",
+      "observed_mad": "166.00"
+    },
+    {
+      "id": "dev-mixed-10",
+      "expected_mad": "166.00",
+      "observed_mad": "166.00"
+    }
+  ],
+  "incorrect_automatic_selections": 0,
+  "remaining_failures": [
+    {
+      "id": "dev-ar-05",
+      "failures": [
+        {
+          "component": "pharmacy",
+          "code": "pharmacy_status_mismatch"
+        },
+        {
+          "component": "pharmacy",
+          "code": "requested_pharmacy_not_returned"
+        }
+      ]
+    }
+  ],
+  "measurement": "Frozen development annotated extraction with the real backend/catalogue. Not model accuracy.",
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 184,
+    "failed": 0,
+    "new_pricing_tests": 16,
+    "duration_seconds": 74.277,
+    "log": "reports/step5_offline_tests_verified.log",
+    "targeted_log": "reports/step5_pricing_tests_final.log",
+    "intermediate_run": "One stale-module import error while source was being edited; final fresh-process suite passed."
+  },
+  "live_smoke": {
+    "status": "passed",
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "step4-fragments-v1",
+    "completed_turns": 3,
+    "budget": {
+      "max_requests": 3,
+      "attempts_reserved": 3,
+      "total_attempts_reserved": 3
+    },
+    "record_id": "9080",
+    "pricing": {
+      "status": "calculated",
+      "requested_quantity": "deux boîtes",
+      "presentation_count": 2,
+      "unit_price_mad": "372.00",
+      "total_price_mad": "744.00",
+      "currency": "MAD",
+      "basis": "per_catalogue_presentation",
+      "clarification_reason": null
+    },
+    "new_key_needed": false,
+    "adapter_latencies_include_quota_wait": true,
+    "report": "reports/quantity_live_step5.json"
+  },
+  "money_arithmetic": {
+    "engine": "Decimal(str(stored_price))",
+    "unit_rounding": "0.01 MAD, ROUND_HALF_UP",
+    "basis": "per_catalogue_presentation",
+    "serialized_amounts": "exact two-decimal strings",
+    "quantity_default": null,
+    "maximum_presentations": 1000,
+    "arithmetic_extra_model_calls": 0
+  },
+  "annotation_file_sha256": {
+    "development.json": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+    "held_out.json": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9"
+  },
+  "annotations_unchanged": true,
+  "held_out_model_calls": 0,
+  "held_out_backend_cases_executed": 0,
+  "catalogue_unchanged_from_annotation_snapshot": true,
+  "feature_source_sha256": {
+    "pricing.py": "da75ea9c9f743b912f0825758116bb5f6f9b8ff4384252bf98019834174e4a5c",
+    "chat.py": "cd40d5cfa1afc2c921738f48ac3b0d144c19410f26925595521b7f725d138d31",
+    "chat_models.py": "715c64fe35f0eb3990372fd68236501ca7c28e1b11ef7e9e8b5cf3557f4f984a",
+    "answer_templates.py": "41602d9f5855e72632f9afb79483c458497c88037e789ae1e93cc0877dfc158a",
+    "demo.py": "984c8ac295deb8c9888c6859c032c8ae9f8c83e1e91e4e56fa1a48f9543e7b44",
+    "evaluate_baseline.py": "80c9118e20c47dfdc418608f6cc107485deb38dd54da96514b0b89085dedff91",
+    "evaluate_conversation_smoke.py": "3a1a06c7ee4300be279e3a6978fcf59c10976fa2a53b5eb72038f345c65c674d"
+  },
+  "prompt_modified": false,
+  "prompt_version": "step4-fragments-v1",
+  "env_modified": false,
+  "sources_scraped": false,
+  "services_started_or_stopped": false,
+  "limitations": [
+    "Reviewed number-word coverage is limited; unsupported quantities ask for a clear package count.",
+    "Tablet/dose/volume quantities are never converted to packages; specific containers require a matching retail presentation.",
+    "Totals use recorded public prices; live stock, current quotes and discounts are unknown.",
+    "One pharmacy-name matching case remains; full live extraction and held-out evaluation are still pending."
+  ],
+  "next_step": "Stop for user validation before any further improvement work."
+}

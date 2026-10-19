@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 377,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=377",
+  "fetched_at_utc": "2026-10-18T16:30:02.486560+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8762",
+      "brand_name": "RIFASONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMYCINE // PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "POMMADE DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4144",
+      "brand_name": "RIFOREIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMYCINE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "19,00 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000000 UI  /  100  ML",
+        "Forme": "SOLUTION AURICULAIRE"
+      }
+    },
+    {
+      "source_record_id": "5407",
+      "brand_name": "RILUTEK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "RILUZOLE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.882.00 DH",
+        "PH": "2.555.00 DH",
+        "PFHT": "2.433.57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8763",
+      "brand_name": "RIMEVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON MONODOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN LYOPHYLISE"
+      }
+    },
+    {
+      "source_record_id": "2635",
+      "brand_name": "RINGER LACTATE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 250ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // SODIUM LACTATE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "23,50 DH",
+        "PH": "14,70 DH",
+        "PFHT": "14,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "26,85   MG  /  40   MG  /  600   MG  /  310   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2636",
+      "brand_name": "RINGER LACTATE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // SODIUM LACTATE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "26,85   MG  /  40   MG  /  600   MG  /  310   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5946",
+      "brand_name": "RINGER LACTATE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 250ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORHEXIDINE DIGLUCONATE // LACTATE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "18,10 DH",
+        "PH": "11,30 DH",
+        "PFHT": "10,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  40   MG  /  40   MG",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5947",
+      "brand_name": "RINGER LACTATE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 1000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORHEXIDINE DIGLUCONATE // LACTATE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "26,10 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  40   MG  /  40   MG",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5948",
+      "brand_name": "RINGER LACTATE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE 500ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORHEXIDINE DIGLUCONATE // LACTATE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG  /  40   MG  /  40   MG",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4145",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "161,10 DH",
+        "PH": "100,70 DH",
+        "PFHT": "95,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4146",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "45,60 DH",
+        "PH": "28,50 DH",
+        "PFHT": "27,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4147",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "283,00 DH",
+        "PH": "188,10 DH",
+        "PFHT": "179,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8764",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  30   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8765",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  30   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8766",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  30   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8767",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  60   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8768",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  60   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8769",
+      "brand_name": "RINIAZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE // ISONIAZIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  60   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "8004",
+      "brand_name": "RINITA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "23,30 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9265",
+      "brand_name": "RINITA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "20,20 DH",
+        "PH": "12,60 DH",
+        "PFHT": "12,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

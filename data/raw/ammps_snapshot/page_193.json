@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 193,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=193",
+  "fetched_at_utc": "2026-10-18T16:23:53.521790+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6974",
+      "brand_name": "GEMSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "632,00 DH",
+        "PH": "420,00 DH",
+        "PFHT": "400,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  25  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6975",
+      "brand_name": "GEMSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "983,00 DH",
+        "PH": "703,00 DH",
+        "PFHT": "670,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000   MG  /  50  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8486",
+      "brand_name": "GEMTERO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE IYOPHILISEE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8487",
+      "brand_name": "GEMTERO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE IYOPHILISEE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5763",
+      "brand_name": "GEMZAR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "1.200.00 DH",
+        "PH": "927,00 DH",
+        "PFHT": "883,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5764",
+      "brand_name": "GEMZAR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "369,00 DH",
+        "PH": "245,00 DH",
+        "PFHT": "234,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "1673",
+      "brand_name": "GENFLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OSELTAMIVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1674",
+      "brand_name": "GENFLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OSELTAMIVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "128,00 DH",
+        "PH": "80,00 DH",
+        "PFHT": "76,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "45   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1675",
+      "brand_name": "GENFLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OSELTAMIVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "186,90 DH",
+        "PH": "116,80 DH",
+        "PFHT": "111,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5306",
+      "brand_name": "GENHEVAC B",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE RECOMBINANT (PROTEINE S ET S2)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "148,40 DH",
+        "PH": "92,50 DH",
+        "PFHT": "82,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MCG  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3673",
+      "brand_name": "GENOTROPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PFIZER",
+        "PPV": "1.132.00 DH",
+        "PH": "857,00 DH",
+        "PFHT": "816,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16 UI",
+        "Forme": "POUDRE POUR USAGE PARENTERAL SC EN STYLO (LYOPHILISAT+SOLVANT EN CARTOUCHE )"
+      }
+    },
+    {
+      "source_record_id": "7669",
+      "brand_name": "GENOTROPIN GO QUICK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO AVEC CARTOUCHE A DOUBLE COMPARTIMENT",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PFIZER",
+        "PPV": "1.132.00 DH",
+        "PH": "857,00 DH",
+        "PFHT": "816,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5,3   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7670",
+      "brand_name": "GENOTROPIN GO QUICK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 STYLO AVEC CARTOUCHE A DOUBLE COMPARTIMENT",
+        "PP / GN": "PP",
+        "Substance active": "SOMATROPINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PFIZER",
+        "PPV": "2.423.00 DH",
+        "PH": "2.082.00 DH",
+        "PFHT": "1.983.55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1676",
+      "brand_name": "GENPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1677",
+      "brand_name": "GENPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "50,00 DH",
+        "PH": "31,20 DH",
+        "PFHT": "29,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1678",
+      "brand_name": "GENPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "63,00 DH",
+        "PH": "39,40 DH",
+        "PFHT": "37,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1679",
+      "brand_name": "GENSTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "31,40 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1680",
+      "brand_name": "GENSTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "55,20 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1681",
+      "brand_name": "GENSTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "50,90 DH",
+        "PH": "31,80 DH",
+        "PFHT": "30,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1682",
+      "brand_name": "GENSTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ATORVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "90,80 DH",
+        "PH": "56,80 DH",
+        "PFHT": "54,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    }
+  ]
+}

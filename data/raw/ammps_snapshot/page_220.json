@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 220,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=220",
+  "fetched_at_utc": "2026-10-18T16:24:47.638681+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9089",
+      "brand_name": "ILUMYA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UNE SERINGUE PREREMPLIE DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "TILDRAKIZUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "26.271.00 DH",
+        "PH": "25.764.00 DH",
+        "PFHT": "25.364.49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "7330",
+      "brand_name": "IMAGOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.290.00 DH",
+        "PH": "1.019.00 DH",
+        "PFHT": "971,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7331",
+      "brand_name": "IMAGOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 4 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "3.570.00 DH",
+        "PH": "3.263.00 DH",
+        "PFHT": "3.108.57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4457",
+      "brand_name": "IMATEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "3.503.00 DH",
+        "PH": "3.194.00 DH",
+        "PFHT": "3.042.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "937",
+      "brand_name": "IMATINIB COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "3.500.00 DH",
+        "PH": "3.191.00 DH",
+        "PFHT": "3.039.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9076",
+      "brand_name": "IMATINIB VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES SECABLES",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "1.906.00 DH",
+        "PH": "1.653.00 DH",
+        "PFHT": "1.575.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "9077",
+      "brand_name": "IMATINIB VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES SECABLES",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "3.016.00 DH",
+        "PH": "2.639.00 DH",
+        "PFHT": "2.564.91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6717",
+      "brand_name": "IMATINIB ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "963,00 DH",
+        "PH": "682,00 DH",
+        "PFHT": "650,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6718",
+      "brand_name": "IMATINIB ZENITH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IMATINIB (MESILATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "3.016.00 DH",
+        "PH": "2.693.00 DH",
+        "PFHT": "2.564.91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6719",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "73.904.00 DH",
+        "PH": "72.462.00 DH",
+        "PFHT": "72.062.97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "140   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6720",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "50.540.00 DH",
+        "PH": "49.557.00 DH",
+        "PFHT": "49.157.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "140   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8510",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "19.452.00 DH",
+        "PH": "19.079.00 DH",
+        "PFHT": "18.679.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "140   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8511",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "38.505.00 DH",
+        "PH": "37.758.00 DH",
+        "PFHT": "37.358.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "280   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8512",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "57.557.00 DH",
+        "PH": "56.437.00 DH",
+        "PFHT": "56.037.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "420   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "8513",
+      "brand_name": "IMBRUVICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "IBRUTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "76.610.00 DH",
+        "PH": "75.116.00 DH",
+        "PFHT": "74.716.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "560   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "9251",
+      "brand_name": "IMFINZI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON UNIDOSE DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "DURVALUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "20.397.00 DH",
+        "PH": "20.005.00 DH",
+        "PFHT": "19.605.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  10  ML ( 50   MG  /   ML )",
+        "Forme": "SOLUTION A DILUER POUR PERFUSUION IV"
+      }
+    },
+    {
+      "source_record_id": "9252",
+      "brand_name": "IMFINZI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON UNIDOSE DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "DURVALUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "5.199.00 DH",
+        "PH": "4.940.00 DH",
+        "PFHT": "4.705.27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG  /  2,4  ML ( 50   MG  /   ML )",
+        "Forme": "SOLUTION A DILUER POUR PERFUSUION IV"
+      }
+    },
+    {
+      "source_record_id": "7236",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "111,10 DH",
+        "PH": "69,50 DH",
+        "PFHT": "66,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  500   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "7237",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "63,90 DH",
+        "PH": "39,90 DH",
+        "PFHT": "38,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  250   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "8514",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  250   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    }
+  ]
+}

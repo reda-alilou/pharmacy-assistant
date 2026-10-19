@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 304,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=304",
+  "fetched_at_utc": "2026-10-18T16:27:36.142866+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4507",
+      "brand_name": "NOFLOXINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "NORFLOXACINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "78,00 DH",
+        "PH": "48,60 DH",
+        "PFHT": "43,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6918",
+      "brand_name": "NOGESTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3 PLAQUETTES DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "28,40 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,03   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9394",
+      "brand_name": "NOLIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE (CALCIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "35,30 DH",
+        "PH": "22,00 DH",
+        "PFHT": "20,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9395",
+      "brand_name": "NOLIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE (CALCIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "90,90 DH",
+        "PH": "56,80 DH",
+        "PFHT": "54,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "171",
+      "brand_name": "NOLIP (Ex nom : TORSTINE)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "59,70 DH",
+        "PH": "37,30 DH",
+        "PFHT": "35,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "172",
+      "brand_name": "NOLIP (Ex nom : TORSTINE)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "154,10 DH",
+        "PH": "96,30 DH",
+        "PFHT": "91,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "173",
+      "brand_name": "NOLIP (Ex nom : TORSTINE)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "96,50 DH",
+        "PH": "60,30 DH",
+        "PFHT": "57,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "174",
+      "brand_name": "NOLIP (Ex nom : TORSTINE)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "250,00 DH",
+        "PH": "156,30 DH",
+        "PFHT": "148,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2945",
+      "brand_name": "NOLVADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "TAMOXIFENE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "124,30 DH",
+        "PH": "77,70 DH",
+        "PFHT": "73,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3520",
+      "brand_name": "NOMADOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "37,50 DH",
+        "PH": "23,40 DH",
+        "PFHT": "20,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3521",
+      "brand_name": "NOMADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "39,30 DH",
+        "PH": "24,60 DH",
+        "PFHT": "23,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "175",
+      "brand_name": "NOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "176",
+      "brand_name": "NOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "39,50 DH",
+        "PH": "24,70 DH",
+        "PFHT": "23,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "177",
+      "brand_name": "NOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "72,90 DH",
+        "PH": "45,50 DH",
+        "PFHT": "43,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "178",
+      "brand_name": "NOMYC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "78,30 DH",
+        "PH": "48,90 DH",
+        "PFHT": "46,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2103",
+      "brand_name": "NONAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25 FLACONS DE 40 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (GLUCONATE) // ZINC (GLUCONATE DE)  // CUIVRE (GLUCONATE DE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.023.00 DH",
+        "PH": "744,00 DH",
+        "PFHT": "708,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5864",
+      "brand_name": "NOOTROPYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "PIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "60,90 DH",
+        "PH": "38,10 DH",
+        "PFHT": "36,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  5  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5865",
+      "brand_name": "NOOTROPYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "PIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "52,40 DH",
+        "PH": "32,70 DH",
+        "PFHT": "31,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5866",
+      "brand_name": "NOOTROPYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "PIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "125,90 DH",
+        "PH": "78,70 DH",
+        "PFHT": "74,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8659",
+      "brand_name": "NOOTROPYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "PIRACETAM",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,2 G  /  6  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

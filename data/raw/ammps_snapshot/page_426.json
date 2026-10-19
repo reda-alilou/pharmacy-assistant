@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 426,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=426",
+  "fetched_at_utc": "2026-10-18T16:31:40.800397+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3416",
+      "brand_name": "TAREG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "131,50 DH",
+        "PH": "82,20 DH",
+        "PFHT": "78,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3417",
+      "brand_name": "TAREG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "VALSARTAN",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "84,40 DH",
+        "PH": "52,80 DH",
+        "PFHT": "50,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8883",
+      "brand_name": "TARGINACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE) // NALOXONE (CHLORHYDRATE DIHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  5   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8884",
+      "brand_name": "TARGINACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE) // NALOXONE (CHLORHYDRATE DIHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  10   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "8885",
+      "brand_name": "TARGINACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE) // NALOXONE (CHLORHYDRATE DIHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  20   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5443",
+      "brand_name": "TARGOCID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON + 1AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "TEICOPLANINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "269,00 DH",
+        "PH": "168,30 DH",
+        "PFHT": "160,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "LYOPHILISAT+ SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "5444",
+      "brand_name": "TARGOCID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON + 1AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "TEICOPLANINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "479,00 DH",
+        "PH": "318,00 DH",
+        "PFHT": "303,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "LYOPHILISAT+ SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "3036",
+      "brand_name": "TARKA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE) // TRANDOLAPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "177,70 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180   MG  /  2   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3037",
+      "brand_name": "TARKA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE) // TRANDOLAPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "168,60 DH",
+        "PH": "105,40 DH",
+        "PFHT": "100,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG  /  2   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3038",
+      "brand_name": "TARKA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE) // TRANDOLAPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "168,60 DH",
+        "PH": "105,40 DH",
+        "PFHT": "100,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240  /  4   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4569",
+      "brand_name": "TARMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "COAL TAR",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "100,70 DH",
+        "PH": "63,00 DH",
+        "PFHT": "59,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "SHAMPOOING A USAGE CUTANE"
+      }
+    },
+    {
+      "source_record_id": "3418",
+      "brand_name": "TASIGNA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 112",
+        "PP / GN": "PP",
+        "Substance active": "NILOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "18.112.00 DH",
+        "PH": "17.764.00 DH",
+        "PFHT": "17.364.76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3419",
+      "brand_name": "TASIGNA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 112",
+        "PP / GN": "PP",
+        "Substance active": "NILOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "33.153.00 DH",
+        "PH": "32.511.00 DH",
+        "PFHT": "32.111.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "3420",
+      "brand_name": "TASIGNA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "NILOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "8.588.00 DH",
+        "PH": "8.427.00 DH",
+        "PFHT": "8.027.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "8886",
+      "brand_name": "TASIGNA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "NILOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5544",
+      "brand_name": "TAU-KIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "KIT CONTENANT 1 CP, 4 TUBES DE VERRE, 2 PAILLES ET UN SACHET DE POUDRE D'ACIDE CITRIQUE",
+        "PP / GN": "PP",
+        "Substance active": "UREE 13C",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "334,00 DH",
+        "PH": "222,00 DH",
+        "PFHT": "211,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5445",
+      "brand_name": "TAVANIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "135,50 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5446",
+      "brand_name": "TAVANIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "191,60 DH",
+        "PH": "119,70 DH",
+        "PFHT": "114,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5447",
+      "brand_name": "TAVANIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "349,00 DH",
+        "PH": "232,00 DH",
+        "PFHT": "221,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8887",
+      "brand_name": "TAVANIC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "SOLUTION POUR PERFUSION EN FLACON DE 150 ML"
+      }
+    }
+  ]
+}

@@ -1,0 +1,939 @@
+[
+  {
+    "text": "ما ثمن فنتولين 100 ميكروغرام / جرعة؟",
+    "interpretation": {
+      "language": "ar",
+      "reply_language": "ar",
+      "reply_script": "arabic",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "فنتولين",
+            "strength": "100 ميكروغرام / جرعة",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-ar-01",
+    "split": "development",
+    "group": "ar",
+    "kind": "single_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "arabic_brand",
+      "units"
+    ],
+    "context": [],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1972"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": false,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": null,
+      "require_clarification": false
+    },
+    "rationale": "Review raw spans, requested intent and catalogue outcome; scenario: arabic_brand|units.",
+    "alternatives": {}
+  },
+  {
+    "text": "أريد ثمن ثلاث علب من أوغمنتين 1 g / 125 mg، علبة 24.",
+    "interpretation": {
+      "language": "ar",
+      "reply_language": "ar",
+      "reply_script": "arabic",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "أوغمنتين",
+            "strength": "1 g / 125 mg",
+            "quantity": "ثلاث علب",
+            "form": null,
+            "presentation": "علبة 24"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-ar-02",
+    "split": "development",
+    "group": "ar",
+    "kind": "single_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "arabic_brand",
+      "quantity",
+      "combined_strength",
+      "total"
+    ],
+    "context": [],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1792"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": false,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": 621.0,
+      "require_clarification": false
+    },
+    "rationale": "Review raw spans, requested intent and catalogue outcome; scenario: arabic_brand|quantity|combined_strength|total.",
+    "alternatives": {}
+  },
+  {
+    "text": "بغيت علبة ديال أوغمنتين 1 g / 125 mg، فيها 16 كيس.",
+    "interpretation": {
+      "language": "darija",
+      "reply_language": "darija",
+      "reply_script": "arabic",
+      "intents": [
+        "medication_request"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "أوغمنتين",
+            "strength": "1 g / 125 mg",
+            "quantity": "علبة",
+            "form": "كيس",
+            "presentation": "16 كيس"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-darija-02",
+    "split": "development",
+    "group": "darija",
+    "kind": "single_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "arabic_brand",
+      "darija_arabic",
+      "packaging"
+    ],
+    "context": [],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1791"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": true,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": null,
+      "require_clarification": false
+    },
+    "rationale": "Review raw spans, requested intent and catalogue outcome; scenario: arabic_brand|darija_arabic|packaging.",
+    "alternatives": {}
+  },
+  {
+    "text": "Est-ce que أوجمنتين disponible en boîte de 12 ?",
+    "interpretation": {
+      "language": "mixed",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "availability"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "أوجمنتين",
+            "strength": null,
+            "quantity": null,
+            "form": null,
+            "presentation": "boîte de 12"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-mixed-04",
+    "split": "development",
+    "group": "mixed",
+    "kind": "single_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "arabic_brand",
+      "code_switching"
+    ],
+    "context": [],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1790"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": true,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": null,
+      "require_clarification": false
+    },
+    "rationale": "Review raw spans, requested intent and catalogue outcome; scenario: arabic_brand|code_switching.",
+    "alternatives": {}
+  },
+  {
+    "text": "Bghit lboita dyal 40 dyal l9ras.",
+    "interpretation": {
+      "language": "darija",
+      "reply_language": "darija",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": null,
+            "form": "l9ras",
+            "presentation": "lboita dyal 40"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-darija-09",
+    "split": "development",
+    "group": "darija",
+    "kind": "conversation_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "conversation",
+      "presentation_followup"
+    ],
+    "context": [
+      {
+        "text": "Ch7al taman VENTOLINE?",
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "VENTOLINE",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1974"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": false,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": null,
+      "require_clarification": false
+    },
+    "rationale": "Identity and price intent come from the prior turn; current raw entity spans contain only the stated packaging.",
+    "alternatives": {}
+  },
+  {
+    "text": "Les comprimés ديال 40 من فضلك.",
+    "interpretation": {
+      "language": "mixed",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": null,
+            "form": "comprimés",
+            "presentation": "40"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "id": "seen-held-mixed-09",
+    "split": "development",
+    "group": "mixed",
+    "kind": "conversation_turn",
+    "tags": [
+      "seen_failure_recheck",
+      "conversation",
+      "presentation_followup"
+    ],
+    "context": [
+      {
+        "text": "Quel prix ديال VENTOLINE ?",
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "VENTOLINE",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1974"
+          ],
+          "active_substance": null,
+          "minimum_candidates": 0
+        }
+      ],
+      "pharmacy_status": null,
+      "pharmacy_ids": [],
+      "stock_unknown": false,
+      "no_medication_facts": false,
+      "missing_price": false,
+      "quantity_total_mad": null,
+      "require_clarification": false
+    },
+    "rationale": "Identity and price intent come from the prior turn; current raw entity spans contain only the stated packaging.",
+    "alternatives": {}
+  },
+  {
+    "id": "fresh-ar-ventoline-v",
+    "split": "development",
+    "group": "ar",
+    "kind": "single_turn",
+    "text": "ما ثمن ڤينتولين ١٠٠ ميكروغرام / جرعة؟",
+    "interpretation": {
+      "language": "ar",
+      "reply_language": "ar",
+      "reply_script": "arabic",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "ڤينتولين",
+            "strength": "١٠٠ ميكروغرام / جرعة",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1972"
+          ]
+        }
+      ],
+      "require_clarification": false
+    }
+  },
+  {
+    "id": "fresh-fr-diacritics",
+    "split": "development",
+    "group": "fr",
+    "kind": "single_turn",
+    "text": "Quel est le prix de فِينْتُولِين 2 mg en comprimés, boîte de 40 ?",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "فِينْتُولِين",
+            "strength": "2 mg",
+            "quantity": null,
+            "form": "comprimés",
+            "presentation": "boîte de 40"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1974"
+          ]
+        }
+      ],
+      "require_clarification": false
+    }
+  },
+  {
+    "id": "fresh-darija-augmentin-total",
+    "split": "development",
+    "group": "darija",
+    "kind": "single_turn",
+    "text": "شحال جوج علب ديال أُوغْمَنْتِين 1 g / 125 mg، علبة 12؟",
+    "interpretation": {
+      "language": "darija",
+      "reply_language": "darija",
+      "reply_script": "arabic",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "أُوغْمَنْتِين",
+            "strength": "1 g / 125 mg",
+            "quantity": "جوج علب",
+            "form": null,
+            "presentation": "علبة 12"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1790"
+          ]
+        }
+      ],
+      "require_clarification": false,
+      "quantity_total_mad": 236
+    }
+  },
+  {
+    "id": "fresh-darija-box20",
+    "split": "development",
+    "group": "darija",
+    "kind": "conversation_turn",
+    "text": "Bghit lboita dyal 20 dyal l9ras.",
+    "interpretation": {
+      "language": "darija",
+      "reply_language": "darija",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": null,
+            "form": "l9ras",
+            "presentation": "lboita dyal 20"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [
+      {
+        "text": "Quel est le prix de ABIP ?",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "9079"
+          ]
+        }
+      ],
+      "require_clarification": false
+    }
+  },
+  {
+    "id": "fresh-mixed-box30",
+    "split": "development",
+    "group": "mixed",
+    "kind": "conversation_turn",
+    "text": "Les comprimés ديال 30 عافاك.",
+    "interpretation": {
+      "language": "mixed",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": null,
+            "form": "comprimés",
+            "presentation": "30"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [
+      {
+        "text": "Combien pour ABIP ?",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "9080"
+          ]
+        }
+      ],
+      "require_clarification": false
+    }
+  },
+  {
+    "id": "fresh-fr-box40",
+    "split": "development",
+    "group": "fr",
+    "kind": "conversation_turn",
+    "text": "Les comprimés en boîte de 40, s’il te plaît.",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": null,
+            "form": "comprimés",
+            "presentation": "boîte de 40"
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [
+      {
+        "text": "Donne-moi le prix de VENTOLINE.",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "VENTOLINE",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "resolved",
+          "record_ids": [
+            "1974"
+          ]
+        }
+      ],
+      "require_clarification": false
+    }
+  },
+  {
+    "id": "fresh-fr-unitless-strength",
+    "split": "development",
+    "group": "fr",
+    "kind": "conversation_turn",
+    "text": "Dosage 15, s'il vous plaît.",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": "15",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [
+      {
+        "text": "Combien coûte ABIP ?",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        }
+      }
+    ],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "clarify",
+          "record_ids": [
+            "9079",
+            "9080"
+          ]
+        }
+      ],
+      "require_clarification": true
+    }
+  },
+  {
+    "id": "fresh-fr-unnamed-order",
+    "split": "development",
+    "group": "fr",
+    "kind": "single_turn",
+    "text": "Je voudrais trois boîtes, s'il vous plaît.",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "medication_request"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": "trois boîtes",
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "context": [],
+    "tags": [
+      "fresh_variation"
+    ],
+    "rationale": "New development variation authored before its live run; checks identity, independent filters or numeric role separation.",
+    "alternatives": {},
+    "expected": {
+      "medications": [
+        {
+          "mention_index": 0,
+          "outcome": "clarify",
+          "record_ids": []
+        }
+      ],
+      "require_clarification": true
+    }
+  }
+]

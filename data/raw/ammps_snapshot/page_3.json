@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 3,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=3",
+  "fetched_at_utc": "2026-10-18T16:17:32.873396+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9399",
+      "brand_name": "ACICLOVIR ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITES DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "172,00 DH",
+        "PH": "107,50 DH",
+        "PFHT": "102,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9400",
+      "brand_name": "ACICLOVIR ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITES DE 5 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "673,00 DH",
+        "PH": "447,00 DH",
+        "PFHT": "426,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9401",
+      "brand_name": "ACICLOVIR ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITES DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "1.039.00 DH",
+        "PH": "761,00 DH",
+        "PFHT": "725,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6933",
+      "brand_name": "ACICLOVIR VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "628,00 DH",
+        "PH": "417,00 DH",
+        "PFHT": "397,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "6934",
+      "brand_name": "ACICLOVIR VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 FLACONS DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "674,00 DH",
+        "PH": "447,00 DH",
+        "PFHT": "426,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "1599",
+      "brand_name": "ACIDAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1600",
+      "brand_name": "ACIDAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1601",
+      "brand_name": "ACIDAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1602",
+      "brand_name": "ACIDAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "250",
+      "brand_name": "ACIDE ALENDRONIQUE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "164,50 DH",
+        "PH": "102,80 DH",
+        "PFHT": "97,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2128",
+      "brand_name": "ACIDE ALENDRONIQUE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "164,50 DH",
+        "PH": "102,80 DH",
+        "PFHT": "97,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1262",
+      "brand_name": "ACIDE EM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE GLACIAL)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "144,00 DH",
+        "PH": "90,00 DH",
+        "PFHT": "85,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE CONCENTRE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "1263",
+      "brand_name": "ACIDE EM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE GLACIAL°",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "75,00 DH",
+        "PH": "46,90 DH",
+        "PFHT": "44,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE CONCENTRE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "8125",
+      "brand_name": "ACIDE SANS ACETATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "POCHE DE 5 LITRES",
+        "PP / GN": "-",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE CHLORHYDRIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE ACIDE"
+      }
+    },
+    {
+      "source_record_id": "8126",
+      "brand_name": "ACIDE SANS ACETATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "POCHE DE 5 LITRES",
+        "PP / GN": "-",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE CHLORHYDRIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE ACIDE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2706",
+      "brand_name": "ACIDE TIAPROFENIQUE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "11,60 DH",
+        "PH": "7,20 DH",
+        "PFHT": "6,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2707",
+      "brand_name": "ACIDE TIAPROFENIQUE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2708",
+      "brand_name": "ACIDE TIAPROFENIQUE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "26,00 DH",
+        "PH": "16,20 DH",
+        "PFHT": "14,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "762",
+      "brand_name": "ACIDE ZOLEDRONIQUE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "1.356.00 DH",
+        "PH": "1.088.00 DH",
+        "PFHT": "1.036.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "3296",
+      "brand_name": "ACIDE ZOLEDRONIQUE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "1.356.00 DH",
+        "PH": "1.088.00 DH",
+        "PFHT": "1.036.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    }
+  ]
+}

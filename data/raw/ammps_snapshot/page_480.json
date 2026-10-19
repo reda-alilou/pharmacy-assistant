@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 480,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=480",
+  "fetched_at_utc": "2026-10-18T16:33:28.815043+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1183",
+      "brand_name": "XAUTIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "156,40 DH",
+        "PH": "97,80 DH",
+        "PFHT": "93,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1184",
+      "brand_name": "XAUTIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "82,10 DH",
+        "PH": "51,30 DH",
+        "PFHT": "48,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1185",
+      "brand_name": "XAUTIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "215,00 DH",
+        "PH": "134,80 DH",
+        "PFHT": "128,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6028",
+      "brand_name": "XEDILOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "88,10 DH",
+        "PH": "55,10 DH",
+        "PFHT": "52,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6029",
+      "brand_name": "XEDILOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "43,80 DH",
+        "PH": "27,40 DH",
+        "PFHT": "26,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8977",
+      "brand_name": "XEFO RAPIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "LORNOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7403",
+      "brand_name": "XELABINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "1.781.00 DH",
+        "PH": "1.525.00 DH",
+        "PFHT": "1.452.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7454",
+      "brand_name": "XELJANZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "TOFACITINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "6.896.00 DH",
+        "PH": "6.687.00 DH",
+        "PFHT": "6.368.63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8978",
+      "brand_name": "XELJANZ XR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOÎTE DE 28 COMPRIMES À LIBERATION PROLONGEE",
+        "PP / GN": "PP",
+        "Substance active": "TOFACITINIB (CITRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "7.625.00 DH",
+        "PH": "7.437.00 DH",
+        "PFHT": "7.083.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11   MG",
+        "Forme": "COMPRIMES À LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5114",
+      "brand_name": "XELODA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "PP",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "1.983.00 DH",
+        "PH": "1.732.00 DH",
+        "PFHT": "1.650.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3081",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "519,00 DH",
+        "PH": "345,00 DH",
+        "PFHT": "328,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3082",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "115,60 DH",
+        "PH": "72,20 DH",
+        "PFHT": "68,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3083",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "276,00 DH",
+        "PH": "183,50 DH",
+        "PFHT": "174,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3084",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "583,00 DH",
+        "PH": "387,00 DH",
+        "PFHT": "369,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3085",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "129,70 DH",
+        "PH": "81,10 DH",
+        "PFHT": "77,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3086",
+      "brand_name": "XENETIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "IOBITRIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "317,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5115",
+      "brand_name": "XENICAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 42",
+        "PP / GN": "PP",
+        "Substance active": "ORLISTAT",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BOTTU",
+        "PPV": "510,00 DH",
+        "PH": "339,00 DH",
+        "PFHT": "323,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "5116",
+      "brand_name": "XENICAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "PP",
+        "Substance active": "ORLISTAT",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BOTTU",
+        "PPV": "926,00 DH",
+        "PH": "645,00 DH",
+        "PFHT": "614,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "3559",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "28,10 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3560",
+      "brand_name": "XENID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "25,20 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

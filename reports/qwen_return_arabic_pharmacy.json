@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-10-19T14:23:50.482703+00:00",
+  "mode": "live_chat_smoke",
+  "provider": "groq",
+  "requested_model": "qwen/qwen3.8-27b",
+  "text": "أعطني رقم هاتف صيدلية ابن نفيس في الرباط.",
+  "held_out_execution": "not_run",
+  "status": "stopped_provider_error",
+  "is_general_accuracy_measurement": false,
+  "error": {
+    "code": "provider_generation_failed",
+    "message": "Groq could not generate a schema-compliant interpretation. No output was accepted.",
+    "retryable": true,
+    "retry_after_seconds": null
+  },
+  "budget": {
+    "max_requests": 2,
+    "attempts_reserved": 2,
+    "total_attempts_reserved": 2
+  }
+}

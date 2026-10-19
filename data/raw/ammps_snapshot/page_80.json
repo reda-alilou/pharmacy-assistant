@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 80,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=80",
+  "fetched_at_utc": "2026-10-18T16:20:07.027151+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6347",
+      "brand_name": "CEDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3477",
+      "brand_name": "CEFALINE HAUTH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CAFEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "13,30 DH",
+        "PH": "8,30 DH",
+        "PFHT": "7,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "3907",
+      "brand_name": "CEFALOTINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON ET DE 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFALOTINE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "26,60 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "7360",
+      "brand_name": "CEFICO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "50,20 DH",
+        "PH": "31,30 DH",
+        "PFHT": "29,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7361",
+      "brand_name": "CEFICO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "87,30 DH",
+        "PH": "54,50 DH",
+        "PFHT": "51,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7362",
+      "brand_name": "CEFICO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "88,90 DH",
+        "PH": "55,60 DH",
+        "PFHT": "52,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELICULLE"
+      }
+    },
+    {
+      "source_record_id": "7363",
+      "brand_name": "CEFICO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "CEFIXIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "156,50 DH",
+        "PH": "97,80 DH",
+        "PFHT": "93,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELICULLE"
+      }
+    },
+    {
+      "source_record_id": "7354",
+      "brand_name": "CEFOTAXIME ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "7355",
+      "brand_name": "CEFOTAXIME ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "64,50 DH",
+        "PH": "40,30 DH",
+        "PFHT": "38,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "3478",
+      "brand_name": "CEFOTRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML ET DE 1 AMPOULE D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3479",
+      "brand_name": "CEFOTRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML ET DE 1 AMPOULE D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "30,80 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3480",
+      "brand_name": "CEFOTRIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10ML ET DE 1 AMPOULE D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9881",
+      "brand_name": "CEFTADINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON EN VERRE TRANSPARENT DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "1   G",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION OU PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9882",
+      "brand_name": "CEFTADINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "2   G",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION OU PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2027",
+      "brand_name": "CEFTRIAXONE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2028",
+      "brand_name": "CEFTRIAXONE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  3,5  ML",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE AVEC 1 AMPOULE DE 3,5ML"
+      }
+    },
+    {
+      "source_record_id": "2029",
+      "brand_name": "CEFTRIAXONE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "121,50 DH",
+        "PH": "75,90 DH",
+        "PFHT": "72,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6348",
+      "brand_name": "CEFTRIAXONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6349",
+      "brand_name": "CEFTRIAXONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  3,5  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6350",
+      "brand_name": "CEFTRIAXONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 226,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=226",
+  "fetched_at_utc": "2026-10-18T16:24:59.707155+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5779",
+      "brand_name": "INOPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "142,70 DH",
+        "PH": "89,20 DH",
+        "PFHT": "84,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7812",
+      "brand_name": "INOPRIL PLUS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE) // INDAPAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AXESS PHARMA",
+        "PPV": "79,00 DH",
+        "PH": "49,40 DH",
+        "PFHT": "47,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,625   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "7813",
+      "brand_name": "INOPRIL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE) // INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "92,00 DH",
+        "PH": "57,50 DH",
+        "PFHT": "54,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  1,25   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "7814",
+      "brand_name": "INOPRIL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE) // INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "142,70 DH",
+        "PH": "89,20 DH",
+        "PFHT": "84,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  2,5   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "941",
+      "brand_name": "INROS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "399,00 DH",
+        "PH": "265,00 DH",
+        "PFHT": "252,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "942",
+      "brand_name": "INROS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "158,90 DH",
+        "PH": "99,30 DH",
+        "PFHT": "94,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6722",
+      "brand_name": "INSER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "160,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7821",
+      "brand_name": "INSER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "30,40 DH",
+        "PH": "19,00 DH",
+        "PFHT": "18,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIMES ORODISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "7822",
+      "brand_name": "INSER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "76,30 DH",
+        "PH": "47,70 DH",
+        "PFHT": "45,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIMES ORODISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "7823",
+      "brand_name": "INSER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "125,20 DH",
+        "PH": "78,20 DH",
+        "PFHT": "74,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIMES ORODISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "7824",
+      "brand_name": "INSER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RISPERIDONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "205,00 DH",
+        "PH": "128,20 DH",
+        "PFHT": "122,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIMES ORODISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "3686",
+      "brand_name": "INSPRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "EPLERENONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "396,00 DH",
+        "PH": "263,00 DH",
+        "PFHT": "250,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3687",
+      "brand_name": "INSPRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "EPLERENONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "396,00 DH",
+        "PH": "263,00 DH",
+        "PFHT": "250,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2494",
+      "brand_name": "INSULATARD HM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "192,30 DH",
+        "PH": "120,20 DH",
+        "PFHT": "114,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2495",
+      "brand_name": "INSULATARD HM PENFILL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 CARTOUCHES 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "350,00 DH",
+        "PH": "232,00 DH",
+        "PFHT": "221,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5780",
+      "brand_name": "INSULET 30/70",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 CARTOUCHE DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5781",
+      "brand_name": "INSULET 30/70",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (INTERMEDIAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "260,00 DH",
+        "PH": "163,00 DH",
+        "PFHT": "155,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5782",
+      "brand_name": "INSULET MIX 30",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE BIPHASIQUE (INTERMEDIAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5783",
+      "brand_name": "INSULET N",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 CARTOUCHE DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5784",
+      "brand_name": "INSULET N",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (INTERMEDIAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "260,00 DH",
+        "PH": "163,00 DH",
+        "PFHT": "155,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    }
+  ]
+}

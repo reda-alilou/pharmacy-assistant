@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 441,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=441",
+  "fetched_at_utc": "2026-10-18T16:32:10.681861+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8080",
+      "brand_name": "TRAVIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRAVOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "101,40 DH",
+        "PH": "63,40 DH",
+        "PFHT": "60,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 UG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9393",
+      "brand_name": "TRAVOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON COMPTE - GOUTTES DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRAVOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "PHI",
+        "PPV": "85,10 DH",
+        "PH": "53,20 DH",
+        "PFHT": "50,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 µG  /  ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "7561",
+      "brand_name": "TRAZUVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "3.317.00 DH",
+        "PH": "3.003.00 DH",
+        "PFHT": "2.860.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7562",
+      "brand_name": "TRAZUVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 FLACON DE SOLVANT",
+        "PP / GN": "BS",
+        "Substance active": "TRASTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "8.917.00 DH",
+        "PH": "8.750.00 DH",
+        "PFHT": "8.350.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "440   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "739",
+      "brand_name": "TRE-ZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "69,20 DH",
+        "PH": "43,20 DH",
+        "PFHT": "41,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "740",
+      "brand_name": "TRE-ZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "120,50 DH",
+        "PH": "75,30 DH",
+        "PFHT": "71,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1103",
+      "brand_name": "TREMADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "34,10 DH",
+        "PH": "21,30 DH",
+        "PFHT": "20,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1104",
+      "brand_name": "TREMADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "26,20 DH",
+        "PH": "16,40 DH",
+        "PFHT": "15,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1105",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "24,40 DH",
+        "PH": "15,20 DH",
+        "PFHT": "14,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1106",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "42,90 DH",
+        "PH": "26,80 DH",
+        "PFHT": "25,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1107",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "36,50 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1108",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "64,30 DH",
+        "PH": "40,20 DH",
+        "PFHT": "38,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1109",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "1110",
+      "brand_name": "TREMADOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "TRAMADOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "70,40 DH",
+        "PH": "44,00 DH",
+        "PFHT": "41,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "MICROGRANULES EN GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7989",
+      "brand_name": "TREMFYA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE CONTENANT UN STYLO PRE-REMPLI DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "GUSELKUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "19.815.00 DH",
+        "PH": "19.434.00 DH",
+        "PFHT": "19.034.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "8899",
+      "brand_name": "TREMFYA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "GUSELKUMAB",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "7177",
+      "brand_name": "TRESIBA FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS PRE REMPLIS DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE DEGLUDEC (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.040.00 DH",
+        "PH": "761,00 DH",
+        "PFHT": "725,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7518",
+      "brand_name": "TRESIBA FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE DEGLUDEC (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "243,00 DH",
+        "PH": "152,30 DH",
+        "PFHT": "145,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "8900",
+      "brand_name": "TRESIBA FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE DEGLUDEC",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "8901",
+      "brand_name": "TRESIBA FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE DEGLUDEC",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    }
+  ]
+}

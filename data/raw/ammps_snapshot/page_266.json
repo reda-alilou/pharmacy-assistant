@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 266,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=266",
+  "fetched_at_utc": "2026-10-18T16:26:19.994602+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3176",
+      "brand_name": "M-M-R II",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "POUDRE EN FLACON ET SOLVANT EN FLACON",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE, VIVANT ATTENUE DERIVE DE LA SOUCHE EDMONSTON ENDERS )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "157,10 DH",
+        "PH": "98,20 DH",
+        "PFHT": "93,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8607",
+      "brand_name": "MAALOX BALLONEMENT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "-",
+        "Substance active": "HYDROXYDE MAGHESIUM // OXYDE ALUMINIUM // DIMETICONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "5340",
+      "brand_name": "MAALOX MAUX D'ESTOMAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYDE D'ALUMINIUM // HYDROXYDE DE MAGNESIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "29,90 DH",
+        "PH": "18,70 DH",
+        "PFHT": "17,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN SACHET-DOSE DE 4,3 ML"
+      }
+    },
+    {
+      "source_record_id": "5341",
+      "brand_name": "MAALOX MAUX D'ESTOMAC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "NA",
+        "Substance active": "ALUMINIUM (HYDROXYDE) // MAGNESIUM (HYDROXYDE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "25,90 DH",
+        "PH": "16,10 DH",
+        "PFHT": "14,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G  /  3,5 G",
+        "Forme": "SUSPENSION"
+      }
+    },
+    {
+      "source_record_id": "5342",
+      "brand_name": "MAALOX MAUX D'ESTOMAC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "NA",
+        "Substance active": "ALUMINIUM (HYDROXYDE) // MAGNESIUM (HYDROXYDE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "9,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5079",
+      "brand_name": "MABTHERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "RITUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "4.208.00 DH",
+        "PH": "3.920.00 DH",
+        "PFHT": "3.734.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  10  ML",
+        "Forme": "SOLUTION A DIULUER POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "5080",
+      "brand_name": "MABTHERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "RITUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "9.735.00 DH",
+        "PH": "9.552.00 DH",
+        "PFHT": "9.152.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50  ML",
+        "Forme": "SOLUTION A DIULUER POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "7081",
+      "brand_name": "MABTHERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "RITUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "16.778.00 DH",
+        "PH": "16.457.00 DH",
+        "PFHT": "16.057.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1400   MG  /  11,7  ML",
+        "Forme": "SOLUTION POUR INJECTION SC"
+      }
+    },
+    {
+      "source_record_id": "7792",
+      "brand_name": "MABTHERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "RITUXIMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "18.146.00 DH",
+        "PH": "17.798.00 DH",
+        "PFHT": "17.398.41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1600   MG  /  13,4  ML",
+        "Forme": "SOLUTION POUR INJECTION SC"
+      }
+    },
+    {
+      "source_record_id": "4050",
+      "brand_name": "MACROCID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ERYTHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "77,50 DH",
+        "PH": "48,40 DH",
+        "PFHT": "46,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4051",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4052",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4053",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "68,20 DH",
+        "PH": "42,60 DH",
+        "PFHT": "40,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4054",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "80,80 DH",
+        "PH": "50,50 DH",
+        "PFHT": "48,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4055",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "122,90 DH",
+        "PH": "76,80 DH",
+        "PFHT": "73,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4056",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "163,10 DH",
+        "PH": "101,90 DH",
+        "PFHT": "97,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4057",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "58,90 DH",
+        "PH": "36,80 DH",
+        "PFHT": "35,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7929",
+      "brand_name": "MACROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 37,5ML DE POUDRE RECONSTITUEE",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE (DIHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200  MG / 5 ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "406",
+      "brand_name": "MADECASSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT TITRE DE CENTELLA ASIATICA",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "22,40 DH",
+        "PH": "14,00 DH",
+        "PFHT": "13,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "ONGUENT"
+      }
+    },
+    {
+      "source_record_id": "407",
+      "brand_name": "MADECASSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT TITRE DE CENTELLA ASIATICA",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "48,30 DH",
+        "PH": "30,20 DH",
+        "PFHT": "28,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "ONGUENT"
+      }
+    }
+  ]
+}

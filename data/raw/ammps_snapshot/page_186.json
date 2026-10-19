@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 186,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=186",
+  "fetched_at_utc": "2026-10-18T16:23:39.530446+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6690",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "267,00 DH",
+        "PH": "167,20 DH",
+        "PFHT": "159,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11400 UI AXA  /  0,6  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6691",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "329,00 DH",
+        "PH": "218,00 DH",
+        "PFHT": "208,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15200 UI AXA  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6692",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "407,00 DH",
+        "PH": "270,00 DH",
+        "PFHT": "258,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "19000 UI AXA  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "8469",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11400 UI AXA  /  0,6  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8470",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15200 UI AXA  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8471",
+      "brand_name": "FRAXODI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "19000 UI AXA  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7034",
+      "brand_name": "FRESOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "4,5 L DE LA SOLUTION CONDITIONNE DANS UN BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM X 2H2O // CHLORURE DE MAGNESIUM x 6H2O // ACIDE ACETIQUE // GLUCOSE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "FRESENIUS",
+        "PPV": "63,20 DH",
+        "PH": "39,50 DH",
+        "PFHT": "37,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE"
+      }
+    },
+    {
+      "source_record_id": "8472",
+      "brand_name": "FRESOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BIDON DE 10 LITRES",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM X 2H2O // CHLORURE DE MAGNESIUM x 6H2O // ACIDE ACETIQUE // GLUCOSE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "FRESENIUS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE 9 LITRES DE LA SOLUTION CODITIONNES"
+      }
+    },
+    {
+      "source_record_id": "8473",
+      "brand_name": "FRESOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM X 2H2O // CHLORURE DE MAGNESIUM x 6H2O // ACIDE ACETIQUE // GLUCOSE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "FRESENIUS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE ACIDE"
+      }
+    },
+    {
+      "source_record_id": "4687",
+      "brand_name": "FUCIDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "37,10 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4688",
+      "brand_name": "FUCIDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "37,10 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "4689",
+      "brand_name": "FUCIDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "125,70 DH",
+        "PH": "78,60 DH",
+        "PFHT": "74,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4690",
+      "brand_name": "FUCIDINE ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "210,00 DH",
+        "PH": "131,70 DH",
+        "PFHT": "125,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4691",
+      "brand_name": "FUCITHALMIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "TUBE DE 3 G",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "34,70 DH",
+        "PH": "21,70 DH",
+        "PFHT": "20,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "9010",
+      "brand_name": "FUDERM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN TUBE DE 15G",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE FUSIDIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.002",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "9011",
+      "brand_name": "FUDERM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN TUBE DE 15G",
+        "PP / GN": "GN",
+        "Substance active": "FUSIDATE DE SODIUM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.002",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "8021",
+      "brand_name": "FULPHILA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE REMPLIE DE 0.6 ML",
+        "PP / GN": "BS",
+        "Substance active": "PEGFILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "6.742.00 DH",
+        "PH": "6.528.00 DH",
+        "PFHT": "6.217.70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /  0.6  ML",
+        "Forme": "SOLUTION INJECTABLE POUR INJECTION SOUS-CUTANEE DE 0,6 ML"
+      }
+    },
+    {
+      "source_record_id": "8474",
+      "brand_name": "FULVESTRANT EVER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PRÉREMPLIES ET 2 AIGUILLES PROTÉGÉES",
+        "PP / GN": "GN",
+        "Substance active": "FULVESTRANT",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.893.00 DH",
+        "PH": "2.567.00 DH",
+        "PFHT": "2.445.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIMÉ À LIBÉRATION PROLOGEÉ"
+      }
+    },
+    {
+      "source_record_id": "6417",
+      "brand_name": "FUMAFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "FER (FUMARATE FERREUX)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "23,40 DH",
+        "PH": "14,60 DH",
+        "PFHT": "13,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "66   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9174",
+      "brand_name": "FUMETIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "DIMETHYL FUMARATE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    }
+  ]
+}

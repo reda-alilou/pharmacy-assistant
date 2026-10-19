@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 64,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=64",
+  "fetched_at_utc": "2026-10-18T16:19:34.901338+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9596",
+      "brand_name": "BISOPROLOL NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "BISOPROLOL (FUMARATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "23,20 DH",
+        "PH": "14,50 DH",
+        "PFHT": "13,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "9597",
+      "brand_name": "BISOPROLOL NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "BISOPROLOL (FUMARATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "39,80 DH",
+        "PH": "24,90 DH",
+        "PFHT": "23,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "9598",
+      "brand_name": "BISOPROLOL NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "BISOPROLOL (FUMARATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "31,90 DH",
+        "PH": "20,00 DH",
+        "PFHT": "19,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "9599",
+      "brand_name": "BISOPROLOL NOVOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "BISOPROLOL (FUMARATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "53,80 DH",
+        "PH": "33,60 DH",
+        "PFHT": "32,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "COMPRIMES PELLICULES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "523",
+      "brand_name": "BISPIRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "70,50 DH",
+        "PH": "44,10 DH",
+        "PFHT": "41,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI  /  250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8256",
+      "brand_name": "BITOGYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI  /  250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5559",
+      "brand_name": "BIVARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 140",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.779.00 DH",
+        "PH": "1.522.00 DH",
+        "PFHT": "1.450.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5560",
+      "brand_name": "BIVARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 168",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.963.00 DH",
+        "PH": "1.712.00 DH",
+        "PFHT": "1.631.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5561",
+      "brand_name": "BIVARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.168.00 DH",
+        "PH": "893,00 DH",
+        "PFHT": "851,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1350",
+      "brand_name": "BK-CID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "144,10 DH",
+        "PH": "90,00 DH",
+        "PFHT": "85,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1351",
+      "brand_name": "BK-CID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIFAMPICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "86,40 DH",
+        "PH": "54,00 DH",
+        "PFHT": "51,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3895",
+      "brand_name": "BLAISHAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LOPERAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3896",
+      "brand_name": "BLAISHAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LOPERAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2360",
+      "brand_name": "BLEOMYCINE BELLON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "BLEOMYCINE (SULFATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "345,00 DH",
+        "PH": "229,00 DH",
+        "PFHT": "218,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "POUDRE POUR SOUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9733",
+      "brand_name": "BLEOSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "BLEOMYCINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "279,00 DH",
+        "PH": "185,80 DH",
+        "PFHT": "177,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 UNITES",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "2728",
+      "brand_name": "BLEU LAITER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "METHYLTHIONIMIUM (HYDROXYDE) // NAPHAZOLINE (NITRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "10,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,020 G  /  0,05 G",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7313",
+      "brand_name": "BLINCYTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE DE 4ML ET UN FLACON À DOSE UNIQUE DE STABILISANT DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "BLINATUMOMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "25.574.00 DH",
+        "PH": "25.081.00 DH",
+        "PFHT": "24.681.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35 µG",
+        "Forme": "POUDRE LYOPHILISEE STERILE"
+      }
+    },
+    {
+      "source_record_id": "2140",
+      "brand_name": "BLISSEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "ESTRIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VERSALYA",
+        "PPV": "91,60 DH",
+        "PH": "57,20 DH",
+        "PFHT": "54,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  G",
+        "Forme": "GEL VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "3466",
+      "brand_name": "BLUCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE",
+        "PP / GN": "GN",
+        "Substance active": "BLEOMYCINE (SULFATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "279,00 DH",
+        "PH": "185,80 DH",
+        "PFHT": "177,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5058",
+      "brand_name": "BONDRONAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 6 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE IBANDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.718.00 DH",
+        "PH": "2.386.00 DH",
+        "PFHT": "2.273.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /  6  ML",
+        "Forme": "CONCENTRE DE SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+Executing <Task finished name='Task-2' coro=<BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:127> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.109 seconds
+Executing <Task finished name='Task-7' coro=<BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:163> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 3.375 seconds
+Executing <Task finished name='Task-68' coro=<ChatServiceTests.test_unknown_incomplete_and_unsupported_requests() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_chat.py:174> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.219 seconds
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1988649201840'> | Ctrl+C to stop
+Reusing the running FastAPI service; it will be left running on exit.
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1988649495216'> | Ctrl+C to stop
+2026-10-19 10:16:47.708 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 10:16:50.622 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 10:16:51.577 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 10:16:52.159 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-19 10:16:52.470 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-94' coro=<ResumeTests.test_existing_evidence_is_never_overwritten_by_accident() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:94> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.203 seconds
+Executing <Task finished name='Task-99' coro=<ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:132> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.172 seconds
+Executing <Task finished name='Task-109' coro=<ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:172> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.219 seconds
+Executing <Task finished name='Task-114' coro=<ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:112> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.234 seconds
+Executing <Task finished name='Task-119' coro=<ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:123> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.313 seconds
+Executing <Task finished name='Task-129' coro=<ResumeTests.test_three_invocations_complete_without_repeating_saved_cases() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:81> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.438 seconds
+Executing <Task finished name='Task-134' coro=<ResumeTests.test_zero_budget_sends_nothing_and_is_resumable() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_evaluation_resume.py:72> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.125 seconds
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_permission_denied attempts=1
+Interpretation failed provider=gemini code=provider_model_unavailable attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed provider=gemini code=provider_timeout attempts=2
+Interpretation failed provider=gemini code=provider_unavailable attempts=2
+Interpretation failed provider=gemini code=provider_unreachable attempts=2
+Interpretation failed provider=gemini code=provider_timeout attempts=2
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+Interpretation failed code=provider_rate_limited attempts=1
+Interpretation failed code=provider_authentication_failed attempts=1
+Interpretation failed code=provider_permission_denied attempts=1
+Interpretation failed code=provider_request_rejected attempts=1
+Interpretation failed code=provider_rate_limited attempts=1
+Interpretation failed code=provider_unreachable attempts=2
+Interpretation failed code=provider_timeout attempts=2
+Interpretation failed code=provider_timeout attempts=2
+Interpretation failed code=provider_generation_failed attempts=2
+Interpretation failed code=provider_unavailable attempts=2
+2026-10-19 10:17:19.254 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Executing <Task finished name='Task-263' coro=<RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_matching_improvements.py:119> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.281 seconds
+Executing <Task finished name='Task-273' coro=<RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_matching_improvements.py:161> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.141 seconds
+Executing <Task finished name='Task-277' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 3.375 seconds
+Executing <Task finished name='Task-283' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.422 seconds
+Executing <Task finished name='Task-289' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 3.250 seconds
+Executing <Task finished name='Task-295' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.172 seconds
+Executing <Task finished name='Task-301' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.984 seconds
+Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_authentication_failed attempts=1
+Interpretation failed provider=opencode code=provider_payment_required attempts=1
+Interpretation failed provider=opencode code=provider_permission_denied attempts=1
+Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_rate_limited attempts=1
+Interpretation failed provider=opencode code=provider_free_tier_restricted attempts=1
+Interpretation failed provider=opencode code=provider_timeout attempts=2
+Interpretation failed provider=opencode code=provider_generation_failed attempts=2
+Interpretation failed provider=opencode code=provider_unreachable attempts=2
+Interpretation failed provider=opencode code=provider_timeout attempts=2
+Interpretation failed provider=gemini code=provider_daily_quota_exhausted attempts=1
+----------------------------------------------------------------------
+Ran 147 tests in 81.315s
+
+OK

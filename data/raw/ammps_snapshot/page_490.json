@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 490,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=490",
+  "fetched_at_utc": "2026-10-18T16:33:48.948500+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6293",
+      "brand_name": "ZEPTOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6294",
+      "brand_name": "ZEPTOL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARBAMAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7523",
+      "brand_name": "ZERBAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "CEFTOLOZANE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MSD",
+        "PPV": "9.920.00 DH",
+        "PH": "9.733.00 DH",
+        "PFHT": "9.333.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  0,5 G",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3094",
+      "brand_name": "ZERIT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "405,00 DH",
+        "PH": "269,00 DH",
+        "PFHT": "256,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "3095",
+      "brand_name": "ZERIT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "1.991.00 DH",
+        "PH": "1.741.00 DH",
+        "PFHT": "1.658.48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3096",
+      "brand_name": "ZERIT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "2.257.00 DH",
+        "PH": "1.911.00 DH",
+        "PFHT": "1.820.67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3097",
+      "brand_name": "ZERIT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 60",
+        "PP / GN": "PP",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "2.073.00 DH",
+        "PH": "1.825.00 DH",
+        "PFHT": "1.738.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3098",
+      "brand_name": "ZERIT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 60",
+        "PP / GN": "PP",
+        "Substance active": "STAVUDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "2.261.00 DH",
+        "PH": "1.916.00 DH",
+        "PFHT": "1.825.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1190",
+      "brand_name": "ZERKA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "25,20 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1191",
+      "brand_name": "ZERKA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "85,80 DH",
+        "PH": "53,60 DH",
+        "PFHT": "51,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7930",
+      "brand_name": "ZEVTERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "CEFTOBIPROLE MEDOCARIL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.948.00 DH",
+        "PH": "4.682.00 DH",
+        "PFHT": "4.459.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "6160",
+      "brand_name": "ZIACAINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE 50 CARTOUCHES DE 1,8 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "277,00 DH",
+        "PH": "184,60 DH",
+        "PFHT": "175,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "36   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6161",
+      "brand_name": "ZIACAINE NORADRENALINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50 CARTOUCHES DE 1,8 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // NORADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "277,00 DH",
+        "PH": "184,60 DH",
+        "PFHT": "175,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML AU 1  /  25000",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1998",
+      "brand_name": "ZIAGEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 240ML",
+        "PP / GN": "PP",
+        "Substance active": "ABACAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "1.017.00 DH",
+        "PH": "738,00 DH",
+        "PFHT": "703,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1999",
+      "brand_name": "ZIAGEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "ABACAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "2.867.00 DH",
+        "PH": "2.540.00 DH",
+        "PFHT": "2.419.05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6877",
+      "brand_name": "ZIDIME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "87,80 DH",
+        "PH": "54,90 DH",
+        "PFHT": "52,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE IM/IV"
+      }
+    },
+    {
+      "source_record_id": "6878",
+      "brand_name": "ZIDIME",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "172,60 DH",
+        "PH": "107,90 DH",
+        "PFHT": "102,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "1192",
+      "brand_name": "ZIDOVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "226,00 DH",
+        "PH": "141,70 DH",
+        "PFHT": "135,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1193",
+      "brand_name": "ZIDOVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "391,00 DH",
+        "PH": "260,00 DH",
+        "PFHT": "247,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1194",
+      "brand_name": "ZIDOVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "90,70 DH",
+        "PH": "56,70 DH",
+        "PFHT": "53,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  5  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

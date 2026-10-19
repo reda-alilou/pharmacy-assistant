@@ -1,0 +1,59 @@
+{
+  "health": {
+    "status": "ok",
+    "catalog_scope": "partial",
+    "catalog_dataset": "ammps_medications_enriched.jsonl",
+    "catalog_record_count": 9936,
+    "catalog_brand_count": 4087,
+    "interpretation_configured": false,
+    "interpretation_model": "qwen/qwen3.8-27b",
+    "interpretation_provider": "groq"
+  },
+  "abip_prices": {
+    "9079": 268.0,
+    "9080": 372.0
+  },
+  "new_acol_enrichment": {
+    "source_record_id": "4262",
+    "atc_code": "A10BA02",
+    "reimbursement_status": "yes",
+    "ppv_price_mad": 18.3
+  },
+  "abip_followup_total": "744.00",
+  "tour_hassan": {
+    "status": "matches",
+    "applied_city": "Rabat",
+    "city_defaulted": false,
+    "result_count": 1,
+    "pharmacies": [
+      {
+        "pharmacy_id": "saydalia:4286",
+        "name": "Pharmacie de la Tour Hassan",
+        "city": "Rabat",
+        "address": "1, pl. de l' Unité Africaine Rabat",
+        "phone": "0537720250",
+        "latitude": 34.0178836,
+        "longitude": -6.8291889,
+        "opening_information": null,
+        "source": "saydalia.ma",
+        "source_url": "https://saydalia.ma/fr/",
+        "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.835000&limit=35",
+        "fetched_at_utc": "2026-10-19T17:46:01.597758+00:00",
+        "directory_scope": "systematic_city_map_grid"
+      }
+    ],
+    "scope": "partial_rabat_directory",
+    "ordering": "name_not_distance",
+    "stock_status": "unknown",
+    "opening_hours_status": "unknown",
+    "duty_status": "unverified",
+    "match_method": "exact_name",
+    "name_alias": null,
+    "results_truncated": false
+  },
+  "pharmacy_records": 327,
+  "passed": true,
+  "inference_mode": "mocked extraction; real retrieval and API",
+  "live_provider_requests": 0,
+  "services_started": false
+}

@@ -1,0 +1,156 @@
+{
+  "generated_at_utc": "2026-10-19T11:27:42.464986+00:00",
+  "step": "improvement_step_4_conversation_context",
+  "status": "offline_and_two_turn_live_verified_awaiting_user_validation",
+  "offline_backend_before": {
+    "cases": 40,
+    "passed_cases": 28,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 28
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 0
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 12
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "offline_backend_after": {
+    "cases": 40,
+    "passed_cases": 32,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 28
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 4
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 4
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "incorrect_automatic_selections": 0,
+  "remaining_failing_case_ids_by_component": {
+    "answer": [
+      "dev-mixed-01",
+      "dev-ar-02",
+      "dev-fr-04"
+    ],
+    "pharmacy": [
+      "dev-ar-05"
+    ],
+    "conversation": [
+      "dev-fr-10",
+      "dev-ar-10",
+      "dev-darija-10",
+      "dev-mixed-10"
+    ]
+  },
+  "measurement": "Backend development checks use frozen annotated extraction; not general model accuracy.",
+  "offline_tests": {
+    "unique_tests_verified": 168,
+    "failed": 0,
+    "new_conversation_and_smoke_tests": 21,
+    "runs": [
+      {
+        "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+        "passed": 166,
+        "seconds": 122.401,
+        "log": "reports/step4_offline_tests.log"
+      },
+      {
+        "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_conversation_smoke.py -q",
+        "passed": 2,
+        "seconds": 1.071,
+        "log": "reports/step4_smoke_orchestration_tests.log"
+      },
+      {
+        "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -p test_conversation.py -q",
+        "passed": 19,
+        "seconds": 7.565,
+        "log": "reports/step4_context_tests_final.log",
+        "purpose": "Final conversation checks, including interleaved sessions; repeats 19 tests included in the 166-test run."
+      }
+    ]
+  },
+  "live_smoke": {
+    "status": "passed",
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "step4-fragments-v1",
+    "completed_turns": 2,
+    "budget": {
+      "max_requests": 2,
+      "attempts_reserved": 2,
+      "total_attempts_reserved": 2
+    },
+    "report": "reports/conversation_live_step4.json",
+    "new_key_needed": false,
+    "latencies_include_local_gate_wait": true
+  },
+  "session_contract": {
+    "request": "text + session_id, or session_id + reference_index for an offered reference choice",
+    "ttl_seconds": 900,
+    "maximum_snapshots": 128,
+    "storage": "memory_only",
+    "raw_extraction": "interpretation",
+    "effective_retrieval": "context.effective_interpretation",
+    "inheritance_audit": "context.inherited_fields",
+    "choice_actions_extra_provider_requests": 0
+  },
+  "annotation_file_sha256": {
+    "development.json": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+    "held_out.json": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9"
+  },
+  "annotations_unchanged": true,
+  "held_out_model_calls": 0,
+  "held_out_backend_cases_executed": 0,
+  "catalogue_unchanged_from_annotation_snapshot": true,
+  "feature_source_sha256": {
+    "chat.py": "18ea8ba899b785942dae0bf455dc00ab49a87ff3fbed31f40dd892a64ae49acd",
+    "chat_models.py": "4bad69531fec978b5b5e0a78c1f539a25d97592f9ecba7bae4b7176cb5e978ef",
+    "conversation.py": "9c9ee67dfbf760eb13fccfa92d88282e03e7b6b0cfa1a7d6648c3c7d4ff5587c",
+    "demo.py": "aa8852220dd69126eaaf94a96427daf75c50e517fccae2f393822e54157db350",
+    "demo_client.py": "2206fc9fbce0568c1fbdf011bc2dbdecbebd2ba254069136b2f212ab9553d5ec",
+    "nlu.py": "1d5a1911a879c3bafc384f97aa0b8b1fd0a0796d08ba839ed7dc59b65714a13e",
+    "evaluate_baseline.py": "5b8b7e065fea3f50725844c543cb72f04de56fb27fa7db893c7eabff91c8d730",
+    "evaluate_conversation_smoke.py": "99a39e46f6cd0bac57eeb712036c0c2f18f2b06dc2b6c799e51060356e8a3acd"
+  },
+  "prompt_modified": true,
+  "prompt_version": "step4-fragments-v1",
+  "old_live_report_resume": "Requires a new filename because the prompt fingerprint changed.",
+  "env_modified": false,
+  "sources_scraped": false,
+  "services_started_or_stopped": false,
+  "limitations": [
+    "Four contextual outcomes still lack quantity totals, which belong to improvement Step 5.",
+    "Typed follow-ups normally require inference and respect quota spacing.",
+    "Ordinal matching recognizes a small reviewed set of complete phrases; ambiguous references are not automatically selected.",
+    "Server restart/expiry/eviction loses context; UI reset drops the token.",
+    "One two-turn live conversation is not a multilingual accuracy evaluation; the full development live baseline remains incomplete."
+  ],
+  "next_step": "Stop for user validation before quantity-total calculation."
+}

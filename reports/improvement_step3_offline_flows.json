@@ -1,0 +1,1580 @@
+{
+  "generated_at_utc": "2026-10-19T10:15:45.229583+00:00",
+  "mode": "offline_mocked_interpretation_real_catalogue_and_chat_service",
+  "live_provider_requests": 0,
+  "is_model_accuracy_measurement": false,
+  "arabic_amoxicilline": {
+    "steps": [
+      {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أموكسيسيلين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أموكسيسيلين",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "ambiguous",
+            "match_method": "exact_substance",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "3842",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 12",
+                "commercialization_status": "Commercialisé AO",
+                "ppv_price_mad": 50.0,
+                "hospital_price_mad": 31.3,
+                "source": "AMMPS",
+                "source_page": 14,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 29.79,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4122",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 24",
+                "commercialization_status": "Commercialisé AO / Export",
+                "ppv_price_mad": 90.4,
+                "hospital_price_mad": 56.5,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 53.83,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4116",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME DISPERSIBLE",
+                "presentation": "BOITE DE 24",
+                "commercialization_status": "Commercialisé AO / Export",
+                "ppv_price_mad": 90.4,
+                "hospital_price_mad": 56.5,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 53.83,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "3841",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "SACHET",
+                "presentation": "BOITE DE 14",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 59.9,
+                "hospital_price_mad": 37.5,
+                "source": "AMMPS",
+                "source_page": 14,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 35.68,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4120",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "500 MG / 5 ML",
+                "form": "POUDRE POUR SUSPENSION BUVABLE",
+                "presentation": "BOITE DE 2 FLACONS DE 60 ML",
+                "commercialization_status": "Commercialisé",
+                "ppv_price_mad": 54.4,
+                "hospital_price_mad": 34.0,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 32.38,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 148,
+            "candidates_truncated": true,
+            "stock_status": "unknown",
+            "clarification": {
+              "kind": "refine_search",
+              "field": "strength",
+              "options": [
+                {
+                  "value": "1 G",
+                  "candidate_count": 28
+                },
+                {
+                  "value": "1 G / ML",
+                  "candidate_count": 7
+                },
+                {
+                  "value": "1000 MG (IM)",
+                  "candidate_count": 1
+                },
+                {
+                  "value": "125 MG",
+                  "candidate_count": 16
+                },
+                {
+                  "value": "2 G",
+                  "candidate_count": 2
+                },
+                {
+                  "value": "2000 MG (IM)",
+                  "candidate_count": 1
+                },
+                {
+                  "value": "250 MG",
+                  "candidate_count": 34
+                },
+                {
+                  "value": "250 MG / 5 ML",
+                  "candidate_count": 1
+                },
+                {
+                  "value": "500 MG",
+                  "candidate_count": 44
+                },
+                {
+                  "value": "500 MG / 5 ML",
+                  "candidate_count": 9
+                },
+                {
+                  "value": "500 MG / ML",
+                  "candidate_count": 5
+                }
+              ]
+            },
+            "conflicting_filters": [],
+            "applied_refinements": {},
+            "name_alias": "AMOXICILLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": 5
+          }
+        ],
+        "pharmacy": null,
+        "answer": "أموكسيسيلين: Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 1 G; 1 G / ML; 1000 MG (IM); 125 MG; 2 G; 2000 MG (IM); 250 MG; 250 MG / 5 ML; …\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+            "fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+            "record_ids": [
+              "3842",
+              "3841"
+            ]
+          },
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+            "fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+            "record_ids": [
+              "4122",
+              "4116",
+              "4120"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": "4JKskhB8yoUpojeQ9E1XI45o_CJkud3y1cFGB0vCI8I",
+        "continuation_expires_at_utc": "2026-10-19T10:30:45.184342+00:00",
+        "catalog_scope": "partial"
+      },
+      {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أموكسيسيلين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أموكسيسيلين",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "ambiguous",
+            "match_method": "exact_substance",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "3842",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 12",
+                "commercialization_status": "Commercialisé AO",
+                "ppv_price_mad": 50.0,
+                "hospital_price_mad": 31.3,
+                "source": "AMMPS",
+                "source_page": 14,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 29.79,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4122",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 24",
+                "commercialization_status": "Commercialisé AO / Export",
+                "ppv_price_mad": 90.4,
+                "hospital_price_mad": 56.5,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 53.83,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4116",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME DISPERSIBLE",
+                "presentation": "BOITE DE 24",
+                "commercialization_status": "Commercialisé AO / Export",
+                "ppv_price_mad": 90.4,
+                "hospital_price_mad": 56.5,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 53.83,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "3841",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "SACHET",
+                "presentation": "BOITE DE 14",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 59.9,
+                "hospital_price_mad": 37.5,
+                "source": "AMMPS",
+                "source_page": 14,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 35.68,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "5123",
+                "brand_name": "AMOXICILLINE SP",
+                "active_substance": "AMOXICILLINE",
+                "epi": "AMANYS PHARMA",
+                "dosage": "1 G",
+                "form": "COMPRIME DISPERSIBLE",
+                "presentation": "BOITE DE 12",
+                "commercialization_status": "Commercialisé",
+                "ppv_price_mad": 51.4,
+                "hospital_price_mad": 32.1,
+                "source": "AMMPS",
+                "source_page": 25,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=25",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 30.59,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=25",
+                "source_fetched_at_utc": "2026-10-18T16:18:16.854541+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 28,
+            "candidates_truncated": true,
+            "stock_status": "unknown",
+            "clarification": {
+              "kind": "refine_search",
+              "field": "form",
+              "options": [
+                {
+                  "value": "COMPRIME",
+                  "candidate_count": 3
+                },
+                {
+                  "value": "COMPRIME DISPERSIBLE",
+                  "candidate_count": 22
+                },
+                {
+                  "value": "POUDRE ET SOLVANT POUR PREPARATION INJECTABLE",
+                  "candidate_count": 2
+                },
+                {
+                  "value": "SACHET",
+                  "candidate_count": 1
+                }
+              ]
+            },
+            "conflicting_filters": [],
+            "applied_refinements": {
+              "strength": "1 G"
+            },
+            "name_alias": "AMOXICILLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": 5
+          }
+        ],
+        "pharmacy": null,
+        "answer": "أموكسيسيلين: Quelle forme recherchez-vous ?\n\nValeurs enregistrées: COMPRIME; COMPRIME DISPERSIBLE; POUDRE ET SOLVANT POUR PREPARATION INJECTABLE; SACHET\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+            "fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+            "record_ids": [
+              "3842",
+              "3841"
+            ]
+          },
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+            "fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+            "record_ids": [
+              "4122",
+              "4116"
+            ]
+          },
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=25",
+            "fetched_at_utc": "2026-10-18T16:18:16.854541+00:00",
+            "record_ids": [
+              "5123"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": "1U-b2N_gUBB7rsRGzA729t5aeYyqX_CXvUAvyaovLPA",
+        "continuation_expires_at_utc": "2026-10-19T10:30:45.223827+00:00",
+        "catalog_scope": "partial"
+      },
+      {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أموكسيسيلين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أموكسيسيلين",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "ambiguous",
+            "match_method": "exact_substance",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "3842",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 12",
+                "commercialization_status": "Commercialisé AO",
+                "ppv_price_mad": 50.0,
+                "hospital_price_mad": 31.3,
+                "source": "AMMPS",
+                "source_page": 14,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 29.79,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+                "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4122",
+                "brand_name": "ALFAMOX",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 24",
+                "commercialization_status": "Commercialisé AO / Export",
+                "ppv_price_mad": 90.4,
+                "hospital_price_mad": 56.5,
+                "source": "AMMPS",
+                "source_page": 15,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 53.83,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+                "source_fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "4179",
+                "brand_name": "STREPTOCID",
+                "active_substance": "AMOXICILLINE",
+                "epi": "PHARMA 5",
+                "dosage": "1 G",
+                "form": "COMPRIME",
+                "presentation": "BOITE DE 12",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 51.4,
+                "hospital_price_mad": 32.1,
+                "source": "AMMPS",
+                "source_page": 414,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=414",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 30.59,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=414",
+                "source_fetched_at_utc": "2026-10-18T16:31:16.841397+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 3,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": {
+              "kind": "choose_record",
+              "field": null,
+              "options": []
+            },
+            "conflicting_filters": [],
+            "applied_refinements": {
+              "strength": "1 G",
+              "form": "COMPRIME"
+            },
+            "name_alias": "AMOXICILLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": null
+          }
+        ],
+        "pharmacy": null,
+        "answer": "أموكسيسيلين: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+            "fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+            "record_ids": [
+              "3842"
+            ]
+          },
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=15",
+            "fetched_at_utc": "2026-10-18T16:17:56.851148+00:00",
+            "record_ids": [
+              "4122"
+            ]
+          },
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=414",
+            "fetched_at_utc": "2026-10-18T16:31:16.841397+00:00",
+            "record_ids": [
+              "4179"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": "Ow5rCf4Pt52X8sZJjJ1R69lEye35ZJllkivrKQ0HNqU",
+        "continuation_expires_at_utc": "2026-10-19T10:30:45.227835+00:00",
+        "catalog_scope": "partial"
+      },
+      {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "أموكسيسيلين",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "أموكسيسيلين",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "user_selection",
+            "medication": {
+              "source_record_id": "3842",
+              "brand_name": "ALFAMOX",
+              "active_substance": "AMOXICILLINE",
+              "epi": "PHARMA 5",
+              "dosage": "1 G",
+              "form": "COMPRIME",
+              "presentation": "BOITE DE 12",
+              "commercialization_status": "Commercialisé AO",
+              "ppv_price_mad": 50.0,
+              "hospital_price_mad": 31.3,
+              "source": "AMMPS",
+              "source_page": 14,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "INFECTIOLOGIE-PARASITOLOGIE",
+              "pp_gn_raw": "GN",
+              "pfht_price_mad": 29.79,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+              "source_fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [],
+            "applied_refinements": {
+              "strength": "1 G",
+              "form": "COMPRIME"
+            },
+            "name_alias": "AMOXICILLINE",
+            "candidate_offset": 0,
+            "next_candidate_offset": null
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ALFAMOX — 1 G — COMPRIME — BOITE DE 12\nPrix public enregistré: 50.00 MAD.\nStatut de commercialisation enregistré: Commercialisé AO.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=14",
+            "fetched_at_utc": "2026-10-18T16:17:54.828708+00:00",
+            "record_ids": [
+              "3842"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      }
+    ],
+    "interpreter_calls": 1
+  },
+  "abip_explicit_correction": {
+    "steps": [
+      {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "5mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ABIP",
+              "strength": "5mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "filters_not_matched",
+            "match_method": "exact_brand",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "9079",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 20 COMPRIMES PELLICULES",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 268.0,
+                "hospital_price_mad": 168.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 160.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "9080",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+                "commercialization_status": "Commercialisé",
+                "ppv_price_mad": 372.0,
+                "hospital_price_mad": 247.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 236.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": "N05AX12",
+                "reimbursement_status": null,
+                "source_observations": [
+                  {
+                    "source": "medicament.ma",
+                    "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                    "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                    "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+                    "source_updated_at_raw": "4 décembre 2025",
+                    "atc_code": "N05AX12",
+                    "reimbursement_raw": null,
+                    "ppv_price_mad": 372.0,
+                    "hospital_price_mad": 247.0,
+                    "commercialization_status": "Commercialisé"
+                  }
+                ],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 2,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": {
+              "kind": "correct_filters",
+              "field": "strength",
+              "options": [
+                {
+                  "value": "15 MG",
+                  "candidate_count": 2
+                }
+              ]
+            },
+            "conflicting_filters": [
+              "strength"
+            ],
+            "applied_refinements": {},
+            "name_alias": null,
+            "candidate_offset": 0,
+            "next_candidate_offset": null
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ABIP: Nom trouvé, mais aucun enregistrement ne correspond au dosage, à la forme ou à la présentation demandés. Vérifiez ces précisions. Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 15 MG",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9079",
+              "9080"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+            "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": "sfUuqB4H6lZeUiv32BJFm-x6Hj_7XzQDHpni2-__Uak",
+        "continuation_expires_at_utc": "2026-10-19T10:30:45.229583+00:00",
+        "catalog_scope": "partial"
+      },
+      {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "5mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ABIP",
+              "strength": "5mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "ambiguous",
+            "match_method": "exact_brand",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "9079",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 20 COMPRIMES PELLICULES",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 268.0,
+                "hospital_price_mad": 168.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 160.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "9080",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+                "commercialization_status": "Commercialisé",
+                "ppv_price_mad": 372.0,
+                "hospital_price_mad": 247.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 236.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": "N05AX12",
+                "reimbursement_status": null,
+                "source_observations": [
+                  {
+                    "source": "medicament.ma",
+                    "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                    "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                    "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+                    "source_updated_at_raw": "4 décembre 2025",
+                    "atc_code": "N05AX12",
+                    "reimbursement_raw": null,
+                    "ppv_price_mad": 372.0,
+                    "hospital_price_mad": 247.0,
+                    "commercialization_status": "Commercialisé"
+                  }
+                ],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 2,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": {
+              "kind": "choose_record",
+              "field": null,
+              "options": []
+            },
+            "conflicting_filters": [],
+            "applied_refinements": {
+              "strength": "15 MG"
+            },
+            "name_alias": null,
+            "candidate_offset": 0,
+            "next_candidate_offset": null
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ABIP: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9079",
+              "9080"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+            "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": "13pTBT9x6hXY-XC-hsnQ84a6--f0GJLfOxZcA5CqBbE",
+        "continuation_expires_at_utc": "2026-10-19T10:30:45.229583+00:00",
+        "catalog_scope": "partial"
+      },
+      {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "5mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ABIP",
+              "strength": "5mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "user_selection",
+            "medication": {
+              "source_record_id": "9080",
+              "brand_name": "ABIP",
+              "active_substance": "ARIPIPRAZOLE",
+              "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+              "dosage": "15 MG",
+              "form": "COMPRIMES PELLICULES",
+              "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 372.0,
+              "hospital_price_mad": 247.0,
+              "source": "AMMPS",
+              "source_page": 1,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PSYCHIATRIE",
+              "pp_gn_raw": "GN",
+              "pfht_price_mad": 236.0,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+              "atc_code": "N05AX12",
+              "reimbursement_status": null,
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                  "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                  "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+                  "source_updated_at_raw": "4 décembre 2025",
+                  "atc_code": "N05AX12",
+                  "reimbursement_raw": null,
+                  "ppv_price_mad": 372.0,
+                  "hospital_price_mad": 247.0,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown",
+            "clarification": null,
+            "conflicting_filters": [
+              "strength"
+            ],
+            "applied_refinements": {
+              "strength": "15 MG"
+            },
+            "name_alias": null,
+            "candidate_offset": 0,
+            "next_candidate_offset": null
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nVous avez confirmé une présentation différente des précisions initiales.\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+            "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "output_mode": "json_schema",
+          "requested_model": "offline",
+          "model": "offline",
+          "prompt_version": "test",
+          "latency_ms": 1.0,
+          "attempts": 1,
+          "completion_id": null,
+          "usage": {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      }
+    ],
+    "interpreter_calls": 1
+  },
+  "paracetamol": {
+    "mention_index": 0,
+    "mention": {
+      "name": "PARACETAMOL",
+      "strength": null,
+      "quantity": null,
+      "form": null,
+      "presentation": null
+    },
+    "status": "ambiguous",
+    "match_method": "exact_substance",
+    "medication": null,
+    "candidates": [
+      {
+        "source_record_id": "8151",
+        "brand_name": "ALGO",
+        "active_substance": "PARACETAMOL",
+        "epi": "BOTTU",
+        "dosage": "500 MG",
+        "form": "COMPRIME",
+        "presentation": "BOITE DE 20",
+        "commercialization_status": "AMM sans prix",
+        "ppv_price_mad": null,
+        "hospital_price_mad": null,
+        "source": "AMMPS",
+        "source_page": 17,
+        "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=17",
+        "authorization_status": "AMM ENREGISTREE",
+        "therapeutic_class": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "pp_gn_raw": "GN",
+        "pfht_price_mad": null,
+        "vat_raw": "0%",
+        "rcp_naf_reference": null,
+        "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=17",
+        "source_fetched_at_utc": "2026-10-18T16:18:00.839021+00:00",
+        "atc_code": null,
+        "reimbursement_status": null,
+        "source_observations": [],
+        "data_conflicts": []
+      },
+      {
+        "source_record_id": "5122",
+        "brand_name": "AMIPAR",
+        "active_substance": "PARACETAMOL",
+        "epi": "AMANYS PHARMA",
+        "dosage": "10 MG / ML",
+        "form": "SOLUTION POUR PERFUSION",
+        "presentation": "POCHE DE 100 ML",
+        "commercialization_status": "Non Commercialisé",
+        "ppv_price_mad": 28.2,
+        "hospital_price_mad": 17.6,
+        "source": "AMMPS",
+        "source_page": 24,
+        "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=24",
+        "authorization_status": "AMM ENREGISTREE",
+        "therapeutic_class": "ANESTHESIE-REANIMATION",
+        "pp_gn_raw": "GN",
+        "pfht_price_mad": 16.77,
+        "vat_raw": "0%",
+        "rcp_naf_reference": null,
+        "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=24",
+        "source_fetched_at_utc": "2026-10-18T16:18:14.861142+00:00",
+        "atc_code": null,
+        "reimbursement_status": null,
+        "source_observations": [],
+        "data_conflicts": []
+      },
+      {
+        "source_record_id": "787",
+        "brand_name": "ANDOL",
+        "active_substance": "PARACETAMOL",
+        "epi": "COOPER PHARMA",
+        "dosage": "0.03",
+        "form": "SOLUTION BUVABLE",
+        "presentation": "FLACON DE 90 ML",
+        "commercialization_status": "Commercialisé",
+        "ppv_price_mad": 16.4,
+        "hospital_price_mad": 10.2,
+        "source": "AMMPS",
+        "source_page": 29,
+        "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "authorization_status": "AMM ENREGISTREE",
+        "therapeutic_class": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "pp_gn_raw": "GN",
+        "pfht_price_mad": 9.74,
+        "vat_raw": "0%",
+        "rcp_naf_reference": null,
+        "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "source_fetched_at_utc": "2026-10-18T16:18:24.913079+00:00",
+        "atc_code": null,
+        "reimbursement_status": null,
+        "source_observations": [],
+        "data_conflicts": []
+      },
+      {
+        "source_record_id": "789",
+        "brand_name": "ANDOL",
+        "active_substance": "PARACETAMOL",
+        "epi": "COOPER PHARMA",
+        "dosage": "1000 MG",
+        "form": "COMPRIME EFFERVESCENT",
+        "presentation": "BOITE DE 8",
+        "commercialization_status": "Commercialisé",
+        "ppv_price_mad": 13.5,
+        "hospital_price_mad": 8.5,
+        "source": "AMMPS",
+        "source_page": 29,
+        "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "authorization_status": "AMM ENREGISTREE",
+        "therapeutic_class": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "pp_gn_raw": "GN",
+        "pfht_price_mad": 8.07,
+        "vat_raw": "0%",
+        "rcp_naf_reference": null,
+        "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "source_fetched_at_utc": "2026-10-18T16:18:24.913079+00:00",
+        "atc_code": null,
+        "reimbursement_status": null,
+        "source_observations": [],
+        "data_conflicts": []
+      },
+      {
+        "source_record_id": "7871",
+        "brand_name": "ANDOL",
+        "active_substance": "PARACETAMOL",
+        "epi": "COOPER PHARMA",
+        "dosage": "1000 MG",
+        "form": "COMPRIME SECABLE",
+        "presentation": "BOITE DE 8",
+        "commercialization_status": "Commercialisé",
+        "ppv_price_mad": 9.9,
+        "hospital_price_mad": 6.2,
+        "source": "AMMPS",
+        "source_page": 29,
+        "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "authorization_status": "AMM ENREGISTREE",
+        "therapeutic_class": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "pp_gn_raw": "GN",
+        "pfht_price_mad": 5.9,
+        "vat_raw": "0%",
+        "rcp_naf_reference": null,
+        "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=29",
+        "source_fetched_at_utc": "2026-10-18T16:18:24.913079+00:00",
+        "atc_code": null,
+        "reimbursement_status": null,
+        "source_observations": [],
+        "data_conflicts": []
+      }
+    ],
+    "candidate_count": 141,
+    "candidates_truncated": true,
+    "stock_status": "unknown",
+    "clarification": {
+      "kind": "refine_search",
+      "field": "strength",
+      "options": [
+        {
+          "value": "0.024",
+          "candidate_count": 5
+        },
+        {
+          "value": "0.03",
+          "candidate_count": 5
+        },
+        {
+          "value": "10 MG / ML",
+          "candidate_count": 18
+        },
+        {
+          "value": "100 MG",
+          "candidate_count": 10
+        },
+        {
+          "value": "100 MG / ML",
+          "candidate_count": 2
+        },
+        {
+          "value": "1000 MG",
+          "candidate_count": 14
+        },
+        {
+          "value": "120 MG / 5 ML",
+          "candidate_count": 2
+        },
+        {
+          "value": "125 MG",
+          "candidate_count": 4
+        },
+        {
+          "value": "150 MG",
+          "candidate_count": 10
+        },
+        {
+          "value": "170 MG",
+          "candidate_count": 1
+        },
+        {
+          "value": "200 MG",
+          "candidate_count": 11
+        },
+        {
+          "value": "250 MG",
+          "candidate_count": 4
+        },
+        {
+          "value": "300 MG",
+          "candidate_count": 11
+        },
+        {
+          "value": "350 MG",
+          "candidate_count": 1
+        },
+        {
+          "value": "50 MG",
+          "candidate_count": 1
+        },
+        {
+          "value": "500 MG",
+          "candidate_count": 36
+        },
+        {
+          "value": "60 MG / 2 ML",
+          "candidate_count": 1
+        },
+        {
+          "value": "650 MG",
+          "candidate_count": 1
+        },
+        {
+          "value": "80 MG",
+          "candidate_count": 4
+        }
+      ]
+    },
+    "conflicting_filters": [],
+    "applied_refinements": {},
+    "name_alias": null,
+    "candidate_offset": 0,
+    "next_candidate_offset": 5
+  }
+}

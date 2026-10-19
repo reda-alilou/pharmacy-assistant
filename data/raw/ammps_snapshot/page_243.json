@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 243,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=243",
+  "fetched_at_utc": "2026-10-18T16:25:33.809424+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7932",
+      "brand_name": "KOVALTRY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE AVEC UN FLACON DE POUDRE ET SERINGUE PREREMPLIE DU SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG Alfa (rFVIII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "2.564.00 DH",
+        "PH": "2.228.00 DH",
+        "PFHT": "2.122.45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500UI",
+        "Forme": "POUDRE EN FLACON ET SOLVANT POUR SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7933",
+      "brand_name": "KOVALTRY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE AVEC UN FLACON DE POUDRE ET SERINGUE PREREMPLIE DU SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG Alfa (rFVIII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "4.795.00 DH",
+        "PH": "4.524.00 DH",
+        "PFHT": "4.309.34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000UI",
+        "Forme": "POUDRE EN FLACON ET SOLVANT POUR SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "7082",
+      "brand_name": "KYPROLIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CARFILZOMIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "12.836.00 DH",
+        "PH": "12.592.00 DH",
+        "PFHT": "12.192.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2198",
+      "brand_name": "LABIXTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "BILASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "31,00 DH",
+        "PH": "19,40 DH",
+        "PFHT": "18,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2199",
+      "brand_name": "LABIXTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "BILASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "62,10 DH",
+        "PH": "38,80 DH",
+        "PFHT": "36,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2200",
+      "brand_name": "LABIXTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "BILASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "93,10 DH",
+        "PH": "58,20 DH",
+        "PFHT": "55,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8537",
+      "brand_name": "LACIPIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "LACIDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8538",
+      "brand_name": "LACIPIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LACIDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8539",
+      "brand_name": "LACIPIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "LACIDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8540",
+      "brand_name": "LACIPIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LACIDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6739",
+      "brand_name": "LACOMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 2,5 ML",
+        "PP / GN": "GN",
+        "Substance active": "LATANOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "91,80 DH",
+        "PH": "57,40 DH",
+        "PFHT": "54,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5.0E-5",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5811",
+      "brand_name": "LACRYPOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "CHONDROITINE SULFATE SODIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "17,50 DH",
+        "PH": "10,90 DH",
+        "PFHT": "10,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.03",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5812",
+      "brand_name": "LACRYVISC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "CARBOMERE 974P",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "70,40 DH",
+        "PH": "44,00 DH",
+        "PFHT": "41,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5813",
+      "brand_name": "LACRYVISC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "PP",
+        "Substance active": "CARBOMERE 974P",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "1455",
+      "brand_name": "LACTULAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "35,30 DH",
+        "PH": "22,00 DH",
+        "PFHT": "21,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5814",
+      "brand_name": "LAEVOLAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "5815",
+      "brand_name": "LAEVOLAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5816",
+      "brand_name": "LAEVOLAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "93,00 DH",
+        "PH": "58,10 DH",
+        "PFHT": "55,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5817",
+      "brand_name": "LAEVOLAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50% M  /  M",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "1880",
+      "brand_name": "LAMICTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GSK",
+        "PPV": "224,00 DH",
+        "PH": "140,20 DH",
+        "PFHT": "133,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    }
+  ]
+}

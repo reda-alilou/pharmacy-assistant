@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 348,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=348",
+  "fetched_at_utc": "2026-10-18T16:29:04.426219+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6814",
+      "brand_name": "PRAVASTATINE GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "PILLULIER DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "154,00 DH",
+        "PH": "96,20 DH",
+        "PFHT": "91,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6815",
+      "brand_name": "PRAVASTATINE GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "PILLULIER DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ATLAS PHARM",
+        "PPV": "110,00 DH",
+        "PH": "68,80 DH",
+        "PFHT": "65,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6229",
+      "brand_name": "PRAVATOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "99,10 DH",
+        "PH": "61,90 DH",
+        "PFHT": "58,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6230",
+      "brand_name": "PRAVATOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SUN PHARMA",
+        "PPV": "174,40 DH",
+        "PH": "109,00 DH",
+        "PFHT": "103,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4381",
+      "brand_name": "PRAXBIND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 2 FLACONS DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IDARUCIZUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "31.255.00 DH",
+        "PH": "30.650.00 DH",
+        "PFHT": "30.250.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5 G  /  50  ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "1034",
+      "brand_name": "PRAXILENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "NAFTIDROFURYL (OXALATE ACIDE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "COOPER PHARMA",
+        "PPV": "43,30 DH",
+        "PH": "27,10 DH",
+        "PFHT": "25,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1035",
+      "brand_name": "PRAXILENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "NAFTIDROFURYL (OXALATE ACIDE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "69,00 DH",
+        "PH": "43,10 DH",
+        "PFHT": "41,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "658",
+      "brand_name": "PRAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "659",
+      "brand_name": "PRAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "89,70 DH",
+        "PH": "56,10 DH",
+        "PFHT": "53,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "660",
+      "brand_name": "PRAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9280",
+      "brand_name": "PRAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "130,80 DH",
+        "PH": "81,70 DH",
+        "PFHT": "77,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20  MG",
+        "Forme": "MICROGRANULES GASTRO-RÉSISTANTES EN GÉLULE"
+      }
+    },
+    {
+      "source_record_id": "8713",
+      "brand_name": "PRECEDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "DEXMEDETOMIDINE BASE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /   ML",
+        "Forme": "SOUTION POUR PERFUSION EN FLACON DE 2 ML"
+      }
+    },
+    {
+      "source_record_id": "1036",
+      "brand_name": "PREDNI COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2978",
+      "brand_name": "PREDNISOLONE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "35,50 DH",
+        "PH": "22,20 DH",
+        "PFHT": "21,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8714",
+      "brand_name": "PREDSONE GALENICA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "-",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3252",
+      "brand_name": "PREGNYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 3+3 FL",
+        "PP / GN": "PP",
+        "Substance active": "GONADOTROPHINE CHORIONIQUE HUMAINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "77,10 DH",
+        "PH": "48,00 DH",
+        "PFHT": "42,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1500 UI  /   ML",
+        "Forme": "LYOPHILISAT ET SOLVANT POUR LA PREPARATION D'UNE SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3253",
+      "brand_name": "PREGNYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1+1 FL",
+        "PP / GN": "PP",
+        "Substance active": "GONADOTROPHINE CHORIONIQUE HUMAINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "69,70 DH",
+        "PH": "43,40 DH",
+        "PFHT": "38,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000 UI  /   ML",
+        "Forme": "LYOPHILISAT ET SOLVANT POUR LA PREPARATION D'UNE SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7946",
+      "brand_name": "PREJECT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "DAPOXETINE HYDROCHLORIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "41,50 DH",
+        "PH": "25,90 DH",
+        "PFHT": "24,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "7947",
+      "brand_name": "PREJECT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "DAPOXETINE HYDROCHLORIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "72,90 DH",
+        "PH": "45,60 DH",
+        "PFHT": "43,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "7948",
+      "brand_name": "PREJECT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "DAPOXETINE HYDROCHLORIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "107,10 DH",
+        "PH": "66,90 DH",
+        "PFHT": "63,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    }
+  ]
+}

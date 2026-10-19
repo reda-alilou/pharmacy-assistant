@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 375,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=375",
+  "fetched_at_utc": "2026-10-18T16:29:58.522034+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "436",
+      "brand_name": "RHEUMON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE 40 G",
+        "PP / GN": "PP",
+        "Substance active": "ETOFENAMATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "32,50 DH",
+        "PH": "20,20 DH",
+        "PFHT": "18,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "437",
+      "brand_name": "RHEUMON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "ETOFENAMATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "47,80 DH",
+        "PH": "29,80 DH",
+        "PFHT": "26,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "9835",
+      "brand_name": "RHEUXICAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE IYOPHILISEE ET UNE AMPOULE CONTENANT 2 ML D'EAU POUR PREPARATION INJECTABLE",
+        "PP / GN": "GN",
+        "Substance active": "LORNOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE IV/IM"
+      }
+    },
+    {
+      "source_record_id": "698",
+      "brand_name": "RHINALLERGY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "40,20 DH",
+        "PH": "25,10 DH",
+        "PFHT": "23,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME A SUCER"
+      }
+    },
+    {
+      "source_record_id": "5403",
+      "brand_name": "RHINATHIOL ADULTES EXPECTORANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5404",
+      "brand_name": "RHINATHIOL ADULTES EXPECTORANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "36,70 DH",
+        "PH": "22,90 DH",
+        "PFHT": "21,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5405",
+      "brand_name": "RHINATHIOL ADULTES EXPECTORANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 300 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "58,90 DH",
+        "PH": "36,70 DH",
+        "PFHT": "32,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "5406",
+      "brand_name": "RHINATHIOL ENF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "10,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6500",
+      "brand_name": "RHINOCORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "97,00 DH",
+        "PH": "60,60 DH",
+        "PFHT": "57,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "64 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR PULVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "1040",
+      "brand_name": "RHINOFEBRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPHENAMINE (MALEATE) // PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "13,40 DH",
+        "PH": "8,30 DH",
+        "PFHT": "7,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG  /  100   MG  /  3,2   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5945",
+      "brand_name": "RHINOFLUIMUCIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACETYLCYSTEINE // TUAMINOHEPTANE (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  /  0,5 G",
+        "Forme": "SOLUTION EN FLACON DE NEBULISATEUR"
+      }
+    },
+    {
+      "source_record_id": "7691",
+      "brand_name": "RHINUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "33,70 DH",
+        "PH": "21,10 DH",
+        "PFHT": "20,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "7692",
+      "brand_name": "RHINUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7693",
+      "brand_name": "RHINUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "38,00 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7694",
+      "brand_name": "RHINUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "73,50 DH",
+        "PH": "45,90 DH",
+        "PFHT": "43,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4140",
+      "brand_name": "RHOPHYLAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE ANTI-D",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "683,00 DH",
+        "PH": "453,00 DH",
+        "PFHT": "432,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 µG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6501",
+      "brand_name": "RHUFENE RHUME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE // PSEUDOEPHEDRINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  30   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4743",
+      "brand_name": "RHUMAGRIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // PSEUDOEPHEDRINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "15,90 DH",
+        "PH": "9,90 DH",
+        "PFHT": "9,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1529",
+      "brand_name": "RHUMIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE) // IBUPROFENE // PSEUDOEPHEDRINE // CAFEINE // CHLORPHENAMINE (MALEATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  300   MG  /  200   MG  /  60   MG  /  25   MG  /  4   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "3541",
+      "brand_name": "RIABAL ENFANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PRIFINIUM (BROMURE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "19,90 DH",
+        "PH": "12,40 DH",
+        "PFHT": "11,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

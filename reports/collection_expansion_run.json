@@ -1,0 +1,49 @@
+{
+  "status": "stopped_by_user_agreement",
+  "started_at_utc": "2026-10-19T18:19:50.805121+00:00",
+  "pid": 30992,
+  "staging_only": true,
+  "inference_requests": 0,
+  "max_requests_per_source": null,
+  "active_dataset_sha256_before": {
+    "ammps_medications_enriched.jsonl": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+    "medicament_medications.jsonl": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+    "saydalia_medications.jsonl": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+    "pharmacies_rabat.jsonl": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+    "pharmacy_duty_observations.jsonl": "c2539715e9a17e4ef5b367395fdefab3e02ba3e9503e7afd3f241ae23f12e04a"
+  },
+  "jobs": {
+    "medicament": {
+      "pid": 5732,
+      "log": "reports\\collection_medicament.log",
+      "status": "stopped_at_agreed_cutoff"
+    },
+    "saydalia": {
+      "pid": 33296,
+      "log": "reports\\collection_saydalia.log",
+      "status": "finished",
+      "return_code": 0
+    },
+    "rabat": {
+      "pid": 9712,
+      "log": "reports\\collection_rabat.log",
+      "status": "finished",
+      "return_code": 0
+    }
+  },
+  "updated_at_utc": "2026-10-19T18:42:39.940756+00:00",
+  "finished_at_utc": "2026-10-19T18:44:36.001240+00:00",
+  "stop_reason": "Use collected records for the demo; defer exhaustive Medicament.ma collection",
+  "active_dataset_sha256_after": {
+    "ammps_medications_enriched.jsonl": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+    "medicament_medications.jsonl": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+    "saydalia_medications.jsonl": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+    "pharmacies_rabat.jsonl": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+    "pharmacy_duty_observations.jsonl": "c2539715e9a17e4ef5b367395fdefab3e02ba3e9503e7afd3f241ae23f12e04a"
+  },
+  "active_datasets_unchanged": true,
+  "cutoff_candidate": "data/staging/demo_enrichment_v1",
+  "cutoff_report": "reports/demo_enrichment_candidate.json",
+  "data_activated_after_cutoff": true,
+  "data_activation_report": "reports/demo_enrichment_activation.json"
+}

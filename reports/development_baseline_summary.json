@@ -1,0 +1,967 @@
+{
+  "generated_at_utc": "2026-10-19T09:47:32.700023+00:00",
+  "split": "development",
+  "held_out_execution": "not_run",
+  "backend_report": "C:\\Users\\REDA\\Desktop\\COURSES\\Challenge camp\\Challenge 1\\pharmacy-assistant\\reports\\development_backend_baseline.json",
+  "offline_backend": {
+    "cases": 40,
+    "passed_cases": 24,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 24
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 0
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 17,
+      "total": 21
+    },
+    "failures_by_component": {
+      "matching": 4,
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 12
+    },
+    "broad_candidate_lists": 2
+  },
+  "backend_failures_by_component": {
+    "matching": [
+      {
+        "id": "dev-ar-01",
+        "text": "أريد معلومات عن أموكسيسيلين.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "أموكسيسيلين: لم يتم العثور على تطابق في هذا الكتالوج الجزئي. هذا لا يثبت أن الدواء غير موجود أو غير متوفر.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "not_found",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-darija-02",
+        "text": "عافاك بغيت جوج علب ديال AIRCORT ديال الاستنشاق.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "AIRCORT: السميّة كاينة، ولكن التركيز، الشكل ولا العلبة ما تطابقوش. عاود تأكد من هاد المعلومات.\n\nالكمية اللي طلبتي بقات مسجلة؛ الثمن المعروض ديال علبة وحدة، بلا حساب المجموع.\n\nالستوك فالصيدلية ما معروفش. حالة التسويق ما كتأكدش بلي الدوا كاين فشي صيدلية.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "filters_not_matched",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-fr-03",
+        "text": "Combien coûte ABIP 5 mg ?",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "ABIP: Nom trouvé, mais aucun enregistrement ne correspond au dosage, à la forme ou à la présentation demandés. Vérifiez ces précisions.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "filters_not_matched",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-ar-08",
+        "text": "هل AIRCORT بتركيز 100 mcg متوفر؟",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "AIRCORT: تم العثور على الاسم، لكن التركيز أو الشكل أو العبوة المطلوبة لا تطابق السجلات. يرجى التحقق من هذه التفاصيل.\n\nمخزون الصيدليات غير معروف. حالة التسويق لا تؤكد توفر الدواء في صيدلية معينة.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "filters_not_matched",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      }
+    ],
+    "answer": [
+      {
+        "id": "dev-mixed-01",
+        "text": "Bghit deux boîtes de ABIP 15mg, boîte de 20, شحال المجموع؟",
+        "failure_codes": [
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "answered",
+          "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 20 COMPRIMES PELLICULES\nPrix public enregistré: 268.00 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "resolved",
+              "record_id": "9079",
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-ar-02",
+        "text": "ما مجموع ثمن علبتين من أبيب ١٥ ملغ، أقراص، علبة ٣٠؟",
+        "failure_codes": [
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "answered",
+          "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nالثمن العمومي المسجل: 372.00 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nتم حفظ الكمية المطلوبة؛ الثمن المعروض لعبوة واحدة دون حساب المجموع.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "resolved",
+              "record_id": "9080",
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-fr-04",
+        "text": "Quel serait le total pour deux boîtes de AIRCORT ?",
+        "failure_codes": [
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "answered",
+          "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "resolved",
+              "record_id": "771",
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      }
+    ],
+    "pharmacy": [
+      {
+        "id": "dev-ar-05",
+        "text": "أعطني رقم هاتف صيدلية ابن نفيس في الرباط.",
+        "failure_codes": [
+          "pharmacy_status_mismatch",
+          "requested_pharmacy_not_returned"
+        ],
+        "observed": {
+          "status": "answered",
+          "answer": "لا توجد صيدلية مطابقة في دليل الرباط الجزئي. هذا لا يعني عدم وجودها.",
+          "medications": [],
+          "pharmacy_status": "not_found"
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "id": "dev-fr-09",
+        "text": "La boîte de 30, merci.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-ar-09",
+        "text": "أقصد علبة ٣٠ من فضلك.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-darija-09",
+        "text": "Lboita dyal 30 3afak.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-mixed-09",
+        "text": "ديال 30, la boîte s’il te plaît.",
+        "failure_codes": [
+          "medication_decision_mismatch"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-fr-10",
+        "text": "Et pour deux boîtes ?",
+        "failure_codes": [
+          "medication_decision_mismatch",
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-ar-10",
+        "text": "وما المجموع لعلبتين؟",
+        "failure_codes": [
+          "medication_decision_mismatch",
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.\n\nتم حفظ الكمية المطلوبة؛ الثمن المعروض لعبوة واحدة دون حساب المجموع.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-darija-10",
+        "text": "W jouj l3lab bch7al?",
+        "failure_codes": [
+          "medication_decision_mismatch",
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.\n\nLquantité lli tlbti b9at msjjla; taman lma3roud dyal 3elba wa7da, bla 7ssab lmajmou3.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      },
+      {
+        "id": "dev-mixed-10",
+        "text": "Et جوج علب، شحال المجموع؟",
+        "failure_codes": [
+          "medication_decision_mismatch",
+          "requested_total_missing"
+        ],
+        "observed": {
+          "status": "needs_clarification",
+          "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+          "medications": [
+            {
+              "mention_index": 0,
+              "status": "missing_name",
+              "record_id": null,
+              "candidate_ids": [],
+              "candidate_count": 0
+            }
+          ],
+          "pharmacy_status": null
+        }
+      }
+    ]
+  },
+  "backend_failures_are_measured_with_annotated_extraction": true,
+  "live_extraction": {
+    "status": "stopped_provider_error",
+    "summary": {
+      "total_cases": 32,
+      "completed_cases": 0,
+      "intent_micro": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null
+      },
+      "entity_slot_micro": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null
+      },
+      "entity_slots_by_field": {
+        "name": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "strength": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "form": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "presentation": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "pharmacy": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "city": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "area": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "time": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "symptom": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "intents_correct": 0,
+      "entities_exact_cases": 0,
+      "incorrect_nonnull_entities": 0,
+      "by_group": {
+        "fr": {
+          "completed_cases": 0,
+          "intent_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slot_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "ar": {
+          "completed_cases": 0,
+          "intent_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slot_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "darija": {
+          "completed_cases": 0,
+          "intent_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slot_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        },
+        "mixed": {
+          "completed_cases": 0,
+          "intent_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slot_micro": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "entity_slots_by_field": {
+            "name": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "strength": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "quantity": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "form": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "presentation": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "pharmacy": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "city": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "area": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "date": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "time": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            },
+            "symptom": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "precision": null,
+              "recall": null,
+              "f1": null
+            }
+          }
+        }
+      },
+      "passed": false
+    },
+    "remaining_single_turn_cases": 32,
+    "prediction_failures": [],
+    "latency_ms": null,
+    "attempts_reserved": 4,
+    "provider_errors": [
+      {
+        "id": "dev-fr-01",
+        "at_utc": "2026-10-19T09:41:49.627486+00:00",
+        "error": {
+          "code": "provider_timeout",
+          "message": "Gemini timed out.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      {
+        "id": "dev-fr-01",
+        "at_utc": "2026-10-19T09:44:10.765618+00:00",
+        "error": {
+          "code": "provider_timeout",
+          "message": "Gemini timed out.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      }
+    ],
+    "raw_schema_validity_rate": null,
+    "schema_measurement_note": "Adapter jointly validates JSON schema and entity evidence; no separate raw-output schema validity measurement is available."
+  },
+  "next_work_in_order": [
+    "Medication alias/form matching and useful options after filter mismatches.",
+    "Free-text conversational context and corrections.",
+    "Quantity totals and focused clarification for broad candidate lists."
+  ],
+  "limits": [
+    "Backend oracle checks are not model accuracy or end-to-end live success measurements.",
+    "Live precision/recall/F1 use only completed cases; unfinished cases remain visible in denominators.",
+    "No held-out inference, backend evaluation or prompt tuning was performed.",
+    "Annotations are assistant-authored and reviewed, without independent human/native-speaker review."
+  ]
+}

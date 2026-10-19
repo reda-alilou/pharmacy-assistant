@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 484,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=484",
+  "fetched_at_utc": "2026-10-18T16:33:36.822798+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8983",
+      "brand_name": "XYLOCONTACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,48 g",
+        "Forme": "CREME POUR USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "6158",
+      "brand_name": "XYLONOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON PULVERISATEUR DE 36 G DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE DE BASE // CETRIMIDE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "418,00 DH",
+        "PH": "278,00 DH",
+        "PFHT": "265,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 G  /  0,15 G",
+        "Forme": "SOLUTION POUR USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "5611",
+      "brand_name": "XYLOROLLAND AVEC ADRENALINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "160,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "36   MG  /  0,04086   MG",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "5612",
+      "brand_name": "XYLOROLLAND SANS VASOCONSTRICTEUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "160,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "36   MG",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "1186",
+      "brand_name": "XYTENOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "52,50 DH",
+        "PH": "32,80 DH",
+        "PFHT": "31,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1187",
+      "brand_name": "XYTENOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "29,80 DH",
+        "PH": "18,60 DH",
+        "PFHT": "17,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1188",
+      "brand_name": "XYTENOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "ATENOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "101,40 DH",
+        "PH": "63,40 DH",
+        "PFHT": "60,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6031",
+      "brand_name": "XYZALL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6032",
+      "brand_name": "XYZALL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "74,90 DH",
+        "PH": "46,80 DH",
+        "PFHT": "44,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8984",
+      "brand_name": "YANCI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 21 COMPRIMES",
+        "PP / GN": "GN",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  0.03   MG",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "456",
+      "brand_name": "YAZ",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DROSPIRENONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "141,80 DH",
+        "PH": "88,30 DH",
+        "PFHT": "78,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /  0,02   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2125",
+      "brand_name": "YDRALBUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALBUMINE HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.096.00 DH",
+        "PH": "819,00 DH",
+        "PFHT": "780,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 G  /  L",
+        "Forme": "SOLUTION PEUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2126",
+      "brand_name": "YDRALBUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALBUMINE HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "638,00 DH",
+        "PH": "424,00 DH",
+        "PFHT": "403,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 G  /  L",
+        "Forme": "SOLUTION PEUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9119",
+      "brand_name": "YISAIPU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "UNE BOITE DE 4 FLACONS",
+        "PP / GN": "BS",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "BOTTU",
+        "PPV": "2.857.00 DH",
+        "PH": "2.529.00 DH",
+        "PFHT": "2.408.82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "POUDRE IYOPHILISEE POUR SOLUTION INJECTABLE, FLACON DE 2 ML"
+      }
+    },
+    {
+      "source_record_id": "2249",
+      "brand_name": "YODOCEFOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE B9 (ACIDE FOLIQUE) // VITAMINE B12 (CYANOCOBALAMINE) // IODURE DE POTASSIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "VERSALYA",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400 µG  /  2 µG  /  262 µG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "747",
+      "brand_name": "YOFOLVIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE B9 (ACIDE FOLIQUE) // VITAMINE B12 (CYANOCOBALAMINE) // IODURE DE POTASSIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BOTTU",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400  /  200  /  2 µG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5613",
+      "brand_name": "YPEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 4 ML",
+        "PP / GN": "BS",
+        "Substance active": "BEVACIZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.908.00 DH",
+        "PH": "2.581.00 DH",
+        "PFHT": "2.459.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG (25   MG  /   ML)",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "5614",
+      "brand_name": "YPEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 16 ML",
+        "PP / GN": "BS",
+        "Substance active": "BEVACIZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "9.510.00 DH",
+        "PH": "9.332.00 DH",
+        "PFHT": "8.932.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG (25   MG  /   ML)",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "6159",
+      "brand_name": "YRANICID ARSENICAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 6,5 G",
+        "PP / GN": "NA",
+        "Substance active": "EPHEDRINE (CHLORHYDRATE) // LIDOCAINE ANHYDRE ARSENIEUX",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "196,90 DH",
+        "PH": "123,10 DH",
+        "PFHT": "117,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  30 G  /  30 G",
+        "Forme": "PATE POUR USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "2684",
+      "brand_name": "YRIAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "50,80 DH",
+        "PH": "31,80 DH",
+        "PFHT": "30,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

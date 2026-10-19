@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 189,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=189",
+  "fetched_at_utc": "2026-10-18T16:23:45.524322+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5762",
+      "brand_name": "GALIRENE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "CALCIUM (BROMURE) // CALCIUM (LACTATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOTHEMA",
+        "PPV": "46,80 DH",
+        "PH": "29,30 DH",
+        "PFHT": "27,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  400   MG",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9207",
+      "brand_name": "GALTIPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28 SERINGUES PREREMPLIES",
+        "PP / GN": "GN",
+        "Substance active": "GLATIRAMERE (ACETATE)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "9208",
+      "brand_name": "GALTIPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 12 SERINGUES PREREMPLIES",
+        "PP / GN": "GN",
+        "Substance active": "GLATIRAMERE (ACETATE)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "3362",
+      "brand_name": "GALVUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "VILDAGLIPTINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "246,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3363",
+      "brand_name": "GALVUS MET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "VILDAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "246,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "50   MG  /  1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3364",
+      "brand_name": "GALVUS MET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "VILDAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "246,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "50   MG  /  850   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7461",
+      "brand_name": "GALVUS MET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "VILDAGLIPTINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "246,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "50   MG  /  500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5138",
+      "brand_name": "GAMMANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.134.00 DH",
+        "PH": "858,00 DH",
+        "PFHT": "817,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "165   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8477",
+      "brand_name": "GAMMANORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "165   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON DE 20 ML"
+      }
+    },
+    {
+      "source_record_id": "110",
+      "brand_name": "GANFORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "BIMATOPROST // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "212,00 DH",
+        "PH": "132,80 DH",
+        "PFHT": "126,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7062",
+      "brand_name": "GAPHINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "149,50 DH",
+        "PH": "93,50 DH",
+        "PFHT": "89,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7063",
+      "brand_name": "GAPHINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "187,30 DH",
+        "PH": "117,10 DH",
+        "PFHT": "111,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7064",
+      "brand_name": "GAPHINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "262,00 DH",
+        "PH": "163,80 DH",
+        "PFHT": "156,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7065",
+      "brand_name": "GAPHINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHI",
+        "PPV": "327,00 DH",
+        "PH": "217,00 DH",
+        "PFHT": "207,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "111",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "61,20 DH",
+        "PH": "38,20 DH",
+        "PFHT": "36,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "112",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "161,10 DH",
+        "PH": "100,70 DH",
+        "PFHT": "95,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "113",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "271,00 DH",
+        "PH": "180,10 DH",
+        "PFHT": "171,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "114",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "57,10 DH",
+        "PH": "35,70 DH",
+        "PFHT": "34,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "115",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "102,10 DH",
+        "PH": "63,80 DH",
+        "PFHT": "60,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "116",
+      "brand_name": "GAPREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "40,60 DH",
+        "PH": "25,40 DH",
+        "PFHT": "24,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

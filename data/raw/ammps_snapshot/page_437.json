@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 437,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=437",
+  "fetched_at_utc": "2026-10-18T16:32:02.634996+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1100",
+      "brand_name": "TITANOREINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "CARRAGHENATE // ZINC (OXYDE) // DIOXYDE DE TITANE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "18,00 DH",
+        "PH": "11,30 DH",
+        "PFHT": "10,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1101",
+      "brand_name": "TITANOREINE A LA LIDOCAINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "CARRAGHENATE // ZINC (OXYDE) // DIOXYDE DE TITANE // LIDOCAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "14,90 DH",
+        "PH": "9,30 DH",
+        "PFHT": "8,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "8895",
+      "brand_name": "TIVICAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DOLUTEGRAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8896",
+      "brand_name": "TIVICAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "PP",
+        "Substance active": "DOLUTEGRAVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2241",
+      "brand_name": "TMS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5999",
+      "brand_name": "TOBRADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "TOBRAMYCINE // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1%  /  0,3%",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6000",
+      "brand_name": "TOBRADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 3,5 G",
+        "PP / GN": "PP",
+        "Substance active": "TOBRAMYCINE // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "50,80 DH",
+        "PH": "31,70 DH",
+        "PFHT": "30,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3%  /  1%",
+        "Forme": "POMMADE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6001",
+      "brand_name": "TOBREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "TOBRAMYCINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "24,70 DH",
+        "PH": "15,40 DH",
+        "PFHT": "14,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "9377",
+      "brand_name": "TODEM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON COMPTE - GOUTTES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TOBRAMYCINE // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "PHI",
+        "PPV": "24,90 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG  /   ML +1   MG  /   ML",
+        "Forme": "COLLYRE EN SUSPENSION"
+      }
+    },
+    {
+      "source_record_id": "3061",
+      "brand_name": "TOFRANIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "IMIPRAMINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "53,40 DH",
+        "PH": "33,40 DH",
+        "PFHT": "31,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "222",
+      "brand_name": "TOMUDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "RALTITREXED",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "1.715.00 DH",
+        "PH": "1.456.00 DH",
+        "PFHT": "1.387.42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1102",
+      "brand_name": "TOPAAL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 210ML",
+        "PP / GN": "NA",
+        "Substance active": "ACIDE ALGINIQUE // HYDROXIDE D'ALUMINIUM COLLOIDALE // SILICE HYDRATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "COOPER PHARMA",
+        "PPV": "34,50 DH",
+        "PH": "21,50 DH",
+        "PFHT": "19,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6534",
+      "brand_name": "TOPICORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "DESOXIMETASONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "343",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "187,10 DH",
+        "PH": "116,90 DH",
+        "PFHT": "111,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "344",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "391,00 DH",
+        "PH": "260,00 DH",
+        "PFHT": "248,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "345",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "21,10 DH",
+        "PH": "13,20 DH",
+        "PFHT": "12,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "346",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "100,90 DH",
+        "PH": "63,10 DH",
+        "PFHT": "60,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6853",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "71,10 DH",
+        "PH": "44,40 DH",
+        "PFHT": "42,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6854",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "149,60 DH",
+        "PH": "93,50 DH",
+        "PFHT": "89,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6855",
+      "brand_name": "TOPIRAMATE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TOPIRAMATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "55,50 DH",
+        "PH": "34,70 DH",
+        "PFHT": "33,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

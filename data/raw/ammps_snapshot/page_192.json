@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 192,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=192",
+  "fetched_at_utc": "2026-10-18T16:23:51.514947+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9186",
+      "brand_name": "GEFTINAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "GEFITINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "9.355.00 DH",
+        "PH": "9.180.00 DH",
+        "PFHT": "8.780.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "907",
+      "brand_name": "GEL LARMES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "CARBOMERE 974P",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "38,30 DH",
+        "PH": "23,90 DH",
+        "PFHT": "22,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3 G",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "4454",
+      "brand_name": "GELAFUNDIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACONS DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "POLYSUCCINATE DE GELATINE // CHLORURE DE SODIUM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PHI",
+        "PPV": "532,00 DH",
+        "PH": "353,00 DH",
+        "PFHT": "336,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,04",
+        "Forme": "SOLUTION POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "908",
+      "brand_name": "GELTIM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 RECIPIENTS UNIDOSE",
+        "PP / GN": "PP",
+        "Substance active": "TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "77,10 DH",
+        "PH": "48,20 DH",
+        "PFHT": "45,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  G",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "593",
+      "brand_name": "GELUPRANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "14,30 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "909",
+      "brand_name": "GEMCITABINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "910",
+      "brand_name": "GEMCITABINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "272,00 DH",
+        "PH": "170,60 DH",
+        "PFHT": "162,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "120",
+      "brand_name": "GEMCITABINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.212.00 DH",
+        "PH": "939,00 DH",
+        "PFHT": "894,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION A PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3671",
+      "brand_name": "GEMCITABINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION A PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3672",
+      "brand_name": "GEMCITABINE HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR SOLUTION A PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5027",
+      "brand_name": "GEMCITABINE KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "256,00 DH",
+        "PH": "160,60 DH",
+        "PFHT": "152,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "38   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5028",
+      "brand_name": "GEMCITABINE KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "1.212.00 DH",
+        "PH": "939,00 DH",
+        "PFHT": "894,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "38   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5029",
+      "brand_name": "GEMCITABINE KABI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "38   MG  /   ML",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4913",
+      "brand_name": "GEMCITABINE THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4914",
+      "brand_name": "GEMCITABINE THYMOORGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9497",
+      "brand_name": "GEMEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 5,26 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 MG ( 38 MG / ML )",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9498",
+      "brand_name": "GEMEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 26,3 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 MG ( 38 MG / ML )",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9499",
+      "brand_name": "GEMEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 52,6 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 MG ( 38 MG / ML )",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6206",
+      "brand_name": "GEMRESEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "970,00 DH",
+        "PH": "690,00 DH",
+        "PFHT": "657,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6207",
+      "brand_name": "GEMRESEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "GEMCITABINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "257,00 DH",
+        "PH": "161,20 DH",
+        "PFHT": "153,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    }
+  ]
+}

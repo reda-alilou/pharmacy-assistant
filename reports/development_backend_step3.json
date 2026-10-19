@@ -1,0 +1,1706 @@
+{
+  "generated_at_utc": "2026-10-19T10:09:43.374465+00:00",
+  "mode": "offline_backend_with_annotated_extraction",
+  "live_provider_requests": 0,
+  "is_model_accuracy_measurement": false,
+  "split": "development",
+  "held_out_execution": "not_run",
+  "catalogue_sha256": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+  "pharmacy_directory_sha256": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+  "backend_source_sha256": {
+    "chat.py": "410e9b2861730ab981abfb93a9f8c7de2f12c49e7a3a4517fb3f328c44a13670",
+    "resolution.py": "8b72784716d7beddb8b2d24373f86449cb9cb62968091df43146cdccc30f2ce5",
+    "catalog.py": "4b728bce1d4e37b9558539104ea789ce11fec52c9ff6b43c5b85e098f4cf50e5",
+    "pharmacy_directory.py": "71871d421b9fbc3850e91482910d1266d969a345aa6ca6302b5a800c7930a123",
+    "answer_templates.py": "d7b933ec8ca9f14aac17bdab6cbcb825cb84562f6d71f69e2c863e61a3d429da"
+  },
+  "annotations_sha256": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+  "dataset_validation": {
+    "examples": 80,
+    "development": 40,
+    "held_out": 40,
+    "by_split_and_group": {
+      "development": {
+        "fr": 10,
+        "ar": 10,
+        "darija": 10,
+        "mixed": 10
+      },
+      "held_out": {
+        "fr": 10,
+        "ar": 10,
+        "darija": 10,
+        "mixed": 10
+      }
+    },
+    "kinds": {
+      "single_turn": 64,
+      "conversation_turn": 16
+    },
+    "catalogue_matches_annotation_snapshot": true,
+    "held_out_execution": "not_run",
+    "annotation_provenance": "Assistant-authored synthetic examples, reviewed against the extraction contract, raw text spans and stored catalogue. No independent human/native-speaker review or inter-annotator agreement is claimed."
+  },
+  "summary": {
+    "cases": 40,
+    "passed_cases": 28,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 28
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 0
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 12
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "results": [
+    {
+      "id": "dev-fr-01",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "misspelling",
+        "confirmation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORTT: Nom à confirmer : choisissez une proposition, aucune correspondance approximative n'a été sélectionnée.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "suggestions",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "clarification_field": null,
+            "clarification_kind": "confirm_name"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-01",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_substance",
+        "alias"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "AMOXICILLINE",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "أموكسيسيلين: ما التركيز الذي تبحث عنه؟\n\nالقيم المسجلة: 1 G; 1 G / ML; 1000 MG (IM); 125 MG; 2 G; 2000 MG (IM); 250 MG; 250 MG / 5 ML; …\n\nحدد التفاصيل لتضييق البحث أو اعرض العبوات التالية.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "3842",
+              "4122",
+              "4116",
+              "3841",
+              "4120"
+            ],
+            "candidate_count": 148,
+            "clarification_field": "strength",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-01",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "arabizi_brand",
+        "misspelling"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "airkort: 2akked smit ddwa b chi ikhtiyar; ta wa7ed ma tkhtar automatiquement.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "suggestions",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "clarification_field": null,
+            "clarification_kind": "confirm_name"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-01",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "code_switching",
+        "quantity",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "answer",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9079"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 20 COMPRIMES PELLICULES\nPrix public enregistré: 268.00 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9079",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-02",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "substance",
+        "strength",
+        "broad_candidates"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "AMOXICILLINE",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AMOXICILLINE: Quelle forme recherchez-vous ?\n\nValeurs enregistrées: COMPRIME DISPERSIBLE; GELULE; POUDRE ET SOLVANT POUR PREPARATION INJECTABLE; POUDRE POUR SOLUTION BUVABLE; POUDRE POUR SUSPENSION BUVABLE; POUDRE POUR SUSPENSION ORALE; SACHET\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "4121",
+              "3848",
+              "8145",
+              "3849",
+              "6310"
+            ],
+            "candidate_count": 44,
+            "clarification_field": "form",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-02",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_digits",
+        "quantity",
+        "presentation",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "answer",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nالثمن العمومي المسجل: 372.00 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nتم حفظ الكمية المطلوبة؛ الثمن المعروض لعبوة واحدة دون حساب المجموع.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9080",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-02",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "darija_arabic",
+        "quantity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nالثمن العمومي المسجل: 83.00 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nالكمية اللي طلبتي بقات مسجلة؛ الثمن المعروض ديال علبة وحدة، بلا حساب المجموع.\n\nالستوك فالصيدلية ما معروفش. حالة التسويق ما كتأكدش بلي الدوا كاين فشي صيدلية.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-02",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_medications",
+        "partial_ambiguity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\nSubstance active: BECLOMETASONE.\n\nABIP: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          },
+          {
+            "mention_index": 1,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-03",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "unmatched_strength",
+        "recovery"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "filters_not_matched"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ABIP: Nom trouvé, mais aucun enregistrement ne correspond au dosage, à la forme ou à la présentation demandés. Vérifiez ces précisions. Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 15 MG",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "filters_not_matched",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "clarification_field": "strength",
+            "clarification_kind": "correct_filters"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-03",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_brand",
+        "ambiguous_form"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "دوليبران: يرجى تحديد الدواء أو التركيز أو العبوة من الخيارات المقترحة.\n\nمخزون الصيدليات غير معروف. حالة التسويق لا تؤكد توفر الدواء في صيدلية معينة.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "572",
+              "573",
+              "574",
+              "575",
+              "576"
+            ],
+            "candidate_count": 5,
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-03",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_intents",
+        "presentation_ambiguity"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ABIP: Khtar smit ddwa, tarkiz wla l3elba men l'ikhtiyarat.\n\nStock f ssaydaliya ma m3roufch. Statut dyal commercialisation ma kay2akkedch belli ddwa kayn f chi saydaliya.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "9079",
+              "9080"
+            ],
+            "candidate_count": 2,
+            "clarification_field": null,
+            "clarification_kind": "choose_record"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-03",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "strength",
+        "presentation",
+        "code_switching"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "2004"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ZINNAT — 250 MG — COMPRIME PELLICULE — BOITE DE 14\nPrix public enregistré: 130.10 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "2004",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-04",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "quantity",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "answer",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-04",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "unknown_medication"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "not_found",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "QQQMISSING2026: لم يتم العثور على تطابق في هذا الكتالوج الجزئي. هذا لا يثبت أن الدواء غير موجود أو غير متوفر.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "not_found",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-04",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "darija_latin",
+        "pharmacy_contact"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Hadi nata2ij men annuaire nna9es dyal Rabat, mrattbin b smiya, machi b l9orb. 2akked lma3loumat b telephone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-mixed-04",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_substance",
+        "broad_candidates"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "PARACETAMOL",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "باراسيتامول: Quel dosage recherchez-vous ?\n\nValeurs enregistrées: 0.024; 0.03; 10 MG / ML; 100 MG; 100 MG / ML; 1000 MG; 120 MG / 5 ML; 125 MG; …\n\nAffinez la recherche ou consultez les présentations suivantes.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "ambiguous",
+            "record_id": null,
+            "candidate_ids": [
+              "8151",
+              "5122",
+              "787",
+              "789",
+              "7871"
+            ],
+            "candidate_count": 141,
+            "clarification_field": "strength",
+            "clarification_kind": "refine_search"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-05",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_medications",
+        "quantity",
+        "presentation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9079"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 20 COMPRIMES PELLICULES\nPrix public enregistré: 268.00 MAD.\nStatut de commercialisation enregistré: Non Commercialisé.\n\nAIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nPrix public enregistré: 83.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.\n\nLe stock en pharmacie est inconnu. Le statut de commercialisation ne confirme pas une disponibilité locale.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9079",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          },
+          {
+            "mention_index": 1,
+            "status": "resolved",
+            "record_id": "771",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-05",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_pharmacy_alias"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "pharmacy",
+          "code": "pharmacy_status_mismatch"
+        },
+        {
+          "component": "pharmacy",
+          "code": "requested_pharmacy_not_returned"
+        }
+      ],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "لا توجد صيدلية مطابقة في دليل الرباط الجزئي. هذا لا يعني عدم وجودها.",
+        "medications": [],
+        "pharmacy_status": "not_found"
+      }
+    },
+    {
+      "id": "dev-darija-05",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "district",
+        "darija_latin"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Hadi nata2ij men annuaire nna9es dyal Rabat, mrattbin b smiya, machi b l9orb. 2akked lma3loumat b telephone.\n\nPharmacie Anasse — 0537298899 — résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)\n\nPharmacie Anzi — 0537691313 — n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)\n\nPharmacie Benyahya — 0537693900 — 457, avenue Hassan II, résid. Mariam Rabat\n\nPharmacie Centre de Transfusion Sanguine — 0537692469 — résidence aribat n°9 entre av hassan ii et douar rjaf laah c.y.m Rabat\n\nPharmacie des orangers — 0537260227 — 189 Av. Hassan II, Rabat 10000",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-mixed-05",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "multiple_intents",
+        "pharmacy_contact",
+        "hours"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat\n\nHoraires d'ouverture non vérifiés ; contactez la pharmacie pour confirmation.",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-fr-06",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "pharmacy_contact"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-ar-06",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "duty",
+        "time"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "نتائج من دليل جزئي للرباط مرتبة حسب الاسم؛ لم يتم حساب القرب. يرجى تأكيد البيانات المسجلة هاتفياً.\n\nPharmacie Abdelkrim ElKhattabi — 0537203881 — 272, avenue Abdelkrim Al Khattabi, Océan Rabat\n\nPharmacie Al Araar — 0537710627 — av al araar résidence ispahan Rabat\n\nPharmacie Al Bahja — 0537797137 — rés al bahja avenue al majd imm i mag 5-6 c.y.m Rabat\n\nPharmacie Al Hikma — 0537293392 — 1376, quartier Amal 5, Al Massira Rabat\n\nPharmacie Al Jazaa — 0537721002 — 75 -77 avenue mohammed v al jazaa rabat medina\n\nلا تتوفر بيانات حراسة مؤرخة ومؤكدة. هذه النتائج لا تحدد صيدليات الحراسة.",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-darija-06",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "outside_coverage",
+        "date",
+        "darija_arabic"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "هاد الديمو عندها غير دليل ناقص ديال الصيدليات فالرباط.\n\nما عندناش حراسة بتاريخ مؤكد. هاد النتائج ما كيحددوش صيدليات الحراسة.",
+        "medications": [],
+        "pharmacy_status": "outside_coverage"
+      }
+    },
+    {
+      "id": "dev-mixed-06",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "arabic_district",
+        "code_switching"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Hay Gare Riad — 0537711748 — Rabat\n\nPharmacie Kawtar Riad — 0537563638 — secteur 13 bloc h 3 rue soltan al jabal Rabat\n\nPharmacie Riad Al Otor — 0537715013 — sect 25 villa 149 riad al otor (à coté de marjane hay riad) Rabat\n\nPharmacie Riad Assalam — 0537563582 — av al araar,secteur 13,bloc r - Rabat",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-fr-07",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "pharmacy_search",
+        "hours",
+        "multiple_intents"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Anasse — 0537298899 — résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)\n\nPharmacie Anzi — 0537691313 — n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)\n\nPharmacie De L'agdal — 0537671600 — avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat\n\nPharmacie des Facultés — 0537773440 — av ibn khatab en face cite universitaire agdal Rabat\n\nPharmacie du 16 novembre — 0537670024 — 16.av du 16 novembre - haut agdal (prés du kitea) Rabat\n\nHoraires d'ouverture non vérifiés ; contactez la pharmacie pour confirmation.",
+        "medications": [],
+        "pharmacy_status": "matches"
+      }
+    },
+    {
+      "id": "dev-ar-07",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "incomplete"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.",
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-07",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "incomplete"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.",
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-07",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "instruction_injection",
+        "unrelated"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Je peux consulter les médicaments et l'annuaire disponible. Je ne fournis ni diagnostic ni recommandation de traitement ; demandez conseil à un pharmacien ou un médecin.",
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-08",
+      "group": "fr",
+      "kind": "single_turn",
+      "tags": [
+        "clinical_boundary"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "Je peux consulter les médicaments et l'annuaire disponible. Je ne fournis ni diagnostic ni recommandation de traitement ; demandez conseil à un pharmacien ou un médecin.",
+        "medications": [],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-08",
+      "group": "ar",
+      "kind": "single_turn",
+      "tags": [
+        "unmatched_strength",
+        "units"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "filters_not_matched"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "AIRCORT: تم العثور على الاسم، لكن التركيز أو الشكل أو العبوة المطلوبة لا تطابق السجلات. يرجى التحقق من هذه التفاصيل. ما التركيز الذي تبحث عنه؟\n\nالقيم المسجلة: 250 µG / DOSE\n\nمخزون الصيدليات غير معروف. حالة التسويق لا تؤكد توفر الدواء في صيدلية معينة.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "filters_not_matched",
+            "record_id": null,
+            "candidate_ids": [
+              "771"
+            ],
+            "candidate_count": 1,
+            "clarification_field": "strength",
+            "clarification_kind": "correct_filters"
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-08",
+      "group": "darija",
+      "kind": "single_turn",
+      "tags": [
+        "unknown_medication"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "not_found",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "ZZUNKNOWN77: Ma l9itch tatabo9 f had catalogue nna9es. Hadchi ma kay3nich belli ddwa ma kaynch wla ma mtwfferch.\n\nStock f ssaydaliya ma m3roufch. Statut dyal commercialisation ma kay2akkedch belli ddwa kayn f chi saydaliya.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "not_found",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-08",
+      "group": "mixed",
+      "kind": "single_turn",
+      "tags": [
+        "missing_price",
+        "presentation"
+      ],
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9302"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "answered",
+        "answer": "18F PSMA RIM — 250 MBQ / ML — SOLUTION INJECTABLE — BOITE D'UN FLACON MONODOSE DE 15 ML\nPrix public non renseigné.\nStatut de commercialisation enregistré: AMM sans prix.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "resolved",
+            "record_id": "9302",
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-09",
+      "group": "fr",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-09",
+      "group": "ar",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-09",
+      "group": "darija",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-09",
+      "group": "mixed",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "presentation_followup"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-fr-10",
+      "group": "fr",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "conversation",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-ar-10",
+      "group": "ar",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "conversation",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: ما اسم الدواء الذي تبحث عنه؟ حدد التركيز والعبوة إن أمكن.\n\nتم حفظ الكمية المطلوبة؛ الثمن المعروض لعبوة واحدة دون حساب المجموع.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-darija-10",
+      "group": "darija",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "conversation",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Achmen dwa kat9elleb 3lih? 3tini smiyto, tarkiz w l3elba ila 3reftihom.\n\nLquantité lli tlbti b9at msjjla; taman lma3roud dyal 3elba wa7da, bla 7ssab lmajmou3.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    },
+    {
+      "id": "dev-mixed-10",
+      "group": "mixed",
+      "kind": "conversation_turn",
+      "tags": [
+        "conversation",
+        "quantity_followup",
+        "total"
+      ],
+      "passed": false,
+      "failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "conversation",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0,
+      "observed": {
+        "status": "needs_clarification",
+        "answer": "?: Quel médicament cherchez-vous ? Précisez son nom et, si possible, son dosage et sa présentation.\n\nQuantité demandée conservée ; le prix affiché concerne une seule présentation, sans calcul de total.",
+        "medications": [
+          {
+            "mention_index": 0,
+            "status": "missing_name",
+            "record_id": null,
+            "candidate_ids": [],
+            "candidate_count": 0,
+            "clarification_field": null,
+            "clarification_kind": null
+          }
+        ],
+        "pharmacy_status": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 168,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=168",
+  "fetched_at_utc": "2026-10-18T16:23:03.457734+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3355",
+      "brand_name": "EXFORGE HCT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "286,00 DH",
+        "PH": "190,70 DH",
+        "PFHT": "181,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  12,5   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3356",
+      "brand_name": "EXFORGE HCT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE // VALSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "286,00 DH",
+        "PH": "190,70 DH",
+        "PFHT": "181,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG  /  25   MG  /  160   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4795",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "29,00 DH",
+        "PH": "18,10 DH",
+        "PFHT": "17,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4796",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4797",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4798",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "47,90 DH",
+        "PH": "29,90 DH",
+        "PFHT": "28,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4799",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "84,30 DH",
+        "PH": "52,70 DH",
+        "PFHT": "50,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4800",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "123,60 DH",
+        "PH": "77,20 DH",
+        "PFHT": "73,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4801",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "69,10 DH",
+        "PH": "43,20 DH",
+        "PFHT": "41,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4802",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "122,40 DH",
+        "PH": "76,50 DH",
+        "PFHT": "72,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4803",
+      "brand_name": "EXIDEP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "178,20 DH",
+        "PH": "111,40 DH",
+        "PFHT": "106,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3357",
+      "brand_name": "EXJADE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DEFERASIROX",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "1.661.00 DH",
+        "PH": "1.401.00 DH",
+        "PFHT": "1.335.11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3358",
+      "brand_name": "EXJADE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DEFERASIROX",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "2.851.00 DH",
+        "PH": "2.523.00 DH",
+        "PFHT": "2.403.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "3359",
+      "brand_name": "EXJADE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DEFERASIROX",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "4.812.00 DH",
+        "PH": "4.542.00 DH",
+        "PFHT": "4.325.77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "893",
+      "brand_name": "EXLOXIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8432",
+      "brand_name": "EXLUTON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LYNESTRENOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "101",
+      "brand_name": "EXOCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "37,70 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.003",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5746",
+      "brand_name": "EXODERIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "NAFTIFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "37,00 DH",
+        "PH": "23,10 DH",
+        "PFHT": "22,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5747",
+      "brand_name": "EXODERIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "NAFTIFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION POUR USAGE EXTERNE"
+      }
+    },
+    {
+      "source_record_id": "4903",
+      "brand_name": "EXOMUC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "N-ACETYLCYSTEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "37,30 DH",
+        "PH": "23,30 DH",
+        "PFHT": "22,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SACHET"
+      }
+    }
+  ]
+}

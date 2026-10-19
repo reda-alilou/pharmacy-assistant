@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 183,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=183",
+  "fetched_at_utc": "2026-10-18T16:23:33.509856+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7977",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "97,60 DH",
+        "PH": "61,00 DH",
+        "PFHT": "58,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "7978",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "172,60 DH",
+        "PH": "107,90 DH",
+        "PFHT": "102,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "8460",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "8461",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "8463",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "8465",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IM / IV)"
+      }
+    },
+    {
+      "source_record_id": "591",
+      "brand_name": "FOLACID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "VITAMINE B9 (ACIDE FOLIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "24,50 DH",
+        "PH": "15,30 DH",
+        "PFHT": "14,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6085",
+      "brand_name": "FOLIFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "FER (SULFATE FERREUX) // VITAMINE B9 (ACIDE FOLIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "161,6   MG  /  0,62   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2057",
+      "brand_name": "FOLINATE DE CALCIUM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "FOLINATE (DE CALCIUM)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "107,50 DH",
+        "PH": "67,20 DH",
+        "PFHT": "63,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "2058",
+      "brand_name": "FOLINATE DE CALCIUM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "FOLINATE (DE CALCIUM)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "632,00 DH",
+        "PH": "420,00 DH",
+        "PFHT": "400,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "2059",
+      "brand_name": "FOLINATE DE CALCIUM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 FL",
+        "PP / GN": "GN",
+        "Substance active": "FOLINATE (DE CALCIUM)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "344,00 DH",
+        "PH": "228,00 DH",
+        "PFHT": "217,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "7497",
+      "brand_name": "FOLOTYN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PRALATREXATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "33.100.00 DH",
+        "PH": "32.458.00 DH",
+        "PFHT": "32.058.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  1  ML",
+        "Forme": "SOLUTION POUR PERFUSION IV EN FLACON DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "1431",
+      "brand_name": "FONDERMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "PYRITHIONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "13,30 DH",
+        "PH": "8,30 DH",
+        "PFHT": "7,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "EMULSION"
+      }
+    },
+    {
+      "source_record_id": "1432",
+      "brand_name": "FONDERMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "PYRITHIONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "14,50 DH",
+        "PH": "9,10 DH",
+        "PFHT": "8,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6416",
+      "brand_name": "FONGAMIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "OMOCONAZOLE NITRATE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4277",
+      "brand_name": "FONGICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "20,40 DH",
+        "PH": "12,70 DH",
+        "PFHT": "12,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4278",
+      "brand_name": "FONGICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4279",
+      "brand_name": "FONGICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4280",
+      "brand_name": "FONGICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4281",
+      "brand_name": "FONGICAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "79,40 DH",
+        "PH": "49,60 DH",
+        "PFHT": "47,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

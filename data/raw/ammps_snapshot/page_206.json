@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 206,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=206",
+  "fetched_at_utc": "2026-10-18T16:24:19.606767+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2842",
+      "brand_name": "HALDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "12,90 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7965",
+      "brand_name": "HALDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 30 ML AVEC COMPTE-GOUTTES",
+        "PP / GN": "PP",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "24,70 DH",
+        "PH": "15,40 DH",
+        "PFHT": "14,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG /  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8495",
+      "brand_name": "HALDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 AMPOULES DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4009",
+      "brand_name": "HALOPERIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "17,10 DH",
+        "PH": "10,70 DH",
+        "PFHT": "10,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4010",
+      "brand_name": "HALOPERIDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "19,10 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4011",
+      "brand_name": "HALOPERIDOL PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "HALOPERIDOL",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "12,30 DH",
+        "PH": "7,70 DH",
+        "PFHT": "7,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "930",
+      "brand_name": "HALOTHANE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "HALOTHANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "393,00 DH",
+        "PH": "261,00 DH",
+        "PFHT": "249,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100% V  /  V",
+        "Forme": "LIQUIDE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "7128",
+      "brand_name": "HARVONITM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SOFOSBUVIR // LEDIPASVIR",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "5.147.00 DH",
+        "PH": "4.887.00 DH",
+        "PFHT": "4.654.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG  /  400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1870",
+      "brand_name": "HAVRIX ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( HEPATITE A )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "347,00 DH",
+        "PH": "230,00 DH",
+        "PFHT": "219,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1440 U  /  1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1869",
+      "brand_name": "HAVRIX NOURRISSONS ET ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( HEPATITE A )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "186,90 DH",
+        "PH": "116,80 DH",
+        "PFHT": "111,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "720 UI  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7035",
+      "brand_name": "HBVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TENOFOVIR DISPROXIL FUMARATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "279,00 DH",
+        "PH": "186,10 DH",
+        "PFHT": "177,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "484",
+      "brand_name": "HEBERPROT-P 75",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FACTEUR DE CROISSANCE \nEPIDERMIQUE HUMAIN RECOMBINANT",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "8.966.00 DH",
+        "PH": "8.798.00 DH",
+        "PFHT": "8.398.69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 µG",
+        "Forme": "LYOPHILISAT POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1437",
+      "brand_name": "HEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 25 G",
+        "PP / GN": "GN",
+        "Substance active": "TANIN OFFICINAL // HAMAMELIS VIRGINIANA // PHENAZONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "9,50 DH",
+        "PH": "5,90 DH",
+        "PFHT": "5,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "5770",
+      "brand_name": "HELICOCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2*21",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "114,40 DH",
+        "PH": "71,50 DH",
+        "PFHT": "68,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG  /  500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4012",
+      "brand_name": "HELZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "GLICLAZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PHARMA 5",
+        "PPV": "20,90 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4013",
+      "brand_name": "HELZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLICLAZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PHARMA 5",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8033",
+      "brand_name": "HEMANGIOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 120 ML ET UNE SERINGUE POUR ADMINISTRATION ORALE",
+        "PP / GN": "PP",
+        "Substance active": "PROPRANOLOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.272.00 DH",
+        "PH": "1.927.00 DH",
+        "PFHT": "1.836.09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "3.75   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN FLACON DE 120 ML"
+      }
+    },
+    {
+      "source_record_id": "7278",
+      "brand_name": "HEMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE AMPOULE DE 2 ML DE SOLVANT AVEC UNE SERINGUE JETABLE ET DEUX AIGUILLES",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "234,00 DH",
+        "PH": "146,50 DH",
+        "PFHT": "139,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 UI  /  2  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7279",
+      "brand_name": "HEMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE AMPOULE DE 2 ML DE SOLVANT AVEC UNE SERINGUE JETABLE ET DEUX AIGUILLES",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "335,00 DH",
+        "PH": "223,00 DH",
+        "PFHT": "212,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3000 UI  /  2  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7280",
+      "brand_name": "HEMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE AMPOULE DE 2 ML DE SOLVANT AVEC UNE SERINGUE JETABLE ET DEUX AIGUILLES",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "437,00 DH",
+        "PH": "290,00 DH",
+        "PFHT": "276,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4000 UI  /  2  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

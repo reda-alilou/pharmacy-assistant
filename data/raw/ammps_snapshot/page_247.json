@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 247,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=247",
+  "fetched_at_utc": "2026-10-18T16:25:41.826277+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5318",
+      "brand_name": "LANTUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "517,00 DH",
+        "PH": "343,00 DH",
+        "PFHT": "327,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5320",
+      "brand_name": "LANTUS OPTISET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 STYLOS PRE-REMPLI DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "759,00 DH",
+        "PH": "504,00 DH",
+        "PFHT": "480,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5321",
+      "brand_name": "LANTUS OPTISET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN STYLO PRE-REMPLI DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "152,50 DH",
+        "PH": "95,30 DH",
+        "PFHT": "90,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5319",
+      "brand_name": "LANTUS SOLOSTAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS PRE-REMPLI DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "744,00 DH",
+        "PH": "495,00 DH",
+        "PFHT": "471,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5322",
+      "brand_name": "LANTUS SOLOSTAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN STYLO PRE-REMPLI DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE GLARGINE (LENTE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "152,50 DH",
+        "PH": "95,30 DH",
+        "PFHT": "90,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6740",
+      "brand_name": "LANZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "23,20 DH",
+        "PH": "14,50 DH",
+        "PFHT": "13,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6741",
+      "brand_name": "LANZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "37,00 DH",
+        "PH": "23,10 DH",
+        "PFHT": "22,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6742",
+      "brand_name": "LANZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6743",
+      "brand_name": "LANZEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "62,80 DH",
+        "PH": "39,20 DH",
+        "PFHT": "37,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5323",
+      "brand_name": "LANZOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "211,00 DH",
+        "PH": "131,60 DH",
+        "PFHT": "117,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5324",
+      "brand_name": "LANZOR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "171,20 DH",
+        "PH": "106,70 DH",
+        "PFHT": "95,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2886",
+      "brand_name": "LARGACTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "22,30 DH",
+        "PH": "13,90 DH",
+        "PFHT": "13,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2887",
+      "brand_name": "LARGACTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "39,10 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2888",
+      "brand_name": "LARGACTIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPROMAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "17,50 DH",
+        "PH": "11,00 DH",
+        "PFHT": "10,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "958",
+      "brand_name": "LARMABAK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "50,60 DH",
+        "PH": "31,60 DH",
+        "PFHT": "30,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.009",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "8585",
+      "brand_name": "LAROSCORBINE IMMUNITE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 (2 TUBES DE 10 COMPRIMES EFFERVESCENTS)",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE C // VITAMINE D // ZINC",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "BAYER",
+        "PPV": "40,40 DH",
+        "PH": "25,30 DH",
+        "PFHT": "24,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000  MG DE VITAMINE C, 10µG DE VITAMINE D& 10  MG DE ZINC",
+        "Forme": "COMPRIMES EFFERVESCENTS"
+      }
+    },
+    {
+      "source_record_id": "398",
+      "brand_name": "LAROSCORBINE ZINC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE C (ACIDE ASCORBIQUE) // ZINC",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "13,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  10   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "615",
+      "brand_name": "LAROXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMITRIPTYLINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "37,20 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "616",
+      "brand_name": "LAROXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "AMITRIPTYLINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "35,80 DH",
+        "PH": "22,40 DH",
+        "PFHT": "21,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "617",
+      "brand_name": "LAROXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "AMITRIPTYLINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "36,20 DH",
+        "PH": "22,60 DH",
+        "PFHT": "21,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

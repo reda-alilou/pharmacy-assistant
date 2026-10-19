@@ -1,0 +1,478 @@
+[
+  {
+    "id": "fr-price",
+    "group": "fr",
+    "text": "Quel est le prix de ABIP 15 mg, boîte de 20 ?",
+    "expected_intents": [
+      "price"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "ABIP"
+        ],
+        "strength": [
+          "15 mg"
+        ],
+        "quantity": [
+          null
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          "boîte de 20"
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "fr-order",
+    "group": "fr",
+    "text": "Je voudrais deux boîtes de AIRCORT et une boîte de ABIP.",
+    "expected_intents": [
+      "medication_request"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "AIRCORT"
+        ],
+        "strength": [
+          null
+        ],
+        "quantity": [
+          "deux boîtes"
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      },
+      {
+        "name": [
+          "ABIP"
+        ],
+        "strength": [
+          null
+        ],
+        "quantity": [
+          "une boîte"
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "fr-contact",
+    "group": "fr",
+    "text": "Quel est le numéro de téléphone de la pharmacie Centrale à Rabat ?",
+    "expected_intents": [
+      "pharmacy_contact"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        "pharmacie Centrale",
+        "Centrale"
+      ],
+      "city": [
+        "Rabat"
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "ar-availability",
+    "group": "ar",
+    "text": "هل ABIP 15mg متوفر؟",
+    "expected_intents": [
+      "availability"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "ABIP"
+        ],
+        "strength": [
+          "15mg"
+        ],
+        "quantity": [
+          null
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "ar-location",
+    "group": "ar",
+    "text": "أين توجد صيدلية في الرباط؟",
+    "expected_intents": [
+      "pharmacy_search"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        "الرباط"
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "ar-hours",
+    "group": "ar",
+    "text": "ما هي أوقات عمل صيدلية النور غدا؟",
+    "expected_intents": [
+      "opening_hours"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        "صيدلية النور",
+        "النور"
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        "غدا"
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "darija-price",
+    "group": "darija",
+    "text": "Bch7al ABIP 15mg?",
+    "expected_intents": [
+      "price"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "ABIP"
+        ],
+        "strength": [
+          "15mg"
+        ],
+        "quantity": [
+          null
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "darija-order",
+    "group": "darija",
+    "text": "بغيت جوج علب ديال AIRCORT.",
+    "expected_intents": [
+      "medication_request"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "AIRCORT"
+        ],
+        "strength": [
+          null
+        ],
+        "quantity": [
+          "جوج علب"
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "darija-duty",
+    "group": "darija",
+    "text": "شنو الصيدلية ديال الحراسة اليوم فكازا؟",
+    "expected_intents": [
+      "pharmacy_on_duty"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        "كازا"
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        "اليوم"
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "mixed-multiple-intents",
+    "group": "mixed",
+    "text": "Wach ABIP 15 mg disponible et à quel prix ?",
+    "expected_intents": [
+      "availability",
+      "price"
+    ],
+    "expected_medications": [
+      {
+        "name": [
+          "ABIP"
+        ],
+        "strength": [
+          "15 mg"
+        ],
+        "quantity": [
+          null
+        ],
+        "form": [
+          null
+        ],
+        "presentation": [
+          null
+        ]
+      }
+    ],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  },
+  {
+    "id": "mixed-clinical",
+    "group": "mixed",
+    "text": "3andi sda3, quel traitement dois-je prendre ?",
+    "expected_intents": [
+      "unsupported"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        "sda3"
+      ]
+    }
+  },
+  {
+    "id": "mixed-incomplete",
+    "group": "mixed",
+    "text": "Bch7al, s'il vous plaît ?",
+    "expected_intents": [
+      "price"
+    ],
+    "expected_medications": [],
+    "expected_context": {
+      "pharmacy": [
+        null
+      ],
+      "city": [
+        null
+      ],
+      "area": [
+        null
+      ],
+      "date": [
+        null
+      ],
+      "time": [
+        null
+      ],
+      "symptom": [
+        null
+      ]
+    }
+  }
+]

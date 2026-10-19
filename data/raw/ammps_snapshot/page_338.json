@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 338,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=338",
+  "fetched_at_utc": "2026-10-18T16:28:44.279516+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2962",
+      "brand_name": "PERIDYS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "34,70 DH",
+        "PH": "21,70 DH",
+        "PFHT": "20,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2963",
+      "brand_name": "PERIDYS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DOMPERIDONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9204",
+      "brand_name": "PERIKABIVEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 POCHES DE 1440 ML A 3 COMPARTIMENTS",
+        "PP / GN": "PP",
+        "Substance active": "ACIDES AMINES // GLUCOSES // LIPIDES // SELS (ELECTROLYTES)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.345.00 DH",
+        "PH": "1.076.00 DH",
+        "PFHT": "1.025.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1440  ML",
+        "Forme": "EMULSION POUR PERFUSION, POCHE DE 1440 ML A 3 COMPARTIMENTS"
+      }
+    },
+    {
+      "source_record_id": "9205",
+      "brand_name": "PERIKABIVEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 POCHES DE 1920 ML A 3 COMPARTIMENTS",
+        "PP / GN": "PP",
+        "Substance active": "ACIDES AMINES // GLUCOSES // LIPIDES // SELS (ELECTROLYTES)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.462.00 DH",
+        "PH": "1.197.00 DH",
+        "PFHT": "1.140.01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1920  ML",
+        "Forme": "EMULSION POUR PERFUSION, POCHE DE 1920 ML A 3 COMPARTIMENTS"
+      }
+    },
+    {
+      "source_record_id": "7197",
+      "brand_name": "PERIOLIMEL N4E",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 1500 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDES AMINES // GLUCOSES // LIPIDES // SELS (ELECTROLYTES)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "436,00 DH",
+        "PH": "290,00 DH",
+        "PFHT": "276,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "EMULSION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7198",
+      "brand_name": "PERIOLIMEL N4E",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 2000 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDES AMINES // GLUCOSES // LIPIDES // SELS (ELECTROLYTES)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "576,00 DH",
+        "PH": "383,00 DH",
+        "PFHT": "365,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "EMULSION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5092",
+      "brand_name": "PERJETA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "PERTUZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "25.900.00 DH",
+        "PH": "25.400.00 DH",
+        "PFHT": "25.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "420   MG",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4123",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "113,90 DH",
+        "PH": "71,20 DH",
+        "PFHT": "67,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4124",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "292,00 DH",
+        "PH": "194,40 DH",
+        "PFHT": "185,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4125",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "157,70 DH",
+        "PH": "98,60 DH",
+        "PFHT": "93,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4126",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "405,00 DH",
+        "PH": "269,00 DH",
+        "PFHT": "256,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4127",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "292,00 DH",
+        "PH": "194,50 DH",
+        "PFHT": "185,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4128",
+      "brand_name": "PERLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "PRAVASTATINE (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "754,00 DH",
+        "PH": "501,00 DH",
+        "PFHT": "477,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2964",
+      "brand_name": "PERMIXON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "SERENOA REPENS (EXTRAIT DE LIPIDOSTEROLIQUE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "143,30 DH",
+        "PH": "89,50 DH",
+        "PFHT": "85,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1504",
+      "brand_name": "PERNABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "12,70 DH",
+        "PH": "7,90 DH",
+        "PFHT": "7,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,04 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1505",
+      "brand_name": "PERNABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "15,70 DH",
+        "PH": "9,80 DH",
+        "PFHT": "9,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1506",
+      "brand_name": "PERNABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "40,70 DH",
+        "PH": "25,50 DH",
+        "PFHT": "24,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3387",
+      "brand_name": "PEROMENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "113,60 DH",
+        "PH": "70,80 DH",
+        "PFHT": "63,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3388",
+      "brand_name": "PEROMENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "657,00 DH",
+        "PH": "435,00 DH",
+        "PFHT": "389,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3389",
+      "brand_name": "PEROMENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE PABLE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "68,10 DH",
+        "PH": "42,40 DH",
+        "PFHT": "37,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

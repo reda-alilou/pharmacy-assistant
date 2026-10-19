@@ -1,0 +1,53 @@
+{
+  "generated_at_utc": "2026-10-19T20:53:38.665210+00:00",
+  "status": "implemented_and_targeted_live_verification_complete",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "prompt_version": "step9-package-selection-v1",
+  "local_message_delay_seconds": 0,
+  "offline_tests": {
+    "passed": 236,
+    "elapsed_seconds": 224.936,
+    "log": "reports/matching_package_offline_tests_final.log"
+  },
+  "annotated_backend_scenarios": {
+    "passed": 14,
+    "total": 14,
+    "is_model_accuracy_measurement": false
+  },
+  "targeted_live_output_replays": {
+    "original_failures_passed": 6,
+    "original_failures_total": 6,
+    "fresh_passed": 8,
+    "fresh_total": 8,
+    "completed_scenarios": 14,
+    "accepted_model_outputs": 20,
+    "outbound_attempts": 24,
+    "method": "Validated real model outputs replayed through corrected backend; first 11 outputs preserved across documented backend-only replay"
+  },
+  "pending_fresh_scenarios": [],
+  "live_remaining_jobs": 0,
+  "quota_blocker": null,
+  "automatic_retries_stopped": true,
+  "quota_diagnostic": "reports/matching_package_quota_diagnostic.json",
+  "original_benchmark_unchanged": true,
+  "original_benchmark_outcomes": "34/40",
+  "active_datasets_unchanged": true,
+  "frozen_annotations_unchanged": true,
+  "independent_new_accuracy_claim": false,
+  "servers_started_or_stopped": false,
+  "bulk_collection_requests": 0,
+  "guide": "docs/arabic-package-fix.md",
+  "complete_metrics": "reports/matching_package_metrics_complete.json",
+  "previous_partial_checkpoint": "reports\\matching_package_checkpoint_partial.json",
+  "latest_verification": {
+    "accepted_model_outputs": 8,
+    "successful_invocation_attempts": 8,
+    "quota_rejections_in_successful_invocation": 0,
+    "sandbox_connectivity_failures_before_network_access": 2,
+    "raw_current_slot_f1": 0.8571428571428571,
+    "schema_valid_completions": 20,
+    "returned_completions": 20,
+    "key_handling": "User updated local configuration; credential never printed or recorded."
+  }
+}

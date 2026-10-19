@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 290,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=290",
+  "fetched_at_utc": "2026-10-18T16:27:08.087982+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4948",
+      "brand_name": "MYNAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "70,40 DH",
+        "PH": "44,00 DH",
+        "PFHT": "41,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4949",
+      "brand_name": "MYNAZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "107,50 DH",
+        "PH": "67,20 DH",
+        "PFHT": "63,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4950",
+      "brand_name": "MYNAZOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "87,00 DH",
+        "PH": "54,20 DH",
+        "PFHT": "48,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6772",
+      "brand_name": "MYOCET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLA / 50 ML POUDRE FLA / 1,9 ML SOLUTION LIPOSOME FLA DE SOLUTION TAMPON",
+        "PP / GN": "PP",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "10.430.00 DH",
+        "PH": "10.234.00 DH",
+        "PFHT": "9.834.29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE ET PRE-MELANGE POUR SOLUTION A DILUER POUR DISPERSION LIPOSOMALE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7535",
+      "brand_name": "MYOMIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "MILRINONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.182.00 DH",
+        "PH": "908,00 DH",
+        "PFHT": "865,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE (IV) EN AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "6466",
+      "brand_name": "MYOXOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // THIOCOLCHICOSIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "37,00 DH",
+        "PH": "23,00 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5352",
+      "brand_name": "MYOZYME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALPHA-GLUCOSIDASE ACIDE HUMAINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "5.907.00 DH",
+        "PH": "5.669.00 DH",
+        "PFHT": "5.399.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5353",
+      "brand_name": "MYOZYME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALPHA-GLUCOSIDASE ACIDE HUMAINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "44.463.00 DH",
+        "PH": "43.599.00 DH",
+        "PFHT": "43.199.56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1593",
+      "brand_name": "MYRIN 100",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "THALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "1.584.00 DH",
+        "PH": "1.322.00 DH",
+        "PFHT": "1.259.05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1594",
+      "brand_name": "MYRIN 50",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "THALIDOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "1.346.00 DH",
+        "PH": "1.077.00 DH",
+        "PFHT": "1.025.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5354",
+      "brand_name": "MYTELASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50",
+        "PP / GN": "PP",
+        "Substance active": "AMBENONIUM (CHLORURE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "75,70 DH",
+        "PH": "47,30 DH",
+        "PFHT": "45,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "994",
+      "brand_name": "NAABAK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE N-ACETYL ASPARTYL GLUTAMIQUE SODIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "78,50 DH",
+        "PH": "49,10 DH",
+        "PFHT": "46,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.049",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "995",
+      "brand_name": "NAAXIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE N-ACETYL ASPARTYL GLUTAMIQUE SODIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "49,90 DH",
+        "PH": "31,20 DH",
+        "PFHT": "29,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.049",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "9209",
+      "brand_name": "NABICARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES QUADRI-SECABLES",
+        "PP / GN": "GN",
+        "Substance active": "NEBIVOLOL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "87,50 DH",
+        "PH": "54,70 DH",
+        "PFHT": "52,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME QUADRI-SECABLE"
+      }
+    },
+    {
+      "source_record_id": "637",
+      "brand_name": "NABYOL FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "NITROXOLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "23,20 DH",
+        "PH": "14,50 DH",
+        "PFHT": "13,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2101",
+      "brand_name": "NALBUPHINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "NALBUPHINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "264,00 DH",
+        "PH": "165,40 DH",
+        "PFHT": "157,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5854",
+      "brand_name": "NALGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "FENOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "28,60 DH",
+        "PH": "17,90 DH",
+        "PFHT": "17,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5855",
+      "brand_name": "NALGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 36",
+        "PP / GN": "PP",
+        "Substance active": "FENOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "71,50 DH",
+        "PH": "44,70 DH",
+        "PFHT": "42,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8628",
+      "brand_name": "NALIXINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE NALIDIXIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6467",
+      "brand_name": "NALOXONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "NALOXONE",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "503,00 DH",
+        "PH": "334,00 DH",
+        "PFHT": "318,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,4   MG  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

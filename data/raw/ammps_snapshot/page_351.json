@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 351,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=351",
+  "fetched_at_utc": "2026-10-18T16:29:10.379919+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "195",
+      "brand_name": "PRILVAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "196",
+      "brand_name": "PRILVAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "51,80 DH",
+        "PH": "32,40 DH",
+        "PFHT": "30,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5589",
+      "brand_name": "PRIMACAINE ADRENALINEE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "ARTICAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "306,00 DH",
+        "PH": "203,00 DH",
+        "PFHT": "193,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  /  100 000",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "5590",
+      "brand_name": "PRIMACAINE ADRENALINEE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 CARTOUCHES",
+        "PP / GN": "PP",
+        "Substance active": "ARTICAINE // ADRENALINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "293,00 DH",
+        "PH": "194,70 DH",
+        "PFHT": "185,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  /  200 000",
+        "Forme": "SOLUTION INJECTABLE A USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "2981",
+      "brand_name": "PRIMALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120 ML",
+        "PP / GN": "PP",
+        "Substance active": "MEQUITAZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "29,80 DH",
+        "PH": "18,60 DH",
+        "PFHT": "17,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,06 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "2982",
+      "brand_name": "PRIMALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MEQUITAZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "44,80 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2983",
+      "brand_name": "PRIMALAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MEQUITAZINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "26,80 DH",
+        "PH": "16,70 DH",
+        "PFHT": "15,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "4741",
+      "brand_name": "PRIMOLUT-NOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "NORETHISTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "POLYMEDIC",
+        "PPV": "41,40 DH",
+        "PH": "25,80 DH",
+        "PFHT": "24,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2984",
+      "brand_name": "PRIMPERAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "28,20 DH",
+        "PH": "17,60 DH",
+        "PFHT": "15,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2985",
+      "brand_name": "PRIMPERAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 130 ML",
+        "PP / GN": "PP",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "21,90 DH",
+        "PH": "13,70 DH",
+        "PFHT": "12,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5390",
+      "brand_name": "PRIMPERAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "35,70 DH",
+        "PH": "22,30 DH",
+        "PFHT": "21,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6493",
+      "brand_name": "PRINCI-B FORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE B1 (THIAMINE MONITRATE) // VITAMINE B6 (PYRIDOXINE) // VITAMINE B12 (CYANOCOBALAMINE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "47,30 DH",
+        "PH": "29,60 DH",
+        "PFHT": "28,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1921",
+      "brand_name": "PRIORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE VACCIN LYOPHILISE + DILUENT EN BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE LYOPHILISEE + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "8716",
+      "brand_name": "PRIORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 FLACONS DE 2 DOSES ET 100 AMPOULES DE SOLVANT DE 1 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE LYOPHYLISEE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1922",
+      "brand_name": "PRIORIX-TETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE EN FLACON ET SOLVANT EN SERINGUE PREREMPLIE. BOITE DE 1",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE // VARICELLE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "353,00 DH",
+        "PH": "234,00 DH",
+        "PFHT": "223,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1923",
+      "brand_name": "PRIORIX-TETRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE EN FLACON ET SOLVANT EN SERINGUE PREREMPLIE. BOITE DE 10",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE // VARICELLE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "1.645.00 DH",
+        "PH": "1.384.00 DH",
+        "PFHT": "1.318.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1924",
+      "brand_name": "PRIORIX-TETRA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "POUDRE EN FLACON ET SOLVANT EN AMPOULE. BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE // VARICELLE )",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "378,00 DH",
+        "PH": "250,00 DH",
+        "PFHT": "223,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1925",
+      "brand_name": "PRIORIX-TETRA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "POUDRE EN FLACON ET SOLVANT EN AMPOULE. BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( ROUGEOLE // OREILLONS // RUBEOLE // VARICELLE )",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "1.645.00 DH",
+        "PH": "1.384.00 DH",
+        "PFHT": "1.318.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4135",
+      "brand_name": "PRIRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "21,70 DH",
+        "PH": "13,60 DH",
+        "PFHT": "12,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4136",
+      "brand_name": "PRIRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "42,60 DH",
+        "PH": "26,60 DH",
+        "PFHT": "25,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

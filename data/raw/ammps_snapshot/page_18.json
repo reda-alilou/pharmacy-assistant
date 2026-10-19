@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 18,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=18",
+  "fetched_at_utc": "2026-10-18T16:18:02.845882+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2131",
+      "brand_name": "ALIVIAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "SULPIRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "IBERMA",
+        "PPV": "25,20 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7846",
+      "brand_name": "ALKAPEZIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "278,00 DH",
+        "PH": "184,80 DH",
+        "PFHT": "176,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7847",
+      "brand_name": "ALKAPEZIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "469,00 DH",
+        "PH": "312,00 DH",
+        "PFHT": "297,39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "5633",
+      "brand_name": "ALKERAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "MELPHALAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "100,40 DH",
+        "PH": "62,70 DH",
+        "PFHT": "59,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4814",
+      "brand_name": "ALLEGRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "65,90 DH",
+        "PH": "41,20 DH",
+        "PFHT": "39,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4815",
+      "brand_name": "ALLEGRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE14",
+        "PP / GN": "GN",
+        "Substance active": "LEVOCETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8154",
+      "brand_name": "ALLERGIFLASH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 RECIPIENTS DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEVOCABASTINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "777",
+      "brand_name": "ALLERGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "778",
+      "brand_name": "ALLERGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "39,50 DH",
+        "PH": "24,70 DH",
+        "PFHT": "23,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "779",
+      "brand_name": "ALLERGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "77,70 DH",
+        "PH": "48,50 DH",
+        "PFHT": "46,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6046",
+      "brand_name": "ALLERGO-COMOD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CROMOGLICATE DE SODIUM",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6047",
+      "brand_name": "ALLERGOCROM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CROMOGLICATE DE SODIUM",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "2324",
+      "brand_name": "ALLERGODIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON 6 ML",
+        "PP / GN": "PP",
+        "Substance active": "AZELASTINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "71,60 DH",
+        "PH": "44,70 DH",
+        "PFHT": "42,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "2325",
+      "brand_name": "ALLERGODIL SPRAY NASAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON 10ML AVEC POMPE DOSEUSE",
+        "PP / GN": "PP",
+        "Substance active": "AZELASTINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "69,60 DH",
+        "PH": "43,50 DH",
+        "PFHT": "41,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1 G",
+        "Forme": "SOLUTION POUR PULVERISATION"
+      }
+    },
+    {
+      "source_record_id": "6935",
+      "brand_name": "ALMANTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "133,30 DH",
+        "PH": "83,30 DH",
+        "PFHT": "79,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6936",
+      "brand_name": "ALMANTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "234,00 DH",
+        "PH": "146,70 DH",
+        "PFHT": "139,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6937",
+      "brand_name": "ALMANTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "220,00 DH",
+        "PH": "137,90 DH",
+        "PFHT": "131,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6938",
+      "brand_name": "ALMANTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "365,00 DH",
+        "PH": "242,00 DH",
+        "PFHT": "231,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5549",
+      "brand_name": "ALMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 RECIPIENTS UNIDOSES",
+        "PP / GN": "PP",
+        "Substance active": "LODOXAMIDE // TROMETAMOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "42,20 DH",
+        "PH": "26,40 DH",
+        "PFHT": "25,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "COLLYRE RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "5634",
+      "brand_name": "ALMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "LODOXAMIDE TROMETAMOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "56,30 DH",
+        "PH": "35,20 DH",
+        "PFHT": "33,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "COLLYRE"
+      }
+    }
+  ]
+}

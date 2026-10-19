@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 148,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=148",
+  "fetched_at_utc": "2026-10-18T16:22:23.332125+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8387",
+      "brand_name": "EDARBI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AZILSARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "183,10 DH",
+        "PH": "114,40 DH",
+        "PFHT": "108,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8388",
+      "brand_name": "EDARBYCLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "AZILSARTAN MEDOXOMIL // CHLORTHALIDONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "203,00 DH",
+        "PH": "127,10 DH",
+        "PFHT": "121,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  12.5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8389",
+      "brand_name": "EDARBYCLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "PP",
+        "Substance active": "AZILSARTAN MEDOXOMIL // CHLORTHALIDONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "203,00 DH",
+        "PH": "127,10 DH",
+        "PFHT": "121,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  25   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7478",
+      "brand_name": "EDGAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "68,30 DH",
+        "PH": "42,70 DH",
+        "PFHT": "40,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9708",
+      "brand_name": "EDGAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "93,70 DH",
+        "PH": "58,50 DH",
+        "PFHT": "55,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9709",
+      "brand_name": "EDGAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "65,50 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9710",
+      "brand_name": "EDGAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREGABALINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "131,00 DH",
+        "PH": "81,90 DH",
+        "PFHT": "77,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "891",
+      "brand_name": "EFAVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EFAVIRENZ",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "60,50 DH",
+        "PH": "37,80 DH",
+        "PFHT": "36,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "892",
+      "brand_name": "EFAVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EFAVIRENZ",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "136,10 DH",
+        "PH": "85,10 DH",
+        "PFHT": "81,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3500",
+      "brand_name": "EFDOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "10,20 DH",
+        "PH": "6,40 DH",
+        "PFHT": "5,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3501",
+      "brand_name": "EFDOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "10,20 DH",
+        "PH": "6,40 DH",
+        "PFHT": "5,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3502",
+      "brand_name": "EFDOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "8,70 DH",
+        "PH": "5,40 DH",
+        "PFHT": "4,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3503",
+      "brand_name": "EFDOL CAFEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CAFEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVOPHARMA",
+        "PPV": "13,80 DH",
+        "PH": "8,60 DH",
+        "PFHT": "8,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2413",
+      "brand_name": "EFFERALGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "17,60 DH",
+        "PH": "11,00 DH",
+        "PFHT": "10,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.03",
+        "Forme": "PEDIATRIQUE SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2414",
+      "brand_name": "EFFERALGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "14,90 DH",
+        "PH": "9,30 DH",
+        "PFHT": "8,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2415",
+      "brand_name": "EFFERALGAN VITAMINE C",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,60 DH",
+        "PH": "10,30 DH",
+        "PFHT": "9,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "330   MG DU 200   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "3643",
+      "brand_name": "EFFEXOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PFIZER",
+        "PPV": "99,70 DH",
+        "PH": "62,30 DH",
+        "PFHT": "59,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3644",
+      "brand_name": "EFFEXOR LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "74,60 DH",
+        "PH": "46,60 DH",
+        "PFHT": "44,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37,5   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3645",
+      "brand_name": "EFFEXOR LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VENLAFAXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "94,40 DH",
+        "PH": "59,00 DH",
+        "PFHT": "56,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5733",
+      "brand_name": "EFFICORT HYDROPHILE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "HYDROCORTISONE (ACEPONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "37,80 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.00127",
+        "Forme": "CREME"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 310,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=310",
+  "fetched_at_utc": "2026-10-18T16:27:48.182726+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5877",
+      "brand_name": "NPLATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ROMIPLOSTIM",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "13.453.00 DH",
+        "PH": "13.197.00 DH",
+        "PFHT": "12.797.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 µG",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "8672",
+      "brand_name": "NUBEQA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 112 COMPRIMÉ",
+        "PP / GN": "PP",
+        "Substance active": "DAROLUTAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "26.810.00 DH",
+        "PH": "26.292.00 DH",
+        "PFHT": "25.892.17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIMÉ PELLICULÉ"
+      }
+    },
+    {
+      "source_record_id": "6221",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "92,70 DH",
+        "PH": "57,90 DH",
+        "PFHT": "55,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6222",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "176,20 DH",
+        "PH": "110,10 DH",
+        "PFHT": "104,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6223",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "257,00 DH",
+        "PH": "161,00 DH",
+        "PFHT": "153,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6224",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "114,00 DH",
+        "PH": "71,30 DH",
+        "PFHT": "67,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6225",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "216,00 DH",
+        "PH": "135,40 DH",
+        "PFHT": "128,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6226",
+      "brand_name": "NUPENTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GABAPENTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "315,00 DH",
+        "PH": "209,00 DH",
+        "PFHT": "199,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4085",
+      "brand_name": "NURABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "9,10 DH",
+        "PH": "5,70 DH",
+        "PFHT": "5,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "4086",
+      "brand_name": "NURABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "11,30 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "4087",
+      "brand_name": "NURABOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "14,20 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4088",
+      "brand_name": "NURAVIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // VITAMINE B1 (THIAMINE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE) // VITAMINE B3 (NICOTINAMIDE) // VITAMINE B2 (RIBOFLAVINE) // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "19,60 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,08 G  /  0,012 G  /  0,012 G  /  0,1 G  /  0,015 G  /  0,4 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "4089",
+      "brand_name": "NURAVIT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // VITAMINE B1 (THIAMINE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE) // VITAMINE B3 (NICOTINAMIDE) // VITAMINE B2 (RIBOFLAVINE) // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "28,70 DH",
+        "PH": "17,90 DH",
+        "PFHT": "17,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6470",
+      "brand_name": "NURODOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "15,90 DH",
+        "PH": "9,90 DH",
+        "PFHT": "9,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6471",
+      "brand_name": "NURODOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6472",
+      "brand_name": "NURODOL ENF ET NOUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "17,70 DH",
+        "PH": "11,10 DH",
+        "PFHT": "10,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6980",
+      "brand_name": "NUTRYLET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "NA",
+        "Substance active": "GLUCONATE DE ZINC // GLUCONATE DE CUIVRE // GLUCONATE DE MANGANESE // FLUORURE DE SODIUM // IODURE DE POTASSIUM // SELENITE DE SODIUM // MOLYBDATE DE SODIUM // CHLORURE DE SODIUM // GLUCONATE FERREUX",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "471,00 DH",
+        "PH": "313,00 DH",
+        "PFHT": "298,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3248",
+      "brand_name": "NUVARING",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SACHET/1 ANNEAU",
+        "PP / GN": "PP",
+        "Substance active": "ETONOGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "129,90 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11,7   MG  /  2,7   MG",
+        "Forme": "ANNEAU POUR USAGE VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "1730",
+      "brand_name": "NUVIVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "1731",
+      "brand_name": "NUVIVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "65,80 DH",
+        "PH": "41,10 DH",
+        "PFHT": "39,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    }
+  ]
+}

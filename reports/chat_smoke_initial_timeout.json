@@ -1,0 +1,27 @@
+{
+  "run_at_utc": "2026-10-18T20:23:55.635926+00:00",
+  "mode": "live_http",
+  "scope": "development_smoke_not_held_out_evaluation",
+  "expected_cases": 11,
+  "cases": [
+    {
+      "id": "darija-price-stock",
+      "text": "Wach kayn AIRCORT w bch7al?",
+      "failures": [
+        "HTTP request failed"
+      ],
+      "http_status": 504,
+      "latency_ms": 41082.0,
+      "response": {
+        "detail": {
+          "code": "provider_timeout",
+          "message": "The interpretation provider timed out.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      "passed": false
+    }
+  ],
+  "passed": false
+}

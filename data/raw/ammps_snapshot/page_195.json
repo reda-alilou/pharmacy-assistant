@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 195,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=195",
+  "fetched_at_utc": "2026-10-18T16:23:57.505773+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8489",
+      "brand_name": "GENTAMICINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6086",
+      "brand_name": "GENTAMICINE-POS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "24,60 DH",
+        "PH": "15,40 DH",
+        "PFHT": "14,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "123",
+      "brand_name": "GENTAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "112,00 DH",
+        "PH": "70,00 DH",
+        "PFHT": "66,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "124",
+      "brand_name": "GENTAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "125",
+      "brand_name": "GENTAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 6 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "50,50 DH",
+        "PH": "31,50 DH",
+        "PFHT": "30,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "126",
+      "brand_name": "GENTAMYCINE LLORENTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES (3 ML)",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "104,60 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "127",
+      "brand_name": "GENTAMYCINE LLORENTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE (3 ML)",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "128",
+      "brand_name": "GENTAMYCINE LLORENTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE (2 ML)",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "11,40 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "129",
+      "brand_name": "GENTAMYCINE LLORENTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE (2 ML)",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "16,90 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "130",
+      "brand_name": "GENTAMYCINE LLORENTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES (2 ML)",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "81,40 DH",
+        "PH": "50,90 DH",
+        "PFHT": "48,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2450",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2451",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "123,50 DH",
+        "PH": "77,20 DH",
+        "PFHT": "73,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "160   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2452",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "8,80 DH",
+        "PH": "5,50 DH",
+        "PFHT": "5,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2453",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "12,00 DH",
+        "PH": "7,50 DH",
+        "PFHT": "7,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2454",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,90 DH",
+        "PH": "10,60 DH",
+        "PFHT": "10,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2455",
+      "brand_name": "GENTOSYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "94,50 DH",
+        "PH": "59,00 DH",
+        "PFHT": "56,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4805",
+      "brand_name": "GEPRID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "79,00 DH",
+        "PH": "49,40 DH",
+        "PFHT": "47,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4806",
+      "brand_name": "GEPRID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "117,20 DH",
+        "PH": "73,20 DH",
+        "PFHT": "69,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4807",
+      "brand_name": "GEPRID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "175,80 DH",
+        "PH": "109,90 DH",
+        "PFHT": "104,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4808",
+      "brand_name": "GEPRID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PROMOPHARM",
+        "PPV": "177,40 DH",
+        "PH": "110,90 DH",
+        "PFHT": "105,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

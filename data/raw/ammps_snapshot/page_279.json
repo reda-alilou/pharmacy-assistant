@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 279,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=279",
+  "fetched_at_utc": "2026-10-18T16:26:46.065871+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "302",
+      "brand_name": "MIBRAL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "ATLAS PHARM",
+        "PPV": "125,00 DH",
+        "PH": "78,10 DH",
+        "PFHT": "74,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8462",
+      "brand_name": "MIBZO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON 10",
+        "PP / GN": "GN",
+        "Substance active": "BORTEZOMIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "5.617.00 DH",
+        "PH": "5.370.00 DH",
+        "PFHT": "5.114.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3.5 MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "630",
+      "brand_name": "MICARDIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "156,80 DH",
+        "PH": "98,00 DH",
+        "PFHT": "93,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "631",
+      "brand_name": "MICARDIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "200,00 DH",
+        "PH": "125,20 DH",
+        "PFHT": "119,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "632",
+      "brand_name": "MICARDIS PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TELMISARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "200,00 DH",
+        "PH": "125,20 DH",
+        "PFHT": "119,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "987",
+      "brand_name": "MICRODIOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "DESOGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "26,50 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,03   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "413",
+      "brand_name": "MICROGYNON 30",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "8,20 DH",
+        "PH": "5,10 DH",
+        "PFHT": "4,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,03   MG",
+        "Forme": "DRAGEE"
+      }
+    },
+    {
+      "source_record_id": "2909",
+      "brand_name": "MICROLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 TUBES CANULE UNIDOSE",
+        "PP / GN": "PP",
+        "Substance active": "SORBITOL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "19,70 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "45   MG",
+        "Forme": "GELEE"
+      }
+    },
+    {
+      "source_record_id": "5345",
+      "brand_name": "MICROPAKINE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "39,60 DH",
+        "PH": "24,70 DH",
+        "PFHT": "22,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GRANULE A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5346",
+      "brand_name": "MICROPAKINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "320,00 DH",
+        "PH": "212,00 DH",
+        "PFHT": "202,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "GRANULE A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5347",
+      "brand_name": "MICROPAKINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "84,90 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "GRANULE A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5348",
+      "brand_name": "MICROPAKINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "164,80 DH",
+        "PH": "103,00 DH",
+        "PFHT": "98,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GRANULE A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5349",
+      "brand_name": "MICROPAKINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "244,00 DH",
+        "PH": "153,00 DH",
+        "PFHT": "145,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "GRANULE A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "2910",
+      "brand_name": "MICROPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "BARYUM (SULFATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "24,90 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 G",
+        "Forme": "SUSPENSION BUVABLE OU RECTALE"
+      }
+    },
+    {
+      "source_record_id": "2911",
+      "brand_name": "MICROPAQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 POT DE 400 G",
+        "PP / GN": "PP",
+        "Substance active": "BARYUM (SULFATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "39,80 DH",
+        "PH": "24,90 DH",
+        "PFHT": "23,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9238",
+        "Forme": "POUDRE POUR SUSPENSION RECTALE"
+      }
+    },
+    {
+      "source_record_id": "2912",
+      "brand_name": "MICROPAQUE COLON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 POCHE DE 400 G",
+        "PP / GN": "PP",
+        "Substance active": "BARYUM (SULFATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "95,00 DH",
+        "PH": "59,40 DH",
+        "PFHT": "56,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9238",
+        "Forme": "POUDRE POUR SUSPENSION RECTALE"
+      }
+    },
+    {
+      "source_record_id": "2913",
+      "brand_name": "MICROPAQUE SCANNER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "BARYUM (SULFATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "53,70 DH",
+        "PH": "33,60 DH",
+        "PFHT": "31,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7, 5 G",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9130",
+      "brand_name": "MICROPOST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRAVOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "144,60 DH",
+        "PH": "90,40 DH",
+        "PFHT": "86,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,004 P/V",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3709",
+      "brand_name": "MICROVAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PFIZER",
+        "PPV": "13,00 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3710",
+      "brand_name": "MICROVAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL MICRONISE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PFIZER",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH",
+        "PFHT": "20,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,030   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

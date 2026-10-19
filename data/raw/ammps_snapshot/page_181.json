@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 181,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=181",
+  "fetched_at_utc": "2026-10-18T16:23:29.480810+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2437",
+      "brand_name": "FLUOCARIL BI-FLUORE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 100 G",
+        "PP / GN": "PP",
+        "Substance active": "MONOFLUORO PHOSPHATE (DE SODIUM) // FLUORURE DE SODIUM",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "18,20 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "PATE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "2438",
+      "brand_name": "FLUOCARIL BI-FLUORE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 50 G",
+        "PP / GN": "PP",
+        "Substance active": "MONOFLUORO PHOSPHATE (DE SODIUM) // FLUORURE DE SODIUM",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "11,60 DH",
+        "PH": "7,20 DH",
+        "PFHT": "6,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "PATE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "6679",
+      "brand_name": "FLUOMIZIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "PP",
+        "Substance active": "DEQUALINIUM (CHLORHYDRATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "90,10 DH",
+        "PH": "56,30 DH",
+        "PFHT": "53,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "4683",
+      "brand_name": "FLUORO URACILE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 AMPOULES INJECTABLES",
+        "PP / GN": "GN",
+        "Substance active": "FLUOROURACIL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "69,00 DH",
+        "PH": "43,10 DH",
+        "PFHT": "41,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6083",
+      "brand_name": "FLUORO-URACILE ICN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 FLACONS DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FLUOROURACIL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "257,00 DH",
+        "PH": "161,00 DH",
+        "PFHT": "153,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8453",
+      "brand_name": "FLUOROCHOLINE (18F) CYCLOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "CHLORURE DE FLUOROCHOLINE (18F)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ   /    ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8454",
+      "brand_name": "FLUOROCHOLINE RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "FLUOROCHOLINE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "6082",
+      "brand_name": "FLUOROSCEINE 10% FAURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULE DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FLUORESCEINE (SODIQUE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "276,00 DH",
+        "PH": "183,60 DH",
+        "PFHT": "174,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "8455",
+      "brand_name": "FLUORURE DE SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON MULTIDOSE DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "FLUORURE (18) DE SODIUM",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 MBQ  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON MULTIDOSE, FLACON EN VERRE DE 15 ML"
+      }
+    },
+    {
+      "source_record_id": "5758",
+      "brand_name": "FLUOSEPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "BIFLUORURE (AMMONIUM) // ESTER BENZYLSALICYLIQUE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.022",
+        "Forme": "SOLUTION POUR USAGE EXTERNE"
+      }
+    },
+    {
+      "source_record_id": "5571",
+      "brand_name": "FLUOXET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "278,00 DH",
+        "PH": "185,00 DH",
+        "PFHT": "176,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5759",
+      "brand_name": "FLUOXET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "66,70 DH",
+        "PH": "41,70 DH",
+        "PFHT": "39,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5760",
+      "brand_name": "FLUOXET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "126,20 DH",
+        "PH": "78,80 DH",
+        "PFHT": "75,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5761",
+      "brand_name": "FLUOXET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SOTHEMA",
+        "PPV": "168,20 DH",
+        "PH": "105,10 DH",
+        "PFHT": "100,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4271",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4272",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4273",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4274",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4275",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "32,70 DH",
+        "PH": "20,40 DH",
+        "PFHT": "19,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4276",
+      "brand_name": "FLUPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "62,60 DH",
+        "PH": "39,10 DH",
+        "PFHT": "37,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

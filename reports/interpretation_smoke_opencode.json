@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-10-18T22:24:22.913115+00:00",
+  "mode": "live",
+  "provider": "opencode",
+  "model": "glm-5.3-flash-free",
+  "output_mode": "json_schema",
+  "prompt_version": "step2-v1",
+  "fixture": "data\\evaluation\\interpretation_smoke.json",
+  "status": "stopped_provider_error",
+  "acceptance": "12 completed cases, at least 10 correct intent sets and 10 exact entity cases, no incorrect non-null entities",
+  "results": [
+    {
+      "id": "fr-price",
+      "group": "fr",
+      "text": "Quel est le prix de ABIP 15 mg, boîte de 20 ?",
+      "error": {
+        "code": "provider_permission_denied",
+        "message": "The OpenCode account cannot access this model.",
+        "retryable": false,
+        "retry_after_seconds": null
+      }
+    }
+  ],
+  "summary": {
+    "total_cases": 12,
+    "completed_cases": 0,
+    "intents_correct": 0,
+    "entities_exact_cases": 0,
+    "incorrect_nonnull_entities": 0,
+    "passed": false
+  }
+}

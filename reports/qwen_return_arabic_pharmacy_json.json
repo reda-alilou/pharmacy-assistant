@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-10-19T14:28:21.126899+00:00",
+  "mode": "live_chat_smoke",
+  "held_out_execution": "not_run",
+  "text": "أعطني رقم هاتف صيدلية ابن نفيس في الرباط.",
+  "is_general_accuracy_measurement": false,
+  "response": {
+    "status": "answered",
+    "interpretation": {
+      "language": "ar",
+      "reply_language": "ar",
+      "reply_script": "arabic",
+      "intents": [
+        "pharmacy_contact"
+      ],
+      "entities": {
+        "medications": [],
+        "pharmacy": "صيدلية ابن نفيس",
+        "city": "الرباط",
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [],
+    "pharmacy": {
+      "status": "matches",
+      "applied_city": "الرباط",
+      "city_defaulted": false,
+      "result_count": 1,
+      "pharmacies": [
+        {
+          "pharmacy_id": "saydalia:5256",
+          "name": "Pharmacie Ibn Nafis",
+          "city": "Rabat",
+          "address": "12, rue Jazirat Al Arab Rabat",
+          "phone": "0537720657",
+          "latitude": 34.0218555,
+          "longitude": -6.8419573,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.0209%2C-6.8416&limit=35",
+          "fetched_at_utc": "2026-10-18T16:21:29.022097+00:00",
+          "directory_scope": "partial_rabat_map_sample"
+        }
+      ],
+      "scope": "partial_rabat_directory",
+      "ordering": "name_not_distance",
+      "stock_status": "unknown",
+      "opening_hours_status": "unknown",
+      "duty_status": "unverified",
+      "match_method": "reviewed_alias",
+      "name_alias": "ibn nafis",
+      "results_truncated": false
+    },
+    "answer": "نتائج من دليل جزئي للرباط مرتبة حسب الاسم؛ لم يتم حساب القرب. يرجى تأكيد البيانات المسجلة هاتفياً.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+    "sources": [
+      {
+        "source": "saydalia.ma",
+        "url": "https://saydalia.ma/fr/",
+        "fetched_at_utc": "2026-10-18T16:21:29.022097+00:00",
+        "record_ids": [
+          "saydalia:5256"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "qwen/qwen3.8-27b",
+      "model": "qwen/qwen3.8-27b",
+      "prompt_version": "step7-quantity-fragments-v2",
+      "latency_ms": 1047.0,
+      "attempts": 1,
+      "completion_id": "chatcmpl-ac6e9b8c-19b6-4401-a22d-e93042533173",
+      "usage": {
+        "prompt_tokens": 1472,
+        "completion_tokens": 117,
+        "total_tokens": 1589
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": true,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "u-BYfEJKXr4_82sRhX8K87cdkzHdYArnMzEn05Nl_RY",
+    "session_expires_at_utc": "2026-10-19T14:43:22.354247+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "ar",
+        "reply_language": "ar",
+        "reply_script": "arabic",
+        "intents": [
+          "pharmacy_contact"
+        ],
+        "entities": {
+          "medications": [],
+          "pharmacy": "صيدلية ابن نفيس",
+          "city": "الرباط",
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "not_requested",
+      "total_price_mad": null,
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "status": "passed",
+  "budget": {
+    "max_requests": 2,
+    "attempts_reserved": 1,
+    "total_attempts_reserved": 1
+  }
+}

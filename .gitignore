@@ -12,9 +12,41 @@ wheels/
 # Local environment / secrets
 .env
 .env.*
+!.env.example
+.streamlit/secrets.toml
 
 # IDE / OS files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+.runtime/
+reports/*.lock
+# Regenerable bulk-collection caches; retain staged records and manifests.
+data/staging/**/raw/
+data/staging/**/parsed/
+data/raw/expansion_v1/
+
+# Local scratch tools, interrupted test directories and collection working copies.
+/tmp/
+/reports/tmp*/
+/data/processed/archive/
+/data/staging/
+
+# Retain parsed source snapshot JSON for reproducible offline tests; HTML and
+# HTTP metadata are collection caches, not application inputs.
+/data/raw/ammps_snapshot/*.html
+/data/raw/ammps_snapshot/*.meta.json
+/data/raw/medicament_ma/
+/data/raw/saydalia_medications/
+/data/raw/saydalia_rabat/
+
+# Keep only the public HTML samples exercised by parser regression tests.
+/data/raw/source_discovery/*
+!/data/raw/source_discovery/ammps_live_1.html
+!/data/raw/source_discovery/medicament_detail_2.html
+!/data/raw/source_discovery/saydalia_medications.html
+
+# Failed sandbox-only run; the verified normal-permission test log is retained.
+/reports/github_checkpoint_tests.log
+/reports/github_clean_checkout_tests.log

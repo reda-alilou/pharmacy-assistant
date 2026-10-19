@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 175,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=175",
+  "fetched_at_utc": "2026-10-18T16:23:17.477324+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9682",
+      "brand_name": "FERRICURE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE DE POLYSACCHRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 MG / ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "104",
+      "brand_name": "FERRIPROX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "DEFERIPRONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "1.388.00 DH",
+        "PH": "1.120.00 DH",
+        "PFHT": "1.067.47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION ORALE"
+      }
+    },
+    {
+      "source_record_id": "105",
+      "brand_name": "FERRIPROX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "DEFERIPRONE",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "HEMOLAB",
+        "PPV": "2.384.00 DH",
+        "PH": "2.042.00 DH",
+        "PFHT": "1.945.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9439",
+      "brand_name": "FIASP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D’UN FLACON DE 10 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE ASPARTE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9441",
+      "brand_name": "FIASP FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 STYLO DE 3 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE ASPARTE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U / ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9442",
+      "brand_name": "FIASP FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 STYLOS DE 3 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE ASPARTE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U / ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9440",
+      "brand_name": "FIASP PENFILL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 3 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE ASPARTE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U / ML",
+        "Forme": "SOLUTION INJECTABLE EN CARTOUCHE"
+      }
+    },
+    {
+      "source_record_id": "5751",
+      "brand_name": "FIBROCARD LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "100,00 DH",
+        "PH": "62,50 DH",
+        "PFHT": "59,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5752",
+      "brand_name": "FIBROCARD LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "VERAPAMIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "81,00 DH",
+        "PH": "50,60 DH",
+        "PFHT": "48,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9340",
+      "brand_name": "FIBRYGA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE , UN FLACON DE SOLVANT DE 50 ML, UN DISPOSITIF DE TRANSFERT OCTAJET ET UN  FILTRE ANTIPARTICULES.",
+        "PP / GN": "PP",
+        "Substance active": "FIBRINOGENE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "4.967.00 DH",
+        "PH": "4.701.00 DH",
+        "PFHT": "4.477.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE / POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9510",
+      "brand_name": "FILGRASTIM COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE",
+        "PP / GN": "BS",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "530,00 DH",
+        "PH": "352,00 DH",
+        "PFHT": "336,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "48 MU / 0,5 ML ( 0,96 MG / ML )",
+        "Forme": "SOLUTION INJECTABLE  OU POUR PERFUSION EN SERINGUE PRE-REMPLIE DE 0,5 ML"
+      }
+    },
+    {
+      "source_record_id": "277",
+      "brand_name": "FINASTERIDE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FINASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9677",
+      "brand_name": "FINEGYA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "FINGOLIMOD (CHLORHYDRATE)",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "BOTTU",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9756",
+      "brand_name": "FIRIALTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "FINERENONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9757",
+      "brand_name": "FIRIALTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "FINERENONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9758",
+      "brand_name": "FIRIALTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "FINERENONE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7671",
+      "brand_name": "FIRMAGON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "DEGARELIX",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.523.00 DH",
+        "PH": "1.259.00 DH",
+        "PFHT": "1.199.74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE EN UN FLACON DE POUDRE ET UNE SERINGUE PRE-REMPLIE DE SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "7672",
+      "brand_name": "FIRMAGON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "DEGARELIX",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.627.00 DH",
+        "PH": "2.293.00 DH",
+        "PFHT": "2.184.09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE EN UN FLACON DE POUDRE ET UNE SERINGUE PRE-REMPLIE DE SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "1426",
+      "brand_name": "FITEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "1427",
+      "brand_name": "FITEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "31,30 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 1,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+  "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5021",
+      "brand_name": "18-FDG RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON MONO DOSE DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "FLUDESOXYGLUCOSE (18F)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "4.303.00 DH",
+        "PH": "4.018.00 DH",
+        "PFHT": "3.827.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ   /    ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9302",
+      "brand_name": "18F PSMA RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON MONODOSE DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "[18F] PSMA-1007",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9303",
+      "brand_name": "18F PSMA RIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON MULTIDOSE DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "[18F] PSMA-1007",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9075",
+      "brand_name": "18F-PSMA CYCLOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON MULTIDOSE EN VERRE DE 15 ML , CONTIENT UN VOLUME COMPRIS ENTRE 0.5 ET 10 ML DE SOLUTION",
+        "PP / GN": "RX",
+        "Substance active": "[18F] PSMA-1007",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1300 MBQ   /    ML",
+        "Forme": "SOLUTION INJECTABLE, FLACON MULTIDOSE DE 10 ML DE SOLUTION MAXIMUM."
+      }
+    },
+    {
+      "source_record_id": "2302",
+      "brand_name": "A.V.T.",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "NA",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE // VITAMINE B1 (THIAMINE) // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "10,70 DH",
+        "PH": "6,70 DH",
+        "PFHT": "6,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  0,002 G  /  0,02 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2303",
+      "brand_name": "A.V.T.",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "NA",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE // VITAMINE B1 (THIAMINE) // VITAMINE C (ACIDE ASCORBIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "19,10 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 G  /  0,002 G  /  0,02 G",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "8120",
+      "brand_name": "ABACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG",
+        "Forme": "POUDRE ET SOLVANT POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8121",
+      "brand_name": "ABACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE ET SOLVANT POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8122",
+      "brand_name": "ABACT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE ET SOLVANT POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2703",
+      "brand_name": "ABBOTICINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERYTHROMYCINE (ETHYLSUCCINATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "25,10 DH",
+        "PH": "15,70 DH",
+        "PFHT": "14,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2704",
+      "brand_name": "ABILIFY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.200.00 DH",
+        "PH": "927,00 DH",
+        "PFHT": "883,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2705",
+      "brand_name": "ABILIFY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.200.00 DH",
+        "PH": "927,00 DH",
+        "PFHT": "883,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9079",
+      "brand_name": "ABIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "160,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9080",
+      "brand_name": "ABIP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "372,00 DH",
+        "PH": "247,00 DH",
+        "PFHT": "236,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8123",
+      "brand_name": "ABIRANAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 120 COMPRIMES.",
+        "PP / GN": "GN",
+        "Substance active": "ABIRATERONE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "10.411.00 DH",
+        "PH": "10.215.00 DH",
+        "PFHT": "9.815.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7208",
+      "brand_name": "ABIRATERONE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120",
+        "PP / GN": "GN",
+        "Substance active": "ABIRATERONE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "10.411.00 DH",
+        "PH": "10.215.00 DH",
+        "PFHT": "9.815.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5545",
+      "brand_name": "ABSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "876,00 DH",
+        "PH": "582,00 DH",
+        "PFHT": "554,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "5546",
+      "brand_name": "ABSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "876,00 DH",
+        "PH": "582,00 DH",
+        "PFHT": "554,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "5547",
+      "brand_name": "ABSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "876,00 DH",
+        "PH": "582,00 DH",
+        "PFHT": "554,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400 µG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "2304",
+      "brand_name": "ACARBOSE LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ACARBOSE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "64,40 DH",
+        "PH": "40,20 DH",
+        "PFHT": "38,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

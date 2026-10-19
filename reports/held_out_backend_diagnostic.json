@@ -1,0 +1,847 @@
+{
+  "generated_at_utc": "2026-10-19T20:03:52.041527+00:00",
+  "mode": "offline_held_out_backend_diagnostic_with_gold_extraction",
+  "is_model_accuracy_measurement": false,
+  "provider_requests": 0,
+  "freeze_sha256": "f53929dec348a320222388bf86a327aab975b024185221004f2b4bc42cadd4ec",
+  "implementation_changed": false,
+  "cases": 40,
+  "passed": 36,
+  "results": [
+    {
+      "id": "held-fr-01",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1972"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-01",
+      "group": "ar",
+      "passed": false,
+      "failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1972"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-01",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "1972"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-01",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-02",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-02",
+      "group": "ar",
+      "passed": false,
+      "failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "answer",
+          "code": "requested_total_missing"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1792"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-02",
+      "group": "darija",
+      "passed": false,
+      "failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-02",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "2002"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-03",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "2004"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1
+    },
+    {
+      "id": "held-ar-03",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "563"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-03",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "confirm_spelling",
+            "record_ids": [
+              "563",
+              "564"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "suggestions"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-03",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "2003"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-04",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": "IBUPROFENE",
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1
+    },
+    {
+      "id": "held-ar-04",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 1,
+      "focused_candidate_lists": 1
+    },
+    {
+      "id": "held-darija-04",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-04",
+      "group": "mixed",
+      "passed": false,
+      "failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": false,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1790"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-05",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "not_found",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "not_found"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-05",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-05",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-05",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-06",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-06",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-06",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-06",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-07",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-07",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-07",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-07",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-08",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "missing_name"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-08",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [
+              "9079",
+              "9080"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "filters_not_matched"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-08",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "771"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        },
+        {
+          "mention_index": 1,
+          "passed": true,
+          "expected": {
+            "mention_index": 1,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-08",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "clarify",
+            "record_ids": [],
+            "active_substance": null,
+            "minimum_candidates": 2
+          },
+          "observed_status": "ambiguous"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-09",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-09",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-09",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-09",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1974"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-fr-10",
+      "group": "fr",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-ar-10",
+      "group": "ar",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-darija-10",
+      "group": "darija",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    },
+    {
+      "id": "held-mixed-10",
+      "group": "mixed",
+      "passed": true,
+      "failures": [],
+      "medication_decisions": [
+        {
+          "mention_index": 0,
+          "passed": true,
+          "expected": {
+            "mention_index": 0,
+            "outcome": "resolved",
+            "record_ids": [
+              "1791"
+            ],
+            "active_substance": null,
+            "minimum_candidates": 0
+          },
+          "observed_status": "resolved"
+        }
+      ],
+      "broad_candidate_lists": 0,
+      "focused_candidate_lists": 0
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 493,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=493",
+  "fetched_at_utc": "2026-10-18T16:33:54.882209+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1203",
+      "brand_name": "ZOEGAS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE GASTRO-RESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "4600",
+      "brand_name": "ZOFENIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ZOFENOPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "75,30 DH",
+        "PH": "47,10 DH",
+        "PFHT": "44,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8990",
+      "brand_name": "ZOFENIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES.",
+        "PP / GN": "PP",
+        "Substance active": "ZOFENOPRIL (CALCIUM)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "16,50 DH",
+        "PH": "10,30 DH",
+        "PFHT": "9,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "4391",
+      "brand_name": "ZOFENIL PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ZOFENOPRIL (CALCIUM) // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "157,90 DH",
+        "PH": "98,70 DH",
+        "PFHT": "94,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3099",
+      "brand_name": "ZOLADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "GOSERELINE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "2.911.00 DH",
+        "PH": "2.585.00 DH",
+        "PFHT": "2.462.09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10,8   MG",
+        "Forme": "IMPLANT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3100",
+      "brand_name": "ZOLADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "GOSERELINE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "1.103.00 DH",
+        "PH": "827,00 DH",
+        "PFHT": "788,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,6   MG",
+        "Forme": "IMPLANT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5017",
+      "brand_name": "ZOLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "35,50 DH",
+        "PH": "22,20 DH",
+        "PFHT": "21,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5018",
+      "brand_name": "ZOLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "67,30 DH",
+        "PH": "42,00 DH",
+        "PFHT": "40,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5019",
+      "brand_name": "ZOLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "66,10 DH",
+        "PH": "41,30 DH",
+        "PFHT": "39,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5020",
+      "brand_name": "ZOLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LANSOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "112,80 DH",
+        "PH": "70,50 DH",
+        "PFHT": "67,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1258",
+      "brand_name": "ZOLICHEK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "88,80 DH",
+        "PH": "55,50 DH",
+        "PFHT": "52,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "1259",
+      "brand_name": "ZOLICHEK T",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "101,90 DH",
+        "PH": "63,70 DH",
+        "PFHT": "60,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "7790",
+      "brand_name": "ZOLNOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "24,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "8991",
+      "brand_name": "ZOLNOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3791",
+      "brand_name": "ZOLOFT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3792",
+      "brand_name": "ZOLOFT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "118,50 DH",
+        "PH": "74,10 DH",
+        "PFHT": "70,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3793",
+      "brand_name": "ZOLOFT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "188,00 DH",
+        "PH": "117,50 DH",
+        "PFHT": "111,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8993",
+      "brand_name": "ZOLPIDEM NORMAON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "IBERMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5617",
+      "brand_name": "ZOLPIDEM NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ZOLPIDEM (TARTRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "IBERMA",
+        "PPV": "60,70 DH",
+        "PH": "37,90 DH",
+        "PFHT": "36,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3565",
+      "brand_name": "ZOLTAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SILDENAFIL",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "34,80 DH",
+        "PH": "21,70 DH",
+        "PFHT": "19,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    }
+  ]
+}

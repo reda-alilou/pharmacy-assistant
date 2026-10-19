@@ -40,7 +40,7 @@ def normalize_price(raw_price):
     value = normalize_text(raw_price).upper()
     value = re.sub(r"\s*DH$", "", value).strip()
 
-    if re.fullmatch(r"SANS\s*(?:PPV|PH|PFHT)", value):
+    if value in {"NA", "N/A"} or re.fullmatch(r"SANS\s*(?:PPV|PH|PFHT)", value):
         return None
 
     # Thousands separators followed by two decimal digits.

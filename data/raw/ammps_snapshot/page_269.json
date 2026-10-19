@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 269,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=269",
+  "fetched_at_utc": "2026-10-18T16:26:25.984139+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6103",
+      "brand_name": "MAXICLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "143,10 DH",
+        "PH": "89,40 DH",
+        "PFHT": "85,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6104",
+      "brand_name": "MAXICLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "54,20 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6105",
+      "brand_name": "MAXICLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "95,40 DH",
+        "PH": "59,60 DH",
+        "PFHT": "56,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6106",
+      "brand_name": "MAXICLAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  62,5   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "6107",
+      "brand_name": "MAXICLAV ENFANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML + SERINGUE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6108",
+      "brand_name": "MAXICLAV NOURRISSON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML + SERINGUE",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // ACIDE CLAVULANIQUE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "29,10 DH",
+        "PH": "18,20 DH",
+        "PFHT": "17,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  12,5   MG  /   ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5832",
+      "brand_name": "MAXIDROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 3,5 G",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE // NEOMYCINE // POLYMYXINE B",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "20,90 DH",
+        "PH": "13,10 DH",
+        "PFHT": "12,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,10 G  /  350000 UI  /  600000 UI",
+        "Forme": "POMMADE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5833",
+      "brand_name": "MAXIDROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE // NEOMYCINE // POLYMYXINE B",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "28,10 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  350000 UI  /  600000 UI",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "2540",
+      "brand_name": "MAXILASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "ALPHA-AMYLASE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "56,20 DH",
+        "PH": "35,10 DH",
+        "PFHT": "33,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3000 UCEIP",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2541",
+      "brand_name": "MAXILASE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALPHA-AMYLASE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 UCEIP  /   ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "976",
+      "brand_name": "MAXIMAG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MAGNESIUM (PIDOLATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "57,20 DH",
+        "PH": "35,70 DH",
+        "PFHT": "34,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 G",
+        "Forme": "SOLUTION BUVABLE EN AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "4296",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "44,80 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4297",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4298",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4299",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "78,50 DH",
+        "PH": "49,10 DH",
+        "PFHT": "46,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4300",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "119,60 DH",
+        "PH": "74,80 DH",
+        "PFHT": "71,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4301",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "158,90 DH",
+        "PH": "99,30 DH",
+        "PFHT": "94,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4302",
+      "brand_name": "MAZAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMED",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5834",
+      "brand_name": "MEBEVERINE FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MEBEVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "51,20 DH",
+        "PH": "32,00 DH",
+        "PFHT": "30,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "135   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1462",
+      "brand_name": "MEBIZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "MEBENDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "15,20 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SUSPENSION"
+      }
+    }
+  ]
+}

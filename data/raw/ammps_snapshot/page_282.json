@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 282,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=282",
+  "fetched_at_utc": "2026-10-18T16:26:52.088899+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4495",
+      "brand_name": "MIOCAMEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "MIOCAMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "121,40 DH",
+        "PH": "75,60 DH",
+        "PFHT": "67,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7786",
+      "brand_name": "MIRATA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ERLOTINIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "7.073.00 DH",
+        "PH": "6.869.00 DH",
+        "PFHT": "6.542.16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "5082",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "2.516.00 DH",
+        "PH": "2.142.00 DH",
+        "PFHT": "1.913.39 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5083",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "2.366.00 DH",
+        "PH": "1.989.00 DH",
+        "PFHT": "1.776.59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120 µ G  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5084",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "3.559.00 DH",
+        "PH": "3.213.00 DH",
+        "PFHT": "2.868.91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5085",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "4.586.00 DH",
+        "PH": "4.267.00 DH",
+        "PFHT": "3.810.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5086",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "5.761.00 DH",
+        "PH": "5.472.00 DH",
+        "PFHT": "4.886.52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5087",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "750,00 DH",
+        "PH": "497,00 DH",
+        "PFHT": "444,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5088",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "1.366.00 DH",
+        "PH": "1.072.00 DH",
+        "PFHT": "957,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5089",
+      "brand_name": "MIRCERA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "METHOXYPOLYETHYLENE GLYCOL EPOETINE BETA",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "1.895.00 DH",
+        "PH": "1.616.00 DH",
+        "PFHT": "1.443.05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 µG  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "415",
+      "brand_name": "MIRENA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 DISPOSITIF",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "1.163.00 DH",
+        "PH": "889,00 DH",
+        "PFHT": "846,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µG  /  24 HEURES",
+        "Forme": "DISPOSITIF INTRA UTERIN HORMONAL"
+      }
+    },
+    {
+      "source_record_id": "4377",
+      "brand_name": "MIRZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4378",
+      "brand_name": "MIRZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "106,00 DH",
+        "PH": "66,20 DH",
+        "PFHT": "63,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4379",
+      "brand_name": "MIRZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "46,00 DH",
+        "PH": "28,70 DH",
+        "PFHT": "27,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4380",
+      "brand_name": "MIRZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "55,00 DH",
+        "PH": "34,40 DH",
+        "PFHT": "32,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9229",
+      "brand_name": "MISOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "103,30 DH",
+        "PH": "64,60 DH",
+        "PFHT": "61,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "COLLYRE EN SOLUTION, FLACON DE 5ML"
+      }
+    },
+    {
+      "source_record_id": "5350",
+      "brand_name": "MITOSYL IRRITATIONS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 65 G",
+        "PP / GN": "PP",
+        "Substance active": "HUILE DE FOIE DE POISSON // ZINC (OXYDE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "17,20 DH",
+        "PH": "10,70 DH",
+        "PFHT": "9,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "21 G  /  27 G",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4720",
+      "brand_name": "MITOXANTRONE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON 10ML",
+        "PP / GN": "GN",
+        "Substance active": "MITOXANTRONE (HYDROCHLORIDE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "2.099.00 DH",
+        "PH": "1.852.00 DH",
+        "PFHT": "1.764.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4721",
+      "brand_name": "MITOXANTRONE EBEWE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MITOXANTRONE (HYDROCHLORIDE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.199.00 DH",
+        "PH": "926,00 DH",
+        "PFHT": "882,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1887",
+      "brand_name": "MIVACRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "MIVACURIUM (CHLORURE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "342,00 DH",
+        "PH": "227,00 DH",
+        "PFHT": "216,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

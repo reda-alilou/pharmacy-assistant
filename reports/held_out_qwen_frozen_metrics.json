@@ -1,0 +1,2218 @@
+{
+  "generated_at_utc": "2026-10-19T20:11:26.183689+00:00",
+  "split": "held_out",
+  "source_report": "reports\\held_out_qwen_frozen_v1.json",
+  "source_report_sha256": "bfa62eae8158710eafb64942e9aaeb0b90d217f2c53b713c1033f68d8c837e22",
+  "sources": {
+    "annotations_sha256": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9",
+    "catalogue_sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+    "pharmacy_directory_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+    "backend_sha256": {
+      "chat.py": "a93ae24446705cd6ad6a6aea3f8c5c56e5750882f8ce822709e5dc17662a64cf",
+      "chat_models.py": "44bd2472c166ba14e8b12018e36e53ef621420f2bce90f083ff82ded5eafb461",
+      "conversation.py": "9c9ee67dfbf760eb13fccfa92d88282e03e7b6b0cfa1a7d6648c3c7d4ff5587c",
+      "pricing.py": "da75ea9c9f743b912f0825758116bb5f6f9b8ff4384252bf98019834174e4a5c",
+      "resolution.py": "19eabb30e41f082f965e4b975a3656b309364fb2c2983be71f308f8ad807f92a",
+      "medication_normalization.py": "66fa48d4d16bc3bd4d455e5664da9e2ec10bba5891fec138e2a24649cc6aba78",
+      "catalog.py": "4b728bce1d4e37b9558539104ea789ce11fec52c9ff6b43c5b85e098f4cf50e5",
+      "pharmacy_directory.py": "bd52e09cb63a4df42e54826913e7bb73a74467bff5218812884a707fe68644da",
+      "pharmacy_normalization.py": "838967633d27090f00b9921acc712b9de49b0ac2893c7602f1833a77c5165247",
+      "answer_templates.py": "49c0e3ba0e9f200819bf8ef391fbc0be809588008cb7b1034988c5e54c77fbd0",
+      "baseline_metrics.py": "151add8f2ca275722a0aec42f12395b575c695411fea2dd4064bb405d1b7ac85",
+      "evaluate_baseline.py": "53165215aab9b257e9bea97c78a6370b16f03c685289b2dc862292dbf678c640",
+      "evaluate_development.py": "f437284fe6b9d453a2c4dd9f96eb3ff40cd41bc5c9ff763e86d058fcc8b9ec84"
+    }
+  },
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "output_mode": "json_object",
+  "evidence_mode": "live_predictions_with_backend_replay",
+  "history": null,
+  "prompt_versions": {
+    "step8-temporal-packaging-v1": 48
+  },
+  "status": "complete",
+  "held_out_execution": "executed_after_implementation_freeze",
+  "scoring_contract": "Raw current-message slots, effective dialogue intents; raw standalone metrics also shown separately.",
+  "annotation_contract_note": "Follow-up annotations contain contextual intents but only current-message entity spans. Inherited medicine identities are assessed by backend resolution, not current-message slot F1.",
+  "raw_standalone": {
+    "total_cases": 32,
+    "completed_cases": 32,
+    "intent_micro": {
+      "tp": 33,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9705882352941176,
+      "recall": 0.9705882352941176,
+      "f1": 0.9705882352941176
+    },
+    "entity_slot_micro": {
+      "tp": 73,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9864864864864865,
+      "f1": 0.9931972789115646
+    },
+    "entity_slots_by_field": {
+      "name": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "strength": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "quantity": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "form": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "presentation": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "pharmacy": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "city": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "area": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "date": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "time": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "symptom": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "intents_correct": 31,
+    "entities_exact_cases": 31,
+    "incorrect_nonnull_entities": 0,
+    "by_group": {
+      "fr": {
+        "completed_cases": 8,
+        "intent_micro": {
+          "tp": 8,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.8888888888888888,
+          "recall": 0.8888888888888888,
+          "f1": 0.8888888888888888
+        },
+        "entity_slot_micro": {
+          "tp": 15,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "ar": {
+        "completed_cases": 8,
+        "intent_micro": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slot_micro": {
+          "tp": 21,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "presentation": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "date": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "darija": {
+        "completed_cases": 8,
+        "intent_micro": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slot_micro": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "presentation": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "mixed": {
+        "completed_cases": 8,
+        "intent_micro": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slot_micro": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "passed": true
+  },
+  "dialogue_intents_and_current_slots": {
+    "total_cases": 40,
+    "completed_cases": 40,
+    "intent_micro": {
+      "tp": 39,
+      "fp": 3,
+      "fn": 3,
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1": 0.9285714285714286
+    },
+    "entity_slot_micro": {
+      "tp": 82,
+      "fp": 3,
+      "fn": 4,
+      "precision": 0.9647058823529412,
+      "recall": 0.9534883720930233,
+      "f1": 0.9590643274853801
+    },
+    "entity_slots_by_field": {
+      "name": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "strength": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333
+      },
+      "quantity": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523
+      },
+      "form": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "presentation": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      "pharmacy": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "city": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "area": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "date": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "time": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "symptom": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "intents_correct": 37,
+    "entities_exact_cases": 37,
+    "incorrect_nonnull_entities": 3,
+    "by_group": {
+      "fr": {
+        "completed_cases": 10,
+        "intent_micro": {
+          "tp": 10,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9090909090909091,
+          "recall": 0.9090909090909091,
+          "f1": 0.9090909090909091
+        },
+        "entity_slot_micro": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "presentation": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        }
+      },
+      "ar": {
+        "completed_cases": 10,
+        "intent_micro": {
+          "tp": 10,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slot_micro": {
+          "tp": 24,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "presentation": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "date": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "darija": {
+        "completed_cases": 10,
+        "intent_micro": {
+          "tp": 9,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1": 0.9
+        },
+        "entity_slot_micro": {
+          "tp": 19,
+          "fp": 2,
+          "fn": 3,
+          "precision": 0.9047619047619048,
+          "recall": 0.8636363636363636,
+          "f1": 0.8837209302325582
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 4,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.8888888888888888
+          },
+          "quantity": {
+            "tp": 2,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.6666666666666666,
+            "recall": 1.0,
+            "f1": 0.8
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "presentation": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          },
+          "pharmacy": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "mixed": {
+        "completed_cases": 10,
+        "intent_micro": {
+          "tp": 10,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9090909090909091,
+          "recall": 0.9090909090909091,
+          "f1": 0.9090909090909091
+        },
+        "entity_slot_micro": {
+          "tp": 21,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.9545454545454546,
+          "recall": 0.9545454545454546,
+          "f1": 0.9545454545454546
+        },
+        "entity_slots_by_field": {
+          "name": {
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 3,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571
+          },
+          "quantity": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "presentation": {
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888
+          },
+          "pharmacy": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "city": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "symptom": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      }
+    },
+    "passed": true
+  },
+  "backend": {
+    "total": 40,
+    "completed": 40,
+    "passed": 34,
+    "by_group": {
+      "fr": {
+        "completed": 10,
+        "passed": 10
+      },
+      "ar": {
+        "completed": 10,
+        "passed": 8
+      },
+      "darija": {
+        "completed": 10,
+        "passed": 8
+      },
+      "mixed": {
+        "completed": 10,
+        "passed": 8
+      }
+    },
+    "medication_resolution": {
+      "correct": 25,
+      "scored": 31,
+      "expected": 31
+    }
+  },
+  "schema": {
+    "returned_completions": 48,
+    "valid_completions": 48,
+    "validity_rate": 1.0,
+    "evidence_rejections": 0,
+    "transport_failures": 1
+  },
+  "latency_ms_all_calls": {
+    "count": 48,
+    "minimum": 578.0,
+    "median": 797.0,
+    "p95_nearest_rank": 1625.0,
+    "maximum": 2172.0
+  },
+  "latency_ms_current_messages_by_group": {
+    "fr": {
+      "count": 10,
+      "minimum": 703.0,
+      "median": 961.0,
+      "p95_nearest_rank": 2172.0,
+      "maximum": 2172.0
+    },
+    "ar": {
+      "count": 10,
+      "minimum": 594.0,
+      "median": 750.0,
+      "p95_nearest_rank": 1094.0,
+      "maximum": 1094.0
+    },
+    "darija": {
+      "count": 10,
+      "minimum": 594.0,
+      "median": 789.5,
+      "p95_nearest_rank": 2000.0,
+      "maximum": 2000.0
+    },
+    "mixed": {
+      "count": 10,
+      "minimum": 578.0,
+      "median": 726.5,
+      "p95_nearest_rank": 813.0,
+      "maximum": 813.0
+    }
+  },
+  "language_diagnostics": {
+    "fr": {
+      "scored": 10,
+      "language_correct": 10,
+      "reply_language_correct": 10,
+      "reply_script_correct": 10
+    },
+    "ar": {
+      "scored": 10,
+      "language_correct": 10,
+      "reply_language_correct": 10,
+      "reply_script_correct": 10
+    },
+    "darija": {
+      "scored": 10,
+      "language_correct": 10,
+      "reply_language_correct": 10,
+      "reply_script_correct": 10
+    },
+    "mixed": {
+      "scored": 10,
+      "language_correct": 10,
+      "reply_language_correct": 7,
+      "reply_script_correct": 7
+    }
+  },
+  "medication_resolution_by_group": {
+    "fr": {
+      "correct": 8,
+      "scored": 8,
+      "expected": 8
+    },
+    "ar": {
+      "correct": 6,
+      "scored": 8,
+      "expected": 8
+    },
+    "darija": {
+      "correct": 6,
+      "scored": 8,
+      "expected": 8
+    },
+    "mixed": {
+      "correct": 5,
+      "scored": 7,
+      "expected": 7
+    }
+  },
+  "usage_returned_completions": {
+    "prompt_tokens": 76744,
+    "completion_tokens": 7238,
+    "total_tokens": 83982
+  },
+  "attempts_reserved": 49,
+  "provider_errors": [
+    {
+      "id": "held-ar-10",
+      "at_utc": "2026-10-19T20:08:42.543018+00:00",
+      "error": {
+        "code": "provider_rate_limited",
+        "message": "Groq's rate limit was reached. Try again later.",
+        "retryable": true,
+        "retry_after_seconds": 60.0
+      },
+      "attempt_audit": [
+        {
+          "schema_valid": null,
+          "evidence_valid": null,
+          "transport_failed": true,
+          "latency_ms": 250.0
+        }
+      ],
+      "saved_as_prediction": false
+    }
+  ],
+  "budget_checkpoints": 5,
+  "failures": [
+    {
+      "id": "held-ar-01",
+      "text": "ما ثمن فنتولين 100 ميكروغرام / جرعة؟",
+      "raw_slot_score": {
+        "id": "held-ar-01",
+        "group": "ar",
+        "intents_correct": true,
+        "entities_exact": true,
+        "intent_counts": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "slot_counts": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "missing_entities": [],
+        "slot_by_field": {
+          "name": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": true,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ]
+    },
+    {
+      "id": "held-ar-02",
+      "text": "أريد ثمن ثلاث علب من أوغمنتين 1 g / 125 mg، علبة 24.",
+      "raw_slot_score": {
+        "id": "held-ar-02",
+        "group": "ar",
+        "intents_correct": true,
+        "entities_exact": true,
+        "intent_counts": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "slot_counts": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "missing_entities": [],
+        "slot_by_field": {
+          "name": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": true,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        },
+        {
+          "component": "answer",
+          "code": "requested_total_missing"
+        }
+      ]
+    },
+    {
+      "id": "held-darija-02",
+      "text": "بغيت علبة ديال أوغمنتين 1 g / 125 mg، فيها 16 كيس.",
+      "raw_slot_score": {
+        "id": "held-darija-02",
+        "group": "darija",
+        "intents_correct": true,
+        "entities_exact": false,
+        "intent_counts": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "slot_counts": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.8888888888888888
+        },
+        "missing_entities": [
+          "medications.0.form"
+        ],
+        "slot_by_field": {
+          "name": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "presentation": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": true,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ]
+    },
+    {
+      "id": "held-mixed-04",
+      "text": "Est-ce que أوجمنتين disponible en boîte de 12 ?",
+      "raw_slot_score": {
+        "id": "held-mixed-04",
+        "group": "mixed",
+        "intents_correct": true,
+        "entities_exact": true,
+        "intent_counts": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "slot_counts": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "missing_entities": [],
+        "slot_by_field": {
+          "name": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "strength": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "quantity": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": true,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "matching",
+          "code": "medication_decision_mismatch"
+        }
+      ]
+    },
+    {
+      "id": "held-fr-08",
+      "text": "Je voudrais trois boîtes, s'il vous plaît.",
+      "raw_slot_score": {
+        "id": "held-fr-08",
+        "group": "fr",
+        "intents_correct": false,
+        "entities_exact": true,
+        "intent_counts": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "slot_counts": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "missing_entities": [],
+        "slot_by_field": {
+          "name": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "strength": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "quantity": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "presentation": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": false,
+      "backend_passed": true,
+      "backend_failures": []
+    },
+    {
+      "id": "held-darija-09",
+      "text": "Bghit lboita dyal 40 dyal l9ras.",
+      "raw_slot_score": {
+        "id": "held-darija-09",
+        "group": "darija",
+        "intents_correct": false,
+        "entities_exact": false,
+        "intent_counts": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "slot_counts": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "missing_entities": [
+          "medications.0.form",
+          "medications.0.presentation"
+        ],
+        "slot_by_field": {
+          "name": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "strength": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "quantity": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "form": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "presentation": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [
+          "unexpected_medication.0.strength",
+          "unexpected_medication.0.quantity"
+        ],
+        "language_correct": true,
+        "reply_language_correct": true,
+        "reply_script_correct": true
+      },
+      "dialogue_intents_correct": false,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ]
+    },
+    {
+      "id": "held-mixed-09",
+      "text": "Les comprimés ديال 40 من فضلك.",
+      "raw_slot_score": {
+        "id": "held-mixed-09",
+        "group": "mixed",
+        "intents_correct": false,
+        "entities_exact": false,
+        "intent_counts": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "slot_counts": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "missing_entities": [
+          "medications.0.presentation"
+        ],
+        "slot_by_field": {
+          "name": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "strength": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "quantity": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "form": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "presentation": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "pharmacy": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "city": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "area": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "date": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "time": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "symptom": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          }
+        },
+        "incorrect_nonnull_entities": [
+          "medications.0.strength"
+        ],
+        "language_correct": true,
+        "reply_language_correct": false,
+        "reply_script_correct": false
+      },
+      "dialogue_intents_correct": false,
+      "backend_passed": false,
+      "backend_failures": [
+        {
+          "component": "conversation",
+          "code": "medication_decision_mismatch"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Synthetic assistant-authored/reviewed annotations; no independent speaker review.",
+    "32 standalone extractions scored raw; all 40 cases scored after real context merging.",
+    "Eight context setup calls are additional to the 40 scored current messages.",
+    "Invalid outputs remain failed cases; transport/quota failures remain visibly pending.",
+    "Schema rate uses SDK-returned completions; HTTP failures are a separate denominator.",
+    "Token usage excludes transport failures that returned no usage.",
+    "Saved model outputs replayed only for evaluation; the demo has no saved-answer fallback.",
+    "This report supersedes the captured run's preliminary effective entity scores, which compared inherited entities against current-message-only annotations.",
+    "Latency is the production interpretation adapter duration, including any retry; it is not browser round-trip latency.",
+    "F1 measures extraction labels; backend outcome checks measure structured behavior, not independent review of every generated sentence."
+  ]
+}

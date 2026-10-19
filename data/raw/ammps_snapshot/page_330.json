@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 330,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=330",
+  "fetched_at_utc": "2026-10-18T16:28:28.219357+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2111",
+      "brand_name": "PACLITAXEL PHARMACHEMIE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 MG / 25 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.341.00 DH",
+        "PH": "1.071.00 DH",
+        "PFHT": "1.020.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2112",
+      "brand_name": "PACLITAXEL PHARMACHEMIE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 300 MG / 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "2.069.00 DH",
+        "PH": "1.821.00 DH",
+        "PFHT": "1.735.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2113",
+      "brand_name": "PACLITAXEL PHARMACHEMIE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 30 M / 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "430,00 DH",
+        "PH": "285,00 DH",
+        "PFHT": "272,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "CONCENTRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7542",
+      "brand_name": "PACLITOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "429,00 DH",
+        "PH": "285,00 DH",
+        "PFHT": "272,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "8693",
+      "brand_name": "PAGENAX®",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 0.23 ML ET 1 AIGUILLE-FILTRE EMOUSSEE (18G X 1½\", 1.2 MM X 40 MM, 5 µM)",
+        "PP / GN": "PP",
+        "Substance active": "BROLUCIZUMAB",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON DE 0.23 ML"
+      }
+    },
+    {
+      "source_record_id": "9915",
+      "brand_name": "PALOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "PALONOSETRAN (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG  /  5   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1896",
+      "brand_name": "PANADOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "10,00 DH",
+        "PH": "6,30 DH",
+        "PFHT": "5,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1897",
+      "brand_name": "PANADOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "10,60 DH",
+        "PH": "6,60 DH",
+        "PFHT": "5,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1898",
+      "brand_name": "PANADOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GSK",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1899",
+      "brand_name": "PANADOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "10,80 DH",
+        "PH": "6,80 DH",
+        "PFHT": "6,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1900",
+      "brand_name": "PANADOL EXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CAFEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GSK",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  65   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5913",
+      "brand_name": "PANALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CAFEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "14,00 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5914",
+      "brand_name": "PANALGIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 16 G",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CAFEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SOTHEMA",
+        "PPV": "16,30 DH",
+        "PH": "10,20 DH",
+        "PFHT": "9,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  50   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "6806",
+      "brand_name": "PANEKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6807",
+      "brand_name": "PANEKAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PAROXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "120,50 DH",
+        "PH": "75,30 DH",
+        "PFHT": "71,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4531",
+      "brand_name": "PANOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 40 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "40,20 DH",
+        "PH": "25,00 DH",
+        "PFHT": "22,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "GEL POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "4532",
+      "brand_name": "PANOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 40 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "40,20 DH",
+        "PH": "25,00 DH",
+        "PFHT": "22,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "GEL POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "2959",
+      "brand_name": "PANSORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "SALICYLATE DE CHOLINE // CETALKONIUM (CHLORURE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8,7 G  /  0,01 G",
+        "Forme": "GEL BUCCAL"
+      }
+    },
+    {
+      "source_record_id": "9098",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 7 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "9099",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    }
+  ]
+}

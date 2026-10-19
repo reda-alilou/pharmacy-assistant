@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 453,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=453",
+  "fetched_at_utc": "2026-10-18T16:32:34.778805+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8934",
+      "brand_name": "UMULINE RAPIDE KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE HUMAINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "8935",
+      "brand_name": "UMULINE RAPIDE KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE HUMAINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "4764",
+      "brand_name": "UN-ALFA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ALFACALCIDOL",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "69,70 DH",
+        "PH": "43,50 DH",
+        "PFHT": "41,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25 µG",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "4765",
+      "brand_name": "UN-ALFA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ALFACALCIDOL",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "161,00 DH",
+        "PH": "100,60 DH",
+        "PFHT": "95,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1µ G",
+        "Forme": "CAPSULE"
+      }
+    },
+    {
+      "source_record_id": "3763",
+      "brand_name": "UNASYN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "PP",
+        "Substance active": "SULBACTAM // AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "52,10 DH",
+        "PH": "32,60 DH",
+        "PFHT": "31,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "375   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3760",
+      "brand_name": "UNASYN INJECTABLE (IM/IV)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "SULBACTAM // AMPICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "39,30 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000   MG  /  0,5 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "3761",
+      "brand_name": "UNASYN INJECTABLE (IM/IV)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "AMPICILLINE // SULBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "36,90 DH",
+        "PH": "23,00 DH",
+        "PFHT": "21,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000   MG  /  1000   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "3762",
+      "brand_name": "UNASYN INJECTABLE (IM/IV)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "AMPICILLINE // SULBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "24,80 DH",
+        "PH": "15,50 DH",
+        "PFHT": "14,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  250   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "7954",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "219,00 DH",
+        "PH": "137,50 DH",
+        "PFHT": "130,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7955",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "135,60 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7956",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "1.190.00 DH",
+        "PH": "916,00 DH",
+        "PFHT": "872,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7957",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "784,00 DH",
+        "PH": "521,00 DH",
+        "PFHT": "496,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7958",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "256,00 DH",
+        "PH": "160,20 DH",
+        "PFHT": "152,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7959",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "145,80 DH",
+        "PH": "91,10 DH",
+        "PFHT": "86,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7960",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "1.337.00 DH",
+        "PH": "1.067.00 DH",
+        "PFHT": "1.017.09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7961",
+      "brand_name": "UNILUX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "IOPAMIDOL",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "843,00 DH",
+        "PH": "560,00 DH",
+        "PFHT": "534,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "370  MG /  ML",
+        "Forme": "SOLUTION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "9274",
+      "brand_name": "UNISIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CANDESARTAN CILEXETIL // AMLODIPINE (BESYLATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG  /  5   MG",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "234",
+      "brand_name": "UNIZITRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "58,90 DH",
+        "PH": "36,80 DH",
+        "PFHT": "35,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "235",
+      "brand_name": "UNIZITRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "71,90 DH",
+        "PH": "45,00 DH",
+        "PFHT": "42,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "236",
+      "brand_name": "UNIZITRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "GN",
+        "Substance active": "AZITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "67,30 DH",
+        "PH": "42,00 DH",
+        "PFHT": "40,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

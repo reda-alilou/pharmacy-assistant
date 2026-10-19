@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 403,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=403",
+  "fetched_at_utc": "2026-10-18T16:30:54.656660+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4259",
+      "brand_name": "SOLFICAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SOLIFENACINE SUCCINATE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "PHI",
+        "PPV": "101,00 DH",
+        "PH": "63,10 DH",
+        "PFHT": "60,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5428",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "341,00 DH",
+        "PH": "227,00 DH",
+        "PFHT": "216,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  4  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5429",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "130,50 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5430",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES DE 4 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "209,00 DH",
+        "PH": "130,80 DH",
+        "PFHT": "124,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  4  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5431",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5432",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "587,00 DH",
+        "PH": "389,00 DH",
+        "PFHT": "347,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5433",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "493,00 DH",
+        "PH": "328,00 DH",
+        "PFHT": "312,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5434",
+      "brand_name": "SOLIAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMISULPRIDE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "79,50 DH",
+        "PH": "49,70 DH",
+        "PFHT": "47,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1284",
+      "brand_name": "SOLICAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ERGO MAROC",
+        "PPV": "21,90 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1285",
+      "brand_name": "SOLICAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ERGO MAROC",
+        "PPV": "54,30 DH",
+        "PH": "34,00 DH",
+        "PFHT": "32,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1286",
+      "brand_name": "SOLICAM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ERGO MAROC",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "1287",
+      "brand_name": "SOLICAM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ERGO MAROC",
+        "PPV": "91,80 DH",
+        "PH": "57,20 DH",
+        "PFHT": "51,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5543",
+      "brand_name": "SOLUCART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "CARTOUCHE 1000ML",
+        "PP / GN": "GN",
+        "Substance active": "BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "101,40 DH",
+        "PH": "63,40 DH",
+        "PFHT": "60,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750 G",
+        "Forme": "POUDRE POUR SOLUTION D'HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "9615",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE  EN PP DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9616",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE  EN PP DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "19,20 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9617",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "POCHE  EN PP DE 1000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9618",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE  EN PVC DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9619",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE  EN PVC DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "19,20 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9620",
+      "brand_name": "SOLUFLEX 0.9%",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE  EN PVC DE 1000 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.9%",
+        "Forme": "SOLUTION POUR PERFUSION INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "4555",
+      "brand_name": "SOLUGEL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 45 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "88,40 DH",
+        "PH": "55,10 DH",
+        "PFHT": "49,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.04",
+        "Forme": "GEL"
+      }
+    }
+  ]
+}

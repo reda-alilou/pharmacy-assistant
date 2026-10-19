@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 145,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=145",
+  "fetched_at_utc": "2026-10-18T16:22:17.347999+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4446",
+      "brand_name": "DULOPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DULOXETINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "262,00 DH",
+        "PH": "163,80 DH",
+        "PFHT": "156,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "GELULE GASTRORESISTANTE"
+      }
+    },
+    {
+      "source_record_id": "5276",
+      "brand_name": "DULTAVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // POLYOMYELITE INACTIVE ADSORBE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "118,70 DH",
+        "PH": "74,20 DH",
+        "PFHT": "70,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4447",
+      "brand_name": "DUOFILM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE SALICYLIQUE // ACIDE LACTIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "62,00 DH",
+        "PH": "38,80 DH",
+        "PFHT": "36,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "16,7 G  /  16,7 G",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "5731",
+      "brand_name": "DUOTRAV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 2,5 ML EN SACHET",
+        "PP / GN": "PP",
+        "Substance active": "TRAVOPROST // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "179,60 DH",
+        "PH": "112,20 DH",
+        "PFHT": "106,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 µG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "889",
+      "brand_name": "DUOVIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMIVUDINE // ZIDOVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "166,30 DH",
+        "PH": "103,90 DH",
+        "PFHT": "98,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "890",
+      "brand_name": "DUOVIR N",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LAMIVUDINE // ZIDOVUDINE // NEVIRAPINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "241,00 DH",
+        "PH": "151,20 DH",
+        "PFHT": "143,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  300   MG  /  200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4658",
+      "brand_name": "DUOXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // THIOCOLCHICOSIDE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "34,60 DH",
+        "PH": "21,60 DH",
+        "PFHT": "20,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2784",
+      "brand_name": "DUPHALAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "42,40 DH",
+        "PH": "26,50 DH",
+        "PFHT": "25,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.665",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2785",
+      "brand_name": "DUPHALAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 SACHETS-DOSE",
+        "PP / GN": "PP",
+        "Substance active": "LACTULOSE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "66,70 DH",
+        "PH": "41,70 DH",
+        "PFHT": "39,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G  /  15  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2786",
+      "brand_name": "DUPHASTON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DYDROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "44,60 DH",
+        "PH": "27,90 DH",
+        "PFHT": "26,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2787",
+      "brand_name": "DUPHASTON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DYDROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "84,90 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5135",
+      "brand_name": "DUPLAMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE // BROMHEXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "43,40 DH",
+        "PH": "27,10 DH",
+        "PFHT": "25,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3000   MG  /  48   MG",
+        "Forme": "POUDRE POUR SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "5136",
+      "brand_name": "DUPLAMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // BROMHEXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "64,00 DH",
+        "PH": "40,00 DH",
+        "PFHT": "38,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  8   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8384",
+      "brand_name": "DUPLAMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE // BROMHEXINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9253",
+      "brand_name": "DUPLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "57,90 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "9254",
+      "brand_name": "DUPLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 130",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "152,50 DH",
+        "PH": "95,30 DH",
+        "PFHT": "90,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "9255",
+      "brand_name": "DUPLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "DUTASTERIDE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "369,00 DH",
+        "PH": "245,00 DH",
+        "PFHT": "234,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "3963",
+      "brand_name": "DURESAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE AMPOULES INJECTABLE A 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "5,60 DH",
+        "PH": "3,50 DH",
+        "PFHT": "3,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3964",
+      "brand_name": "DURESAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "FUROSEMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "18,30 DH",
+        "PH": "11,50 DH",
+        "PFHT": "10,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2788",
+      "brand_name": "DUROGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "FENTANYL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "786,00 DH",
+        "PH": "522,00 DH",
+        "PFHT": "498,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 359,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=359",
+  "fetched_at_utc": "2026-10-18T16:29:26.373664+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4131",
+      "brand_name": "PURINOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ALLOPURINOL",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "13,90 DH",
+        "PH": "8,70 DH",
+        "PFHT": "8,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2634",
+      "brand_name": "PURSENNIDE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "NA",
+        "Substance active": "SENNOSIDES (CALCIQUES)",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,90 DH",
+        "PH": "10,50 DH",
+        "PFHT": "9,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3393",
+      "brand_name": "PYBACTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PIPERACILLINE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "56,60 DH",
+        "PH": "35,40 DH",
+        "PFHT": "33,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  250   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "3394",
+      "brand_name": "PYBACTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PIPERACILLINE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "155,70 DH",
+        "PH": "97,30 DH",
+        "PFHT": "92,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G  /  500   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "5591",
+      "brand_name": "PYLERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 120",
+        "PP / GN": "PP",
+        "Substance active": "TETRACYCLINE // METRONIDAZOLE // BISMUTH POTASSIQUE (SOUS-CITRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "751,00 DH",
+        "PH": "499,00 DH",
+        "PFHT": "475,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140  /  125  /  125   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8725",
+      "brand_name": "PYLORID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "-",
+        "Substance active": "RANITIDINE (BISMUTH-CITRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8726",
+      "brand_name": "PYLORID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "-",
+        "Substance active": "RANITIDINE (BISMUTH-CITRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5941",
+      "brand_name": "PYOCIADIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "97,60 DH",
+        "PH": "61,00 DH",
+        "PFHT": "58,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5399",
+      "brand_name": "PYOSTACINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "PRISTINAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "179,50 DH",
+        "PH": "112,20 DH",
+        "PFHT": "106,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1520",
+      "brand_name": "PYRAZIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "PYRAZINAMIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "67,20 DH",
+        "PH": "42,00 DH",
+        "PFHT": "40,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1521",
+      "brand_name": "PYROSIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "ALGINATE DE SODIUM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "29,10 DH",
+        "PH": "18,20 DH",
+        "PFHT": "17,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "423",
+      "brand_name": "QLAIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28 CONTIENT 2 JAUNES FONCES-5 ROUGES-17 JAUNES CLAIRES-2 ROUGE FONCES- 2 BLANCS",
+        "PP / GN": "PP",
+        "Substance active": "DIENOGEST // ESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "143,30 DH",
+        "PH": "89,50 DH",
+        "PFHT": "85,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG - 2   MG ; 2   MG - 2   MG ; 3   MG - 1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8727",
+      "brand_name": "QUADRAMET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "RX",
+        "Substance active": "SAMARIUM LEXIDRONAM (153-Sm)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7271",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "135,90 DH",
+        "PH": "85,00 DH",
+        "PFHT": "80,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7272",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "239,00 DH",
+        "PH": "149,50 DH",
+        "PFHT": "142,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7273",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "164,00 DH",
+        "PH": "102,50 DH",
+        "PFHT": "97,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7274",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "271,00 DH",
+        "PH": "180,40 DH",
+        "PFHT": "171,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7275",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "242,00 DH",
+        "PH": "151,50 DH",
+        "PFHT": "144,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7276",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "401,00 DH",
+        "PH": "266,00 DH",
+        "PFHT": "253,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "9025",
+      "brand_name": "QUERZO LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES A LIBERATION PROLONGEE",
+        "PP / GN": "GN",
+        "Substance active": "QUETIAPINE (FUMARATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "56,20 DH",
+        "PH": "35,10 DH",
+        "PFHT": "33,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIMES PELLICULES A LIBERATION PROLONGEE"
+      }
+    }
+  ]
+}

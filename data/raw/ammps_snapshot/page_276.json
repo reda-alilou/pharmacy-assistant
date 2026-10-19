@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 276,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=276",
+  "fetched_at_utc": "2026-10-18T16:26:40.101364+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2543",
+      "brand_name": "METHERGIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "METHYLERGOMETRINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "38,20 DH",
+        "PH": "23,90 DH",
+        "PFHT": "22,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE EN GOUTTES"
+      }
+    },
+    {
+      "source_record_id": "2544",
+      "brand_name": "METHERGIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "METHYLERGOMETRINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "26,00 DH",
+        "PH": "16,30 DH",
+        "PFHT": "15,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,125   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2904",
+      "brand_name": "METHOTREXATE BELLON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "36,30 DH",
+        "PH": "22,70 DH",
+        "PFHT": "21,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2905",
+      "brand_name": "METHOTREXATE BELLON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "21,20 DH",
+        "PH": "13,20 DH",
+        "PFHT": "12,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2906",
+      "brand_name": "METHOTREXATE BIODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "94,10 DH",
+        "PH": "58,80 DH",
+        "PFHT": "56,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2907",
+      "brand_name": "METHOTREXATE BIODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "38,10 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6437",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "11.067.00 DH",
+        "PH": "10.858.00 DH",
+        "PFHT": "10.458.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6438",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "3.439.00 DH",
+        "PH": "3.128.00 DH",
+        "PFHT": "2.979.68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6439",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "178,00 DH",
+        "PH": "111,20 DH",
+        "PFHT": "105,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6440",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 200ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.392.00 DH",
+        "PH": "1.124.00 DH",
+        "PFHT": "1.071.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6441",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.340.00 DH",
+        "PH": "1.071.00 DH",
+        "PFHT": "1.020.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6442",
+      "brand_name": "METHOTREXATE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "486,00 DH",
+        "PH": "323,00 DH",
+        "PFHT": "308,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  2  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7574",
+      "brand_name": "METHYLPREDNISOLONE ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "22,00 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6443",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.506.00 DH",
+        "PH": "1.242.00 DH",
+        "PFHT": "1.182.86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "6444",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 FL",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "980,00 DH",
+        "PH": "700,00 DH",
+        "PFHT": "666,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "POUDRE SOLUTION INJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "6445",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "50,00 DH",
+        "PH": "31,20 DH",
+        "PFHT": "29,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6446",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "285,00 DH",
+        "PH": "190,00 DH",
+        "PFHT": "180,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "POUDRE SOLUTION INJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "6447",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "15,00 DH",
+        "PH": "9,40 DH",
+        "PFHT": "8,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6448",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20 FL",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "421,00 DH",
+        "PH": "280,00 DH",
+        "PFHT": "266,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE SOLUTTION INJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "6449",
+      "brand_name": "METHYLPREDNISOLONE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "22,00 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

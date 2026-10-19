@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 396,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=396",
+  "fetched_at_utc": "2026-10-18T16:30:41.091357+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6512",
+      "brand_name": "SERTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "187,80 DH",
+        "PH": "117,40 DH",
+        "PFHT": "111,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "333",
+      "brand_name": "SERTRALINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "167,00 DH",
+        "PH": "104,40 DH",
+        "PFHT": "99,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "334",
+      "brand_name": "SERTRALINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "103,40 DH",
+        "PH": "64,60 DH",
+        "PFHT": "61,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "211",
+      "brand_name": "SERVETINAL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 G",
+        "PP / GN": "NA",
+        "Substance active": "SALICYLATE DE BISMUTH // CALCIUM (CARBONATE) // HYDROXYDE DE MAGNESIUM // POUDRE TITREE (DE BELLADONE) // BICARBONATE (DE SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "14,20 DH",
+        "PH": "8,90 DH",
+        "PFHT": "7,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ORALE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7543",
+      "brand_name": "SERZOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "167,10 DH",
+        "PH": "104,40 DH",
+        "PFHT": "99,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7544",
+      "brand_name": "SERZOLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "116,80 DH",
+        "PH": "73,00 DH",
+        "PFHT": "69,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1052",
+      "brand_name": "SEVIKAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE (BESILATE) // OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "210,00 DH",
+        "PH": "131,30 DH",
+        "PFHT": "125,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1053",
+      "brand_name": "SEVIKAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE (BESILATE) // OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "283,00 DH",
+        "PH": "188,20 DH",
+        "PFHT": "179,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1054",
+      "brand_name": "SEVIKAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "AMLODIPINE (BESILATE) // OLMESARTAN MEDOXOMIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "253,00 DH",
+        "PH": "158,60 DH",
+        "PFHT": "151,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8810",
+      "brand_name": "SEVOFLURANE BAXTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOÎTE DE 6 FLACONS DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "SEVOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  1  ML",
+        "Forme": "ANESTHESIQUES GENERAUX LIQUUIDE POUR INHALATION PAR VAPEUR"
+      }
+    },
+    {
+      "source_record_id": "8811",
+      "brand_name": "SEVOFLURANE BAXTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 250 ML",
+        "PP / GN": "-",
+        "Substance active": "SEVOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  1  ML",
+        "Forme": "ANESTHESIQUES GENERAUX LIQUUIDE POUR INHALATION PAR VAPEUR"
+      }
+    },
+    {
+      "source_record_id": "8812",
+      "brand_name": "SEVOFLURANE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 250 ML",
+        "PP / GN": "GN",
+        "Substance active": "SEVOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "LIQUIDE POUR INHALATION PAR VAPORISATION"
+      }
+    },
+    {
+      "source_record_id": "3015",
+      "brand_name": "SEVORANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON DE 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "SEVOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "1.543.00 DH",
+        "PH": "1.280.00 DH",
+        "PFHT": "1.219.57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  ML  /   ML",
+        "Forme": "LIQUIDE POUR INHALATION PAR VAPEUR"
+      }
+    },
+    {
+      "source_record_id": "2651",
+      "brand_name": "SEVREDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "32,70 DH",
+        "PH": "20,40 DH",
+        "PFHT": "19,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2652",
+      "brand_name": "SEVREDOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "LAPROPHAN",
+        "PPV": "54,60 DH",
+        "PH": "34,10 DH",
+        "PFHT": "32,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9351",
+      "brand_name": "SHINGRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UNE DOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ZONA ( RECOMBINANT , AVEC ADJUVANT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "1.966.00 DH",
+        "PH": "1.715.00 DH",
+        "PFHT": "1.633.89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "UNE DOSE (0.5 ML DE VACCIN  )",
+        "Forme": "POUDRE ET SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9352",
+      "brand_name": "SHINGRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 DOSES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ZONA ( RECOMBINANT , AVEC ADJUVANT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "UNE DOSE (0.5 ML DE VACCIN  )",
+        "Forme": "POUDRE ET SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1055",
+      "brand_name": "SICCAFLUID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOMERE 974P",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  G",
+        "Forme": "GEL OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6127",
+      "brand_name": "SICCAPROTECT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "DEXPANTHENOL // ALCOOL POLYVINYLIQUE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /   ML  /  14   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "705",
+      "brand_name": "SIFROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "PRAMIPEXOLE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,26   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    }
+  ]
+}

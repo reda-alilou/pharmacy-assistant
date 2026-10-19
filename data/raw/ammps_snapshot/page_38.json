@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 38,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=38",
+  "fetched_at_utc": "2026-10-18T16:18:42.881272+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4412",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "219,00 DH",
+        "PH": "137,30 DH",
+        "PFHT": "130,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4413",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "373,00 DH",
+        "PH": "248,00 DH",
+        "PFHT": "236,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4414",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "273,00 DH",
+        "PH": "171,10 DH",
+        "PFHT": "162,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4415",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "515,00 DH",
+        "PH": "342,00 DH",
+        "PFHT": "325,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4416",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "107,50 DH",
+        "PH": "67,20 DH",
+        "PFHT": "63,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4417",
+      "brand_name": "ARIPIPHI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ARIPIPRAZOLE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHI",
+        "PPV": "191,60 DH",
+        "PH": "119,80 DH",
+        "PFHT": "114,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7576",
+      "brand_name": "ARITROZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ANASTROZOLE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "439,00 DH",
+        "PH": "291,00 DH",
+        "PFHT": "277,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7920",
+      "brand_name": "ARIXIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "65,20 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7921",
+      "brand_name": "ARIXIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "119,50 DH",
+        "PH": "74,70 DH",
+        "PFHT": "71,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7922",
+      "brand_name": "ARIXIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "65,90 DH",
+        "PH": "41,20 DH",
+        "PFHT": "39,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7923",
+      "brand_name": "ARIXIB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ETORICOXIB",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "COOPER PHARMA",
+        "PPV": "124,00 DH",
+        "PH": "77,50 DH",
+        "PFHT": "73,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "6595",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.468.00 DH",
+        "PH": "1.202.00 DH",
+        "PFHT": "1.145.34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  0,8  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6596",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "398,00 DH",
+        "PH": "264,00 DH",
+        "PFHT": "252,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  0,8  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6597",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.118.00 DH",
+        "PH": "842,00 DH",
+        "PFHT": "801,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  0,8  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6598",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "703,00 DH",
+        "PH": "467,00 DH",
+        "PFHT": "445,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  0,5  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6599",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "173,90 DH",
+        "PH": "108,70 DH",
+        "PFHT": "103,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  0,5  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6600",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "492,00 DH",
+        "PH": "327,00 DH",
+        "PFHT": "311,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  0,5  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6601",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.388.00 DH",
+        "PH": "1.120.00 DH",
+        "PFHT": "1.067.34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  0,4  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6602",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "375,00 DH",
+        "PH": "249,00 DH",
+        "PFHT": "237,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  0,4  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6603",
+      "brand_name": "ARIXTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "FONDAPARINUX (SODIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.062.00 DH",
+        "PH": "784,00 DH",
+        "PFHT": "747,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  0,4  ML",
+        "Forme": "SERINGUE PRE-REMPLIE"
+      }
+    }
+  ]
+}

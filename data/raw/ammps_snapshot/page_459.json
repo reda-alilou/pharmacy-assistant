@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 459,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=459",
+  "fetched_at_utc": "2026-10-18T16:32:46.788313+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9262",
+      "brand_name": "VAMLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "20,10 DH",
+        "PH": "12,60 DH",
+        "PFHT": "11,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "9263",
+      "brand_name": "VAMLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "35,70 DH",
+        "PH": "22,30 DH",
+        "PFHT": "21,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "9264",
+      "brand_name": "VAMLO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "51,80 DH",
+        "PH": "32,30 DH",
+        "PFHT": "30,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES SECABLES"
+      }
+    },
+    {
+      "source_record_id": "7467",
+      "brand_name": "VANCOLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "176,70 DH",
+        "PH": "110,40 DH",
+        "PFHT": "105,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "9883",
+      "brand_name": "VANCOMYCINE AMANYS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON EN VERRE INCOLORE",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE (CHLORHYDRATE°",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   G",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6545",
+      "brand_name": "VANCOMYCINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "329,00 DH",
+        "PH": "218,00 DH",
+        "PFHT": "208,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "6546",
+      "brand_name": "VANCOMYCINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "POUDRE SOLUTTION INJECTABLE PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "6547",
+      "brand_name": "VANCOMYCINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "102,80 DH",
+        "PH": "64,20 DH",
+        "PFHT": "61,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "6548",
+      "brand_name": "VANCOMYCINE MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR PERFUSION (IV)"
+      }
+    },
+    {
+      "source_record_id": "2243",
+      "brand_name": "VANCOMYCINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "319,00 DH",
+        "PH": "212,00 DH",
+        "PFHT": "202,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "LYOPHYLISAT POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "2244",
+      "brand_name": "VANCOMYCINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100 FL",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "17.409.00 DH",
+        "PH": "17.076.00 DH",
+        "PFHT": "16.676.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "LYOPHYLISAT POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "2245",
+      "brand_name": "VANCOMYCINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "LYOPHYLISAT POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "2246",
+      "brand_name": "VANCOMYCINE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100 FL",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "9.025.00 DH",
+        "PH": "8.856.00 DH",
+        "PFHT": "8.456.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "LYOPHYLISAT POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "7565",
+      "brand_name": "VANCOMYCINE SP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9738",
+      "brand_name": "VANKOPOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "VANCOMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 MG",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION POUR PERFUSION IV ET USAGE ORAL"
+      }
+    },
+    {
+      "source_record_id": "5047",
+      "brand_name": "VANTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "19,00 DH",
+        "PH": "11,80 DH",
+        "PFHT": "11,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5048",
+      "brand_name": "VANTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CETIRIZINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "35,20 DH",
+        "PH": "22,00 DH",
+        "PFHT": "20,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME ENROBE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "496",
+      "brand_name": "VARGATEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 120 (2 BOITES DE 60 CHACUNE EMBALLEE DANS UN FILM PLASTIQUE)",
+        "PP / GN": "PP",
+        "Substance active": "NINTEDANIB ESILATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "27.623.00 DH",
+        "PH": "27.090.00 DH",
+        "PFHT": "26.690.18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "497",
+      "brand_name": "VARGATEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "NINTEDANIB ESILATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "27.623.00 DH",
+        "PH": "27.090.00 DH",
+        "PFHT": "26.690.18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "1970",
+      "brand_name": "VARILRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON MONODOSE + BOITE DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN CONTRE VARICELLE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

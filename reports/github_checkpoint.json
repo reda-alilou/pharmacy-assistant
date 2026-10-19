@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-10-19T21:19:35.350459+00:00",
+  "status": "verified_for_prototype_checkpoint",
+  "branch": "master",
+  "remote": "https://github.com/reda-alilou/pharmacy-assistant.git",
+  "tests": {
+    "working_copy": {
+      "passed": 236,
+      "elapsed_seconds": 37.503,
+      "log": "reports/github_checkpoint_tests_verified.log"
+    },
+    "staged_clean_export": {
+      "passed": 236,
+      "elapsed_seconds": 38.268,
+      "log": "reports/github_clean_checkout_tests_verified.log",
+      "had_env_file": false,
+      "used_ignored_caches": false,
+      "environment": "Existing locked Python environment with exported source on PYTHONPATH; not an independent fresh dependency installation."
+    }
+  },
+  "dependency_lock_check": "uv lock --check --offline passed",
+  "credential_scan": {
+    "configured_credential_matches": 0,
+    "recognizable_key_or_private_key_matches": 0,
+    "scope": "All staged files; scans do not constitute a comprehensive security audit."
+  },
+  "evidence_integrity": {
+    "frozen_annotation_hashes_match": true,
+    "staged_evidence_bytes_match_local_files": true,
+    "git_attributes_preserve_hashed_data_and_reports": true
+  },
+  "application_code_changed_during_publish_preparation": false,
+  "live_inference_requests": 0,
+  "demo_services_started_or_stopped": false,
+  "bulk_collection_requests": 0,
+  "excluded": [
+    ".env",
+    ".runtime/",
+    "tmp/",
+    "data/staging/",
+    "data/processed/archive/",
+    "new bulk HTML caches and unused discovery pages"
+  ],
+  "remaining_submission_work": [
+    "Cited related-work study",
+    "Consolidated final project explanation",
+    "Presentation script and backup screenshots"
+  ],
+  "benchmark_note": "Original 34/40 frozen result and later 14/14 targeted development regressions remain separate."
+}

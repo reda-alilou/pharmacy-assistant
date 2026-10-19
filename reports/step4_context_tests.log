@@ -1,0 +1,28 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_request_modes_and_api_session_roundtrip (test_conversation.ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip) ... ok
+test_streamlit_attaches_session_to_text_and_clears_it_on_reset (test_conversation.ConversationApiAndUiTests.test_streamlit_attaches_session_to_text_and_clears_it_on_reset) ... 2026-10-19 11:17:27.856 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_streamlit_reference_button_sends_the_offered_index_without_text (test_conversation.ConversationApiAndUiTests.test_streamlit_reference_button_sends_the_offered_index_without_text) ... 2026-10-19 11:17:34.468 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_eight_development_contexts_resolve_identity_without_totals (test_conversation.ConversationTests.test_all_eight_development_contexts_resolve_identity_without_totals) ... Executing <Task finished name='Task-32' coro=<ConversationTests.test_all_eight_development_contexts_resolve_identity_without_totals() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation.py:38> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.187 seconds
+ok
+test_ambiguous_reference_needs_choice_and_choice_uses_no_inference (test_conversation.ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference) ... ok
+test_confirmed_choice_survives_quantity_and_availability_followups (test_conversation.ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups) ... ok
+test_explicit_correction_is_remembered_instead_of_rejected_strength (test_conversation.ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength) ... ok
+test_fuzzy_identity_stays_unconfirmed_after_typed_filter (test_conversation.ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter) ... ok
+test_named_followup_targets_only_matching_previous_medication (test_conversation.ConversationTests.test_named_followup_targets_only_matching_previous_medication) ... ok
+test_new_product_does_not_inherit_filters_quantity_or_previous_identity (test_conversation.ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity) ... ok
+test_ordinal_selection_and_multimedication_ambiguity (test_conversation.ConversationTests.test_ordinal_selection_and_multimedication_ambiguity) ... ok
+test_pharmacy_context_and_city_switch_do_not_leak_filters (test_conversation.ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters) ... ok
+test_provider_failure_leaves_original_session_usable (test_conversation.ConversationTests.test_provider_failure_leaves_original_session_usable) ... ok
+test_sessions_expire_are_bounded_and_are_not_global_memory (test_conversation.ConversationTests.test_sessions_expire_are_bounded_and_are_not_global_memory) ... ok
+test_strength_form_and_presentation_changes_do_not_reuse_old_selection (test_conversation.ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection) ... Executing <Task finished name='Task-87' coro=<ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation.py:87> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.187 seconds
+ok
+test_unsupported_and_topic_switches_drop_old_medication (test_conversation.ConversationTests.test_unsupported_and_topic_switches_drop_old_medication) ... ok
+test_without_session_the_same_fragment_remains_incomplete (test_conversation.ConversationTests.test_without_session_the_same_fragment_remains_incomplete) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 14.435s
+
+OK

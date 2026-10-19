@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 215,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=215",
+  "fetched_at_utc": "2026-10-18T16:24:37.633067+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6710",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6711",
+      "brand_name": "HUMOREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM (OXALATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "74,00 DH",
+        "PH": "46,30 DH",
+        "PFHT": "44,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "932",
+      "brand_name": "HYALGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SER DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "HYALURONATE (SODIUM)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLEPOUR USAGE INTRA-ARTICULAIRE EN SERINGUE PRE-REMPLIS"
+      }
+    },
+    {
+      "source_record_id": "1873",
+      "brand_name": "HYCAMTIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "TOPOTECAN (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "7.411.00 DH",
+        "PH": "7.217.00 DH",
+        "PFHT": "6.874.19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5776",
+      "brand_name": "HYDRACORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "HYDROCORTISONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "37,70 DH",
+        "PH": "23,60 DH",
+        "PFHT": "22,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "2484",
+      "brand_name": "HYDREA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "HYDROXYCARBAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "66,20 DH",
+        "PH": "41,40 DH",
+        "PFHT": "39,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "465",
+      "brand_name": "HYDROCORTISONE BIOCODEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE (1+1)",
+        "PP / GN": "PP",
+        "Substance active": "HYDROCORTISONE (HYDROGENOSUCCINATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "466",
+      "brand_name": "HYDROCORTISONE BIOCODEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "HYDROCORTISONE (HYDROGENOSUCCINATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "805,00 DH",
+        "PH": "535,00 DH",
+        "PFHT": "510,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "LYOPHILISAT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "2853",
+      "brand_name": "HYDROCORTISONE ROUSSEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "PP",
+        "Substance active": "HYDROCORTISONE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "35,10 DH",
+        "PH": "21,90 DH",
+        "PFHT": "20,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2485",
+      "brand_name": "HYDROSOL POLYVITAMINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "NA",
+        "Substance active": "VITAMINE A // VITAMINE B1 // VITAMINE B2 // VITAMINE B6 // VITAMINE C // VITAMINE D2 // VITAMINE E // VITAMINE PP",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "15,10 DH",
+        "PH": "9,40 DH",
+        "PFHT": "8,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250000 UI  /  0,1 G  /  0,075 G  /  0,1 G  /  2,5 G  /  50000 UI  /  0,1 G  /  0,5 G",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2486",
+      "brand_name": "HYDROXO \"5000\"",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "HYDROXOCOBALAMINE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "54,70 DH",
+        "PH": "34,20 DH",
+        "PFHT": "32,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000 µG  /  AMPOULE",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "608",
+      "brand_name": "HYFRESH",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "NA",
+        "Substance active": "HYALURONATE (SODIUM)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BOTTU",
+        "PPV": "21,20 DH",
+        "PH": "13,20 DH",
+        "PFHT": "11,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "SOLUTION OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "5521",
+      "brand_name": "HYPERIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "RILMENIDINE DIHYDROGENOPHOSPHATE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SERVIER",
+        "PPV": "113,50 DH",
+        "PH": "70,90 DH",
+        "PFHT": "67,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2256",
+      "brand_name": "HYPLOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2257",
+      "brand_name": "HYPLOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN (POTASSIQUE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "77,20 DH",
+        "PH": "48,20 DH",
+        "PFHT": "45,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2854",
+      "brand_name": "HYPNOMIDATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "ETOMIDATE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "MAPHAR",
+        "PPV": "203,00 DH",
+        "PH": "127,50 DH",
+        "PFHT": "121,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "134",
+      "brand_name": "HYPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE) // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "125,80 DH",
+        "PH": "78,60 DH",
+        "PFHT": "74,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "288",
+      "brand_name": "HYPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE) // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "71,50 DH",
+        "PH": "44,70 DH",
+        "PFHT": "42,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  12,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7939",
+      "brand_name": "HYPURIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "91,70 DH",
+        "PH": "57,30 DH",
+        "PFHT": "54,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7940",
+      "brand_name": "HYPURIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "FEBUXOSTAT",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "163,70 DH",
+        "PH": "102,30 DH",
+        "PFHT": "97,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    }
+  ]
+}

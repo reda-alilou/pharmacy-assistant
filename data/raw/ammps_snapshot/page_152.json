@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 152,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=152",
+  "fetched_at_utc": "2026-10-18T16:22:31.339414+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1271",
+      "brand_name": "EM D1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE GLACIAL // DEXTROSE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "71,70 DH",
+        "PH": "44,80 DH",
+        "PFHT": "42,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE CONCENTRE ACIDE DEXTROSE D1 POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "5736",
+      "brand_name": "EMADINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "EMEDASTINE (DIFUMARATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "93,40 DH",
+        "PH": "58,40 DH",
+        "PFHT": "55,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "3209",
+      "brand_name": "EMEND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE CONTENANT UNE GELULE DE (125 MG) ET DEUX GELULES DE (80 MG)",
+        "PP / GN": "PP",
+        "Substance active": "APREPITANT",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MSD",
+        "PPV": "635,00 DH",
+        "PH": "422,00 DH",
+        "PFHT": "402,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  80   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9607",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "242,00 DH",
+        "PH": "151,90 DH",
+        "PFHT": "144,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9608",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "457,00 DH",
+        "PH": "303,00 DH",
+        "PFHT": "289,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9609",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.037.00 DH",
+        "PH": "759,00 DH",
+        "PFHT": "723,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9610",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "348,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9611",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "696,00 DH",
+        "PH": "462,00 DH",
+        "PFHT": "440,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9612",
+      "brand_name": "EMISTOP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25 AMPOULES DE4 ML",
+        "PP / GN": "GN",
+        "Substance active": "ONDANSETRON",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "1.423.00 DH",
+        "PH": "1.156.00 DH",
+        "PFHT": "1.101.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG / ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6393",
+      "brand_name": "EMLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "PP",
+        "Substance active": "LIDOCAINE // PRILOCAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "82,60 DH",
+        "PH": "51,60 DH",
+        "PFHT": "49,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "6666",
+      "brand_name": "ENALAPRIL HYDROCHLOROTHIAZIDE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ENALAPRIL (MALEATE) // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "47,60 DH",
+        "PH": "29,70 DH",
+        "PFHT": "28,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  12,5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6394",
+      "brand_name": "ENANTONE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 9 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEUPRORELINE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "2.410.00 DH",
+        "PH": "2.069.00 DH",
+        "PFHT": "1.970.64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11,25   MG",
+        "Forme": "POUDRE POUR SUSPENSION INJECTABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6395",
+      "brand_name": "ENANTONE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 9 ML",
+        "PP / GN": "PP",
+        "Substance active": "LEUPRORELINE (ACETATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.143.00 DH",
+        "PH": "867,00 DH",
+        "PFHT": "826,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,75   MG",
+        "Forme": "POUDRE POUR SUSPENSION INJECTABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "3653",
+      "brand_name": "ENBREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 SERINGUES + 8 TAMPONS",
+        "PP / GN": "PP",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PFIZER",
+        "PPV": "3.910.00 DH",
+        "PH": "3.613.00 DH",
+        "PFHT": "3.441.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3798",
+      "brand_name": "ENBREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "COFFRET DE 4 SERINGUES PRE-REMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PFIZER",
+        "PPV": "6.315.00 DH",
+        "PH": "6.089.00 DH",
+        "PFHT": "5.799.06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7505",
+      "brand_name": "ENBREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 STYLOS PREREMPLIS + 4 TAMPONS ALCOOLISES",
+        "PP / GN": "PP",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PFIZER",
+        "PPV": "6.282.00 DH",
+        "PH": "6.055.00 DH",
+        "PFHT": "5.766.73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "1578",
+      "brand_name": "ENCIFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXIDE - SACCHAROSE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "GENERATION SANTE",
+        "PPV": "57,20 DH",
+        "PH": "35,70 DH",
+        "PFHT": "34,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6201",
+      "brand_name": "ENCORATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "30,80 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6202",
+      "brand_name": "ENCORATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "VALPROATE DE SODIUM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "65,40 DH",
+        "PH": "40,90 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7079",
+      "brand_name": "ENDOGEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DIENOGEST",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "186,50 DH",
+        "PH": "116,50 DH",
+        "PFHT": "111,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

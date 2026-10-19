@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 227,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=227",
+  "fetched_at_utc": "2026-10-18T16:25:01.678252+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5785",
+      "brand_name": "INSULET NPH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE ISOPHANE (INTERMEDIAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5786",
+      "brand_name": "INSULET R",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 CARTOUCHE DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "54,10 DH",
+        "PH": "33,80 DH",
+        "PFHT": "32,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5787",
+      "brand_name": "INSULET R",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE (RAPIDE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "260,00 DH",
+        "PH": "163,00 DH",
+        "PFHT": "155,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5788",
+      "brand_name": "INSULET RAPIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE HUMAINE BIOGENETIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "85,00 DH",
+        "PH": "53,10 DH",
+        "PFHT": "50,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9107",
+      "brand_name": "INSULINE GLARGINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "520,00 DH",
+        "PH": "345,00 DH",
+        "PFHT": "329,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UNITES  /    ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE EN STYLO PREREMPLI POUR INJECTIONS MULTIPLES DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "9108",
+      "brand_name": "INSULINE GLARGINE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1  STYLO",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "106,70 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UNITES  /    ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE EN STYLO PREREMPLI POUR INJECTIONS MULTIPLES DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "9592",
+      "brand_name": "INSULINE LISPRO RAPIDE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE LISPRO",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "77,70 DH",
+        "PH": "48,50 DH",
+        "PFHT": "46,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UNITES  /    ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI DE 3 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9593",
+      "brand_name": "INSULINE LISPRO RAPIDE COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE LISPRO",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "292,00 DH",
+        "PH": "194,20 DH",
+        "PFHT": "184,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UNITES  /    ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI DE 3 ML DE SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "2860",
+      "brand_name": "INTETRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "TILIQUINOL TILBROQUINOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "31,70 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2861",
+      "brand_name": "INTETRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "TILIQUINOL TILBROQUINOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6096",
+      "brand_name": "INTRALGIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "STERIPHARMA",
+        "PPV": "21,20 DH",
+        "PH": "13,30 DH",
+        "PFHT": "12,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6097",
+      "brand_name": "INTRALGIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "STERIPHARMA",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "8521",
+      "brand_name": "INTRAROSA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOÎTE DE 28 OVULES ET 6 APPLICATEURS",
+        "PP / GN": "PP",
+        "Substance active": "PRASTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6.5   MG",
+        "Forme": "OVULES"
+      }
+    },
+    {
+      "source_record_id": "3230",
+      "brand_name": "INVANZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERTAPENEME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MSD",
+        "PPV": "566,00 DH",
+        "PH": "376,00 DH",
+        "PFHT": "358,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2862",
+      "brand_name": "INVOKANA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CANAGLIFLOZINE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "MAPHAR",
+        "PPV": "585,00 DH",
+        "PH": "389,00 DH",
+        "PFHT": "370,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2863",
+      "brand_name": "INVOKANA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CANAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "585,00 DH",
+        "PH": "389,00 DH",
+        "PFHT": "370,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8522",
+      "brand_name": "IOBENGUANE [131 I]",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "IOBENGUANE (131-I)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "46,25   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8523",
+      "brand_name": "IODOPOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "RX",
+        "Substance active": "IODURE (SODIUM) (131-I)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "37-7400 MBQ",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8524",
+      "brand_name": "IODURE [131I]",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "RX",
+        "Substance active": "IODURE (131-I)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1100 MBQ  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7135",
+      "brand_name": "IOLOPAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "OLOPATADINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "59,30 DH",
+        "PH": "37,10 DH",
+        "PFHT": "35,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "SOLUTION OPHTALMIQUE"
+      }
+    }
+  ]
+}

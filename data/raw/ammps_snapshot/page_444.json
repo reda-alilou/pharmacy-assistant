@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 444,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=444",
+  "fetched_at_utc": "2026-10-18T16:32:16.745570+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6005",
+      "brand_name": "TRICEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 500 MG",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "54,20 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  2  ML",
+        "Forme": "POUDRE EN FLACON + AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "6006",
+      "brand_name": "TRICEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 1 FLACON DE 500 MG",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "54,20 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML",
+        "Forme": "POUDRE EN FLACON + AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "5007",
+      "brand_name": "TRICHOGIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "TINIDAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "21,10 DH",
+        "PH": "13,20 DH",
+        "PFHT": "11,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6148",
+      "brand_name": "TRICOVIVAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "MINOXIDIL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "263,00 DH",
+        "PH": "175,00 DH",
+        "PFHT": "166,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION TOPIQUE"
+      }
+    },
+    {
+      "source_record_id": "3065",
+      "brand_name": "TRIELLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21(7 BLANC, 7 ORANGE PALE ,7 ORANGE)",
+        "PP / GN": "PP",
+        "Substance active": "NORETHISTERONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "16,70 DH",
+        "PH": "10,40 DH",
+        "PFHT": "9,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /  0,035   MG ET 0,750   MG  /  0,035   MG ET 1   MG  /  0,035   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3066",
+      "brand_name": "TRIELLA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 63(3* (7 BLANC, 7 ORANGE PALE ,7 ORANGE))",
+        "PP / GN": "PP",
+        "Substance active": "NORETHISTERONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "39,00 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /  0,035   MG ET 0,750   MG  /  0,035   MG ET 1   MG  /  0,035   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6149",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGEPARENTERAL IV+AMPOULE DE 10ML EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL + SOLVANT IV"
+      }
+    },
+    {
+      "source_record_id": "6150",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGEPARENTERAL IM + AMPOULE DE 3,5 ML DE SOL LIDOCAINE CHLORHYDRATE A 1%",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR USAGE PARENTERAL + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "6151",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGEPARENTERAL IV+AMPOULE DE 10ML EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "6152",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGE - PARENTERAL IM+AMPOULE DE 2 ML DE SOL DE CHLORHYDRATE DE LIDOCAINE A 1%",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "6153",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGEPARENTERAL IM + AMPOULE DE 2 ML SOL LIDOCAINE CHLORHYDRATE A 1%",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR USAGE PARENTERAL + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "6154",
+      "brand_name": "TRIFAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POUDRE POUR USAGEPARENTERAL IV + AMPOULE DE 5 ML EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUR USAGE PARENTERAL + SOLVANT IV"
+      }
+    },
+    {
+      "source_record_id": "3756",
+      "brand_name": "TRIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "250,00 DH",
+        "PH": "156,60 DH",
+        "PFHT": "149,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3757",
+      "brand_name": "TRIFLUCAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "FLUCONAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "62,80 DH",
+        "PH": "39,30 DH",
+        "PFHT": "37,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "441",
+      "brand_name": "TRIGYNON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3424",
+      "brand_name": "TRILEPTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "OXCARBAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "162,50 DH",
+        "PH": "101,50 DH",
+        "PFHT": "96,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3425",
+      "brand_name": "TRILEPTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "OXCARBAZEPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "255,00 DH",
+        "PH": "160,00 DH",
+        "PFHT": "152,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "741",
+      "brand_name": "TRIMAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "69,30 DH",
+        "PH": "43,30 DH",
+        "PFHT": "41,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "742",
+      "brand_name": "TRIMAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "58,90 DH",
+        "PH": "36,80 DH",
+        "PFHT": "35,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6928",
+      "brand_name": "TRIMAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "87,70 DH",
+        "PH": "54,80 DH",
+        "PFHT": "52,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION PROLONGEE"
+      }
+    }
+  ]
+}

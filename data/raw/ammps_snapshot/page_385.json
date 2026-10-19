@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 385,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=385",
+  "fetched_at_utc": "2026-10-18T16:30:18.548116+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6269",
+      "brand_name": "ROSUVAS SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "96,70 DH",
+        "PH": "60,50 DH",
+        "PFHT": "57,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6270",
+      "brand_name": "ROSUVAS SUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ROSUVASTATINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "250,00 DH",
+        "PH": "156,30 DH",
+        "PFHT": "148,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1936",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 DOSE DE POUDRE EN FLACON + 1 ML DE SOLVANT EN APPLICATEUR POUR ADMINISTRATION ORALE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1937",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 APPLICATEUR DE 1,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN APPLICATEUR PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "1938",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "10 APPLICATEURS DE 1,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "1.597.00 DH",
+        "PH": "1.335.00 DH",
+        "PFHT": "1.271.78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN APPLICATEUR PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "1939",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "5 APPLICATEURS DE 1,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "948,00 DH",
+        "PH": "667,00 DH",
+        "PFHT": "635,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN APPLICATEUR PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "1940",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "10 TUBES DE 1,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "1.597.00 DH",
+        "PH": "1.335.00 DH",
+        "PFHT": "1.271.78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN TUBE SOUPLE"
+      }
+    },
+    {
+      "source_record_id": "1941",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 1,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE EN TUBE SOUPLE"
+      }
+    },
+    {
+      "source_record_id": "8782",
+      "brand_name": "ROTARIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7983",
+      "brand_name": "ROTASIIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 FLACON UNIDOSE DE LYOPHILISAT ET FLACON DE 2,5 ML DE SOLVANT SERINGUE ET UN ADAPTATEUR",
+        "PP / GN": "PP",
+        "Substance active": "ROTAVIRUS REASSORTI BOVIN HUMAIN VIVANT ATTENUE (G1,G2,G3,G4 ET G9)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "162,80 DH",
+        "PH": "101,70 DH",
+        "PFHT": "96,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 5,6 UFF  /  SEROTYPE",
+        "Forme": "LYOPHILISAT A RECONSTITUER AVEC UN SOLVANT POUR ADMINISTRATION ORALE EN FLACON DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "8783",
+      "brand_name": "ROTASIIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE 2 DOSES DE LYOPHILISAT ET 1 FLACON DE 5 ML DE SOLVANT 2 SERINGUES ET 2 ADAPTATEURS",
+        "PP / GN": "PP",
+        "Substance active": "ROTAVIRUS REASSORTI BOVIN-HUMAIN VIVANT ATTENUE (G1, G2, G3, G4, G9)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 5,6 UFF  /  SEROTYPE",
+        "Forme": "LYOPHILISAT A RECONSTITUER AVEC UN SOLVANT POUR ADMINISTRATION ORALE"
+      }
+    },
+    {
+      "source_record_id": "8784",
+      "brand_name": "ROTASIIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "KIT COMPOSE DE 50 FLACONS DE 2 DOSES DE LYOPHILISAT ET 50 FLACONS DE 5 ML DE SOLVANT 100 SERINGUES ET 100 ADAPTATEURS",
+        "PP / GN": "PP",
+        "Substance active": "ROTAVIRUS REASSORTI BOVIN-HUMAIN VIVANT ATTENUE (G1, G2, G3, G4, G9)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 5,6 UFF  /  SEROTYPE",
+        "Forme": "LYOPHILISAT A RECONSTITUER AVEC UN SOLVANT POUR ADMINISTRATION ORALE"
+      }
+    },
+    {
+      "source_record_id": "8785",
+      "brand_name": "ROTASIIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "KIT COMPOSE DE 50 FLACONS UNIDOSES DE LYOPHILISAT ET 50 FLACONS DE 2,5 ML DE SOLVANT 50 SERINGUES ET 50 ADAPTATEURS",
+        "PP / GN": "PP",
+        "Substance active": "ROTAVIRUS REASSORTI BOVIN-HUMAIN VIVANT ATTENUE (G1, G2, G3, G4, G9)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 5,6 UFF  /  SEROTYPE",
+        "Forme": "LYOPHILISAT A RECONSTITUER AVEC UN SOLVANT POUR ADMINISTRATION ORALE"
+      }
+    },
+    {
+      "source_record_id": "9367",
+      "brand_name": "ROTASIIL-LIQUID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 FLACONS DE 2 DOSES , DE 100 SERINGUES ET UN SACHET DE 50  ADAPTATEURS",
+        "PP / GN": "VACCIN",
+        "Substance active": "ROTAVIRUS REASSORTI BOVIN-HUMAIN VIVANT ATTENUE (G1, G2, G3, G4, G9)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "3.269.00 DH",
+        "PH": "2.954.00 DH",
+        "PFHT": "2.813.65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "≥10 ^5,6 U FF / SEROTYPE",
+        "Forme": "SOLUTION LIQUIDE POUR ADMINISTRATION ORALE"
+      }
+    },
+    {
+      "source_record_id": "3265",
+      "brand_name": "ROTATEQ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE UNIDOSE DE 2 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G1 (VIVANT) // ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G2 (VIVANT) // ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G3 (VIVANT) // G4 REASSORTANT // P1 REASSORTANT",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "233,00 DH",
+        "PH": "146,00 DH",
+        "PFHT": "139,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,01 * 106 UI  /  DOSE  /  4,39 * 106 UI  /  DOSE  /  5,98 * 106 UI  /  DOSE  /  3,51 * 106 UI  /  DOSE  /  4,13 * 106 UI  /  DOSE",
+        "Forme": "SOLUTION ORALE"
+      }
+    },
+    {
+      "source_record_id": "8786",
+      "brand_name": "ROTATEQ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 TUBES UNIDOSES DE 2 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN : ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G1 (VIVANT) // ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G2 (VIVANT) // ROTAVIRUS REASSORTANT HUMAIN-BOVIN DE TYPE G3 (VIVANT) // G4 REASSORTANT // P1 REASSORTANT",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,01 * 106 UI  /  DOSE  /  4,39 * 106 UI  /  DOSE  /  5,98 * 106 UI  /  DOSE  /  3,51 * 106 UI  /  DOSE  /  4,13 * 106 UI  /  DOSE",
+        "Forme": "SOLUTION ORALE"
+      }
+    },
+    {
+      "source_record_id": "5409",
+      "brand_name": "ROVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "40,30 DH",
+        "PH": "25,10 DH",
+        "PFHT": "22,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5410",
+      "brand_name": "ROVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "63,30 DH",
+        "PH": "39,50 DH",
+        "PFHT": "37,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5411",
+      "brand_name": "ROVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "92,40 DH",
+        "PH": "57,70 DH",
+        "PFHT": "54,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5412",
+      "brand_name": "ROVAMYCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "SPIRAMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "123,90 DH",
+        "PH": "77,40 DH",
+        "PFHT": "73,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3 MUI",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

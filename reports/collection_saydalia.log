@@ -1,0 +1,25 @@
+
+Collection invocation 2026-10-19T18:19:50.805121+00:00
+saydalia: 20/442 units, 3120 records, 0 errors
+saydalia: 40/442 units, 3120 records, 0 errors
+saydalia: 60/442 units, 3120 records, 0 errors
+saydalia: 80/442 units, 3120 records, 0 errors
+saydalia: 100/442 units, 3120 records, 0 errors
+saydalia: 120/442 units, 3120 records, 0 errors
+saydalia: 140/442 units, 3120 records, 0 errors
+saydalia: 160/442 units, 3120 records, 0 errors
+saydalia: 180/442 units, 3120 records, 0 errors
+saydalia: 200/442 units, 3120 records, 0 errors
+saydalia: 220/442 units, 3120 records, 0 errors
+saydalia: 240/442 units, 3120 records, 0 errors
+saydalia: 260/442 units, 3120 records, 0 errors
+saydalia: 280/442 units, 3360 records, 0 errors
+saydalia: 300/442 units, 3600 records, 0 errors
+saydalia: 320/442 units, 3840 records, 0 errors
+saydalia: 340/442 units, 4080 records, 0 errors
+saydalia: 360/442 units, 4320 records, 0 errors
+saydalia: 380/442 units, 4560 records, 0 errors
+saydalia: 400/442 units, 4800 records, 0 errors
+saydalia: 420/442 units, 5040 records, 0 errors
+saydalia: 440/442 units, 5280 records, 0 errors
+{"source": "saydalia", "record_count": 5299, "discovered_units": 442, "units_completed": 442, "collection_complete": true, "stop_reason": "finished", "network_requests_this_run": 165}

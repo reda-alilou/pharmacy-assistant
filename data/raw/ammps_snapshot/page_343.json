@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 343,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=343",
+  "fetched_at_utc": "2026-10-18T16:28:54.317834+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8703",
+      "brand_name": "PIROXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PIROXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMED",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "3725",
+      "brand_name": "PIVALONE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "PIVALATE DE TIXOCORTOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "22,80 DH",
+        "PH": "14,30 DH",
+        "PFHT": "13,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SUSPENSION  NASALE (GOUTTES)"
+      }
+    },
+    {
+      "source_record_id": "4114",
+      "brand_name": "PIZEDA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "PYRAZINAMIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "62,60 DH",
+        "PH": "39,10 DH",
+        "PFHT": "37,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4115",
+      "brand_name": "PIZEDA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "GN",
+        "Substance active": "PYRAZINAMIDE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "72,90 DH",
+        "PH": "45,60 DH",
+        "PFHT": "43,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5384",
+      "brand_name": "PLAQUENIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "HYDROXYCHLOROQUINE (SULFATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2280",
+      "brand_name": "PLAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "110,00 DH",
+        "PH": "68,80 DH",
+        "PFHT": "65,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2281",
+      "brand_name": "PLAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "198,10 DH",
+        "PH": "123,80 DH",
+        "PFHT": "117,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2282",
+      "brand_name": "PLAREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "56,00 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4729",
+      "brand_name": "PLASMION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "GELATINE FLUIDE MODIFIEE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "77,20 DH",
+        "PH": "48,30 DH",
+        "PFHT": "45,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 G",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2115",
+      "brand_name": "PLASMOHES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 POCHES DE 500 ML",
+        "PP / GN": "GN",
+        "Substance active": "HYDROXYETHYLAMIDON 200 000",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.845.00 DH",
+        "PH": "1.590.00 DH",
+        "PFHT": "1.514.91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.06",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6492",
+      "brand_name": "PLASTENAN NEO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ACEXAMIQUE // NEOMYCINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "12,20 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "3726",
+      "brand_name": "PLATAMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CISPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "67,70 DH",
+        "PH": "42,30 DH",
+        "PFHT": "40,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3727",
+      "brand_name": "PLATAMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "CISPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "197,70 DH",
+        "PH": "123,60 DH",
+        "PFHT": "117,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9024",
+      "brand_name": "PLATOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML DE SOLUTION, BOÎTE UNITAIRE.",
+        "PP / GN": "GN",
+        "Substance active": "CISPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "147,10 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  50  ML",
+        "Forme": "SOLUTION À DILUER POUR PERFUSION, FLACON DE 50 ML"
+      }
+    },
+    {
+      "source_record_id": "5385",
+      "brand_name": "PLAVIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.226.00 DH",
+        "PH": "953,00 DH",
+        "PFHT": "907,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5386",
+      "brand_name": "PLAVIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "242,00 DH",
+        "PH": "151,20 DH",
+        "PFHT": "144,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5387",
+      "brand_name": "PLAVIX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "183,00 DH",
+        "PH": "114,30 DH",
+        "PFHT": "108,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5388",
+      "brand_name": "PLAVIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7502",
+      "brand_name": "PLEGRIDY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 COFFRET",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON BETA-1A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "6.722.00 DH",
+        "PH": "6.508.00 DH",
+        "PFHT": "6.198.76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "63 µG  /  94 µG",
+        "Forme": "SOLUTION INJECTABLE EN 1 STYLO PREREMPLI DE 63 µG ET 1STYLO PRE-REMPLI DE 94 µg"
+      }
+    },
+    {
+      "source_record_id": "7503",
+      "brand_name": "PLEGRIDY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "PEGINTERFERON BETA-1A",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "7.746.00 DH",
+        "PH": "7.562.00 DH",
+        "PFHT": "7.202.74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG",
+        "Forme": "SOLUTION INJECTABLE EN 1 STYLO PREREMPLI"
+      }
+    }
+  ]
+}

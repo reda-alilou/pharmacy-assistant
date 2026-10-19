@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 209,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=209",
+  "fetched_at_utc": "2026-10-18T16:24:25.618013+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7186",
+      "brand_name": "HEMO-PUR AG6",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TRANSCUVE 1000 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "6.539.00 DH",
+        "PH": "6.320.00 DH",
+        "PFHT": "6.019.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE ACIDE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2090",
+      "brand_name": "HEMO-PUR B1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 9 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "107,70 DH",
+        "PH": "67,30 DH",
+        "PFHT": "64,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2091",
+      "brand_name": "HEMO-PUR B1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "108,80 DH",
+        "PH": "68,00 DH",
+        "PFHT": "64,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "23,53  /  63,95 G  /  L",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2092",
+      "brand_name": "HEMO-PUR B1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "64,00 DH",
+        "PH": "40,00 DH",
+        "PFHT": "38,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "23,53  /  65,95 G  /  L",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "6422",
+      "brand_name": "HEMOFAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "GN",
+        "Substance active": "HYDROCORTISONE // CINCHOCAINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "18,30 DH",
+        "PH": "11,40 DH",
+        "PFHT": "10,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "6423",
+      "brand_name": "HEMOFAST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "HYDROCORTISONE (ACETATE) // ESCULOSIDE // BENZOCAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "13,50 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "7442",
+      "brand_name": "HEMOPASS DUO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL // ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "153,20 DH",
+        "PH": "95,80 DH",
+        "PFHT": "91,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG  /  75   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7443",
+      "brand_name": "HEMOPASS DUO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL // ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "160,00 DH",
+        "PH": "100,00 DH",
+        "PFHT": "95,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG  /  100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8498",
+      "brand_name": "HEMOSOL B0",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "POCHE DE 5000 ML DE 2 COMPARTIMENTS A (250 ML SOLUTION ELECTROLYTES) +  B(4750 SOLUTION TAMPON)",
+        "PP / GN": "PP",
+        "Substance active": "CHLORURE DE CALCIUM DIHYDRATE // CHLORURE DE MAGNESIUM HEXAHYDRATE // ACIDE LACTIQUE // BICARBONATE DE SODIUM // CHLORURE DE SODIUM",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000  ML (250  ML SOLUTION ELECTROLYTES + 4750 SOLUTION TAMPON)",
+        "Forme": "SOLUTION POUR HEMOFILTRATION ET HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "464",
+      "brand_name": "HEPADIAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE DIMECROTIQUE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "BIOCODEX MAROC",
+        "PPV": "45,80 DH",
+        "PH": "28,60 DH",
+        "PFHT": "27,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "8499",
+      "brand_name": "HEPARINE ERGO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES EN VERRE",
+        "PP / GN": "BS",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "650,00 DH",
+        "PH": "432,00 DH",
+        "PFHT": "412,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7130",
+      "brand_name": "HEPARINE LEO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 FLACONS DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "1.558.00 DH",
+        "PH": "1.295.00 DH",
+        "PFHT": "1.233.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "2093",
+      "brand_name": "HEPARINE MEDIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "762,00 DH",
+        "PH": "506,00 DH",
+        "PFHT": "482,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8500",
+      "brand_name": "HEPARINE PHARMATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "BS",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "931",
+      "brand_name": "HEPARINE SODIQUE LEURQUIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "239,00 DH",
+        "PH": "149,60 DH",
+        "PFHT": "142,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "7131",
+      "brand_name": "HEPARINE SOLUDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 1 flacon de 5ml",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "76,10 DH",
+        "PH": "47,60 DH",
+        "PFHT": "45,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7132",
+      "brand_name": "HEPARINE SOLUDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "1.224.00 DH",
+        "PH": "951,00 DH",
+        "PFHT": "906,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7133",
+      "brand_name": "HEPARINE SOLUDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "24,50 DH",
+        "PH": "15,30 DH",
+        "PFHT": "14,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7134",
+      "brand_name": "HEPARINE SOLUDIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 25 FLACONS DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEPARINE SODIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "460,00 DH",
+        "PH": "305,00 DH",
+        "PFHT": "291,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000 UI  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1871",
+      "brand_name": "HEPSERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ADEFOVIR DIPIVOXIL",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GSK",
+        "PPV": "1.921.00 DH",
+        "PH": "1.668.00 DH",
+        "PFHT": "1.589.49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

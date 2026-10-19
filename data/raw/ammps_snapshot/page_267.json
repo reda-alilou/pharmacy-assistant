@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 267,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=267",
+  "fetched_at_utc": "2026-10-18T16:26:22.002005+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "408",
+      "brand_name": "MADECASSOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT TITRE DE CENTELLA ASIATICA",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "38,40 DH",
+        "PH": "24,00 DH",
+        "PFHT": "22,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "POUDRE"
+      }
+    },
+    {
+      "source_record_id": "5081",
+      "brand_name": "MADOPAR 250 MG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "LEVODOPA // BENZERAZIDE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "279,00 DH",
+        "PH": "185,50 DH",
+        "PFHT": "176,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  50   MG",
+        "Forme": "COMPRIME QUADRISECABLE"
+      }
+    },
+    {
+      "source_record_id": "9294",
+      "brand_name": "MAFINATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 3 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "CITRATE DE CAFEINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "219,00 DH",
+        "PH": "137,10 DH",
+        "PFHT": "130,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  3  ML",
+        "Forme": "SOLUTION POUR PERFUSION IV ET SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "9295",
+      "brand_name": "MAFINATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 3 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "CITRATE DE CAFEINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "1.224.00 DH",
+        "PH": "952,00 DH",
+        "PFHT": "906,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  3  ML",
+        "Forme": "SOLUTION POUR PERFUSION IV ET SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4716",
+      "brand_name": "MAG 2",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (PIDOLATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "22,90 DH",
+        "PH": "14,30 DH",
+        "PFHT": "13,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4717",
+      "brand_name": "MAG 2",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (PIDOLATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "59,20 DH",
+        "PH": "37,00 DH",
+        "PFHT": "35,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "122   MG  /  10  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4718",
+      "brand_name": "MAG 2 SANS SUCRE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 AMPOULES BUVABLES DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (PIDOLATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "POLYMEDIC",
+        "PPV": "40,10 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1500   MG  /  10  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5829",
+      "brand_name": "MAGISTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "AEROSOL DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "5343",
+      "brand_name": "MAGNE B6",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (LACTATE DE) DIHYDRATE // MAGNESIUM (PIDOLATE) // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "32,90 DH",
+        "PH": "20,50 DH",
+        "PFHT": "18,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,186 G  /  0,0936 G  /  0,01 G",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5344",
+      "brand_name": "MAGNE B6",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "MAGNESIUM (LACTATE DE) DIHYDRATE // VITAMINE B6 (PYRIDOXINE CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "30,80 DH",
+        "PH": "19,20 DH",
+        "PFHT": "17,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "470   MG  /  5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2536",
+      "brand_name": "MAGNESIUM LAPROPHAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MAGNESIUM (CARBONATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "22,90 DH",
+        "PH": "14,30 DH",
+        "PFHT": "13,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME A CROQUER"
+      }
+    },
+    {
+      "source_record_id": "409",
+      "brand_name": "MAGNEVIST",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "GADOPENTETATE (DIMEGLUMINE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "603,00 DH",
+        "PH": "399,00 DH",
+        "PFHT": "356,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.469",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "410",
+      "brand_name": "MAGNEVIST",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "GADOPENTETATE (DIMEGLUMINE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "893,00 DH",
+        "PH": "591,00 DH",
+        "PFHT": "528,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.469",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "411",
+      "brand_name": "MAGNEVIST",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "GADOPENTETATE (DIMEGLUMINE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "992,00 DH",
+        "PH": "713,00 DH",
+        "PFHT": "679,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.469",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "412",
+      "brand_name": "MAGNEVIST",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "GADOPENTETATE (DIMEGLUMINE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "347,00 DH",
+        "PH": "230,00 DH",
+        "PFHT": "205,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.469",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1883",
+      "brand_name": "MALANIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "ATOVAQUONE // PROGUANIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "394,00 DH",
+        "PH": "262,00 DH",
+        "PFHT": "249,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1884",
+      "brand_name": "MALANIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "ATOVAQUONE // PROGUANIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "126,80 DH",
+        "PH": "79,30 DH",
+        "PFHT": "75,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "62,5   MG  /  25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6762",
+      "brand_name": "MALTOFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE D'HYDROXYDE - POLYMALTOSE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "32,20 DH",
+        "PH": "20,10 DH",
+        "PFHT": "19,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6763",
+      "brand_name": "MALTOFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE D'HYDROXYDE - POLYMALTOSE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6764",
+      "brand_name": "MALTOFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FER (COMPLEXE D'HYDROXYDE - POLYMALTOSE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

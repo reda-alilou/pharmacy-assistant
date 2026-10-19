@@ -1,0 +1,78 @@
+{
+  "generated_at_utc": "2026-10-18T22:57:21.943730+00:00",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "key_configured": true,
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 97,
+    "failed": 0
+  },
+  "gemini_targeted_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "live_validation": "passed",
+  "live_summary": {
+    "total_cases": 12,
+    "completed_cases": 12,
+    "intents_correct": 12,
+    "entities_exact_cases": 12,
+    "incorrect_nonnull_entities": 0,
+    "passed": true
+  },
+  "by_language_group": {
+    "fr": {
+      "cases": 3,
+      "intents_correct": 3,
+      "entities_exact": 3
+    },
+    "ar": {
+      "cases": 3,
+      "intents_correct": 3,
+      "entities_exact": 3
+    },
+    "darija": {
+      "cases": 3,
+      "intents_correct": 3,
+      "entities_exact": 3
+    },
+    "mixed": {
+      "cases": 3,
+      "intents_correct": 3,
+      "entities_exact": 3
+    }
+  },
+  "live_latency_ms": {
+    "minimum": 2422.0,
+    "median": 3375.0,
+    "maximum": 24891.0
+  },
+  "live_inference_attempts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "chat_validation": {
+    "mode": "live_in_process_fastapi",
+    "completed_cases": 5,
+    "passed_cases": 5,
+    "passed": true,
+    "report": "reports/chat_smoke_gemini.json"
+  },
+  "services_started": false,
+  "integration_fix": "Use APPLICATION_JSON for generationConfig.responseFormat.text.mimeType; the example string application/json was rejected with HTTP 400.",
+  "initial_failure_report": "reports/interpretation_smoke_gemini_initial_request_rejected.json",
+  "license_note": "Gemini is proprietary; the original open-weight model choice does not apply to this deployment.",
+  "scope": "Development smoke checks; not held-out evaluation or proof of general accuracy. Browser visual validation remains pending.",
+  "remaining": "User launches and validates the Streamlit demo. Step 5 held-out evaluation and presentation deliverables remain pending."
+}

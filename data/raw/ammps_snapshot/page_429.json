@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 429,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=429",
+  "fetched_at_utc": "2026-10-18T16:31:46.972288+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1094",
+      "brand_name": "TEGUMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "112,10 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1095",
+      "brand_name": "TEGUMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "186,00 DH",
+        "PH": "116,20 DH",
+        "PFHT": "110,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1096",
+      "brand_name": "TEGUMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "TERBINAFINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "60,70 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8891",
+      "brand_name": "TEKCIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "RX",
+        "Substance active": "PERTECHNETATE 99MTC DE SODIUM",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2-50 GBQ",
+        "Forme": "GENERATEUR DE MOLBIDATE DE SODIUM"
+      }
+    },
+    {
+      "source_record_id": "3040",
+      "brand_name": "TELEBRIX 12 SODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 250ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "178,10 DH",
+        "PH": "111,30 DH",
+        "PFHT": "106,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3041",
+      "brand_name": "TELEBRIX 30 MEGLUMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "172,60 DH",
+        "PH": "107,80 DH",
+        "PFHT": "102,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3042",
+      "brand_name": "TELEBRIX 30 MEGLUMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "60,90 DH",
+        "PH": "38,00 DH",
+        "PFHT": "36,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3043",
+      "brand_name": "TELEBRIX 35",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE) // IOXITALAMATE (SODIUM)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "189,40 DH",
+        "PH": "118,40 DH",
+        "PFHT": "112,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3044",
+      "brand_name": "TELEBRIX 35",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE) // IOXITALAMATE (SODIUM)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "111,30 DH",
+        "PH": "69,60 DH",
+        "PFHT": "66,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3045",
+      "brand_name": "TELEBRIX 35",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE) // IOXITALAMATE (SODIUM)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "266,00 DH",
+        "PH": "166,60 DH",
+        "PFHT": "158,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG IODE  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3046",
+      "brand_name": "TELEBRIX GASTRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "141,60 DH",
+        "PH": "88,50 DH",
+        "PFHT": "84,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION BUVABLE ET RECTALE"
+      }
+    },
+    {
+      "source_record_id": "3047",
+      "brand_name": "TELEBRIX GASTRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "IOXITALAMATE (MEGLUMINE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "80,10 DH",
+        "PH": "50,00 DH",
+        "PFHT": "47,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG IODE  /   ML",
+        "Forme": "SOLUTION BUVABLE ET RECTALE"
+      }
+    },
+    {
+      "source_record_id": "3307",
+      "brand_name": "TELMISARTAN MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TELMISARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "109,70 DH",
+        "PH": "68,60 DH",
+        "PFHT": "65,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3308",
+      "brand_name": "TELMISARTAN MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TELMISARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "129,90 DH",
+        "PH": "81,20 DH",
+        "PFHT": "77,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3048",
+      "brand_name": "TEMESTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "LORAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "21,50 DH",
+        "PH": "13,50 DH",
+        "PFHT": "12,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "3049",
+      "brand_name": "TEMESTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "LORAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "27,60 DH",
+        "PH": "17,30 DH",
+        "PFHT": "16,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4570",
+      "brand_name": "TEMGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "PHI",
+        "PPV": "101,50 DH",
+        "PH": "63,40 DH",
+        "PFHT": "60,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,2   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "4571",
+      "brand_name": "TEMGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 50",
+        "PP / GN": "PP",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "PHI",
+        "PPV": "187,70 DH",
+        "PH": "117,30 DH",
+        "PFHT": "111,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,2   MG",
+        "Forme": "COMPRIME SUBLINGUAL"
+      }
+    },
+    {
+      "source_record_id": "4572",
+      "brand_name": "TEMGESIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "BUPRENORPHINE",
+        "Classe thérapeutique": "ADDICTOLOGIE",
+        "EPI": "PHI",
+        "PPV": "241,00 DH",
+        "PH": "150,70 DH",
+        "PFHT": "143,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3272",
+      "brand_name": "TEMODAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "PP",
+        "Substance active": "TEMOZOLOMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "MSD",
+        "PPV": "1.952.00 DH",
+        "PH": "1.701.00 DH",
+        "PFHT": "1.620.13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE DANS SACHETS-DOSES"
+      }
+    }
+  ]
+}

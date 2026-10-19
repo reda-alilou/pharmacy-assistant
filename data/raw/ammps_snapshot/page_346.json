@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 346,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=346",
+  "fetched_at_utc": "2026-10-18T16:29:00.360108+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4738",
+      "brand_name": "POLYZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "272,00 DH",
+        "PH": "170,20 DH",
+        "PFHT": "162,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4739",
+      "brand_name": "POLYZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "156,40 DH",
+        "PH": "97,80 DH",
+        "PFHT": "93,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4740",
+      "brand_name": "POLYZAPIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "106,80 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3728",
+      "brand_name": "PONSTYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE MEFENAMIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "27,00 DH",
+        "PH": "16,80 DH",
+        "PFHT": "16,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "3729",
+      "brand_name": "PONSTYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8 SUPPOSITOIRE",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE MEFENAMIQUE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "28,40 DH",
+        "PH": "17,80 DH",
+        "PFHT": "16,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "9536",
+      "brand_name": "PONVORY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "PONESIMOD",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9537",
+      "brand_name": "PONVORY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "PONESIMOD",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MG+3 MG+4MG+5 MG+6 MG+7 MG+8 MG+9 MG+10 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "5927",
+      "brand_name": "POSICYCLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "OXYTETRACYCLINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "27,90 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5928",
+      "brand_name": "POSICYCLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "PP",
+        "Substance active": "OXYTETRACYCLINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05 G",
+        "Forme": "POMMADE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "7771",
+      "brand_name": "POSIFORMIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "GN",
+        "Substance active": "BIBROCATHOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "120,80 DH",
+        "PH": "75,50 DH",
+        "PFHT": "71,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2% (20   MG  /  G)",
+        "Forme": "POMMADE OPHTALMIQUE DESINFECTANTE"
+      }
+    },
+    {
+      "source_record_id": "5929",
+      "brand_name": "POSINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "10 ML",
+        "PP / GN": "PP",
+        "Substance active": "SYNEPHRINE (TARTRATE) // CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,120 - 0,025 G  /  100",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "1747",
+      "brand_name": "POSTINOR CP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "GENPHARMA",
+        "PPV": "61,70 DH",
+        "PH": "38,50 DH",
+        "PFHT": "36,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2629",
+      "brand_name": "POTASSIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "POTASSIUM (GLUCONATE)",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "LAPROPHAN",
+        "PPV": "24,60 DH",
+        "PH": "15,30 DH",
+        "PFHT": "14,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.15",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1748",
+      "brand_name": "POTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON AVEC UNE SERINGUE PREREMPLIE",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "149,50 DH",
+        "PH": "93,50 DH",
+        "PFHT": "89,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1749",
+      "brand_name": "POTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON AVEC UNE SERINGUE PREREMPLIE",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "1.060.00 DH",
+        "PH": "782,00 DH",
+        "PFHT": "745,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1750",
+      "brand_name": "POTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON AVEC UNE SERINGUE PREREMPLIE",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "234,00 DH",
+        "PH": "146,50 DH",
+        "PFHT": "139,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2000 UI",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1751",
+      "brand_name": "POTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON AVEC UNE SERINGUE PREREMPLIE",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "335,00 DH",
+        "PH": "223,00 DH",
+        "PFHT": "212,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3000 UI",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "1752",
+      "brand_name": "POTEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON AVEC UNE SERINGUE PREREMPLIE",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "437,00 DH",
+        "PH": "290,00 DH",
+        "PFHT": "276,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4000 UI",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "651",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "197,60 DH",
+        "PH": "123,50 DH",
+        "PFHT": "117,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "110   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "652",
+      "brand_name": "PRADAXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DABIGATRAN ETEXILATE (MESILATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "365,00 DH",
+        "PH": "243,00 DH",
+        "PFHT": "231,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "110   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

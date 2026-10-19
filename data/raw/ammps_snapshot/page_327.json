@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 327,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=327",
+  "fetched_at_utc": "2026-10-18T16:28:22.377078+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2601",
+      "brand_name": "OXIFLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "OFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "104,70 DH",
+        "PH": "65,40 DH",
+        "PFHT": "62,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7581",
+      "brand_name": "OXIPLAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "1.866.00 DH",
+        "PH": "1.613.00 DH",
+        "PFHT": "1.536.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  20  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 20 ML"
+      }
+    },
+    {
+      "source_record_id": "7582",
+      "brand_name": "OXIPLAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  10  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON DE 10 ML"
+      }
+    },
+    {
+      "source_record_id": "1893",
+      "brand_name": "OXISTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "OXICONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "28,60 DH",
+        "PH": "17,90 DH",
+        "PFHT": "17,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "1894",
+      "brand_name": "OXISTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "OXICONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "33,40 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "LOTION"
+      }
+    },
+    {
+      "source_record_id": "1895",
+      "brand_name": "OXISTAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "OXICONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "17,60 DH",
+        "PH": "11,00 DH",
+        "PFHT": "10,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "7802",
+      "brand_name": "OXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 25 ML BOITE UNITAIRE AVEC UN FLIP OFF",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "1.089.00 DH",
+        "PH": "812,00 DH",
+        "PFHT": "773,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  25  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7803",
+      "brand_name": "OXOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 50 ML BOITE UNITAIRE AVEC UN FLIP OFF",
+        "PP / GN": "GN",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "1.866.00 DH",
+        "PH": "1.613.00 DH",
+        "PFHT": "1.536.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  50  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6800",
+      "brand_name": "OXONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML + AMPOULE DE 10 ML D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "79,40 DH",
+        "PH": "49,60 DH",
+        "PFHT": "47,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  10  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "6801",
+      "brand_name": "OXONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML + AMPOULE DE 5 ML DE LIDOCAINE 1%",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "79,40 DH",
+        "PH": "49,60 DH",
+        "PFHT": "47,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  5  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6802",
+      "brand_name": "OXONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 20 ML + AMPOULE DE 5 ML DE LIDOCAINE 1%",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6803",
+      "brand_name": "OXONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 20 ML + AMPOULE DE 5 ML D'EPPI",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "6227",
+      "brand_name": "OXOVASIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "Soluttion de chlorite OXO-K 993 // HYPOCHLORITE DE SODIUM // ACIDE SULFURIQUE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "280,00 DH",
+        "PH": "186,30 DH",
+        "PFHT": "177,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,9 X 10",
+        "Forme": "SOLUTION AQUEUSE"
+      }
+    },
+    {
+      "source_record_id": "6228",
+      "brand_name": "OXOVASIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "GN",
+        "Substance active": "Soluttion de chlorite OXO-K 993 // HYPOCHLORITE DE SODIUM // ACIDE SULFURIQUE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SUN PHARMA",
+        "PPV": "186,90 DH",
+        "PH": "116,80 DH",
+        "PFHT": "111,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,9 X 10",
+        "Forme": "SOLUTION AQUEUSE"
+      }
+    },
+    {
+      "source_record_id": "1031",
+      "brand_name": "OXYBUT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "OXYBUTYNINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "47,70 DH",
+        "PH": "29,80 DH",
+        "PFHT": "28,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8681",
+      "brand_name": "OXYCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME A LIBERATION CONTROLEE"
+      }
+    },
+    {
+      "source_record_id": "8682",
+      "brand_name": "OXYCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME A LIBERATION CONTROLEE"
+      }
+    },
+    {
+      "source_record_id": "8683",
+      "brand_name": "OXYCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME A LIBERATION CONTROLEE"
+      }
+    },
+    {
+      "source_record_id": "8684",
+      "brand_name": "OXYCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME A LIBERATION CONTROLEE"
+      }
+    },
+    {
+      "source_record_id": "8685",
+      "brand_name": "OXYCONTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "OXYCODONE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME A LIBERATION CONTROLEE"
+      }
+    }
+  ]
+}

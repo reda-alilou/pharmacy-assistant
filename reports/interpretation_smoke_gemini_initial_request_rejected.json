@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-10-18T22:49:24.123675+00:00",
+  "mode": "live",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "output_mode": "json_schema",
+  "prompt_version": "step2-v1",
+  "fixture": "data\\evaluation\\interpretation_smoke.json",
+  "status": "stopped_provider_error",
+  "acceptance": "12 completed cases, at least 10 correct intent sets and 10 exact entity cases, no incorrect non-null entities",
+  "results": [
+    {
+      "id": "fr-price",
+      "group": "fr",
+      "text": "Quel est le prix de ABIP 15 mg, boîte de 20 ?",
+      "error": {
+        "code": "provider_request_rejected",
+        "message": "Gemini rejected the model or structured-output configuration.",
+        "retryable": false,
+        "retry_after_seconds": null
+      }
+    }
+  ],
+  "summary": {
+    "total_cases": 12,
+    "completed_cases": 0,
+    "intents_correct": 0,
+    "entities_exact_cases": 0,
+    "incorrect_nonnull_entities": 0,
+    "passed": false
+  }
+}

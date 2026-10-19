@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 296,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=296",
+  "fetched_at_utc": "2026-10-18T16:27:20.108724+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1489",
+      "brand_name": "NEOMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "31,30 DH",
+        "PH": "19,50 DH",
+        "PFHT": "18,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1490",
+      "brand_name": "NEOMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "32,30 DH",
+        "PH": "20,20 DH",
+        "PFHT": "19,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1491",
+      "brand_name": "NEOMOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "56,90 DH",
+        "PH": "35,50 DH",
+        "PFHT": "33,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "7479",
+      "brand_name": "NEOPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "7510",
+      "brand_name": "NEOPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "20,50 DH",
+        "PH": "13,69 DH",
+        "PFHT": "12,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "2565",
+      "brand_name": "NEORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 50ML",
+        "PP / GN": "PP",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.549.00 DH",
+        "PH": "1.285.00 DH",
+        "PFHT": "1.224.68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2566",
+      "brand_name": "NEORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.705.00 DH",
+        "PH": "1.446.00 DH",
+        "PFHT": "1.377.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "2567",
+      "brand_name": "NEORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "LAPROPHAN",
+        "PPV": "558,00 DH",
+        "PH": "371,00 DH",
+        "PFHT": "353,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "2568",
+      "brand_name": "NEORAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "CICLOSPORINE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "LAPROPHAN",
+        "PPV": "1.062.00 DH",
+        "PH": "784,00 DH",
+        "PFHT": "747,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "7927",
+      "brand_name": "NEOSYNEPHRIN-POS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHENYLEPHRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "53,20 DH",
+        "PH": "33,20 DH",
+        "PFHT": "31,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "COLLYRE OPHTALMIQUE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "7928",
+      "brand_name": "NEOSYNEPHRIN-POS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHENYLEPHRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "53,20 DH",
+        "PH": "33,20 DH",
+        "PFHT": "31,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "COLLYRE OPHTALMIQUE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6111",
+      "brand_name": "NEOTIGASON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "318,00 DH",
+        "PH": "211,00 DH",
+        "PFHT": "201,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6112",
+      "brand_name": "NEOTIGASON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "ACITRETINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "697,00 DH",
+        "PH": "463,00 DH",
+        "PFHT": "441,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "5860",
+      "brand_name": "NEOXIDIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 80ML",
+        "PP / GN": "PP",
+        "Substance active": "MINOXIDIL",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "231,00 DH",
+        "PH": "144,60 DH",
+        "PFHT": "137,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "8635",
+      "brand_name": "NEPEXTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOÎTE DE 4 SERINGUES PREREMPLIS.",
+        "PP / GN": "BS",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "2.857.00 DH",
+        "PH": "2.529.00 DH",
+        "PFHT": "2.408.84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE"
+      }
+    },
+    {
+      "source_record_id": "8636",
+      "brand_name": "NEPEXTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOÎTE DE 4 STYLOS PREREMPLIS.",
+        "PP / GN": "BS",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "4.992.00 DH",
+        "PH": "4.727.00 DH",
+        "PFHT": "4.502.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 1ML"
+      }
+    },
+    {
+      "source_record_id": "8637",
+      "brand_name": "NEPEXTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOÎTE DE 4 SERINGUES PREREMPLIS.",
+        "PP / GN": "BS",
+        "Substance active": "ETANERCEPT",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "4.992.00 DH",
+        "PH": "4.727.00 DH",
+        "PFHT": "4.502.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PREREMPLIE DE 1ML"
+      }
+    },
+    {
+      "source_record_id": "9759",
+      "brand_name": "NEPHLOZIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EMPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PHI",
+        "PPV": "269,00 DH",
+        "PH": "178,80 DH",
+        "PFHT": "170,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9760",
+      "brand_name": "NEPHLOZIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "EMPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "PHI",
+        "PPV": "269,00 DH",
+        "PH": "178,80 DH",
+        "PFHT": "170,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7187",
+      "brand_name": "NEPZAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "75,60 DH",
+        "PH": "47,20 DH",
+        "PFHT": "44,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-10-18T23:56:27.324211+00:00",
+  "mode": "offline_control_flow_simulation",
+  "inference": "mocked_from_annotations",
+  "is_model_accuracy_measurement": false,
+  "real_provider_requests": 0,
+  "steps": [
+    {
+      "request_budget": 1,
+      "resume": false,
+      "status": "paused_budget",
+      "completed_cases": 1,
+      "requests_reserved_this_invocation": 1
+    },
+    {
+      "request_budget": 2,
+      "resume": true,
+      "status": "paused_budget",
+      "completed_cases": 3,
+      "requests_reserved_this_invocation": 2
+    },
+    {
+      "request_budget": 0,
+      "resume": true,
+      "status": "paused_budget",
+      "completed_cases": 3,
+      "requests_reserved_this_invocation": 0
+    }
+  ],
+  "simulated_outbound_attempts": 3,
+  "unique_messages_sent": 3,
+  "previously_completed_cases_repeated": 0
+}

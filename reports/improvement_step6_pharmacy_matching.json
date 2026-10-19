@@ -1,0 +1,131 @@
+{
+  "generated_at_utc": "2026-10-19T14:09:45.125606+00:00",
+  "step": "improvement_step_6_pharmacy_matching",
+  "status": "offline_verified_live_provider_unavailable_awaiting_user_validation",
+  "offline_backend_before": {
+    "cases": 40,
+    "passed_cases": 39,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 31
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 8
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "pharmacy": 2
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "offline_backend_after": {
+    "cases": 40,
+    "passed_cases": 40,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 32
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 8
+    },
+    "conversation_medication_decisions": {
+      "correct": 8,
+      "total": 8
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {},
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "measurement": "Frozen development annotated extraction and real backend; not hosted model accuracy.",
+  "fixed_case": "dev-ar-05",
+  "fixed_case_raw_name": "صيدلية ابن نفيس",
+  "resolved_record": {
+    "id": "saydalia:5256",
+    "name": "Pharmacie Ibn Nafis",
+    "phone": "0537720657",
+    "source": "saydalia.ma",
+    "source_url": "https://saydalia.ma/fr/"
+  },
+  "matching": {
+    "reviewed_alias_spellings": 11,
+    "canonical_alias_targets": 7,
+    "index": "built once per directory instance",
+    "strategy": [
+      "reviewed lexical aliases",
+      "exact normalized names before whole-token partial matches"
+    ],
+    "fuzzy_auto_selection": false,
+    "duplicate_names": "preserved as ambiguous distinct record IDs",
+    "multiple_named_matches": "pharmacy.status ambiguous and chat.status needs_clarification",
+    "maximum_displayed_matches": 5
+  },
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 199,
+    "failed": 0,
+    "new_matching_tests": 12,
+    "new_live_orchestration_tests": 2,
+    "duration_seconds": 117.196,
+    "log": "reports/step6_offline_tests.log"
+  },
+  "live_check": {
+    "report": "reports/pharmacy_live_step6.json",
+    "status": "stopped_provider_error",
+    "completed_cases": 0,
+    "planned_cases": 4,
+    "provider_attempts_reserved": 2,
+    "attempt_ceiling_this_invocation": 4,
+    "error_codes": [
+      "provider_unavailable"
+    ],
+    "intent_micro_f1": null,
+    "entity_slot_micro_f1": null,
+    "new_key_requested": false,
+    "note": "Provider availability error is not evidence of an invalid key; no further retry invocations were run."
+  },
+  "annotation_file_sha256": {
+    "development.json": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+    "held_out.json": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9"
+  },
+  "annotations_unchanged": true,
+  "held_out_model_calls": 0,
+  "held_out_backend_cases_executed": 0,
+  "env_modified": false,
+  "prompt_modified": false,
+  "directory_records": 115,
+  "directory_unchanged": true,
+  "catalogue_unchanged": true,
+  "sources_scraped": false,
+  "services_started_or_stopped": false,
+  "feature_source_sha256": {
+    "pharmacy_directory.py": "bd52e09cb63a4df42e54826913e7bb73a74467bff5218812884a707fe68644da",
+    "pharmacy_normalization.py": "838967633d27090f00b9921acc712b9de49b0ac2893c7602f1833a77c5165247",
+    "chat.py": "a93ae24446705cd6ad6a6aea3f8c5c56e5750882f8ce822709e5dc17662a64cf",
+    "chat_models.py": "44bd2472c166ba14e8b12018e36e53ef621420f2bce90f083ff82ded5eafb461",
+    "answer_templates.py": "49c0e3ba0e9f200819bf8ef391fbc0be809588008cb7b1034988c5e54c77fbd0",
+    "demo.py": "8d6ad34b7fa19bea8c47c49a637a10bf8dcd8b1d5f29c709a65950d2dc6688d8",
+    "evaluate_baseline.py": "245597e60f1dc69146f934987e6a0edc1894e34d26ddd9251fd92a91f0a474a9",
+    "evaluate_pharmacy_smoke.py": "434cd203ad83614788824e3bde95e8a6db9c6cdd63142c2e28e316207c9db106"
+  },
+  "limits": [
+    "Partial Rabat sample; no live stock, verified hours/duty or distance ordering.",
+    "Aliases are assistant-reviewed lexical mappings, not general transliteration or independent linguistic review.",
+    "Area filtering searches stored name/address text, not verified district boundaries.",
+    "Four-language live contact check and wider live/held-out evaluation remain incomplete."
+  ],
+  "next_step": "Stop for validation; complete broader live evaluation when the provider is responsive."
+}

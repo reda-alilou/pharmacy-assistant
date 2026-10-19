@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 337,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=337",
+  "fetched_at_utc": "2026-10-18T16:28:42.369212+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8042",
+      "brand_name": "PENTASA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "MESALAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "939,00 DH",
+        "PH": "658,00 DH",
+        "PFHT": "626,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G",
+        "Forme": "GRANULES A LIBERATION PROLONGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "8108",
+      "brand_name": "PENTASA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7 FLACONS DE 100ML",
+        "PP / GN": "PP",
+        "Substance active": "MESALAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "355,00 DH",
+        "PH": "235,00 DH",
+        "PFHT": "224,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /  100  ML",
+        "Forme": "SUSPENSION RECTALE"
+      }
+    },
+    {
+      "source_record_id": "8700",
+      "brand_name": "PENTASA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28 SUPPOSITOIRES",
+        "PP / GN": "PP",
+        "Substance active": "MESALAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "493,00 DH",
+        "PH": "327,00 DH",
+        "PFHT": "312,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "SUPPOSITOIRES"
+      }
+    },
+    {
+      "source_record_id": "7740",
+      "brand_name": "PENTASA XTEND",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "MEZALAZINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.040.00 DH",
+        "PH": "762,00 DH",
+        "PFHT": "726,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "GRANULES A LIBERATION PROLOGEE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5383",
+      "brand_name": "PENTAXIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE D'UNE DOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE ACELLULAIRE // POLYOMYELITE INACTIVE ADSORBE // HAEMOPHILUS INFLUENZAE TYPE B CONJUGUE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "277,00 DH",
+        "PH": "184,20 DH",
+        "PFHT": "175,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "194",
+      "brand_name": "PEP-RANI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "RANITIDINE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "51,40 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4104",
+      "brand_name": "PERAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "52,90 DH",
+        "PH": "33,10 DH",
+        "PFHT": "31,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4105",
+      "brand_name": "PERAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "92,00 DH",
+        "PH": "57,50 DH",
+        "PFHT": "54,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4106",
+      "brand_name": "PERAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PERINDOPRIL (TERT-BUTYLAMINE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "129,40 DH",
+        "PH": "80,90 DH",
+        "PFHT": "77,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4969",
+      "brand_name": "PERCUTALGINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE // SALICYLAMIDE // SALICYLATE DE GLYCOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "16,40 DH",
+        "PH": "10,20 DH",
+        "PFHT": "9,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05  /  2,0  /  10,0%",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "4725",
+      "brand_name": "PERDEX LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "30,10 DH",
+        "PH": "18,80 DH",
+        "PFHT": "17,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2960",
+      "brand_name": "PERFALGAN ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12 FLACONS DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "361,00 DH",
+        "PH": "239,00 DH",
+        "PFHT": "214,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2961",
+      "brand_name": "PERFALGAN NOURRISSON ET ENFANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12 FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "278,00 DH",
+        "PH": "173,50 DH",
+        "PFHT": "154,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7078",
+      "brand_name": "PERGOVERIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE DE 3 ML ET UN FLACON DE SOLVANT DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "FOLLITROPINE ALFA // LUTROPINE ALFA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "982,00 DH",
+        "PH": "702,00 DH",
+        "PFHT": "669,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 UI  /  75 UI",
+        "Forme": "POUDRE ET SOLUTION POUR PERFUSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9153",
+      "brand_name": "PERGOVERIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN STYLO PRE-REMPLI ET 7 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "FOLLITROPINE ALFA // LUTROPINE ALFA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "2.543.00 DH",
+        "PH": "2.206.00 DH",
+        "PFHT": "2.101.41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "450 UI  /  225 UI",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 0.72 ML + 7 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "9154",
+      "brand_name": "PERGOVERIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN STYLO PRE-REMPLI ET 5 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "FOLLITROPINE ALFA // LUTROPINE ALFA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.728.00 DH",
+        "PH": "1.470.00 DH",
+        "PFHT": "1.400.93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 UI  /  150 UI",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 0.48 ML + 5 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "9155",
+      "brand_name": "PERGOVERIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN STYLO PRE-REMPLI ET 14 AIGUILLES",
+        "PP / GN": "PP",
+        "Substance active": "FOLLITROPINE ALFA // LUTROPINE ALFA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "4.687.00 DH",
+        "PH": "4.413.00 DH",
+        "PFHT": "4.203.06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "900 UI  /  450 UI",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PREREMPLI DE 1.44 ML + 14 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "5918",
+      "brand_name": "PERIACTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CYPROHEPTADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "16,10 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2627",
+      "brand_name": "PERIANEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2628",
+      "brand_name": "PERIANEST",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "BUPIVACAINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "LAPROPHAN",
+        "PPV": "38,10 DH",
+        "PH": "23,80 DH",
+        "PFHT": "22,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

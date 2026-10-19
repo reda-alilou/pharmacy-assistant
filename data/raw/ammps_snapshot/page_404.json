@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 404,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=404",
+  "fetched_at_utc": "2026-10-18T16:30:56.674810+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4556",
+      "brand_name": "SOLUGEL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 45 G",
+        "PP / GN": "PP",
+        "Substance active": "PEROXYDE DE BENZOYLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "89,60 DH",
+        "PH": "55,80 DH",
+        "PFHT": "49,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.08",
+        "Forme": "GEL"
+      }
+    },
+    {
+      "source_record_id": "3740",
+      "brand_name": "SOLUMEDROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON + 1 AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "57,60 DH",
+        "PH": "36,00 DH",
+        "PFHT": "34,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG  /  2  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3741",
+      "brand_name": "SOLUMEDROL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "1 FLACON + 1 AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "16,40 DH",
+        "PH": "10,20 DH",
+        "PFHT": "9,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  2  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3742",
+      "brand_name": "SOLUMEDROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 FLACON + 1 AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "24,30 DH",
+        "PH": "15,20 DH",
+        "PFHT": "14,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /  2  ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3743",
+      "brand_name": "SOLUMEDROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FL",
+        "PP / GN": "PP",
+        "Substance active": "METHYLPREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PFIZER",
+        "PPV": "1.368.00 DH",
+        "PH": "1.100.00 DH",
+        "PFHT": "1.047.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5435",
+      "brand_name": "SOLUPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "48,70 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "5436",
+      "brand_name": "SOLUPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "25,20 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "1261",
+      "brand_name": "SOLUTE CONCENTRE POUR HEMODIALYSE ACIDE EM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "CUVE DE 1000 LITRES",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (EM 103 (SOLUTE CONCENTRE ACIDE A 103 MMOL / L DE SODIUM);\nEM 103 CA2 + 1,5 (SOLUTE CONCENTRE ACIDE A 103 MMOL / L DE SODIUM ET A 1,50 MMOL / L DE CALCIUM);\nEM 80 (SOLUTE CONCENTRE ACIDE A 80 MMOL / L DE SODIUM);\nEM 80 CA2 + 1,31 (SOLUTE CONCENTRE ACIDE A 80 MMOL / L DE SODIUM ET A 1,31 MMOL / L DE CALCIUM)\nEM 80 CA2 + 1,5 (SOLUTE CONCENTRE ACIDE A 80 MMOL / L DE SODIUM ET A 1,50 MMOL / L DE CALCIUM))",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "6.403.00 DH",
+        "PH": "6.176.00 DH",
+        "PFHT": "5.885.60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE"
+      }
+    },
+    {
+      "source_record_id": "760",
+      "brand_name": "SOLUTION D'ALBUMINE HUMAINE-CNTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ALBUMINE HUMAINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AMSD",
+        "PPV": "547,00 DH",
+        "PH": "362,00 DH",
+        "PFHT": "323,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5964",
+      "brand_name": "SOMATOSTATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 AMPOULE DE",
+        "PP / GN": "GN",
+        "Substance active": "SOMATOSTATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "247,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,250   MG",
+        "Forme": "POUDRE ET SOLVANT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5965",
+      "brand_name": "SOMATOSTATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "SOMATOSTATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.995.00 DH",
+        "PH": "2.671.00 DH",
+        "PFHT": "2.544.73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "POUDRE ET SOLVANT POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "5966",
+      "brand_name": "SOMATULINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "LANREOTIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "8.699.00 DH",
+        "PH": "8.536.00 DH",
+        "PFHT": "8.136.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "SOLUTION INJECTABLE (IM)"
+      }
+    },
+    {
+      "source_record_id": "5967",
+      "brand_name": "SOMATULINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "LANREOTIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "10.749.00 DH",
+        "PH": "10.546.00 DH",
+        "PFHT": "10.146.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "SOLUTION INJECTABLE (IM)"
+      }
+    },
+    {
+      "source_record_id": "5968",
+      "brand_name": "SOMATULINE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PREREMPLIE DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "LANREOTIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "12.747.00 DH",
+        "PH": "12.505.00 DH",
+        "PFHT": "12.105.31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5969",
+      "brand_name": "SOMATULINE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON + AMPOULE",
+        "PP / GN": "PP",
+        "Substance active": "LANREOTIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SOTHEMA",
+        "PPV": "6.437.00 DH",
+        "PH": "6.167.00 DH",
+        "PFHT": "5.506.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE IM"
+      }
+    },
+    {
+      "source_record_id": "461",
+      "brand_name": "SOPHOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SOFOSBUVIR",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "3.000.00 DH",
+        "PH": "2.676.00 DH",
+        "PFHT": "2.549.02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "5970",
+      "brand_name": "SOPHTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE SALICYLIQUE // CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "10,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5   MG  /  100  ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "9187",
+      "brand_name": "SORAFENAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "SORAFENIB (TOSYLATE DE SORAFENIB)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "10.600.00 DH",
+        "PH": "10.400.00 DH",
+        "PFHT": "10.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9496",
+      "brand_name": "SORAFENIB PHARMACARE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "SORAFENIB (TOSYLATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "10.600.00 DH",
+        "PH": "10.400.00 DH",
+        "PFHT": "10.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6516",
+      "brand_name": "SORBALCA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE // VITAMINE B12 (CYANOCOBALAMINE) // SORBITOL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "22,80 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    }
+  ]
+}

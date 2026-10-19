@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 380,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=380",
+  "fetched_at_utc": "2026-10-18T16:30:08.848680+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8775",
+      "brand_name": "RITROCINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "ROXITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4153",
+      "brand_name": "RIVABIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "GN",
+        "Substance active": "RIBAVIRINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "906,00 DH",
+        "PH": "624,00 DH",
+        "PFHT": "595,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9409",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "49,00 DH",
+        "PH": "30,60 DH",
+        "PFHT": "29,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9410",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "90,40 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9411",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 35",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "298,00 DH",
+        "PH": "198,70 DH",
+        "PFHT": "189,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9412",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9413",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "274,00 DH",
+        "PH": "182,70 DH",
+        "PFHT": "174,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9414",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 42",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "398,00 DH",
+        "PH": "265,00 DH",
+        "PFHT": "252,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9415",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "147,00 DH",
+        "PH": "91,90 DH",
+        "PFHT": "87,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9416",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "274,00 DH",
+        "PH": "182,70 DH",
+        "PFHT": "174,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9417",
+      "brand_name": "RIVALTO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "549,00 DH",
+        "PH": "364,00 DH",
+        "PFHT": "347,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7835",
+      "brand_name": "RIVASTIGMINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "109,20 DH",
+        "PH": "68,20 DH",
+        "PFHT": "65,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,6  MG / 24 H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE  EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "7836",
+      "brand_name": "RIVASTIGMINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "426,00 DH",
+        "PH": "283,00 DH",
+        "PFHT": "269,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4,6  MG / 24 H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE  EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "7837",
+      "brand_name": "RIVASTIGMINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIVASTIGMINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "457,00 DH",
+        "PH": "303,00 DH",
+        "PFHT": "289,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "9,5  MG / 24H",
+        "Forme": "DISPOSITIF TRANSDERMIQUE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9353",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "49,00 DH",
+        "PH": "30,60 DH",
+        "PFHT": "29,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "9354",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "90,40 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "9355",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE 14",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "120,70 DH",
+        "PH": "75,50 DH",
+        "PFHT": "71,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "9356",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE 28",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "230,00 DH",
+        "PH": "144,10 DH",
+        "PFHT": "137,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "9357",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE 30",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "246,00 DH",
+        "PH": "154,30 DH",
+        "PFHT": "147,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    },
+    {
+      "source_record_id": "9358",
+      "brand_name": "RIVERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE 42",
+        "PP / GN": "GN",
+        "Substance active": "RIVAROXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "325,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "205,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10  MG",
+        "Forme": "COMPRIMES ENROBES"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "purpose": "Development regressions after inspecting original held-out failures; not an independent benchmark",
+  "examples": 14,
+  "seen_failure_rechecks": 6,
+  "fresh_variations": 8,
+  "inference_jobs": 20,
+  "sha256": "cb2983d0b8f865c2db5069ad348b3e469f271504b48bae3ce793dd9f7112f8cd",
+  "original_held_out_annotations_sha256": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9",
+  "annotation_provenance": "Assistant-authored/reviewed; no independent speaker review"
+}

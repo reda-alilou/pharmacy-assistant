@@ -1,0 +1,122 @@
+{
+  "generated_at_utc": "2026-10-19T10:18:16.392941+00:00",
+  "step": "improvement_step_3_medication_matching",
+  "status": "offline_verified_awaiting_user_validation",
+  "scope": [
+    "medication_normalization",
+    "ranked_resolution",
+    "explicit_filter_correction",
+    "bounded_refinement",
+    "api_and_streamlit_refinement_controls"
+  ],
+  "offline_backend_before": {
+    "cases": 40,
+    "passed_cases": 24,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 24
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 0
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 17,
+      "total": 21
+    },
+    "failures_by_component": {
+      "matching": 4,
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 12
+    },
+    "broad_candidate_lists": 2
+  },
+  "offline_backend_after": {
+    "cases": 40,
+    "passed_cases": 28,
+    "single_turn": {
+      "cases": 32,
+      "passed_cases": 28
+    },
+    "conversation": {
+      "cases": 8,
+      "passed_cases": 0
+    },
+    "medication_decisions_with_annotated_extraction": {
+      "correct": 21,
+      "total": 21
+    },
+    "failures_by_component": {
+      "answer": 3,
+      "pharmacy": 2,
+      "conversation": 12
+    },
+    "broad_candidate_lists": 3,
+    "focused_candidate_lists": 3
+  },
+  "remaining_failing_case_ids_by_component": {
+    "answer": [
+      "dev-mixed-01",
+      "dev-ar-02",
+      "dev-fr-04"
+    ],
+    "pharmacy": [
+      "dev-ar-05"
+    ],
+    "conversation": [
+      "dev-fr-09",
+      "dev-ar-09",
+      "dev-darija-09",
+      "dev-mixed-09",
+      "dev-fr-10",
+      "dev-ar-10",
+      "dev-darija-10",
+      "dev-mixed-10"
+    ]
+  },
+  "incorrect_automatic_selections": 0,
+  "measurement": "Real backend/catalogue with frozen development annotated extraction; not model accuracy.",
+  "live_provider_requests": 0,
+  "held_out_backend_cases_executed": 0,
+  "held_out_model_calls": 0,
+  "annotation_file_sha256": {
+    "development.json": "7b97e937306f3071ed3b338949b6f24dc8113777b0378fb1f5a011daeffe69d0",
+    "held_out.json": "98bececa5cf6786c37e1f73b5497f1dcaca4217c688cb756d92806322805f3e9"
+  },
+  "annotations_unchanged": true,
+  "catalogue_unchanged_from_annotation_snapshot": true,
+  "backend_source_sha256": {
+    "chat.py": "cac9210215e2ce959b4434852d90f90f9db338ab55531f35b256bcad3130c759",
+    "chat_models.py": "09ce80d926a7229434b0ea509f58d4ebd73f92d0af10399e8168977f3aef0175",
+    "resolution.py": "19eabb30e41f082f965e4b975a3656b309364fb2c2983be71f308f8ad807f92a",
+    "medication_normalization.py": "66fa48d4d16bc3bd4d455e5664da9e2ec10bba5891fec138e2a24649cc6aba78",
+    "catalog.py": "4b728bce1d4e37b9558539104ea789ce11fec52c9ff6b43c5b85e098f4cf50e5",
+    "pharmacy_directory.py": "71871d421b9fbc3850e91482910d1266d969a345aa6ca6302b5a800c7930a123",
+    "answer_templates.py": "d7b933ec8ca9f14aac17bdab6cbcb825cb84562f6d71f69e2c863e61a3d429da"
+  },
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 147,
+    "failed": 0,
+    "new_matching_tests": 14,
+    "duration_seconds": 81.315,
+    "log": "reports/step3_offline_tests.log"
+  },
+  "evidence": [
+    "reports/development_backend_step3_verified.json",
+    "reports/improvement_step3_offline_flows.json",
+    "docs/improvement-step-3-matching.md"
+  ],
+  "env_modified": false,
+  "inference_prompt_modified": false,
+  "sources_scraped": false,
+  "services_started_or_stopped": false,
+  "limitations": [
+    "Live extraction remains pending after the earlier four timeout attempts.",
+    "Free-text conversation context is not implemented.",
+    "Quantity totals and pharmacy matching failures remain for later steps.",
+    "Development examples are synthetic and assistant reviewed; no independent review or general accuracy claim."
+  ],
+  "next_step": "Stop for user validation; conversation context follows only after continuation."
+}

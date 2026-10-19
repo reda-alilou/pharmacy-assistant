@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 274,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=274",
+  "fetched_at_utc": "2026-10-18T16:26:36.033027+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5845",
+      "brand_name": "MENOPUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "PP",
+        "Substance active": "MENOTROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "1.183.00 DH",
+        "PH": "909,00 DH",
+        "PFHT": "865,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 UI  /  75 UI",
+        "Forme": "POUDRE + SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "6916",
+      "brand_name": "MENOPUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE AMPOULE DE 1 ML DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "MENOTROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "268,00 DH",
+        "PH": "178,60 DH",
+        "PFHT": "170,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7459",
+      "brand_name": "MENOPUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "MENOTROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "1.491.00 DH",
+        "PH": "1.227.00 DH",
+        "PFHT": "1.168.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "600 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7460",
+      "brand_name": "MENOPUR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "MENOTROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "2.783.00 DH",
+        "PH": "2.454.00 DH",
+        "PFHT": "2.337.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1200 UI",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9348",
+      "brand_name": "MENQUADFI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON UNI-DOSE  DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW CONJUGE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MARBIO",
+        "PPV": "605,00 DH",
+        "PH": "402,00 DH",
+        "PFHT": "382,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8611",
+      "brand_name": "MENVEO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UNE DOSE (DEUX FLACONS)",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW139, OLIGOSIDE // CORYNEBACTERIUM DIPHTERIAE PROTEINE CRM-197 )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "UNE DOSE (0,5   ML DE VACCIN RECONSTITUE)",
+        "Forme": "POUDRE ET SOLUTION POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8612",
+      "brand_name": "MEPACYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 14 ML",
+        "PP / GN": "PP",
+        "Substance active": "DEXAMETHASONE (ACETATE)",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,10 G",
+        "Forme": "SOLUTION POUR USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "8613",
+      "brand_name": "MEPHINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "MORPHINE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN AMPOULE"
+      }
+    },
+    {
+      "source_record_id": "4945",
+      "brand_name": "MEPRA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "657,00 DH",
+        "PH": "435,00 DH",
+        "PFHT": "389,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4946",
+      "brand_name": "MEPRA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "365,00 DH",
+        "PH": "242,00 DH",
+        "PFHT": "216,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1464",
+      "brand_name": "MEPRAMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "BROMOPRIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "16,90 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0024",
+        "Forme": "GOUTTE BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1465",
+      "brand_name": "MEPRAMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "BROMOPRIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "33,50 DH",
+        "PH": "21,00 DH",
+        "PFHT": "19,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1466",
+      "brand_name": "MEPRAMIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "BROMOPRIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "26,30 DH",
+        "PH": "16,50 DH",
+        "PFHT": "15,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3238",
+      "brand_name": "MERCILON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "DESOGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "54,20 DH",
+        "PH": "33,90 DH",
+        "PFHT": "32,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,02   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6435",
+      "brand_name": "MERCRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 1L",
+        "PP / GN": "GN",
+        "Substance active": "BENZALKONIUM (CHLORURE) // CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "36,10 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION MOUSSANTE NF"
+      }
+    },
+    {
+      "source_record_id": "6436",
+      "brand_name": "MERCRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 300ML",
+        "PP / GN": "GN",
+        "Substance active": "BENZALKONIUM (CHLORURE) // CHLORHEXIDINE (DIGLUCONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "19,80 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION MOUSSANTE NF"
+      }
+    },
+    {
+      "source_record_id": "6989",
+      "brand_name": "MERILYS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "DESOGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "37,90 DH",
+        "PH": "23,70 DH",
+        "PFHT": "22,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,02   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9930",
+      "brand_name": "MEROPENEM COOPER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME TRIHYDRATE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3705",
+      "brand_name": "MEROPENEME HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "106,20 DH",
+        "PH": "66,40 DH",
+        "PFHT": "63,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3706",
+      "brand_name": "MEROPENEME HOSPIRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "MEROPENEME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "614,00 DH",
+        "PH": "408,00 DH",
+        "PFHT": "389,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE OU POUR PERFUSION"
+      }
+    }
+  ]
+}

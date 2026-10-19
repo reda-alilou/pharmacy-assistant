@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 433,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=433",
+  "fetched_at_utc": "2026-10-18T16:31:54.805026+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "440",
+      "brand_name": "THERMO-RHEUMON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 40 G",
+        "PP / GN": "PP",
+        "Substance active": "ETOFENAMATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "46,50 DH",
+        "PH": "29,00 DH",
+        "PFHT": "25,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "6531",
+      "brand_name": "THIAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "30,80 DH",
+        "PH": "19,30 DH",
+        "PFHT": "18,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "6532",
+      "brand_name": "THIAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 24",
+        "PP / GN": "GN",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6533",
+      "brand_name": "THIAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "24,30 DH",
+        "PH": "15,20 DH",
+        "PFHT": "14,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4755",
+      "brand_name": "THIAZILIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "INDAPAMIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "44,00 DH",
+        "PH": "27,50 DH",
+        "PFHT": "26,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5456",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "43,80 DH",
+        "PH": "27,40 DH",
+        "PFHT": "26,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "5457",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "31,30 DH",
+        "PH": "19,50 DH",
+        "PFHT": "17,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5458",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "73,80 DH",
+        "PH": "46,00 DH",
+        "PFHT": "41,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5459",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "86,40 DH",
+        "PH": "54,00 DH",
+        "PFHT": "51,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5460",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8 AMPOULES DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "207,00 DH",
+        "PH": "129,80 DH",
+        "PFHT": "123,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "LYOPHILISAT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5461",
+      "brand_name": "THIOBACTIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE AMPOULE DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "THIAMPHENICOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "31,40 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "LYOPHILISAT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4209",
+      "brand_name": "THIOPENTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 50 FL",
+        "PP / GN": "GN",
+        "Substance active": "THIOPENTAL SODIQUE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PHARMA 5",
+        "PPV": "1.179.00 DH",
+        "PH": "905,00 DH",
+        "PFHT": "862,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9627",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "390,00 DH",
+        "PH": "259,00 DH",
+        "PFHT": "247,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MCG (40 MCG / ML )",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.5 ML"
+      }
+    },
+    {
+      "source_record_id": "9628",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.140.00 DH",
+        "PH": "865,00 DH",
+        "PFHT": "824,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MCG (40 MCG / ML )",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.5 ML"
+      }
+    },
+    {
+      "source_record_id": "9629",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "586,00 DH",
+        "PH": "389,00 DH",
+        "PFHT": "370,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 MCG (100 MCG / ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.3 ML"
+      }
+    },
+    {
+      "source_record_id": "9630",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.561.00 DH",
+        "PH": "1.298.00 DH",
+        "PFHT": "1.236.32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 MCG (100 MCG / ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.3 ML"
+      }
+    },
+    {
+      "source_record_id": "9631",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "781,00 DH",
+        "PH": "519,00 DH",
+        "PFHT": "494,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MCG (100 MCG / ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.4 ML"
+      }
+    },
+    {
+      "source_record_id": "9632",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.981.00 DH",
+        "PH": "1.730.00 DH",
+        "PFHT": "1.648.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40 MCG (100 MCG/ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.4 ML"
+      }
+    },
+    {
+      "source_record_id": "9633",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "930,00 DH",
+        "PH": "649,00 DH",
+        "PFHT": "618,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 MCG (100 MCG / ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.5 ML"
+      }
+    },
+    {
+      "source_record_id": "9634",
+      "brand_name": "THROPTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "BS",
+        "Substance active": "DARBEPOEITINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "2.501.00 DH",
+        "PH": "2.163.00 DH",
+        "PFHT": "2.060.56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 MCG (100 MCG/ML)",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE DE 0.5 ML"
+      }
+    }
+  ]
+}

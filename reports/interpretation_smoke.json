@@ -1,0 +1,591 @@
+{
+  "generated_at_utc": "2026-10-18T16:00:33.955766+00:00",
+  "mode": "live",
+  "model": "qwen/qwen3.8-27b",
+  "prompt_version": "step2-v1",
+  "fixture": "data\\evaluation\\interpretation_smoke.json",
+  "status": "passed",
+  "acceptance": "12 completed cases, at least 10 correct intent sets and 10 exact entity cases, no incorrect non-null entities",
+  "results": [
+    {
+      "id": "fr-price",
+      "group": "fr",
+      "text": "Quel est le prix de ABIP 15 mg, boîte de 20 ?",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15 mg",
+                "quantity": null,
+                "form": null,
+                "presentation": "boîte de 20"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1843.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-39626e36-10fb-4b46-ab63-591d18ef1d82",
+          "usage": {
+            "prompt_tokens": 708,
+            "completion_tokens": 105,
+            "total_tokens": 813
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "fr-order",
+      "group": "fr",
+      "text": "Je voudrais deux boîtes de AIRCORT et une boîte de ABIP.",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": "deux boîtes",
+                "form": null,
+                "presentation": null
+              },
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": "une boîte",
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 532.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-85b27f23-c02e-4235-9eef-3e9a1467c948",
+          "usage": {
+            "prompt_tokens": 706,
+            "completion_tokens": 131,
+            "total_tokens": 837
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "fr-contact",
+      "group": "fr",
+      "text": "Quel est le numéro de téléphone de la pharmacie Centrale à Rabat ?",
+      "response": {
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "pharmacy_contact"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": "pharmacie Centrale",
+            "city": "Rabat",
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1625.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-b6c2f61d-b02a-49eb-b6a1-3cfbc0529f17",
+          "usage": {
+            "prompt_tokens": 705,
+            "completion_tokens": 77,
+            "total_tokens": 782
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "ar-availability",
+      "group": "ar",
+      "text": "هل ABIP 15mg متوفر؟",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "availability"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 500.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-a07a1551-ba51-42c6-b7af-d618cb6f5fa1",
+          "usage": {
+            "prompt_tokens": 699,
+            "completion_tokens": 100,
+            "total_tokens": 799
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "ar-location",
+      "group": "ar",
+      "text": "أين توجد صيدلية في الرباط؟",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "pharmacy_search"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": "الرباط",
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 438.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-b8b9152c-545f-49f0-8d47-856267b31c77",
+          "usage": {
+            "prompt_tokens": 699,
+            "completion_tokens": 75,
+            "total_tokens": 774
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "ar-hours",
+      "group": "ar",
+      "text": "ما هي أوقات عمل صيدلية النور غدا؟",
+      "response": {
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "opening_hours"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": "صيدلية النور",
+            "city": null,
+            "area": null,
+            "date": "غدا",
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 718.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-75736dcb-132a-4e24-9465-81d1427ef943",
+          "usage": {
+            "prompt_tokens": 702,
+            "completion_tokens": 77,
+            "total_tokens": 779
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "darija-price",
+      "group": "darija",
+      "text": "Bch7al ABIP 15mg?",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 500.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-a9553a1b-f833-4846-9d3d-884cf08009d8",
+          "usage": {
+            "prompt_tokens": 700,
+            "completion_tokens": 101,
+            "total_tokens": 801
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "darija-order",
+      "group": "darija",
+      "text": "بغيت جوج علب ديال AIRCORT.",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "medication_request"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": "جوج علب",
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 515.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-5055c7da-9659-4411-be3f-f4a73152d8f5",
+          "usage": {
+            "prompt_tokens": 702,
+            "completion_tokens": 105,
+            "total_tokens": 807
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "darija-duty",
+      "group": "darija",
+      "text": "شنو الصيدلية ديال الحراسة اليوم فكازا؟",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "pharmacy_on_duty"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": "كازا",
+            "area": null,
+            "date": "اليوم",
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 375.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-e6d6eded-6337-4d62-aa79-336aa7fcbe0b",
+          "usage": {
+            "prompt_tokens": 702,
+            "completion_tokens": 81,
+            "total_tokens": 783
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "mixed-multiple-intents",
+      "group": "mixed",
+      "text": "Wach ABIP 15 mg disponible et à quel prix ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "availability",
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15 mg",
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 500.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-487196f7-ba64-435a-8872-706ab8c9b4ed",
+          "usage": {
+            "prompt_tokens": 703,
+            "completion_tokens": 102,
+            "total_tokens": 805
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "mixed-clinical",
+      "group": "mixed",
+      "text": "3andi sda3, quel traitement dois-je prendre ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "unsupported"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": "sda3"
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 485.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-29b97119-fe70-4155-9d78-c8e728207dee",
+          "usage": {
+            "prompt_tokens": 702,
+            "completion_tokens": 72,
+            "total_tokens": 774
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    },
+    {
+      "id": "mixed-incomplete",
+      "group": "mixed",
+      "text": "Bch7al, s'il vous plaît ?",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1594.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-83c76146-a89b-44b3-9b79-3cf3c0ff908a",
+          "usage": {
+            "prompt_tokens": 699,
+            "completion_tokens": 69,
+            "total_tokens": 768
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "intents_correct": true,
+      "missing_entities": [],
+      "incorrect_nonnull_entities": [],
+      "entities_exact": true
+    }
+  ],
+  "summary": {
+    "total_cases": 12,
+    "completed_cases": 12,
+    "intents_correct": 12,
+    "entities_exact_cases": 12,
+    "incorrect_nonnull_entities": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-19T18:58:54.208769+00:00",
+  "source": "saydalia.ma",
+  "city": "Rabat",
+  "records": 327,
+  "unique_ids": 327,
+  "missing_phone": 0,
+  "invalid_phone_format": 0,
+  "missing_address": 11,
+  "possible_duplicate_id_groups": [],
+  "verified_duty_records": 0,
+  "verified_opening_hours": 0,
+  "stock_available": false,
+  "scope": "systematic_city_map_grid",
+  "complete_city_directory": false,
+  "undated_duty_observations": 327,
+  "passed": true
+}

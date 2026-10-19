@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 273,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=273",
+  "fetched_at_utc": "2026-10-18T16:26:34.009660+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4942",
+      "brand_name": "MELOXAM PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "26,00 DH",
+        "PH": "16,20 DH",
+        "PFHT": "15,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4943",
+      "brand_name": "MELOXAM PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "33,80 DH",
+        "PH": "21,10 DH",
+        "PFHT": "20,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4944",
+      "brand_name": "MELOXAM PROMOPHARM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PROMOPHARM",
+        "PPV": "19,20 DH",
+        "PH": "12,00 DH",
+        "PFHT": "11,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "297",
+      "brand_name": "MELOXICAM GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ATLAS PHARM",
+        "PPV": "72,60 DH",
+        "PH": "45,40 DH",
+        "PFHT": "43,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "298",
+      "brand_name": "MELOXICAM GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "ATLAS PHARM",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6768",
+      "brand_name": "MELOXICAM GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "115,90 DH",
+        "PH": "72,20 DH",
+        "PFHT": "64,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6769",
+      "brand_name": "MELOXICAM GT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MELOXICAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "72,10 DH",
+        "PH": "44,90 DH",
+        "PFHT": "40,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9091",
+      "brand_name": "MELP SPAL  50",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE IYOPHILISEE ET 1 FLACON DU SOLVANT (10 ML )",
+        "PP / GN": "GN",
+        "Substance active": "MELPHALAN (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   10  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE //  POUR PERFUSION (IV) // FLACON DE POUDRE IYOPHILISEE ET FLACON DE SOLVANT DE 10ML"
+      }
+    },
+    {
+      "source_record_id": "9165",
+      "brand_name": "MELPHEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1 FLACON DE POUDRE ET 1 FLACON DE 10 ML DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "MELPHALAN (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "POUDRE IYOPHILISEE EN FLACON ET SOLVANT EN FLACON DE 10 ML POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7319",
+      "brand_name": "MEMANTINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "126,30 DH",
+        "PH": "79,00 DH",
+        "PFHT": "75,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7320",
+      "brand_name": "MEMANTINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "198,50 DH",
+        "PH": "124,10 DH",
+        "PFHT": "118,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8610",
+      "brand_name": "MEMANTINE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9104",
+      "brand_name": "MEMANTINE ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "74,70 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9105",
+      "brand_name": "MEMANTINE ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "133,30 DH",
+        "PH": "83,30 DH",
+        "PFHT": "79,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9106",
+      "brand_name": "MEMANTINE ISIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "MEMANTINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "234,00 DH",
+        "PH": "146,70 DH",
+        "PFHT": "139,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5164",
+      "brand_name": "MENACTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON D'UNE DOSE DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS, POLYSACCHARIDIQUE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "576,00 DH",
+        "PH": "383,00 DH",
+        "PFHT": "365,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 µG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5165",
+      "brand_name": "MENACTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 FLACONS D'UNE DOSE DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS, POLYSACCHARIDIQUE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.789.00 DH",
+        "PH": "1.533.00 DH",
+        "PFHT": "1.460.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 µG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1885",
+      "brand_name": "MENCEVAX AC",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON MONODOSE",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS AC )",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "180,00 DH",
+        "PH": "112,10 DH",
+        "PFHT": "100,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE LYOPHILISEE"
+      }
+    },
+    {
+      "source_record_id": "1886",
+      "brand_name": "MENCEVAX ACWY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON MONODOSE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW135 )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "164,80 DH",
+        "PH": "103,00 DH",
+        "PFHT": "98,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE LYOPHILISEE"
+      }
+    },
+    {
+      "source_record_id": "3704",
+      "brand_name": "MENCEVAX ACWY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 10 DOSES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW135 )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "PFIZER",
+        "PPV": "1.141.00 DH",
+        "PH": "866,00 DH",
+        "PFHT": "825,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE LYOPHILISEE"
+      }
+    }
+  ]
+}

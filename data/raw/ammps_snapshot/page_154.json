@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 154,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=154",
+  "fetched_at_utc": "2026-10-18T16:22:35.370180+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5282",
+      "brand_name": "ENTEROGERMINA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "SPORES DE BACILLUS CLAUSII MULTIRESISTANTS AUX ANTIBIOTIQUES",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "56,10 DH",
+        "PH": "35,00 DH",
+        "PFHT": "33,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 MILLIARDS DU 5  ML",
+        "Forme": "SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "7608",
+      "brand_name": "ENTEROGERMINA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "SPORES DE BACILLUS CLAUSII MULTIRESISTANTS AUX ANTIBIOTIQUES",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "93,40 DH",
+        "PH": "58,40 DH",
+        "PFHT": "55,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 MILLIARDS",
+        "Forme": "SUSPENSION ORALE"
+      }
+    },
+    {
+      "source_record_id": "8391",
+      "brand_name": "ENTEROGERMINA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "SPORES DE BACILLUS CLAUSII MULTIRESISTANTS AUX ANTIBIOTIQUES",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6 MILLIARDS  /  2   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "1414",
+      "brand_name": "ENZYCARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "120,00 DH",
+        "PH": "75,00 DH",
+        "PFHT": "71,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1415",
+      "brand_name": "ENZYCARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "50,00 DH",
+        "PH": "31,20 DH",
+        "PFHT": "29,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1416",
+      "brand_name": "ENZYCARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "60,00 DH",
+        "PH": "37,50 DH",
+        "PFHT": "35,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8392",
+      "brand_name": "EOSINE AQUEUSE 2% GILBERT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 FLACONS",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "3965",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 1 L",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "65,50 DH",
+        "PH": "41,00 DH",
+        "PFHT": "39,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3966",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 120 ML",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "13,60 DH",
+        "PH": "8,50 DH",
+        "PFHT": "8,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3967",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "5,70 DH",
+        "PH": "3,60 DH",
+        "PFHT": "3,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3968",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "8,90 DH",
+        "PH": "5,50 DH",
+        "PFHT": "5,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3969",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "11,30 DH",
+        "PH": "7,10 DH",
+        "PFHT": "6,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "8393",
+      "brand_name": "EOSINE PHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BIDON DE 5 LITRES",
+        "PP / GN": "GN",
+        "Substance active": "EOSINE (DISODIQUE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SOLUTION DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "7445",
+      "brand_name": "EPCLUSA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "SOFOSBUVIR // VELPATASVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "6.100.00 DH",
+        "PH": "5.868.00 DH",
+        "PFHT": "5.589.21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  100   MG",
+        "Forme": "COMPRIME PELICULLE"
+      }
+    },
+    {
+      "source_record_id": "2044",
+      "brand_name": "EPHEDRINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "EPHEDRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.03",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2045",
+      "brand_name": "EPHEDRINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 5 AMPOULES DE 1 ML",
+        "PP / GN": "NA",
+        "Substance active": "EPHEDRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "83,20 DH",
+        "PH": "52,00 DH",
+        "PFHT": "49,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7242",
+      "brand_name": "EPHEDRINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "EPHEDRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5737",
+      "brand_name": "EPHEDRINE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES",
+        "PP / GN": "GN",
+        "Substance active": "EPHEDRINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "110,30 DH",
+        "PH": "68,90 DH",
+        "PFHT": "65,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "1417",
+      "brand_name": "EPHEDRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // PSEUDOEPHEDRINE (CHLORHYDRATE) // TRIPROLIDINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "16,10 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1418",
+      "brand_name": "EPHEDRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // PSEUDOEPHEDRINE (CHLORHYDRATE) // TRIPROLIDINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "16,70 DH",
+        "PH": "10,40 DH",
+        "PFHT": "9,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

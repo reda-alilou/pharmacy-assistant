@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 197,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=197",
+  "fetched_at_utc": "2026-10-18T16:24:01.553301+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "131",
+      "brand_name": "GIROFLOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "133,60 DH",
+        "PH": "83,50 DH",
+        "PFHT": "79,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "283",
+      "brand_name": "GIROFLOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "72,40 DH",
+        "PH": "45,20 DH",
+        "PFHT": "43,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "284",
+      "brand_name": "GIROFLOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "285",
+      "brand_name": "GIROFLOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "119,60 DH",
+        "PH": "74,80 DH",
+        "PFHT": "71,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "919",
+      "brand_name": "GIVALEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CHLORHEXIDINE // SALICYLATE DE CHOLINE // CHLOROBUTANOL HEMIHYDRATE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "14,80 DH",
+        "PH": "9,20 DH",
+        "PFHT": "8,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1 G  /  0,5 G  /  0,250 G",
+        "Forme": "SOLUTION POUR LAVAGE BUCCAL"
+      }
+    },
+    {
+      "source_record_id": "8029",
+      "brand_name": "GLARITUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "5 CARTOUCHES MULTIDOSES DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "515,00 DH",
+        "PH": "342,00 DH",
+        "PFHT": "326,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN CARTOUCHE MULTIDOSE DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "8030",
+      "brand_name": "GLARITUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE 1",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "104,00 DH",
+        "PH": "65,00 DH",
+        "PFHT": "61,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN CARTOUCHE MULTIDOSE DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "8031",
+      "brand_name": "GLARITUS DISPOPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS PRE-REMPLIES CONTENANT CHACUN UNE CARTOUCHE DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "520,00 DH",
+        "PH": "346,00 DH",
+        "PFHT": "329,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UL  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI D’UNE CARTOUCHE MULTIDOSE DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "8032",
+      "brand_name": "GLARITUS DISPOPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN STYLO PRE-REMPLI D’UNE CARTOUCHE DE 3 ML",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE GLARGINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "106,70 DH",
+        "PH": "66,70 DH",
+        "PFHT": "63,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UL  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI D’UNE CARTOUCHE MULTIDOSE DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "9476",
+      "brand_name": "GLAUTRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "89,00 DH",
+        "PH": "55,60 DH",
+        "PFHT": "52,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  ML",
+        "Forme": "COLLYRE EN SOLUTION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "9477",
+      "brand_name": "GLAUTRA PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "101,40 DH",
+        "PH": "63,40 DH",
+        "PFHT": "60,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  ML + 5   MG  /  ML",
+        "Forme": "COLLYRE EN SOLUTION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "597",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "598",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "599",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "Boite de 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "103,20 DH",
+        "PH": "64,50 DH",
+        "PFHT": "61,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "600",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "60,00 DH",
+        "PH": "37,50 DH",
+        "PFHT": "35,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "601",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "Boite de 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "154,80 DH",
+        "PH": "96,70 DH",
+        "PFHT": "92,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "602",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "68,80 DH",
+        "PH": "43,00 DH",
+        "PFHT": "40,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "603",
+      "brand_name": "GLEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "Boite de 90",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "177,40 DH",
+        "PH": "110,90 DH",
+        "PFHT": "105,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2832",
+      "brand_name": "GLIMEPIRIDE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "26,90 DH",
+        "PH": "16,80 DH",
+        "PFHT": "16,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2833",
+      "brand_name": "GLIMEPIRIDE WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "52,60 DH",
+        "PH": "32,90 DH",
+        "PFHT": "31,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

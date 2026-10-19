@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 211,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=211",
+  "fetched_at_utc": "2026-10-18T16:24:29.651672+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1440",
+      "brand_name": "HEXAPNEUMINE ADULTE",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // EUCALYPTOL // PARACETAMOL // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "16,70 DH",
+        "PH": "10,40 DH",
+        "PFHT": "9,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,16 G  /  0,14 G  /  0,40 G  /  0,015 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1441",
+      "brand_name": "HEXAPNEUMINE ADULTE",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // CHLORPHENAMINE (MALEATE) // GUAIFENESINE // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "25,30 DH",
+        "PH": "15,80 DH",
+        "PFHT": "15,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "396   MG  /  26,60   MG  /  400   MG  /  266   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1439",
+      "brand_name": "HEXAPNEUMINE ENFANT",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // CHLORPHENAMINE (MALEATE) // GUAIFENESINE // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "21,50 DH",
+        "PH": "13,50 DH",
+        "PFHT": "12,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  20   MG  /  200   MG  /  100   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1442",
+      "brand_name": "HEXAPNEUMINE ENFANT",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // EUCALYPTOL // PARACETAMOL // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "15,10 DH",
+        "PH": "9,50 DH",
+        "PFHT": "9,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,08 G  /  0,07 G  /  0,20 G  /  0,005 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "8501",
+      "brand_name": "HEXAPNEUMINE NOURRISSONS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // CHLORPHENAMINE (MALEATE) // GUAIFENESINE // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "8502",
+      "brand_name": "HEXAPNEUMINE SUPPOSITOIRES NOURRISSONS",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL // EUCALYPTOL // PARACETAMOL // PHOLCODINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "1443",
+      "brand_name": "HEXASPRAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "BICLOTHYMOL",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "36,40 DH",
+        "PH": "22,70 DH",
+        "PFHT": "21,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COLLUTOIRE"
+      }
+    },
+    {
+      "source_record_id": "5309",
+      "brand_name": "HEXAXIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 0,5 ML AVEC 2 AIGUILLES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( DIPHTERIE // TETANOS // COQUELUCHE // POLYOMYELITE // HEPATITE B // HEAMOPHILUS INFLUENZAE TYPE B )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MARBIO",
+        "PPV": "411,00 DH",
+        "PH": "273,00 DH",
+        "PFHT": "260,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PREREMPLI"
+      }
+    },
+    {
+      "source_record_id": "1444",
+      "brand_name": "HEXIDYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "GN",
+        "Substance active": "HEXETIDINE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "11,90 DH",
+        "PH": "7,40 DH",
+        "PFHT": "7,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "BAIN DE BOUCHE"
+      }
+    },
+    {
+      "source_record_id": "6424",
+      "brand_name": "HEXOMEDINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 45 ML",
+        "PP / GN": "PP",
+        "Substance active": "HEXAMIDINE (DI-ISETHIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION POUR APPLICATION LOCALE"
+      }
+    },
+    {
+      "source_record_id": "6425",
+      "brand_name": "HEXOMEDINE TRANSCUTANEE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "HEXAMIDINE (DI-ISETHIONATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0015",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3674",
+      "brand_name": "HEXTRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "HEXETIDINE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "12,70 DH",
+        "PH": "8,00 DH",
+        "PFHT": "7,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "BAIN DE BOUCHE"
+      }
+    },
+    {
+      "source_record_id": "1872",
+      "brand_name": "HIBERIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET D'UNE SERINGUE PREREMPLIE",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN CONTRE MALADIE PROVOQUEE PAR HAEMOPHILUS INFLUENZAE TYPE B",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "173,40 DH",
+        "PH": "108,40 DH",
+        "PFHT": "103,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2171",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 SERINGUES PRE-REMPLIES DE 0,4 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "1.339.00 DH",
+        "PH": "1.070.00 DH",
+        "PFHT": "1.019.13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2172",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PRE-REMPLIES DE 0,4 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "364,00 DH",
+        "PH": "241,00 DH",
+        "PFHT": "230,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2173",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30 SERINGUES PRE-REMPLIES DE 0,4 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "2.775.00 DH",
+        "PH": "2.445.00 DH",
+        "PFHT": "2.328.62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2174",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES PRE-REMPLIES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "226,00 DH",
+        "PH": "141,30 DH",
+        "PFHT": "134,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2175",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2 SERINGUES PRE-REMPLIES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "53,30 DH",
+        "PH": "33,30 DH",
+        "PFHT": "31,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2176",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 SERINGUES PRE-REMPLIES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "624,00 DH",
+        "PH": "414,00 DH",
+        "PFHT": "395,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2177",
+      "brand_name": "HIBOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 SERINGUES PRE-REMPLIES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "BEMIPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "414,00 DH",
+        "PH": "275,00 DH",
+        "PFHT": "262,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3500 UI ANTI XA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

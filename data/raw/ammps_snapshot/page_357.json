@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 357,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=357",
+  "fetched_at_utc": "2026-10-18T16:29:22.426090+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4129",
+      "brand_name": "PROQUIET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "52,30 DH",
+        "PH": "32,70 DH",
+        "PFHT": "31,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2300",
+      "brand_name": "PROSPAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "LIERRE GRIMPANT",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "KOSMOPHARM",
+        "PPV": "48,80 DH",
+        "PH": "30,50 DH",
+        "PFHT": "29,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "2301",
+      "brand_name": "PROSPAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAIT DE LIERRE GRIMPANT",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "KOSMOPHARM",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7   MG",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6121",
+      "brand_name": "PROSTIGMINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "NEOSTIGMINE (METHYLSULFATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "38,30 DH",
+        "PH": "23,90 DH",
+        "PFHT": "22,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "488",
+      "brand_name": "PROTADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "BICALUTAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "962,00 DH",
+        "PH": "681,00 DH",
+        "PFHT": "649,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "489",
+      "brand_name": "PROTADEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "BICALUTAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "449,00 DH",
+        "PH": "299,00 DH",
+        "PFHT": "284,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5398",
+      "brand_name": "PROTAMINE CHOAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "PROTAMINE (SULFATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "155,30 DH",
+        "PH": "97,10 DH",
+        "PFHT": "92,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UIH",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6818",
+      "brand_name": "PROTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFEPIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "57,90 DH",
+        "PH": "36,20 DH",
+        "PFHT": "34,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G IM  /  IV",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6819",
+      "brand_name": "PROTEC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFEPIME",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "98,10 DH",
+        "PH": "61,30 DH",
+        "PFHT": "58,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G IM  /  IV",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "203",
+      "brand_name": "PROTON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "204",
+      "brand_name": "PROTON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "95,30 DH",
+        "PH": "59,60 DH",
+        "PFHT": "56,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "9752",
+      "brand_name": "PROTOPIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "TACROLIMUS (MONOHYDRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.001",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "9753",
+      "brand_name": "PROTOPIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "TACROLIMUS (MONOHYDRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0003",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "5524",
+      "brand_name": "PROTOS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "RANELATE DE STRONTIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "177,40 DH",
+        "PH": "110,50 DH",
+        "PFHT": "98,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "5525",
+      "brand_name": "PROTOS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "RANELATE DE STRONTIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "471,00 DH",
+        "PH": "312,00 DH",
+        "PFHT": "279,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "5526",
+      "brand_name": "PROTOS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "RANELATE DE STRONTIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "100,80 DH",
+        "PH": "62,80 DH",
+        "PFHT": "56,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "4742",
+      "brand_name": "PROVIRON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "MESTEROLONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "POLYMEDIC",
+        "PPV": "44,00 DH",
+        "PH": "27,50 DH",
+        "PFHT": "26,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5155",
+      "brand_name": "PROVIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PROPOFOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "393,00 DH",
+        "PH": "261,00 DH",
+        "PFHT": "249,22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1%",
+        "Forme": "EMULSION INJECTABLE (IV) SOUS FLACON 100 ML"
+      }
+    },
+    {
+      "source_record_id": "5156",
+      "brand_name": "PROVIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "PROPOFOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "159,60 DH",
+        "PH": "99,70 DH",
+        "PFHT": "95,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1%",
+        "Forme": "EMULSION INJECTABLE (IV) SOUS FLACON 20 ML"
+      }
+    },
+    {
+      "source_record_id": "5157",
+      "brand_name": "PROVIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PROPOFOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "209,00 DH",
+        "PH": "130,80 DH",
+        "PFHT": "124,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1%",
+        "Forme": "EMULSION INJECTABLE (IV) SOUS FLACON 50 ML"
+      }
+    }
+  ]
+}

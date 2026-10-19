@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 150,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=150",
+  "fetched_at_utc": "2026-10-18T16:22:27.358746+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "4664",
+      "brand_name": "ELEVIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 63",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "POLYMEDIC",
+        "PPV": "21,20 DH",
+        "PH": "13,30 DH",
+        "PFHT": "12,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  150 µG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7607",
+      "brand_name": "ELIPA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "KETOROLAC TROMETHAMINE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "36,20 DH",
+        "PH": "22,60 DH",
+        "PFHT": "21,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "3646",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "152,00 DH",
+        "PH": "95,00 DH",
+        "PFHT": "90,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3647",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 200",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "945,00 DH",
+        "PH": "663,00 DH",
+        "PFHT": "632,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3648",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "349,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3795",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "188,50 DH",
+        "PH": "117,80 DH",
+        "PFHT": "112,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3796",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "152,00 DH",
+        "PH": "95,00 DH",
+        "PFHT": "90,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3797",
+      "brand_name": "ELIQUIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "349,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9839",
+      "brand_name": "ELIXABAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 20",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9840",
+      "brand_name": "ELIXABAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 60",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9841",
+      "brand_name": "ELIXABAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 20",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9842",
+      "brand_name": "ELIXABAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 60",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "2800",
+      "brand_name": "ELLAONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "ULIPRISTAL (ACETATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "135,50 DH",
+        "PH": "84,70 DH",
+        "PFHT": "80,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "98",
+      "brand_name": "ELLEACNELLE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "CYPROTERONE (ACETATE) // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "AFRIC PHAR",
+        "PPV": "36,50 DH",
+        "PH": "22,70 DH",
+        "PFHT": "20,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,035   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3207",
+      "brand_name": "ELONVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PRE REMPLIE DE 0,5 ML ET 1 AIGUILLE",
+        "PP / GN": "PP",
+        "Substance active": "CORIFOLLITROPINE ALPHA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "4.936.00 DH",
+        "PH": "4.670.00 DH",
+        "PFHT": "4.447.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3208",
+      "brand_name": "ELONVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE PRE REMPLIE DE 0,5 ML ET 1 AIGUILLE",
+        "PP / GN": "PP",
+        "Substance active": "CORIFOLLITROPINE ALPHA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "5.504.00 DH",
+        "PH": "5.254.00 DH",
+        "PFHT": "5.004.35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 µG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5277",
+      "brand_name": "ELOXATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 36 ML A 50 MG COMPORTANT DE LYOPHYLISAT",
+        "PP / GN": "PP",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.203.00 DH",
+        "PH": "929,00 DH",
+        "PFHT": "885,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "5278",
+      "brand_name": "ELOXATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50ML A 100MG COMPORTANT DE LYOPHYLISAT",
+        "PP / GN": "PP",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.206.00 DH",
+        "PH": "1.859.00 DH",
+        "PFHT": "1.771.17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "5279",
+      "brand_name": "ELOXATINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN FLACON DE 10ML COMPORTANT 50 MG DE LYOPHILISAT",
+        "PP / GN": "PP",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.203.00 DH",
+        "PH": "1.022.10 DH",
+        "PFHT": "885,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5280",
+      "brand_name": "ELOXATINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML COMPORTANT 100 MG DE LYOPHILISAT",
+        "PP / GN": "PP",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.206.00 DH",
+        "PH": "2.006.56 DH",
+        "PFHT": "1.771.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 165,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=165",
+  "fetched_at_utc": "2026-10-18T16:22:57.441142+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "902",
+      "brand_name": "EUPHON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "PP",
+        "Substance active": "CODEINE // EXTRAIT D'ERYSIMUM OFFICINALE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "19,60 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1 G  /  0,3 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "385",
+      "brand_name": "EUPHYTOSE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "EXTRAITS D'AUBEPINE PASSIFLORE VALERIANE BALLOTE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "25,80 DH",
+        "PH": "16,10 DH",
+        "PFHT": "14,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "8419",
+      "brand_name": "EURAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "CROTAMITON",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "8420",
+      "brand_name": "EURAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TUBE DE 60 G",
+        "PP / GN": "PP",
+        "Substance active": "CROTAMITON",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "4902",
+      "brand_name": "EURONA",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "N-ACETYLCYSTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "8421",
+      "brand_name": "EUSAPRIM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "SULFAMETHOXAZOLE // TRIMETHOPRIME",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML  /  40   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1663",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "52,30 DH",
+        "PH": "32,70 DH",
+        "PFHT": "31,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 µG  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1664",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "408,00 DH",
+        "PH": "271,00 DH",
+        "PFHT": "258,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1665",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "109,30 DH",
+        "PH": "68,30 DH",
+        "PFHT": "65,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µG  /  1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1666",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "693,00 DH",
+        "PH": "460,00 DH",
+        "PFHT": "438,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG  /  10  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8422",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8423",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8424",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8425",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µg  /  5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8426",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8427",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µg  /  1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8428",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µg  /  0,5  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8429",
+      "brand_name": "EUVAX B",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GENPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µg  /  10  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3975",
+      "brand_name": "EUZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "76,70 DH",
+        "PH": "48,00 DH",
+        "PFHT": "45,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "3976",
+      "brand_name": "EUZOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "ESOMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "135,10 DH",
+        "PH": "84,40 DH",
+        "PFHT": "80,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRORESISTANTS EN GELULE"
+      }
+    }
+  ]
+}

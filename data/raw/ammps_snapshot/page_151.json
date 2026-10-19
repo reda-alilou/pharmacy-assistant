@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 151,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=151",
+  "fetched_at_utc": "2026-10-18T16:22:29.341763+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5281",
+      "brand_name": "ELOXATINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 40ML",
+        "PP / GN": "PP",
+        "Substance active": "OXALIPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.882.00 DH",
+        "PH": "2.555.00 DH",
+        "PFHT": "2.434.07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5735",
+      "brand_name": "ELOZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LETROZOLE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "712,00 DH",
+        "PH": "473,00 DH",
+        "PFHT": "451,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7720",
+      "brand_name": "ELPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "DASATINIB MONOHYDRATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "8.273.00 DH",
+        "PH": "8.105.00 DH",
+        "PFHT": "7.719.14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7721",
+      "brand_name": "ELPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "DASATINIB MONOHYDRATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "18.360.00 DH",
+        "PH": "18.008.00 DH",
+        "PFHT": "17.608.81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7722",
+      "brand_name": "ELPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "DASATINIB MONOHYDRATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "17.826.00 DH",
+        "PH": "17.485.00 DH",
+        "PFHT": "17.085.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7723",
+      "brand_name": "ELPEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "DASATINIB MONOHYDRATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "18.602.00 DH",
+        "PH": "18.245.00 DH",
+        "PFHT": "17.845.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1639",
+      "brand_name": "ELTAIR INHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "117,00 DH",
+        "PH": "73,10 DH",
+        "PFHT": "69,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "1640",
+      "brand_name": "ELTAIR INHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "234,00 DH",
+        "PH": "146,20 DH",
+        "PFHT": "139,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "2801",
+      "brand_name": "ELUDRIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 55 ML",
+        "PP / GN": "NA",
+        "Substance active": "CHLORHEXIDINE (DIGLUCONATE) // TETRACAINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "22,70 DH",
+        "PH": "14,10 DH",
+        "PFHT": "12,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05 G  /  0,015 G",
+        "Forme": "COLLUTOIRE"
+      }
+    },
+    {
+      "source_record_id": "2802",
+      "brand_name": "ELUDRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 90 ML",
+        "PP / GN": "GN",
+        "Substance active": "CHLORHEXIDINE // CHLOROBUTANOL",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "16,60 DH",
+        "PH": "10,40 DH",
+        "PFHT": "9,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5  ML  /  0,5 G",
+        "Forme": "SOLUTION POUR BAIN DE BOUCHE"
+      }
+    },
+    {
+      "source_record_id": "3649",
+      "brand_name": "ELVORINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFOLINATE DE CALCIUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "182,20 DH",
+        "PH": "113,90 DH",
+        "PFHT": "108,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3650",
+      "brand_name": "ELVORINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFOLINATE DE CALCIUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "175   MG  /  17,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3651",
+      "brand_name": "ELVORINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFOLINATE DE CALCIUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /  2,5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3652",
+      "brand_name": "ELVORINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "LEVOFOLINATE DE CALCIUM",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "93,40 DH",
+        "PH": "58,40 DH",
+        "PFHT": "55,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7779",
+      "brand_name": "ELYCHOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "CHLORMADINONE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,03   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "1266",
+      "brand_name": "EM 142",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "83,20 DH",
+        "PH": "52,00 DH",
+        "PFHT": "49,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "142 MMOLES  /  LITRE",
+        "Forme": "SOLUTE CONCENTRE ACETATE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "1267",
+      "brand_name": "EM 39",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (BICARBONATE DE SODIUM)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "73,60 DH",
+        "PH": "46,00 DH",
+        "PFHT": "43,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE CONCENTRE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "1268",
+      "brand_name": "EM 59",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // BICARBONATE DE SODIUM)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "113,60 DH",
+        "PH": "71,00 DH",
+        "PFHT": "67,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "59 MMOLES  /  LITRES",
+        "Forme": "SOLUTE CONCENTRE BICARBONATE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "1269",
+      "brand_name": "EM 59",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // BICARBONATE DE SODIUM)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "73,60 DH",
+        "PH": "46,00 DH",
+        "PFHT": "43,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "59 MMOLES  /  LITRES",
+        "Forme": "SOLUTE CONCENTRE BICARBONATE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "1270",
+      "brand_name": "EM 80 D2",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CONCENTRE HEMODIALYSE (CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "80,00 DH",
+        "PH": "50,00 DH",
+        "PFHT": "47,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE CONCENTRE ACIDE DEXTROSE D2 POUR HEMODIALYSE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 448,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=448",
+  "fetched_at_utc": "2026-10-18T16:32:24.904896+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8924",
+      "brand_name": "TROBALT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "PP",
+        "Substance active": "RETIGABINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8925",
+      "brand_name": "TROBALT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 168",
+        "PP / GN": "PP",
+        "Substance active": "RETIGABINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8926",
+      "brand_name": "TROBALT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "RETIGABINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8927",
+      "brand_name": "TROBALT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 84",
+        "PP / GN": "PP",
+        "Substance active": "RETIGABINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6007",
+      "brand_name": "TRONID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "16,80 DH",
+        "PH": "10,50 DH",
+        "PFHT": "10,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6008",
+      "brand_name": "TRONID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "29,00 DH",
+        "PH": "18,10 DH",
+        "PFHT": "17,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6535",
+      "brand_name": "TROPHIRES ADULTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "HUILLE ESSENTIELLE D'EUCALYPTUS // TENOATE DE SODIUM",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "12,10 DH",
+        "PH": "7,60 DH",
+        "PFHT": "7,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6536",
+      "brand_name": "TROPHIRES ADULTES",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHOLCODINE // TENOATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "16,00 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,133 G  /  1 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "6537",
+      "brand_name": "TROPHIRES COMPOSE ADULTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TENOATE DE SODIUM // HUILE ESSENTIEL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "12,80 DH",
+        "PH": "8,00 DH",
+        "PFHT": "7,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,45 G  /  0,2 G  /  0,11 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6538",
+      "brand_name": "TROPHIRES COMPOSE ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // TENOATE DE SODIUM // HUILE ESSENTIEL",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "9,70 DH",
+        "PH": "6,10 DH",
+        "PFHT": "5,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3 G  /  0,130 G  /  0,075 G",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6539",
+      "brand_name": "TROPHIRES ENFANTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "PP",
+        "Substance active": "HUILLE ESSENTIELLE D'EUCALYPTUS // TENOATE DE SODIUM",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "9,60 DH",
+        "PH": "6,00 DH",
+        "PFHT": "5,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6540",
+      "brand_name": "TROPHIRES ENFANTS",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "GN",
+        "Substance active": "PHOLCODINE // TENOATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "15,10 DH",
+        "PH": "9,40 DH",
+        "PFHT": "8,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,06 G  /  1 G",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "7089",
+      "brand_name": "TRULICITY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "DULAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "900,00 DH",
+        "PH": "617,00 DH",
+        "PFHT": "588,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,75   MG",
+        "Forme": "SOLUTION INJECTABLE (S.C) EN STYLO PRE-REMPLI (0,5 ML DE SOLUTION)"
+      }
+    },
+    {
+      "source_record_id": "7090",
+      "brand_name": "TRULICITY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "DULAGLUTIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "900,00 DH",
+        "PH": "617,00 DH",
+        "PFHT": "588,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5   MG",
+        "Forme": "SOLUTION INJECTABLE (S.C) EN STYLO PRE-REMPLI (0,5 ML DE SOLUTION)"
+      }
+    },
+    {
+      "source_record_id": "6009",
+      "brand_name": "TRUSOPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "97,60 DH",
+        "PH": "61,00 DH",
+        "PFHT": "58,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "2291",
+      "brand_name": "TUBERCULIN PPD RT 23 AJV 2 UT / 0,1 ML",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 15 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "TUBERCULINE PURIFIEE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MARBIO",
+        "PPV": "266,00 DH",
+        "PH": "166,30 DH",
+        "PFHT": "158,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "230",
+      "brand_name": "TUNELUZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "66,70 DH",
+        "PH": "41,70 DH",
+        "PFHT": "39,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "231",
+      "brand_name": "TUNELUZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "133,90 DH",
+        "PH": "83,70 DH",
+        "PFHT": "79,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "232",
+      "brand_name": "TUNELUZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "176,70 DH",
+        "PH": "110,40 DH",
+        "PFHT": "105,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "233",
+      "brand_name": "TUNELUZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "341,00 DH",
+        "PH": "226,00 DH",
+        "PFHT": "216,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

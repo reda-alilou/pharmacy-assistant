@@ -1,0 +1,3923 @@
+{
+  "generated_at_utc": "2026-10-19T18:51:33.435793+00:00",
+  "staging_only": true,
+  "inference_requests": 0,
+  "medications": {
+    "medicament": {
+      "manifest": {
+        "source": "medicament",
+        "scope": "full_discovered_catalogue",
+        "started_at_utc": "2026-10-19T18:19:51.437670+00:00",
+        "collection_complete": false,
+        "discovery_complete": true,
+        "staging_only": true,
+        "delay_seconds": 2,
+        "stop_reason": "user_agreed_cutoff",
+        "retained_previous_records": 340,
+        "sitemap_count": 6,
+        "sitemap_medication_urls": 10999,
+        "listing_letters": {
+          "A": {
+            "advertised_records": 579,
+            "pages": 29,
+            "unique_urls": 579
+          },
+          "B": {
+            "advertised_records": 189,
+            "pages": 10,
+            "unique_urls": 189
+          },
+          "C": {
+            "advertised_records": 506,
+            "pages": 26,
+            "unique_urls": 506
+          },
+          "D": {
+            "advertised_records": 304,
+            "pages": 16,
+            "unique_urls": 304
+          },
+          "E": {
+            "advertised_records": 224,
+            "pages": 12,
+            "unique_urls": 222
+          },
+          "F": {
+            "advertised_records": 169,
+            "pages": 9,
+            "unique_urls": 169
+          },
+          "G": {
+            "advertised_records": 175,
+            "pages": 9,
+            "unique_urls": 175
+          },
+          "H": {
+            "advertised_records": 110,
+            "pages": 6,
+            "unique_urls": 110
+          },
+          "I": {
+            "advertised_records": 213,
+            "pages": 11,
+            "unique_urls": 213
+          },
+          "J": {
+            "advertised_records": 26,
+            "pages": 2,
+            "unique_urls": 26
+          },
+          "K": {
+            "advertised_records": 64,
+            "pages": 4,
+            "unique_urls": 64
+          },
+          "L": {
+            "advertised_records": 202,
+            "pages": 11,
+            "unique_urls": 201
+          },
+          "M": {
+            "advertised_records": 292,
+            "pages": 15,
+            "unique_urls": 292
+          },
+          "N": {
+            "advertised_records": 260,
+            "pages": 13,
+            "unique_urls": 260
+          },
+          "O": {
+            "advertised_records": 188,
+            "pages": 10,
+            "unique_urls": 187
+          },
+          "P": {
+            "advertised_records": 240,
+            "pages": 12,
+            "unique_urls": 240
+          },
+          "Q": {
+            "advertised_records": 18,
+            "pages": 1,
+            "unique_urls": 18
+          },
+          "R": {
+            "advertised_records": 197,
+            "pages": 10,
+            "unique_urls": 196
+          },
+          "S": {
+            "advertised_records": 329,
+            "pages": 17,
+            "unique_urls": 328
+          },
+          "T": {
+            "advertised_records": 260,
+            "pages": 13,
+            "unique_urls": 260
+          },
+          "U": {
+            "advertised_records": 63,
+            "pages": 4,
+            "unique_urls": 63
+          },
+          "V": {
+            "advertised_records": 209,
+            "pages": 11,
+            "unique_urls": 209
+          },
+          "W": {
+            "advertised_records": 5,
+            "pages": 1,
+            "unique_urls": 5
+          },
+          "X": {
+            "advertised_records": 72,
+            "pages": 4,
+            "unique_urls": 72
+          },
+          "Y": {
+            "advertised_records": 10,
+            "pages": 1,
+            "unique_urls": 10
+          },
+          "Z": {
+            "advertised_records": 138,
+            "pages": 7,
+            "unique_urls": 138
+          }
+        },
+        "listing_warnings": [
+          {
+            "letter": "E",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 224,
+            "unique_urls": 222,
+            "duplicates": {
+              "https://medicament.ma/medicament/erector-100-mg-comprime-enrobe-4/": 2,
+              "https://medicament.ma/medicament/erector-100-mg-comprime-enrobe-5/": 2
+            }
+          },
+          {
+            "letter": "L",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 202,
+            "unique_urls": 201,
+            "duplicates": {
+              "https://medicament.ma/medicament/levamox-1-g-125-mg-comprime-effervescent-2/": 2
+            }
+          },
+          {
+            "letter": "O",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 188,
+            "unique_urls": 187,
+            "duplicates": {
+              "https://medicament.ma/medicament/omiz-10-mg-gelules-3/": 2
+            }
+          },
+          {
+            "letter": "R",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 197,
+            "unique_urls": 196,
+            "duplicates": {
+              "https://medicament.ma/medicament/ranpirole-025-mg-comprime/": 2
+            }
+          },
+          {
+            "letter": "S",
+            "reason": "Repeated URLs across different listing pages",
+            "advertised_records": 329,
+            "unique_urls": 328,
+            "duplicates": {
+              "https://medicament.ma/medicament/saphir-1g-sachet/": 2
+            }
+          },
+          {
+            "reason": "Duplicate discovery URLs retained once, original listings cached",
+            "listing_slots": 5042,
+            "unique_urls": 5036
+          }
+        ],
+        "updated_at_utc": "2026-10-19T18:44:05.011347+00:00",
+        "network_requests_this_run": 627,
+        "units_completed": 988,
+        "record_count": 988,
+        "errors": [],
+        "quality": {
+          "records": 988,
+          "unique_ids": 988,
+          "unique_source_urls": 988,
+          "missing_fields": {
+            "dosage": 146,
+            "form": 3,
+            "presentation": 1,
+            "active_substance": 24,
+            "ppv_price_mad": 94,
+            "atc_code": 128,
+            "reimbursement_raw": 298
+          },
+          "non_full_atc_observations": 31,
+          "invalid_atc_observations": 7
+        },
+        "discovered_units": 5036,
+        "discovered_medication_urls": 5036,
+        "advertised_counts_reconciled": false,
+        "cutoff_accepted": true,
+        "frozen_at_utc": "2026-10-19T18:48:50.044711+00:00"
+      },
+      "quality": {
+        "records": 988,
+        "unique_ids": 988,
+        "unique_source_urls": 988,
+        "missing_fields": {
+          "dosage": 146,
+          "form": 3,
+          "presentation": 1,
+          "active_substance": 24,
+          "ppv_price_mad": 94,
+          "atc_code": 128,
+          "reimbursement_raw": 298
+        },
+        "non_full_atc_observations": 31,
+        "invalid_atc_observations": 7
+      },
+      "cache_integrity": {
+        "cached_responses": 1259,
+        "sha256_errors": [],
+        "earliest_fetch_utc": "2026-10-19T17:40:44.819707+00:00",
+        "latest_fetch_utc": "2026-10-19T18:44:20.973669+00:00"
+      },
+      "provenance_errors": [],
+      "records_sha256": "4ae6bfebedd1a17c263ab02478dafe5a75a0acd7342cef23eb5862d3b0a68ea5"
+    },
+    "saydalia": {
+      "manifest": {
+        "source": "saydalia",
+        "scope": "full_discovered_catalogue",
+        "started_at_utc": "2026-10-19T18:19:51.485954+00:00",
+        "collection_complete": true,
+        "discovery_complete": true,
+        "staging_only": true,
+        "delay_seconds": 2,
+        "stop_reason": "finished",
+        "retained_previous_records": 3120,
+        "discovered_units": 442,
+        "discovered_listing_pages": 442,
+        "updated_at_utc": "2026-10-19T18:42:39.022259+00:00",
+        "network_requests_this_run": 165,
+        "units_completed": 442,
+        "record_count": 5299,
+        "errors": [],
+        "quality": {
+          "records": 5299,
+          "unique_ids": 5299,
+          "unique_source_urls": 5299,
+          "missing_fields": {
+            "dosage": 688,
+            "form": 21,
+            "presentation": 4,
+            "active_substance": 103,
+            "ppv_price_mad": 402,
+            "atc_code": 535,
+            "reimbursement_raw": 1817
+          },
+          "non_full_atc_observations": 180,
+          "invalid_atc_observations": 36
+        },
+        "cutoff_accepted": true,
+        "frozen_at_utc": "2026-10-19T18:51:09.883950+00:00"
+      },
+      "quality": {
+        "records": 5299,
+        "unique_ids": 5299,
+        "unique_source_urls": 5299,
+        "missing_fields": {
+          "dosage": 688,
+          "form": 21,
+          "presentation": 4,
+          "active_substance": 103,
+          "ppv_price_mad": 402,
+          "atc_code": 535,
+          "reimbursement_raw": 1817
+        },
+        "non_full_atc_observations": 180,
+        "invalid_atc_observations": 36
+      },
+      "cache_integrity": {
+        "cached_responses": 442,
+        "sha256_errors": [],
+        "earliest_fetch_utc": "2026-10-19T17:40:26.568623+00:00",
+        "latest_fetch_utc": "2026-10-19T18:42:38.892212+00:00"
+      },
+      "provenance_errors": [],
+      "records_sha256": "1ce9177be9482886e3c406b04653f100821ad30d93b0a1d21371dc17b975c763"
+    }
+  },
+  "pharmacies": {
+    "manifest": {
+      "source": "saydalia.ma",
+      "city": "Rabat",
+      "scope": "systematic_city_map_grid",
+      "collector_version": "grid-refine-v2",
+      "base_grid_points": 143,
+      "configuration": {
+        "city": "Rabat",
+        "bounds": [
+          33.91,
+          34.06,
+          -6.94,
+          -6.77
+        ],
+        "grid_step_degrees": 0.015,
+        "requested_limit": 35,
+        "observed_result_cap": 40,
+        "scope_note": "Search rectangle around Rabat, not an administrative boundary; keep only source-labelled Rabat records. No authoritative city total is available."
+      },
+      "config_sha256": "f592723283fb362a74cf2b4a9b187acb74547e73f577f238ec2e8c814f97255f",
+      "search_points_planned": 149,
+      "point_results": [
+        {
+          "index": 0,
+          "cache_name": "point_0000",
+          "origin": [
+            33.91,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6344,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:45.489771+00:00"
+        },
+        {
+          "index": 1,
+          "cache_name": "point_0001",
+          "origin": [
+            33.91,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.1695,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:46.889285+00:00"
+        },
+        {
+          "index": 2,
+          "cache_name": "point_0002",
+          "origin": [
+            33.91,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.3761,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:48.918084+00:00"
+        },
+        {
+          "index": 3,
+          "cache_name": "point_0003",
+          "origin": [
+            33.91,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.96,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:50.941575+00:00"
+        },
+        {
+          "index": 4,
+          "cache_name": "point_0004",
+          "origin": [
+            33.91,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.995,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:52.879380+00:00"
+        },
+        {
+          "index": 5,
+          "cache_name": "point_0005",
+          "origin": [
+            33.91,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 5,
+          "other_city_records": 35,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.9686,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:54.848259+00:00"
+        },
+        {
+          "index": 6,
+          "cache_name": "point_0006",
+          "origin": [
+            33.91,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 18,
+          "other_city_records": 22,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.7937,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:57.050594+00:00"
+        },
+        {
+          "index": 7,
+          "cache_name": "point_0007",
+          "origin": [
+            33.91,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 27,
+          "other_city_records": 13,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.5848,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:42:59.018524+00:00"
+        },
+        {
+          "index": 8,
+          "cache_name": "point_0008",
+          "origin": [
+            33.91,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 34,
+          "other_city_records": 6,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.5638,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:00.978746+00:00"
+        },
+        {
+          "index": 9,
+          "cache_name": "point_0009",
+          "origin": [
+            33.91,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.4766,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:03.371211+00:00"
+        },
+        {
+          "index": 10,
+          "cache_name": "point_0010",
+          "origin": [
+            33.91,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 8.2678,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:05.344498+00:00"
+        },
+        {
+          "index": 11,
+          "cache_name": "point_0011",
+          "origin": [
+            33.91,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 8.9523,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:07.315403+00:00"
+        },
+        {
+          "index": 12,
+          "cache_name": "point_0012",
+          "origin": [
+            33.91,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 9.1311,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:09.695019+00:00"
+        },
+        {
+          "index": 13,
+          "cache_name": "point_0013",
+          "origin": [
+            33.925,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2737,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:11.227612+00:00"
+        },
+        {
+          "index": 14,
+          "cache_name": "point_0014",
+          "origin": [
+            33.925,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.0683,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:12.959482+00:00"
+        },
+        {
+          "index": 15,
+          "cache_name": "point_0015",
+          "origin": [
+            33.925,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.0507,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:14.852871+00:00"
+        },
+        {
+          "index": 16,
+          "cache_name": "point_0016",
+          "origin": [
+            33.925,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.4124,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:16.976538+00:00"
+        },
+        {
+          "index": 17,
+          "cache_name": "point_0017",
+          "origin": [
+            33.925,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 6,
+          "other_city_records": 34,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.1879,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:18.944616+00:00"
+        },
+        {
+          "index": 18,
+          "cache_name": "point_0018",
+          "origin": [
+            33.925,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 15,
+          "other_city_records": 25,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.1903,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:20.897665+00:00"
+        },
+        {
+          "index": 19,
+          "cache_name": "point_0019",
+          "origin": [
+            33.925,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 31,
+          "other_city_records": 9,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.8393,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:23.006565+00:00"
+        },
+        {
+          "index": 20,
+          "cache_name": "point_0020",
+          "origin": [
+            33.925,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.7026,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:25.564889+00:00"
+        },
+        {
+          "index": 21,
+          "cache_name": "point_0021",
+          "origin": [
+            33.925,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.4557,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:27.206559+00:00"
+        },
+        {
+          "index": 22,
+          "cache_name": "point_0022",
+          "origin": [
+            33.925,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.1765,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:29.148730+00:00"
+        },
+        {
+          "index": 23,
+          "cache_name": "point_0023",
+          "origin": [
+            33.925,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.9662,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:31.800723+00:00"
+        },
+        {
+          "index": 24,
+          "cache_name": "point_0024",
+          "origin": [
+            33.925,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.6924,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:33.028852+00:00"
+        },
+        {
+          "index": 25,
+          "cache_name": "point_0025",
+          "origin": [
+            33.925,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.841,
+          "grid_cell_radius_km": 1.0837,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:34.973924+00:00"
+        },
+        {
+          "index": 26,
+          "cache_name": "point_0026",
+          "origin": [
+            33.94,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.4468,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:36.935525+00:00"
+        },
+        {
+          "index": 27,
+          "cache_name": "point_0027",
+          "origin": [
+            33.94,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.9951,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:39.231006+00:00"
+        },
+        {
+          "index": 28,
+          "cache_name": "point_0028",
+          "origin": [
+            33.94,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8693,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:41.328421+00:00"
+        },
+        {
+          "index": 29,
+          "cache_name": "point_0029",
+          "origin": [
+            33.94,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 8,
+          "other_city_records": 32,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.0199,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:43.169103+00:00"
+        },
+        {
+          "index": 30,
+          "cache_name": "point_0030",
+          "origin": [
+            33.94,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 21,
+          "other_city_records": 19,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.1402,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:45.004081+00:00"
+        },
+        {
+          "index": 31,
+          "cache_name": "point_0031",
+          "origin": [
+            33.94,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.5318,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:47.014204+00:00"
+        },
+        {
+          "index": 32,
+          "cache_name": "point_0032",
+          "origin": [
+            33.94,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.0307,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:49.198430+00:00"
+        },
+        {
+          "index": 33,
+          "cache_name": "point_0033",
+          "origin": [
+            33.94,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.5249,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:51.077267+00:00"
+        },
+        {
+          "index": 34,
+          "cache_name": "point_0034",
+          "origin": [
+            33.94,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.0924,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:53.099511+00:00"
+        },
+        {
+          "index": 35,
+          "cache_name": "point_0035",
+          "origin": [
+            33.94,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.0264,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:55.256170+00:00"
+        },
+        {
+          "index": 36,
+          "cache_name": "point_0036",
+          "origin": [
+            33.94,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.6174,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:57.189276+00:00"
+        },
+        {
+          "index": 37,
+          "cache_name": "point_0037",
+          "origin": [
+            33.94,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.3976,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:43:58.874073+00:00"
+        },
+        {
+          "index": 38,
+          "cache_name": "point_0038",
+          "origin": [
+            33.94,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.574,
+          "grid_cell_radius_km": 1.0836,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:01.187086+00:00"
+        },
+        {
+          "index": 39,
+          "cache_name": "point_0039",
+          "origin": [
+            33.955,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 2,
+          "other_city_records": 38,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.6548,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:03.227560+00:00"
+        },
+        {
+          "index": 40,
+          "cache_name": "point_0040",
+          "origin": [
+            33.955,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 6,
+          "other_city_records": 34,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.9924,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:05.479260+00:00"
+        },
+        {
+          "index": 41,
+          "cache_name": "point_0041",
+          "origin": [
+            33.955,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.8134,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:07.322570+00:00"
+        },
+        {
+          "index": 42,
+          "cache_name": "point_0042",
+          "origin": [
+            33.955,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 31,
+          "other_city_records": 9,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.1795,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:09.078656+00:00"
+        },
+        {
+          "index": 43,
+          "cache_name": "point_0043",
+          "origin": [
+            33.955,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.9521,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:11.008782+00:00"
+        },
+        {
+          "index": 44,
+          "cache_name": "point_0044",
+          "origin": [
+            33.955,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6229,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:13.889669+00:00"
+        },
+        {
+          "index": 45,
+          "cache_name": "point_0045",
+          "origin": [
+            33.955,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8448,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:15.835561+00:00"
+        },
+        {
+          "index": 46,
+          "cache_name": "point_0046",
+          "origin": [
+            33.955,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.2955,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:17.916069+00:00"
+        },
+        {
+          "index": 47,
+          "cache_name": "point_0047",
+          "origin": [
+            33.955,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.1348,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:19.936579+00:00"
+        },
+        {
+          "index": 48,
+          "cache_name": "point_0048",
+          "origin": [
+            33.955,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.6512,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:21.863892+00:00"
+        },
+        {
+          "index": 49,
+          "cache_name": "point_0049",
+          "origin": [
+            33.955,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.3947,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:23.453894+00:00"
+        },
+        {
+          "index": 50,
+          "cache_name": "point_0050",
+          "origin": [
+            33.955,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.243,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:25.505198+00:00"
+        },
+        {
+          "index": 51,
+          "cache_name": "point_0051",
+          "origin": [
+            33.955,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 25,
+          "other_city_records": 15,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.4024,
+          "grid_cell_radius_km": 1.0835,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:27.446094+00:00"
+        },
+        {
+          "index": 52,
+          "cache_name": "point_0052",
+          "origin": [
+            33.97,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.7214,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:29.462807+00:00"
+        },
+        {
+          "index": 53,
+          "cache_name": "point_0053",
+          "origin": [
+            33.97,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 30,
+          "other_city_records": 10,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.9477,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:31.587822+00:00"
+        },
+        {
+          "index": 54,
+          "cache_name": "point_0054",
+          "origin": [
+            33.97,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.053,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:33.437750+00:00"
+        },
+        {
+          "index": 55,
+          "cache_name": "point_0055",
+          "origin": [
+            33.97,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.853,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:35.293149+00:00"
+        },
+        {
+          "index": 56,
+          "cache_name": "point_0056",
+          "origin": [
+            33.97,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.5235,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:37.125974+00:00"
+        },
+        {
+          "index": 57,
+          "cache_name": "point_0057",
+          "origin": [
+            33.97,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.4881,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:39.264317+00:00"
+        },
+        {
+          "index": 58,
+          "cache_name": "point_0058",
+          "origin": [
+            33.97,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8286,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:41.037563+00:00"
+        },
+        {
+          "index": 59,
+          "cache_name": "point_0059",
+          "origin": [
+            33.97,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8685,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:42.959629+00:00"
+        },
+        {
+          "index": 60,
+          "cache_name": "point_0060",
+          "origin": [
+            33.97,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.1755,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:44.956447+00:00"
+        },
+        {
+          "index": 61,
+          "cache_name": "point_0061",
+          "origin": [
+            33.97,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.7552,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:46.952954+00:00"
+        },
+        {
+          "index": 62,
+          "cache_name": "point_0062",
+          "origin": [
+            33.97,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.7608,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:49.259170+00:00"
+        },
+        {
+          "index": 63,
+          "cache_name": "point_0063",
+          "origin": [
+            33.97,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 21,
+          "other_city_records": 19,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.384,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:51.152555+00:00"
+        },
+        {
+          "index": 64,
+          "cache_name": "point_0064",
+          "origin": [
+            33.97,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 12,
+          "other_city_records": 28,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.5106,
+          "grid_cell_radius_km": 1.0834,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:52.907007+00:00"
+        },
+        {
+          "index": 65,
+          "cache_name": "point_0065",
+          "origin": [
+            33.985,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 33,
+          "other_city_records": 7,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.3782,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:55.314184+00:00"
+        },
+        {
+          "index": 66,
+          "cache_name": "point_0066",
+          "origin": [
+            33.985,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.2231,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:57.091007+00:00"
+        },
+        {
+          "index": 67,
+          "cache_name": "point_0067",
+          "origin": [
+            33.985,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.8413,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:44:59.137951+00:00"
+        },
+        {
+          "index": 68,
+          "cache_name": "point_0068",
+          "origin": [
+            33.985,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8423,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:00.956077+00:00"
+        },
+        {
+          "index": 69,
+          "cache_name": "point_0069",
+          "origin": [
+            33.985,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.5295,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:03.195217+00:00"
+        },
+        {
+          "index": 70,
+          "cache_name": "point_0070",
+          "origin": [
+            33.985,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6454,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00"
+        },
+        {
+          "index": 71,
+          "cache_name": "point_0071",
+          "origin": [
+            33.985,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6419,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:07.038617+00:00"
+        },
+        {
+          "index": 72,
+          "cache_name": "point_0072",
+          "origin": [
+            33.985,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6658,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:09.184090+00:00"
+        },
+        {
+          "index": 73,
+          "cache_name": "point_0073",
+          "origin": [
+            33.985,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2897,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:11.709633+00:00"
+        },
+        {
+          "index": 74,
+          "cache_name": "point_0074",
+          "origin": [
+            33.985,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.0735,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:12.969612+00:00"
+        },
+        {
+          "index": 75,
+          "cache_name": "point_0075",
+          "origin": [
+            33.985,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.2203,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:15.620469+00:00"
+        },
+        {
+          "index": 76,
+          "cache_name": "point_0076",
+          "origin": [
+            33.985,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 11,
+          "other_city_records": 29,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.7057,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:17.037417+00:00"
+        },
+        {
+          "index": 77,
+          "cache_name": "point_0077",
+          "origin": [
+            33.985,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.6556,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:19.110136+00:00"
+        },
+        {
+          "index": 78,
+          "cache_name": "point_0078",
+          "origin": [
+            34.0,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.8962,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:21.134753+00:00"
+        },
+        {
+          "index": 79,
+          "cache_name": "point_0079",
+          "origin": [
+            34.0,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.6029,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:22.930276+00:00"
+        },
+        {
+          "index": 80,
+          "cache_name": "point_0080",
+          "origin": [
+            34.0,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.5373,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:25.374527+00:00"
+        },
+        {
+          "index": 81,
+          "cache_name": "point_0081",
+          "origin": [
+            34.0,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.486,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:27.436914+00:00"
+        },
+        {
+          "index": 82,
+          "cache_name": "point_0082",
+          "origin": [
+            34.0,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8649,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:29.353924+00:00"
+        },
+        {
+          "index": 83,
+          "cache_name": "point_0083",
+          "origin": [
+            34.0,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.3603,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00"
+        },
+        {
+          "index": 84,
+          "cache_name": "point_0084",
+          "origin": [
+            34.0,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2748,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00"
+        },
+        {
+          "index": 85,
+          "cache_name": "point_0085",
+          "origin": [
+            34.0,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.5218,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:36.031683+00:00"
+        },
+        {
+          "index": 86,
+          "cache_name": "point_0086",
+          "origin": [
+            34.0,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 36,
+          "other_city_records": 4,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.9278,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:38.463107+00:00"
+        },
+        {
+          "index": 87,
+          "cache_name": "point_0087",
+          "origin": [
+            34.0,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.4974,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:39.982619+00:00"
+        },
+        {
+          "index": 88,
+          "cache_name": "point_0088",
+          "origin": [
+            34.0,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 22,
+          "other_city_records": 18,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.1324,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:41.844213+00:00"
+        },
+        {
+          "index": 89,
+          "cache_name": "point_0089",
+          "origin": [
+            34.0,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.0352,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:43.711350+00:00"
+        },
+        {
+          "index": 90,
+          "cache_name": "point_0090",
+          "origin": [
+            34.0,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.8044,
+          "grid_cell_radius_km": 1.0833,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:46.056592+00:00"
+        },
+        {
+          "index": 91,
+          "cache_name": "point_0091",
+          "origin": [
+            34.015,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.5377,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:48.032068+00:00"
+        },
+        {
+          "index": 92,
+          "cache_name": "point_0092",
+          "origin": [
+            34.015,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.4858,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:50.114615+00:00"
+        },
+        {
+          "index": 93,
+          "cache_name": "point_0093",
+          "origin": [
+            34.015,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.4914,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:51.894919+00:00"
+        },
+        {
+          "index": 94,
+          "cache_name": "point_0094",
+          "origin": [
+            34.015,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.5712,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:54.040940+00:00"
+        },
+        {
+          "index": 95,
+          "cache_name": "point_0095",
+          "origin": [
+            34.015,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.7064,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:55.673856+00:00"
+        },
+        {
+          "index": 96,
+          "cache_name": "point_0096",
+          "origin": [
+            34.015,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.7836,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:57.714775+00:00"
+        },
+        {
+          "index": 97,
+          "cache_name": "point_0097",
+          "origin": [
+            34.015,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2187,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00"
+        },
+        {
+          "index": 98,
+          "cache_name": "point_0098",
+          "origin": [
+            34.015,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.0682,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": true,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:01.597758+00:00"
+        },
+        {
+          "index": 99,
+          "cache_name": "point_0099",
+          "origin": [
+            34.015,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.7378,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:03.874747+00:00"
+        },
+        {
+          "index": 100,
+          "cache_name": "point_0100",
+          "origin": [
+            34.015,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 8,
+          "other_city_records": 32,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.094,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:06.736403+00:00"
+        },
+        {
+          "index": 101,
+          "cache_name": "point_0101",
+          "origin": [
+            34.015,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.2385,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:08.015829+00:00"
+        },
+        {
+          "index": 102,
+          "cache_name": "point_0102",
+          "origin": [
+            34.015,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.7224,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:10.291954+00:00"
+        },
+        {
+          "index": 103,
+          "cache_name": "point_0103",
+          "origin": [
+            34.015,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.5681,
+          "grid_cell_radius_km": 1.0832,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:12.035489+00:00"
+        },
+        {
+          "index": 104,
+          "cache_name": "point_0104",
+          "origin": [
+            34.03,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.5834,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:13.710567+00:00"
+        },
+        {
+          "index": 105,
+          "cache_name": "point_0105",
+          "origin": [
+            34.03,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.529,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:15.795916+00:00"
+        },
+        {
+          "index": 106,
+          "cache_name": "point_0106",
+          "origin": [
+            34.03,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.5663,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:17.834861+00:00"
+        },
+        {
+          "index": 107,
+          "cache_name": "point_0107",
+          "origin": [
+            34.03,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.5597,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:19.673025+00:00"
+        },
+        {
+          "index": 108,
+          "cache_name": "point_0108",
+          "origin": [
+            34.03,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.5462,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:21.944925+00:00"
+        },
+        {
+          "index": 109,
+          "cache_name": "point_0109",
+          "origin": [
+            34.03,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.7055,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:23.931165+00:00"
+        },
+        {
+          "index": 110,
+          "cache_name": "point_0110",
+          "origin": [
+            34.03,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.9525,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:25.867929+00:00"
+        },
+        {
+          "index": 111,
+          "cache_name": "point_0111",
+          "origin": [
+            34.03,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 29,
+          "other_city_records": 11,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.4909,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:28.104170+00:00"
+        },
+        {
+          "index": 112,
+          "cache_name": "point_0112",
+          "origin": [
+            34.03,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 10,
+          "other_city_records": 30,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.4416,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:30.545814+00:00"
+        },
+        {
+          "index": 113,
+          "cache_name": "point_0113",
+          "origin": [
+            34.03,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 0.8008,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:32.054669+00:00"
+        },
+        {
+          "index": 114,
+          "cache_name": "point_0114",
+          "origin": [
+            34.03,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2988,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:34.118935+00:00"
+        },
+        {
+          "index": 115,
+          "cache_name": "point_0115",
+          "origin": [
+            34.03,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2418,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:35.759157+00:00"
+        },
+        {
+          "index": 116,
+          "cache_name": "point_0116",
+          "origin": [
+            34.03,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.0547,
+          "grid_cell_radius_km": 1.0831,
+          "dense_cell_needs_refinement": true,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:37.864726+00:00"
+        },
+        {
+          "index": 117,
+          "cache_name": "point_0117",
+          "origin": [
+            34.045,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 8.5703,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:39.521643+00:00"
+        },
+        {
+          "index": 118,
+          "cache_name": "point_0118",
+          "origin": [
+            34.045,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.5803,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:41.673331+00:00"
+        },
+        {
+          "index": 119,
+          "cache_name": "point_0119",
+          "origin": [
+            34.045,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.6033,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:43.516086+00:00"
+        },
+        {
+          "index": 120,
+          "cache_name": "point_0120",
+          "origin": [
+            34.045,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 37,
+          "other_city_records": 3,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.5589,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:45.394537+00:00"
+        },
+        {
+          "index": 121,
+          "cache_name": "point_0121",
+          "origin": [
+            34.045,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.6907,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:47.388970+00:00"
+        },
+        {
+          "index": 122,
+          "cache_name": "point_0122",
+          "origin": [
+            34.045,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 32,
+          "other_city_records": 8,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.7838,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:49.424824+00:00"
+        },
+        {
+          "index": 123,
+          "cache_name": "point_0123",
+          "origin": [
+            34.045,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 20,
+          "other_city_records": 20,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.8451,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:51.536285+00:00"
+        },
+        {
+          "index": 124,
+          "cache_name": "point_0124",
+          "origin": [
+            34.045,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.1726,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:53.831270+00:00"
+        },
+        {
+          "index": 125,
+          "cache_name": "point_0125",
+          "origin": [
+            34.045,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.1527,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:56.233758+00:00"
+        },
+        {
+          "index": 126,
+          "cache_name": "point_0126",
+          "origin": [
+            34.045,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.1048,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:57.599300+00:00"
+        },
+        {
+          "index": 127,
+          "cache_name": "point_0127",
+          "origin": [
+            34.045,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.0959,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:46:59.740501+00:00"
+        },
+        {
+          "index": 128,
+          "cache_name": "point_0128",
+          "origin": [
+            34.045,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.3147,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:01.613807+00:00"
+        },
+        {
+          "index": 129,
+          "cache_name": "point_0129",
+          "origin": [
+            34.045,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.6041,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:03.621098+00:00"
+        },
+        {
+          "index": 130,
+          "cache_name": "point_0130",
+          "origin": [
+            34.06,
+            -6.94
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 9.6545,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:05.387180+00:00"
+        },
+        {
+          "index": 131,
+          "cache_name": "point_0131",
+          "origin": [
+            34.06,
+            -6.925
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 8.6406,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:07.378626+00:00"
+        },
+        {
+          "index": 132,
+          "cache_name": "point_0132",
+          "origin": [
+            34.06,
+            -6.91
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 7.6523,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:09.823819+00:00"
+        },
+        {
+          "index": 133,
+          "cache_name": "point_0133",
+          "origin": [
+            34.06,
+            -6.895
+          ],
+          "raw_count": 40,
+          "city_records": 34,
+          "other_city_records": 6,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 6.6813,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:11.556174+00:00"
+        },
+        {
+          "index": 134,
+          "cache_name": "point_0134",
+          "origin": [
+            34.06,
+            -6.88
+          ],
+          "raw_count": 40,
+          "city_records": 26,
+          "other_city_records": 14,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 5.7265,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:13.714013+00:00"
+        },
+        {
+          "index": 135,
+          "cache_name": "point_0135",
+          "origin": [
+            34.06,
+            -6.865
+          ],
+          "raw_count": 40,
+          "city_records": 13,
+          "other_city_records": 27,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 4.7431,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:16.144997+00:00"
+        },
+        {
+          "index": 136,
+          "cache_name": "point_0136",
+          "origin": [
+            34.06,
+            -6.85
+          ],
+          "raw_count": 40,
+          "city_records": 4,
+          "other_city_records": 36,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 3.7951,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:17.798587+00:00"
+        },
+        {
+          "index": 137,
+          "cache_name": "point_0137",
+          "origin": [
+            34.06,
+            -6.835
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 2.7873,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:19.754895+00:00"
+        },
+        {
+          "index": 138,
+          "cache_name": "point_0138",
+          "origin": [
+            34.06,
+            -6.82
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.8861,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:21.936587+00:00"
+        },
+        {
+          "index": 139,
+          "cache_name": "point_0139",
+          "origin": [
+            34.06,
+            -6.805
+          ],
+          "raw_count": 40,
+          "city_records": 0,
+          "other_city_records": 40,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.3069,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:23.474640+00:00"
+        },
+        {
+          "index": 140,
+          "cache_name": "point_0140",
+          "origin": [
+            34.06,
+            -6.79
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.1135,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:25.566394+00:00"
+        },
+        {
+          "index": 141,
+          "cache_name": "point_0141",
+          "origin": [
+            34.06,
+            -6.775
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.2856,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:27.414660+00:00"
+        },
+        {
+          "index": 142,
+          "cache_name": "point_0142",
+          "origin": [
+            34.06,
+            -6.77
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 0,
+          "outer_result_radius_km": 1.5377,
+          "grid_cell_radius_km": 1.083,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T17:47:29.376815+00:00"
+        },
+        {
+          "index": 143,
+          "cache_name": "refine_0000",
+          "origin": [
+            34.01125,
+            -6.83875
+          ],
+          "raw_count": 40,
+          "city_records": 38,
+          "other_city_records": 2,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 1.1645,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:01:51.497972+00:00"
+        },
+        {
+          "index": 144,
+          "cache_name": "refine_0001",
+          "origin": [
+            34.01125,
+            -6.83125
+          ],
+          "raw_count": 40,
+          "city_records": 40,
+          "other_city_records": 0,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 1.4109,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:01:53.250275+00:00"
+        },
+        {
+          "index": 145,
+          "cache_name": "refine_0002",
+          "origin": [
+            34.01875,
+            -6.83875
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 0.8864,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:01:55.262584+00:00"
+        },
+        {
+          "index": 146,
+          "cache_name": "refine_0003",
+          "origin": [
+            34.01875,
+            -6.83125
+          ],
+          "raw_count": 40,
+          "city_records": 39,
+          "other_city_records": 1,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 0.9916,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:01:57.107426+00:00"
+        },
+        {
+          "index": 147,
+          "cache_name": "refine_0004",
+          "origin": [
+            34.02625,
+            -6.77375
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 0.9897,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:01:59.103269+00:00"
+        },
+        {
+          "index": 148,
+          "cache_name": "refine_0005",
+          "origin": [
+            34.03375,
+            -6.77375
+          ],
+          "raw_count": 40,
+          "city_records": 1,
+          "other_city_records": 39,
+          "new_ids": 0,
+          "possibly_truncated": true,
+          "refinement_depth": 1,
+          "outer_result_radius_km": 1.2464,
+          "grid_cell_radius_km": 0.5416,
+          "dense_cell_needs_refinement": false,
+          "distance_order_observed": true,
+          "fetched_at_utc": "2026-10-19T18:02:01.090670+00:00"
+        }
+      ],
+      "errors": [],
+      "record_conflicts": [],
+      "collection_complete": true,
+      "complete_city_directory": false,
+      "staging_only": true,
+      "coverage_limitation": "A completed grid is not proof of complete city coverage. The source supplies no authoritative total or pagination.",
+      "stop_reason": "finished",
+      "updated_at_utc": "2026-10-19T18:20:01.161483+00:00",
+      "refinement_points_planned": 6,
+      "search_points_completed": 149,
+      "network_requests_this_run": 0,
+      "possibly_truncated_points": 149,
+      "unresolved_dense_points": 0,
+      "quality": {
+        "records": 327,
+        "unique_ids": 327,
+        "missing_phone": 0,
+        "invalid_phone_format": 0,
+        "missing_address": 11,
+        "possible_duplicate_id_groups": [],
+        "verified_duty_records": 0,
+        "verified_opening_hours": 0,
+        "stock_available": false
+      },
+      "record_count": 327
+    },
+    "quality": {
+      "records": 327,
+      "unique_ids": 327,
+      "missing_phone": 0,
+      "invalid_phone_format": 0,
+      "missing_address": 11,
+      "possible_duplicate_id_groups": [],
+      "verified_duty_records": 0,
+      "verified_opening_hours": 0,
+      "stock_available": false
+    },
+    "cache_integrity": {
+      "cached_responses": 163,
+      "sha256_errors": [],
+      "earliest_fetch_utc": "2026-10-19T17:42:42.866500+00:00",
+      "latest_fetch_utc": "2026-10-19T18:02:01.090670+00:00"
+    },
+    "baseline_records": 115,
+    "added_ids": [
+      "saydalia:10012",
+      "saydalia:1094",
+      "saydalia:1350",
+      "saydalia:1493",
+      "saydalia:1880",
+      "saydalia:1901",
+      "saydalia:2088",
+      "saydalia:2199",
+      "saydalia:2243",
+      "saydalia:2359",
+      "saydalia:242",
+      "saydalia:2668",
+      "saydalia:2870",
+      "saydalia:2970",
+      "saydalia:2993",
+      "saydalia:3015",
+      "saydalia:3142",
+      "saydalia:3245",
+      "saydalia:3263",
+      "saydalia:3267",
+      "saydalia:3271",
+      "saydalia:3285",
+      "saydalia:3288",
+      "saydalia:3289",
+      "saydalia:3297",
+      "saydalia:3301",
+      "saydalia:3303",
+      "saydalia:3335",
+      "saydalia:3349",
+      "saydalia:3371",
+      "saydalia:3385",
+      "saydalia:3411",
+      "saydalia:3418",
+      "saydalia:3419",
+      "saydalia:3420",
+      "saydalia:3440",
+      "saydalia:3472",
+      "saydalia:3475",
+      "saydalia:3490",
+      "saydalia:3501",
+      "saydalia:3526",
+      "saydalia:3557",
+      "saydalia:3581",
+      "saydalia:3583",
+      "saydalia:3588",
+      "saydalia:3612",
+      "saydalia:3639",
+      "saydalia:3640",
+      "saydalia:3647",
+      "saydalia:3661",
+      "saydalia:3663",
+      "saydalia:3671",
+      "saydalia:3673",
+      "saydalia:3715",
+      "saydalia:3717",
+      "saydalia:3740",
+      "saydalia:3754",
+      "saydalia:3782",
+      "saydalia:3827",
+      "saydalia:3862",
+      "saydalia:3910",
+      "saydalia:3927",
+      "saydalia:3956",
+      "saydalia:3963",
+      "saydalia:3996",
+      "saydalia:3997",
+      "saydalia:4038",
+      "saydalia:4060",
+      "saydalia:4080",
+      "saydalia:4100",
+      "saydalia:4129",
+      "saydalia:4142",
+      "saydalia:4150",
+      "saydalia:4158",
+      "saydalia:4173",
+      "saydalia:4204",
+      "saydalia:4239",
+      "saydalia:4273",
+      "saydalia:4286",
+      "saydalia:4311",
+      "saydalia:4324",
+      "saydalia:4371",
+      "saydalia:4409",
+      "saydalia:4427",
+      "saydalia:4435",
+      "saydalia:4536",
+      "saydalia:4565",
+      "saydalia:4569",
+      "saydalia:4579",
+      "saydalia:4582",
+      "saydalia:4604",
+      "saydalia:4605",
+      "saydalia:4630",
+      "saydalia:4649",
+      "saydalia:4653",
+      "saydalia:4664",
+      "saydalia:4677",
+      "saydalia:4689",
+      "saydalia:4707",
+      "saydalia:4746",
+      "saydalia:4747",
+      "saydalia:4748",
+      "saydalia:4798",
+      "saydalia:4801",
+      "saydalia:4813",
+      "saydalia:4820",
+      "saydalia:4842",
+      "saydalia:4856",
+      "saydalia:4862",
+      "saydalia:4876",
+      "saydalia:4877",
+      "saydalia:4896",
+      "saydalia:4922",
+      "saydalia:4925",
+      "saydalia:4944",
+      "saydalia:4956",
+      "saydalia:4957",
+      "saydalia:4974",
+      "saydalia:5063",
+      "saydalia:5069",
+      "saydalia:5070",
+      "saydalia:5107",
+      "saydalia:5110",
+      "saydalia:5111",
+      "saydalia:5167",
+      "saydalia:5187",
+      "saydalia:5229",
+      "saydalia:5234",
+      "saydalia:5247",
+      "saydalia:5268",
+      "saydalia:5301",
+      "saydalia:5339",
+      "saydalia:5373",
+      "saydalia:5386",
+      "saydalia:5407",
+      "saydalia:5408",
+      "saydalia:543",
+      "saydalia:5447",
+      "saydalia:5479",
+      "saydalia:5531",
+      "saydalia:5546",
+      "saydalia:5553",
+      "saydalia:5622",
+      "saydalia:5653",
+      "saydalia:5663",
+      "saydalia:5689",
+      "saydalia:5697",
+      "saydalia:5704",
+      "saydalia:5729",
+      "saydalia:5734",
+      "saydalia:5789",
+      "saydalia:579",
+      "saydalia:5802",
+      "saydalia:5826",
+      "saydalia:5859",
+      "saydalia:5912",
+      "saydalia:5949",
+      "saydalia:5959",
+      "saydalia:5996",
+      "saydalia:6086",
+      "saydalia:610",
+      "saydalia:6108",
+      "saydalia:6132",
+      "saydalia:6429",
+      "saydalia:6479",
+      "saydalia:650",
+      "saydalia:6547",
+      "saydalia:6578",
+      "saydalia:6579",
+      "saydalia:6606",
+      "saydalia:6888",
+      "saydalia:7006",
+      "saydalia:7023",
+      "saydalia:7044",
+      "saydalia:7067",
+      "saydalia:7167",
+      "saydalia:7268",
+      "saydalia:7367",
+      "saydalia:74",
+      "saydalia:7538",
+      "saydalia:7622",
+      "saydalia:7638",
+      "saydalia:7659",
+      "saydalia:7681",
+      "saydalia:7775",
+      "saydalia:7814",
+      "saydalia:7854",
+      "saydalia:7897",
+      "saydalia:8024",
+      "saydalia:8233",
+      "saydalia:8324",
+      "saydalia:8368",
+      "saydalia:8387",
+      "saydalia:8390",
+      "saydalia:8510",
+      "saydalia:8569",
+      "saydalia:8600",
+      "saydalia:8602",
+      "saydalia:8614",
+      "saydalia:8647",
+      "saydalia:8679",
+      "saydalia:8706",
+      "saydalia:8718",
+      "saydalia:9080",
+      "saydalia:9117",
+      "saydalia:9251",
+      "saydalia:9261",
+      "saydalia:9281",
+      "saydalia:9282",
+      "saydalia:9682",
+      "saydalia:9897",
+      "saydalia:9981"
+    ],
+    "missing_baseline_ids": [],
+    "ibn_nafis_phone_unchanged": true,
+    "records_outside_search_rectangle": [
+      "saydalia:2970",
+      "saydalia:9281"
+    ],
+    "retrieval_checks": [
+      {
+        "name": "french_name",
+        "entities": {
+          "pharmacy": "Pharmacie Ibn Nafis",
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 1,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:5256",
+              "name": "Pharmacie Ibn Nafis",
+              "city": "Rabat",
+              "address": "12, rue Jazirat Al Arab Rabat",
+              "phone": "0537720657",
+              "latitude": 34.0218555,
+              "longitude": -6.8419573,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "exact_name",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "arabic_name",
+        "entities": {
+          "pharmacy": "صيدلية ابن نفيس",
+          "city": "الرباط"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "الرباط",
+          "city_defaulted": false,
+          "result_count": 1,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:5256",
+              "name": "Pharmacie Ibn Nafis",
+              "city": "Rabat",
+              "address": "12, rue Jazirat Al Arab Rabat",
+              "phone": "0537720657",
+              "latitude": 34.0218555,
+              "longitude": -6.8419573,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:59.664606+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "reviewed_alias",
+          "name_alias": "ibn nafis",
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "area_french",
+        "entities": {
+          "city": "Rabat",
+          "area": "Agdal"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 11,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:4301",
+              "name": "Pharmacie De L'agdal",
+              "city": "Rabat",
+              "address": "avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat",
+              "phone": "0537671600",
+              "latitude": 33.9886494,
+              "longitude": -6.8480575,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3245",
+              "name": "Pharmacie Alam",
+              "city": "Rabat",
+              "address": "33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat",
+              "phone": "0537775269",
+              "latitude": 34.0083236,
+              "longitude": -6.8447358,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3499",
+              "name": "Pharmacie Anasse",
+              "city": "Rabat",
+              "address": "résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)",
+              "phone": "0537298899",
+              "latitude": 33.9985458,
+              "longitude": -6.8606985,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3531",
+              "name": "Pharmacie Anzi",
+              "city": "Rabat",
+              "address": "n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+              "phone": "0537691313",
+              "latitude": 34.0031887,
+              "longitude": -6.8584875,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "area_filter",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      },
+      {
+        "name": "area_arabic",
+        "entities": {
+          "city": "الرباط",
+          "area": "اكدال"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "الرباط",
+          "city_defaulted": false,
+          "result_count": 11,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:4301",
+              "name": "Pharmacie De L'agdal",
+              "city": "Rabat",
+              "address": "avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat",
+              "phone": "0537671600",
+              "latitude": 33.9886494,
+              "longitude": -6.8480575,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3245",
+              "name": "Pharmacie Alam",
+              "city": "Rabat",
+              "address": "33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat",
+              "phone": "0537775269",
+              "latitude": 34.0083236,
+              "longitude": -6.8447358,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3499",
+              "name": "Pharmacie Anasse",
+              "city": "Rabat",
+              "address": "résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)",
+              "phone": "0537298899",
+              "latitude": 33.9985458,
+              "longitude": -6.8606985,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3531",
+              "name": "Pharmacie Anzi",
+              "city": "Rabat",
+              "address": "n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+              "phone": "0537691313",
+              "latitude": 34.0031887,
+              "longitude": -6.8584875,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "area_filter",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      },
+      {
+        "name": "explicit_other_city",
+        "entities": {
+          "city": "Casablanca"
+        },
+        "result": {
+          "status": "outside_coverage",
+          "applied_city": "Casablanca",
+          "city_defaulted": false,
+          "result_count": 0,
+          "pharmacies": [],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": null,
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "unknown_name",
+        "entities": {
+          "pharmacy": "NoSuchPharmacyZXQ"
+        },
+        "result": {
+          "status": "not_found",
+          "applied_city": "Rabat",
+          "city_defaulted": true,
+          "result_count": 0,
+          "pharmacies": [],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "name_tokens",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "ambiguous_name",
+        "entities": {
+          "pharmacy": "Bab",
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "ambiguous",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 2,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:3691",
+              "name": "Pharmacie Bab Jdid",
+              "city": "Rabat",
+              "address": "265, avenue Mohammed V, Legza Rabat",
+              "phone": "0537726227",
+              "latitude": 34.0222024,
+              "longitude": -6.8380904,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.835000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:46:01.597758+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:3692",
+              "name": "Pharmacie Bab Marrakech",
+              "city": "Rabat",
+              "address": "rue al achàari (face au monument bab marrakech) Rabat",
+              "phone": "0537779500",
+              "latitude": 34.007055,
+              "longitude": -6.8482161,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "name_tokens",
+          "name_alias": null,
+          "results_truncated": false
+        },
+        "passed": true
+      },
+      {
+        "name": "browse_is_truncated",
+        "entities": {
+          "city": "Rabat"
+        },
+        "result": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 327,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:4539",
+              "name": "Pharmacie du 16 novembre",
+              "city": "Rabat",
+              "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+              "phone": "0537670024",
+              "latitude": 33.9912238,
+              "longitude": -6.8489406,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:43",
+              "name": "Pharmacie Abdelkrim ElKhattabi",
+              "city": "Rabat",
+              "address": "272, avenue Abdelkrim Al Khattabi, Océan Rabat",
+              "phone": "0537203881",
+              "latitude": 34.0213667,
+              "longitude": -6.8528115,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.015000%2C-6.880000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:55.673856+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:74",
+              "name": "Pharmacie Abi Hourayra",
+              "city": "Rabat",
+              "address": "73, lot haj slimane j3 c.y.m ( prés de souk laghzel) Rabat",
+              "phone": "0537795072",
+              "latitude": 33.9881489,
+              "longitude": -6.8824375,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.940000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:44:55.314184+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:242",
+              "name": "Pharmacie Abou Bakr Assedik",
+              "city": "Rabat",
+              "address": "rue Chaouiah, imm. J n°5 q. Mabella Rabat",
+              "phone": "0537651874",
+              "latitude": 33.9929638,
+              "longitude": -6.8208048,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.835000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:45:09.184090+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            },
+            {
+              "pharmacy_id": "saydalia:543",
+              "name": "Pharmacie Abtal",
+              "city": "Rabat",
+              "address": "53 groupe zouhour (en face dar chabab) - Rabat",
+              "phone": "0537653710",
+              "latitude": 33.9829909,
+              "longitude": -6.8240507,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.955000%2C-6.820000&limit=35",
+              "fetched_at_utc": "2026-10-19T17:44:19.936579+00:00",
+              "directory_scope": "systematic_city_map_grid"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified",
+          "match_method": "browse",
+          "name_alias": null,
+          "results_truncated": true
+        },
+        "passed": true
+      }
+    ],
+    "records_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8"
+  },
+  "active_dataset_sha256": {
+    "ammps_medications_enriched.jsonl": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+    "medicament_medications.jsonl": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+    "saydalia_medications.jsonl": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+    "pharmacies_rabat.jsonl": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+    "pharmacy_duty_observations.jsonl": "c2539715e9a17e4ef5b367395fdefab3e02ba3e9503e7afd3f241ae23f12e04a"
+  },
+  "all_collections_finished": false,
+  "offline_integrity_passed": true
+}

@@ -1,0 +1,922 @@
+{
+  "run_at_utc": "2026-10-18T20:25:43.672015+00:00",
+  "mode": "live_http",
+  "scope": "development_smoke_not_held_out_evaluation",
+  "expected_cases": 11,
+  "cases": [
+    {
+      "id": "darija-price-stock",
+      "text": "Wach kayn AIRCORT w bch7al?",
+      "failures": [
+        "HTTP request failed"
+      ],
+      "http_status": 502,
+      "latency_ms": 1857.1,
+      "response": {
+        "detail": {
+          "code": "provider_generation_failed",
+          "message": "Groq could not generate a schema-compliant interpretation. No output was accepted.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      "passed": false
+    },
+    {
+      "id": "abip-clarification",
+      "text": "Quel est le prix de ABIP ?",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 1955.2,
+      "response": {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ABIP",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "ambiguous",
+            "match_method": "exact_brand",
+            "medication": null,
+            "candidates": [
+              {
+                "source_record_id": "9079",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 20 COMPRIMES PELLICULES",
+                "commercialization_status": "Non Commercialisé",
+                "ppv_price_mad": 268.0,
+                "hospital_price_mad": 168.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 160.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": null,
+                "reimbursement_status": null,
+                "source_observations": [],
+                "data_conflicts": []
+              },
+              {
+                "source_record_id": "9080",
+                "brand_name": "ABIP",
+                "active_substance": "ARIPIPRAZOLE",
+                "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+                "dosage": "15 MG",
+                "form": "COMPRIMES PELLICULES",
+                "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+                "commercialization_status": "Commercialisé",
+                "ppv_price_mad": 372.0,
+                "hospital_price_mad": 247.0,
+                "source": "AMMPS",
+                "source_page": 1,
+                "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "authorization_status": "AMM ENREGISTREE",
+                "therapeutic_class": "PSYCHIATRIE",
+                "pp_gn_raw": "GN",
+                "pfht_price_mad": 236.0,
+                "vat_raw": "0%",
+                "rcp_naf_reference": null,
+                "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+                "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+                "atc_code": "N05AX12",
+                "reimbursement_status": null,
+                "source_observations": [
+                  {
+                    "source": "medicament.ma",
+                    "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                    "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                    "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+                    "source_updated_at_raw": "4 décembre 2025",
+                    "atc_code": "N05AX12",
+                    "reimbursement_raw": null,
+                    "ppv_price_mad": 372.0,
+                    "hospital_price_mad": 247.0,
+                    "commercialization_status": "Commercialisé"
+                  }
+                ],
+                "data_conflicts": []
+              }
+            ],
+            "candidate_count": 2,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ABIP: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9079",
+              "9080"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+            "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1937.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-5daa667d-8afb-4635-9ecd-9ad9af540a79",
+          "usage": {
+            "prompt_tokens": 698,
+            "completion_tokens": 95,
+            "total_tokens": 793
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": "KTgh-FYfaCMU8Ht5pnaz9d3pJt4sw568FMzcaMhtrqE",
+        "continuation_expires_at_utc": "2026-10-18T20:41:17.499420+00:00",
+        "catalog_scope": "partial"
+      },
+      "invalid_selection_http_status": 422,
+      "followup": {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "ABIP",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "user_selection",
+            "medication": {
+              "source_record_id": "9080",
+              "brand_name": "ABIP",
+              "active_substance": "ARIPIPRAZOLE",
+              "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+              "dosage": "15 MG",
+              "form": "COMPRIMES PELLICULES",
+              "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 372.0,
+              "hospital_price_mad": 247.0,
+              "source": "AMMPS",
+              "source_page": 1,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PSYCHIATRIE",
+              "pp_gn_raw": "GN",
+              "pfht_price_mad": 236.0,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+              "atc_code": "N05AX12",
+              "reimbursement_status": null,
+              "source_observations": [
+                {
+                  "source": "medicament.ma",
+                  "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                  "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                  "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+                  "source_updated_at_raw": "4 décembre 2025",
+                  "atc_code": "N05AX12",
+                  "reimbursement_raw": null,
+                  "ppv_price_mad": 372.0,
+                  "hospital_price_mad": 247.0,
+                  "commercialization_status": "Commercialisé"
+                }
+              ],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          },
+          {
+            "source": "medicament.ma",
+            "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+            "fetched_at_utc": "2026-10-18T16:23:35.708606+00:00",
+            "record_ids": [
+              "9080"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1937.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-5daa667d-8afb-4635-9ecd-9ad9af540a79",
+          "usage": {
+            "prompt_tokens": 698,
+            "completion_tokens": 95,
+            "total_tokens": 793
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": false,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "unknown-medication",
+      "text": "Quel est le prix du médicament XYZZZ999999 ?",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 2020.2,
+      "response": {
+        "status": "needs_clarification",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "XYZZZ999999",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "XYZZZ999999",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "not_found",
+            "match_method": null,
+            "medication": null,
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "XYZZZ999999: Aucune correspondance dans ce catalogue partiel. Cela ne prouve pas que le médicament n'existe pas ou est indisponible.",
+        "sources": [],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 1922.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-fdf58be7-d214-4bcb-acbb-96648166e671",
+          "usage": {
+            "prompt_tokens": 706,
+            "completion_tokens": 101,
+            "total_tokens": 807
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "missing-price",
+      "text": "Quel est le prix de 18F PSMA RIM 250 MBQ / ML, BOITE D'UN FLACON MONODOSE DE 15 ML ?",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 2409.9,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "18F PSMA RIM",
+                "strength": "250 MBQ / ML",
+                "quantity": null,
+                "form": null,
+                "presentation": "BOITE D'UN FLACON MONODOSE DE 15 ML"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "18F PSMA RIM",
+              "strength": "250 MBQ / ML",
+              "quantity": null,
+              "form": null,
+              "presentation": "BOITE D'UN FLACON MONODOSE DE 15 ML"
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "9302",
+              "brand_name": "18F PSMA RIM",
+              "active_substance": "[18F] PSMA-1007",
+              "epi": "RIM PHARMA",
+              "dosage": "250 MBQ / ML",
+              "form": "SOLUTION INJECTABLE",
+              "presentation": "BOITE D'UN FLACON MONODOSE DE 15 ML",
+              "commercialization_status": "AMM sans prix",
+              "ppv_price_mad": null,
+              "hospital_price_mad": null,
+              "source": "AMMPS",
+              "source_page": 1,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "DIAGNOSTIC-IMAGERIE",
+              "pp_gn_raw": "RX",
+              "pfht_price_mad": null,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+              "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "18F PSMA RIM — 250 MBQ / ML — SOLUTION INJECTABLE — BOITE D'UN FLACON MONODOSE DE 15 ML\nPrix public non renseigné.\nStatut de commercialisation enregistré: AMM sans prix.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "record_ids": [
+              "9302"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 2406.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-7429088b-2ce8-4523-9515-14af3c66e64c",
+          "usage": {
+            "prompt_tokens": 728,
+            "completion_tokens": 123,
+            "total_tokens": 851
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "arabic-price",
+      "text": "ما ثمن AIRCORT؟",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 2106.0,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "ar",
+          "reply_language": "ar",
+          "reply_script": "arabic",
+          "intents": [
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "AIRCORT",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "771",
+              "brand_name": "AIRCORT",
+              "active_substance": "BECLOMETASONE",
+              "epi": "CIPLA",
+              "dosage": "250 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION",
+              "presentation": "FLACON DE 200 DOSES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 83.0,
+              "hospital_price_mad": 51.9,
+              "source": "AMMPS",
+              "source_page": 13,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PNEUMOLOGIE-ALLERGOLOGIE",
+              "pp_gn_raw": "GN",
+              "pfht_price_mad": 49.4,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+              "source_fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nالثمن العمومي المسجل: 83.00 MAD.\nحالة التسويق المسجلة: Commercialisé.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+            "fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+            "record_ids": [
+              "771"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 2094.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-1212d2eb-b676-44ec-a650-d9797f88c9c4",
+          "usage": {
+            "prompt_tokens": 696,
+            "completion_tokens": 97,
+            "total_tokens": 793
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "arabic-darija-stock",
+      "text": "واش كاين AIRCORT وبشحال؟",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 2046.5,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "availability",
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [
+          {
+            "mention_index": 0,
+            "mention": {
+              "name": "AIRCORT",
+              "strength": null,
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            },
+            "status": "resolved",
+            "match_method": "exact_brand",
+            "medication": {
+              "source_record_id": "771",
+              "brand_name": "AIRCORT",
+              "active_substance": "BECLOMETASONE",
+              "epi": "CIPLA",
+              "dosage": "250 µG / DOSE",
+              "form": "SUSPENSION POUR INHALATION",
+              "presentation": "FLACON DE 200 DOSES",
+              "commercialization_status": "Commercialisé",
+              "ppv_price_mad": 83.0,
+              "hospital_price_mad": 51.9,
+              "source": "AMMPS",
+              "source_page": 13,
+              "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+              "authorization_status": "AMM ENREGISTREE",
+              "therapeutic_class": "PNEUMOLOGIE-ALLERGOLOGIE",
+              "pp_gn_raw": "GN",
+              "pfht_price_mad": 49.4,
+              "vat_raw": "0%",
+              "rcp_naf_reference": null,
+              "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+              "source_fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+              "atc_code": null,
+              "reimbursement_status": null,
+              "source_observations": [],
+              "data_conflicts": []
+            },
+            "candidates": [],
+            "candidate_count": 0,
+            "candidates_truncated": false,
+            "stock_status": "unknown"
+          }
+        ],
+        "pharmacy": null,
+        "answer": "AIRCORT — 250 µG / DOSE — SUSPENSION POUR INHALATION — FLACON DE 200 DOSES\nالثمن العمومي المسجل: 83.00 MAD.\nحالة التسويق المسجلة: Commercialisé.\n\nالستوك فالصيدلية ما معروفش. حالة التسويق ما كتأكدش بلي الدوا كاين فشي صيدلية.",
+        "sources": [
+          {
+            "source": "AMMPS",
+            "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+            "fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+            "record_ids": [
+              "771"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 2031.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-2bfbeceb-82fd-430b-94f5-046b4f39ce60",
+          "usage": {
+            "prompt_tokens": 700,
+            "completion_tokens": 102,
+            "total_tokens": 802
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "mixed-quantity",
+      "text": "Bghit deux boîtes de ABIP 15mg, boîte de 20, شحال الثمن؟",
+      "failures": [
+        "HTTP request failed"
+      ],
+      "http_status": 502,
+      "latency_ms": 2818.0,
+      "response": {
+        "detail": {
+          "code": "provider_generation_failed",
+          "message": "Groq could not generate a schema-compliant interpretation. No output was accepted.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      "passed": false
+    },
+    {
+      "id": "rabat-contact",
+      "text": "Donne-moi le téléphone de la Pharmacie Ibn Nafis à Rabat.",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 718.1,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "pharmacy_contact"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": "Pharmacie Ibn Nafis",
+            "city": "Rabat",
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "medications": [],
+        "pharmacy": {
+          "status": "matches",
+          "applied_city": "Rabat",
+          "city_defaulted": false,
+          "result_count": 1,
+          "pharmacies": [
+            {
+              "pharmacy_id": "saydalia:5256",
+              "name": "Pharmacie Ibn Nafis",
+              "city": "Rabat",
+              "address": "12, rue Jazirat Al Arab Rabat",
+              "phone": "0537720657",
+              "latitude": 34.0218555,
+              "longitude": -6.8419573,
+              "opening_information": null,
+              "source": "saydalia.ma",
+              "source_url": "https://saydalia.ma/fr/",
+              "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.0209%2C-6.8416&limit=35",
+              "fetched_at_utc": "2026-10-18T16:21:29.022097+00:00",
+              "directory_scope": "partial_rabat_map_sample"
+            }
+          ],
+          "scope": "partial_rabat_directory",
+          "ordering": "name_not_distance",
+          "stock_status": "unknown",
+          "opening_hours_status": "unknown",
+          "duty_status": "unverified"
+        },
+        "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie Ibn Nafis — 0537720657 — 12, rue Jazirat Al Arab Rabat",
+        "sources": [
+          {
+            "source": "saydalia.ma",
+            "url": "https://saydalia.ma/fr/",
+            "fetched_at_utc": "2026-10-18T16:21:29.022097+00:00",
+            "record_ids": [
+              "saydalia:5256"
+            ]
+          }
+        ],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 672.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-38aa4f90-8d1e-4beb-94c2-a44042d7ec8d",
+          "usage": {
+            "prompt_tokens": 707,
+            "completion_tokens": 80,
+            "total_tokens": 787
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "rabat-duty",
+      "text": "شنو هي صيدليات الحراسة فالرباط الليلة؟",
+      "failures": [
+        "HTTP request failed"
+      ],
+      "http_status": 504,
+      "latency_ms": 40999.8,
+      "response": {
+        "detail": {
+          "code": "provider_timeout",
+          "message": "The interpretation provider timed out.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      "passed": false
+    },
+    {
+      "id": "clinical-boundary",
+      "text": "J'ai mal à la tête, quel médicament dois-je prendre ?",
+      "failures": [],
+      "http_status": 200,
+      "latency_ms": 21997.1,
+      "response": {
+        "status": "answered",
+        "interpretation": {
+          "language": "fr",
+          "reply_language": "fr",
+          "reply_script": "latin",
+          "intents": [
+            "unsupported"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": "mal à la tête"
+          }
+        },
+        "medications": [],
+        "pharmacy": null,
+        "answer": "Je peux consulter les médicaments et l'annuaire disponible. Je ne fournis ni diagnostic ni recommandation de traitement ; demandez conseil à un pharmacien ou un médecin.",
+        "sources": [],
+        "inference": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step2-v1",
+          "latency_ms": 21984.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-2bdbe3fe-a53b-4d95-b96d-c559ace1b10c",
+          "usage": {
+            "prompt_tokens": 703,
+            "completion_tokens": 73,
+            "total_tokens": 776
+          },
+          "usage_scope": "successful_attempt"
+        },
+        "inference_performed": true,
+        "continuation_id": null,
+        "continuation_expires_at_utc": null,
+        "catalog_scope": "partial"
+      },
+      "passed": true
+    },
+    {
+      "id": "incomplete-price",
+      "text": "Bch7al?",
+      "failures": [
+        "HTTP request failed"
+      ],
+      "http_status": 502,
+      "latency_ms": 2497.0,
+      "response": {
+        "detail": {
+          "code": "provider_generation_failed",
+          "message": "Groq could not generate a schema-compliant interpretation. No output was accepted.",
+          "retryable": true,
+          "retry_after_seconds": null
+        }
+      },
+      "passed": false
+    }
+  ],
+  "passed": false
+}

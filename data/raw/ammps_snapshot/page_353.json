@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 353,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=353",
+  "fetched_at_utc": "2026-10-18T16:29:14.366388+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1514",
+      "brand_name": "PRODOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "IBUPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "GALENICA",
+        "PPV": "19,10 DH",
+        "PH": "11,90 DH",
+        "PFHT": "11,35 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "667",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "DOSE DE 1G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "14,50 DH",
+        "PH": "9,00 DH",
+        "PFHT": "8,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GLOBULE"
+      }
+    },
+    {
+      "source_record_id": "668",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "669",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "GOUTTES 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "88,10 DH",
+        "PH": "55,10 DH",
+        "PFHT": "52,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "670",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "GOUTTES 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "671",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "672",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 4 G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "10,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GRANULE"
+      }
+    },
+    {
+      "source_record_id": "673",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POMMADE 20G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "11,20 DH",
+        "PH": "7,00 DH",
+        "PFHT": "6,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "674",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "675",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "676",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE ANIMAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "19,70 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "677",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "DOSE DE 1G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "14,50 DH",
+        "PH": "9,00 DH",
+        "PFHT": "8,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GLOBULE"
+      }
+    },
+    {
+      "source_record_id": "678",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "GOUTTES 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "679",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "GOUTTES 250 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "88,10 DH",
+        "PH": "55,10 DH",
+        "PFHT": "52,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "680",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "GOUTTES 30 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "681",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "46,70 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GOUTTE"
+      }
+    },
+    {
+      "source_record_id": "682",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 4 G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "17,30 DH",
+        "PH": "10,80 DH",
+        "PFHT": "10,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GRANULE"
+      }
+    },
+    {
+      "source_record_id": "683",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POMMADE 20G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "11,20 DH",
+        "PH": "7,00 DH",
+        "PFHT": "6,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "684",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 12 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "27,60 DH",
+        "PH": "17,20 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "685",
+      "brand_name": "PRODUIT HOMEOPATHIQUE UNITAIRE APPARTENANT AU REGNE MINERAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 AMPOULES BUVABLES",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "AUTRE",
+        "EPI": "BOTTU",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 345,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=345",
+  "fetched_at_utc": "2026-10-18T16:28:58.362147+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8709",
+      "brand_name": "POLYBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 6 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8710",
+      "brand_name": "POLYBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8711",
+      "brand_name": "POLYBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 6 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4730",
+      "brand_name": "POLYCLAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4970",
+      "brand_name": "POLYDEXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10ML",
+        "PP / GN": "PP",
+        "Substance active": "NEOMYCINE (SULFATE) // POLYMYXINE B (SULFATE) // DEXAMETHASONE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "20,40 DH",
+        "PH": "12,70 DH",
+        "PFHT": "12,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "650000 UI  /  1000000 UI  /  0,1 G",
+        "Forme": "SOLUTION AURICULAIRE"
+      }
+    },
+    {
+      "source_record_id": "7762",
+      "brand_name": "POLYFER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "FER (COMPLEXE D'HYDROXYDE - POLYMALTOSE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "KOSMOPHARM",
+        "PPV": "28,30 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  5  ML",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "2973",
+      "brand_name": "POLYGYNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "NEOMYCINE (SULFATE) // POLYMYXINE B (SULFATE) // NYSTATINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "63,00 DH",
+        "PH": "39,40 DH",
+        "PFHT": "37,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35000 UI  /  35000 UI  /  100000 UI",
+        "Forme": "CAPSULE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "2974",
+      "brand_name": "POLYGYNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "PP",
+        "Substance active": "NEOMYCINE (SULFATE) // POLYMYXINE B (SULFATE) // NYSTATINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "35,80 DH",
+        "PH": "22,40 DH",
+        "PFHT": "21,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35000 UI  /  35000 UI  /  100000 UI",
+        "Forme": "CAPSULE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "4731",
+      "brand_name": "POLYMAZINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "ETUI DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "16,00 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4732",
+      "brand_name": "POLYMAZINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "ETUI DE 50",
+        "PP / GN": "GN",
+        "Substance active": "CHLORPROMAZINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "12,90 DH",
+        "PH": "8,10 DH",
+        "PFHT": "7,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4733",
+      "brand_name": "POLYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "POLYMEDIC",
+        "PPV": "42,00 DH",
+        "PH": "26,20 DH",
+        "PFHT": "25,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4734",
+      "brand_name": "POLYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 90",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "POLYMEDIC",
+        "PPV": "126,00 DH",
+        "PH": "78,70 DH",
+        "PFHT": "75,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4735",
+      "brand_name": "POLYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 30",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "POLYMEDIC",
+        "PPV": "46,00 DH",
+        "PH": "28,70 DH",
+        "PFHT": "27,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4736",
+      "brand_name": "POLYNORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "Boite de 90",
+        "PP / GN": "GN",
+        "Substance active": "REPAGLINIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "POLYMEDIC",
+        "PPV": "138,00 DH",
+        "PH": "86,20 DH",
+        "PFHT": "82,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4737",
+      "brand_name": "POLYPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "POLYMEDIC",
+        "PPV": "34,70 DH",
+        "PH": "21,70 DH",
+        "PFHT": "20,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2975",
+      "brand_name": "POLYSILANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 TUBE DE 170 G",
+        "PP / GN": "PP",
+        "Substance active": "DIMETICONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "20,60 DH",
+        "PH": "12,80 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.15",
+        "Forme": "GEL ORAL"
+      }
+    },
+    {
+      "source_record_id": "2976",
+      "brand_name": "POLYSILANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 SACHETS DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "DIMETICONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "47,60 DH",
+        "PH": "29,70 DH",
+        "PFHT": "28,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,25 G",
+        "Forme": "GEL ORAL"
+      }
+    },
+    {
+      "source_record_id": "2977",
+      "brand_name": "POLYSILANE (SANS SUCRE)",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 SACHETS DE 15 G",
+        "PP / GN": "PP",
+        "Substance active": "DIMETICONE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "44,20 DH",
+        "PH": "27,60 DH",
+        "PFHT": "26,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,25 G",
+        "Forme": "GEL ORAL"
+      }
+    },
+    {
+      "source_record_id": "4535",
+      "brand_name": "POLYTAR AF",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "NA",
+        "Substance active": "MELANGE DE GOUDRON // ZINC PYRITHIONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "121,00 DH",
+        "PH": "75,40 DH",
+        "PFHT": "67,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1%  /  1%",
+        "Forme": "SHAMPOING"
+      }
+    },
+    {
+      "source_record_id": "4536",
+      "brand_name": "POLYTAR LIQUIDE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "NA",
+        "Substance active": "MELANGE DE GOUDRON",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "104,50 DH",
+        "PH": "65,10 DH",
+        "PFHT": "58,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SHAMPOING"
+      }
+    }
+  ]
+}

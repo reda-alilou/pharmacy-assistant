@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 182,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=182",
+  "fetched_at_utc": "2026-10-18T16:23:31.507905+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3991",
+      "brand_name": "FLUPHENAZINE DECANOATE PHARMA 5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 3 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUPHENAZINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "50,10 DH",
+        "PH": "31,30 DH",
+        "PFHT": "29,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8456",
+      "brand_name": "FLUPHENAZINEDECANOATE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 30 AMPOULE DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUPHENAZINE DECANOATE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4684",
+      "brand_name": "FLURIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 15 ML MONODOSE",
+        "PP / GN": "RX",
+        "Substance active": "FLUDESOXYGLUCOSE (18F)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "4.303.00 DH",
+        "PH": "4.018.00 DH",
+        "PFHT": "3.827.33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MBQ",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3992",
+      "brand_name": "FLUSKIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "FLUCINOLONE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "19,60 DH",
+        "PH": "12,30 DH",
+        "PFHT": "11,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0005",
+        "Forme": "GEL DERMIQUE"
+      }
+    },
+    {
+      "source_record_id": "3508",
+      "brand_name": "FLUSTAPH",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "21,90 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3509",
+      "brand_name": "FLUSTAPH",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "44,80 DH",
+        "PH": "28,00 DH",
+        "PFHT": "26,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3510",
+      "brand_name": "FLUSTAPH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "37,20 DH",
+        "PH": "23,20 DH",
+        "PFHT": "22,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3511",
+      "brand_name": "FLUSTAPH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "FLUCLOXACILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "67,70 DH",
+        "PH": "42,30 DH",
+        "PFHT": "40,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "904",
+      "brand_name": "FLUTAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "FLUTAMIDE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "283,00 DH",
+        "PH": "188,40 DH",
+        "PFHT": "179,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "8457",
+      "brand_name": "FLUTIFORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µg  /  5 µG",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE"
+      }
+    },
+    {
+      "source_record_id": "8458",
+      "brand_name": "FLUTIFORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µg  /  5 µG",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE"
+      }
+    },
+    {
+      "source_record_id": "8459",
+      "brand_name": "FLUTIFORM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "AMANYS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 µg  /  5 µG",
+        "Forme": "SUSPENSION POUR INHALATION EN FLACON PRESSURISE"
+      }
+    },
+    {
+      "source_record_id": "6413",
+      "brand_name": "FLUXUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PRE-REMPLIE DE 0,3 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARNAPARIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "165,00 DH",
+        "PH": "103,10 DH",
+        "PFHT": "98,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3200 UI AXA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6414",
+      "brand_name": "FLUXUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PRE-REMPLIE DE 0,4 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARNAPARIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "199,00 DH",
+        "PH": "124,40 DH",
+        "PFHT": "118,49 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4520 UI AXA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6415",
+      "brand_name": "FLUXUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 6 SERINGUES PRE-REMPLIE DE 0,6 ML",
+        "PP / GN": "PP",
+        "Substance active": "PARNAPARIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "291,00 DH",
+        "PH": "193,70 DH",
+        "PFHT": "184,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6400 UI AXA",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6084",
+      "brand_name": "FLUZAIR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "155,00 DH",
+        "PH": "96,90 DH",
+        "PFHT": "92,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µG  /  DOSE",
+        "Forme": "AEROSOL"
+      }
+    },
+    {
+      "source_record_id": "4685",
+      "brand_name": "FLUZOFT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "77,60 DH",
+        "PH": "48,50 DH",
+        "PFHT": "46,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4686",
+      "brand_name": "FLUZOFT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "FLUOXETINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "140,20 DH",
+        "PH": "87,60 DH",
+        "PFHT": "83,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "7937",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "32,20 DH",
+        "PH": "20,20 DH",
+        "PFHT": "19,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250  MG",
+        "Forme": "POUDRE POUR SOLUTION IJECTABLE (IM-IV)"
+      }
+    },
+    {
+      "source_record_id": "7938",
+      "brand_name": "FODIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE 10ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFTAZIDIME (PENTAHYDRATEE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "56,10 DH",
+        "PH": "35,10 DH",
+        "PFHT": "33,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500  MG",
+        "Forme": "POUDRE POUR SOLUTION IJECTABLE (IM-IV)"
+      }
+    }
+  ]
+}

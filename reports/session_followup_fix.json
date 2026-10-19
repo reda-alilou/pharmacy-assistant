@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-10-19T13:32:39.666313+00:00",
+  "issue": "User three-turn browser flow lost the resolved ABIP presentation before the quantity follow-up.",
+  "status": "ui_session_selection_fixed_offline_verified_awaiting_user_recheck",
+  "user_evidence": {
+    "quantity": "deux boites",
+    "effective_name": "abip",
+    "effective_strength": null,
+    "effective_presentation": null,
+    "inherited_fields": [
+      "medications.0.name"
+    ],
+    "pricing_status": "awaiting_medication"
+  },
+  "diagnosis": "The follow-up used context equivalent to the original ambiguous ABIP branch. The extraction was correct. The exact reason the cached UI token diverged was not instrumented.",
+  "change": "Derive the session token for new text from the latest successful response in conversation history; do not use the separate cached scalar. Explicit restart still sends text without a token.",
+  "regression": {
+    "file": "tests/test_demo_conversation_chain.py",
+    "three_turn_texts": [
+      "quel est le prix de abip",
+      "l boita dyal 303afak",
+      "et pour deux boites ?"
+    ],
+    "boundary": "Real Streamlit AppTest and FastAPI TestClient; inference mocked.",
+    "injected_condition": "Cached token reset to first ambiguous response after second response has resolved record 9080.",
+    "subcases": [
+      "normal",
+      "local_rate_limited_then_explicit_retry"
+    ],
+    "assertions": [
+      "Third request uses the second response session_id.",
+      "Retry preserves the exact payload.",
+      "Selected record remains 9080.",
+      "Total is the exact string 744.00 MAD.",
+      "Only three interpretations occur."
+    ]
+  },
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 185,
+    "failed": 0,
+    "duration_seconds": 30.542,
+    "log": "reports/session_followup_fix_tests.log"
+  },
+  "live_provider_requests": 0,
+  "services_started_or_stopped": false,
+  "env_modified": false,
+  "backend_or_prompt_modified": false,
+  "catalogue_modified": false,
+  "source_sha256": {
+    "src/pharmacy_assistant/demo.py": "aeb01a0b2563b5758c27e8be337bdec1f48b6118740c5ca86ee6531c16d24baf",
+    "tests/test_demo_conversation_chain.py": "c652da4120d245f600b09c90645fe8119ca75074ae4e4d500d26dd4e6d208599"
+  },
+  "user_recheck": "Reload Streamlit, start Nouvelle conversation, repeat the three turns. No new key is required. The updated UI has not been manually rechecked in the user browser."
+}

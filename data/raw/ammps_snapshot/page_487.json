@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 487,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=487",
+  "fetched_at_utc": "2026-10-18T16:33:42.849777+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9087",
+      "brand_name": "ZAPIXAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "208,00 DH",
+        "PH": "130,10 DH",
+        "PFHT": "123,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9088",
+      "brand_name": "ZAPIXAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "APIXABAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "349,00 DH",
+        "PH": "231,00 DH",
+        "PFHT": "220,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1765",
+      "brand_name": "ZAREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CARBOPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "684,00 DH",
+        "PH": "454,00 DH",
+        "PFHT": "433,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "POUDRE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1766",
+      "brand_name": "ZAREX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "GN",
+        "Substance active": "CARBOPLATINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "1.553.00 DH",
+        "PH": "1.289.00 DH",
+        "PFHT": "1.228.50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "450   MG",
+        "Forme": "POUDRE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3446",
+      "brand_name": "ZARZIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 SERINGUES",
+        "PP / GN": "BS",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.116.00 DH",
+        "PH": "840,00 DH",
+        "PFHT": "800,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 MU  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3447",
+      "brand_name": "ZARZIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 5 SERINGUES",
+        "PP / GN": "BS",
+        "Substance active": "FILGRASTIM",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "1.728.00 DH",
+        "PH": "1.470.00 DH",
+        "PFHT": "1.400.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "48 MU  /  0,5  ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4388",
+      "brand_name": "ZAURAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4389",
+      "brand_name": "ZAURAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4390",
+      "brand_name": "ZAURAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "18,70 DH",
+        "PH": "11,70 DH",
+        "PFHT": "11,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3778",
+      "brand_name": "ZAVEDOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE INJECTABLE",
+        "PP / GN": "PP",
+        "Substance active": "IDARUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "1.268.00 DH",
+        "PH": "997,00 DH",
+        "PFHT": "949,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "LYOPHILISAT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3779",
+      "brand_name": "ZAVEDOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE INJECTABLE",
+        "PP / GN": "PP",
+        "Substance active": "IDARUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "806,00 DH",
+        "PH": "535,00 DH",
+        "PFHT": "510,21 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "LYOPHILISAT INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7501",
+      "brand_name": "ZAVICEFTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "CEFTAZIDIME // AVIBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "11.524.00 DH",
+        "PH": "11.306.00 DH",
+        "PFHT": "10.906.85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  0,5 G",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3092",
+      "brand_name": "ZECLAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "92,40 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG  /   ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "3093",
+      "brand_name": "ZECLAR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "179,60 DH",
+        "PH": "112,30 DH",
+        "PFHT": "106,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1989",
+      "brand_name": "ZEFFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "LAMIVUDINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "629,00 DH",
+        "PH": "418,00 DH",
+        "PFHT": "398,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5117",
+      "brand_name": "ZELBORAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "VEMURAFENIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "15.010.00 DH",
+        "PH": "14.724.00 DH",
+        "PFHT": "14.324.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3780",
+      "brand_name": "ZELDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "AMPOULE INJECTABLE + SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "ZIPRASIDONE (MESYLATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PFIZER",
+        "PPV": "208,00 DH",
+        "PH": "130,40 DH",
+        "PFHT": "124,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "POUDRE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "3781",
+      "brand_name": "ZELDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ZIPRASIDONE (MESYLATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PFIZER",
+        "PPV": "274,00 DH",
+        "PH": "171,70 DH",
+        "PFHT": "163,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3782",
+      "brand_name": "ZELDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ZIPRASIDONE (MESYLATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PFIZER",
+        "PPV": "242,00 DH",
+        "PH": "151,80 DH",
+        "PFHT": "144,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3783",
+      "brand_name": "ZELDOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "ZIPRASIDONE (MESYLATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "PFIZER",
+        "PPV": "287,00 DH",
+        "PH": "190,90 DH",
+        "PFHT": "181,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

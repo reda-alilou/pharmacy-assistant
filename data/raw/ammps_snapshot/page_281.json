@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 281,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=281",
+  "fetched_at_utc": "2026-10-18T16:26:50.074919+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6458",
+      "brand_name": "MILIPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "51,30 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6459",
+      "brand_name": "MILIPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "97,40 DH",
+        "PH": "60,90 DH",
+        "PFHT": "57,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6460",
+      "brand_name": "MILIPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "68,40 DH",
+        "PH": "42,70 DH",
+        "PFHT": "40,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "414",
+      "brand_name": "MILLYGYNON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3 X 28",
+        "PP / GN": "PP",
+        "Substance active": "NORETHISTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "59,70 DH",
+        "PH": "37,30 DH",
+        "PFHT": "35,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,6   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1311",
+      "brand_name": "MIMPARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CINACALCET",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "1.627.00 DH",
+        "PH": "1.366.00 DH",
+        "PFHT": "1.301.79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1312",
+      "brand_name": "MIMPARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CINACALCET",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "2.966.00 DH",
+        "PH": "2.641.00 DH",
+        "PFHT": "2.515.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1313",
+      "brand_name": "MIMPARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "CINACALCET",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "4.184.00 DH",
+        "PH": "3.896.00 DH",
+        "PFHT": "3.710.52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2548",
+      "brand_name": "MINALFENE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "NA",
+        "Substance active": "ALMINOPROFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "53,40 DH",
+        "PH": "33,30 DH",
+        "PFHT": "29,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "988",
+      "brand_name": "MINIDIAB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "PP",
+        "Substance active": "GLIPIZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "73,70 DH",
+        "PH": "46,10 DH",
+        "PFHT": "43,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "989",
+      "brand_name": "MINIDIAB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "GLIPIZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "COOPER PHARMA",
+        "PPV": "26,50 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2914",
+      "brand_name": "MINIDRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "8,40 DH",
+        "PH": "5,30 DH",
+        "PFHT": "5,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7754",
+      "brand_name": "MINILEVA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "LEVONORGESTREL // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "COOPER PHARMA",
+        "PPV": "8,20 DH",
+        "PH": "5,10 DH",
+        "PFHT": "4,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30 µG  /  150 µG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5847",
+      "brand_name": "MINIRIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 2,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "DESMOPRESSINE (ACETATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "155,10 DH",
+        "PH": "96,90 DH",
+        "PFHT": "92,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1   MG  /   ML",
+        "Forme": "SOLUTION ENDONASALE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "5848",
+      "brand_name": "MINIRIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "DESMOPRESSINE (ACETATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "268,00 DH",
+        "PH": "178,60 DH",
+        "PFHT": "170,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,2   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "5584",
+      "brand_name": "MINIRIN MELT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DESMOPRESSINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "270,00 DH",
+        "PH": "179,50 DH",
+        "PFHT": "170,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60 µG",
+        "Forme": "LYOPHILISAT ORAL"
+      }
+    },
+    {
+      "source_record_id": "7611",
+      "brand_name": "MINIRIN MELT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DESMOPRESSINE (ACETATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "581,00 DH",
+        "PH": "386,00 DH",
+        "PFHT": "368,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120 µG",
+        "Forme": "LYOPHYLISAT ORAL"
+      }
+    },
+    {
+      "source_record_id": "5849",
+      "brand_name": "MINIRIN SPRAY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "DESMOPRESSINE (ACETATE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "206,00 DH",
+        "PH": "128,90 DH",
+        "PFHT": "122,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 µG",
+        "Forme": "SOLUTION ENDONASALE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "4719",
+      "brand_name": "MINOTREX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "MINOCYCLINE BASE",
+        "Classe thérapeutique": "NA",
+        "EPI": "POLYMEDIC",
+        "PPV": "70,00 DH",
+        "PH": "43,60 DH",
+        "PFHT": "38,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "3711",
+      "brand_name": "MINULET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "GESTODENE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "76,60 DH",
+        "PH": "47,70 DH",
+        "PFHT": "42,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,075   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4494",
+      "brand_name": "MIOCAMEN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 30 G (120 ML)",
+        "PP / GN": "PP",
+        "Substance active": "MIOCAMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHI",
+        "PPV": "114,20 DH",
+        "PH": "71,20 DH",
+        "PFHT": "63,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6 G",
+        "Forme": "GRANULE POUR SUSPENSION ORALE"
+      }
+    }
+  ]
+}

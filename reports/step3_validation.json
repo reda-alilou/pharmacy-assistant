@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-10-18T20:36:20.372980+00:00",
+  "checkpoint": "step3",
+  "implementation_complete": true,
+  "awaiting_user_validation": true,
+  "next_step_started": false,
+  "active_prompt_version": "step2-v1",
+  "health": {
+    "status": "ok",
+    "catalog_scope": "partial",
+    "catalog_dataset": "ammps_medications_enriched.jsonl",
+    "catalog_record_count": 9936,
+    "catalog_brand_count": 4087,
+    "interpretation_configured": true,
+    "interpretation_model": "qwen/qwen3.8-27b"
+  },
+  "offline_tests": {
+    "passed": 66,
+    "failed": 0,
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -v"
+  },
+  "live_runs": [
+    {
+      "report": "reports/chat_smoke.json",
+      "passed_cases": 7,
+      "total_cases": 11,
+      "suite_passed": false
+    },
+    {
+      "report": "reports/chat_smoke_recheck.json",
+      "passed_cases": 3,
+      "total_cases": 4,
+      "suite_passed": false
+    }
+  ],
+  "required_five_flows_verified": true,
+  "verified_flow_ids": [
+    "abip-clarification",
+    "arabic-darija-stock",
+    "arabic-price",
+    "clinical-boundary",
+    "darija-price-stock",
+    "incomplete-price",
+    "missing-price",
+    "mixed-quantity",
+    "rabat-contact",
+    "unknown-medication"
+  ],
+  "remaining_live_failure_ids": [
+    "rabat-duty"
+  ],
+  "limitation": "Qwen intermittently fails strict-schema generation or times out after the single bounded retry. Both full live suites are marked failed, not relabelled as passed.",
+  "prompt_probe": {
+    "report": "reports/chat_prompt_probe.json",
+    "adopted": false,
+    "reason": "The complete-JSON example did not reliably eliminate provider errors."
+  },
+  "preflight_failure_report": "reports/chat_smoke_initial_timeout.json",
+  "held_out_evaluation": false
+}

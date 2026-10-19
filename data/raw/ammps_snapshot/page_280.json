@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 280,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=280",
+  "fetched_at_utc": "2026-10-18T16:26:48.740424+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2545",
+      "brand_name": "MICROZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 180",
+        "PP / GN": "GN",
+        "Substance active": "GLICLAZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "160,00 DH",
+        "PH": "100,00 DH",
+        "PFHT": "95,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2546",
+      "brand_name": "MICROZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "GLICLAZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "22,00 DH",
+        "PH": "13,70 DH",
+        "PFHT": "13,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "2547",
+      "brand_name": "MICROZIDE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "GLICLAZIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "61,00 DH",
+        "PH": "38,10 DH",
+        "PFHT": "36,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "6110",
+      "brand_name": "MIDANIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "STERIPHARMA",
+        "PPV": "118,10 DH",
+        "PH": "73,80 DH",
+        "PFHT": "70,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2098",
+      "brand_name": "MIDAZOLAM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "118,10 DH",
+        "PH": "73,80 DH",
+        "PFHT": "70,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2099",
+      "brand_name": "MIDAZOLAM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOLUES DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "666,00 DH",
+        "PH": "442,00 DH",
+        "PFHT": "421,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2100",
+      "brand_name": "MIDAZOLAM AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "126,40 DH",
+        "PH": "78,70 DH",
+        "PFHT": "70,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "303",
+      "brand_name": "MIDAZOLAM GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "ATLAS PHARM",
+        "PPV": "115,20 DH",
+        "PH": "72,00 DH",
+        "PFHT": "68,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6454",
+      "brand_name": "MIDAZOLAM MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "179,40 DH",
+        "PH": "112,10 DH",
+        "PFHT": "106,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /   ML",
+        "Forme": "SOLUTTION INJECTABLE (IM,IV, RECTALE)"
+      }
+    },
+    {
+      "source_record_id": "6455",
+      "brand_name": "MIDAZOLAM MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "1.280.00 DH",
+        "PH": "1.009.00 DH",
+        "PFHT": "961,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTTION INJECTABLE (IM,IV, RECTALE)"
+      }
+    },
+    {
+      "source_record_id": "6456",
+      "brand_name": "MIDAZOLAM MYLAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 FLACON DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "179,40 DH",
+        "PH": "112,10 DH",
+        "PFHT": "106,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   ML",
+        "Forme": "SOLUTTION INJECTABLE (IM,IV, RECTALE)"
+      }
+    },
+    {
+      "source_record_id": "3376",
+      "brand_name": "MIFLASONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60 GELULES AVEC INHALATEUR",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "71,40 DH",
+        "PH": "44,60 DH",
+        "PFHT": "42,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG",
+        "Forme": "GELULE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "3377",
+      "brand_name": "MIFLASONE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60 GELULES AVEC INHALATEUR",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400 µG",
+        "Forme": "GELULE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "7352",
+      "brand_name": "MIGARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "GN",
+        "Substance active": "NARATRIPTAN",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "36,50 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7353",
+      "brand_name": "MIGARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "NARATRIPTAN",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "82,30 DH",
+        "PH": "51,40 DH",
+        "PFHT": "48,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "633",
+      "brand_name": "MIGRALGINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 18",
+        "PP / GN": "PP",
+        "Substance active": "PARACETAMOL // CAFEINE // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "BOTTU",
+        "PPV": "20,10 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG  /  20   MG  /  62,5   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6770",
+      "brand_name": "MIGRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "RIZATRIPTAN BENZOATE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "146,90 DH",
+        "PH": "91,80 DH",
+        "PFHT": "87,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "6771",
+      "brand_name": "MIGRIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "RIZATRIPTAN BENZOATE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "146,90 DH",
+        "PH": "91,80 DH",
+        "PFHT": "87,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7474",
+      "brand_name": "MIKO-PENOTRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "MICONAZOLE NITRATE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BOTTU",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1200   MG",
+        "Forme": "OVULE VAGINALE BLANCHATRE"
+      }
+    },
+    {
+      "source_record_id": "6457",
+      "brand_name": "MILIPREL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "GLIMEPIRIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "36,00 DH",
+        "PH": "22,50 DH",
+        "PFHT": "21,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "COMPRIME"
+      }
+    }
+  ]
+}

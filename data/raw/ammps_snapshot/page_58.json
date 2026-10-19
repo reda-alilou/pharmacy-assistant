@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 58,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=58",
+  "fetched_at_utc": "2026-10-18T16:19:22.895651+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8251",
+      "brand_name": "BETNEVAL NEOMYCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "PP",
+        "Substance active": "BETAMETHASONE // NEOMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1%  /  /  0,35%",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "5668",
+      "brand_name": "BETOPTIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "BETAXOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "57,10 DH",
+        "PH": "35,70 DH",
+        "PFHT": "33,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.0025",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5669",
+      "brand_name": "BETOPTIC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "BETAXOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "58,20 DH",
+        "PH": "36,40 DH",
+        "PFHT": "34,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.005",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "8252",
+      "brand_name": "BEVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 1 ML",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE PURIFIEE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "109,30 DH",
+        "PH": "68,30 DH",
+        "PFHT": "65,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8253",
+      "brand_name": "BEVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS DE 1 ML",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE PURIFIEE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "663,00 DH",
+        "PH": "441,00 DH",
+        "PFHT": "420,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8254",
+      "brand_name": "BEVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 48 FLACONS DE 1 ML",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE PURIFIEE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "2.907.00 DH",
+        "PH": "2.580.00 DH",
+        "PFHT": "2.458.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1  ML",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9459",
+      "brand_name": "BEVAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 48 FLACONS DE 0,5 ML ( 1 DOSE )",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( HEPATITE B, ANTIGENE DE SURFACE )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 UG / 0,5 ML",
+        "Forme": "SUSPENSION POUR INJECTION INTRAMUSCULAIRE"
+      }
+    },
+    {
+      "source_record_id": "1334",
+      "brand_name": "BEVIRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MEBEVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "33,30 DH",
+        "PH": "20,80 DH",
+        "PFHT": "19,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1335",
+      "brand_name": "BEVIRAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "MEBEVERINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3110",
+      "brand_name": "BI-ANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MC PHARMA",
+        "PPV": "23,50 DH",
+        "PH": "14,70 DH",
+        "PFHT": "14,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  30   MG",
+        "Forme": "COMPRIME EFFERVESCENT SECABLE"
+      }
+    },
+    {
+      "source_record_id": "3111",
+      "brand_name": "BI-ANTAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 8",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MC PHARMA",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  30   MG",
+        "Forme": "COMPRIME EFFERVESCENT SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7370",
+      "brand_name": "Bi-HYPLOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "60,60 DH",
+        "PH": "37,90 DH",
+        "PFHT": "36,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7371",
+      "brand_name": "Bi-HYPLOS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LOSARTAN // HYDROCHLOROTHIAZIDE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "90,00 DH",
+        "PH": "56,20 DH",
+        "PFHT": "53,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  12,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3465",
+      "brand_name": "BI-ORAGIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 16",
+        "PP / GN": "GN",
+        "Substance active": "SPIRAMYCINE // METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "NOVOPHARMA",
+        "PPV": "60,90 DH",
+        "PH": "38,10 DH",
+        "PFHT": "36,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,5 MUI  /  250   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5221",
+      "brand_name": "BI-PROFENID",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "KETOPROFENE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "92,50 DH",
+        "PH": "57,60 DH",
+        "PFHT": "51,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5222",
+      "brand_name": "BI-PROFENID LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "KETOPROFENE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "59,70 DH",
+        "PH": "37,30 DH",
+        "PFHT": "35,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5224",
+      "brand_name": "BI-TILDIEM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "119,90 DH",
+        "PH": "74,90 DH",
+        "PFHT": "71,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "5225",
+      "brand_name": "BI-TILDIEM LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "97,50 DH",
+        "PH": "60,90 DH",
+        "PFHT": "58,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG",
+        "Forme": "COMPRIME ENROBE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4418",
+      "brand_name": "BIAFINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 186 G",
+        "PP / GN": "PP",
+        "Substance active": "TROLAMINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "71,00 DH",
+        "PH": "44,40 DH",
+        "PFHT": "42,28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,67 G",
+        "Forme": "EMULSION POUR APPLICATION CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "4419",
+      "brand_name": "BIAFINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 93 G",
+        "PP / GN": "PP",
+        "Substance active": "TROLAMINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "PHI",
+        "PPV": "41,10 DH",
+        "PH": "25,70 DH",
+        "PFHT": "24,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,67 G",
+        "Forme": "EMULSION POUR APPLICATION CUTANEE"
+      }
+    }
+  ]
+}

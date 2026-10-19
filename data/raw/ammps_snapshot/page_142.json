@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 142,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=142",
+  "fetched_at_utc": "2026-10-18T16:22:11.325068+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2042",
+      "brand_name": "DOPAMINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOPAMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "518,00 DH",
+        "PH": "344,00 DH",
+        "PFHT": "328,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "2043",
+      "brand_name": "DOPAMINE AGUETTANT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50 AMPOULES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DOPAMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "747,00 DH",
+        "PH": "496,00 DH",
+        "PFHT": "473,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "2779",
+      "brand_name": "DOPAMINE PIERRE FABRE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20 AMPOULES DE 5 ML",
+        "PP / GN": "NA",
+        "Substance active": "DOPAMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "733,00 DH",
+        "PH": "487,00 DH",
+        "PFHT": "464,31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2780",
+      "brand_name": "DOPAMINE PIERRE FABRE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 50 AMPOULE DE 10ML",
+        "PP / GN": "NA",
+        "Substance active": "DOPAMINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "519,00 DH",
+        "PH": "344,00 DH",
+        "PFHT": "328,48 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  10  ML",
+        "Forme": "SOLUTION INJECTABLE IV"
+      }
+    },
+    {
+      "source_record_id": "6199",
+      "brand_name": "DOPEZIL RANBAXY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "438,00 DH",
+        "PH": "291,00 DH",
+        "PFHT": "277,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6200",
+      "brand_name": "DOPEZIL RANBAXY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DONEPEZIL (CHLORHYDRATE)",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "276,00 DH",
+        "PH": "172,50 DH",
+        "PFHT": "164,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3127",
+      "brand_name": "DORAZ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "MC PHARMA",
+        "PPV": "88,90 DH",
+        "PH": "55,60 DH",
+        "PFHT": "52,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "5067",
+      "brand_name": "DORMICUM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10 AMPOULES DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "MIDAZOLAM",
+        "Classe thérapeutique": "NA",
+        "EPI": "ROCHE",
+        "PPV": "194,80 DH",
+        "PH": "121,40 DH",
+        "PFHT": "108,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  5  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9228",
+      "brand_name": "DORZAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "PHI",
+        "PPV": "89,00 DH",
+        "PH": "55,60 DH",
+        "PFHT": "52,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9273",
+      "brand_name": "DORZATIM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE) // TIMOLOL (MALEATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "PHI",
+        "PPV": "93,30 DH",
+        "PH": "58,30 DH",
+        "PFHT": "55,54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6664",
+      "brand_name": "DORZIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "88,90 DH",
+        "PH": "55,60 DH",
+        "PFHT": "52,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "6665",
+      "brand_name": "DORZIMOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE // TIMOLOL",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "103,40 DH",
+        "PH": "64,60 DH",
+        "PFHT": "61,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /   ML + 5   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "7521",
+      "brand_name": "DORZOSTILL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D’UN FLACON COMPTE - GOUTTES DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "DORZOLAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "75,10 DH",
+        "PH": "46,90 DH",
+        "PFHT": "44,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "2407",
+      "brand_name": "DOSTINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2 EN FLACON VERRE",
+        "PP / GN": "PP",
+        "Substance active": "CABERGOLINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "139,80 DH",
+        "PH": "87,40 DH",
+        "PFHT": "83,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2408",
+      "brand_name": "DOSTINEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 8 EN FLACON VERRE",
+        "PP / GN": "PP",
+        "Substance active": "CABERGOLINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "358,00 DH",
+        "PH": "238,00 DH",
+        "PFHT": "227,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9875",
+      "brand_name": "DOTAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MMOL  /  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9876",
+      "brand_name": "DOTAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MMOL  /  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9877",
+      "brand_name": "DOTAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "BAYER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MMOL  /  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2781",
+      "brand_name": "DOTAREM",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "326,00 DH",
+        "PH": "216,00 DH",
+        "PFHT": "206,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2782",
+      "brand_name": "DOTAREM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE GADOTERIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "MAPHAR",
+        "PPV": "521,00 DH",
+        "PH": "346,00 DH",
+        "PFHT": "329,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5 MMOL  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

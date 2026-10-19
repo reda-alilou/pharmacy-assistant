@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 10,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=10",
+  "fetched_at_utc": "2026-10-18T16:17:46.827303+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9284",
+      "brand_name": "ADRENALINE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "ADRENALINE (TARTRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "268,00 DH",
+        "PH": "168,00 DH",
+        "PFHT": "160,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9285",
+      "brand_name": "ADRENALINE SOTHEMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "ADRENALINE (TARTRATE)",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "SOTHEMA",
+        "PPV": "284,00 DH",
+        "PH": "189,00 DH",
+        "PFHT": "180,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,50   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2312",
+      "brand_name": "ADRIBLASTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "109,50 DH",
+        "PH": "68,40 DH",
+        "PFHT": "65,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "2313",
+      "brand_name": "ADRIBLASTINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "DOXORUBICINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "454,00 DH",
+        "PH": "302,00 DH",
+        "PFHT": "287,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "LYOPHILISAT"
+      }
+    },
+    {
+      "source_record_id": "499",
+      "brand_name": "ADRONAT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "164,50 DH",
+        "PH": "102,80 DH",
+        "PFHT": "97,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4781",
+      "brand_name": "ADVAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "TACROLIMUS",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "952,00 DH",
+        "PH": "671,00 DH",
+        "PFHT": "639,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4782",
+      "brand_name": "ADVAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "TACROLIMUS",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "1.399.00 DH",
+        "PH": "1.131.00 DH",
+        "PFHT": "1.077.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4783",
+      "brand_name": "ADVAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "TACROLIMUS",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "3.611.00 DH",
+        "PH": "3.305.00 DH",
+        "PFHT": "3.148.28 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "4784",
+      "brand_name": "ADVAGRAF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 100",
+        "PP / GN": "GN",
+        "Substance active": "TACROLIMUS",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "PROMOPHARM",
+        "PPV": "5.608.00 DH",
+        "PH": "5.361.00 DH",
+        "PFHT": "5.106.01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "GELULE A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "7707",
+      "brand_name": "ADVAQUENIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "HYDROXYCHLOROQUINE (SULFATE)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "40,60 DH",
+        "PH": "25,30 DH",
+        "PFHT": "24,15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "8134",
+      "brand_name": "ADVATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 5ML",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "POUDRE A DILUER POUR INJECTION INTRAVEINEUSE ET SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "8135",
+      "brand_name": "ADVATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 5ML",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UI",
+        "Forme": "POUDRE A DILUER POUR INJECTION INTRAVEINEUSE ET SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "8136",
+      "brand_name": "ADVATE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACON DE 5ML",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE A DILUER POUR INJECTION INTRAVEINEUSE ET SOLVANT"
+      }
+    },
+    {
+      "source_record_id": "4392",
+      "brand_name": "AERIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHI",
+        "PPV": "30,80 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "4393",
+      "brand_name": "AERIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "PP",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHI",
+        "PPV": "48,40 DH",
+        "PH": "30,20 DH",
+        "PFHT": "28,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4394",
+      "brand_name": "AERIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHI",
+        "PPV": "95,90 DH",
+        "PH": "59,90 DH",
+        "PFHT": "57,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4395",
+      "brand_name": "AERIUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "PP",
+        "Substance active": "DESLORATADINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PHI",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH",
+        "PFHT": "14,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6296",
+      "brand_name": "AEROL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "30,40 DH",
+        "PH": "19,00 DH",
+        "PFHT": "18,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "6043",
+      "brand_name": "AEROMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 200 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "BUDESONIDE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH",
+        "PFHT": "105,70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG",
+        "Forme": "SUSPENSION POUR PULVERISATION NASALE"
+      }
+    },
+    {
+      "source_record_id": "3",
+      "brand_name": "AERRANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "ISOFLURANE",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "AFRIC PHAR",
+        "PPV": "338,00 DH",
+        "PH": "225,00 DH",
+        "PFHT": "214,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1",
+        "Forme": "LIQUIDE POUR INHALATION"
+      }
+    }
+  ]
+}

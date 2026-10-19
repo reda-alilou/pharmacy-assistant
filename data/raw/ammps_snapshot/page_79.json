@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 79,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=79",
+  "fetched_at_utc": "2026-10-18T16:20:05.024366+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "3328",
+      "brand_name": "CATAFLAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (POTASSIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "42,60 DH",
+        "PH": "26,60 DH",
+        "PFHT": "25,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "DRAGEE"
+      }
+    },
+    {
+      "source_record_id": "3329",
+      "brand_name": "CATAFLAM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "DICLOFENAC (POTASSIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "29,50 DH",
+        "PH": "18,40 DH",
+        "PFHT": "16,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "6343",
+      "brand_name": "CATALGINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "17,50 DH",
+        "PH": "10,90 DH",
+        "PFHT": "9,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,25 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "6344",
+      "brand_name": "CATALGINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "34,00 DH",
+        "PH": "21,20 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "6345",
+      "brand_name": "CATALGINE ENFANTS & NOURRISSONS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "13,50 DH",
+        "PH": "8,40 DH",
+        "PFHT": "7,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,10 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "6346",
+      "brand_name": "CATALGINE NORMALE SACHET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ACIDE ACETYLSALICYLIQUE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "22,00 DH",
+        "PH": "13,70 DH",
+        "PFHT": "12,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,50 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "531",
+      "brand_name": "CATAPRESSAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CLONIDINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BOTTU",
+        "PPV": "139,20 DH",
+        "PH": "87,00 DH",
+        "PFHT": "82,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "532",
+      "brand_name": "CATAPRESSAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "CLONIDINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "25,40 DH",
+        "PH": "15,90 DH",
+        "PFHT": "15,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "36",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "51,40 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "37",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "90,50 DH",
+        "PH": "56,50 DH",
+        "PFHT": "53,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "38",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "39",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "131,60 DH",
+        "PH": "82,20 DH",
+        "PFHT": "78,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "40",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "131,00 DH",
+        "PH": "81,90 DH",
+        "PFHT": "78,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "41",
+      "brand_name": "CATEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CIPROFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "470,00 DH",
+        "PH": "312,00 DH",
+        "PFHT": "297,98 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "750   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "3613",
+      "brand_name": "CAVERJECT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON ET DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "ALPROSTADIL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "135,50 DH",
+        "PH": "84,40 DH",
+        "PFHT": "75,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 µg  /  1  ML",
+        "Forme": "LYOPHILISAT ET SOLUTION POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "3614",
+      "brand_name": "CAVERJECT",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON ET DE 1 SERINGUE PREREMPLIE",
+        "PP / GN": "PP",
+        "Substance active": "ALPROSTADIL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "180,30 DH",
+        "PH": "112,30 DH",
+        "PFHT": "100,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 µG  /  1  ML",
+        "Forme": "LYOPHILISAT ET SOLUTION POUR USAGE PARENTERAL"
+      }
+    },
+    {
+      "source_record_id": "6623",
+      "brand_name": "CEBEMYXINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "NEOMYCINE (SULFATE) // POLYMYXINE B (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "23,90 DH",
+        "PH": "14,90 DH",
+        "PFHT": "13,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,34 MUI  /  1 MUI",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6624",
+      "brand_name": "CEBEMYXINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "PP",
+        "Substance active": "NEOMYCINE (SULFATE) // POLYMYXINE B (SULFATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "20,40 DH",
+        "PH": "12,70 DH",
+        "PFHT": "11,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "340000 UI  /  1000000 UI",
+        "Forme": "POMMADE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6625",
+      "brand_name": "CEBESINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 10 ML",
+        "PP / GN": "PP",
+        "Substance active": "OXYBUPROCAINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "21,50 DH",
+        "PH": "13,40 DH",
+        "PFHT": "12,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.004",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7828",
+      "brand_name": "CECOLIN®",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 FLACONS MONODOSES.",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN PAPILLOMAVIRUS HUMAIN BIVALENT RECOMBINANT (TYPE 16, 18) (ESCHERICHIA COLI)",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "5.097.00 DH",
+        "PH": "4.836.00 DH",
+        "PFHT": "4.605.83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5  ML  /  DOSE",
+        "Forme": "SUSPENSION INJECTABLE EN FLACON MONODOSE"
+      }
+    }
+  ]
+}

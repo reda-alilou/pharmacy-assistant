@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 286,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=286",
+  "fetched_at_utc": "2026-10-18T16:27:00.069352+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9923",
+      "brand_name": "MOUNJARO 7,5 MG KWIKPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "TIRZEPATIDE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "SOTHEMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "SOLUTION INJECTABLE EN STYLO PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "9576",
+      "brand_name": "MOVART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "151,60 DH",
+        "PH": "94,70 DH",
+        "PFHT": "90,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG / 80 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9577",
+      "brand_name": "MOVART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "185,20 DH",
+        "PH": "115,70 DH",
+        "PFHT": "110,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG / 160 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9578",
+      "brand_name": "MOVART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "185,20 DH",
+        "PH": "115,70 DH",
+        "PFHT": "110,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG / 160 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9579",
+      "brand_name": "MOVART",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE // VALSARTAN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 MG / 320 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "990",
+      "brand_name": "MOVICOL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "PP",
+        "Substance active": "MACROGOL 3350 // BICARBONATE DE SODIUM // CHLORURE DE SODIUM // CHLORURE DE POTASSUIM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "68,40 DH",
+        "PH": "42,70 DH",
+        "PFHT": "40,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "7943",
+      "brand_name": "MOXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "130,30 DH",
+        "PH": "81,50 DH",
+        "PFHT": "77,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7944",
+      "brand_name": "MOXAM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "MOXIFLOXACINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "182,50 DH",
+        "PH": "114,00 DH",
+        "PFHT": "108,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400  MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "7161",
+      "brand_name": "MOZAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "92,50 DH",
+        "PH": "57,80 DH",
+        "PFHT": "55,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "7162",
+      "brand_name": "MOZAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "130,80 DH",
+        "PH": "81,80 DH",
+        "PFHT": "77,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "7163",
+      "brand_name": "MOZAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "49,30 DH",
+        "PH": "30,80 DH",
+        "PFHT": "29,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "7164",
+      "brand_name": "MOZAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "OMEPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "28,00 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "8620",
+      "brand_name": "MRBEV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50 AMPOULES DE 2.5 ML DE DILUANT « CHLORURE DE SODIUM »",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE (SOUCHE CAM-70) // RUBEOLE (SOUCHE WISTAR RA 27/3) )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION SOUS CUTANEE APRES RECONSTITUTION EN FLACON DE 2.5 ML (5 DOSES)"
+      }
+    },
+    {
+      "source_record_id": "8621",
+      "brand_name": "MRBEV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50 FLACONS DE 2.5 ML (5 DOSES)",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( ROUGEOLE (SOUCHE CAM-70) // RUBEOLE (SOUCHE WISTAR RA 27/3) )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION SOUS CUTANEE APRES RECONSTITUTION EN FLACON DE 2.5 ML (5 DOSES)"
+      }
+    },
+    {
+      "source_record_id": "8622",
+      "brand_name": "MRBEV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50 AMPOULES DE 5 ML DE DILUANT « CHLORURE DE SODIUM »",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( ROUGEOLE (SOUCHE CAM-70) // RUBEOLE (SOUCHE WISTAR RA 27/3) )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION SOUS CUTANEE APRES RECONSTITUTION EN FLACON DE 5 ML (10 DOSES)"
+      }
+    },
+    {
+      "source_record_id": "8623",
+      "brand_name": "MRBEV",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 50 FLACONS DE 5 ML (10 DOSES)",
+        "PP / GN": "Vaccin",
+        "Substance active": "VACCIN ( ROUGEOLE (SOUCHE CAM-70) // RUBEOLE (SOUCHE WISTAR RA 27/3) )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.5  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR INJECTION SOUS CUTANEE APRES RECONSTITUTION EN FLACON DE 5 ML (10 DOSES)"
+      }
+    },
+    {
+      "source_record_id": "3714",
+      "brand_name": "MUCICLAR ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "23,20 DH",
+        "PH": "14,40 DH",
+        "PFHT": "12,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "3715",
+      "brand_name": "MUCICLAR ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 300 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "44,80 DH",
+        "PH": "27,90 DH",
+        "PFHT": "24,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "3716",
+      "brand_name": "MUCICLAR ENFANT ET NOURRISSON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 125 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "14,90 DH",
+        "PH": "9,30 DH",
+        "PFHT": "8,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.02",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "3717",
+      "brand_name": "MUCICLAR SANS SUCRE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 300 ML",
+        "PP / GN": "PP",
+        "Substance active": "CARBOCISTEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "40,00 DH",
+        "PH": "24,90 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "generated_at_utc": "2026-10-19T14:30:01.613246+00:00",
+  "checkpoint": "qwen_return",
+  "status": "selected_and_final_smoke_verified_awaiting_user_validation",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "output_mode": "json_object",
+  "provider_enforced_schema": false,
+  "strict_local_schema_validation": true,
+  "raw_entity_evidence_validation": true,
+  "prompt_version": "step7-quantity-fragments-v2",
+  "local_spacing_seconds": 0,
+  "changed_dotenv_fields": [
+    "INFERENCE_PROVIDER",
+    "GROQ_OUTPUT_MODE"
+  ],
+  "keys_changed": false,
+  "reason_for_explicit_json_mode": "Observed malformed provider generations on the Arabic request in strict mode; JSON-object mode passed the same request.",
+  "prompt_change": "Explicitly retain unnamed quantity fragments rather than dropping their medication object.",
+  "live_runs": [
+    {
+      "report": "qwen_return_conversation.json",
+      "status": "failed_behavior",
+      "attempts_reserved": 4
+    },
+    {
+      "report": "qwen_return_conversation_v2.json",
+      "status": "passed",
+      "attempts_reserved": 3
+    },
+    {
+      "report": "qwen_return_arabic_pharmacy.json",
+      "status": "stopped_provider_error",
+      "attempts_reserved": 2
+    },
+    {
+      "report": "qwen_return_arabic_diagnostic.json",
+      "status": "stopped_error",
+      "attempts_reserved": 2
+    },
+    {
+      "report": "qwen_return_json_object_probe.json",
+      "status": "passed",
+      "attempts_reserved": 1
+    },
+    {
+      "report": "qwen_return_conversation_json.json",
+      "status": "passed",
+      "attempts_reserved": 3
+    },
+    {
+      "report": "qwen_return_arabic_pharmacy_json.json",
+      "status": "passed",
+      "attempts_reserved": 1
+    }
+  ],
+  "total_live_attempts_reserved": 16,
+  "final_smoke": {
+    "passed_requests": 4,
+    "provider_attempts_reserved": 4,
+    "latencies_ms": [
+      953.0,
+      797.0,
+      547.0,
+      1047.0
+    ],
+    "case_scope": [
+      "French ABIP lookup",
+      "Darija box-30 follow-up",
+      "French two-box total",
+      "Arabic pharmacy contact"
+    ],
+    "total_mad": "744.00",
+    "pharmacy_id": "saydalia:5256"
+  },
+  "offline_tests": {
+    "command": ".\\.venv\\Scripts\\python.exe -m unittest discover -s tests -q",
+    "passed": 202,
+    "failed": 0,
+    "duration_seconds": 26.097,
+    "log": "reports/qwen_return_offline_tests_final.log"
+  },
+  "no_automatic_mode_or_provider_fallback": true,
+  "paid_fallback": false,
+  "services_started_or_stopped": false,
+  "held_out_model_calls": 0,
+  "held_out_backend_cases_executed": 0,
+  "is_general_accuracy_measurement": false,
+  "full_development_live_baseline": "still_incomplete",
+  "source_sha256": {
+    "config.py": "e5cda88b5d8684fab6fe768f0ffcd6ed234e6537d99b5c5f2e080172d2d9f1c3",
+    "nlu.py": "6f618385fb50082249321d0d636e2636a31ad718bb237fca190ea192d7ef2648"
+  },
+  "next_step": "User restarts their own demo and validates the selected Groq/Qwen configuration."
+}

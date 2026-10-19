@@ -1,0 +1,63 @@
+{
+  "report_version": 2,
+  "evaluation_id": "79f241479ed944868d881f976e10d539",
+  "fingerprint": "acdadd69379f5b97c0af64bd1815c73425abd35153e8efda20aac86ff7258ed3",
+  "generated_at_utc": "2026-10-18T23:55:12.477867+00:00",
+  "mode": "live",
+  "provider": "gemini",
+  "model": "gemini-3.8-flash",
+  "output_mode": "json_schema",
+  "prompt_version": "step2-v1",
+  "fixture": "data\\evaluation\\interpretation_smoke.json",
+  "results": [],
+  "errors": [
+    {
+      "id": "fr-price",
+      "at_utc": "2026-10-18T23:55:12.584325+00:00",
+      "error": {
+        "code": "evaluation_budget_exhausted",
+        "message": "This invocation's provider request budget has been reached. Resume with a new explicit budget.",
+        "retryable": false,
+        "retry_after_seconds": null
+      }
+    },
+    {
+      "id": "fr-price",
+      "at_utc": "2026-10-18T23:57:49.876966+00:00",
+      "error": {
+        "code": "evaluation_budget_exhausted",
+        "message": "This invocation's provider request budget has been reached. Resume with a new explicit budget.",
+        "retryable": false,
+        "retry_after_seconds": null
+      }
+    }
+  ],
+  "invocations": [
+    {
+      "id": "3f373c03658749aa923d9b8f971efebb",
+      "started_at_utc": "2026-10-18T23:55:12.499661+00:00",
+      "max_requests": 0,
+      "attempts_reserved": 0,
+      "total_attempts_reserved": 0,
+      "finished_at_utc": "2026-10-18T23:55:12.584325+00:00"
+    },
+    {
+      "id": "59df6954496d4c4bb2fcb47afa390788",
+      "started_at_utc": "2026-10-18T23:57:49.791173+00:00",
+      "max_requests": 0,
+      "attempts_reserved": 0,
+      "total_attempts_reserved": 0,
+      "finished_at_utc": "2026-10-18T23:57:49.876966+00:00"
+    }
+  ],
+  "acceptance": "12 completed cases, at least 10 correct intent sets and 10 exact entity cases, no incorrect non-null entities",
+  "summary": {
+    "total_cases": 12,
+    "completed_cases": 0,
+    "intents_correct": 0,
+    "entities_exact_cases": 0,
+    "incorrect_nonnull_entities": 0,
+    "passed": false
+  },
+  "status": "paused_budget"
+}

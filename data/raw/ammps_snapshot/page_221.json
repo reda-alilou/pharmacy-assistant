@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 221,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=221",
+  "fetched_at_utc": "2026-10-18T16:24:49.668881+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8515",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  250   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "8516",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  500   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "8517",
+      "brand_name": "IMICIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25",
+        "PP / GN": "GN",
+        "Substance active": "IMIPENEME // CILASTATINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  500   MG",
+        "Forme": "POUDRE POUR PERFUSION INTAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "1874",
+      "brand_name": "IMIGRAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "SUMATRIPTAN SUCCINATE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "122,30 DH",
+        "PH": "76,40 DH",
+        "PFHT": "72,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6095",
+      "brand_name": "IMIZINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 4,5 G",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "ORL-STOMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "372,00 DH",
+        "PH": "247,00 DH",
+        "PFHT": "235,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.1",
+        "Forme": "PATE POUR USAGE DENTAIRE"
+      }
+    },
+    {
+      "source_record_id": "9689",
+      "brand_name": "IMJUDO 25 MG / 1,25 ML",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 1,25 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "TREMELIMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 MG / ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9690",
+      "brand_name": "IMJUDO 300 MG / 15 ML",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 15 ML DE SOLUTION",
+        "PP / GN": "PP",
+        "Substance active": "TREMELIMUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG / ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8518",
+      "brand_name": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B LFB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UNE SERINGUE EN VERRE PRE REMPLIE DE 1 ML AVEC AIGUILLE SEPAREE",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE (IM)"
+      }
+    },
+    {
+      "source_record_id": "8519",
+      "brand_name": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B LFB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UNE SERINGUE EN VERRE PRE REMPLIE DE 5 ML AVEC AIGUILLE SEPAREE",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE (IM)"
+      }
+    },
+    {
+      "source_record_id": "759",
+      "brand_name": "IMMUNOGLOBULINE NLE IV LFB-CNTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMSD",
+        "PPV": "990,00 DH",
+        "PH": "710,00 DH",
+        "PFHT": "677,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "POUDRE ET SOULVANT POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8888",
+      "brand_name": "IMMUNOGLOBULINE NLE IV LFB-CNTS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "AMSD",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  200  ML",
+        "Forme": "POUDRE ET SOULVANT POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7213",
+      "brand_name": "IMMUNOHBS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "1.035.00 DH",
+        "PH": "756,00 DH",
+        "PFHT": "720,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7214",
+      "brand_name": "IMMUNOHBS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE DE L'HEPATITE B",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "2.347.00 DH",
+        "PH": "2.005.00 DH",
+        "PFHT": "1.909.70 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "180 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4016",
+      "brand_name": "IMMUNORHO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE ANTI-D",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "PHARMA 5",
+        "PPV": "687,00 DH",
+        "PH": "457,00 DH",
+        "PFHT": "435,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300 µG (1500 UI)",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2857",
+      "brand_name": "IMODIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "LOPERAMIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "28,50 DH",
+        "PH": "17,80 DH",
+        "PFHT": "16,97 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "2858",
+      "brand_name": "IMOVANE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ZOPICLONE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "38,80 DH",
+        "PH": "24,30 DH",
+        "PFHT": "23,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8520",
+      "brand_name": "IMOVAX POLIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DE 10 FLACONS DE 5 ML (10 DOSES)",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN POLIOMYELITE INACTIVE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE EN MULTIDOSE"
+      }
+    },
+    {
+      "source_record_id": "3226",
+      "brand_name": "IMPLANON",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 + APPLICATEUR",
+        "PP / GN": "PP",
+        "Substance active": "ETONOGESTREL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MSD",
+        "PPV": "1.054.00 DH",
+        "PH": "776,00 DH",
+        "PFHT": "739,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "68   MG",
+        "Forme": "IMPLANT A USAGE SOUS CUTANE"
+      }
+    },
+    {
+      "source_record_id": "3175",
+      "brand_name": "IMPLANON NXT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 ETUI DE 1 IMPLANT",
+        "PP / GN": "PP",
+        "Substance active": "ETONOGESTREL",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "1.338.00 DH",
+        "PH": "1.069.00 DH",
+        "PFHT": "1.018.47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "68   MG",
+        "Forme": "IMPLANT A USAGE SOUS CUTANE"
+      }
+    },
+    {
+      "source_record_id": "1588",
+      "brand_name": "IMTUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN (CHLORHYDRATE TRIHYDRATE)",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "1.313.00 DH",
+        "PH": "1.043.00 DH",
+        "PFHT": "993,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    }
+  ]
+}

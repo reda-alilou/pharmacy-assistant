@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 427,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=427",
+  "fetched_at_utc": "2026-10-18T16:31:42.807793+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7421",
+      "brand_name": "TAVILOX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "LEVOFLOXACINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "95,60 DH",
+        "PH": "59,80 DH",
+        "PFHT": "56,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE SECABLE"
+      }
+    },
+    {
+      "source_record_id": "3039",
+      "brand_name": "TAXOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "PACLITAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "619,00 DH",
+        "PH": "411,00 DH",
+        "PFHT": "392,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6   MG  /   ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5448",
+      "brand_name": "TAXOTERE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "FLACON DE 0,5 ML + 1 AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "1.057.00 DH",
+        "PH": "779,00 DH",
+        "PFHT": "742,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  0,5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5449",
+      "brand_name": "TAXOTERE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 1 ML + 1 AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "772,00 DH",
+        "PH": "513,00 DH",
+        "PFHT": "488,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG  /  1  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5450",
+      "brand_name": "TAXOTERE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 2 ML + 1AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "3.096.00 DH",
+        "PH": "2.776.00 DH",
+        "PFHT": "2.644.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  2  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5451",
+      "brand_name": "TAXOTERE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 4 ML + 1 AMPOULE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "DOCETAXEL",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "2.394.00 DH",
+        "PH": "2.053.00 DH",
+        "PFHT": "1.954.90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG  /  4  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3172",
+      "brand_name": "TAZID LM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MC PHARMA",
+        "PPV": "49,00 DH",
+        "PH": "30,60 DH",
+        "PFHT": "29,17 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "3173",
+      "brand_name": "TAZID LM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MC PHARMA",
+        "PPV": "83,00 DH",
+        "PH": "51,90 DH",
+        "PFHT": "49,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "3174",
+      "brand_name": "TAZID LM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 90",
+        "PP / GN": "GN",
+        "Substance active": "TRIMETAZIDINE (DICHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MC PHARMA",
+        "PPV": "112,00 DH",
+        "PH": "70,00 DH",
+        "PFHT": "66,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "35   MG",
+        "Forme": "COMPRIME PELLICULE A LIBERATION MODIFIEE"
+      }
+    },
+    {
+      "source_record_id": "1090",
+      "brand_name": "TAZOBAC PIPERACILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PIPERACILLINE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "155,70 DH",
+        "PH": "97,30 DH",
+        "PFHT": "92,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G  /  500   MG",
+        "Forme": "POUDRE POUR SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "3753",
+      "brand_name": "TAZOCILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "PIPERACILLINE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "203,00 DH",
+        "PH": "127,00 DH",
+        "PFHT": "121,06 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G  /  500   MG",
+        "Forme": "POUDRE POUR SOLUTION EN PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8889",
+      "brand_name": "TAZOCILLINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PIPERACILLINE // TAZOBACTAM",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PFIZER",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G  /  250   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1761",
+      "brand_name": "TECAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "GN",
+        "Substance active": "IRINOTECAN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "1.313.00 DH",
+        "PH": "1.043.00 DH",
+        "PFHT": "993,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7080",
+      "brand_name": "TECENTRIQ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "ATEZOLIZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "40.180.00 DH",
+        "PH": "39.400.00 DH",
+        "PFHT": "39.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1200   MG  /  20  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "7964",
+      "brand_name": "TECENTRIQ",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "ATEZOLIZUMAB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "27.015.00 DH",
+        "PH": "26.493.00 DH",
+        "PFHT": "26.093.47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "840  MG / 14 ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "7962",
+      "brand_name": "TECFIDERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "DIMETHYL FUMARATE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "1.376.00 DH",
+        "PH": "1.108.00 DH",
+        "PFHT": "1.055.82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120  MG",
+        "Forme": "GELULES GASTRO-RESISTANTES"
+      }
+    },
+    {
+      "source_record_id": "7963",
+      "brand_name": "TECFIDERA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "DIMETHYL FUMARATE",
+        "Classe thérapeutique": "IMMUNOMODULATEURS",
+        "EPI": "SOTHEMA",
+        "PPV": "8.781.00 DH",
+        "PH": "8.616.00 DH",
+        "PFHT": "8.216.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "240  MG",
+        "Forme": "GELULES GASTRO-RESISTANTES"
+      }
+    },
+    {
+      "source_record_id": "217",
+      "brand_name": "TECPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "40,00 DH",
+        "PH": "25,00 DH",
+        "PFHT": "23,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,25   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "218",
+      "brand_name": "TECPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "120,00 DH",
+        "PH": "75,00 DH",
+        "PFHT": "71,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "219",
+      "brand_name": "TECPRIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "RAMIPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "50,00 DH",
+        "PH": "31,20 DH",
+        "PFHT": "29,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "GELULE"
+      }
+    }
+  ]
+}

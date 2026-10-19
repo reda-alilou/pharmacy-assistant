@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 442,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=442",
+  "fetched_at_utc": "2026-10-18T16:32:12.805588+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8902",
+      "brand_name": "TRESIBA PENFILL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 CARTOUCHES",
+        "PP / GN": "BS",
+        "Substance active": "INSULINE DEGLUDEC",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1111",
+      "brand_name": "TRESORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 150 ML",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // CARNITINE // LYSINE // VITAMINE B12 // VITAMINE B1 // VITAMINE B6",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "30,30 DH",
+        "PH": "18,90 DH",
+        "PFHT": "18,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "1112",
+      "brand_name": "TRESORIX FORTE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CYPROHEPTADINE // CARNITINE // LYSINE // VITAMINE B12",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "22,20 DH",
+        "PH": "13,90 DH",
+        "PFHT": "13,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "223",
+      "brand_name": "TRETACNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "140,20 DH",
+        "PH": "87,60 DH",
+        "PFHT": "83,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "224",
+      "brand_name": "TRETACNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "233,00 DH",
+        "PH": "146,00 DH",
+        "PFHT": "139,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "225",
+      "brand_name": "TRETACNE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ISOTRETINOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "84,10 DH",
+        "PH": "52,60 DH",
+        "PFHT": "50,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "7493",
+      "brand_name": "TREVICTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE (PALMITATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "5.780.00 DH",
+        "PH": "5.539.00 DH",
+        "PFHT": "5.275.31 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "175   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE ET 2 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "7494",
+      "brand_name": "TREVICTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE (PALMITATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "7.394.00 DH",
+        "PH": "7.200.00 DH",
+        "PFHT": "6.857.22 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "263   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE ET 2 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "7495",
+      "brand_name": "TREVICTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE (PALMITATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "9.009.00 DH",
+        "PH": "8.840.00 DH",
+        "PFHT": "8.440.66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "350   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE ET 2 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "7496",
+      "brand_name": "TREVICTA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "PALIPERIDONE (PALMITATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "8.563.00 DH",
+        "PH": "8.403.00 DH",
+        "PFHT": "8.003.14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "525   MG",
+        "Forme": "SUSPENSION INJECTABLE A LIBERATION PROLONGEE EN SERINGUE PRE-REMPLIE ET 2 AIGUILLES"
+      }
+    },
+    {
+      "source_record_id": "491",
+      "brand_name": "TREXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "49,10 DH",
+        "PH": "30,70 DH",
+        "PFHT": "29,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "492",
+      "brand_name": "TREXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "28,10 DH",
+        "PH": "17,50 DH",
+        "PFHT": "16,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7545",
+      "brand_name": "TREXIMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "62,10 DH",
+        "PH": "38,80 DH",
+        "PFHT": "36,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /  2  ML (25   MG  /   ML)",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION FLACON DE 2 ML"
+      }
+    },
+    {
+      "source_record_id": "7546",
+      "brand_name": "TREXIMED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "METHOTREXATE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "205,00 DH",
+        "PH": "128,50 DH",
+        "PFHT": "122,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  5  ML (100   MG  /   ML)",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION FLACON DE 5 ML"
+      }
+    },
+    {
+      "source_record_id": "3758",
+      "brand_name": "TRI-MINULET",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "PP",
+        "Substance active": "GESTODENE // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PFIZER",
+        "PPV": "83,30 DH",
+        "PH": "52,00 DH",
+        "PFHT": "49,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,05   MG  /  0,03   MG - 0,07   MG  /  0,04   MG - 0,1   MG  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "4210",
+      "brand_name": "TRIACEPHINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "4211",
+      "brand_name": "TRIACEPHINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "106,80 DH",
+        "PH": "66,80 DH",
+        "PFHT": "63,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE IM"
+      }
+    },
+    {
+      "source_record_id": "4212",
+      "brand_name": "TRIACEPHINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "4213",
+      "brand_name": "TRIACEPHINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "1 FLACON DE POUDRE ET 1 AMPOULE DE SOLVANT",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "57,00 DH",
+        "PH": "35,60 DH",
+        "PFHT": "33,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    },
+    {
+      "source_record_id": "4214",
+      "brand_name": "TRIACEPHINE PHARMA5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO / Export",
+        "Présentation": "BOITE DED'UN FLACON DE POUDRE POUR SOLUTION POUR PERFUSION",
+        "PP / GN": "GN",
+        "Substance active": "CEFTRIAXONE (SODIQUE)",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "252,00 DH",
+        "PH": "157,70 DH",
+        "PFHT": "150,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE (IV)"
+      }
+    }
+  ]
+}

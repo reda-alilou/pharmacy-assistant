@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 456,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=456",
+  "fetched_at_utc": "2026-10-18T16:32:40.905093+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "5484",
+      "brand_name": "VACCIN MENINGOCOCCIQUE A+C POLYOSIDIQUE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "POUDRE ET SOLVANT POUR SUSPENSION INJECTABLE BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( NEISSERIA MENINGITIDIS ACYW135, POLYOSIDE LYOPHILISE )",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "94,00 DH",
+        "PH": "58,70 DH",
+        "PFHT": "55,96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "POUDRE (1 DOSE) EN FLACON + 0,5 ML DE SOLVANT EN SERINGUE PREREMPLIE. BOITE UNITAIRE"
+      }
+    },
+    {
+      "source_record_id": "8940",
+      "brand_name": "VACCIN PNEUMOCOCCIQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "PP",
+        "Substance active": "POLYOSIDIQUE CONUE 13 VALENT 38,8UG/0,5 ML",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "IPM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "NA",
+        "Forme": "SUSPENSION INJECTABLE, EN SERINGUE PRE REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "9222",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9223",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "83,70 DH",
+        "PH": "52,30 DH",
+        "PFHT": "49,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /   10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9224",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "112,10 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9225",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9226",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "83,70 DH",
+        "PH": "52,30 DH",
+        "PFHT": "49,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9227",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "112,10 DH",
+        "PH": "70,10 DH",
+        "PFHT": "66,75 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  10   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9567",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 7 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "67,60 DH",
+        "PH": "42,30 DH",
+        "PFHT": "40,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9568",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "131,70 DH",
+        "PH": "82,30 DH",
+        "PFHT": "78,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9569",
+      "brand_name": "VADUET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "AMLODIPINE (BESILATE) // ATORVASTATINE (CALCIQUE TRIHYDRATEE)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "176,40 DH",
+        "PH": "110,00 DH",
+        "PFHT": "105,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  20   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "2671",
+      "brand_name": "VAGIFEM",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 15 CP AVEC APPLICATEURS",
+        "PP / GN": "PP",
+        "Substance active": "ESTRADIOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "171,50 DH",
+        "PH": "106,80 DH",
+        "PFHT": "95,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG",
+        "Forme": "COMPRIME VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "5529",
+      "brand_name": "VALDOXAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "AGOMELATINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "SERVIER",
+        "PPV": "289,00 DH",
+        "PH": "192,50 DH",
+        "PFHT": "183,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5530",
+      "brand_name": "VALDOXAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "AGOMELATINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "249,00 DH",
+        "PH": "155,60 DH",
+        "PFHT": "138,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5012",
+      "brand_name": "VALEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "VALACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "142,50 DH",
+        "PH": "89,10 DH",
+        "PFHT": "84,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5013",
+      "brand_name": "VALEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 42",
+        "PP / GN": "GN",
+        "Substance active": "VALACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "404,00 DH",
+        "PH": "268,00 DH",
+        "PFHT": "255,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5014",
+      "brand_name": "VALEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 7",
+        "PP / GN": "GN",
+        "Substance active": "VALACICLOVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "78,10 DH",
+        "PH": "48,80 DH",
+        "PFHT": "46,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5111",
+      "brand_name": "VALIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "DIAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ROCHE",
+        "PPV": "22,70 DH",
+        "PH": "14,20 DH",
+        "PFHT": "13,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5112",
+      "brand_name": "VALIUM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "PP",
+        "Substance active": "DIAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ROCHE",
+        "PPV": "20,00 DH",
+        "PH": "12,50 DH",
+        "PFHT": "11,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "5113",
+      "brand_name": "VALIUM GOUTTES",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "SOLUTION BUVABLE EN FLACON DE 20 ML",
+        "PP / GN": "PP",
+        "Substance active": "DIAZEPAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "ROCHE",
+        "PPV": "26,80 DH",
+        "PH": "16,70 DH",
+        "PFHT": "15,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    }
+  ]
+}

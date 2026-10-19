@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 331,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=331",
+  "fetched_at_utc": "2026-10-18T16:28:30.255937+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9100",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "9101",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 7 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "9102",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 14 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "9103",
+      "brand_name": "PANTOPRAZOLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28 GELULES",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE SODIUM SESQUIHYDRATE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "PHARMA 5",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "MICROGRANULES GASTRO-RESISTANTS EN GELULE"
+      }
+    },
+    {
+      "source_record_id": "309",
+      "brand_name": "PANTOPRAZOLE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "48,10 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,63 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "310",
+      "brand_name": "PANTOPRAZOLE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "85,90 DH",
+        "PH": "53,70 DH",
+        "PFHT": "51,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "311",
+      "brand_name": "PANTOPRAZOLE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "70,10 DH",
+        "PH": "43,80 DH",
+        "PFHT": "41,72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "312",
+      "brand_name": "PANTOPRAZOLE GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "133,50 DH",
+        "PH": "83,40 DH",
+        "PFHT": "79,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "COMPRIME GASTRO-RESISTANT"
+      }
+    },
+    {
+      "source_record_id": "6955",
+      "brand_name": "PANTOPRAZOLE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 50 FLACONS DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "1.292.00 DH",
+        "PH": "1.021.00 DH",
+        "PFHT": "972,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6956",
+      "brand_name": "PANTOPRAZOLE NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 10 ML",
+        "PP / GN": "GN",
+        "Substance active": "PANTOPRAZOLE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "IBERMA",
+        "PPV": "40,80 DH",
+        "PH": "25,50 DH",
+        "PFHT": "24,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9424",
+      "brand_name": "PAPILLIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "PALBOCICLIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "12.212.00 DH",
+        "PH": "11.980.00 DH",
+        "PFHT": "11.580.80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75  MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9425",
+      "brand_name": "PAPILLIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "PALBOCICLIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "12.212.00 DH",
+        "PH": "11.980.00 DH",
+        "PFHT": "11.580.80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "9426",
+      "brand_name": "PAPILLIO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "PALBOCICLIB",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "12.212.00 DH",
+        "PH": "11.980.00 DH",
+        "PFHT": "11.580.80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125  MG",
+        "Forme": "GELULES"
+      }
+    },
+    {
+      "source_record_id": "648",
+      "brand_name": "PARA SPECIAL POUX",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE",
+        "PP / GN": "NA",
+        "Substance active": "PIPERONYLE (BUTOXYDE) // DEPALLETHRINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BOTTU",
+        "PPV": "74,70 DH",
+        "PH": "46,50 DH",
+        "PFHT": "41,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1,80 G  /  7,20 G",
+        "Forme": "SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "4968",
+      "brand_name": "PARACETAL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "NA",
+        "EPI": "PROMOPHARM",
+        "PPV": "11,70 DH",
+        "PH": "7,30 DH",
+        "PFHT": "6,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4533",
+      "brand_name": "PARACETAMOL B.BRAUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 POCHES DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PHI",
+        "PPV": "225,00 DH",
+        "PH": "140,90 DH",
+        "PFHT": "134,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "4534",
+      "brand_name": "PARACETAMOL B.BRAUN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 POCHES DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PHI",
+        "PPV": "130,10 DH",
+        "PH": "81,30 DH",
+        "PFHT": "77,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5043",
+      "brand_name": "PARACETAMOL MACOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "RIM PHARMA",
+        "PPV": "28,20 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "5044",
+      "brand_name": "PARACETAMOL MACOPHARMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "POCHE DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "RIM PHARMA",
+        "PPV": "15,60 DH",
+        "PH": "9,70 DH",
+        "PFHT": "9,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "6957",
+      "brand_name": "PARACETAMOL NORMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 POCHE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "IBERMA",
+        "PPV": "26,50 DH",
+        "PH": "16,60 DH",
+        "PFHT": "15,80 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 344,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=344",
+  "fetched_at_utc": "2026-10-18T16:28:56.683906+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9920",
+      "brand_name": "PLERIFOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN FLACON DE 2 ML CONTENANT 1,2 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "PLERIXAFOR",
+        "Classe thérapeutique": "HEMATOLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20 MG / ML",
+        "Forme": "SOLUTION POUR INJECTION"
+      }
+    },
+    {
+      "source_record_id": "7358",
+      "brand_name": "PLUDAK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DACLATASVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "999,00 DH",
+        "PH": "720,00 DH",
+        "PFHT": "686,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8704",
+      "brand_name": "PLUMOCIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 FLACONS",
+        "PP / GN": "RX",
+        "Substance active": "MACROAGREGATS D’ALBUMINE HUMAINE PLASMATIQUE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7295",
+      "brand_name": "PLUSO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SOFOSBUVIR",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "1.499.00 DH",
+        "PH": "1.235.00 DH",
+        "PFHT": "1.176.74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7384",
+      "brand_name": "PLUSO PLUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "LEDIPASVIR // SOFOSBUVIR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "2.239.00 DH",
+        "PH": "1.893.00 DH",
+        "PFHT": "1.802.96 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "90   MG  /  400   MG",
+        "Forme": "COMPRIME PELICULLE"
+      }
+    },
+    {
+      "source_record_id": "5389",
+      "brand_name": "PNEUMO 23",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE D'UNE SERINGUE DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE POLYOSIDIQUE )",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "162,00 DH",
+        "PH": "100,90 DH",
+        "PFHT": "90,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1DOSE",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5522",
+      "brand_name": "PNEUMOREL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "FENSPIRIDE (CHLORHYDRATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SERVIER",
+        "PPV": "67,60 DH",
+        "PH": "42,10 DH",
+        "PFHT": "37,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "7171",
+      "brand_name": "PNEUMOVAX 23",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10 SERINGUES PRE REMPLIES DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE POLYOSIDIQUE 23-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "1.817.00 DH",
+        "PH": "1.562.00 DH",
+        "PFHT": "1.488.10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG  /  DOSE",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7172",
+      "brand_name": "PNEUMOVAX 23",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE SERINGUE PRE REMPLIE DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE POLYOSIDIQUE 23-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "MSD",
+        "PPV": "293,00 DH",
+        "PH": "195,30 DH",
+        "PFHT": "186,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25 µG  /  DOSE",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "7220",
+      "brand_name": "PODOXRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 50 ML",
+        "PP / GN": "GN",
+        "Substance active": "PEMETREXED DISODIQUE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "4.647.00 DH",
+        "PH": "4.372.00 DH",
+        "PFHT": "4.163.81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "9371",
+      "brand_name": "POLAMINOFEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UNE POCHE DE 100 ML DE SOLUTION",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL",
+        "Classe thérapeutique": "ANESTHESIE-REANIMATION",
+        "EPI": "PHARMAPROM",
+        "PPV": "28,20 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION IV"
+      }
+    },
+    {
+      "source_record_id": "3536",
+      "brand_name": "POLERY ADULTE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 200ML",
+        "PP / GN": "GN",
+        "Substance active": "EXTRAIT FLUIDE D'ERYSIMUM CODEINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVOPHARMA",
+        "PPV": "23,90 DH",
+        "PH": "14,90 DH",
+        "PFHT": "13,30 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.00024",
+        "Forme": "SIROP"
+      }
+    },
+    {
+      "source_record_id": "9250",
+      "brand_name": "POLGYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "POCHE DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "METRONIDAZOLE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "PHARMAPROM",
+        "PPV": "30,70 DH",
+        "PH": "19,20 DH",
+        "PFHT": "18,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /  100   MG ( 0,5% )",
+        "Forme": "SOLUTION POUR PERFUSUION (IV)"
+      }
+    },
+    {
+      "source_record_id": "8705",
+      "brand_name": "POLIO SABIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "FLACONS DE 10 DOSES",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN DE LA POLIOMYELITE",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN SUSPENSION POUR ADMINISTRATION ORALE"
+      }
+    },
+    {
+      "source_record_id": "9786",
+      "brand_name": "POLITECHDTPA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TROUSSE DE 6 FLACONS EN VERRE DE 10 ML",
+        "PP / GN": "RX",
+        "Substance active": "DIETHYLENE TRIAMINEPENTAACETATE DE SODIUM MONOHYDRATE",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "13,25   MG",
+        "Forme": "PREPARATION RADIOPHARMACEUTIQUE"
+      }
+    },
+    {
+      "source_record_id": "9785",
+      "brand_name": "POLITECHMIBI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TROUSSE DE 6 FLACONS EN VERRE DE 10 ML",
+        "PP / GN": "RX",
+        "Substance active": "TETRAKIS (TETRA-FLUOROBORATE)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG",
+        "Forme": "PREPARATION RADIOPHARMACEUTIQUE"
+      }
+    },
+    {
+      "source_record_id": "8706",
+      "brand_name": "POLIVY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLAÇON",
+        "PP / GN": "PP",
+        "Substance active": "POLATUZUMAB VEDOTIN",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "92.200.00 DH",
+        "PH": "90.400.00 DH",
+        "PFHT": "90.000.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "140   MG",
+        "Forme": "POUDRE POUR SOLUTION A DILUER"
+      }
+    },
+    {
+      "source_record_id": "9874",
+      "brand_name": "POLTECHMDP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "TROUSSE DE 6 FLACONS EN VERRE DE 10 ML",
+        "PP / GN": "RX",
+        "Substance active": "ACIDE METHYLENEDIPHOSPHONIQUE (MDP)",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "PREPARATION RADIOPHARMACEUTIQUE"
+      }
+    },
+    {
+      "source_record_id": "8707",
+      "brand_name": "POLTECHNET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "16 FLACONS DE 10 ML D'ELUANT ET 16 FLACONS SOUS VIDE (FLACONS POUR L'ELUAT)",
+        "PP / GN": "RX",
+        "Substance active": "MOLYBDATE (99Mo) DE SODIUM // PERTECHNETATE (99m Tc) DE SODIUM",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "CYCLOPHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "8,0 - 175 GBQ",
+        "Forme": "GENERATEUR DE RADIONUCLEIDES EN SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8708",
+      "brand_name": "POLYBAC",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "GENTAMICINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "40   MG",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

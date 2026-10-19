@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-10-18T16:02:49.676706+00:00",
+  "mode": "live_http",
+  "request": {
+    "text": "Bch7al AIRCORT?"
+  },
+  "status_code": 200,
+  "response": {
+    "interpretation": {
+      "language": "darija",
+      "reply_language": "darija",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "AIRCORT",
+            "strength": null,
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "metadata": {
+      "provider": "groq",
+      "requested_model": "qwen/qwen3.8-27b",
+      "model": "qwen/qwen3.8-27b",
+      "prompt_version": "step2-v1",
+      "latency_ms": 2531.0,
+      "attempts": 2,
+      "completion_id": "chatcmpl-0798df44-b994-4e26-b064-8ab3fe486f91",
+      "usage": {
+        "prompt_tokens": 697,
+        "completion_tokens": 98,
+        "total_tokens": 795
+      },
+      "usage_scope": "successful_attempt"
+    }
+  }
+}

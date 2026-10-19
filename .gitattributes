@@ -1,0 +1,11 @@
+# Allow normal Windows line endings in source diffs.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Evidence manifests hash exact file bytes. Do not normalize these on checkout.
+/data/evaluation/** -text
+/data/processed/*.jsonl -text
+/data/raw/ammps_snapshot/*.json -text
+/reports/** -text -whitespace
+
+# Preserve collected parser fixtures rather than rewriting source HTML.
+/data/raw/source_discovery/*.html -text -whitespace

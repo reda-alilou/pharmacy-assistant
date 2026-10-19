@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 185,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=185",
+  "fetched_at_utc": "2026-10-18T16:23:37.518390+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8468",
+      "brand_name": "FORXIGA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "DAPAGLIFLOZINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "MAPHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3215",
+      "brand_name": "FOSAMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ALENDRONIQUE",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MSD",
+        "PPV": "229,00 DH",
+        "PH": "143,20 DH",
+        "PFHT": "136,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3216",
+      "brand_name": "FOSAVANCE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE ALENDRONIQUE // VITAMINE D3 (CHOLECALCIFEROL)",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "180,90 DH",
+        "PH": "113,10 DH",
+        "PFHT": "107,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "70   MG  /  5600 UI",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1579",
+      "brand_name": "FOSEAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 180",
+        "PP / GN": "GN",
+        "Substance active": "SEVELAMER (CHLORHYDRATE)",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "GENERATION SANTE",
+        "PPV": "808,00 DH",
+        "PH": "537,00 DH",
+        "PFHT": "512,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4912",
+      "brand_name": "FOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE // FORMOTEROL (FUMARATE DIHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "291,00 DH",
+        "PH": "193,80 DH",
+        "PFHT": "184,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100  /  6 µG",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "7577",
+      "brand_name": "FOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE (DIPROPIONATE ANHYDRE) // FORMOTEROL (FUMARATE DIHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "510,00 DH",
+        "PH": "339,00 DH",
+        "PFHT": "322,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 µG  /  6 µG",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "7578",
+      "brand_name": "FOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE (DIPROPIONATE ANHYDRE) // FORMOTEROL (FUMARATE DIHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "387,00 DH",
+        "PH": "257,00 DH",
+        "PFHT": "245,27 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 µG  /  6 µG",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9711",
+      "brand_name": "FOSTER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN INHALATEUR DE 120 DOSES",
+        "PP / GN": "PP",
+        "Substance active": "BECLOMETASONE (DIPROPIONATE) // FORMOTEROL (FUMARATE DIHYDRATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "PROMOPHARM",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200 μg / 6 μg PAR INHALATION",
+        "Forme": "POUDRE POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "6680",
+      "brand_name": "FOSTIMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 FL+5 SERINGUES DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "UROFOLLITROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.161.00 DH",
+        "PH": "886,00 DH",
+        "PFHT": "844,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150 UI  /   ML",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6681",
+      "brand_name": "FOSTIMON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 5 FL+5 SERINGUES DE SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "UROFOLLITROPINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "886,00 DH",
+        "PH": "589,00 DH",
+        "PFHT": "561,11 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 UI  /   ML",
+        "Forme": "POUDRE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2439",
+      "brand_name": "FRAGMIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "B/10 SERINGUES PRE/REMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "DALTEPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "265,00 DH",
+        "PH": "166,00 DH",
+        "PFHT": "158,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2500 UI  /  0,2  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2440",
+      "brand_name": "FRAGMIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "B/10 SERINGUES PRE/REMPLIES",
+        "PP / GN": "PP",
+        "Substance active": "DALTEPARINE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "457,00 DH",
+        "PH": "304,00 DH",
+        "PFHT": "289,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5000 UI  /  0,2  ML",
+        "Forme": "SOLUTE INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "6682",
+      "brand_name": "FRAKIDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 5 G",
+        "PP / GN": "PP",
+        "Substance active": "FRAMYCETINE (SULFATE) // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "19,40 DH",
+        "PH": "12,10 DH",
+        "PFHT": "11,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "315 000 UI  /  0,1 G",
+        "Forme": "POMMADE OPHTALMIQUE"
+      }
+    },
+    {
+      "source_record_id": "6683",
+      "brand_name": "FRAKIDEX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 5 ML",
+        "PP / GN": "PP",
+        "Substance active": "FRAMYCETINE (SULFATE) // DEXAMETHASONE",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "630 000 UI  /  0,01 G",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "6684",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "272,00 DH",
+        "PH": "181,00 DH",
+        "PFHT": "172,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2850 UI AXA  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6685",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "66,70 DH",
+        "PH": "41,70 DH",
+        "PFHT": "39,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2850 UI AXA  /  0,3  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6686",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "322,00 DH",
+        "PH": "214,00 DH",
+        "PFHT": "203,87 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3800 UI AXA  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6687",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "76,50 DH",
+        "PH": "47,80 DH",
+        "PFHT": "45,55 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3800 UI AXA  /  0,4  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6688",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "124,70 DH",
+        "PH": "77,90 DH",
+        "PFHT": "74,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5700 UI AXA  /  0,6  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "6689",
+      "brand_name": "FRAXIPARINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "NADROPARINE CALCIQUE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "178,20 DH",
+        "PH": "111,30 DH",
+        "PFHT": "106,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "7600 UI ANTI XA  /  0,8  ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    }
+  ]
+}

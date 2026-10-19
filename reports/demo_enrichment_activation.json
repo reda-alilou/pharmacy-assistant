@@ -1,0 +1,51 @@
+{
+  "status": "activated",
+  "activated_at_utc": "2026-10-19T18:58:55.110348+00:00",
+  "backup_directory": "data\\processed\\archive\\demo_before_enrichment_20261019T185854238193Z",
+  "backup_checksums": {
+    "data\\processed\\ammps_medications_enriched.jsonl": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+    "data\\processed\\medicament_medications.jsonl": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+    "data\\processed\\saydalia_medications.jsonl": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+    "data\\processed\\pharmacies_rabat.jsonl": "5877b4d754213cb75854a624ceb9473050d87e469da762aff2dda0bcd82812bc",
+    "data\\processed\\pharmacy_duty_observations.jsonl": "c2539715e9a17e4ef5b367395fdefab3e02ba3e9503e7afd3f241ae23f12e04a",
+    "reports\\ammps_quality.json": "a78e2cf680d999426aa6c2c490f05d330114886b9ea4010ea11bd76fa91709b2",
+    "reports\\reference_data_quality.json": "f2cbfed84bbbf1530cb2c5cbd477fec40f70475bcb520fdb2439c9692e729b31",
+    "reports\\pharmacies_rabat_quality.json": "7947fb66f0e2538b499d6c64fb0bffe36ef4b138c17dc1cb8e9249c57b0d5019"
+  },
+  "active_dataset_sha256": {
+    "ammps_medications_enriched.jsonl": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+    "medicament_medications.jsonl": "7848ba75c2bc75d7f31a005579f14299e92cb2ddde1a632b00f9ee38747c5b9c",
+    "saydalia_medications.jsonl": "1ce9177be9482886e3c406b04653f100821ad30d93b0a1d21371dc17b975c763",
+    "pharmacies_rabat.jsonl": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+    "pharmacy_duty_observations.jsonl": "6cf1b37c98facb3f0ba62ea13ec07b4a74d1060c6657c539acc338457747942a"
+  },
+  "medication_records": 9936,
+  "enriched_presentations": 2700,
+  "source_records": {
+    "medicament": 1008,
+    "saydalia": 5299
+  },
+  "rabat_pharmacies": 327,
+  "services_started_or_stopped": false,
+  "inference_requests": 0,
+  "restart_required": true,
+  "collection_cutoff_accepted": true,
+  "candidate_manifest": "data\\staging\\demo_enrichment_v1\\manifest.json",
+  "backup_rechecked": true,
+  "active_hashes_rechecked": true,
+  "activation_idempotence_checked": true,
+  "api_check_report": "reports/demo_enrichment_activation_api_checks.json",
+  "active_backend_report": "reports/development_backend_enrichment_active.json",
+  "validation": {
+    "offline_tests_passed": 219,
+    "test_seconds": 175.264,
+    "test_log": "reports/demo_enrichment_activation_tests_final.log",
+    "active_backend_cases_passed": 40,
+    "active_backend_report": "reports/development_backend_enrichment_active.json",
+    "api_checks_passed": true,
+    "api_report": "reports/demo_enrichment_activation_api_checks.json",
+    "live_provider_requests": 0,
+    "held_out_executed": false,
+    "is_model_accuracy_measurement": false
+  }
+}

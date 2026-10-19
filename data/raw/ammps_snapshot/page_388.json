@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 388,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=388",
+  "fetched_at_utc": "2026-10-18T16:30:24.583854+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "8790",
+      "brand_name": "RYDAPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 112",
+        "PP / GN": "PP",
+        "Substance active": "MIDOSTAURINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "8791",
+      "brand_name": "RYDAPT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 56",
+        "PP / GN": "PP",
+        "Substance active": "MIDOSTAURINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "CAPSULE MOLLE"
+      }
+    },
+    {
+      "source_record_id": "6503",
+      "brand_name": "RYTHMODAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "DIPYRIDAMOLE",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "46,80 DH",
+        "PH": "29,20 DH",
+        "PFHT": "27,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "6867",
+      "brand_name": "RYZODEG FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 STYLOS PRE REMPLIS",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE DEGLUDEC // INSULINE ASPRATE (INTERMEDAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "900,00 DH",
+        "PH": "617,00 DH",
+        "PFHT": "588,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 U  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN CARTOUCHE DE 3 ML"
+      }
+    },
+    {
+      "source_record_id": "7455",
+      "brand_name": "RYZODEG FLEXTOUCH",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 STYLO PRE-REMPLI DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE DEGLUDEC // INSULINE ASPRATE (INTERMEDAIRE)",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "198,00 DH",
+        "PH": "123,70 DH",
+        "PFHT": "117,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8792",
+      "brand_name": "RYZODEG PENFILL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 5 CARTOUCHES DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "INSULINE DEGLUDEC // INSULINE ASPRATE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "4547",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "96,40 DH",
+        "PH": "60,30 DH",
+        "PFHT": "57,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4548",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "144,20 DH",
+        "PH": "90,10 DH",
+        "PFHT": "85,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4549",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "253,00 DH",
+        "PH": "158,60 DH",
+        "PFHT": "151,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4550",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "121,60 DH",
+        "PH": "76,00 DH",
+        "PFHT": "72,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4551",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "178,20 DH",
+        "PH": "111,40 DH",
+        "PFHT": "106,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4552",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "51,00 DH",
+        "PH": "31,90 DH",
+        "PFHT": "30,37 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4553",
+      "brand_name": "S-CITAP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "ESCITALOPRAM",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "CIPLA",
+        "PPV": "74,80 DH",
+        "PH": "46,70 DH",
+        "PFHT": "44,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3171",
+      "brand_name": "S-CORT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MC PHARMA",
+        "PPV": "34,70 DH",
+        "PH": "21,70 DH",
+        "PFHT": "20,65 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT SECABLE"
+      }
+    },
+    {
+      "source_record_id": "9374",
+      "brand_name": "SAFLU 100 CIPHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "129,30 DH",
+        "PH": "80,80 DH",
+        "PFHT": "76,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100 MCG  /  50 MCG  /  DOSE",
+        "Forme": "POUDRE POUR INHALATION EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "1041",
+      "brand_name": "SAFLU 125",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 µg  /  25 µg",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9379",
+      "brand_name": "SAFLU 125 SYNCHROBREATHE SB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125 UG / 25 UG / DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "1042",
+      "brand_name": "SAFLU 250",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "185,00 DH",
+        "PH": "115,60 DH",
+        "PFHT": "110,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 µg  /  25 µg",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "9375",
+      "brand_name": "SAFLU 250 CIPHALER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "148,80 DH",
+        "PH": "93,00 DH",
+        "PFHT": "88,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 MCG  /  50 MCG  /  DOSE",
+        "Forme": "POUDRE POUR INHALATION EN RECIPIENT UNIDOSE"
+      }
+    },
+    {
+      "source_record_id": "9380",
+      "brand_name": "SAFLU 250 SYNCHROBREATHE SB",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "FLUTICASONE (PROPIONATE) // SALMETEROL (XINAFOATE)",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "CIPLA",
+        "PPV": "185,00 DH",
+        "PH": "115,60 DH",
+        "PFHT": "110,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UG / 25 UG / DOSE",
+        "Forme": "SUSPENSION POUR INHALATION"
+      }
+    }
+  ]
+}

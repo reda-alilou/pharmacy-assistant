@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 421,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=421",
+  "fetched_at_utc": "2026-10-18T16:31:30.811813+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1957",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 SERINGUE DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "496,00 DH",
+        "PH": "329,00 DH",
+        "PFHT": "314,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "1958",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10 SERINGUES DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "2.759.00 DH",
+        "PH": "2.428.00 DH",
+        "PFHT": "2.313.07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SUSPENSION INJECTABLE EN SERINGUE PRE-REMPLI"
+      }
+    },
+    {
+      "source_record_id": "8863",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 FLACONS DE 0,5 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN SUSPENSION INJECTABLE EN FLACON"
+      }
+    },
+    {
+      "source_record_id": "8864",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 FLACON DE 1 ML",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN SUSPENSION INJECTABLE EN FLACON DE 2 DOSES"
+      }
+    },
+    {
+      "source_record_id": "8865",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 RECIPIENTS",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN SUSPENSION INJECTABLE EN RECIPIENT MULTI-DOSES 4 DOSES"
+      }
+    },
+    {
+      "source_record_id": "8866",
+      "brand_name": "SYNFLORIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 100 RECIPIENTS",
+        "PP / GN": "VACCIN",
+        "Substance active": "VACCIN ( PNEUMOCOCCIQUE OSIDIQUE CONJUGUE 10-VALENT )",
+        "Classe thérapeutique": "VACCINS",
+        "EPI": "GSK",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "VACCIN SUSPENSION INJECTABLE EN RECIPIENT MULTI-DOSES 4 DOSES"
+      }
+    },
+    {
+      "source_record_id": "8890",
+      "brand_name": "SYNJARDY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "EMPAGLIFLOZINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "448,00 DH",
+        "PH": "298,00 DH",
+        "PFHT": "284,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 MG / 1000 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "9570",
+      "brand_name": "SYNJARDY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "EMPAGLIFLOZINE // METFORMINE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "BOTTU",
+        "PPV": "448,00 DH",
+        "PH": "298,00 DH",
+        "PFHT": "284,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "12,5 MG / 1000 MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "1080",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "183,20 DH",
+        "PH": "114,50 DH",
+        "PFHT": "109,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1081",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "303,00 DH",
+        "PH": "201,00 DH",
+        "PFHT": "191,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1082",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "63,50 DH",
+        "PH": "39,70 DH",
+        "PFHT": "37,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1083",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "125,00 DH",
+        "PH": "78,10 DH",
+        "PFHT": "74,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1084",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "31,30 DH",
+        "PH": "19,60 DH",
+        "PFHT": "18,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1085",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "55,20 DH",
+        "PH": "34,50 DH",
+        "PFHT": "32,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1086",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "140,20 DH",
+        "PH": "87,60 DH",
+        "PFHT": "83,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1087",
+      "brand_name": "SYNNAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "LAMOTRIGINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "246,00 DH",
+        "PH": "154,20 DH",
+        "PFHT": "146,85 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1959",
+      "brand_name": "SYNTHOL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "NA",
+        "Substance active": "HYDRATE DE CHLORAL // MENTHOL // VERATROLE // RESORCINOL // ACIDE SALICYLIQUE // HUILE ESSENTIELLE DE GERANIUM // HUILE ESSENTIELLE DE CEDRAT",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "16,60 DH",
+        "PH": "10,40 DH",
+        "PFHT": "9,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,936 G  /  0,26 G  /  0,26 G  /  0,021 G  /  0,105 G  /  0,0026 G  /  0,00 26 G",
+        "Forme": "LIQUIDE"
+      }
+    },
+    {
+      "source_record_id": "2660",
+      "brand_name": "SYNTOCINON",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3 AMPOULESS DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "OXYTOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,10 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 UI  /  1  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2661",
+      "brand_name": "SYSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 20 G",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPHENOXAMINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "15,50 DH",
+        "PH": "9,70 DH",
+        "PFHT": "9,23 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "15   MG  /  G",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "2662",
+      "brand_name": "SYSTRAL C",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "CHLORPHENOXAMINE (CHLORHYDRATE) // CAFEINE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    }
+  ]
+}

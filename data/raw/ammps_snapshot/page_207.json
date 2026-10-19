@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 207,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=207",
+  "fetched_at_utc": "2026-10-18T16:24:21.601529+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "7281",
+      "brand_name": "HEMAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE D'UN FLACON DE POUDRE ET UNE AMPOULE DE 2 ML DE SOLVANT AVEC UNE SERINGUE JETABLE ET DEUX AIGUILLES",
+        "PP / GN": "BS",
+        "Substance active": "EPOETINE ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ERGO MAROC",
+        "PPV": "1.060.00 DH",
+        "PH": "782,00 DH",
+        "PFHT": "745,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10000 UI  /  1  ML",
+        "Forme": "POUDRE LYOPHILISEE POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5308",
+      "brand_name": "HEMI DAONIL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "GLIBENCLAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "28,40 DH",
+        "PH": "17,70 DH",
+        "PFHT": "16,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "7506",
+      "brand_name": "HEMLIBRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "EMICIZUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "56.531.00 DH",
+        "PH": "55.431.00 DH",
+        "PFHT": "55.031.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "105   MG  /  0,7  ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "7507",
+      "brand_name": "HEMLIBRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "EMICIZUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "80.588.00 DH",
+        "PH": "79.016.00 DH",
+        "PFHT": "78.616.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG  /  1  ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "7508",
+      "brand_name": "HEMLIBRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "EMICIZUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "16.437.00 DH",
+        "PH": "16.123.00 DH",
+        "PFHT": "15.723.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG  /   ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "7509",
+      "brand_name": "HEMLIBRA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "EMICIZUMAB",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ROCHE",
+        "PPV": "32.475.00 DH",
+        "PH": "31.846.00 DH",
+        "PFHT": "31.446.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG  /  0,4  ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS-CUTANEE"
+      }
+    },
+    {
+      "source_record_id": "7780",
+      "brand_name": "HEMMOTOCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 100 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXYTOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMAPROM",
+        "PPV": "403,00 DH",
+        "PH": "267,00 DH",
+        "PFHT": "255,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8496",
+      "brand_name": "HEMMOTOCIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3 AMPOULES DE 1 ML",
+        "PP / GN": "GN",
+        "Substance active": "OXYTOCINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PHARMAPROM",
+        "PPV": "16,10 DH",
+        "PH": "10,00 DH",
+        "PFHT": "9,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 UI  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8497",
+      "brand_name": "HEMO-BIC",
+      "details": {
+        "Statut AMM": "AMM SUSPENDUE",
+        "Statut commercialisation": "Suspendu du Marché",
+        "Présentation": "BOITE DE 10 POCHES",
+        "PP / GN": "GN",
+        "Substance active": "BICARBONATE DE SODIUM",
+        "Classe thérapeutique": "NA",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "650 G",
+        "Forme": "POUDRE POUR SOLUTION CONCENTRE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2062",
+      "brand_name": "HEMO-PUR A",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE MAGNESIUM // CHLORURE DE CALCIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "63,20 DH",
+        "PH": "39,50 DH",
+        "PFHT": "37,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION CONCENTREE ACIDE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2063",
+      "brand_name": "HEMO-PUR A1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "71,70 DH",
+        "PH": "44,80 DH",
+        "PFHT": "42,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2064",
+      "brand_name": "HEMO-PUR A1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 6 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "72,00 DH",
+        "PH": "45,00 DH",
+        "PFHT": "42,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2065",
+      "brand_name": "HEMO-PUR A1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1000 L",
+        "PP / GN": "GN",
+        "Substance active": "SOLUTION CONCENTREE ACIDE POUR HEMODIALYSE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "5.062.00 DH",
+        "PH": "4.799.00 DH",
+        "PFHT": "4.571.20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "TRANSCUVE"
+      }
+    },
+    {
+      "source_record_id": "2066",
+      "brand_name": "HEMO-PUR A1",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "96,00 DH",
+        "PH": "60,00 DH",
+        "PFHT": "57,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "172,19  /  5,49  /  9,48  /  3,74  /  8,85 G  /  L",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2067",
+      "brand_name": "HEMO-PUR A2",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "107,40 DH",
+        "PH": "67,10 DH",
+        "PFHT": "63,90 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2068",
+      "brand_name": "HEMO-PUR A2",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "63,20 DH",
+        "PH": "39,50 DH",
+        "PFHT": "37,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2069",
+      "brand_name": "HEMO-PUR A2",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 6 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "75,80 DH",
+        "PH": "47,40 DH",
+        "PFHT": "45,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2070",
+      "brand_name": "HEMO-PUR A5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 10 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "111,50 DH",
+        "PH": "69,70 DH",
+        "PFHT": "66,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    },
+    {
+      "source_record_id": "2071",
+      "brand_name": "HEMO-PUR A5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "1000 L",
+        "PP / GN": "GN",
+        "Substance active": "SOLUTION CONCENTREE ACIDE POUR HEMODIALYSE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "5.816.00 DH",
+        "PH": "5.575.00 DH",
+        "PFHT": "5.310.40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "TRANSCUVE"
+      }
+    },
+    {
+      "source_record_id": "2072",
+      "brand_name": "HEMO-PUR A5",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BIDON DE 5 L",
+        "PP / GN": "GN",
+        "Substance active": "CHLORURE DE SODIUM // CHLORURE DE POTASSIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM // ACIDE ACETIQUE",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "65,60 DH",
+        "PH": "41,00 DH",
+        "PFHT": "39,05 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "210,62  /  5,21  /  9  /  3,55  /  6,31 G  /  L",
+        "Forme": "SOLUTE POUR HEMODIALYSE"
+      }
+    }
+  ]
+}

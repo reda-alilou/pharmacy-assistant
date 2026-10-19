@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 90,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=90",
+  "fetched_at_utc": "2026-10-18T16:20:27.101279+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "370",
+      "brand_name": "CHRONOADALATE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "68,60 DH",
+        "PH": "42,90 DH",
+        "PFHT": "40,83 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "30   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "371",
+      "brand_name": "CHRONOADALATE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "180,50 DH",
+        "PH": "112,80 DH",
+        "PFHT": "107,45 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "372",
+      "brand_name": "CHRONOADALATE LP",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "NIFEDIPINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "BAYER",
+        "PPV": "48,20 DH",
+        "PH": "30,10 DH",
+        "PFHT": "28,67 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "60   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "8299",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "8300",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "8301",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "8302",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9133",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10  SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9134",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "4 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9135",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 10  SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "9136",
+      "brand_name": "CHRONOLAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 SACHETS",
+        "PP / GN": "GN",
+        "Substance active": "MACROGOL 4000",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10 G",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE EN SACHET"
+      }
+    },
+    {
+      "source_record_id": "5563",
+      "brand_name": "CIALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "117,20 DH",
+        "PH": "73,30 DH",
+        "PFHT": "69,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5689",
+      "brand_name": "CIALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 2",
+        "PP / GN": "PP",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "224,00 DH",
+        "PH": "139,60 DH",
+        "PFHT": "124,61 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5690",
+      "brand_name": "CIALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4",
+        "PP / GN": "PP",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "437,00 DH",
+        "PH": "290,00 DH",
+        "PFHT": "259,07 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5691",
+      "brand_name": "CIALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "PP",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "582,00 DH",
+        "PH": "387,00 DH",
+        "PFHT": "368,58 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5692",
+      "brand_name": "CIALIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "TADALAFIL",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "971,00 DH",
+        "PH": "691,00 DH",
+        "PFHT": "658,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "533",
+      "brand_name": "CICADERMA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "PP",
+        "Substance active": "HOMEO",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "40,50 DH",
+        "PH": "25,30 DH",
+        "PFHT": "24,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "5693",
+      "brand_name": "CICATRYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE DE 80 G",
+        "PP / GN": "PP",
+        "Substance active": "PARACHLOROMETACRESOL // GAIAZULENE // ALPHATOCOPHEROL (ACETATE) // ALLANTOINE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "17,90 DH",
+        "PH": "11,20 DH",
+        "PFHT": "10,68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "POMMADE"
+      }
+    },
+    {
+      "source_record_id": "828",
+      "brand_name": "CICLOHALE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 120 DOSES",
+        "PP / GN": "GN",
+        "Substance active": "CICLOSENIDE MICRONISE",
+        "Classe thérapeutique": "PNEUMOLOGIE-ALLERGOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "98,00 DH",
+        "PH": "61,20 DH",
+        "PFHT": "58,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "80 µG",
+        "Forme": "SOLUTION POUR INHALATION"
+      }
+    },
+    {
+      "source_record_id": "53",
+      "brand_name": "CICLOVIRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 10 G",
+        "PP / GN": "GN",
+        "Substance active": "ACICLOVIR",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "38,90 DH",
+        "PH": "24,30 DH",
+        "PFHT": "23,19 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.05",
+        "Forme": "CREME"
+      }
+    }
+  ]
+}

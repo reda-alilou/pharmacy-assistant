@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 242,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=242",
+  "fetched_at_utc": "2026-10-18T16:25:31.804632+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "2262",
+      "brand_name": "KLARCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "102,00 DH",
+        "PH": "63,50 DH",
+        "PFHT": "56,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2263",
+      "brand_name": "KLARCINE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "SPIMACO MAROC",
+        "PPV": "192,20 DH",
+        "PH": "119,80 DH",
+        "PFHT": "106,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "952",
+      "brand_name": "KLEAN-PREP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE (4+4)",
+        "PP / GN": "PP",
+        "Substance active": "MACROGOL 3350 // SULFATE DE SODIUM // BICARBONATE DE SODIUM // CHLORURE DE SODIUM // CHLORURE DE POTASSUIM",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "COOPER PHARMA",
+        "PPV": "127,40 DH",
+        "PH": "79,60 DH",
+        "PFHT": "75,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "59 G  /  5,6850 G  /  1,6850 G  /  1,4650 G  /  0,7225 G",
+        "Forme": "SACHET"
+      }
+    },
+    {
+      "source_record_id": "2298",
+      "brand_name": "KLIACEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFACLOR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "KOSMOPHARM",
+        "PPV": "86,70 DH",
+        "PH": "54,20 DH",
+        "PFHT": "51,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG  /  5  ML",
+        "Forme": "POUDRE POUR SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2504",
+      "brand_name": "KLIOGEST",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "PP",
+        "Substance active": "ESTRADIOL // NORETHISTERONE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "106,50 DH",
+        "PH": "66,40 DH",
+        "PFHT": "59,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  1   MG",
+        "Forme": "COMPRIME PELLICULE SOUS DISTRIBUTEUR JOURNALIER"
+      }
+    },
+    {
+      "source_record_id": "2885",
+      "brand_name": "KLIPAL CODEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "PARACETAMOL // CODEINE",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "MAPHAR",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,82 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG  /  25   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "9017",
+      "brand_name": "KOATE-DVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE POUDRE ET UN FLACON DE 5 ML DE SOLVANT",
+        "PP / GN": "BS",
+        "Substance active": "FACTEUR VIII DE COAGULATION SANGUINE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.752.00 DH",
+        "PH": "1.495.00 DH",
+        "PFHT": "1.424.12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI  /  5 ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "9037",
+      "brand_name": "KOATE-DVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE POUDRE ET UN FLACON DE 5 ML DE SOLVANT",
+        "PP / GN": "BS",
+        "Substance active": "FACTEUR VIII DE COAGULATION SANGUINE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "1.071.00 DH",
+        "PH": "794,00 DH",
+        "PFHT": "756,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UI  /  5  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "9038",
+      "brand_name": "KOATE-DVI",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D’UN FLACON DE POUDRE ET UN FLACON DE 10 ML DE SOLVANT",
+        "PP / GN": "BS",
+        "Substance active": "FACTEUR VIII DE COAGULATION SANGUINE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "3.577.00 DH",
+        "PH": "3.271.00 DH",
+        "PFHT": "3.115.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI  /  10  ML",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE INTRAVEINEUSE"
+      }
+    },
+    {
+      "source_record_id": "395",
+      "brand_name": "KOGENATE FS BAYER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON +1 SERINGUE",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "6.936.00 DH",
+        "PH": "6.728.00 DH",
+        "PFHT": "6.408.54 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1000 UI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "396",
+      "brand_name": "KOGENATE FS BAYER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1FLACON DE +1SERINGUE",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "1.952.00 DH",
+        "PH": "1.700.00 DH",
+        "PFHT": "1.619.94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250 UI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "397",
+      "brand_name": "KOGENATE FS BAYER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1FLACON DE + 1SERINGUE",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG ALFA",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "3.704.00 DH",
+        "PH": "3.401.00 DH",
+        "PFHT": "3.239.88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2197",
+      "brand_name": "KOMBIGLYSE XR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "PP",
+        "Substance active": "METFORMINE // SAXAGLIPTINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "IBERMA",
+        "PPV": "386,00 DH",
+        "PH": "256,00 DH",
+        "PFHT": "244,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2,5   MG  /  1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4375",
+      "brand_name": "KOMBIGLYSE XR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "METFORMINE // SAXAGLIPTINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHARMIS",
+        "PPV": "386,00 DH",
+        "PH": "256,00 DH",
+        "PFHT": "244,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  1000   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4376",
+      "brand_name": "KOMBIGLYSE XR",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "METFORMINE // SAXAGLIPTINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "PHARMIS",
+        "PPV": "386,00 DH",
+        "PH": "256,00 DH",
+        "PFHT": "244,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG  /  500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "5076",
+      "brand_name": "KONAKION MM",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 1 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE K1",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "62,00 DH",
+        "PH": "38,70 DH",
+        "PFHT": "36,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION DE MICELLES MIXTES POUR INJECTION OU VOIE ORALE"
+      }
+    },
+    {
+      "source_record_id": "5077",
+      "brand_name": "KONAKION MM PEDIATRIQUE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 5 AMPOULES DE 0,2 ML",
+        "PP / GN": "PP",
+        "Substance active": "VITAMINE K1",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "115,90 DH",
+        "PH": "72,40 DH",
+        "PFHT": "69,00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,2  ML",
+        "Forme": "SOLUTION POUR USAGE ORAL OU PARENTERAL (IM/IV)"
+      }
+    },
+    {
+      "source_record_id": "4023",
+      "brand_name": "KOPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE (METASULFOBENZOATE SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "36,40 DH",
+        "PH": "22,80 DH",
+        "PFHT": "21,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "4024",
+      "brand_name": "KOPRED",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "PREDNISOLONE (METASULFOBENZOATE SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "PHARMA 5",
+        "PPV": "23,00 DH",
+        "PH": "14,40 DH",
+        "PFHT": "13,69 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME EFFERVESCENT"
+      }
+    },
+    {
+      "source_record_id": "7931",
+      "brand_name": "KOVALTRY",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE UNITAIRE AVEC UN FLACON DE POUDRE ET SERINGUE PREREMPLIE DU SOLVANT",
+        "PP / GN": "PP",
+        "Substance active": "OCTOCOG Alfa (rFVIII)",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BAYER",
+        "PPV": "1.424.00 DH",
+        "PH": "1.157.00 DH",
+        "PFHT": "1.102.26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250UI",
+        "Forme": "POUDRE EN FLACON ET SOLVANT POUR SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    }
+  ]
+}

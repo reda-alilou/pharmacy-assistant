@@ -1,0 +1,133 @@
+{
+  "generated_at_utc": "2026-10-19T18:51:14.979945+00:00",
+  "status": "activated",
+  "staging_only": false,
+  "collection_cutoff_accepted": true,
+  "inference_requests": 0,
+  "source_records": {
+    "medicament": {
+      "previous_records": 60,
+      "verified_collected_records": 988,
+      "selected_records": 1008,
+      "retained_previous_only": 20,
+      "policy": "Latest complete observation per source ID, keeping earlier IDs not refreshed",
+      "quality": {
+        "records": 1008,
+        "unique_ids": 1008,
+        "unique_source_urls": 1008,
+        "missing_fields": {
+          "dosage": 152,
+          "form": 3,
+          "presentation": 1,
+          "active_substance": 24,
+          "ppv_price_mad": 97,
+          "atc_code": 132,
+          "reimbursement_raw": 309
+        },
+        "non_full_atc_observations": 31,
+        "invalid_atc_observations": 7
+      },
+      "collection_complete": false,
+      "original_manifest_sha256": "1f696958c5a3c559b4c8a5d7072d7caacd579943df6999070a116b2c76d06c6e",
+      "prior_snapshot_sha256": "767510f8f7204f2dac76a895bc46acaf9d89c638dea6f1cc14ee57678d0b7344",
+      "frozen_records_sha256": "7848ba75c2bc75d7f31a005579f14299e92cb2ddde1a632b00f9ee38747c5b9c"
+    },
+    "saydalia": {
+      "previous_records": 36,
+      "verified_collected_records": 5299,
+      "selected_records": 5299,
+      "retained_previous_only": 0,
+      "policy": "Latest complete observation per source ID, keeping earlier IDs not refreshed",
+      "quality": {
+        "records": 5299,
+        "unique_ids": 5299,
+        "unique_source_urls": 5299,
+        "missing_fields": {
+          "dosage": 688,
+          "form": 21,
+          "presentation": 4,
+          "active_substance": 103,
+          "ppv_price_mad": 402,
+          "atc_code": 535,
+          "reimbursement_raw": 1817
+        },
+        "non_full_atc_observations": 180,
+        "invalid_atc_observations": 36
+      },
+      "collection_complete": true,
+      "original_manifest_sha256": "9c390179bd7b22c4cb0225ba9500f7897d83eefab47d43339b6e12ed4e05d93d",
+      "prior_snapshot_sha256": "122d8129c7ba4bdda9bd4c337dbea701fb8927067d3260d16ff0a5ff603c01b9",
+      "frozen_records_sha256": "1ce9177be9482886e3c406b04653f100821ad30d93b0a1d21371dc17b975c763"
+    }
+  },
+  "official_records": 9936,
+  "official_facts_unchanged": true,
+  "active_catalogue_sha256": "bd8e6d784c121a47e690650ee8be854e285d445a040a31b2e7fc8ba30a441eb0",
+  "candidate_sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+  "baseline_enriched_presentations": 27,
+  "enriched_presentations": 2700,
+  "records_with_atc": 2662,
+  "records_with_reimbursement": 1979,
+  "matched_observations": 3128,
+  "matched_by_source": {
+    "medicament.ma": 482,
+    "saydalia.ma": 2646
+  },
+  "unmatched_observations": 3179,
+  "ambiguous_observations": 0,
+  "conflicts": 1258,
+  "invalid_atc_observations": 43,
+  "pharmacies": {
+    "records": 327,
+    "unique_ids": 327,
+    "missing_phone": 0,
+    "invalid_phone_format": 0,
+    "missing_address": 11,
+    "possible_duplicate_id_groups": [],
+    "verified_duty_records": 0,
+    "verified_opening_hours": 0,
+    "stock_available": false
+  },
+  "pharmacy_candidate_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+  "quality_passed": true,
+  "policy": "Only unique exact normalized brand, dosage, form and package joins; official facts retained; unmatched observations remain separate",
+  "publication": "Activated after user approval; previous files backed up",
+  "validation": {
+    "offline_tests": 219,
+    "offline_tests_passed": true,
+    "test_log": "reports/demo_enrichment_offline_tests.log",
+    "backend_development_cases": {
+      "cases": 40,
+      "passed_cases": 40,
+      "single_turn": {
+        "cases": 32,
+        "passed_cases": 32
+      },
+      "conversation": {
+        "cases": 8,
+        "passed_cases": 8
+      },
+      "conversation_medication_decisions": {
+        "correct": 8,
+        "total": 8
+      },
+      "medication_decisions_with_annotated_extraction": {
+        "correct": 21,
+        "total": 21
+      },
+      "failures_by_component": {},
+      "broad_candidate_lists": 3,
+      "focused_candidate_lists": 3
+    },
+    "backend_report": "reports/development_backend_enrichment_candidate_v1.json",
+    "cached_hash_checks_passed": true,
+    "pharmacy_retrieval_checks_passed": 8,
+    "active_datasets_unchanged": true,
+    "collectors_remaining": 0,
+    "held_out_executed": false,
+    "is_model_accuracy_measurement": false,
+    "inference_requests": 0
+  },
+  "candidate_validation_status": "validated_pending_user_review",
+  "activation_report": "reports/demo_enrichment_activation.json"
+}

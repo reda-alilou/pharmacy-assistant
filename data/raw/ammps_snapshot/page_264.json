@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 264,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=264",
+  "fetched_at_utc": "2026-10-18T16:26:15.974288+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9162",
+      "brand_name": "LOZYXA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30 COMPRIMES PELLICULES",
+        "PP / GN": "GN",
+        "Substance active": "OLANZAPINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "BOTTU",
+        "PPV": "106,00 DH",
+        "PH": "66,30 DH",
+        "PFHT": "63,13 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2.5   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "3375",
+      "brand_name": "LUCENTIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 AMPOULE DE 0,23 ML",
+        "PP / GN": "PP",
+        "Substance active": "RANIBIZUMAB",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "6.492.00 DH",
+        "PH": "6.271.00 DH",
+        "PFHT": "5.972.68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "8602",
+      "brand_name": "LUCENTIS",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "RANIBIZUMAB",
+        "Classe thérapeutique": "NA",
+        "EPI": "NOVARTIS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN SERINGUE PRE-REMPLIE"
+      }
+    },
+    {
+      "source_record_id": "2896",
+      "brand_name": "LUCRIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE",
+        "PP / GN": "PP",
+        "Substance active": "LEUPRORELINE (ACETATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "2.410.00 DH",
+        "PH": "2.069.00 DH",
+        "PFHT": "1.970.64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "11,25   MG",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2897",
+      "brand_name": "LUCRIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 SERINGUE",
+        "PP / GN": "PP",
+        "Substance active": "LEUPRORELINE (ACETATE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "1.143.00 DH",
+        "PH": "867,00 DH",
+        "PFHT": "826,56 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "3,75   MG",
+        "Forme": "SUSPENSION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2898",
+      "brand_name": "LUDEAL GE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 PLAQUETTE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "ETHINYLESTRADIOL // LEVONORGESTREL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "8,80 DH",
+        "PH": "5,50 DH",
+        "PFHT": "4,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2899",
+      "brand_name": "LUDEAL GE",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 3 PLAQUETTE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "ETHINYLESTRADIOL // LEVONORGESTREL",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "22,70 DH",
+        "PH": "14,10 DH",
+        "PFHT": "12,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,15  /  0,03   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "2900",
+      "brand_name": "LUDIOMIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "MAPROTILINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "37,50 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,32 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2901",
+      "brand_name": "LUDIOMIL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "MAPROTILINE (CHLORHYDRATE)",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "MAPHAR",
+        "PPV": "66,10 DH",
+        "PH": "41,30 DH",
+        "PFHT": "39,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "9548",
+      "brand_name": "LUMAPRO",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 3 ML",
+        "PP / GN": "GN",
+        "Substance active": "BIMATOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "139,70 DH",
+        "PH": "87,30 DH",
+        "PFHT": "83,16 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3   MG  /  ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "155",
+      "brand_name": "LUMIGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "BIMATOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "214,00 DH",
+        "PH": "134,30 DH",
+        "PFHT": "127,95 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,3   MG",
+        "Forme": "COLLYRE"
+      }
+    },
+    {
+      "source_record_id": "7012",
+      "brand_name": "LUMIGAN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE D'UN FLACON DE 3 ML",
+        "PP / GN": "PP",
+        "Substance active": "BIMATOPROST",
+        "Classe thérapeutique": "OPHTALMOLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "190,60 DH",
+        "PH": "119,10 DH",
+        "PFHT": "113,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,1   MG  /   ML",
+        "Forme": "COLLYRE EN SOLUTION"
+      }
+    },
+    {
+      "source_record_id": "9163",
+      "brand_name": "LUMIRELAX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 20 COMPRIMES",
+        "PP / GN": "PP",
+        "Substance active": "METHOCARBAMOL",
+        "Classe thérapeutique": "RHUMATOLOGIE",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES"
+      }
+    },
+    {
+      "source_record_id": "1711",
+      "brand_name": "LUSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GENPHARMA",
+        "PPV": "88,50 DH",
+        "PH": "55,30 DH",
+        "PFHT": "52,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1712",
+      "brand_name": "LUSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GENPHARMA",
+        "PPV": "155,90 DH",
+        "PH": "97,40 DH",
+        "PFHT": "92,78 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1713",
+      "brand_name": "LUSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GENPHARMA",
+        "PPV": "48,60 DH",
+        "PH": "30,40 DH",
+        "PFHT": "28,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "1714",
+      "brand_name": "LUSTRAL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "SERTRALINE",
+        "Classe thérapeutique": "PSYCHIATRIE",
+        "EPI": "GENPHARMA",
+        "PPV": "86,90 DH",
+        "PH": "54,30 DH",
+        "PFHT": "51,73 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2902",
+      "brand_name": "LUTENYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "NOMEGESTROL (ACETATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "53,30 DH",
+        "PH": "33,30 DH",
+        "PFHT": "31,74 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7486",
+      "brand_name": "LUTINUS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 21 AVEC APPLICATEUR VAGINAL",
+        "PP / GN": "PP",
+        "Substance active": "PROGESTERONE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SOTHEMA",
+        "PPV": "273,00 DH",
+        "PH": "181,50 DH",
+        "PFHT": "172,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "4940",
+      "brand_name": "LUVERIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON",
+        "PP / GN": "PP",
+        "Substance active": "LUTROPINE ALFA",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "266,00 DH",
+        "PH": "176,90 DH",
+        "PFHT": "168,51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 UI",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE"
+      }
+    }
+  ]
+}

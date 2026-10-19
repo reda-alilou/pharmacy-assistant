@@ -1,0 +1,21 @@
+Cache audit: medicament, 1259 responses
+Cache audit: medicament, 100/1259 verified
+Cache audit: medicament, 200/1259 verified
+Cache audit: medicament, 300/1259 verified
+Cache audit: medicament, 400/1259 verified
+Cache audit: medicament, 500/1259 verified
+Cache audit: medicament, 600/1259 verified
+Cache audit: medicament, 700/1259 verified
+Cache audit: medicament, 800/1259 verified
+Cache audit: medicament, 900/1259 verified
+Cache audit: medicament, 1000/1259 verified
+Cache audit: medicament, 1100/1259 verified
+Cache audit: medicament, 1200/1259 verified
+Cache audit: saydalia, 442 responses
+Cache audit: saydalia, 100/442 verified
+Cache audit: saydalia, 200/442 verified
+Cache audit: saydalia, 300/442 verified
+Cache audit: saydalia, 400/442 verified
+Cache audit: rabat, 163 responses
+Cache audit: rabat, 100/163 verified
+{"all_collections_finished": false, "offline_integrity_passed": true, "medications": {"medicament": 988, "saydalia": 5299}, "pharmacies": 327, "pharmacy_retrieval_checks": [true, true, true, true, true, true, true, true]}

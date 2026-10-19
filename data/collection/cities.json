@@ -1,0 +1,10 @@
+{
+  "rabat": {
+    "city": "Rabat",
+    "bounds": [33.91, 34.06, -6.94, -6.77],
+    "grid_step_degrees": 0.015,
+    "requested_limit": 35,
+    "observed_result_cap": 40,
+    "scope_note": "Search rectangle around Rabat, not an administrative boundary; keep only source-labelled Rabat records. No authoritative city total is available."
+  }
+}

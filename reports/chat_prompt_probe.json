@@ -1,0 +1,151 @@
+{
+  "experimental": true,
+  "cases": [
+    {
+      "id": "darija-price-stock",
+      "text": "Wach kayn AIRCORT w bch7al?",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "availability",
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "AIRCORT",
+                "strength": null,
+                "quantity": null,
+                "form": null,
+                "presentation": null
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step3-probe-full-shape",
+          "latency_ms": 2156.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-50e65701-9718-438f-8c5d-fd315dfc05fb",
+          "usage": {
+            "prompt_tokens": 797,
+            "completion_tokens": 101,
+            "total_tokens": 898
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "mixed-quantity",
+      "text": "Bghit deux boîtes de ABIP 15mg, boîte de 20, شحال الثمن؟",
+      "response": {
+        "interpretation": {
+          "language": "mixed",
+          "reply_language": "darija",
+          "reply_script": "latin",
+          "intents": [
+            "medication_request",
+            "price"
+          ],
+          "entities": {
+            "medications": [
+              {
+                "name": "ABIP",
+                "strength": "15mg",
+                "quantity": "deux boîtes",
+                "form": null,
+                "presentation": "boîte de 20"
+              }
+            ],
+            "pharmacy": null,
+            "city": null,
+            "area": null,
+            "date": null,
+            "time": null,
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step3-probe-full-shape",
+          "latency_ms": 1172.0,
+          "attempts": 1,
+          "completion_id": "chatcmpl-79bdcd89-6ca7-494e-96f2-598a54ce78f3",
+          "usage": {
+            "prompt_tokens": 809,
+            "completion_tokens": 115,
+            "total_tokens": 924
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "rabat-duty",
+      "text": "شنو هي صيدليات الحراسة فالرباط الليلة؟",
+      "response": {
+        "interpretation": {
+          "language": "darija",
+          "reply_language": "darija",
+          "reply_script": "arabic",
+          "intents": [
+            "pharmacy_on_duty"
+          ],
+          "entities": {
+            "medications": [],
+            "pharmacy": null,
+            "city": "الرباط",
+            "area": null,
+            "date": null,
+            "time": "الليلة",
+            "symptom": null
+          }
+        },
+        "metadata": {
+          "provider": "groq",
+          "requested_model": "qwen/qwen3.8-27b",
+          "model": "qwen/qwen3.8-27b",
+          "prompt_version": "step3-probe-full-shape",
+          "latency_ms": 2109.0,
+          "attempts": 2,
+          "completion_id": "chatcmpl-87142c5b-cb05-4acc-bc21-2c8c463ee625",
+          "usage": {
+            "prompt_tokens": 797,
+            "completion_tokens": 81,
+            "total_tokens": 878
+          },
+          "usage_scope": "successful_attempt"
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "incomplete-price",
+      "text": "Bch7al?",
+      "error": {
+        "code": "provider_generation_failed",
+        "message": "Groq could not generate a schema-compliant interpretation. No output was accepted.",
+        "retryable": true,
+        "retry_after_seconds": null
+      },
+      "passed": false
+    }
+  ]
+}

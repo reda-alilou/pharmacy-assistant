@@ -1,0 +1,410 @@
+{
+  "source": "AMMPS",
+  "source_page": 205,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=205",
+  "fetched_at_utc": "2026-10-18T16:24:17.574865+00:00",
+  "advertised_total": 9936,
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "9719",
+      "brand_name": "GYNEA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 12",
+        "PP / GN": "GN",
+        "Substance active": "SULFATE DE NEOMYCINE // SULFATE DE POLYMYXINE B // NYSTATINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ISIO LABORATOIRES",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "Consulter le document",
+        "Dosage": "35 000 UI / 35 000 UI / 100 000 UI",
+        "Forme": "CAPSULE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "2476",
+      "brand_name": "GYNERGENE CAFEINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "PP",
+        "Substance active": "ERGOTAMINE // CAFEINE",
+        "Classe thérapeutique": "NEUROLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "39,10 DH",
+        "PH": "24,40 DH",
+        "PFHT": "23,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1   MG  /  100   MG",
+        "Forme": "COMPRIME DRAGEFIE"
+      }
+    },
+    {
+      "source_record_id": "7820",
+      "brand_name": "GYNET",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "DESOGESTREL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "GYNEBIO PHARMA",
+        "PPV": "39,20 DH",
+        "PH": "24,50 DH",
+        "PFHT": "23,36 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75 µG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "391",
+      "brand_name": "GYNO CANESTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "TUBE 35G + 6 APPLICATEURS",
+        "PP / GN": "PP",
+        "Substance active": "CLOTRIMAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "BAYER",
+        "PPV": "52,60 DH",
+        "PH": "32,80 DH",
+        "PFHT": "31,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "392",
+      "brand_name": "GYNO CANESTEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "CLOTRIMAZOLE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "BAYER",
+        "PPV": "42,00 DH",
+        "PH": "26,30 DH",
+        "PFHT": "25,01 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "2839",
+      "brand_name": "GYNO-DAKTARIN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "MICONAZOLE",
+        "Classe thérapeutique": "NA",
+        "EPI": "MAPHAR",
+        "PPV": "54,70 DH",
+        "PH": "34,10 DH",
+        "PFHT": "30,43 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "400   MG",
+        "Forme": "CAPSULE MOLLE VAGINALE"
+      }
+    },
+    {
+      "source_record_id": "4933",
+      "brand_name": "GYNO-DERMOFIX",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "GN",
+        "Substance active": "SERTACONAZOLE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "PROMOPHARM",
+        "PPV": "37,40 DH",
+        "PH": "23,40 DH",
+        "PFHT": "22,25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "300   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "2840",
+      "brand_name": "GYNO-PEVARYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "MAPHAR",
+        "PPV": "53,30 DH",
+        "PH": "33,30 DH",
+        "PFHT": "31,71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "2841",
+      "brand_name": "GYNO-PEVARYL LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "ECONAZOLE (NITRATE)",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "30,20 DH",
+        "PH": "18,90 DH",
+        "PFHT": "17,99 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "150   MG",
+        "Forme": "COMPRIME A LIBERATION PROLONGEE"
+      }
+    },
+    {
+      "source_record_id": "6701",
+      "brand_name": "GYNOFLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "PP",
+        "Substance active": "LACTOBACILLUS ACIDOPHILUS // ESTRIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "65,30 DH",
+        "PH": "40,80 DH",
+        "PFHT": "38,89 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,03   MG  /  10 (PUISSANCE) 8 CFU",
+        "Forme": "COMPRIME VAGINAL"
+      }
+    },
+    {
+      "source_record_id": "4692",
+      "brand_name": "GYNOMYK",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 3",
+        "PP / GN": "PP",
+        "Substance active": "BUTOCONAZOLE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "POLYMEDIC",
+        "PPV": "58,10 DH",
+        "PH": "36,30 DH",
+        "PFHT": "34,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "8494",
+      "brand_name": "GYNOPELVINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 6",
+        "PP / GN": "GN",
+        "Substance active": "GYNOPELVINE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "GALENICA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "OVULE"
+      }
+    },
+    {
+      "source_record_id": "2165",
+      "brand_name": "GYSELLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 21",
+        "PP / GN": "GN",
+        "Substance active": "CHLORMADINONE (ACETATE) // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VERSALYA",
+        "PPV": "43,00 DH",
+        "PH": "26,90 DH",
+        "PFHT": "25,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,03  ML",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2166",
+      "brand_name": "GYSELLE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 63",
+        "PP / GN": "GN",
+        "Substance active": "CHLORMADINONE (ACETATE) // ETHINYLESTRADIOL",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "VERSALYA",
+        "PPV": "110,90 DH",
+        "PH": "69,30 DH",
+        "PFHT": "66,03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2   MG  /  0,03   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6703",
+      "brand_name": "H-PARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PARICALCITOL",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "141,40 DH",
+        "PH": "88,40 DH",
+        "PFHT": "84,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 µG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN AMPOULE DE 1 ML"
+      }
+    },
+    {
+      "source_record_id": "6704",
+      "brand_name": "H-PARA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE UNITAIRE",
+        "PP / GN": "GN",
+        "Substance active": "PARICALCITOL",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "261,00 DH",
+        "PH": "163,20 DH",
+        "PFHT": "155,44 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5 µG  /   ML",
+        "Forme": "SOLUTION INJECTABLE EN AMPOULE DE 2 ML"
+      }
+    },
+    {
+      "source_record_id": "6421",
+      "brand_name": "HAEMACCEL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 500 ML",
+        "PP / GN": "PP",
+        "Substance active": "GELATINE FLUIDE MODIFIEE",
+        "Classe thérapeutique": "NUTRITION-METABOLISME-SOLUTES DE PERFUSION",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "66,40 DH",
+        "PH": "41,50 DH",
+        "PFHT": "39,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "-",
+        "Forme": "SOLUTION INJECTABLE POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "8116",
+      "brand_name": "HAEMOCOMPLETTAN®  P",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "UN FLACON DE 1G DE FIBRINOGENE HUMAIN, UN FILTRE POUR SERINGUE PALL® ET UNE TIGE DE DISTRIBUTION MINI-SPIKE®.",
+        "PP / GN": "PP",
+        "Substance active": "FIBRINOGENE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "8.555.00 DH",
+        "PH": "8.394.00 DH",
+        "PFHT": "7.995.15 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "2 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTION/ PERFUSION, UN FLACON DE 2G"
+      }
+    },
+    {
+      "source_record_id": "8115",
+      "brand_name": "HAEMOCOMPLETTAN® P",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "UN FLACON DE 1G DE FIBRINOGENE HUMAIN, UN FILTRE POUR SERINGUE PALL® ET UNE TIGE DE DISTRIBUTION MINI-SPIKE®.",
+        "PP / GN": "PP",
+        "Substance active": "FIBRINOGENE HUMAIN",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "BOTTU",
+        "PPV": "5.197.00 DH",
+        "PH": "4.938.00 DH",
+        "PFHT": "4.703.03 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SOLUTION INJECTION/ PERFUSION, UN FLACON DE 1G"
+      }
+    },
+    {
+      "source_record_id": "6702",
+      "brand_name": "HALAVEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 1 FLACON DE 0,5 ML",
+        "PP / GN": "PP",
+        "Substance active": "ERIBYLINE MESILATE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "ZENITH PHARMA",
+        "PPV": "4.088.00 DH",
+        "PH": "3.796.00 DH",
+        "PFHT": "3.616.00 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0,44   MG  /   ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    }
+  ]
+}

@@ -7,6 +7,11 @@ and pharmacy records, manages clarification and temporary conversations, and
 calculates prices from recorded facts. Backend interpretation and answers support
 French, Arabic, Darija and mixed language; the patient interface is French only.
 
+For a self-contained explanation of the current system, read
+[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md): architecture and request flow,
+service communication, database tables and relationships, data collection and
+transformation, repository structure, configuration and validation evidence.
+
 ## Run the configured demo
 
 With Docker Desktop running, from the repository root:
@@ -57,6 +62,8 @@ There is no automatic provider switch, paid fallback or saved-answer fallback.
 
 Try `Quel est le prix de ABIP ?`, choose a presentation, then ask
 `Et pour deux boîtes ?`. Recorded prices are historical observations, not live offers.
+The [demo guide and spoken script](docs/project/demo-guide.md) provides startup
+commands, a presentation sequence, verified examples and an architecture walkthrough.
 
 ## Repository structure
 

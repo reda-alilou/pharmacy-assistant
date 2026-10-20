@@ -18,9 +18,12 @@ the original challenge PDF or independent clinical/language validation.
 | NLP and/or speech | Hosted multilingual extraction plus local validation/normalization implement NLP; no speech or local model training is claimed |
 | Scenarios and evaluation | Preserved live evaluation plus maintained Python/browser/isolated PostgreSQL checks; limitations are explained in [data and evidence](data-and-evidence.md) |
 
-Cleanup R6 retires the superseded Streamlit interface and unused collection
-tooling after useful behavior is covered in maintained tests. R7 still requires
-complete final validation and user review of the current laptop/phone demo.
+Cleanup R6 retired the superseded Streamlit interface and unused collection
+tooling after useful behavior was covered in maintained tests. R7 final validation
+is complete: automated checks passed, the user accepted the laptop demo and
+explicitly waived another physical-phone review. See the
+[final evidence](../validation/cleanup-r7.md) and the self-contained
+[current project reference](../../PROJECT_CONTEXT.md).
 
 The related-work study, final submission explanation and presentation preparation
 remain separate work. Historical model measurements describe their frozen

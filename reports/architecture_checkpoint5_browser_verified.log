@@ -1,0 +1,33 @@
+
+> pharmacy-assistant-web@0.1.0 test
+> playwright test --max-failures=2
+
+[WebServer] (node:7584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 17 tests using 2 workers
+
+(node:21452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  2 tests\chat.spec.ts:15:1 › French empty state, examples prepare without sending, keyboard focus and no overflow (1.4s)
+  ok  1 tests\chat.spec.ts:28:1 › chat, explicit presentation, two packages and refresh restoration without inference (2.1s)
+  ok  3 tests\chat.spec.ts:51:1 › busy requests block duplicate submissions and historical choices stay inactive (1.3s)
+  ok  4 tests\chat.spec.ts:62:1 › cooldowns preserve failed text and allow inference-free choices, never automatic retry (1.2s)
+  ok  5 tests\chat.spec.ts:76:1 › lost successful response is recovered by GET without repeating the POST (1.1s)
+  ok  7 tests\chat.spec.ts:98:1 › manual retry uses a fresh request id and preserves the original failed message (1.1s)
+  ok  6 tests\chat.spec.ts:84:1 › uncertain pending request survives refresh and requires explicit status verification (1.7s)
+  ok  9 tests\chat.spec.ts:128:1 › server expiry clears the temporary transcript and does not resend the question (1.5s)
+  ok  8 tests\chat.spec.ts:110:1 › new conversation waits for server invalidation; failed reset preserves messages (2.0s)
+  ok 10 tests\chat.spec.ts:137:1 › elapsed local expiry clears messages and browser token (925ms)
+  ok 11 tests\chat.spec.ts:146:1 › pharmacy cards expose readable provenance and safe contact links without stock claims (908ms)
+  ok 12 tests\chat.spec.ts:155:1 › missing recorded price is explicit and never displayed as zero (820ms)
+  ok 13 tests\chat.spec.ts:162:1 › invalid extraction response never renders an unvalidated factual answer (969ms)
+  ok 14 tests\chat.spec.ts:170:1 › browser storage failure stays usable and explains refresh limitation (920ms)
+  ok 15 tests\chat.spec.ts:178:1 › input limits, whitespace and IME composition never issue unintended requests (879ms)
+  -  17 tests\deployment.spec.ts:6:1 › real web/core/PostgreSQL: restore, quota error, inference-free choice, refresh, and reset
+  ok 16 tests\chat.spec.ts:188:1 › mobile layout and accessible empty/chat/reset states (2.3s)
+
+  1 skipped
+  16 passed (14.3s)

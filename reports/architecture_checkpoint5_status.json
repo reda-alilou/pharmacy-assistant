@@ -1,0 +1,69 @@
+{
+  "checkpoint": 5,
+  "updated_at_utc": "2026-10-20T04:04:37.489592+00:00",
+  "complete": true,
+  "awaiting_user_review": false,
+  "checkpoint_4_reviewed_by_user": true,
+  "checkpoint_6_started": false,
+  "streamlit_retained": true,
+  "frontend_build_passed": true,
+  "frontend_lint": {
+    "errors": 0,
+    "warnings": 2,
+    "warnings_concern": "shadcn variant exports and development fast refresh"
+  },
+  "browser_tests": {
+    "passed": 20,
+    "skipped_opt_in_deployment": 1,
+    "seconds": 15.449,
+    "report": "reports/architecture_checkpoint5_browser_tests.json",
+    "log": "reports/architecture_checkpoint5_browser_final.log"
+  },
+  "accessibility": {
+    "axe_violations_in_tested_empty_chat_reset_views": 0,
+    "complete_conformance_claimed": false
+  },
+  "python_regression_tests": {
+    "discovered": 280,
+    "passed": 270,
+    "skipped_opt_in_host_postgres": 10,
+    "seconds": 56.096,
+    "log": "reports/architecture_checkpoint5_python_verified.log"
+  },
+  "additional_contract_tests": {
+    "passed": 2,
+    "seconds": 0.171,
+    "log": "reports/architecture_checkpoint5_contract_tests.log"
+  },
+  "lock_check_offline_passed": true,
+  "python_package_build_offline_passed": true,
+  "web_image_built": true,
+  "web_image_build_log": "reports/architecture_checkpoint5_web_build_verified.log",
+  "container_verification": {
+    "passed": true,
+    "checks_passed": 9,
+    "run_by": "user",
+    "report": "reports/architecture_checkpoint5_container_validation.json",
+    "isolated_resources_removed": true
+  },
+  "post_integration_style_adjustment": "Visually hide the unfocused keyboard skip link using clipping; browser checks repeated and web image rebuilt afterward.",
+  "application_services_started_or_stopped_by_agent": false,
+  "user_application_volume_modified": false,
+  "live_inference_performed": false,
+  "network_settings_changed_in_checkpoint_5": false,
+  "source_data_or_historical_evaluation_changed": false,
+  "new_architecture_decisions": false,
+  "git_commit_or_push_performed": false,
+  "next_step": "Await user authorization for checkpoint 6: final demo validation, setup documentation, and Streamlit retirement.",
+  "user_confirmed_frontend_works": true,
+  "phone_testing": {
+    "optional_overlay": "deploy/compose.phone.yaml",
+    "compose_configuration_validated": true,
+    "default_binding_remains_localhost": true,
+    "http_lan_request_id_regression_passed": true,
+    "web_image_rebuilt": true,
+    "application_or_network_settings_changed_by_agent": false,
+    "physical_phone_test": "Passed: user confirmed access works and the interface is clean on both laptop and phone."
+  },
+  "checkpoint_5_reviewed_by_user": true
+}

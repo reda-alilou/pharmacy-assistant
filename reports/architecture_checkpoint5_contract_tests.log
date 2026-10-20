@@ -1,0 +1,7 @@
+test_browser_factual_fixtures_validate_against_core_response (test_frontend_contract.FrontendContractTests.test_browser_factual_fixtures_validate_against_core_response) ... ok
+test_openapi_snapshot_matches_core_without_runtime_configuration (test_frontend_contract.FrontendContractTests.test_openapi_snapshot_matches_core_without_runtime_configuration) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.171s
+
+OK

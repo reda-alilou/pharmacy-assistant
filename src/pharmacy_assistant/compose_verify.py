@@ -8,6 +8,7 @@ project/volume are removed afterward. No production-provider credentials are rea
 import argparse
 from datetime import datetime, timezone
 import json
+import os
 from pathlib import Path
 import secrets
 import subprocess
@@ -20,7 +21,7 @@ from pharmacy_assistant.compose_setup import write_environment
 from pharmacy_assistant.paths import ROOT
 
 
-def verify():
+def verify(*, frontend=False):
     project = "pharmacy-checkpoint4-test-" + uuid.uuid4().hex
     assert project.startswith("pharmacy-checkpoint4-test-") and len(project) == 58
     work = ROOT / ".runtime"
@@ -53,9 +54,9 @@ networks:
                "-f", str(ROOT / "deploy/compose.yaml"), "-f", str(overlay)]
     stage = "configuration"
 
-    def run(arguments, *, stdin=None, timeout=180):
+    def run(arguments, *, stdin=None, timeout=180, env=None):
         completed = subprocess.run(arguments, cwd=ROOT, input=stdin, text=True, encoding="utf-8",
-            capture_output=True, timeout=timeout)
+            capture_output=True, timeout=timeout, env=env)
         with diagnostic.open("a", encoding="utf-8") as handle:
             handle.write(completed.stdout + completed.stderr)
         if completed.returncode:
@@ -192,6 +193,18 @@ print(json.dumps({'ok':True}))""")
             assert request("GET", "/health")["catalog_record_count"] == 9936
             assert inside("language", quota_script.replace("MODE", "pass"))["local_attempts_reserved"] == 1
             mark("whole_stack_replacement_preserves_named_volume")
+            if frontend:
+                stage = "real frontend integration"
+                fresh = request("POST", "/conversation")
+                browser_state = inside("core", seed, {"session_id": fresh["session_id"], "request_id": uuid.uuid4().hex})
+                inside("language", quota_script.replace("MODE", "c.store.cooldown(c.scope, 120, 'provider_rate_limited')"))
+                environment = dict(os.environ, DEPLOYMENT_ORIGIN="http://" + address,
+                                   DEPLOYMENT_TOKEN=browser_state["session_id"])
+                run(["node", str(ROOT / "frontend/node_modules/@playwright/test/cli.js"), "test",
+                     "tests/deployment.spec.ts", "--config", str(ROOT / "frontend/playwright.config.ts"),
+                     "--reporter=list"], env=environment, timeout=120)
+                assert inside("language", quota_script.replace("MODE", "pass"))["local_attempts_reserved"] == 1
+                mark("real_frontend_restore_quota_selection_refresh_reset_without_inference")
         result["passed"] = True
     except Exception as error:
         result.update(passed=False, failed_stage=stage, error_type=type(error).__name__,
@@ -210,7 +223,7 @@ print(json.dumps({'ok':True}))""")
             overlay.unlink()
         except Exception:
             result["isolated_resources_removed"] = False
-        output = ROOT / "reports/architecture_checkpoint4_container_validation.json"
+        output = ROOT / ("reports/architecture_checkpoint5_container_validation.json" if frontend else "reports/architecture_checkpoint4_container_validation.json")
         output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
         print(json.dumps(result, indent=2), flush=True)
     return 0 if result.get("passed") and result.get("isolated_resources_removed") else 1
@@ -220,10 +233,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-isolated", action="store_true",
         help="Explicitly start, stop, replace, and remove only a temporary test stack and its fresh volume")
+    parser.add_argument("--frontend", action="store_true", help="Also verify the real React interface against the isolated APIs/database")
     args = parser.parse_args()
     if not args.run_isolated:
         parser.error("Pass --run-isolated to explicitly control the temporary verification stack lifecycle.")
-    return verify()
+    return verify(frontend=args.frontend)
 
 
 if __name__ == "__main__":

@@ -7,11 +7,17 @@ its example commands. Verify current Git/config state before acting.
 
 ## Architecture migration progress
 
-Checkpoints 1, 2, and 3 of `DECISION_LOG.md` D018 are implemented and reviewed.
+Checkpoints 1–5 of `DECISION_LOG.md` D018 are implemented and reviewed.
 The user tested the PostgreSQL-backed demo, reported it worked seamlessly, and
 explicitly authorized checkpoint 3. The user then tested checkpoint 3, reported
 it works, and authorized checkpoint 4. Checkpoint 4 Docker/Compose implementation and
-real container verification are complete; awaiting user review before checkpoint 5. Current guide: `docs/architecture-checkpoint-4.md`; checkpoint 3:
+real container verification passed. The user started four healthy containers,
+confirmed the placeholder in the browser, and authorized checkpoint 5. React is
+now implemented and verified, including the user-run isolated real-stack test.
+The user confirmed it works and the interface is clean on both laptop and phone.
+Checkpoint 6 has not started; await authorization to continue. Current guide:
+`docs/architecture-checkpoint-5.md`;
+container setup: `docs/architecture-checkpoint-4.md`; checkpoint 3:
 `docs/architecture-checkpoint-3.md`; earlier implementation/evidence:
 `docs/architecture-checkpoint-1.md`, `docs/architecture-checkpoint-2.md`.
 Final decisions in `DECISION_LOG.md` supersede the earlier architecture draft.
@@ -27,8 +33,8 @@ Final decisions in `DECISION_LOG.md` supersede the earlier architecture draft.
 - Evaluation guards now include nested Python implementation files. Historical
   data, annotations, reports, and frozen evidence are preserved.
 - Inference now runs in its own FastAPI language service over HTTP/JSON.
-  Core has no provider SDK or in-process fallback. The UI remains Streamlit until
-  the frontend checkpoint. File mode retains JSONL and 15-minute memory-only state for the
+  Core has no provider SDK or in-process fallback. React is now the patient UI;
+  Streamlit remains available until checkpoint 6. File mode retains JSONL and 15-minute memory-only state for the
   original demo/fixtures. Explicit PostgreSQL mode loads relational catalogue
   records and provides the approved 30-minute persistent conversations.
 - Fresh offline baseline: 236 tests passed; six architecture checks were added.
@@ -86,7 +92,7 @@ Final decisions in `DECISION_LOG.md` supersede the earlier architecture draft.
   internal default API/database ports, optional `compose.debug.yaml` host access,
   and an explicit short-lived database-setup profile. It reuses the existing
   `pharmacy-assistant-architecture_postgres_data` volume; startup never migrates
-  or imports automatically. Web is a static placeholder until checkpoint 5.
+  or imports automatically. Checkpoint 5 replaces its original placeholder with React.
 - Core `/ready` now checks its own database tables without language/inference or
   expiry renewal. Nginx forwards `/api/*`, preserves application errors/cooldowns,
   disables retries, and resolves Docker DNS again after core replacement.
@@ -116,11 +122,45 @@ Final decisions in `DECISION_LOG.md` supersede the earlier architecture draft.
   language/core/database outages, inference-free choice, failed-message restore,
   cooldown headers, Docker DNS recovery, and volume persistence after replacement.
   It removed its own containers/networks/volume; application data was untouched.
-- Checkpoint 4 is implemented/verified and awaiting review. Evidence:
+- Checkpoint 4 is implemented/verified and subsequently reviewed. Historical evidence:
   `reports/architecture_checkpoint4_status.json` and
-  `reports/architecture_checkpoint4_container_validation.json`. The user can start
-  the existing migrated stack with the command in the checkpoint 4 guide; web is
-  a placeholder until checkpoint 5. Stop for user review before checkpoint 5.
+  `reports/architecture_checkpoint4_container_validation.json`. Its status report
+  predates the user's successful startup and acceptance.
+
+- Checkpoint 5 adds React/TypeScript/Vite, Tailwind and shadcn/ui controls in
+  `frontend/`. It implements French chat, inline medication/pharmacy cards,
+  sources/dates, server-computed totals, offered choices, safe errors, and a
+  confirmed New conversation action. Off-white/teal styling has no gradients or
+  decorative card side strips. No sidebar, permanent history or language switch.
+- Only the active token/expiry and a separate cooldown deadline use sessionStorage;
+  transcript/context remain in PostgreSQL with the same 30-minute inactivity
+  expiry. Refresh restores without inference or expiry renewal. No automatic POST
+  retry: uncertain completion gets one GET reconciliation, then manual recovery.
+  Failed text remains visible; offered choices remain usable during cooldowns.
+- Generated OpenAPI request types and runtime patient-response validation align
+  the browser with core, without loading runtime credentials into frontend assets.
+  The web image now builds static React assets through a frozen npm install and
+  serves them via the same Nginx `/api` gateway. The web image is rebuilt.
+- Twenty offline browser tests pass, including responsive checks and zero Axe
+  violations for tested views. Production build/lint pass (two nonfatal shadcn
+  hot-refresh warnings). Offline Python lock and package builds pass. The final
+  Python regressions passed 270 with ten opt-in host PostgreSQL skips; both new
+  contract/fixture tests passed separately (272 passes across the two runs). The
+  user-run isolated stack passed all nine checks, including React against real
+  core/PostgreSQL, then removed its temporary resources. See
+  `reports/architecture_checkpoint5_status.json`. The user controls
+  `compose_verify --run-isolated --frontend` and
+  application startup. No hosted inference, scraping or application data changes.
+- The user confirmed the React UI works, then requested phone testing. Optional
+  `deploy/compose.phone.yaml` binds only web to `PHONE_HOST_IP` (Wi-Fi IPv4), with
+  localhost still the default when omitted. HTTP LAN-compatible cryptographic
+  request IDs are covered by an added browser regression. See `frontend/README.md`
+  for enable/restore commands. The user controls rebinding web; no application
+  service, firewall or network setting was changed by the agent for phone testing.
+  The user subsequently confirmed phone access works and the interface is clean
+  on both devices, completing checkpoint 5 review.
+- Checkpoint 6 has not started; keep Streamlit until final representative
+  validation in that checkpoint. No new architecture decision or Git commit/push.
 
 ## 1. Verified repository snapshot
 
@@ -129,6 +169,8 @@ Final decisions in `DECISION_LOG.md` supersede the earlier architecture draft.
   `C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant`.
 - Active branch: `refactor/web-architecture`; application baseline:
   `0b7adb1b8eed60b9e5d43da8a4d6bfceb79b797e` (published prototype).
+  Checkpoints 1–4 were subsequently committed/pushed as `cecab2f`. Checkpoint 5
+  changes are currently uncommitted; no Git publication is implied by validation.
 - Remote: `https://github.com/reda-alilou/pharmacy-assistant.git`; `master` was
   verified at that commit after publication. This is the pre-migration baseline;
   checkpoint 1 changes application organization, while data/evidence are preserved.
@@ -158,16 +200,19 @@ security/load/availability assurance have not been established.
 ## 3. Current runtime and configuration
 
 ```text
-Browser -> Streamlit :8501 -> core FastAPI :8000 /chat
+Browser -> React + Nginx localhost:8080 /api -> core FastAPI :8000 /chat
  -> HTTP/JSON -> language FastAPI :8001 /v1/interpret
  -> quota reservation + Groq/Qwen extraction of CURRENT MESSAGE ONLY
  -> strict Pydantic schema + source-span evidence validation (language and core)
  -> local context merge -> medication resolution / Rabat directory
  -> Decimal pricing -> reviewed language templates
- -> answer + medication/pharmacy results + sources + raw/effective interpretation
+ -> answer + medication/pharmacy cards + offered choices + sources
+Core/language -> PostgreSQL :5432, separate owned schemas/credentials
 ```
 
-- Three local processes: Streamlit, core FastAPI, and language FastAPI. Core owns
+- Four Compose containers: web, core FastAPI, language FastAPI and PostgreSQL.
+  Only web is exposed by default. The retained `run_demo` host launcher starts
+  Streamlit :8501/core :8000/language :8001 separately. Core owns
   catalogue/directory/ChatService and an HTTP interpreter; language owns provider
   clients and quota state. Both close their own clients at shutdown.
 - Runtime facts: file mode loads `data/processed/*.jsonl`; PostgreSQL mode
@@ -315,8 +360,9 @@ are in `docs/architecture-checkpoint-2.md`; frontend restore/reset wiring is lat
 - Price/commercialization/stock are different. Stock ALWAYS unknown; hours unknown;
   duty unverified. Preserve these limitations in any new UI. Clinical requests
   get a brief boundary response. Missing in this catalogue != does not exist.
-- Current Streamlit displays raw extraction JSON, effective context, pricing
-  diagnostics and sources in expandable panels alongside the readable answer.
+- The retained Streamlit interface displays raw extraction JSON, effective context,
+  pricing diagnostics and sources in expandable panels. React instead shows the
+  patient answer, structured factual cards and readable sources without raw JSON.
 
 ## 6. Active data and provenance
 

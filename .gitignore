@@ -12,6 +12,8 @@ wheels/
 # Frontend dependencies and local build cache
 node_modules/
 .vite/
+playwright-report/
+test-results/
 
 # Local environment / secrets
 .env
@@ -54,6 +56,7 @@ data/raw/expansion_v1/
 # Failed sandbox-only run; the verified normal-permission test log is retained.
 /reports/github_checkpoint_tests.log
 /reports/github_clean_checkout_tests.log
+/reports/architecture_checkpoint5_python_tests.log
 
 # Failed Docker download diagnostics contain temporary signed CDN URLs.
 # Keep the successful build/validation evidence tracked separately.

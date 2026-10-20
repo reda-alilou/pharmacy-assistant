@@ -1,8 +1,9 @@
 # Checkpoint 4 — Docker Compose integration
 
-Status: **implemented and verified; awaiting user review before checkpoint 5**. Checkpoint 3
-passed user review. The user authorized checkpoint 4. This follows D014 and D018;
-it does not begin the React work in checkpoint 5.
+Status: **implemented, verified and reviewed by the user**. The user started all
+four healthy services, confirmed the placeholder, and later authorized checkpoint
+5. This document records checkpoint 4; see [checkpoint 5](architecture-checkpoint-5.md)
+for the React interface that now replaces the placeholder.
 
 ## Four running services
 
@@ -13,8 +14,8 @@ it does not begin the React work in checkpoint 5.
 | `language` | Language FastAPI, provider calls/validation, quotas | Internal only |
 | `postgres` | PostgreSQL 17 with the existing persistent named volume | Internal only |
 
-The web image currently contains a small French placeholder. React replaces this
-static content in checkpoint 5; this is not the new patient interface. Streamlit
+At checkpoint 4 the web image contained a small French placeholder; checkpoint 5
+replaces it with React assets built from the frontend lockfile. Streamlit
 remains available through the existing local launcher and is not a fifth
 container. It is retired only after the final demo validation.
 
@@ -170,8 +171,8 @@ of temporary conversation contents.
   successful conversation result.
 
 Current automated evidence and any remaining environmental blocker are recorded
-in `reports/architecture_checkpoint4_status.json`. Stop for user review before
-checkpoint 5.
+in `reports/architecture_checkpoint4_status.json`. That report predates the user's
+subsequent successful startup/review and is retained as historical evidence.
 
 
 ## Verified results

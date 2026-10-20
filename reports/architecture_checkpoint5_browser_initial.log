@@ -1,0 +1,31 @@
+
+> pharmacy-assistant-web@0.1.0 test
+> playwright test
+
+[WebServer] (node:29148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 16 tests using 2 workers
+
+(node:29416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:32956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   1 tests\chat.spec.ts:15:1 › French empty state, examples prepare without sending, keyboard focus and no overflow (5.8s)
+(node:21384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   2 tests\chat.spec.ts:28:1 › chat, explicit presentation, two packages and refresh restoration without inference (30.2s)
+(node:27944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   3 tests\chat.spec.ts:51:1 › busy requests block duplicate submissions and historical choices stay inactive (30.1s)
+(node:22652) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   4 tests\chat.spec.ts:62:1 › cooldowns preserve failed text and allow inference-free choices, never automatic retry (30.1s)
+(node:10312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   5 tests\chat.spec.ts:76:1 › lost successful response is recovered by GET without repeating the POST (30.1s)
+(node:5108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   6 tests\chat.spec.ts:84:1 › uncertain pending request survives refresh and requires explicit status verification (30.1s)
+(node:29248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -1,0 +1,2576 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Patient-Pharmacy Assistant API",
+    "description": "Grounded multilingual medication answers and a partial Rabat pharmacy directory.",
+    "version": "0.3.0"
+  },
+  "paths": {
+    "/conversation": {
+      "post": {
+        "summary": "New Conversation",
+        "operationId": "new_conversation_conversation_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversationView"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "Restore Conversation",
+        "operationId": "restore_conversation_conversation_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConversationView"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Reset Conversation",
+        "operationId": "reset_conversation_conversation_delete",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ready": {
+      "get": {
+        "summary": "Ready",
+        "operationId": "ready_ready_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/interpret": {
+      "post": {
+        "summary": "Interpret Patient Request",
+        "operationId": "interpret_patient_request_interpret_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterpretationRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InterpretationResponse"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Bad Gateway",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "504": {
+            "description": "Gateway Timeout",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/chat": {
+      "post": {
+        "summary": "Chat",
+        "operationId": "chat_chat_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatResponse"
+                }
+              }
+            }
+          },
+          "410": {
+            "description": "Clarification expired or lost after server restart"
+          },
+          "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "Bad Gateway",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "504": {
+            "description": "Gateway Timeout",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/medications/search": {
+      "get": {
+        "summary": "Search Medication Endpoint",
+        "operationId": "search_medication_endpoint_medications_search_get",
+        "parameters": [
+          {
+            "name": "query",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200,
+              "title": "Query"
+            }
+          },
+          {
+            "name": "strength",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Strength"
+            }
+          },
+          {
+            "name": "form",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Form"
+            }
+          },
+          {
+            "name": "presentation",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Presentation"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MedicationSearchResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/medications/{record_id}": {
+      "get": {
+        "summary": "Medication By Id",
+        "operationId": "medication_by_id_medications__record_id__get",
+        "parameters": [
+          {
+            "name": "record_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Record Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medication"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ChatRequest": {
+        "properties": {
+          "request_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_-]{16,80}$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Request Id"
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Text"
+          },
+          "session_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 100,
+                "minLength": 20
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Session Id"
+          },
+          "reference_index": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "maximum": 9.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reference Index"
+          },
+          "continuation_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 100,
+                "minLength": 20
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Continuation Id"
+          },
+          "selections": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationSelection"
+            },
+            "type": "array",
+            "maxItems": 10,
+            "title": "Selections"
+          },
+          "refinements": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationRefinement"
+            },
+            "type": "array",
+            "maxItems": 10,
+            "title": "Refinements"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "title": "ChatRequest"
+      },
+      "ChatResponse": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "answered",
+              "needs_clarification"
+            ],
+            "title": "Status"
+          },
+          "interpretation": {
+            "$ref": "#/components/schemas/Interpretation"
+          },
+          "medications": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationResult"
+            },
+            "type": "array",
+            "title": "Medications"
+          },
+          "pharmacy": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PharmacyResult"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "answer": {
+            "type": "string",
+            "title": "Answer"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceInfo"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "inference": {
+            "$ref": "#/components/schemas/InferenceMetadata"
+          },
+          "inference_performed": {
+            "type": "boolean",
+            "title": "Inference Performed"
+          },
+          "continuation_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Continuation Id"
+          },
+          "continuation_expires_at_utc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Continuation Expires At Utc"
+          },
+          "session_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Session Id"
+          },
+          "session_expires_at_utc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Session Expires At Utc"
+          },
+          "context": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ConversationContext"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "order_pricing": {
+            "$ref": "#/components/schemas/OrderPricing"
+          },
+          "catalog_scope": {
+            "type": "string",
+            "const": "partial",
+            "title": "Catalog Scope",
+            "default": "partial"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "interpretation",
+          "medications",
+          "pharmacy",
+          "answer",
+          "sources",
+          "inference",
+          "inference_performed",
+          "continuation_id",
+          "continuation_expires_at_utc"
+        ],
+        "title": "ChatResponse"
+      },
+      "ClarificationOption": {
+        "properties": {
+          "value": {
+            "type": "string",
+            "title": "Value"
+          },
+          "candidate_count": {
+            "type": "integer",
+            "title": "Candidate Count"
+          }
+        },
+        "type": "object",
+        "required": [
+          "value",
+          "candidate_count"
+        ],
+        "title": "ClarificationOption"
+      },
+      "ContextReferenceOption": {
+        "properties": {
+          "mention_index": {
+            "type": "integer",
+            "title": "Mention Index"
+          },
+          "medication": {
+            "$ref": "#/components/schemas/MedicationMention"
+          }
+        },
+        "type": "object",
+        "required": [
+          "mention_index",
+          "medication"
+        ],
+        "title": "ContextReferenceOption"
+      },
+      "ConversationContext": {
+        "properties": {
+          "effective_interpretation": {
+            "$ref": "#/components/schemas/Interpretation"
+          },
+          "inherited_fields": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Inherited Fields"
+          },
+          "normalized_fields": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Normalized Fields"
+          },
+          "needs_reference": {
+            "type": "boolean",
+            "title": "Needs Reference",
+            "default": false
+          },
+          "reference_options": {
+            "items": {
+              "$ref": "#/components/schemas/ContextReferenceOption"
+            },
+            "type": "array",
+            "title": "Reference Options"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "independent",
+              "followup",
+              "reference_choice",
+              "ordinal_selection"
+            ],
+            "title": "Action",
+            "default": "independent"
+          }
+        },
+        "type": "object",
+        "required": [
+          "effective_interpretation"
+        ],
+        "title": "ConversationContext"
+      },
+      "ConversationMessageView": {
+        "properties": {
+          "sequence": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Sequence"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "user",
+              "assistant"
+            ],
+            "title": "Role"
+          },
+          "outcome": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "answered",
+              "failed"
+            ],
+            "title": "Outcome"
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Text"
+          },
+          "created_at_utc": {
+            "type": "string",
+            "title": "Created At Utc"
+          },
+          "payload": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "$ref": "#/components/schemas/JsonValue"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Payload"
+          }
+        },
+        "type": "object",
+        "required": [
+          "sequence",
+          "role",
+          "outcome",
+          "text",
+          "created_at_utc",
+          "payload"
+        ],
+        "title": "ConversationMessageView"
+      },
+      "ConversationView": {
+        "properties": {
+          "session_id": {
+            "type": "string",
+            "title": "Session Id"
+          },
+          "expires_at_utc": {
+            "type": "string",
+            "title": "Expires At Utc"
+          },
+          "messages": {
+            "items": {
+              "$ref": "#/components/schemas/ConversationMessageView"
+            },
+            "type": "array",
+            "title": "Messages"
+          },
+          "response": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ChatResponse"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "session_id",
+          "expires_at_utc",
+          "messages",
+          "response"
+        ],
+        "title": "ConversationView"
+      },
+      "ExtractedEntities": {
+        "properties": {
+          "medications": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationMention"
+            },
+            "type": "array",
+            "maxItems": 10,
+            "title": "Medications"
+          },
+          "pharmacy": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pharmacy"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "City"
+          },
+          "area": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Area"
+          },
+          "date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Date"
+          },
+          "time": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Time"
+          },
+          "symptom": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Symptom"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "medications",
+          "pharmacy",
+          "city",
+          "area",
+          "date",
+          "time",
+          "symptom"
+        ],
+        "title": "ExtractedEntities"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthResponse": {
+        "properties": {
+          "language_service_status": {
+            "type": "string",
+            "enum": [
+              "available",
+              "unavailable"
+            ],
+            "title": "Language Service Status",
+            "default": "unavailable"
+          },
+          "language_service_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Language Service Url"
+          },
+          "status": {
+            "type": "string",
+            "const": "ok",
+            "title": "Status",
+            "default": "ok"
+          },
+          "storage_backend": {
+            "type": "string",
+            "enum": [
+              "files",
+              "postgres"
+            ],
+            "title": "Storage Backend",
+            "default": "files"
+          },
+          "catalog_scope": {
+            "type": "string",
+            "const": "partial",
+            "title": "Catalog Scope",
+            "default": "partial"
+          },
+          "catalog_dataset": {
+            "type": "string",
+            "title": "Catalog Dataset"
+          },
+          "catalog_record_count": {
+            "type": "integer",
+            "title": "Catalog Record Count"
+          },
+          "catalog_brand_count": {
+            "type": "integer",
+            "title": "Catalog Brand Count"
+          },
+          "interpretation_configured": {
+            "type": "boolean",
+            "title": "Interpretation Configured",
+            "default": false
+          },
+          "interpretation_model": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interpretation Model"
+          },
+          "interpretation_provider": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "groq",
+                  "opencode",
+                  "gemini"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Interpretation Provider"
+          }
+        },
+        "type": "object",
+        "required": [
+          "catalog_dataset",
+          "catalog_record_count",
+          "catalog_brand_count"
+        ],
+        "title": "HealthResponse"
+      },
+      "InferenceErrorDetail": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "retryable": {
+            "type": "boolean",
+            "title": "Retryable"
+          },
+          "retry_after_seconds": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Retry After Seconds"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "retryable",
+          "retry_after_seconds"
+        ],
+        "title": "InferenceErrorDetail"
+      },
+      "InferenceErrorResponse": {
+        "properties": {
+          "detail": {
+            "$ref": "#/components/schemas/InferenceErrorDetail"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "detail"
+        ],
+        "title": "InferenceErrorResponse"
+      },
+      "InferenceMetadata": {
+        "properties": {
+          "provider": {
+            "type": "string",
+            "enum": [
+              "groq",
+              "opencode",
+              "gemini"
+            ],
+            "title": "Provider",
+            "default": "groq"
+          },
+          "output_mode": {
+            "type": "string",
+            "enum": [
+              "json_schema",
+              "json_object"
+            ],
+            "title": "Output Mode",
+            "default": "json_schema"
+          },
+          "requested_model": {
+            "type": "string",
+            "title": "Requested Model"
+          },
+          "model": {
+            "type": "string",
+            "title": "Model"
+          },
+          "prompt_version": {
+            "type": "string",
+            "title": "Prompt Version"
+          },
+          "latency_ms": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Latency Ms"
+          },
+          "attempts": {
+            "type": "integer",
+            "maximum": 2.0,
+            "minimum": 1.0,
+            "title": "Attempts"
+          },
+          "completion_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Completion Id"
+          },
+          "usage": {
+            "$ref": "#/components/schemas/TokenUsage"
+          },
+          "usage_scope": {
+            "type": "string",
+            "const": "successful_attempt",
+            "title": "Usage Scope",
+            "default": "successful_attempt"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "requested_model",
+          "model",
+          "prompt_version",
+          "latency_ms",
+          "attempts",
+          "completion_id",
+          "usage"
+        ],
+        "title": "InferenceMetadata"
+      },
+      "Interpretation": {
+        "properties": {
+          "language": {
+            "type": "string",
+            "enum": [
+              "fr",
+              "ar",
+              "darija",
+              "mixed",
+              "unknown"
+            ],
+            "title": "Language"
+          },
+          "reply_language": {
+            "type": "string",
+            "enum": [
+              "fr",
+              "ar",
+              "darija"
+            ],
+            "title": "Reply Language"
+          },
+          "reply_script": {
+            "type": "string",
+            "enum": [
+              "latin",
+              "arabic"
+            ],
+            "title": "Reply Script"
+          },
+          "intents": {
+            "items": {
+              "type": "string",
+              "enum": [
+                "price",
+                "availability",
+                "medication_information",
+                "medication_request",
+                "pharmacy_search",
+                "pharmacy_contact",
+                "opening_hours",
+                "pharmacy_on_duty",
+                "unsupported"
+              ]
+            },
+            "type": "array",
+            "maxItems": 9,
+            "minItems": 1,
+            "title": "Intents"
+          },
+          "entities": {
+            "$ref": "#/components/schemas/ExtractedEntities"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "language",
+          "reply_language",
+          "reply_script",
+          "intents",
+          "entities"
+        ],
+        "title": "Interpretation"
+      },
+      "InterpretationRequest": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Text"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "title": "InterpretationRequest"
+      },
+      "InterpretationResponse": {
+        "properties": {
+          "interpretation": {
+            "$ref": "#/components/schemas/Interpretation"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/InferenceMetadata"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "interpretation",
+          "metadata"
+        ],
+        "title": "InterpretationResponse"
+      },
+      "JsonValue": {},
+      "Medication": {
+        "properties": {
+          "source_record_id": {
+            "type": "string",
+            "pattern": "^\\d+$",
+            "title": "Source Record Id"
+          },
+          "brand_name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Brand Name"
+          },
+          "active_substance": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Active Substance"
+          },
+          "epi": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Epi"
+          },
+          "dosage": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Dosage"
+          },
+          "form": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Form"
+          },
+          "presentation": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Presentation"
+          },
+          "commercialization_status": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Commercialization Status"
+          },
+          "ppv_price_mad": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ppv Price Mad"
+          },
+          "hospital_price_mad": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Hospital Price Mad"
+          },
+          "source": {
+            "type": "string",
+            "const": "AMMPS",
+            "title": "Source"
+          },
+          "source_page": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Source Page"
+          },
+          "source_url": {
+            "type": "string",
+            "title": "Source Url"
+          },
+          "authorization_status": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Authorization Status"
+          },
+          "therapeutic_class": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Therapeutic Class"
+          },
+          "pp_gn_raw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pp Gn Raw"
+          },
+          "pfht_price_mad": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pfht Price Mad"
+          },
+          "vat_raw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Vat Raw"
+          },
+          "rcp_naf_reference": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rcp Naf Reference"
+          },
+          "detailed_source_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Detailed Source Url"
+          },
+          "source_fetched_at_utc": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Fetched At Utc"
+          },
+          "atc_code": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Atc Code"
+          },
+          "reimbursement_status": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "yes",
+                  "no"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reimbursement Status"
+          },
+          "source_observations": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationSourceObservation"
+            },
+            "type": "array",
+            "title": "Source Observations"
+          },
+          "data_conflicts": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationDataConflict"
+            },
+            "type": "array",
+            "title": "Data Conflicts"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "source_record_id",
+          "brand_name",
+          "active_substance",
+          "epi",
+          "dosage",
+          "form",
+          "presentation",
+          "commercialization_status",
+          "ppv_price_mad",
+          "hospital_price_mad",
+          "source",
+          "source_page",
+          "source_url",
+          "authorization_status",
+          "therapeutic_class",
+          "pp_gn_raw",
+          "pfht_price_mad",
+          "vat_raw",
+          "rcp_naf_reference",
+          "detailed_source_url"
+        ],
+        "title": "Medication",
+        "description": "One presentation, including its recorded prices and provenance."
+      },
+      "MedicationClarification": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "refine_search",
+              "correct_filters",
+              "confirm_name",
+              "choose_record"
+            ],
+            "title": "Kind"
+          },
+          "field": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "strength",
+                  "form",
+                  "presentation",
+                  "brand_name"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Field"
+          },
+          "options": {
+            "items": {
+              "$ref": "#/components/schemas/ClarificationOption"
+            },
+            "type": "array",
+            "title": "Options"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind"
+        ],
+        "title": "MedicationClarification"
+      },
+      "MedicationDataConflict": {
+        "properties": {
+          "field": {
+            "type": "string",
+            "title": "Field"
+          },
+          "reference_value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reference Value"
+          },
+          "observed_value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Observed Value"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "medicament.ma",
+              "saydalia.ma"
+            ],
+            "title": "Source"
+          },
+          "source_url": {
+            "type": "string",
+            "title": "Source Url"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "field",
+          "reference_value",
+          "observed_value",
+          "source",
+          "source_url"
+        ],
+        "title": "MedicationDataConflict"
+      },
+      "MedicationMention": {
+        "properties": {
+          "name": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name"
+          },
+          "strength": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Strength"
+          },
+          "quantity": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quantity"
+          },
+          "form": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Form"
+          },
+          "presentation": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 200,
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Presentation"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "strength",
+          "quantity",
+          "form",
+          "presentation"
+        ],
+        "title": "MedicationMention"
+      },
+      "MedicationPricing": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "not_requested",
+              "calculated",
+              "needs_quantity_clarification",
+              "awaiting_medication",
+              "price_unavailable"
+            ],
+            "title": "Status"
+          },
+          "requested_quantity": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Requested Quantity"
+          },
+          "presentation_count": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Presentation Count"
+          },
+          "unit_price_mad": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^\\d+\\.\\d{2}$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unit Price Mad"
+          },
+          "total_price_mad": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^\\d+\\.\\d{2}$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Price Mad"
+          },
+          "currency": {
+            "type": "string",
+            "const": "MAD",
+            "title": "Currency",
+            "default": "MAD"
+          },
+          "basis": {
+            "type": "string",
+            "const": "per_catalogue_presentation",
+            "title": "Basis",
+            "default": "per_catalogue_presentation"
+          },
+          "clarification_reason": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "unclear_package_count",
+                  "container_mismatch"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Clarification Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status"
+        ],
+        "title": "MedicationPricing"
+      },
+      "MedicationRefinement": {
+        "properties": {
+          "mention_index": {
+            "type": "integer",
+            "maximum": 9.0,
+            "minimum": 0.0,
+            "title": "Mention Index"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "strength",
+              "form",
+              "presentation",
+              "brand_name",
+              "page"
+            ],
+            "title": "Field"
+          },
+          "value": {
+            "type": "string",
+            "maxLength": 300,
+            "minLength": 1,
+            "title": "Value"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "mention_index",
+          "field",
+          "value"
+        ],
+        "title": "MedicationRefinement"
+      },
+      "MedicationResult": {
+        "properties": {
+          "mention_index": {
+            "type": "integer",
+            "title": "Mention Index"
+          },
+          "mention": {
+            "$ref": "#/components/schemas/MedicationMention"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "resolved",
+              "ambiguous",
+              "suggestions",
+              "not_found",
+              "missing_name",
+              "filters_not_matched"
+            ],
+            "title": "Status"
+          },
+          "match_method": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "exact_brand",
+                  "exact_substance",
+                  "partial",
+                  "fuzzy",
+                  "user_selection",
+                  "context_record"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Match Method"
+          },
+          "medication": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Medication"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "candidates": {
+            "items": {
+              "$ref": "#/components/schemas/Medication"
+            },
+            "type": "array",
+            "title": "Candidates"
+          },
+          "candidate_count": {
+            "type": "integer",
+            "title": "Candidate Count",
+            "default": 0
+          },
+          "candidates_truncated": {
+            "type": "boolean",
+            "title": "Candidates Truncated",
+            "default": false
+          },
+          "stock_status": {
+            "type": "string",
+            "const": "unknown",
+            "title": "Stock Status",
+            "default": "unknown"
+          },
+          "clarification": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/MedicationClarification"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "conflicting_filters": {
+            "items": {
+              "type": "string",
+              "enum": [
+                "strength",
+                "form",
+                "presentation"
+              ]
+            },
+            "type": "array",
+            "title": "Conflicting Filters"
+          },
+          "applied_refinements": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Applied Refinements"
+          },
+          "name_alias": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name Alias"
+          },
+          "candidate_offset": {
+            "type": "integer",
+            "title": "Candidate Offset",
+            "default": 0
+          },
+          "next_candidate_offset": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next Candidate Offset"
+          },
+          "pricing": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/MedicationPricing"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "mention_index",
+          "mention",
+          "status"
+        ],
+        "title": "MedicationResult"
+      },
+      "MedicationSearchResponse": {
+        "properties": {
+          "query": {
+            "type": "string",
+            "title": "Query"
+          },
+          "result_count": {
+            "type": "integer",
+            "title": "Result Count"
+          },
+          "medications": {
+            "items": {
+              "$ref": "#/components/schemas/Medication"
+            },
+            "type": "array",
+            "title": "Medications"
+          },
+          "catalog_scope": {
+            "type": "string",
+            "const": "partial",
+            "title": "Catalog Scope",
+            "default": "partial"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "matches",
+              "suggestions",
+              "not_found"
+            ],
+            "title": "Status"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "suggestions": {
+            "items": {
+              "$ref": "#/components/schemas/MedicationSuggestion"
+            },
+            "type": "array",
+            "title": "Suggestions"
+          }
+        },
+        "type": "object",
+        "required": [
+          "query",
+          "result_count",
+          "medications",
+          "status",
+          "message"
+        ],
+        "title": "MedicationSearchResponse"
+      },
+      "MedicationSelection": {
+        "properties": {
+          "mention_index": {
+            "type": "integer",
+            "maximum": 9.0,
+            "minimum": 0.0,
+            "title": "Mention Index"
+          },
+          "record_id": {
+            "type": "string",
+            "pattern": "^\\d+$",
+            "title": "Record Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "mention_index",
+          "record_id"
+        ],
+        "title": "MedicationSelection"
+      },
+      "MedicationSourceObservation": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "enum": [
+              "medicament.ma",
+              "saydalia.ma"
+            ],
+            "title": "Source"
+          },
+          "source_record_id": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Source Record Id"
+          },
+          "source_url": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Source Url"
+          },
+          "fetched_at_utc": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Fetched At Utc"
+          },
+          "source_updated_at_raw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Updated At Raw"
+          },
+          "atc_code": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Atc Code"
+          },
+          "reimbursement_raw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reimbursement Raw"
+          },
+          "ppv_price_mad": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ppv Price Mad"
+          },
+          "hospital_price_mad": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Hospital Price Mad"
+          },
+          "commercialization_status": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Commercialization Status"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "source",
+          "source_record_id",
+          "source_url",
+          "fetched_at_utc",
+          "source_updated_at_raw",
+          "atc_code",
+          "reimbursement_raw",
+          "ppv_price_mad",
+          "hospital_price_mad",
+          "commercialization_status"
+        ],
+        "title": "MedicationSourceObservation"
+      },
+      "MedicationSuggestion": {
+        "properties": {
+          "term": {
+            "type": "string",
+            "title": "Term"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "brand_name",
+              "active_substance"
+            ],
+            "title": "Field"
+          },
+          "similarity": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Similarity"
+          },
+          "medication_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Medication Ids"
+          }
+        },
+        "type": "object",
+        "required": [
+          "term",
+          "field",
+          "similarity",
+          "medication_ids"
+        ],
+        "title": "MedicationSuggestion"
+      },
+      "OrderPricing": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "not_requested",
+              "calculated",
+              "incomplete"
+            ],
+            "title": "Status",
+            "default": "not_requested"
+          },
+          "total_price_mad": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^\\d+\\.\\d{2}$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Price Mad"
+          },
+          "currency": {
+            "type": "string",
+            "const": "MAD",
+            "title": "Currency",
+            "default": "MAD"
+          }
+        },
+        "type": "object",
+        "title": "OrderPricing"
+      },
+      "PharmacyRecord": {
+        "properties": {
+          "pharmacy_id": {
+            "type": "string",
+            "title": "Pharmacy Id"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Name"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "address": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Address"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Phone"
+          },
+          "latitude": {
+            "type": "number",
+            "maximum": 90.0,
+            "minimum": -90.0,
+            "title": "Latitude"
+          },
+          "longitude": {
+            "type": "number",
+            "maximum": 180.0,
+            "minimum": -180.0,
+            "title": "Longitude"
+          },
+          "opening_information": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Opening Information"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source",
+            "default": "saydalia.ma"
+          },
+          "source_url": {
+            "type": "string",
+            "title": "Source Url"
+          },
+          "source_request_url": {
+            "type": "string",
+            "title": "Source Request Url"
+          },
+          "fetched_at_utc": {
+            "type": "string",
+            "title": "Fetched At Utc"
+          },
+          "directory_scope": {
+            "type": "string",
+            "title": "Directory Scope",
+            "default": "partial_rabat_map_sample"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "pharmacy_id",
+          "name",
+          "city",
+          "address",
+          "phone",
+          "latitude",
+          "longitude",
+          "source_url",
+          "source_request_url",
+          "fetched_at_utc"
+        ],
+        "title": "PharmacyRecord"
+      },
+      "PharmacyResult": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "matches",
+              "ambiguous",
+              "not_found",
+              "outside_coverage"
+            ],
+            "title": "Status"
+          },
+          "applied_city": {
+            "type": "string",
+            "title": "Applied City"
+          },
+          "city_defaulted": {
+            "type": "boolean",
+            "title": "City Defaulted"
+          },
+          "result_count": {
+            "type": "integer",
+            "title": "Result Count"
+          },
+          "pharmacies": {
+            "items": {
+              "$ref": "#/components/schemas/PharmacyRecord"
+            },
+            "type": "array",
+            "title": "Pharmacies"
+          },
+          "scope": {
+            "type": "string",
+            "const": "partial_rabat_directory",
+            "title": "Scope",
+            "default": "partial_rabat_directory"
+          },
+          "ordering": {
+            "type": "string",
+            "const": "name_not_distance",
+            "title": "Ordering",
+            "default": "name_not_distance"
+          },
+          "stock_status": {
+            "type": "string",
+            "const": "unknown",
+            "title": "Stock Status",
+            "default": "unknown"
+          },
+          "opening_hours_status": {
+            "type": "string",
+            "const": "unknown",
+            "title": "Opening Hours Status",
+            "default": "unknown"
+          },
+          "duty_status": {
+            "type": "string",
+            "const": "unverified",
+            "title": "Duty Status",
+            "default": "unverified"
+          },
+          "match_method": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "exact_name",
+                  "reviewed_alias",
+                  "name_tokens",
+                  "area_filter",
+                  "browse"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Match Method"
+          },
+          "name_alias": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name Alias"
+          },
+          "results_truncated": {
+            "type": "boolean",
+            "title": "Results Truncated",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "applied_city",
+          "city_defaulted",
+          "result_count",
+          "pharmacies"
+        ],
+        "title": "PharmacyResult"
+      },
+      "SourceInfo": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "title": "Source"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "fetched_at_utc": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fetched At Utc"
+          },
+          "record_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Record Ids"
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "url",
+          "fetched_at_utc",
+          "record_ids"
+        ],
+        "title": "SourceInfo"
+      },
+      "TokenUsage": {
+        "properties": {
+          "prompt_tokens": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Prompt Tokens"
+          },
+          "completion_tokens": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Completion Tokens"
+          },
+          "total_tokens": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Total Tokens"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "prompt_tokens",
+          "completion_tokens",
+          "total_tokens"
+        ],
+        "title": "TokenUsage"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

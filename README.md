@@ -1,12 +1,39 @@
 # Multilingual Patient-Pharmacy Assistant
 
 A local Challenge 1 prototype for Moroccan pharmacy requests in French, Arabic,
-Darija (Arabic or Latin script), and mixed language. A Streamlit client talks to
-FastAPI. Hosted Qwen extracts structured intents and entities; local code resolves
+Darija (Arabic or Latin script), and mixed language. A French React chat talks to
+a core FastAPI service, with inference in a separate FastAPI service. Hosted Qwen extracts structured intents and entities; local code resolves
 medications, manages clarification and conversation context, calculates prices,
 and constructs answers from recorded source facts.
 
 ## Run the demo
+
+The current four-container demo uses Docker Desktop and the existing migrated
+PostgreSQL volume. Checkpoints 1–5 have been reviewed, including the React interface
+on laptop and phone. Final validation and Streamlit retirement remain checkpoint 6.
+
+For this already-configured workspace:
+
+```powershell
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
+```
+
+Open <http://127.0.0.1:8080>. The web image has been rebuilt with the React chat.
+For future frontend changes, run the same Compose command with `build web` first.
+Stop with `down` instead of `up -d --wait`; omit `--volumes` to preserve data.
+Startup does not migrate or re-import. Do not run the full stack and database-only
+Compose configurations concurrently for the same project.
+
+Fresh setup, explicit imports and runtime credentials are described in the
+[Compose guide](docs/architecture-checkpoint-4.md); the new interface and browser
+checks are described in [checkpoint 5](docs/architecture-checkpoint-5.md).
+New typed questions need internet access and available hosted inference quota;
+valid offered choices do not. Never commit `.runtime` or `.env`.
+
+### Retained Streamlit launcher
+
+Streamlit remains available until checkpoint 6. The following is the earlier
+host-process workflow, rather than the new React entry point.
 
 Requires Python 3.12+ and [uv](https://docs.astral.sh/uv/). Internet access and an
 available Groq API allowance are required for new natural-language messages.
@@ -55,8 +82,8 @@ but historical checks for those providers do not establish current availability.
   substance lookup, and explicit spelling suggestions requiring confirmation.
 - Clarification for ambiguous identities, strengths and presentations; offered
   selections are validated server-side rather than accepting arbitrary IDs.
-- Follow-ups that retain confirmed medications and presentations. Raw extraction,
-  inherited fields and bounded context corrections are displayed separately.
+- Follow-ups that retain confirmed medications and presentations. The patient
+  interface displays factual results and sources without raw extraction JSON.
 - Decimal-based totals for explicit complete-package quantities, with an order
   total only when all medication lines can be calculated.
 - Medication cards, source links, recorded prices and commercialization status.
@@ -78,10 +105,11 @@ live offer. More multilingual checks are in the [manual test guide](docs/arabic-
 
 ## Architecture
 
-Checkpoint 4 Docker Compose integration is implemented and verified; awaiting user review. The four-container
+Checkpoint 4 Docker Compose integration passed verification and user review.
+Checkpoint 5 replaces the placeholder with the React patient chat. The four-container
 setup, explicit database tools, isolated failure/restart checks, and debug overlay
 are described in [the checkpoint 4 guide](docs/architecture-checkpoint-4.md).
-The web container serves a temporary static page until the React checkpoint.
+See [checkpoint 5](docs/architecture-checkpoint-5.md) for frontend behavior and evidence.
 Do not run full-stack and database-only Compose configurations concurrently for
 the same project; both intentionally reuse the checkpoint 2 database volume.
 
@@ -102,13 +130,15 @@ The user starts/stops PostgreSQL separately. See [checkpoint 2 setup/status](doc
 and the root [decision log](DECISION_LOG.md) for the agreed target and checkpoints.
 
 ```text
-Streamlit -> core FastAPI /chat
+React -> Nginx /api -> core FastAPI /chat
           -> HTTP/JSON -> language FastAPI /v1/interpret
                         -> quota reservation -> hosted Qwen extraction
                         -> strict schema and source-span validation
           -> conversation context, catalogue / Rabat directory lookup
           -> deterministic pricing and multilingual answer templates
-          -> answer + raw JSON + effective context + sources (legacy UI)
+          -> answer + medication/pharmacy cards + choices + sources
+Core and language use separate schemas/credentials in PostgreSQL.
+Streamlit remains a separate legacy host-process option until checkpoint 6.
 ```
 
 New text normally needs one inference request, with at most one bounded retry
@@ -116,8 +146,8 @@ for eligible transient failures. Presentation/refinement/reference buttons use
 saved server-side state without another model call. Conversation and
 clarification state in file mode expires after 15 minutes and is lost on core
 restart. PostgreSQL mode persists temporary conversations with a 30-minute
-inactivity expiry, restore/reset APIs, and retained failed messages. Streamlit
-transcript restoration is deferred to the new frontend. Prices and directory
+inactivity expiry, restore/reset APIs, and retained failed messages. React restores
+the active transcript after refresh and invalidates it on New conversation. Prices and directory
 facts come from stored data, not model memory. Core never retries the language
 HTTP request or falls back to local inference; offered buttons remain usable
 during a language outage when core/database are healthy.
@@ -127,12 +157,15 @@ Main API routes:
 | Method | Route | Purpose |
 | --- | --- | --- |
 | GET | `/health` | Loaded catalogue and public inference configuration |
+| GET | `/ready` | Core storage readiness without inference |
+| POST / GET / DELETE | `/conversation` | Create, restore, or invalidate temporary state |
 | POST | `/interpret` | Validated current-message interpretation and metadata |
 | POST | `/chat` | Grounded answers, clarification and conversational follow-ups |
 | GET | `/medications/search` | Name/substance query with separate filters |
 | GET | `/medications/{record_id}` | Stored record and provenance |
 
-Use the generated API documentation for request/response schemas. Run services
+The web gateway exposes these routes under `/api`, including `/api/docs`.
+Use the generated API documentation for request/response schemas. Run legacy host services
 separately if needed:
 
 ```powershell
@@ -192,6 +225,14 @@ provider failures, quota handling and the Streamlit client. See the
 of the staged files, without `.env` or ignored caches, also passed all 236 tests;
 see the [checkout log](reports/github_clean_checkout_tests_verified.log) and
 [publishing checkpoint](reports/github_checkpoint.json).
+
+Migration evidence is separate from that historical baseline. The checkpoint 4
+full suite passed 280 tests; its final offline run passed 270 with ten opt-in
+PostgreSQL checks skipped. Checkpoint 5 adds browser and contract checks; see its
+[current evidence](docs/architecture-checkpoint-5.md). From `frontend/`, run
+`npm ci`, `npm run build`, `npm run lint`, and `npm test` for offline browser checks.
+The explicit real-stack verification command is
+`.\.venv\Scripts\python.exe -m pharmacy_assistant.compose_verify --run-isolated --frontend`.
 
 The evaluation fixture contains 80 synthetic annotated examples: 40 development
 and 40 originally held-out, balanced across four language groups. Annotations

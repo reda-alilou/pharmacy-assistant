@@ -1,0 +1,7 @@
+# Opt-in Wi-Fi testing. Only web is exposed; core/language/database stay internal.
+# Set PHONE_HOST_IP to the laptop's Wi-Fi IPv4 address before using this overlay.
+# Requires Compose 2.24.4+ for !override; omit this file for normal localhost use.
+services:
+  web:
+    ports: !override
+      - "${PHONE_HOST_IP:?Set PHONE_HOST_IP to your Wi-Fi IPv4 address}:${WEB_PORT:-8080}:8080"

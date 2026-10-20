@@ -1,0 +1,1167 @@
+{
+  "initial": {
+    "status": "needs_clarification",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "ABIP",
+            "strength": "15mg",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [
+      {
+        "mention_index": 0,
+        "mention": {
+          "name": "ABIP",
+          "strength": "15mg",
+          "quantity": null,
+          "form": null,
+          "presentation": null
+        },
+        "status": "ambiguous",
+        "match_method": "exact_brand",
+        "medication": null,
+        "candidates": [
+          {
+            "source_record_id": "9079",
+            "brand_name": "ABIP",
+            "active_substance": "ARIPIPRAZOLE",
+            "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+            "dosage": "15 MG",
+            "form": "COMPRIMES PELLICULES",
+            "presentation": "BOITE DE 20 COMPRIMES PELLICULES",
+            "commercialization_status": "Non Commercialisé",
+            "ppv_price_mad": 268.0,
+            "hospital_price_mad": 168.0,
+            "source": "AMMPS",
+            "source_page": 1,
+            "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "authorization_status": "AMM ENREGISTREE",
+            "therapeutic_class": "PSYCHIATRIE",
+            "pp_gn_raw": "GN",
+            "pfht_price_mad": 160.0,
+            "vat_raw": "0%",
+            "rcp_naf_reference": null,
+            "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "atc_code": null,
+            "reimbursement_status": null,
+            "source_observations": [],
+            "data_conflicts": []
+          },
+          {
+            "source_record_id": "9080",
+            "brand_name": "ABIP",
+            "active_substance": "ARIPIPRAZOLE",
+            "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+            "dosage": "15 MG",
+            "form": "COMPRIMES PELLICULES",
+            "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+            "commercialization_status": "Commercialisé",
+            "ppv_price_mad": 372.0,
+            "hospital_price_mad": 247.0,
+            "source": "AMMPS",
+            "source_page": 1,
+            "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "authorization_status": "AMM ENREGISTREE",
+            "therapeutic_class": "PSYCHIATRIE",
+            "pp_gn_raw": "GN",
+            "pfht_price_mad": 236.0,
+            "vat_raw": "0%",
+            "rcp_naf_reference": null,
+            "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+            "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+            "atc_code": "N05AX12",
+            "reimbursement_status": null,
+            "source_observations": [
+              {
+                "source": "medicament.ma",
+                "source_record_id": "abip-15-mg-comprime-pellicule-2",
+                "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+                "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+                "source_updated_at_raw": "4 décembre 2025",
+                "atc_code": "N05AX12",
+                "reimbursement_raw": null,
+                "ppv_price_mad": 372.0,
+                "hospital_price_mad": 247.0,
+                "commercialization_status": "Commercialisé"
+              }
+            ],
+            "data_conflicts": []
+          }
+        ],
+        "candidate_count": 2,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": {
+          "kind": "choose_record",
+          "field": null,
+          "options": []
+        },
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": {
+          "status": "not_requested",
+          "requested_quantity": null,
+          "presentation_count": null,
+          "unit_price_mad": null,
+          "total_price_mad": null,
+          "currency": "MAD",
+          "basis": "per_catalogue_presentation",
+          "clarification_reason": null
+        }
+      }
+    ],
+    "pharmacy": null,
+    "answer": "ABIP: Précisez le médicament, le dosage ou la présentation parmi les choix proposés.",
+    "sources": [
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+        "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+        "record_ids": [
+          "9079",
+          "9080"
+        ]
+      },
+      {
+        "source": "medicament.ma",
+        "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+        "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": true,
+    "continuation_id": "vAbF_ho_ew23uQdVebG1csJv3kBg44EoEqHEKfywXmQ",
+    "continuation_expires_at_utc": "2026-10-20T04:01:30.351100+00:00",
+    "session_id": "AIDWBLr3dtiiD1nI9pAiBRlZANj2oaiShjnN6Vx0t58",
+    "session_expires_at_utc": "2026-10-20T04:01:30.351100+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "price"
+        ],
+        "entities": {
+          "medications": [
+            {
+              "name": "ABIP",
+              "strength": "15mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            }
+          ],
+          "pharmacy": null,
+          "city": null,
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "not_requested",
+      "total_price_mad": null,
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "selected": {
+    "status": "answered",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "ABIP",
+            "strength": "15mg",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [
+      {
+        "mention_index": 0,
+        "mention": {
+          "name": "ABIP",
+          "strength": "15mg",
+          "quantity": null,
+          "form": null,
+          "presentation": null
+        },
+        "status": "resolved",
+        "match_method": "user_selection",
+        "medication": {
+          "source_record_id": "9080",
+          "brand_name": "ABIP",
+          "active_substance": "ARIPIPRAZOLE",
+          "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+          "dosage": "15 MG",
+          "form": "COMPRIMES PELLICULES",
+          "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+          "commercialization_status": "Commercialisé",
+          "ppv_price_mad": 372.0,
+          "hospital_price_mad": 247.0,
+          "source": "AMMPS",
+          "source_page": 1,
+          "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "authorization_status": "AMM ENREGISTREE",
+          "therapeutic_class": "PSYCHIATRIE",
+          "pp_gn_raw": "GN",
+          "pfht_price_mad": 236.0,
+          "vat_raw": "0%",
+          "rcp_naf_reference": null,
+          "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+          "atc_code": "N05AX12",
+          "reimbursement_status": null,
+          "source_observations": [
+            {
+              "source": "medicament.ma",
+              "source_record_id": "abip-15-mg-comprime-pellicule-2",
+              "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+              "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+              "source_updated_at_raw": "4 décembre 2025",
+              "atc_code": "N05AX12",
+              "reimbursement_raw": null,
+              "ppv_price_mad": 372.0,
+              "hospital_price_mad": 247.0,
+              "commercialization_status": "Commercialisé"
+            }
+          ],
+          "data_conflicts": []
+        },
+        "candidates": [],
+        "candidate_count": 0,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": null,
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": {
+          "status": "not_requested",
+          "requested_quantity": null,
+          "presentation_count": null,
+          "unit_price_mad": null,
+          "total_price_mad": null,
+          "currency": "MAD",
+          "basis": "per_catalogue_presentation",
+          "clarification_reason": null
+        }
+      }
+    ],
+    "pharmacy": null,
+    "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+    "sources": [
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+        "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      },
+      {
+        "source": "medicament.ma",
+        "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+        "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": false,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "WlLTSFC20A_77gG6gFyj0DAnXAKd4Cee9B5SDEeK03c",
+    "session_expires_at_utc": "2026-10-20T04:01:30.351100+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "price"
+        ],
+        "entities": {
+          "medications": [
+            {
+              "name": "ABIP",
+              "strength": "15mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            }
+          ],
+          "pharmacy": null,
+          "city": null,
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "not_requested",
+      "total_price_mad": null,
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "two": {
+    "status": "answered",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": null,
+            "strength": null,
+            "quantity": "deux boîtes",
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [
+      {
+        "mention_index": 0,
+        "mention": {
+          "name": "ABIP",
+          "strength": "15 MG",
+          "quantity": "deux boîtes",
+          "form": "COMPRIMES PELLICULES",
+          "presentation": "BOITE DE 30 COMPRIMES PELLICULES"
+        },
+        "status": "resolved",
+        "match_method": "context_record",
+        "medication": {
+          "source_record_id": "9080",
+          "brand_name": "ABIP",
+          "active_substance": "ARIPIPRAZOLE",
+          "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+          "dosage": "15 MG",
+          "form": "COMPRIMES PELLICULES",
+          "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+          "commercialization_status": "Commercialisé",
+          "ppv_price_mad": 372.0,
+          "hospital_price_mad": 247.0,
+          "source": "AMMPS",
+          "source_page": 1,
+          "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "authorization_status": "AMM ENREGISTREE",
+          "therapeutic_class": "PSYCHIATRIE",
+          "pp_gn_raw": "GN",
+          "pfht_price_mad": 236.0,
+          "vat_raw": "0%",
+          "rcp_naf_reference": null,
+          "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+          "atc_code": "N05AX12",
+          "reimbursement_status": null,
+          "source_observations": [
+            {
+              "source": "medicament.ma",
+              "source_record_id": "abip-15-mg-comprime-pellicule-2",
+              "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+              "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+              "source_updated_at_raw": "4 décembre 2025",
+              "atc_code": "N05AX12",
+              "reimbursement_raw": null,
+              "ppv_price_mad": 372.0,
+              "hospital_price_mad": 247.0,
+              "commercialization_status": "Commercialisé"
+            }
+          ],
+          "data_conflicts": []
+        },
+        "candidates": [],
+        "candidate_count": 0,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": null,
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": {
+          "status": "calculated",
+          "requested_quantity": "deux boîtes",
+          "presentation_count": 2,
+          "unit_price_mad": "372.00",
+          "total_price_mad": "744.00",
+          "currency": "MAD",
+          "basis": "per_catalogue_presentation",
+          "clarification_reason": null
+        }
+      }
+    ],
+    "pharmacy": null,
+    "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nTotal calculé pour 2 présentation(s) complète(s) : 2 × 372.00 MAD = 744.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+    "sources": [
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+        "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      },
+      {
+        "source": "medicament.ma",
+        "url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+        "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": true,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "F_YKRCOttmjoozw6o3O2ZXBQS6XOCztDmdH8rVpDByI",
+    "session_expires_at_utc": "2026-10-20T04:01:30.357357+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "price"
+        ],
+        "entities": {
+          "medications": [
+            {
+              "name": "ABIP",
+              "strength": "15 MG",
+              "quantity": "deux boîtes",
+              "form": "COMPRIMES PELLICULES",
+              "presentation": "BOITE DE 30 COMPRIMES PELLICULES"
+            }
+          ],
+          "pharmacy": null,
+          "city": null,
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [
+        "medications.0.name",
+        "medications.0.strength",
+        "medications.0.form",
+        "medications.0.presentation"
+      ],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "followup"
+    },
+    "order_pricing": {
+      "status": "calculated",
+      "total_price_mad": "744.00",
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "pharmacy": {
+    "status": "answered",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "pharmacy_search"
+      ],
+      "entities": {
+        "medications": [],
+        "pharmacy": null,
+        "city": "Rabat",
+        "area": "Agdal",
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [],
+    "pharmacy": {
+      "status": "matches",
+      "applied_city": "Rabat",
+      "city_defaulted": false,
+      "result_count": 11,
+      "pharmacies": [
+        {
+          "pharmacy_id": "saydalia:4539",
+          "name": "Pharmacie du 16 novembre",
+          "city": "Rabat",
+          "address": "16.av du 16 novembre - haut agdal (prés du kitea) Rabat",
+          "phone": "0537670024",
+          "latitude": 33.9912238,
+          "longitude": -6.8489406,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+          "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+          "directory_scope": "systematic_city_map_grid"
+        },
+        {
+          "pharmacy_id": "saydalia:4301",
+          "name": "Pharmacie De L'agdal",
+          "city": "Rabat",
+          "address": "avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat",
+          "phone": "0537671600",
+          "latitude": 33.9886494,
+          "longitude": -6.8480575,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+          "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+          "directory_scope": "systematic_city_map_grid"
+        },
+        {
+          "pharmacy_id": "saydalia:3245",
+          "name": "Pharmacie Alam",
+          "city": "Rabat",
+          "address": "33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat",
+          "phone": "0537775269",
+          "latitude": 34.0083236,
+          "longitude": -6.8447358,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.850000&limit=35",
+          "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+          "directory_scope": "systematic_city_map_grid"
+        },
+        {
+          "pharmacy_id": "saydalia:3499",
+          "name": "Pharmacie Anasse",
+          "city": "Rabat",
+          "address": "résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)",
+          "phone": "0537298899",
+          "latitude": 33.9985458,
+          "longitude": -6.8606985,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=33.985000%2C-6.865000&limit=35",
+          "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+          "directory_scope": "systematic_city_map_grid"
+        },
+        {
+          "pharmacy_id": "saydalia:3531",
+          "name": "Pharmacie Anzi",
+          "city": "Rabat",
+          "address": "n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+          "phone": "0537691313",
+          "latitude": 34.0031887,
+          "longitude": -6.8584875,
+          "opening_information": null,
+          "source": "saydalia.ma",
+          "source_url": "https://saydalia.ma/fr/",
+          "source_request_url": "https://saydalia.ma/api/siteweb_api.php?origin=34.000000%2C-6.865000&limit=35",
+          "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+          "directory_scope": "systematic_city_map_grid"
+        }
+      ],
+      "scope": "partial_rabat_directory",
+      "ordering": "name_not_distance",
+      "stock_status": "unknown",
+      "opening_hours_status": "unknown",
+      "duty_status": "unverified",
+      "match_method": "area_filter",
+      "name_alias": null,
+      "results_truncated": true
+    },
+    "answer": "Résultats de l'annuaire partiel de Rabat, triés par nom ; la proximité n'est pas calculée. Coordonnées enregistrées à vérifier par téléphone.\n\nPharmacie du 16 novembre — 0537670024 — 16.av du 16 novembre - haut agdal (prés du kitea) Rabat\n\nPharmacie De L'agdal — 0537671600 — avenue des nations unies, rue ibn hanbal résidence ibn khaldoun (en face de paul agdal et de la clinique des nations unies) Rabat\n\nPharmacie Alam — 0537775269 — 33.35 avenue oqba agdal (en face du jardin d'essai et l'ambassade de france et à côté de l'hôtel oumlil) - Rabat\n\nPharmacie Anasse — 0537298899 — résidence ifrane av hassan ii mag d3 (a côté de la nouvelle gare rabat agdal)\n\nPharmacie Anzi — 0537691313 — n°4 angle av hassan ii et rue abbas ibn farnas (en face de la gare rabat agdal sur l'avenue hassan ii.)",
+    "sources": [
+      {
+        "source": "saydalia.ma",
+        "url": "https://saydalia.ma/fr/",
+        "fetched_at_utc": "2026-10-19T17:45:05.024030+00:00",
+        "record_ids": [
+          "saydalia:4539",
+          "saydalia:4301",
+          "saydalia:3499"
+        ]
+      },
+      {
+        "source": "saydalia.ma",
+        "url": "https://saydalia.ma/fr/",
+        "fetched_at_utc": "2026-10-19T17:45:34.695271+00:00",
+        "record_ids": [
+          "saydalia:3245"
+        ]
+      },
+      {
+        "source": "saydalia.ma",
+        "url": "https://saydalia.ma/fr/",
+        "fetched_at_utc": "2026-10-19T17:45:31.120157+00:00",
+        "record_ids": [
+          "saydalia:3531"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": true,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "b-PrRSu7Q7zs8dMYfnzH1lf4AY8IQXmBRXF9RkH1gTU",
+    "session_expires_at_utc": "2026-10-20T04:01:30.357357+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "pharmacy_search"
+        ],
+        "entities": {
+          "medications": [],
+          "pharmacy": null,
+          "city": "Rabat",
+          "area": "Agdal",
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "not_requested",
+      "total_price_mad": null,
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "missing": {
+    "status": "answered",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "ABIP",
+            "strength": "15mg",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [
+      {
+        "mention_index": 0,
+        "mention": {
+          "name": "ABIP",
+          "strength": "15mg",
+          "quantity": null,
+          "form": null,
+          "presentation": null
+        },
+        "status": "resolved",
+        "match_method": "user_selection",
+        "medication": {
+          "source_record_id": "9302",
+          "brand_name": "18F PSMA RIM",
+          "active_substance": "[18F] PSMA-1007",
+          "epi": "RIM PHARMA",
+          "dosage": "250 MBQ / ML",
+          "form": "SOLUTION INJECTABLE",
+          "presentation": "BOITE D'UN FLACON MONODOSE DE 15 ML",
+          "commercialization_status": "AMM sans prix",
+          "ppv_price_mad": null,
+          "hospital_price_mad": null,
+          "source": "AMMPS",
+          "source_page": 1,
+          "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "authorization_status": "AMM ENREGISTREE",
+          "therapeutic_class": "DIAGNOSTIC-IMAGERIE",
+          "pp_gn_raw": "RX",
+          "pfht_price_mad": null,
+          "vat_raw": "0%",
+          "rcp_naf_reference": null,
+          "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+          "atc_code": null,
+          "reimbursement_status": null,
+          "source_observations": [],
+          "data_conflicts": []
+        },
+        "candidates": [],
+        "candidate_count": 0,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": null,
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": null
+      }
+    ],
+    "pharmacy": null,
+    "answer": "Le prix public de cette présentation n’est pas renseigné dans le catalogue.",
+    "sources": [
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+        "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+        "record_ids": [
+          "9302"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": false,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "WlLTSFC20A_77gG6gFyj0DAnXAKd4Cee9B5SDEeK03c",
+    "session_expires_at_utc": "2026-10-20T04:01:30.351100+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "price"
+        ],
+        "entities": {
+          "medications": [
+            {
+              "name": "ABIP",
+              "strength": "15mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            }
+          ],
+          "pharmacy": null,
+          "city": null,
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "not_requested",
+      "total_price_mad": null,
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  },
+  "multi": {
+    "status": "answered",
+    "interpretation": {
+      "language": "fr",
+      "reply_language": "fr",
+      "reply_script": "latin",
+      "intents": [
+        "price"
+      ],
+      "entities": {
+        "medications": [
+          {
+            "name": "ABIP",
+            "strength": "15mg",
+            "quantity": null,
+            "form": null,
+            "presentation": null
+          }
+        ],
+        "pharmacy": null,
+        "city": null,
+        "area": null,
+        "date": null,
+        "time": null,
+        "symptom": null
+      }
+    },
+    "medications": [
+      {
+        "mention_index": 0,
+        "mention": {
+          "name": "ABIP",
+          "strength": "15mg",
+          "quantity": "deux boîtes",
+          "form": null,
+          "presentation": null
+        },
+        "status": "resolved",
+        "match_method": "user_selection",
+        "medication": {
+          "source_record_id": "9080",
+          "brand_name": "ABIP",
+          "active_substance": "ARIPIPRAZOLE",
+          "epi": "SUN PHARMACEUTICALS NORTH AFRICA",
+          "dosage": "15 MG",
+          "form": "COMPRIMES PELLICULES",
+          "presentation": "BOITE DE 30 COMPRIMES PELLICULES",
+          "commercialization_status": "Commercialisé",
+          "ppv_price_mad": 372.0,
+          "hospital_price_mad": 247.0,
+          "source": "AMMPS",
+          "source_page": 1,
+          "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "authorization_status": "AMM ENREGISTREE",
+          "therapeutic_class": "PSYCHIATRIE",
+          "pp_gn_raw": "GN",
+          "pfht_price_mad": 236.0,
+          "vat_raw": "0%",
+          "rcp_naf_reference": null,
+          "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+          "source_fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+          "atc_code": "N05AX12",
+          "reimbursement_status": null,
+          "source_observations": [
+            {
+              "source": "medicament.ma",
+              "source_record_id": "abip-15-mg-comprime-pellicule-2",
+              "source_url": "https://medicament.ma/medicament/abip-15-mg-comprime-pellicule-2/",
+              "fetched_at_utc": "2026-10-19T17:55:11.042787+00:00",
+              "source_updated_at_raw": "4 décembre 2025",
+              "atc_code": "N05AX12",
+              "reimbursement_raw": null,
+              "ppv_price_mad": 372.0,
+              "hospital_price_mad": 247.0,
+              "commercialization_status": "Commercialisé"
+            }
+          ],
+          "data_conflicts": []
+        },
+        "candidates": [],
+        "candidate_count": 0,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": null,
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": {
+          "status": "calculated",
+          "requested_quantity": "deux boîtes",
+          "presentation_count": 2,
+          "unit_price_mad": "372.00",
+          "total_price_mad": "744.00",
+          "currency": "MAD",
+          "basis": "per_catalogue_presentation",
+          "clarification_reason": null
+        }
+      },
+      {
+        "mention_index": 1,
+        "mention": {
+          "name": "AIRCORT",
+          "strength": null,
+          "quantity": "une boîte",
+          "form": null,
+          "presentation": null
+        },
+        "status": "resolved",
+        "match_method": null,
+        "medication": {
+          "source_record_id": "771",
+          "brand_name": "AIRCORT",
+          "active_substance": "BECLOMETASONE",
+          "epi": "CIPLA",
+          "dosage": "250 µG / DOSE",
+          "form": "SUSPENSION POUR INHALATION",
+          "presentation": "FLACON DE 200 DOSES",
+          "commercialization_status": "Commercialisé",
+          "ppv_price_mad": 83.0,
+          "hospital_price_mad": 51.9,
+          "source": "AMMPS",
+          "source_page": 13,
+          "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+          "authorization_status": "AMM ENREGISTREE",
+          "therapeutic_class": "PNEUMOLOGIE-ALLERGOLOGIE",
+          "pp_gn_raw": "GN",
+          "pfht_price_mad": 49.4,
+          "vat_raw": "0%",
+          "rcp_naf_reference": null,
+          "detailed_source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+          "source_fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+          "atc_code": null,
+          "reimbursement_status": null,
+          "source_observations": [],
+          "data_conflicts": []
+        },
+        "candidates": [],
+        "candidate_count": 0,
+        "candidates_truncated": false,
+        "stock_status": "unknown",
+        "clarification": null,
+        "conflicting_filters": [],
+        "applied_refinements": {},
+        "name_alias": null,
+        "candidate_offset": 0,
+        "next_candidate_offset": null,
+        "pricing": {
+          "status": "calculated",
+          "requested_quantity": "une boîte",
+          "presentation_count": 1,
+          "unit_price_mad": "83.00",
+          "total_price_mad": "83.00",
+          "currency": "MAD",
+          "basis": "per_catalogue_presentation",
+          "clarification_reason": null
+        }
+      }
+    ],
+    "pharmacy": null,
+    "answer": "ABIP — 15 MG — COMPRIMES PELLICULES — BOITE DE 30 COMPRIMES PELLICULES\nPrix public enregistré: 372.00 MAD.\nStatut de commercialisation enregistré: Commercialisé.",
+    "sources": [
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=1",
+        "fetched_at_utc": "2026-10-18T16:17:23.815325+00:00",
+        "record_ids": [
+          "9080"
+        ]
+      },
+      {
+        "source": "AMMPS",
+        "url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=13",
+        "fetched_at_utc": "2026-10-18T16:17:52.833140+00:00",
+        "record_ids": [
+          "771"
+        ]
+      }
+    ],
+    "inference": {
+      "provider": "groq",
+      "output_mode": "json_object",
+      "requested_model": "browser-test-fixture",
+      "model": "browser-test-fixture",
+      "prompt_version": "browser-test-fixture",
+      "latency_ms": 0.0,
+      "attempts": 1,
+      "completion_id": null,
+      "usage": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null
+      },
+      "usage_scope": "successful_attempt"
+    },
+    "inference_performed": false,
+    "continuation_id": null,
+    "continuation_expires_at_utc": null,
+    "session_id": "WlLTSFC20A_77gG6gFyj0DAnXAKd4Cee9B5SDEeK03c",
+    "session_expires_at_utc": "2026-10-20T04:01:30.351100+00:00",
+    "context": {
+      "effective_interpretation": {
+        "language": "fr",
+        "reply_language": "fr",
+        "reply_script": "latin",
+        "intents": [
+          "price"
+        ],
+        "entities": {
+          "medications": [
+            {
+              "name": "ABIP",
+              "strength": "15mg",
+              "quantity": null,
+              "form": null,
+              "presentation": null
+            }
+          ],
+          "pharmacy": null,
+          "city": null,
+          "area": null,
+          "date": null,
+          "time": null,
+          "symptom": null
+        }
+      },
+      "inherited_fields": [],
+      "normalized_fields": [],
+      "needs_reference": false,
+      "reference_options": [],
+      "action": "independent"
+    },
+    "order_pricing": {
+      "status": "calculated",
+      "total_price_mad": "827.00",
+      "currency": "MAD"
+    },
+    "catalog_scope": "partial"
+  }
+}

@@ -12,6 +12,8 @@
 !migrations/**
 !deploy/
 !deploy/**
+!frontend/
+!frontend/**
 !data/
 !data/processed/
 !data/processed/ammps_medications_enriched.jsonl
@@ -26,3 +28,9 @@
 .venv/**
 reports/**
 data/raw/**
+frontend/node_modules/**
+frontend/dist/**
+frontend/tests/**
+frontend/playwright.config.ts
+frontend/.gitignore
+frontend/.vite/**

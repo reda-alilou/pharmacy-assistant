@@ -1,0 +1,149 @@
+ Image pharmacy-assistant-web:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.24kB done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.web
+#2 transferring dockerfile: 406B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:22.23.2-alpine
+#3 ...
+
+#4 [internal] load metadata for docker.io/library/nginx:1.28-alpine
+#4 ...
+
+#5 [auth] library/nginx:pull token for registry-1.docker.io
+#5 DONE 0.0s
+
+#6 [auth] library/node:pull token for registry-1.docker.io
+#6 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:22.23.2-alpine
+#3 ...
+
+#4 [internal] load metadata for docker.io/library/nginx:1.28-alpine
+#4 DONE 20.5s
+
+#3 [internal] load metadata for docker.io/library/node:22.23.2-alpine
+#3 DONE 33.5s
+
+#7 [internal] load .dockerignore
+#7 transferring context: 663B 0.0s done
+#7 DONE 0.0s
+
+#8 [stage-1 1/3] FROM docker.io/library/nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236
+#8 resolve docker.io/library/nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236 0.0s done
+#8 DONE 0.0s
+
+#9 [web-build 1/6] FROM docker.io/library/node:22.23.2-alpine@sha256:b6f26b36c8ff49624cfdac716b8ea1138d606df02586a77d364bb5536a634f85
+#9 resolve docker.io/library/node:22.23.2-alpine@sha256:b6f26b36c8ff49624cfdac716b8ea1138d606df02586a77d364bb5536a634f85 0.0s done
+#9 DONE 0.1s
+
+#10 [internal] load build context
+#10 transferring context: 344.64kB 0.2s done
+#10 DONE 0.2s
+
+#8 [stage-1 1/3] FROM docker.io/library/nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236
+#8 CACHED
+
+#11 [stage-1 2/3] COPY deploy/web/nginx.conf /etc/nginx/nginx.conf
+#11 DONE 0.0s
+
+#9 [web-build 1/6] FROM docker.io/library/node:22.23.2-alpine@sha256:b6f26b36c8ff49624cfdac716b8ea1138d606df02586a77d364bb5536a634f85
+#9 sha256:65213f1a3de84db18197276d9be6a34fad98eec70604aeaa6821556d932c2676 0B / 444B 0.3s
+#9 sha256:ec179e2ee07230312183920d42bf49c2ef18644e3d7186ffa92b02dd2e26a835 0B / 1.26MB 0.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 0B / 55.68MB 0.2s
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 0B / 3.85MB 0.2s
+#9 sha256:65213f1a3de84db18197276d9be6a34fad98eec70604aeaa6821556d932c2676 444B / 444B 2.1s done
+#9 sha256:ec179e2ee07230312183920d42bf49c2ef18644e3d7186ffa92b02dd2e26a835 0B / 1.26MB 5.3s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 0B / 55.68MB 5.3s
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 0B / 3.85MB 5.3s
+#9 sha256:ec179e2ee07230312183920d42bf49c2ef18644e3d7186ffa92b02dd2e26a835 1.05MB / 1.26MB 7.8s
+#9 sha256:ec179e2ee07230312183920d42bf49c2ef18644e3d7186ffa92b02dd2e26a835 1.26MB / 1.26MB 8.4s done
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 1.05MB / 3.85MB 9.0s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 2.10MB / 55.68MB 10.4s
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 2.10MB / 3.85MB 12.6s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 5.24MB / 55.68MB 15.0s
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 3.15MB / 3.85MB 15.0s
+#9 sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 3.85MB / 3.85MB 15.6s done
+#9 extracting sha256:e2de96513ba9eb53b431787ec8a65cdde380ac4772a3e4c4b714dcfde2a102b5 0.1s done
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 7.34MB / 55.68MB 20.1s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 10.49MB / 55.68MB 24.8s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 12.58MB / 55.68MB 29.9s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 14.68MB / 55.68MB 34.9s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 17.83MB / 55.68MB 37.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 20.97MB / 55.68MB 39.9s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 24.12MB / 55.68MB 44.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 27.26MB / 55.68MB 49.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 30.41MB / 55.68MB 51.9s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 33.55MB / 55.68MB 55.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 36.70MB / 55.68MB 58.2s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 39.85MB / 55.68MB 61.8s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 42.99MB / 55.68MB 64.9s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 46.14MB / 55.68MB 68.5s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 49.28MB / 55.68MB 72.8s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 52.43MB / 55.68MB 76.5s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 55.57MB / 55.68MB 79.8s
+#9 sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 55.68MB / 55.68MB 79.8s done
+#9 extracting sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06
+#9 extracting sha256:1a3a899a8294dd12f21fb3f36579c74b05013aacbcf71d6db947dda5e1c59d06 0.8s done
+#9 DONE 80.7s
+
+#9 [web-build 1/6] FROM docker.io/library/node:22.23.2-alpine@sha256:b6f26b36c8ff49624cfdac716b8ea1138d606df02586a77d364bb5536a634f85
+#9 extracting sha256:ec179e2ee07230312183920d42bf49c2ef18644e3d7186ffa92b02dd2e26a835 0.0s done
+#9 extracting sha256:65213f1a3de84db18197276d9be6a34fad98eec70604aeaa6821556d932c2676 0.0s done
+#9 DONE 80.8s
+
+#12 [web-build 2/6] WORKDIR /app
+#12 DONE 0.1s
+
+#13 [web-build 3/6] COPY frontend/package.json frontend/package-lock.json ./
+#13 DONE 0.0s
+
+#14 [web-build 4/6] RUN npm ci --no-audit --no-fund
+#14 79.49 
+#14 79.49 added 164 packages in 1m
+#14 79.49 npm notice
+#14 79.49 npm notice New major version of npm available! 10.9.8 -> 12.2.0
+#14 79.49 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+#14 79.49 npm notice To update run: npm install -g npm@12.2.0
+#14 79.49 npm notice
+#14 DONE 79.6s
+
+#15 [web-build 5/6] COPY frontend/ ./
+#15 DONE 0.1s
+
+#16 [web-build 6/6] RUN npm run build
+#16 0.313 
+#16 0.313 > pharmacy-assistant-web@0.1.0 build
+#16 0.313 > tsc -b && vite build
+#16 0.313 
+#16 2.700 vite v8.3.4 building client environment for production...
+#16 2.709 transforming...
+#16 2.841 ✓ 2131 modules transformed.
+#16 2.891 rendering chunks...
+#16 2.943 computing gzip size...
+#16 2.948 dist/index.html                   0.67 kB │ gzip:   0.40 kB
+#16 2.948 dist/assets/index-mjHzTNod.css   33.24 kB │ gzip:   8.21 kB
+#16 2.948 dist/assets/index-B7dACST4.js   432.32 kB │ gzip: 132.28 kB
+#16 2.948 
+#16 2.953 ✓ built in 252ms
+#16 DONE 3.0s
+
+#17 [stage-1 3/3] COPY --from=web-build /app/dist/ /usr/share/nginx/html/
+#17 DONE 0.0s
+
+#18 exporting to image
+#18 exporting layers 0.1s done
+#18 exporting manifest sha256:efbef0ba1d68ea802acaeca24c32de05f495ff3a100b771bfecc309fa9d65e09 done
+#18 exporting config sha256:a1e3631344facb135437fbd9a01ac35e31788d1b37b27ac27f4484c956ee9c6d done
+#18 exporting attestation manifest sha256:aaedd1759f4c5216754d138e178776036c75501886e6051623c63cf4524c61ba done
+#18 exporting manifest list sha256:75227c370391223e8d663450f87dedb5ec0d4735b1d0034d810c5cf1c7d64bea done
+#18 naming to docker.io/library/pharmacy-assistant-web:local done
+#18 unpacking to docker.io/library/pharmacy-assistant-web:local 0.0s done
+#18 DONE 0.2s
+
+#19 resolving provenance for metadata file
+#19 DONE 0.0s
+ Image pharmacy-assistant-web:local Built 

@@ -1,12 +1,13 @@
 # How our pharmacy assistant works
 
-Architecture update: checkpoints 1 and 2 are implemented and reviewed. Checkpoint
-3 separates the language API from core over HTTP; PostgreSQL mode also replaces
-the memory-only state described in the original walkthrough below. Read
-[the current checkpoint 3 guide](docs/architecture-checkpoint-3.md) and
-[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for current startup, storage, ownership,
-and failure behavior. The detailed conversation examples below remain relevant;
-the older two-process diagram and memory-only descriptions are historical.
+Architecture update: checkpoints 1–4 are implemented and reviewed. Checkpoint 5
+adds a French React chat served by Nginx, with temporary transcript restoration
+and inline result cards. Core and language are separate HTTP services using
+service-owned PostgreSQL schemas. Read [the checkpoint 5 guide](docs/architecture-checkpoint-5.md)
+and [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for current startup, storage,
+ownership, and recovery behavior. The detailed conversation examples below remain
+relevant; the Streamlit diagram and memory-only descriptions describe the earlier
+demo, which remains available until checkpoint 6 review.
 
 This explains the application implemented today, from startup to the answer you
 see. It is written for understanding the project, rather than as an agent handoff.

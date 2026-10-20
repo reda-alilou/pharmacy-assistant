@@ -1,0 +1,18 @@
+{
+  "laptop_passed": true,
+  "phone_passed": false,
+  "phone_status": "Waived by the user; current campus Wi-Fi connectivity was not verified",
+  "phone_review_waived_by_user": true,
+  "phone_user_statement": "i think the wifi here at inpt has a rule that doesn't allow me to do this, no problem, showing it on the phone was just a flex of me.",
+  "campus_network_isolation_confirmed": false,
+  "review_recorded_on": "2026-10-20",
+  "laptop_user_statement": "i don't know how to access it from my phone, it's working perfectly on my laptop",
+  "requested_scenarios": [
+    "ABIP price and presentation choice",
+    "Two-box follow-up",
+    "Refresh restoration",
+    "New conversation reset",
+    "Laptop and phone chat/layout"
+  ],
+  "manual_provider_calls_not_measured": true
+}

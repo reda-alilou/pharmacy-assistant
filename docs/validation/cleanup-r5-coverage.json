@@ -1,0 +1,3425 @@
+{
+  "version": 1,
+  "baseline": "cleanup-r1-test-map.json",
+  "scope": "R5 maintained coverage; old root suites are retained but no longer maintained. R6 retirement has not started.",
+  "totals": {
+    "original_methods": 282,
+    "by_disposition": {
+      "retain_and_retarget": 219,
+      "replace_obsolete_contract": 5,
+      "adapt_path_contract": 1,
+      "retire_with_capability": 34,
+      "replace_ui_coverage": 14,
+      "consolidate_scenario_coverage": 4,
+      "adapt_postgres_semantics": 5
+    },
+    "by_status": {
+      "ported_to_owner": 222,
+      "replaced_by_current_contract": 7,
+      "retire_with_capability_at_R6": 34,
+      "covered_by_React": 14,
+      "ported_to_real_PostgreSQL": 5
+    }
+  },
+  "python": [
+    {
+      "original": "test_arabic_package_regressions.AliasRegressionTests.test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "AliasRegressionTests.test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.AliasRegressionTests.test_alias_alone_does_not_pick_a_strength_or_presentation",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "AliasRegressionTests.test_alias_alone_does_not_pick_a_strength_or_presentation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.AliasRegressionTests.test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "AliasRegressionTests.test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.AliasRegressionTests.test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "AliasRegressionTests.test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_package_selection_then_requested_quantity_remain_separate",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_package_selection_then_requested_quantity_remain_separate"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_arabic_and_latin_name_identity_share_only_confirmed_record",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_arabic_and_latin_name_identity_share_only_confirmed_record"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_definite_container_reference_is_corrected_only_in_effective_followup",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_definite_container_reference_is_corrected_only_in_effective_followup"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_arabic_package_regressions.PackageSessionTests.test_outcome_metric_rejects_unnecessary_quantity_clarification",
+      "original_path": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_arabic_package_regressions.py",
+          "test": "PackageSessionTests.test_outcome_metric_rejects_unnecessary_quantity_clarification"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_architecture_boundaries.OwnershipTests.test_core_import_needs_no_http_framework_provider_or_collector",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_boundaries.py",
+          "test": "OwnershipTests.test_core_import_needs_no_http_framework_provider_or_collector"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_architecture_boundaries.OwnershipTests.test_service_imports_respect_ownership",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_workspace_packages.py",
+          "test": "WorkspaceBoundaryTests.test_canonical_imports_respect_package_and_feature_ownership"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_architecture_boundaries.OwnershipTests.test_legacy_imports_share_the_canonical_modules",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "replace_obsolete_contract",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_tool_boundaries.py",
+          "test": "ToolBoundaryTests.test_maintained_code_and_coverage_import_no_legacy_namespace_or_streamlit"
+        },
+        {
+          "path": "tests/architecture/test_workspace_packages.py",
+          "test": "WorkspaceBoundaryTests.test_api_imports_need_no_legacy_package_or_peer_implementation"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_architecture_boundaries.OwnershipTests.test_data_and_environment_paths_still_resolve_from_repository_root",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "adapt_path_contract",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_boundaries.py",
+          "test": "OwnershipTests.test_data_and_environment_paths_still_resolve_from_repository_root"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_architecture_boundaries.OwnershipTests.test_evaluation_guards_include_changes_in_nested_implementation",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_workspace_packages.py",
+          "test": "WorkspaceBoundaryTests.test_evaluation_detects_changes_in_canonical_implementations"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_architecture_boundaries.ChatErrorApiTests.test_application_errors_keep_the_existing_http_contract",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_errors.py",
+          "test": "ChatErrorApiTests.test_application_errors_keep_the_existing_http_contract"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_architecture_boundaries.ChatErrorApiTests.test_database_failures_are_sanitized_before_the_http_boundary",
+      "original_path": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_errors.py",
+          "test": "ChatErrorApiTests.test_database_failures_are_sanitized_before_the_http_boundary"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.DatasetTests.test_balanced_splits_raw_spans_ids_and_freeze_validate",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "DatasetTests.test_balanced_splits_raw_spans_ids_and_freeze_validate"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.DatasetTests.test_modified_frozen_file_is_rejected",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "DatasetTests.test_modified_frozen_file_is_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.DatasetTests.test_live_cases_exclude_all_context_and_held_out_examples",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "DatasetTests.test_live_cases_exclude_all_context_and_held_out_examples"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_order_of_multiple_medications_does_not_change_slot_f1",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_order_of_multiple_medications_does_not_change_slot_f1"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_duplicate_prediction_cannot_reuse_a_gold_mention",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_duplicate_prediction_cannot_reuse_a_gold_mention"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_wrong_slot_counts_false_positive_and_false_negative",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_wrong_slot_counts_false_positive_and_false_negative"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_missing_mention_counts_all_its_non_null_slots",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_missing_mention_counts_all_its_non_null_slots"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_alternate_evidenced_span_is_accepted",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_alternate_evidenced_span_is_accepted"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_null_slots_do_not_artificially_inflate_entity_f1",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_null_slots_do_not_artificially_inflate_entity_f1"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.MetricTests.test_wrong_intent_and_unobserved_language_groups_are_not_perfect",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "MetricTests.test_wrong_intent_and_unobserved_language_groups_are_not_perfect"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.BackendBaselineTests.test_same_medication_with_wrong_price_record_is_not_a_correct_resolution",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "BackendBaselineTests.test_same_medication_with_wrong_price_record_is_not_a_correct_resolution"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.BackendBaselineTests.test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "BackendBaselineTests.test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_baseline.BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference",
+      "original_path": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_baseline.py",
+          "test": "BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ResolutionTests.test_exact_brand_excludes_substring_collision_and_keeps_presentations",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ResolutionTests.test_exact_brand_excludes_substring_collision_and_keeps_presentations"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ResolutionTests.test_strength_form_and_package_are_independent_and_quantity_is_not_package",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ResolutionTests.test_strength_form_and_package_are_independent_and_quantity_is_not_package"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ResolutionTests.test_arabic_alias_units_and_form",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ResolutionTests.test_arabic_alias_units_and_form"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ResolutionTests.test_fuzzy_and_partial_names_never_resolve_automatically",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ResolutionTests.test_fuzzy_and_partial_names_never_resolve_automatically"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ResolutionTests.test_unknown_missing_and_large_substance_ambiguity",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ResolutionTests.test_unknown_missing_and_large_substance_ambiguity"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_selection_uses_only_offered_records_without_new_inference",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_selection_uses_only_offered_records_without_new_inference"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_expired_unknown_and_evicted_continuations",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_expired_unknown_and_evicted_continuations"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_record_facts_missing_price_stock_and_sources",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_record_facts_missing_price_stock_and_sources"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_source_conflicts_do_not_replace_official_prices",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_source_conflicts_do_not_replace_official_prices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_answer_follows_retrieved_values_instead_of_fixed_example_prices",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_answer_follows_retrieved_values_instead_of_fixed_example_prices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_unknown_incomplete_and_unsupported_requests",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_unknown_incomplete_and_unsupported_requests"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_unsupported_named_medication_does_not_trigger_unrequested_lookup",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_unsupported_named_medication_does_not_trigger_unrequested_lookup"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_rabat_contacts_area_and_unverified_hours_duty",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_rabat_contacts_area_and_unverified_hours_duty"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatServiceTests.test_outside_coverage_and_missing_pharmacy_have_no_fallback_results",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_chat.py",
+          "test": "ChatServiceTests.test_outside_coverage_and_missing_pharmacy_have_no_fallback_results"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatApiTests.test_http_clarification_serialization_and_selection_validation",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_chat.py",
+          "test": "ChatApiTests.test_http_clarification_serialization_and_selection_validation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_chat.ChatApiTests.test_provider_error_is_visible_and_lookup_still_works",
+      "original_path": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_chat.py",
+          "test": "ChatApiTests.test_provider_error_is_visible_and_lookup_still_works"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_pipeline_never_marks_partial_or_failed_audit_ready",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_windows_checkpoint_rename_retries_and_preserves_previous_file_on_failure",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_all_letters_discovery_resumes_before_details_and_ignores_stale_sitemap_urls",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_page_discovery_is_not_capped_at_old_sample",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_zero_letter_and_duplicate_listing_links",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_budget_resume_preserves_stage_and_reuses_verified_cache",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_repeated_listing_page_is_coverage_failure",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_provider_rejection_stops_without_serializing_error_secrets",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.MedicationExpansionTests.test_retry_attempts_count_against_budget",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.PharmacyExpansionTests.test_offline_retrieval_audit_uses_full_entity_contract",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.PharmacyExpansionTests.test_grid_covers_bounds_and_phone_normalization_preserves_unknowns",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.PharmacyExpansionTests.test_generic_city_run_is_staged_capped_and_resumable",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_collection_expansion.PharmacyExpansionTests.test_duplicate_names_are_reviewed_not_automatically_merged",
+      "original_path": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_compose_deployment.ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials",
+      "original_path": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_compose_deployment.py",
+          "test": "ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_compose_deployment.ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider",
+      "original_path": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_compose_deployment.py",
+          "test": "ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_compose_deployment.ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file",
+      "original_path": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_compose_deployment.py",
+          "test": "ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_compose_deployment.CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer",
+      "original_path": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_compose_deployment.py",
+          "test": "CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_compose_deployment.CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors",
+      "original_path": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_compose_deployment.py",
+          "test": "CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_without_session_the_same_fragment_remains_incomplete",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_without_session_the_same_fragment_remains_incomplete"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_named_followup_targets_only_matching_previous_medication",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_named_followup_targets_only_matching_previous_medication"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_ordinal_selection_and_multimedication_ambiguity",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_ordinal_selection_and_multimedication_ambiguity"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_unsupported_and_topic_switches_drop_old_medication",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_unsupported_and_topic_switches_drop_old_medication"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_sessions_expire_are_bounded_and_are_not_global_memory",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "replace_obsolete_contract",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted"
+        },
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "server expiry clears the temporary transcript and does not resend the question"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "elapsed local expiry clears messages and browser token"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_provider_failure_leaves_original_session_usable",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_provider_failure_leaves_original_session_usable"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_long_source_packaging_never_breaks_session_creation_or_pinning",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_long_source_packaging_never_breaks_session_creation_or_pinning"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationTests.test_fragment_information_intent_inherits_previous_price_intent",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_conversation.py",
+          "test": "ConversationTests.test_fragment_information_intent_inherits_previous_price_intent"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_conversation.py",
+          "test": "ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation.ConversationApiAndUiTests.test_streamlit_attaches_session_to_text_and_clears_it_on_reset",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat, explicit presentation, two packages and refresh restoration without inference"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "new conversation waits for server invalidation; failed reset preserves messages"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_conversation.ConversationApiAndUiTests.test_streamlit_reference_button_sends_the_offered_index_without_text",
+      "original_path": "tests/test_conversation.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "offered facet, pagination and reference actions send exact API values without text"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_conversation_smoke.ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing",
+      "original_path": "tests/test_conversation_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_scenarios_conversation_smoke.py",
+          "test": "ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_conversation_smoke.ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten",
+      "original_path": "tests/test_conversation_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_scenarios_conversation_smoke.py",
+          "test": "ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_demo.DemoClientTests.test_api_url_cannot_contain_credentials_or_query_secrets",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat requests use fixed same-origin API paths without credentials or question text in URLs"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.DemoClientTests.test_provider_errors_are_redacted_and_cooldown_is_preserved",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "cooldowns preserve failed text and allow inference-free choices, never automatic retry"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.DemoClientTests.test_connection_timeout_malformed_response_and_input_errors",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "lost successful response is recovered by GET without repeating the POST"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "uncertain pending request survives refresh and requires explicit status verification"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "manual retry uses a fresh request id and preserves the original failed message"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "invalid extraction response never renders an unvalidated factual answer"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "input limits, whitespace and IME composition never issue unintended requests"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.StreamlitTests.test_real_choice_payload_and_no_api_call_on_display_reruns",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat, explicit presentation, two packages and refresh restoration without inference"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "offered facet, pagination and reference actions send exact API values without text"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.StreamlitTests.test_example_error_and_explicit_retry_preserve_the_original_payload",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "French empty state, examples prepare without sending, keyboard focus and no overflow"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "manual retry uses a fresh request id and preserves the original failed message"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.StreamlitTests.test_expired_selection_restarts_text_and_never_replays_the_expired_token",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "server expiry clears the temporary transcript and does not resend the question"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "elapsed local expiry clears messages and browser token"
+        }
+      ],
+      "status": "covered_by_React",
+      "contract_change": "Expiry clears temporary history; never automatically replay an expired request."
+    },
+    {
+      "original": "test_demo.StreamlitTests.test_arabic_input_is_escaped_and_no_health_connection_has_recovery",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "manual retry uses a fresh request id and preserves the original failed message"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "user markup is text and unsafe source URLs never become links"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat requests use fixed same-origin API paths without credentials or question text in URLs"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.StreamlitTests.test_cooldown_click_does_not_send_an_early_retry",
+      "original_path": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "cooldowns preserve failed text and allow inference-free choices, never automatic retry"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_demo.LauncherTests.test_old_in_process_api_is_not_silently_reused",
+      "original_path": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately."
+    },
+    {
+      "original": "test_demo.LauncherTests.test_language_storage_mismatch_leaves_reused_service_running",
+      "original_path": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately."
+    },
+    {
+      "original": "test_demo.LauncherTests.test_reused_backend_is_never_stopped_by_the_launcher",
+      "original_path": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately."
+    },
+    {
+      "original": "test_demo.LauncherTests.test_launcher_does_not_reuse_an_api_with_a_different_storage_backend",
+      "original_path": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately."
+    },
+    {
+      "original": "test_demo.LauncherTests.test_owned_backend_and_ui_are_stopped_on_interrupt",
+      "original_path": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately."
+    },
+    {
+      "original": "test_demo_conversation_chain.DemoConversationChainTests.test_screenshot_sequence_uses_the_latest_response_session_even_after_retry",
+      "original_path": "tests/test_demo_conversation_chain.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat, explicit presentation, two packages and refresh restoration without inference"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "busy requests block duplicate submissions and historical choices stay inactive"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "lost successful response is recovered by GET without repeating the POST"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "manual retry uses a fresh request id and preserves the original failed message"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_development_live.DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions",
+      "original_path": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_development.py",
+          "test": "DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_development_live.DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success",
+      "original_path": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_development.py",
+          "test": "DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_development_live.DevelopmentTests.test_audit_separates_schema_failure_from_unsupported_entity_evidence",
+      "original_path": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_development.py",
+          "test": "DevelopmentTests.test_audit_separates_schema_failure_from_unsupported_entity_evidence"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_development_live.DevelopmentTests.test_held_out_gate_runs_before_loading_examples_or_creating_a_provider",
+      "original_path": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_development.py",
+          "test": "DevelopmentTests.test_held_out_gate_runs_before_loading_examples_or_creating_a_provider"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_development_live.DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum",
+      "original_path": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_development.py",
+          "test": "DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_freeze.FreezeTests.test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence",
+      "original_path": "tests/test_evaluation_freeze.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_freeze.py",
+          "test": "FreezeTests.test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_freeze.FreezeTests.test_incomplete_development_cannot_be_frozen",
+      "original_path": "tests/test_evaluation_freeze.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_freeze.py",
+          "test": "FreezeTests.test_incomplete_development_cannot_be_frozen"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_zero_budget_sends_nothing_and_is_resumable",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_zero_budget_sends_nothing_and_is_resumable"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_three_invocations_complete_without_repeating_saved_cases",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_three_invocations_complete_without_repeating_saved_cases"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_existing_evidence_is_never_overwritten_by_accident",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_existing_evidence_is_never_overwritten_by_accident"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_missing_report_key_and_invalid_budget_do_not_consume_requests",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_missing_report_key_and_invalid_budget_do_not_consume_requests"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_duplicate_saved_results_are_rejected",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_duplicate_saved_results_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_evaluation_resume.ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts",
+      "original_path": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_resume.py",
+          "test": "ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_frontend_contract.FrontendContractTests.test_openapi_snapshot_matches_core_without_runtime_configuration",
+      "original_path": "tests/test_frontend_contract.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_frontend_contract.py",
+          "test": "FrontendContractTests.test_openapi_snapshot_matches_core_without_runtime_configuration"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_frontend_contract.FrontendContractTests.test_browser_factual_fixtures_validate_against_core_response",
+      "original_path": "tests/test_frontend_contract.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_frontend_contract.py",
+          "test": "FrontendContractTests.test_browser_factual_fixtures_validate_against_core_response"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiConfigTests.test_default_selection_key_isolation_and_health",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_provider_contracts_gemini.py",
+          "test": "GeminiConfigTests.test_default_selection_key_isolation_and_health"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiConfigTests.test_environment_precedence_and_config_validation",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiConfigTests.test_environment_precedence_and_config_validation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiConfigTests.test_real_adapter_chat_clarification_and_sources_without_a_server",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_provider_contracts_gemini.py",
+          "test": "GeminiConfigTests.test_real_adapter_chat_clarification_and_sources_without_a_server"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_native_schema_request_and_actual_usage_with_thoughts_excluded",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_native_schema_request_and_actual_usage_with_thoughts_excluded"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_google_invalid_key_error_and_retry_info",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_google_invalid_key_error_and_retry_info"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_short_rate_limit_cooldown_is_not_automatically_retried",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_short_rate_limit_cooldown_is_not_automatically_retried"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_persistent_network_server_and_timeout_failures_stop_after_two",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_persistent_network_server_and_timeout_failures_stop_after_two"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_refusals_truncation_malformed_and_invented_entities_are_rejected",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_refusals_truncation_malformed_and_invented_entities_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_gemini.GeminiAdapterTests.test_hard_deadline_is_bounded_even_without_transport_timeout",
+      "original_path": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_gemini.py",
+          "test": "GeminiAdapterTests.test_hard_deadline_is_bounded_even_without_transport_timeout"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.ConfigurationTests.test_configuration_file_and_environment_precedence",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "ConfigurationTests.test_configuration_file_and_environment_precedence"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.ConfigurationTests.test_blank_placeholder_and_invalid_settings",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "ConfigurationTests.test_blank_placeholder_and_invalid_settings"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_actual_sdk_sends_schema_and_returns_measured_metadata",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_actual_sdk_sends_schema_and_returns_measured_metadata"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_missing_key_never_sends_a_request",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_missing_key_never_sends_a_request"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_transient_error_has_one_retry_without_sdk_multiplication",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_transient_error_has_one_retry_without_sdk_multiplication"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_successful_retry_is_recorded",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_successful_retry_is_recorded"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_provider_json_generation_failure_gets_only_one_retry",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_provider_json_generation_failure_gets_only_one_retry"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_auth_permission_bad_model_and_long_rate_limit_are_not_retried",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_auth_permission_bad_model_and_long_rate_limit_are_not_retried"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_connection_and_timeout_errors_have_bounded_retry",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_connection_and_timeout_errors_have_bounded_retry"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_invalid_truncated_refused_or_invented_outputs_are_rejected",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_invalid_truncated_refused_or_invented_outputs_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_hard_deadline_is_enforced",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_hard_deadline_is_enforced"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationTests.test_multiple_medications_and_incomplete_requests",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_interpretation.py",
+          "test": "InterpretationTests.test_multiple_medications_and_incomplete_requests"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_interpretation_api.py",
+          "test": "InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationApiTests.test_input_validation_precedes_inference",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_interpretation_api.py",
+          "test": "InterpretationApiTests.test_input_validation_precedes_inference"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationApiTests.test_real_api_response_and_secret_redaction",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_interpretation_api.py",
+          "test": "InterpretationApiTests.test_real_api_response_and_secret_redaction"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.InterpretationApiTests.test_rate_limit_response_propagates_cooldown_without_provider_body",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_interpretation_api.py",
+          "test": "InterpretationApiTests.test_rate_limit_response_propagates_cooldown_without_provider_body"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.SmokeEvaluationTests.test_fixture_has_twelve_balanced_cases_and_only_message_spans",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_interpretation.py",
+          "test": "SmokeEvaluationTests.test_fixture_has_twelve_balanced_cases_and_only_message_spans"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.SmokeEvaluationTests.test_incomplete_or_failed_run_cannot_pass",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_interpretation.py",
+          "test": "SmokeEvaluationTests.test_incomplete_or_failed_run_cannot_pass"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_interpretation.SmokeEvaluationTests.test_entity_comparison_distinguishes_missing_from_wrong",
+      "original_path": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_interpretation.py",
+          "test": "SmokeEvaluationTests.test_entity_comparison_distinguishes_missing_from_wrong"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_service_configuration.py",
+          "test": "ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.ServiceConfigurationTests.test_entrypoints_import_without_other_service_or_provider_modules",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_service_configuration.py",
+          "test": "ServiceConfigurationTests.test_entrypoints_import_without_other_service_or_provider_modules"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.ServiceConfigurationTests.test_real_loopback_http_to_an_independent_language_server",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "ServiceConfigurationTests.test_real_loopback_http_to_an_independent_language_server"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_two_services_preserve_grounding_and_only_send_current_message",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_two_services_preserve_grounding_and_only_send_current_message"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_language_failure_preserves_pending_choices_and_catalogue",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_language_failure_preserves_pending_choices_and_catalogue"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_readiness_checks_quota_without_a_provider_attempt",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_readiness_checks_quota_without_a_provider_attempt"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_malformed_success_and_invented_evidence_are_rejected",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_malformed_success_and_invented_evidence_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_remote_error_text_and_invalid_error_contract_never_leak",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_remote_error_text_and_invalid_error_contract_never_leak"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_transport_timeout_is_single_attempt_and_completion_is_uncertain",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_transport_timeout_is_single_attempt_and_completion_is_uncertain"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_language_total_deadline_stops_without_a_second_provider_attempt",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_language_total_deadline_stops_without_a_second_provider_attempt"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_language_service.LanguageHttpTests.test_invalid_request_never_calls_provider_or_echoes_patient_input",
+      "original_path": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_language_service.py",
+          "test": "LanguageHttpTests.test_invalid_request_never_calls_provider_or_echoes_patient_input"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.NormalizationTests.test_explicit_unit_equivalence_and_ordered_combination_strengths",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "NormalizationTests.test_explicit_unit_equivalence_and_ordered_combination_strengths"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.NormalizationTests.test_form_synonyms_keep_qualifiers_and_negative_words_significant",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "NormalizationTests.test_form_synonyms_keep_qualifiers_and_negative_words_significant"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.NormalizationTests.test_packaging_numbers_volumes_container_and_form_are_not_conflated",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "NormalizationTests.test_packaging_numbers_volumes_container_and_form_are_not_conflated"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.MatchingTests.test_reviewed_alias_targets_exist_in_the_real_catalogue",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "MatchingTests.test_reviewed_alias_targets_exist_in_the_real_catalogue"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.MatchingTests.test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "MatchingTests.test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.MatchingTests.test_known_brand_wrong_strength_never_auto_selects_and_retains_choices",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "MatchingTests.test_known_brand_wrong_strength_never_auto_selects_and_retains_choices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.MatchingTests.test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "MatchingTests.test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.MatchingTests.test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "MatchingTests.test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementTests.test_explicit_strength_correction_preserves_original_extraction_and_prices",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "RefinementTests.test_explicit_strength_correction_preserves_original_extraction_and_prices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementTests.test_next_page_is_validated_and_only_offered_records_can_be_selected",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_matching.py",
+          "test": "RefinementTests.test_next_page_is_validated_and_only_offered_records_can_be_selected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementApiAndUiTests.test_http_refinement_validation_and_existing_presentation_selection",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_matching_improvements.py",
+          "test": "RefinementApiAndUiTests.test_http_refinement_validation_and_existing_presentation_selection"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_matching_improvements.RefinementApiAndUiTests.test_streamlit_refinement_menu_sends_the_real_continuation_payload",
+      "original_path": "tests/test_matching_improvements.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "offered facet, pagination and reference actions send exact API values without text"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_enriched_only_product_is_searchable",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_enriched_only_product_is_searchable"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_abip_presentations_retain_prices_and_enrichment",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_abip_presentations_retain_prices_and_enrichment"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_filters_select_one_presentation_without_merging",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_filters_select_one_presentation_without_merging"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_active_substance_and_case_search",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_active_substance_and_case_search"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_spelling_suggestions_never_become_results",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_spelling_suggestions_never_become_results"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_unknown_and_filter_misses_are_not_nonexistence_claims",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_unknown_and_filter_misses_are_not_nonexistence_claims"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_strength_units_and_numeric_boundaries",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_strength_units_and_numeric_boundaries"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_whitespace_input_rejected_for_query_and_filters",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_whitespace_input_rejected_for_query_and_filters"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_python_search_interface_remains_list_of_dicts",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "replace_obsolete_contract",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_medication_foundation.py",
+          "test": "CatalogueTests.test_filters_select_one_presentation_without_merging"
+        },
+        {
+          "path": "services/core/tests/integration/test_interpretation_api.py",
+          "test": "InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_medication_foundation.CatalogueTests.test_startup_rejects_empty_duplicate_and_invalid_data",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "replace_obsolete_contract",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_import_validation.py",
+          "test": "QualityTests.test_empty_duplicate_and_nonobject_data_fail"
+        },
+        {
+          "path": "services/core/tests/unit/test_runtime_startup.py",
+          "test": "CoreStartupTests.test_unavailable_or_unmigrated_database_fails_without_file_fallback"
+        },
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_invalid_import_leaves_existing_catalogue_and_prices_unchanged"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_medication_foundation.QualityTests.test_full_enriched_dataset_passes_with_unknown_prices",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_import_validation.py",
+          "test": "QualityTests.test_full_enriched_dataset_passes_with_unknown_prices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.QualityTests.test_invalid_prices_schema_and_provenance_fail",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_import_validation.py",
+          "test": "QualityTests.test_invalid_prices_schema_and_provenance_fail"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.QualityTests.test_empty_duplicate_and_nonobject_data_fail",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tools/operations/tests/test_import_validation.py",
+          "test": "QualityTests.test_empty_duplicate_and_nonobject_data_fail"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.QualityTests.test_basic_and_detailed_page_numbers_can_differ",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Legacy basic/detailed source-merging algorithm is retired; source snapshots remain archived."
+    },
+    {
+      "original": "test_medication_foundation.ApiTests.test_health_and_search_need_no_further_file_reads",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_medication_foundation.py",
+          "test": "ApiTests.test_health_and_search_need_no_further_file_reads"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.ApiTests.test_original_search_fields_and_new_filters",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_medication_foundation.py",
+          "test": "ApiTests.test_original_search_fields_and_new_filters"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.ApiTests.test_invalid_queries_return_422_instead_of_500",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_medication_foundation.py",
+          "test": "ApiTests.test_invalid_queries_return_422_instead_of_500"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.ApiTests.test_lookup_and_partial_catalogue_404",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_medication_foundation.py",
+          "test": "ApiTests.test_lookup_and_partial_catalogue_404"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_medication_foundation.ApiTests.test_fuzzy_api_response_requires_review",
+      "original_path": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_medication_foundation.py",
+          "test": "ApiTests.test_fuzzy_api_response_requires_review"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeConfigTests.test_provider_selection_and_selected_key_are_independent",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeConfigTests.test_provider_selection_and_selected_key_are_independent"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeConfigTests.test_env_selection_and_validation",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeConfigTests.test_env_selection_and_validation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeConfigTests.test_health_and_missing_glm_key_never_use_the_existing_groq_key",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_provider_contracts_opencode.py",
+          "test": "OpenCodeConfigTests.test_health_and_missing_glm_key_never_use_the_existing_groq_key"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_strict_request_endpoint_credentials_and_actual_metadata",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_strict_request_endpoint_credentials_and_actual_metadata"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_json_object_requires_explicit_configuration_and_keeps_local_validation",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_json_object_requires_explicit_configuration_and_keeps_local_validation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_transient_error_retries_only_once_and_records_success",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_transient_error_retries_only_once_and_records_success"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_free_tier_restriction_is_actionable_and_not_retried",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_free_tier_restriction_is_actionable_and_not_retried"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_persistent_generation_connection_and_timeout_errors_stop_after_two",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_persistent_generation_connection_and_timeout_errors_stop_after_two"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_opencode.OpenCodeAdapterTests.test_hard_deadline_is_bounded",
+      "original_path": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_opencode.py",
+          "test": "OpenCodeAdapterTests.test_hard_deadline_is_bounded"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_reviewed_alias_targets_exist_and_raw_fields_are_preserved",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_reviewed_alias_targets_exist_and_raw_fields_are_preserved"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_exact_names_win_over_real_directory_substring_collisions",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_exact_names_win_over_real_directory_substring_collisions"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_whole_tokens_do_not_match_substrings_or_numbers_inside_names",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_whole_tokens_do_not_match_substrings_or_numbers_inside_names"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_name_and_area_are_both_required_and_never_fall_back",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_name_and_area_are_both_required_and_never_fall_back"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_area_aliases_are_separate_from_pharmacy_names",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_area_aliases_are_separate_from_pharmacy_names"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyMatchingTests.test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyMatchingTests.test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyChatTests.test_multilingual_alias_returns_only_retrieved_contact_and_sources",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyChatTests.test_multilingual_alias_returns_only_retrieved_contact_and_sources"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyApiAndUiTests.test_api_preserves_raw_arabic_and_exposes_matching_method",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_pharmacy_matching.py",
+          "test": "PharmacyApiAndUiTests.test_api_preserves_raw_arabic_and_exposes_matching_method"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_matching.PharmacyApiAndUiTests.test_streamlit_displays_ambiguity_and_real_directory_choices",
+      "original_path": "tests/test_pharmacy_matching.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "pharmacy cards expose readable provenance and safe contact links without stock claims"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "offered facet, pagination and reference actions send exact API values without text"
+        },
+        {
+          "path": "services/core/tests/unit/test_pharmacy_matching.py",
+          "test": "PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_pharmacy_smoke.PharmacySmokeTests.test_budgeted_partial_run_resumes_only_remaining_cases",
+      "original_path": "tests/test_pharmacy_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_scenarios_pharmacy_smoke.py",
+          "test": "PharmacySmokeTests.test_budgeted_partial_run_resumes_only_remaining_cases"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pharmacy_smoke.PharmacySmokeTests.test_incorrect_resolution_and_incomplete_coverage_cannot_pass",
+      "original_path": "tests/test_pharmacy_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "coverage": [
+        {
+          "path": "tools/evaluation/tests/test_scenarios_pharmacy_smoke.py",
+          "test": "PharmacySmokeTests.test_incorrect_resolution_and_incomplete_coverage_cannot_pass"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_foreign_keys_and_exact_price_constraints",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_foreign_keys_and_exact_price_constraints"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_http_extraction_outage_restore_choices_and_postgres_quotas",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_http_extraction_outage_restore_choices_and_postgres_quotas"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger",
+      "original_path": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_storage.py",
+          "test": "PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_latest_whole_observation_and_earlier_unrefreshed_ids_are_preserved",
+      "original_path": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_conflicting_same_timestamp_and_duplicate_source_ids_are_rejected",
+      "original_path": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_freeze_reparses_raw_content_and_rejects_tampered_parsed_prices",
+      "original_path": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_candidate_enrichment_preserves_official_facts_and_original_input",
+      "original_path": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_pricing.QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "recorded decimal and zero prices stay distinct from missing prices and show server totals"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "recorded decimal and zero prices stay distinct from missing prices and show server totals"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/unit/test_pricing.py",
+          "test": "PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/core/tests/integration/test_pricing.py",
+          "test": "PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_pricing.PricingApiAndUiTests.test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls",
+      "original_path": "tests/test_pricing.py",
+      "disposition": "replace_ui_coverage",
+      "coverage": [
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "chat, explicit presentation, two packages and refresh restoration without inference"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "missing recorded price is explicit and never displayed as zero"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "multiple medication cards use server line totals and hide an incomplete order total"
+        },
+        {
+          "path": "apps/web/tests/browser/chat.spec.ts",
+          "test": "recorded decimal and zero prices stay distinct from missing prices and show server totals"
+        }
+      ],
+      "status": "covered_by_React"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_concurrent_connections_allow_only_one_reservation",
+      "original_path": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_quota.py",
+          "test": "PostgresQuotaTests.test_concurrent_connections_allow_only_one_reservation"
+        }
+      ],
+      "status": "ported_to_real_PostgreSQL"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_another_python_process_uses_the_same_ledger",
+      "original_path": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_quota.py",
+          "test": "PostgresQuotaTests.test_another_python_process_uses_the_same_ledger"
+        }
+      ],
+      "status": "ported_to_real_PostgreSQL"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_cooldown_persists_and_cannot_be_shortened_by_another_caller",
+      "original_path": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_quota.py",
+          "test": "PostgresQuotaTests.test_cooldown_persists_and_cannot_be_shortened_by_another_caller"
+        }
+      ],
+      "status": "ported_to_real_PostgreSQL"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_budget_counts_reservations_not_rejected_local_requests",
+      "original_path": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_quota.py",
+          "test": "PostgresQuotaTests.test_budget_counts_reservations_not_rejected_local_requests"
+        }
+      ],
+      "status": "ported_to_real_PostgreSQL"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_unavailable_ledger_fails_closed_and_settings_are_validated",
+      "original_path": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "coverage": [
+        {
+          "path": "tests/integration/test_postgres_quota.py",
+          "test": "PostgresQuotaTests.test_unavailable_ledger_fails_closed_without_exposing_credentials"
+        }
+      ],
+      "status": "ported_to_real_PostgreSQL"
+    },
+    {
+      "original": "test_quota.QuotaTests.test_pacific_midnight_handles_summer_winter_and_dst",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_quota.py",
+          "test": "QuotaTests.test_pacific_midnight_handles_summer_winter_and_dst"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaAdapterTests.test_retries_cannot_exceed_one_wire_request_budget",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_quota.py",
+          "test": "QuotaAdapterTests.test_retries_cannot_exceed_one_wire_request_budget"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaAdapterTests.test_waiting_evaluator_respects_spacing_without_real_sleep",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_quota.py",
+          "test": "QuotaAdapterTests.test_waiting_evaluator_respects_spacing_without_real_sleep"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaAdapterTests.test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_quota.py",
+          "test": "QuotaAdapterTests.test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaAdapterTests.test_unspecified_429_gets_a_shared_default_cooldown",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "services/language/tests/unit/test_quota.py",
+          "test": "QuotaAdapterTests.test_unspecified_429_gets_a_shared_default_cooldown"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaApiTests.test_factory_api_spacing_preserves_lookup_and_retry_after_without_network",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_quota.py",
+          "test": "QuotaApiTests.test_factory_api_spacing_preserves_lookup_and_retry_after_without_network"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_quota.QuotaApiTests.test_default_allows_back_to_back_requests_and_ignores_old_spacing",
+      "original_path": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_language_transport_quota.py",
+          "test": "QuotaApiTests.test_default_allows_back_to_back_requests_and_ignores_old_spacing"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_reference_data.SecondaryParserTests.test_medicament_extracts_actual_details_and_publication_date",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.SecondaryParserTests.test_missing_presentation_is_preserved_without_guessing",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.SecondaryParserTests.test_saydalia_repeated_attributes_do_not_duplicate_products",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.SecondaryParserTests.test_secondary_prices_and_package_boundaries",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.MatchingTests.test_unique_presentation_enrichment_preserves_official_prices",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.MatchingTests.test_ambiguous_and_wrong_strength_never_auto_merge",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.MatchingTests.test_secondary_disagreements_leave_canonical_fields_unknown",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.MatchingTests.test_invalid_atc_and_nonmedication_products_are_not_promoted",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.PharmacyAndCollectionTests.test_only_rabat_records_and_no_undated_duty_claim",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.PharmacyAndCollectionTests.test_source_cache_verifies_hash_and_redacts_browser_tokens",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_reference_data.PharmacyAndCollectionTests.test_incomplete_snapshot_cannot_replace_dataset",
+      "original_path": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "status": "retire_with_capability_at_R6",
+      "coverage": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests."
+    },
+    {
+      "original": "test_storage_contracts.StorageValueTests.test_frozen_initial_migrations_match_the_relational_models",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StorageValueTests.test_frozen_initial_migrations_match_the_relational_models"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_storage_contracts.StorageValueTests.test_prices_preserve_missing_zero_and_exact_precision",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StorageValueTests.test_prices_preserve_missing_zero_and_exact_precision"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_storage_contracts.StorageValueTests.test_alias_spellings_and_confirmation_policies_remain_distinct",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StorageValueTests.test_alias_spellings_and_confirmation_policies_remain_distinct"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_storage_contracts.StorageValueTests.test_postgres_configuration_requires_both_private_service_urls",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "replace_obsolete_contract",
+      "coverage": [
+        {
+          "path": "tests/architecture/test_service_configuration.py",
+          "test": "ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials"
+        },
+        {
+          "path": "services/core/tests/unit/test_runtime_startup.py",
+          "test": "CoreStartupTests.test_missing_owned_url_fails_before_reading_catalogue_or_creating_interpreter"
+        },
+        {
+          "path": "services/language/tests/unit/test_runtime_startup.py",
+          "test": "LanguageStartupTests.test_missing_owned_url_fails_before_provider_creation"
+        }
+      ],
+      "status": "replaced_by_current_contract"
+    },
+    {
+      "original": "test_storage_contracts.StateCodecTests.test_json_round_trip_restores_clarification_then_pricing_context",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StateCodecTests.test_json_round_trip_restores_clarification_then_pricing_context"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_storage_contracts.StateCodecTests.test_transcript_payload_does_not_persist_bearer_tokens",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StateCodecTests.test_transcript_payload_does_not_persist_bearer_tokens"
+        }
+      ],
+      "status": "ported_to_owner"
+    },
+    {
+      "original": "test_storage_contracts.StateCodecTests.test_unrecognized_snapshot_version_is_rejected",
+      "original_path": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "coverage": [
+        {
+          "path": "tests/integration/test_storage_contracts.py",
+          "test": "StateCodecTests.test_unrecognized_snapshot_version_is_rejected"
+        }
+      ],
+      "status": "ported_to_owner"
+    }
+  ],
+  "additional_checks": [
+    "R2 package/service ownership and migration byte preservation",
+    "R4 PostgreSQL-only startup and explicit offline fixture injection",
+    "R5 no legacy/Streamlit import checks and CLI/schema export checks",
+    "R5 protected historical output and owned evaluation settings checks",
+    "R5 transactional invalid import, PostgreSQL budget resume and missing-ledger checks"
+  ],
+  "browser": {
+    "offline_scenarios": [
+      "French empty state, examples prepare without sending, keyboard focus and no overflow",
+      "chat, explicit presentation, two packages and refresh restoration without inference",
+      "typed chat and selections work without the HTTPS-only randomUUID API",
+      "busy requests block duplicate submissions and historical choices stay inactive",
+      "cooldowns preserve failed text and allow inference-free choices, never automatic retry",
+      "lost successful response is recovered by GET without repeating the POST",
+      "uncertain pending request survives refresh and requires explicit status verification",
+      "manual retry uses a fresh request id and preserves the original failed message",
+      "new conversation waits for server invalidation; failed reset preserves messages",
+      "server expiry clears the temporary transcript and does not resend the question",
+      "elapsed local expiry clears messages and browser token",
+      "pharmacy cards expose readable provenance and safe contact links without stock claims",
+      "missing recorded price is explicit and never displayed as zero",
+      "invalid extraction response never renders an unvalidated factual answer",
+      "browser storage failure stays usable and explains refresh limitation",
+      "input limits, whitespace and IME composition never issue unintended requests",
+      "mobile layout and accessible empty/chat/reset states",
+      "multiple medication cards use server line totals and hide an incomplete order total",
+      "offered facet, pagination and reference actions send exact API values without text",
+      "user markup is text and unsafe source URLs never become links",
+      "recorded decimal and zero prices stay distinct from missing prices and show server totals",
+      "chat requests use fixed same-origin API paths without credentials or question text in URLs"
+    ],
+    "real_stack": "apps/web/tests/browser/deployment.spec.ts"
+  }
+}

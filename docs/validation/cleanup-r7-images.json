@@ -1,0 +1,51 @@
+{
+  "recorded_at_utc": "2026-10-20T13:38:04.242846+00:00",
+  "network": "none",
+  "servers_started": false,
+  "live_inference_performed": false,
+  "helpers_auto_removed": true,
+  "images": {
+    "core": {
+      "independent_import": true,
+      "missing_database_rejected": true,
+      "unavailable_database_rejected": true,
+      "no_sqlite_fallback": true,
+      "file_mode_rejected": true,
+      "openapi_sha256": "f21b96c0dda204d9c21dac4762cd6856affb998a6dbbbb82c923fb105e62dded",
+      "original_openapi_preserved": true,
+      "image_id": "sha256:7cdd90984f508d2279b32bf3590ccea4d94a9a658de0e0324d9b4cf465a94a60"
+    },
+    "language": {
+      "independent_import": true,
+      "missing_database_rejected": true,
+      "unavailable_database_rejected": true,
+      "no_sqlite_fallback": true,
+      "file_mode_rejected": true,
+      "openapi_sha256": "4726c221ba0406e959c6f4acaf9f3453784210f421aff477a3347e9aa43ad3b1",
+      "original_openapi_preserved": true,
+      "image_id": "sha256:050210e97b11be65952113c44d598ef528250537edbc9789909baa89b1d85daa"
+    },
+    "operations": {
+      "installed_package": true,
+      "legacy_and_streamlit_absent": true,
+      "no_checkout_source_or_credentials": true,
+      "owned_migration_assets": true,
+      "console_scripts": 9,
+      "image_id": "sha256:db25073de43892c617c0cd3bfc7ab01caa26d537b46642c5968c2e981d13d7f6"
+    },
+    "web": {
+      "image_id": "sha256:fbad725062fae68ce29988282e85212062ac106b0231b0879a55f89bf456572f",
+      "nginx_configuration_preserved": true,
+      "clean_frontend_build_assets_byte_identical": true,
+      "files_verified": 5,
+      "sha256": {
+        "/etc/nginx/nginx.conf": "fe6671b75d1c01933eb9480e8b22aa02dbfd19176268a64f87507875f360263b",
+        "/usr/share/nginx/html/favicon.svg": "a18be8ba05ffd10f1e09776cbd9067f88ab1e6958781e3030cf29114fa1880c8",
+        "/usr/share/nginx/html/index.html": "5319f3292a64f776b85376f5050d4da8db40a5484ef4d098fd42e19afdb97539",
+        "/usr/share/nginx/html/assets/index-Bt1RF8MK.js": "620c0f8a8b3996e32fa4fc5c62cbb248183a9f2dc1a9b6a6da0582c7e932216d",
+        "/usr/share/nginx/html/assets/index-d_76-r73.css": "aaddcd7f188592128fd5b6f835d50cb4770e36776e05b63134ce4b311bd9d4c2"
+      }
+    }
+  },
+  "passed": true
+}

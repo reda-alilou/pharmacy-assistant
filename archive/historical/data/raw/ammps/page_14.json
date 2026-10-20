@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=14",
+  "parsed_at_utc": "2026-09-22T13:44:56.192146+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "9307",
+      "brand_name": "ADFENE",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "400   MG   /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION IV",
+        "Présentation": "BOITE DE 5 POCHES DE 100 ML",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "9308",
+      "brand_name": "ADFENE",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "400   MG   /  100  ML",
+        "Forme": "SOLUTION POUR PERFUSION IV",
+        "Présentation": "BOITE  DE 20 POCHES DE 100 ML",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "9309",
+      "brand_name": "ADFENE",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "600   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITES DE 30",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "9304",
+      "brand_name": "ADFENE 2%",
+      "details": {
+        "Substance active": "IBUPROFENE",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "100   MG  /  5  ML",
+        "Forme": "SUSPENSION BUVABLE",
+        "Présentation": "FLACON DE 150 ML AVEC PIPETTE DOSEUSE",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "1603",
+      "brand_name": "ADIZEM LP",
+      "details": {
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "EPI": "GENPHARMA",
+        "Dosage": "120   MG",
+        "Forme": "GELULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "113,50 DH",
+        "PH": "70,90 DH"
+      }
+    },
+    {
+      "source_record_id": "1604",
+      "brand_name": "ADIZEM LP",
+      "details": {
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "EPI": "GENPHARMA",
+        "Dosage": "180   MG",
+        "Forme": "GELULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "138,00 DH",
+        "PH": "86,20 DH"
+      }
+    },
+    {
+      "source_record_id": "1605",
+      "brand_name": "ADIZEM LP",
+      "details": {
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "EPI": "GENPHARMA",
+        "Dosage": "240   MG",
+        "Forme": "GELULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "160,00 DH",
+        "PH": "100,00 DH"
+      }
+    },
+    {
+      "source_record_id": "1606",
+      "brand_name": "ADIZEM LP",
+      "details": {
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "EPI": "GENPHARMA",
+        "Dosage": "300   MG",
+        "Forme": "GELULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "175,00 DH",
+        "PH": "109,40 DH"
+      }
+    },
+    {
+      "source_record_id": "1607",
+      "brand_name": "ADIZEM LP",
+      "details": {
+        "Substance active": "DILTIAZEM (CHLORHYDRATE)",
+        "EPI": "GENPHARMA",
+        "Dosage": "90   MG",
+        "Forme": "GELULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "104,40 DH",
+        "PH": "65,30 DH"
+      }
+    },
+    {
+      "source_record_id": "7798",
+      "brand_name": "ADMOXEL",
+      "details": {
+        "Substance active": "DOCETAXEL (TRIHYDRATE)",
+        "EPI": "ISIO LABORATOIRES",
+        "Dosage": "20   MG  /  0,5  ML",
+        "Forme": "SOLUTION A DILUER ET SOLVANT POUR PERFUSION",
+        "Présentation": "FLACON DE 5ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "820,00 DH",
+        "PH": "545,00 DH"
+      }
+    },
+    {
+      "source_record_id": "7799",
+      "brand_name": "ADMOXEL",
+      "details": {
+        "Substance active": "DOCETAXEL (TRIHYDRATE)",
+        "EPI": "ISIO LABORATOIRES",
+        "Dosage": "80   MG  /  2  ML",
+        "Forme": "SOLUTION A DILUER ET SOLVANT POUR PERFUSION",
+        "Présentation": "FLACON DE 10ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "2.520.00 DH",
+        "PH": "2.183.00 DH"
+      }
+    },
+    {
+      "source_record_id": "3822",
+      "brand_name": "ADO",
+      "details": {
+        "Substance active": "METFORMINE (CHLORHYDRATE)",
+        "EPI": "PHARMA 5",
+        "Dosage": "1000   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "19,90 DH",
+        "PH": "12,40 DH"
+      }
+    }
+  ]
+}

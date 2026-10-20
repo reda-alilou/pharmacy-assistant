@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "checkpoint": "R3",
+  "status": "complete_awaiting_user_review",
+  "recorded_at_utc": "2026-10-20T10:32:01.915533+00:00",
+  "r2_reviewed": true,
+  "r4_started": false,
+  "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+  "web_app": "apps/web",
+  "old_frontend_directory_removed": true,
+  "preservation": {
+    "byte_preserved_files": {
+      "package-lock.json": "008e048f727f257c067075e89bdb681dcfdd0ee87dc6b339a752119f5537c733",
+      "contracts/core.openapi.json": "a42fe523c819a0d9fc1547b4475c483400ccf7619a31676808787875d661c8b6",
+      "tests/fixtures/responses.json": "05778e9cc58641cda0fbf8dabab4a170da835c85fb17cf7b7b18f25f1bd45c2a",
+      "src/shared/api/generated.ts": "57718838902531c0c658e5c44146a3b1ac0e951adf15443294cd0b5b53d22786",
+      "src/shared/api/client.ts": "580ed596712798eed5e1faebc42df8fadceb05a0e9b6fe4fc1b8542d58f26e62",
+      "src/shared/api/schema.ts": "c0394f3478571e8fde8536849cfbcc8530bf05e8f277fb14ea6ce76b5e10058a",
+      "src/app/styles/index.css": "e5c0e376448b14b1a21b36dd0d5105a3c85a7a8b956ba1e518b5567b06c29c18",
+      "src/app/styles/app.css": "bd7a3eaf3ff8931be156dcfab86e2c1b0b2f587f799258b2aaa29f01b5f0fe6b",
+      "public/favicon.svg": "a18be8ba05ffd10f1e09776cbd9067f88ab1e6958781e3030cf29114fa1880c8",
+      "vite.config.ts": "6a93be2f04c38e13072b945215147c28d5433e62023f497f04c95bfd975f5947",
+      "tsconfig.json": "e25436ad4ea16c393fae79b85c546602d476e5344eed302b469a8d5e5235118b",
+      "tsconfig.app.json": "dd8d829f42a609548f16d28af75ab3febeb158498ca3497241c9a4b1e7dc4c71",
+      "tsconfig.node.json": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8"
+    },
+    "historical_data_and_reports_byte_checked": 982,
+    "historical_data_and_reports_unchanged": true,
+    "session_and_request_behavior": "Existing controller/client preserved with import-path changes only",
+    "provider_models_prompts_and_database_schemas_changed": false,
+    "visual_comparison": [
+      {
+        "capture": "desktop-empty",
+        "baseline_size": [
+          1280,
+          720
+        ],
+        "current_size": [
+          1280,
+          720
+        ],
+        "pixels_identical": false
+      },
+      {
+        "capture": "desktop-conversation",
+        "baseline_size": [
+          1280,
+          2050
+        ],
+        "current_size": [
+          1280,
+          2050
+        ],
+        "pixels_identical": false
+      },
+      {
+        "capture": "mobile-empty",
+        "baseline_size": [
+          390,
+          844
+        ],
+        "current_size": [
+          390,
+          844
+        ],
+        "pixels_identical": true
+      },
+      {
+        "capture": "mobile-conversation",
+        "baseline_size": [
+          390,
+          1288
+        ],
+        "current_size": [
+          390,
+          1288
+        ],
+        "pixels_identical": true
+      }
+    ],
+    "desktop_capture_note": "Same dimensions and reviewed layout; transient hover/focus rendering differs. Both phone captures are pixel-identical to the saved screenshots."
+  },
+  "validation": {
+    "host_build": "passed",
+    "lint": "passed_with_two_existing_fast_refresh_warnings",
+    "core_contract_and_factual_fixture_checks": {
+      "passed": 2
+    },
+    "offline_browser_checks": {
+      "passed": 20,
+      "skipped": 1,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "browser_skip_reason": "Deployment test requires the user-controlled isolated stack",
+    "initial_browser_diagnostic": "Mobile accessibility scan was interrupted by navigation; isolated rerun passed. Added interface readiness assertions; full final suite passed.",
+    "web_image_build": "passed",
+    "web_image": "sha256:653a49000ae0456658d1b8e5fc6ecc3af86619ec40c4619374242355bfd24938",
+    "image_build_command": "docker --context=desktop-linux buildx build --builder desktop-linux --pull=false --load -f apps/web/Dockerfile -t pharmacy-assistant-web:local .",
+    "build_diagnostic": "Compose builder handoff stalled/failed; direct Desktop buildx build succeeded without persistent context or network-setting changes.",
+    "static_image_without_network_or_web_server": "passed",
+    "user_run_real_stack_report": "docs/validation/cleanup-r3-container.json",
+    "real_stack_checks_passed": 9,
+    "logs": {
+      "host-build.log": {
+        "path": "artifacts/cleanup/r3/host-build.log",
+        "sha256": "3bdc63c9d7d99a71cf8cab44c6977ac86837923826fe305ce9c87f06269388a4"
+      },
+      "lint.log": {
+        "path": "artifacts/cleanup/r3/lint.log",
+        "sha256": "e954f8df216fa0dbc8b8f5276a8aad1ca9fb10334e3368aaaa73b17cd484c88c"
+      },
+      "python-contract-tests.log": {
+        "path": "artifacts/cleanup/r3/python-contract-tests.log",
+        "sha256": "69efa4e5b931eef7000937867738e46194cffdec68bbabb6b11952358ffeb513"
+      },
+      "browser-final.log": {
+        "path": "artifacts/cleanup/r3/browser-final.log",
+        "sha256": "277c0d4804fe279860f55a0023307395e79467e8974dc2d19aaca226dba66f56"
+      },
+      "web-build-final.log": {
+        "path": "artifacts/cleanup/r3/web-build-final.log",
+        "sha256": "9ccba91101e231861e0162e0d22a647300c9e059ce2c4757232ae0e666234f63"
+      },
+      "web-image-smoke.log": {
+        "path": "artifacts/cleanup/r3/web-image-smoke.log",
+        "sha256": "186df0f73fc322fdec7ce24c2eaebad360904f7ac9718e1c7a09b279c48844dd"
+      }
+    }
+  },
+  "operations": {
+    "hosted_inference_performed": false,
+    "application_stack_started_by_agent": false,
+    "application_volume_modified": false,
+    "network_settings_changed": false,
+    "image_smoke_container_automatically_removed": true,
+    "git_commit_or_push_performed": false
+  },
+  "source_sha256": {
+    "apps/web/.gitignore": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+    "apps/web/.oxlintrc.json": "b4d344818a1e1bf43997e4744a9153c8eef770c98b58229cd86363dabb85ded4",
+    "apps/web/components.json": "13301302f7fc90fbff449ea4fa25651078ef7c4243d0c2cfbbe3cad423313596",
+    "apps/web/contracts/core.openapi.json": "a42fe523c819a0d9fc1547b4475c483400ccf7619a31676808787875d661c8b6",
+    "apps/web/Dockerfile": "e1554d014bf1426979fbc51cc1871a8125281f401e462792054d692fb9374e2d",
+    "apps/web/index.html": "0c232d5756d4936ded4444da9d7184a2172bebfcf4eed53ad6afd7e7ebd9c9e8",
+    "apps/web/package-lock.json": "008e048f727f257c067075e89bdb681dcfdd0ee87dc6b339a752119f5537c733",
+    "apps/web/package.json": "70931686af331b2635216a3bb77701756282de52636c026f7e8b31f044f78b4a",
+    "apps/web/playwright.config.ts": "cda610c1c320fa63783bb8e98f6fa92823320786f5a2c4d02bca729b91778d18",
+    "apps/web/public/favicon.svg": "a18be8ba05ffd10f1e09776cbd9067f88ab1e6958781e3030cf29114fa1880c8",
+    "apps/web/README.md": "5d207a7ecb084261a39adaa928a787c591e3998af8ea25b7fe14c69edae21f80",
+    "apps/web/src/app/App.tsx": "4a2e7aac0a9e016ad30724e31e29fca17f7d8e634569640fe3fbbb2f7e51ce4c",
+    "apps/web/src/app/main.tsx": "5435d7dbe39be8853da4821dadf704bcde030ead5b3e7b2b5c62f42cea5b7ec2",
+    "apps/web/src/app/styles/app.css": "bd7a3eaf3ff8931be156dcfab86e2c1b0b2f587f799258b2aaa29f01b5f0fe6b",
+    "apps/web/src/app/styles/index.css": "e5c0e376448b14b1a21b36dd0d5105a3c85a7a8b956ba1e518b5567b06c29c18",
+    "apps/web/src/features/chat/components/chat.tsx": "c1e09205606764a7367d8cc14878948893e644ce99fc8717705d9db0e915269d",
+    "apps/web/src/features/chat/state/conversation.ts": "a79157c99be5d5e92f9df2ccf19db274dc89216e434ae63a4baf06852344b371",
+    "apps/web/src/features/results/components/clarification.tsx": "66df3f07c9cff172ab0728a222d3e3c1cd95fa8895e70d6287125dbd7d85bc0c",
+    "apps/web/src/features/results/components/medication-card.tsx": "48e0d57e9f197f7a6e90ae6b032e6a89eec1061c9566db7b42a6371a4d9d0096",
+    "apps/web/src/features/results/components/pharmacy-results.tsx": "20990c94c6309e2f0a779cd2a68fd0f21452fe8ee4c230c0a62cbaff6dedf9c1",
+    "apps/web/src/features/results/components/results.tsx": "aeec413178840067c000710fc182e8ef4e89288d29b2006e7f0259b9d28e7b0c",
+    "apps/web/src/features/results/components/source-link.tsx": "0f3333c65cbfd3b9f5f95cce7fe461c55dda3388bf35c38f3f0f4a2c76806370",
+    "apps/web/src/features/results/components/sources.tsx": "14c235738bc9eb78612873d2f849f0f854e893257b3685446b4e742b754a2e35",
+    "apps/web/src/features/results/lib/presentation.ts": "70e06491b80132fa2ed120907e8d538dcfee06b619655df90ce2a4ed7f5b0207",
+    "apps/web/src/features/results/types.ts": "f099250e59d01aee335ff77457b0fa9acbdc98cbfc3d70b3de5eafd65ddb82f1",
+    "apps/web/src/shared/api/client.ts": "580ed596712798eed5e1faebc42df8fadceb05a0e9b6fe4fc1b8542d58f26e62",
+    "apps/web/src/shared/api/generated.ts": "57718838902531c0c658e5c44146a3b1ac0e951adf15443294cd0b5b53d22786",
+    "apps/web/src/shared/api/schema.ts": "c0394f3478571e8fde8536849cfbcc8530bf05e8f277fb14ea6ce76b5e10058a",
+    "apps/web/src/shared/lib/utils.ts": "5004c6497c9d2bdb4702b5c27d9306e20848e73a68354557631e0a7af37d2d40",
+    "apps/web/src/shared/ui/alert-dialog.tsx": "c76c216fec70d4013082fdf50d91e6f9e5726f016d8250666410d5b769ed976c",
+    "apps/web/src/shared/ui/badge.tsx": "b139068a9bd67cf69917daec31f9097cbba2de33637110682e5e6c65f799640b",
+    "apps/web/src/shared/ui/button.tsx": "c98e751f18faa6eb7744c7a197043a8e43ffd15358e0ac55a1606f2bcb71f5b4",
+    "apps/web/src/shared/ui/collapsible.tsx": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+    "apps/web/src/shared/ui/textarea.tsx": "de7ff26620e659fd040f884ffd7bd6fe6edd8ef93a9155dfc50a102125b11c53",
+    "apps/web/tests/browser/chat.spec.ts": "c88c7073e6bb74e8b37f63268624734513b8788101932ca718a23acb235cf004",
+    "apps/web/tests/browser/deployment.spec.ts": "fb43068327a25af560c9314dfe3646c0084cb1dd15b26a5a89718d0e75113a77",
+    "apps/web/tests/fixtures/responses.json": "05778e9cc58641cda0fbf8dabab4a170da835c85fb17cf7b7b18f25f1bd45c2a",
+    "apps/web/tests/support/mock-api.ts": "58922f16f782153ce4860d9c2205fe89856f0543e25e60952a4266607b2bb188",
+    "apps/web/tsconfig.app.json": "dd8d829f42a609548f16d28af75ab3febeb158498ca3497241c9a4b1e7dc4c71",
+    "apps/web/tsconfig.json": "e25436ad4ea16c393fae79b85c546602d476e5344eed302b469a8d5e5235118b",
+    "apps/web/tsconfig.node.json": "d366cc0827139db39c61815f22491bbfda56c654354a42ad7795143d314e45e8",
+    "apps/web/vite.config.ts": "6a93be2f04c38e13072b945215147c28d5433e62023f497f04c95bfd975f5947"
+  },
+  "next_review_gate": "Review R3 before authorizing R4 PostgreSQL-only runtime"
+}

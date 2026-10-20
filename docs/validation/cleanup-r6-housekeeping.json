@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "performed_at_utc": "2026-10-20T13:22:39.415334+00:00",
+  "explicitly_authorized_by_user": true,
+  "removed_directories": [
+    {
+      "path": ".streamlit",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "src",
+      "files": 104,
+      "bytes": 512491
+    },
+    {
+      "path": "migrations",
+      "files": 4,
+      "bytes": 11856
+    },
+    {
+      "path": "reports",
+      "files": 19,
+      "bytes": 344956
+    },
+    {
+      "path": "tmp",
+      "files": 7038,
+      "bytes": 632043332
+    },
+    {
+      "path": "deploy/web",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "data/collection",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "path": "artifacts/cleanup/r5/evaluation-venv",
+      "files": 2256,
+      "bytes": 47698216
+    },
+    {
+      "path": "services/core/migrations/__pycache__",
+      "files": 1,
+      "bytes": 374
+    },
+    {
+      "path": "services/core/migrations/versions/__pycache__",
+      "files": 1,
+      "bytes": 9434
+    },
+    {
+      "path": "services/core/src/pharmacy_core/__pycache__",
+      "files": 2,
+      "bytes": 3398
+    },
+    {
+      "path": "services/core/src/pharmacy_core/api/__pycache__",
+      "files": 4,
+      "bytes": 12785
+    },
+    {
+      "path": "services/core/src/pharmacy_core/api/routes/__pycache__",
+      "files": 5,
+      "bytes": 8180
+    },
+    {
+      "path": "services/core/src/pharmacy_core/clients/__pycache__",
+      "files": 2,
+      "bytes": 6299
+    },
+    {
+      "path": "services/core/src/pharmacy_core/conversation/__pycache__",
+      "files": 6,
+      "bytes": 60733
+    },
+    {
+      "path": "services/core/src/pharmacy_core/medications/__pycache__",
+      "files": 6,
+      "bytes": 51651
+    },
+    {
+      "path": "services/core/src/pharmacy_core/pharmacies/__pycache__",
+      "files": 4,
+      "bytes": 10322
+    },
+    {
+      "path": "services/core/src/pharmacy_core/storage/__pycache__",
+      "files": 1,
+      "bytes": 255
+    },
+    {
+      "path": "services/core/src/pharmacy_core/storage/postgres/__pycache__",
+      "files": 6,
+      "bytes": 52814
+    },
+    {
+      "path": "services/core/tests/integration/__pycache__",
+      "files": 9,
+      "bytes": 39239
+    },
+    {
+      "path": "services/core/tests/unit/__pycache__",
+      "files": 10,
+      "bytes": 146494
+    },
+    {
+      "path": "services/language/migrations/__pycache__",
+      "files": 1,
+      "bytes": 386
+    },
+    {
+      "path": "services/language/migrations/versions/__pycache__",
+      "files": 1,
+      "bytes": 1870
+    },
+    {
+      "path": "services/language/src/pharmacy_language/__pycache__",
+      "files": 2,
+      "bytes": 6332
+    },
+    {
+      "path": "services/language/src/pharmacy_language/api/__pycache__",
+      "files": 2,
+      "bytes": 8218
+    },
+    {
+      "path": "services/language/src/pharmacy_language/extraction/__pycache__",
+      "files": 4,
+      "bytes": 8956
+    },
+    {
+      "path": "services/language/src/pharmacy_language/providers/__pycache__",
+      "files": 4,
+      "bytes": 34954
+    },
+    {
+      "path": "services/language/src/pharmacy_language/quota/__pycache__",
+      "files": 2,
+      "bytes": 5721
+    },
+    {
+      "path": "services/language/src/pharmacy_language/storage/__pycache__",
+      "files": 1,
+      "bytes": 263
+    },
+    {
+      "path": "services/language/src/pharmacy_language/storage/postgres/__pycache__",
+      "files": 3,
+      "bytes": 15559
+    },
+    {
+      "path": "services/language/tests/unit/__pycache__",
+      "files": 7,
+      "bytes": 84991
+    },
+    {
+      "path": "packages/contracts/src/pharmacy_contracts/__pycache__",
+      "files": 5,
+      "bytes": 14834
+    },
+    {
+      "path": "packages/contracts/tests/__pycache__",
+      "files": 1,
+      "bytes": 1652
+    },
+    {
+      "path": "packages/infrastructure/src/pharmacy_infrastructure/__pycache__",
+      "files": 6,
+      "bytes": 14722
+    },
+    {
+      "path": "packages/infrastructure/tests/__pycache__",
+      "files": 2,
+      "bytes": 11558
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/__pycache__",
+      "files": 4,
+      "bytes": 3479
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/datasets/__pycache__",
+      "files": 2,
+      "bytes": 13557
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/reporting/__pycache__",
+      "files": 6,
+      "bytes": 35078
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/runners/__pycache__",
+      "files": 5,
+      "bytes": 76281
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/runners/scenarios/__pycache__",
+      "files": 3,
+      "bytes": 14631
+    },
+    {
+      "path": "tools/evaluation/src/pharmacy_evaluation/scoring/__pycache__",
+      "files": 2,
+      "bytes": 10645
+    },
+    {
+      "path": "tools/evaluation/tests/__pycache__",
+      "files": 9,
+      "bytes": 94123
+    },
+    {
+      "path": "tools/operations/src/pharmacy_ops/__pycache__",
+      "files": 13,
+      "bytes": 76805
+    },
+    {
+      "path": "tools/operations/tests/__pycache__",
+      "files": 3,
+      "bytes": 18294
+    },
+    {
+      "path": "tests/__pycache__",
+      "files": 32,
+      "bytes": 556849
+    },
+    {
+      "path": "tests/architecture/__pycache__",
+      "files": 5,
+      "bytes": 21763
+    },
+    {
+      "path": "tests/integration/__pycache__",
+      "files": 13,
+      "bytes": 147753
+    },
+    {
+      "path": "tests/support/__pycache__",
+      "files": 12,
+      "bytes": 35232
+    },
+    {
+      "path": "deploy/__pycache__",
+      "files": 1,
+      "bytes": 3461
+    }
+  ],
+  "removed_files": 9629,
+  "removed_logical_bytes": 682330796,
+  "preserved_local_data": {
+    "files": 6433,
+    "bytes": 442083373,
+    "manifest": "archive/local/manifest.json",
+    "hashes_verified_after_move": true,
+    "Git_ignored": true
+  },
+  "public_archive_unchanged": true,
+  "credentials_runtime_environment_and_application_data_untouched": true,
+  "current_validation_evidence_retained": true,
+  "R7_started": false,
+  "validation": {
+    "offline_checks_passed": 38,
+    "PostgreSQL_intentionally_skipped": 18,
+    "canonical_source_hashes_unchanged": 204,
+    "public_archive_manifest_unchanged": true,
+    "private_local_archive_ignored": true,
+    "diff_check_passed": true,
+    "legacy_root_directories_absent": true,
+    "active_data_directories": [
+      "evaluation",
+      "imports"
+    ],
+    "bytecode_caches_regenerated": 0
+  }
+}

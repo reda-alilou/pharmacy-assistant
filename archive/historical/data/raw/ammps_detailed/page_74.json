@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 74,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=74",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "1310",
+      "brand_name": "CAPD / DPCA 4",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 4 POCHES DE 2000 ML",
+        "PP / GN": "PP",
+        "Substance active": "CHLORURE DE SODIUM // LACTATE DE SODIUM // CHLORURE DE CALCIUM // CHLORURE DE MAGNESIUM HEXAHYDRATE // GLUCOSE MONOHYDRATE: (22,73G DE GLUCOSE ANHYDRE )",
+        "Classe thérapeutique": "UROLOGIE-NEPHROLOGIE",
+        "EPI": "SOLUDIA MAGHREB",
+        "PPV": "376,00 DH",
+        "PH": "250,00 DH",
+        "PFHT": "238,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "5,7860 G  /  7,8500 G  /  0,2573 G  /  0,1017 G  /  25 G",
+        "Forme": "SOLUTION POUR DIALYSE PERITONEALE"
+      }
+    },
+    {
+      "source_record_id": "7111",
+      "brand_name": "CAPECITABINE ACCORD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "PHARMIS",
+        "PPV": "1.947.00 DH",
+        "PH": "1.695.00 DH",
+        "PFHT": "1.614.71 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7339",
+      "brand_name": "CAPECITABINE VIATRIS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "VIATRIS PHARMACEUTICALS",
+        "PPV": "1.947.00 DH",
+        "PH": "1.695.00 DH",
+        "PFHT": "1.614.72 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "1620",
+      "brand_name": "CAPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CAPTOPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "75,00 DH",
+        "PH": "46,90 DH",
+        "PFHT": "44,64 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "1621",
+      "brand_name": "CAPEN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CAPTOPRIL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "GENPHARMA",
+        "PPV": "140,00 DH",
+        "PH": "87,50 DH",
+        "PFHT": "83,33 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "9844",
+      "brand_name": "CAPIIBINE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITES DE 120",
+        "PP / GN": "GN",
+        "Substance active": "CAPECITABINE",
+        "Classe thérapeutique": "CANCEROLOGIE",
+        "EPI": "AXESS PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIMES PELLICULES"
+      }
+    },
+    {
+      "source_record_id": "6059",
+      "brand_name": "CAPLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "64,00 DH",
+        "PH": "40,00 DH",
+        "PFHT": "38,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6060",
+      "brand_name": "CAPLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "114,30 DH",
+        "PH": "71,40 DH",
+        "PFHT": "68,04 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6061",
+      "brand_name": "CAPLOR",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "171,40 DH",
+        "PH": "107,10 DH",
+        "PFHT": "102,02 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "7600",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "34,20 DH",
+        "PH": "21,30 DH",
+        "PFHT": "20,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7601",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "60,10 DH",
+        "PH": "37,60 DH",
+        "PFHT": "35,79 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7602",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "88,10 DH",
+        "PH": "55,10 DH",
+        "PFHT": "52,47 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7603",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "17,00 DH",
+        "PH": "10,60 DH",
+        "PFHT": "10,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7604",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "29,90 DH",
+        "PH": "18,70 DH",
+        "PFHT": "17,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "7605",
+      "brand_name": "CAPRESS",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CARVEDILOL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "SUN PHARMACEUTICALS NORTH AFRICA",
+        "PPV": "43,80 DH",
+        "PH": "27,40 DH",
+        "PFHT": "26,10 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "6,25   MG",
+        "Forme": "COMPRIME SECABLE"
+      }
+    },
+    {
+      "source_record_id": "8275",
+      "brand_name": "CAPSION",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "-",
+        "PP / GN": "RX",
+        "Substance active": "IODURE DE SODIUM",
+        "Classe thérapeutique": "DIAGNOSTIC-IMAGERIE",
+        "EPI": "RIM PHARMA",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50 A 3700 MBQ",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "4631",
+      "brand_name": "CARBACTIVE",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "PP",
+        "Substance active": "CHARBON ACTIVE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "POLYMEDIC",
+        "PPV": "26,70 DH",
+        "PH": "16,70 DH",
+        "PFHT": "15,88 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "120   MG",
+        "Forme": "GELULE"
+      }
+    },
+    {
+      "source_record_id": "8276",
+      "brand_name": "CARBAGLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN PILULIER DE 15",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE CARGLUMIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMES DISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "8277",
+      "brand_name": "CARBAGLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN PILULIER DE 5",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE CARGLUMIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMES DISPERSIBLES"
+      }
+    },
+    {
+      "source_record_id": "8278",
+      "brand_name": "CARBAGLU",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE D'UN PILULIER DE 60",
+        "PP / GN": "PP",
+        "Substance active": "ACIDE CARGLUMIQUE",
+        "Classe thérapeutique": "ENDOCRINOLOGIE-METABOLISME",
+        "EPI": "AFRIC PHAR",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIMES DISPERSIBLES"
+      }
+    }
+  ]
+}

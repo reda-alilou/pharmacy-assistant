@@ -1,0 +1,53 @@
+{
+  "recorded_at_utc": "2026-10-20T13:35:43.218130+00:00",
+  "clean_export_without_private_state": true,
+  "registry_network_used": false,
+  "hosted_inference_performed": false,
+  "members": {
+    "contracts": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true
+    },
+    "infrastructure": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true
+    },
+    "core": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true
+    },
+    "language": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true
+    },
+    "operations": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true,
+      "installed_console_scripts_checked": [
+        "pharmacy-db",
+        "pharmacy-backup",
+        "pharmacy-compose-setup",
+        "pharmacy-compose-verify",
+        "pharmacy-export-contract",
+        "pharmacy-fixtures",
+        "pharmacy-quota",
+        "pharmacy-archive",
+        "pharmacy-check"
+      ]
+    },
+    "evaluation": {
+      "installed_noneditable": true,
+      "installed_outside_checkout": true,
+      "forbidden_peer_and_legacy_modules_absent": true,
+      "installed_console_scripts_checked": [
+        "pharmacy-evaluate"
+      ]
+    }
+  },
+  "passed": true
+}

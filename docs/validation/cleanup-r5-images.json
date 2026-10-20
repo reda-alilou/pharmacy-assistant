@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-10-20T12:01:49.341596+00:00",
+  "network": "none",
+  "servers_started": false,
+  "live_inference_performed": false,
+  "helpers_auto_removed": true,
+  "images": {
+    "core": {
+      "independent_import": true,
+      "missing_database_rejected": true,
+      "unavailable_database_rejected": true,
+      "no_sqlite_fallback": true,
+      "file_mode_rejected": true,
+      "openapi_sha256": "f21b96c0dda204d9c21dac4762cd6856affb998a6dbbbb82c923fb105e62dded",
+      "original_openapi_preserved": true,
+      "image_id": "sha256:2e331b48de53289cdec018d6a3635afb339af33e2c11c813db9628e99a09b980"
+    },
+    "language": {
+      "independent_import": true,
+      "missing_database_rejected": true,
+      "unavailable_database_rejected": true,
+      "no_sqlite_fallback": true,
+      "file_mode_rejected": true,
+      "openapi_sha256": "4726c221ba0406e959c6f4acaf9f3453784210f421aff477a3347e9aa43ad3b1",
+      "original_openapi_preserved": true,
+      "image_id": "sha256:6c2f49ca37f8f9859e7d411e6b1d73c3dd891615e21eded25676ea828e980784"
+    },
+    "operations": {
+      "installed_package": true,
+      "legacy_and_streamlit_absent": true,
+      "no_checkout_source_or_credentials": true,
+      "owned_migration_assets": true,
+      "console_scripts": 8,
+      "image_id": "sha256:ede51842f93e5dc94f095d5cccd14570a3fc29d4036a7b115c7838dffef0aad2"
+    }
+  },
+  "passed": true
+}

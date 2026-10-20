@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=6",
+  "parsed_at_utc": "2026-09-22T13:43:26.181102+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "4780",
+      "brand_name": "ACIDE ZOLEDRONIQUE PROMOPHARM",
+      "details": {
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "EPI": "PROMOPHARM",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION",
+        "Présentation": "BOITE D'UN FLACON DE 5 ML",
+        "Statut commercialisation": "Commercialisé AO",
+        "PPV": "1.356.00 DH",
+        "PH": "1.088.00 DH"
+      }
+    },
+    {
+      "source_record_id": "5118",
+      "brand_name": "ACIDE ZOLEDRONIQUE SP",
+      "details": {
+        "Substance active": "ACIDE ZOLEDRONIQUE",
+        "EPI": "AMANYS PHARMA",
+        "Dosage": "4   MG  /  5  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION",
+        "Présentation": "BOITE DE 1 FLACON DE 5 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "1.255.00 DH",
+        "PH": "983,00 DH"
+      }
+    },
+    {
+      "source_record_id": "6886",
+      "brand_name": "ACIGAM",
+      "details": {
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "EPI": "BOTTU",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME SECABLE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH"
+      }
+    },
+    {
+      "source_record_id": "6887",
+      "brand_name": "ACIGAM",
+      "details": {
+        "Substance active": "ACIDE TIAPROFENIQUE",
+        "EPI": "BOTTU",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME SECABLE",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "33,60 DH",
+        "PH": "21,00 DH"
+      }
+    },
+    {
+      "source_record_id": "9673",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Substance active": "ACITRETINE",
+        "EPI": "IBERMA",
+        "Dosage": "10 MG",
+        "Forme": "GELULES",
+        "Présentation": "BOITE DE 10",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "37,20 DH",
+        "PH": "23,20 DH"
+      }
+    },
+    {
+      "source_record_id": "9674",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Substance active": "ACITRETINE",
+        "EPI": "IBERMA",
+        "Dosage": "10 MG",
+        "Forme": "GELULES",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "91,10 DH",
+        "PH": "57,00 DH"
+      }
+    },
+    {
+      "source_record_id": "9675",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Substance active": "ACITRETINE",
+        "EPI": "IBERMA",
+        "Dosage": "25 MG",
+        "Forme": "GELULES",
+        "Présentation": "BOITE DE 10",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "86,60 DH",
+        "PH": "54,10 DH"
+      }
+    },
+    {
+      "source_record_id": "9676",
+      "brand_name": "ACITRETINE IFC",
+      "details": {
+        "Substance active": "ACITRETINE",
+        "EPI": "IBERMA",
+        "Dosage": "25 MG",
+        "Forme": "GELULES",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "210,00 DH",
+        "PH": "131,50 DH"
+      }
+    },
+    {
+      "source_record_id": "763",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Substance active": "ACICLOVIR",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "400   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 25",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "226,00 DH",
+        "PH": "141,30 DH"
+      }
+    },
+    {
+      "source_record_id": "764",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Substance active": "ACICLOVIR",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 12",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "223,00 DH",
+        "PH": "139,60 DH"
+      }
+    },
+    {
+      "source_record_id": "765",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Substance active": "ACICLOVIR",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "800   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 25",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "346,00 DH",
+        "PH": "230,00 DH"
+      }
+    },
+    {
+      "source_record_id": "6888",
+      "brand_name": "ACIVIR COOPER",
+      "details": {
+        "Substance active": "ACICLOVIR",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "200   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 25",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "91,10 DH",
+        "PH": "56,90 DH"
+      }
+    }
+  ]
+}

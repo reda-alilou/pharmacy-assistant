@@ -3,9 +3,6 @@
 
 # Evidence manifests hash exact file bytes. Do not normalize these on checkout.
 /data/evaluation/** -text
-/data/processed/*.jsonl -text
-/data/raw/ammps_snapshot/*.json -text
-/reports/** -text -whitespace
-
-# Preserve collected parser fixtures rather than rewriting source HTML.
-/data/raw/source_discovery/*.html -text -whitespace
+/data/imports/** -text
+/archive/historical/** -text -whitespace
+/services/*/migrations/versions/** -text

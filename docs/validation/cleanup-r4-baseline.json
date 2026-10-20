@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "checkpoint": "R4",
+  "status": "complete_awaiting_user_review",
+  "recorded_at_utc": "2026-10-20T11:04:29.355130+00:00",
+  "r3_reviewed": true,
+  "r5_started": false,
+  "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+  "runtime": {
+    "storage_backend": "postgres",
+    "owned_urls_required": true,
+    "default_app_checks_database_before_serving": true,
+    "runtime_file_or_sqlite_selection": false,
+    "automatic_migration_import_or_quota_reset": false,
+    "offline_dependencies": "Explicit CoreResources / interpreter arguments; no environment or HTTP fixture flag",
+    "legacy_ledger": "Retained only in legacy evaluation tooling until R5; absent from runtime images",
+    "legacy_ledger_import": "Explicit read-only administrative import retained; never a runtime backend"
+  },
+  "preservation": {
+    "historical_data_report_files_byte_checked": 982,
+    "frontend_files_byte_checked_against_r3": 42,
+    "provider_prompt_business_storage_migration_contract_files_byte_checked": 52,
+    "existing_dependency_versions_preserved": true,
+    "workspace_manifests_unchanged": true,
+    "public_http_schemas_preserved": true
+  },
+  "validation": {
+    "python_suites": {
+      "root": {
+        "discovered": 286,
+        "passed": 276,
+        "skipped": 10,
+        "log": "artifacts/cleanup/r4/python-final.log",
+        "log_sha256": "a1c7bd71ca46c0c5b1ebd133fa4dfc70f92c44c7289f6896c2cbaa24a179b531"
+      },
+      "core": {
+        "discovered": 6,
+        "passed": 6,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r4/core-tests.log",
+        "log_sha256": "ca4d0678b23a54ae59ea598bb1893de4c773a819ce1349582007f306e47ccc0b"
+      },
+      "language": {
+        "discovered": 6,
+        "passed": 6,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r4/language-tests.log",
+        "log_sha256": "7c8152dba553719fc914e255704aa0a853cb224eb18d6e598b2e271623975192"
+      }
+    },
+    "total_passed": 288,
+    "total_skipped": 10,
+    "eight_new_startup_scenarios": true,
+    "offline_lock_check": "passed",
+    "source_and_wheel_builds": "passed_all_five_packages",
+    "images": {
+      "core": "sha256:7e3fce6f255d68405690dc627c637ecc503f9b89a7fdc3b4d3c8270481634a6b",
+      "language": "sha256:2dc9aebee793441f4155d0f84477deac7a01c36e7b49c39e6b1d391d7fd8f1a2",
+      "database-tools": "sha256:4004f3365ec6c6ddab6d8e1d99115bd7aed39338e7a254bd8c5871c15cd88295"
+    },
+    "installed_image_checks": "docs/validation/cleanup-r4-images.json",
+    "real_stack_report": "docs/validation/cleanup-r4-container.json",
+    "real_stack_checks_passed": 9,
+    "compose_configuration_check": "passed",
+    "git_diff_check": "passed"
+  },
+  "operations": {
+    "live_inference_performed": false,
+    "application_stack_started_by_agent": false,
+    "application_volume_modified": false,
+    "private_credentials_or_ledgers_reconfigured": false,
+    "network_settings_changed": false,
+    "image_helpers_auto_removed": true,
+    "isolated_resources_removed": true,
+    "running_containers_at_handoff": [],
+    "git_commit_or_push_performed": false
+  },
+  "changed_since_r3": [
+    "packages/infrastructure/src/pharmacy_infrastructure/database.py",
+    "services/core/src/pharmacy_core/api/app.py",
+    "services/core/src/pharmacy_core/config.py",
+    "services/core/tests/unit/test_core_settings.py",
+    "services/language/src/pharmacy_language/api/app.py",
+    "services/language/src/pharmacy_language/config.py",
+    "services/language/src/pharmacy_language/extraction/service.py",
+    "services/language/src/pharmacy_language/quota/control.py",
+    "services/language/tests/unit/test_language_settings.py",
+    "src/pharmacy_assistant/inference.py",
+    "src/pharmacy_assistant/language/quota.py",
+    "tests/service_harness.py",
+    "tests/test_architecture_boundaries.py",
+    "tests/test_chat.py",
+    "tests/test_compose_deployment.py",
+    "tests/test_conversation.py",
+    "tests/test_demo.py",
+    "tests/test_demo_conversation_chain.py",
+    "tests/test_language_service.py",
+    "tests/test_matching_improvements.py",
+    "tests/test_medication_foundation.py",
+    "tests/test_pharmacy_matching.py",
+    "tests/test_postgres_storage.py",
+    "tests/test_pricing.py",
+    "tests/test_quota.py"
+  ],
+  "runtime_source_sha256": {
+    "packages/infrastructure/src/pharmacy_infrastructure/database.py": "b213d972da8efabb659b9b1edbc1018200f92aed831352d38511d44ea390fdc4",
+    "services/core/src/pharmacy_core/api/app.py": "60ee251a0e74a19e4660002eb431a7d2c97a3b3759436b0a07cf64815e3d53c1",
+    "services/core/src/pharmacy_core/config.py": "c0724e75347f5cf4c1aff17291cd1db6ec813c9f325bf6a96f18fe12aad9cdd1",
+    "services/language/src/pharmacy_language/api/app.py": "0bdaa97f1f21a7afed534d8a1dc7bb2ba07544073c136a7af9986d41973e014f",
+    "services/language/src/pharmacy_language/config.py": "f870d29936f89c107ec3605f825bfeeaf33309824b2b97a097a075771330cac5",
+    "services/language/src/pharmacy_language/extraction/service.py": "ef73f5ed9802d4166527d0d70847b43cf5aa1070a7440f11fb71e8ae52e4a654",
+    "services/language/src/pharmacy_language/quota/control.py": "c2e47d1b9b5ecaa65d7b7711845a22333355b9a85656f3b1e9d062305b22513f",
+    "services/core/src/pharmacy_core/api/resources.py": "f97b87ca511ff4eaa0f689d87015d6dd99949f8698f33fe86c891d0be379dea9"
+  },
+  "next_review_gate": "Review R4 before R5 operations/evaluation tooling and coverage"
+}

@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "checkpoint": "R1",
+  "captured_at_utc": "2026-10-20T09:37:05.353866+00:00",
+  "status": "complete_awaiting_user_review",
+  "r2_started": false,
+  "git": {
+    "branch": "refactor/web-architecture",
+    "commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+    "remote_head_verified": true,
+    "remote_tracking_matches": true,
+    "remote_ref": "refs/heads/refactor/web-architecture",
+    "initial_remote_check": "Timed out before resumption; the later normal read-only check succeeded."
+  },
+  "contracts": {
+    "core": {
+      "canonical_schema_sha256": "f21b96c0dda204d9c21dac4762cd6856affb998a6dbbbb82c923fb105e62dded",
+      "canonicalization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=False",
+      "schema_component_names": [
+        "ChatRequest",
+        "ChatResponse",
+        "ClarificationOption",
+        "ContextReferenceOption",
+        "ConversationContext",
+        "ConversationMessageView",
+        "ConversationView",
+        "ExtractedEntities",
+        "HTTPValidationError",
+        "HealthResponse",
+        "InferenceErrorDetail",
+        "InferenceErrorResponse",
+        "InferenceMetadata",
+        "Interpretation",
+        "InterpretationRequest",
+        "InterpretationResponse",
+        "JsonValue",
+        "Medication",
+        "MedicationClarification",
+        "MedicationDataConflict",
+        "MedicationMention",
+        "MedicationPricing",
+        "MedicationRefinement",
+        "MedicationResult",
+        "MedicationSearchResponse",
+        "MedicationSelection",
+        "MedicationSourceObservation",
+        "MedicationSuggestion",
+        "OrderPricing",
+        "PharmacyRecord",
+        "PharmacyResult",
+        "SourceInfo",
+        "TokenUsage",
+        "ValidationError"
+      ],
+      "routes": [
+        {
+          "method": "POST",
+          "path": "/chat",
+          "operation_id": "chat_chat_post"
+        },
+        {
+          "method": "DELETE",
+          "path": "/conversation",
+          "operation_id": "reset_conversation_conversation_delete"
+        },
+        {
+          "method": "GET",
+          "path": "/conversation",
+          "operation_id": "restore_conversation_conversation_get"
+        },
+        {
+          "method": "POST",
+          "path": "/conversation",
+          "operation_id": "new_conversation_conversation_post"
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "operation_id": "health_health_get"
+        },
+        {
+          "method": "POST",
+          "path": "/interpret",
+          "operation_id": "interpret_patient_request_interpret_post"
+        },
+        {
+          "method": "GET",
+          "path": "/medications/search",
+          "operation_id": "search_medication_endpoint_medications_search_get"
+        },
+        {
+          "method": "GET",
+          "path": "/medications/{record_id}",
+          "operation_id": "medication_by_id_medications__record_id__get"
+        },
+        {
+          "method": "GET",
+          "path": "/ready",
+          "operation_id": "ready_ready_get"
+        }
+      ]
+    },
+    "language": {
+      "canonical_schema_sha256": "4726c221ba0406e959c6f4acaf9f3453784210f421aff477a3347e9aa43ad3b1",
+      "canonicalization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=False",
+      "schema_component_names": [
+        "ExtractedEntities",
+        "InferenceErrorDetail",
+        "InferenceErrorResponse",
+        "InferenceMetadata",
+        "Interpretation",
+        "InterpretationRequest",
+        "InterpretationResponse",
+        "LanguageHealth",
+        "MedicationMention",
+        "TokenUsage"
+      ],
+      "routes": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "operation_id": "health_health_get"
+        },
+        {
+          "method": "GET",
+          "path": "/ready",
+          "operation_id": "ready_ready_get"
+        },
+        {
+          "method": "POST",
+          "path": "/v1/interpret",
+          "operation_id": "interpret_v1_interpret_post"
+        }
+      ]
+    }
+  },
+  "data": {
+    "medications": {
+      "path": "data/processed/ammps_medications_enriched.jsonl",
+      "rows": 9936,
+      "unique_ids": 9936,
+      "working_tree_sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+      "canonical_records_sha256": "bf00ab882b721be193b85612353f320168cebf30836a0087de2e93a35ab34670",
+      "fields": [
+        "active_substance",
+        "atc_code",
+        "authorization_status",
+        "brand_name",
+        "commercialization_status",
+        "data_conflicts",
+        "detailed_source_url",
+        "dosage",
+        "epi",
+        "form",
+        "hospital_price_mad",
+        "pfht_price_mad",
+        "pp_gn_raw",
+        "ppv_price_mad",
+        "presentation",
+        "rcp_naf_reference",
+        "reimbursement_status",
+        "source",
+        "source_fetched_at_utc",
+        "source_observations",
+        "source_page",
+        "source_record_id",
+        "source_url",
+        "therapeutic_class",
+        "vat_raw"
+      ],
+      "missing_public_price": 1126,
+      "zero_public_price": 0,
+      "secondary_observations": 3128,
+      "recorded_conflicts": 1260
+    },
+    "pharmacies": {
+      "path": "data/processed/pharmacies_rabat.jsonl",
+      "rows": 327,
+      "unique_ids": 327,
+      "working_tree_sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8",
+      "canonical_records_sha256": "ccc3755c5b04097cf437af2358fe988050957b478f9fe45c48c8205a746f4f22",
+      "fields": [
+        "address",
+        "city",
+        "directory_scope",
+        "fetched_at_utc",
+        "latitude",
+        "longitude",
+        "name",
+        "opening_information",
+        "pharmacy_id",
+        "phone",
+        "source",
+        "source_request_url",
+        "source_url"
+      ]
+    }
+  },
+  "inventory": {
+    "file": "docs/validation/cleanup-r1-inventory.json",
+    "tracked_files": 1203,
+    "by_disposition": {
+      "keep_update": 13,
+      "delete_after_coverage_migration": 47,
+      "archive": 1000,
+      "archive_and_refresh": 2,
+      "split": 8,
+      "keep_update_references": 6,
+      "move": 99,
+      "consolidate": 3,
+      "migrate_test_coverage": 25
+    },
+    "by_checkpoint": {
+      "R2": 59,
+      "R1": 3,
+      "R6": 1051,
+      "R5": 54,
+      "R3": 36
+    }
+  },
+  "test_migration": {
+    "file": "docs/validation/cleanup-r1-test-map.json",
+    "python_methods": 282,
+    "by_disposition": {
+      "retain_and_retarget": 219,
+      "replace_obsolete_contract": 5,
+      "adapt_path_contract": 1,
+      "retire_with_capability": 34,
+      "replace_ui_coverage": 14,
+      "consolidate_scenario_coverage": 4,
+      "adapt_postgres_semantics": 5
+    },
+    "offline_browser_scenarios": 20,
+    "opt_in_real_browser_scenarios": 1
+  },
+  "fresh_checks": {
+    "python": {
+      "discovered": 282,
+      "passed": 272,
+      "skipped_opt_in_postgres": 10,
+      "seconds": 160.06,
+      "hosted_inference": false
+    },
+    "frontend_production_build": "passed",
+    "frontend_lint": {
+      "errors": 0,
+      "warnings": 2,
+      "warnings_concern": "Existing shadcn exported variants and development fast refresh"
+    },
+    "offline_lock_check": "passed",
+    "offline_python_sdist_and_wheel": "passed",
+    "core_openapi_matches_checked_in_frontend_schema": true,
+    "schema_export_reads_runtime_configuration": false,
+    "approval_review": "Initially unavailable due to usage limit; retried through normal approval after resumption and passed. No bypass used."
+  },
+  "accepted_evidence_reused_not_rerun": {
+    "reason": "R1 changes no runtime, frontend, test or deployment implementation; do not rewrite checkpoint 5 evidence or start stopped application services.",
+    "browser": {
+      "passed": 20,
+      "skipped_opt_in_deployment": 1,
+      "path": "reports/architecture_checkpoint5_browser_tests.json"
+    },
+    "isolated_compose": {
+      "passed": true,
+      "checks": 9,
+      "path": "reports/architecture_checkpoint5_container_validation.json"
+    },
+    "user_review": "Checkpoint 5 laptop and physical phone operation/interface accepted by the user."
+  },
+  "local_ignored_logs": {
+    "frontend-build.log": {
+      "path": "artifacts/cleanup/r1/frontend-build.log",
+      "sha256": "79bd6b521caabc4f6354d7b47383ce467930112ceedbeee5347c6372d966cf6d"
+    },
+    "frontend-lint.log": {
+      "path": "artifacts/cleanup/r1/frontend-lint.log",
+      "sha256": "167e10a8d364237bb1bf27491fc36c00828985a08fb2e9edcf6d1222e8a5a3eb"
+    },
+    "lock-check.log": {
+      "path": "artifacts/cleanup/r1/lock-check.log",
+      "sha256": "533cb5d7fa21cd16161318392d46ba0ebe6c9deaa8931b2b597e25337ed30ed4"
+    },
+    "package-build.log": {
+      "path": "artifacts/cleanup/r1/package-build.log",
+      "sha256": "38ac3b06b845a4022944396edbedfadfef77208fe29d1aeee605136a33ed2897"
+    },
+    "python-tests.log": {
+      "path": "artifacts/cleanup/r1/python-tests.log",
+      "sha256": "59032dece2c43450b732fd2b2f81b4bf80f924c437edf087edd7f52e983d733d"
+    },
+    "remote-verification.log": {
+      "path": "artifacts/cleanup/r1/remote-verification.log",
+      "sha256": "67e7a4e72ca51cdcbf8a5f8676e48c1e363a9007678bcd0067b241e87a2bc4c3"
+    }
+  },
+  "safety": {
+    "application_files_moved_or_deleted": false,
+    "runtime_or_test_code_changed": false,
+    "application_or_isolated_stack_started_or_stopped": false,
+    "database_accessed_or_modified": false,
+    "hosted_inference_performed": false,
+    "scraping_performed": false,
+    "network_settings_changed": false,
+    "credentials_or_private_ledgers_read_for_inventory": false,
+    "git_commit_or_push_performed": false,
+    "historical_evidence_changed": false
+  },
+  "remaining_verification": "Real PostgreSQL/current-stack checks remain for later checkpoints; no DB/inference was started for R1.",
+  "next_step": "User reviews R1 inventory/coverage map before authorizing R2. No later checkpoint is authorized automatically.",
+  "metadata_validation": {
+    "verified_at_utc": "2026-10-20T09:37:59.284724+00:00",
+    "all_saved_commit_files_accounted_for": true,
+    "all_executed_python_case_ids_accounted_for": true,
+    "inventory_and_coverage_totals_match": true,
+    "archive_candidates_unchanged": true,
+    "planned_destinations_are_workspace_relative": true,
+    "local_links_and_whitespace_checked": true,
+    "only_documentation_and_ignore_rules_changed": true,
+    "r1_new_documents": [
+      "docs/development/cleanup-plan.md",
+      "docs/validation/cleanup-r1-baseline.json",
+      "docs/validation/cleanup-r1-dependencies.json",
+      "docs/validation/cleanup-r1-inventory.json",
+      "docs/validation/cleanup-r1-test-map.json",
+      "docs/validation/cleanup-r1.md"
+    ]
+  }
+}

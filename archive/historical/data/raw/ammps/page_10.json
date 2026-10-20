@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=10",
+  "parsed_at_utc": "2026-09-22T13:44:10.407280+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "5174",
+      "brand_name": "ACT HIB",
+      "details": {
+        "Substance active": "VACCIN HAEMOPHILUS TYPE B CONJUGUE 10µG",
+        "EPI": "SANOFI AVENTIS",
+        "Dosage": "10 µG  /  0,5  ML",
+        "Forme": "POUDRE POUR PREPARATION INJECTABLE",
+        "Présentation": "BOITE DE 1 SERINGUE",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "143,00 DH",
+        "PH": "89,40 DH"
+      }
+    },
+    {
+      "source_record_id": "4601",
+      "brand_name": "ACTACEPT",
+      "details": {
+        "Substance active": "DONEPEZIL",
+        "EPI": "POLYMEDIC",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "373,00 DH",
+        "PH": "248,00 DH"
+      }
+    },
+    {
+      "source_record_id": "4602",
+      "brand_name": "ACTACEPT",
+      "details": {
+        "Substance active": "DONEPEZIL",
+        "EPI": "POLYMEDIC",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "233,00 DH",
+        "PH": "146,00 DH"
+      }
+    },
+    {
+      "source_record_id": "2709",
+      "brand_name": "ACTAPULGITE",
+      "details": {
+        "Substance active": "ATTAPULGITE DE MORMOIRON ACTIVEE",
+        "EPI": "MAPHAR",
+        "Dosage": "3 G",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "22,20 DH",
+        "PH": "13,90 DH"
+      }
+    },
+    {
+      "source_record_id": "2710",
+      "brand_name": "ACTAPULGITE NOURRISSONS",
+      "details": {
+        "Substance active": "ATTAPULGITE DE MORMOIRON ACTIVEE",
+        "EPI": "MAPHAR",
+        "Dosage": "1 G",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE",
+        "Présentation": "BOITE DE 20",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "20,30 DH",
+        "PH": "12,70 DH"
+      }
+    },
+    {
+      "source_record_id": "5049",
+      "brand_name": "ACTEMRA",
+      "details": {
+        "Substance active": "TOCILIZUMAB",
+        "EPI": "ROCHE",
+        "Dosage": "200   MG  /  10  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "2.848.00 DH",
+        "PH": "2.520.00 DH"
+      }
+    },
+    {
+      "source_record_id": "5050",
+      "brand_name": "ACTEMRA",
+      "details": {
+        "Substance active": "TOCILIZUMAB",
+        "EPI": "ROCHE",
+        "Dosage": "400   MG  /  20  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION",
+        "Présentation": "BOITE DE 1 FLACON DE 20 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "5.296.00 DH",
+        "PH": "5.040.00 DH"
+      }
+    },
+    {
+      "source_record_id": "5051",
+      "brand_name": "ACTEMRA",
+      "details": {
+        "Substance active": "TOCILIZUMAB",
+        "EPI": "ROCHE",
+        "Dosage": "80   MG  /  4  ML",
+        "Forme": "SOLUTION A DILUER POUR PERFUSION",
+        "Présentation": "BOITE DE 1 FLACON DE 10 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "1.279.00 DH",
+        "PH": "1.008.00 DH"
+      }
+    },
+    {
+      "source_record_id": "7101",
+      "brand_name": "ACTEMRA",
+      "details": {
+        "Substance active": "TOCILIZUMAB",
+        "EPI": "ROCHE",
+        "Dosage": "162   MG  / 0,9  ML",
+        "Forme": "SOLUTION POUR INJECTION SOUS CUTANEE",
+        "Présentation": "BOITE DE 4 SERINGUES PRE REMPLIES",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "6.826.00 DH",
+        "PH": "6.615.00 DH"
+      }
+    },
+    {
+      "source_record_id": "766",
+      "brand_name": "ACTI 5",
+      "details": {
+        "Substance active": "DEANOL PIDOLATE // MAGNESIUM PARAAMINOBENZOATE // VITAMINE C (ACIDE ASCORBIQUE)",
+        "EPI": "COOPER PHARMA",
+        "Dosage": "-",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "BOITE DE 30 AMPOULES",
+        "Statut commercialisation": "Retiré du Marché",
+        "PPV": "63,00 DH",
+        "PH": "39,20 DH"
+      }
+    },
+    {
+      "source_record_id": "5618",
+      "brand_name": "ACTICARBINE",
+      "details": {
+        "Substance active": "CHARBON ACTIVE // PAPAVERINE (CHLORHYDRATE )",
+        "EPI": "SOTHEMA",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME DRAGEFIE",
+        "Présentation": "BOITE DE 42",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "22,90 DH",
+        "PH": "14,30 DH"
+      }
+    },
+    {
+      "source_record_id": "5619",
+      "brand_name": "ACTICARBINE",
+      "details": {
+        "Substance active": "CHARBON ACTIVE // PAPAVERINE (CHLORHYDRATE )",
+        "EPI": "SOTHEMA",
+        "Dosage": "70   MG",
+        "Forme": "COMPRIME DRAGEFIE",
+        "Présentation": "BOITE DE 84",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "43,80 DH",
+        "PH": "27,40 DH"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "checkpoint": "R2",
+  "status": "complete_awaiting_user_review",
+  "recorded_at_utc": "2026-10-20T10:09:29.979788+00:00",
+  "r1_reviewed": true,
+  "r3_started": false,
+  "git": {
+    "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+    "branch": "refactor/web-architecture",
+    "changes_committed": false
+  },
+  "packages": {
+    "pharmacy-core": "services/core",
+    "pharmacy-language": "services/language",
+    "pharmacy-contracts": "packages/contracts",
+    "pharmacy-infrastructure": "packages/infrastructure"
+  },
+  "preservation": {
+    "historical_data_report_files_byte_checked": 982,
+    "historical_data_reports_unchanged_from_saved_commit": true,
+    "initial_migrations_byte_preserved": [
+      "services/core/migrations/versions/0001_initial.py",
+      "services/language/migrations/versions/0001_initial.py"
+    ],
+    "existing_locked_versions_preserved": true,
+    "added_local_workspace_packages": [
+      "pharmacy-contracts",
+      "pharmacy-core",
+      "pharmacy-infrastructure",
+      "pharmacy-language"
+    ],
+    "prompt_text_and_version_preserved": true,
+    "prompt_version": "step9-package-selection-v1",
+    "openapi_sha256": {
+      "core": "f21b96c0dda204d9c21dac4762cd6856affb998a6dbbbb82c923fb105e62dded",
+      "language": "4726c221ba0406e959c6f4acaf9f3453784210f421aff477a3347e9aa43ad3b1"
+    },
+    "frontend_application_unchanged": true,
+    "screenshot_note": "Final audit restored the old checkpoint 5 screenshot from the saved commit; future verification captures now use ignored artifacts/compose paths. Only capture routing changed after the successful real-stack run."
+  },
+  "validation": {
+    "python_suites": {
+      "root": {
+        "discovered": 286,
+        "passed": 276,
+        "skipped": 10,
+        "log": "artifacts/cleanup/r2/python-final.log",
+        "log_sha256": "b70c1d63274e8862ee89bc221434ac24b4a8a1a12285bedca2c3a64bc14ef008"
+      },
+      "core": {
+        "discovered": 2,
+        "passed": 2,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r2/core-tests.log",
+        "log_sha256": "70b1bd83e7fde1c8b5df906525248622a8a95675aea9dee6dfa6c1cbe2452c66"
+      },
+      "language": {
+        "discovered": 2,
+        "passed": 2,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r2/language-tests.log",
+        "log_sha256": "3e57615776eadf2e774a13c04a22714de8486fc9c90900ed2cf63ff92b85f04a"
+      },
+      "contracts": {
+        "discovered": 1,
+        "passed": 1,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r2/contracts-tests.log",
+        "log_sha256": "55f94bc9e5b1ee3afd585175e364d7056f1f7b47f791c84f28ae976eb05c03f1"
+      },
+      "infrastructure": {
+        "discovered": 3,
+        "passed": 3,
+        "skipped": 0,
+        "log": "artifacts/cleanup/r2/infrastructure-tests.log",
+        "log_sha256": "acae9ad44b819628c1036073f2f68ff8c0b76b647aee684cfff0b5ecebceaf59"
+      }
+    },
+    "total_passed": 284,
+    "total_skipped": 10,
+    "offline_lock_check": "passed",
+    "source_and_wheel_builds": "passed_all_five_packages",
+    "images_built": [
+      "core",
+      "language",
+      "database-setup"
+    ],
+    "independent_image_checks": "docs/validation/cleanup-r2-images.json",
+    "user_run_real_stack": "docs/validation/cleanup-r2-container.json",
+    "real_stack_checks_passed": 9,
+    "playwright_discovery_after_capture_path_fix": "21 tests in 2 files",
+    "git_diff_check": "passed"
+  },
+  "operations": {
+    "live_inference_performed": false,
+    "scraping_performed": false,
+    "user_application_volume_modified": false,
+    "network_settings_changed": false,
+    "isolated_resources_removed": true,
+    "running_containers_at_handoff": [],
+    "git_commit_or_push_performed": false
+  },
+  "deferred": [
+    "R3 frontend organization",
+    "R4 PostgreSQL-only runtime",
+    "R5 operations/evaluation/test migration",
+    "R6 obsolete file retirement",
+    "R7 final integrated verification"
+  ]
+}

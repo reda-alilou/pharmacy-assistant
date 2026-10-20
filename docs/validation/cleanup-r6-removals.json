@@ -1,0 +1,1946 @@
+{
+  "version": 1,
+  "recorded_at_utc": "2026-10-20T12:49:03.519835+00:00",
+  "checkpoint": "R6",
+  "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+  "gates": {
+    "R5_coverage": "docs/validation/cleanup-r5-coverage.json",
+    "R5_representative_flows": "docs/validation/cleanup-r5-container.json",
+    "archive_verified_files": 1004
+  },
+  "ignored_private_files_removed": false,
+  "files": [
+    {
+      "path": ".streamlit/config.toml",
+      "sha256_before_removal": "7a59a645d1078e878e025ce3f370c96d26fee758715a14c69c2def3810994eb0",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Streamlit removed after R5 React and real frontend representative-flow checks passed.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "alembic.ini",
+      "sha256_before_removal": "dff025c3f6bfbe4d4d8d298c6daa20a28f2bf43044324f4ea742b745dd629e43",
+      "R1_disposition": "split",
+      "R1_destinations": [
+        "services/core/alembic.ini",
+        "services/language/alembic.ini"
+      ],
+      "gate": "Two service-owned Alembic configurations and installed migration helper pass repeated fresh/existing-revision checks.",
+      "maintained_replacements": [
+        "services/core/alembic.ini",
+        "services/language/alembic.ini"
+      ]
+    },
+    {
+      "path": "deploy/compose.database.yaml",
+      "sha256_before_removal": "e941f99cd4469f01dfd77ccfa35f6cc33c5f75a782a8747d79f66890e94e4510",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "The maintained full Compose configuration supports postgres-only startup and retains the same project/service/volume identity.",
+      "maintained_replacements": [
+        "deploy/compose.yaml"
+      ]
+    },
+    {
+      "path": "deploy/verification_seed.py",
+      "sha256_before_removal": "7c91487d953dc02fab5d0f60f2384543e71c3884b6dc51f11b322dad3aca7df9",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tests/support/compose_seed.py"
+      ],
+      "gate": "Isolated verifier uses tests/support/compose_seed.py; successful R5 real frontend check proves the replacement.",
+      "maintained_replacements": [
+        "tests/support/compose_seed.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/__init__.py",
+      "sha256_before_removal": "317cbc784e3cbaefbcfadfa31b298c1339fdfa4bc61f07888cff8e5656d5176f",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/activate_demo_enrichment.py",
+      "sha256_before_removal": "8de51c369bdeb10904fdc0400fe241f0380f54beaac1c6d48b3a0abc335b5686",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/ammps.py",
+      "sha256_before_removal": "50e2c9a50126bfd0b3566974bad04ac2d6e270658fcd1bb57c610be0e465f323",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/answer_templates.py",
+      "sha256_before_removal": "fc00a92d1a6ed9e09d946bf514e928accf504ed7fb178631e0ef44894587c9b6",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/answers.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/api.py",
+      "sha256_before_removal": "b1a2096ca9815958d2e555d677c2e650c5647ddaa22a6a0ce95f3f8e58013a35",
+      "R1_disposition": "split",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/api/app.py",
+        "services/core/src/pharmacy_core/api/dependencies.py",
+        "services/core/src/pharmacy_core/api/routes/chat.py",
+        "services/core/src/pharmacy_core/api/routes/conversations.py",
+        "services/core/src/pharmacy_core/api/routes/catalogue.py",
+        "services/core/src/pharmacy_core/api/routes/health.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/api/app.py",
+        "services/core/src/pharmacy_core/api/dependencies.py",
+        "services/core/src/pharmacy_core/api/routes/catalogue.py",
+        "services/core/src/pharmacy_core/api/routes/chat.py",
+        "services/core/src/pharmacy_core/api/routes/conversations.py",
+        "services/core/src/pharmacy_core/api/routes/health.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/baseline_metrics.py",
+      "sha256_before_removal": "574cdd6c3df926ef2a975162cfc5be255f3aff4517b4a0f7de3f7e645b0b3892",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/scoring/extraction.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/scoring/extraction.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/build_ammps_dataset.py",
+      "sha256_before_removal": "291e2d0963682e86c9a72554496d9f63565dd6b135dadc53ac62d635247294d9",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/build_reference_data.py",
+      "sha256_before_removal": "179f4d61297d0b0442dfb64d8bb80b75960d4fa192894783489a7230d39b7bdb",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/catalog.py",
+      "sha256_before_removal": "bf73e82e4a8f398923310a1f4c35165deb16e38c51a94f456337e29af28d9387",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/catalog.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/chat.py",
+      "sha256_before_removal": "d2e2a6a85c56b8c0e60db17563cb08337da888c9f55732535e8d007c75b507d5",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/service.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/chat_models.py",
+      "sha256_before_removal": "5fd72259817ea94bb67e35e0f358273907afc609af89c5617c7781752920867d",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/collect_ammps.py",
+      "sha256_before_removal": "629c1f26daf06ad002e43844731716a48667b5681205883b222aa5d2fed81f05",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/collect_ammps_detailed.py",
+      "sha256_before_removal": "9250247db20854dcd25aa47ebaffc5637262c13f2a91d72b869f5fa6adb78412",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/collect_ammps_snapshot.py",
+      "sha256_before_removal": "d6408f08f4c666838d3c369ecd81599e29881d1b7b508d36844b8c1f6bbeb6eb",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/collect_rabat_pharmacies.py",
+      "sha256_before_removal": "82789404b66a81605251ff3fc168dda4e3a291c8e124477bca86e1a88dbbd209",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/collection_http.py",
+      "sha256_before_removal": "08f16154f733e7f02d3b9144dbb67216054c8b9b251c64fc96e9ec0353d2314d",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/compose_setup.py",
+      "sha256_before_removal": "d19662cd01a4d5a229615c4fb68e4e819d55bf60e5bd03f2c0b723bf3651daf2",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/compose_setup.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/compose_setup.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/compose_verify.py",
+      "sha256_before_removal": "b85569bf49d22d284f20f8a86370de79a265ab439ac8b5a3dbeb4aa65c5e0334",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/compose_verify.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/compose_verify.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/config.py",
+      "sha256_before_removal": "16fde0f4942ae3d4c3775d7c4e1382eafc1c3dd8c15aabdcbd7a380d32da05c9",
+      "R1_disposition": "split",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/config.py",
+        "services/language/src/pharmacy_language/config.py",
+        "packages/infrastructure/src/pharmacy_infrastructure/environment.py",
+        "tools/evaluation/src/pharmacy_evaluation/config.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/infrastructure/src/pharmacy_infrastructure/environment.py",
+        "services/core/src/pharmacy_core/config.py",
+        "services/language/src/pharmacy_language/config.py",
+        "tools/evaluation/src/pharmacy_evaluation/config.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/contracts/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/contracts/src/pharmacy_contracts/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/contracts/src/pharmacy_contracts/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/contracts/interpreter.py",
+      "sha256_before_removal": "73aa20cc46b4bca4710dd87cbdd282e303b8b86fce26f12016958855ad12ed3c",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/contracts/src/pharmacy_contracts/interpreter.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/contracts/src/pharmacy_contracts/interpreter.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/contracts/language_service.py",
+      "sha256_before_removal": "61dd3f02dc18b880019cafadedc3c4a449cbf1cb0b8d2332464aeb65245c2c94",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/contracts/src/pharmacy_contracts/language.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/contracts/src/pharmacy_contracts/language.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/contracts/nlu_models.py",
+      "sha256_before_removal": "2dfc4b1f7a3d40df008c6374feed19fcd882a8ff886545f0eb6ff518c97e7d11",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/contracts/src/pharmacy_contracts/interpretation.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/contracts/src/pharmacy_contracts/interpretation.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/contracts/storage.py",
+      "sha256_before_removal": "92b0b2e9e250a4ee640c694a6d6e191b0d563d20b97554581e664081091ee0fd",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/contracts/src/pharmacy_contracts/errors.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/contracts/src/pharmacy_contracts/errors.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/conversation.py",
+      "sha256_before_removal": "0a0546fa6565c7a577bf7fbcddf471931330e0d775eafe26668c4e7b4e8cc515",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/state.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/answer_templates.py",
+      "sha256_before_removal": "61e75a988a37f198b5d0324fb3f5c02dde27453ecea75e5602298ba19ca7dd66",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/conversation/answers.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/answers.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/catalog.py",
+      "sha256_before_removal": "1ccc662f8b2f8dd119537895e834e103da0f953f587cb59d972ebfecfb100afe",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/medications/catalog.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/catalog.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/chat.py",
+      "sha256_before_removal": "2a5dc436bc2a7bc71b52e87a82fe4f2be701d0048f978ea710fc2c813b207fca",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/conversation/service.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/service.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/chat_models.py",
+      "sha256_before_removal": "cf6282081ba74385afab535587c0dacf5e4c50d5f9dbec39a3e96eed0dbf1d44",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/conversation/models.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/conversation.py",
+      "sha256_before_removal": "c9d2d7e664412727c1e46f73e1754d5154dcf3636e370a6a60078e54b180dc1e",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/conversation/state.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/state.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/errors.py",
+      "sha256_before_removal": "0e8a7760701f1000526286c43bb416899421e833ec1249b123d168837580a0ce",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/conversation/errors.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/conversation/errors.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/medication_normalization.py",
+      "sha256_before_removal": "f49c9df1d03e6553bff4c365e1a0d0dbd8cf7584f2cbb15be92ab3fbcd50e077",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/medications/normalization.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/normalization.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/models.py",
+      "sha256_before_removal": "daf36359bd01a758af9b537244e7ed1229c67fcbbcead11455b41bb8ba22a7ef",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/medications/models.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/pharmacy_directory.py",
+      "sha256_before_removal": "7c7a966037a77b46e159db1657220197cb71aa5028a6e5dafd03cbd8e7ee0632",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/pharmacies/directory.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/pharmacies/directory.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/pharmacy_models.py",
+      "sha256_before_removal": "7eda98e57bafd1f20cde025110114c6c0a4a544c665254c9d31f4e586e5be4e5",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/pharmacies/models.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/pharmacies/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/pharmacy_normalization.py",
+      "sha256_before_removal": "6257c56376fe765ff0afa9f9c123b0e7e6a676da4c06935dc57d75ec0d8c2dee",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/pharmacies/normalization.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/pharmacies/normalization.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/pricing.py",
+      "sha256_before_removal": "e03e3e318bcd2800923a022d147f35221a5eac8a0cd05cc3e057cae546c559a6",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/medications/pricing.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/pricing.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/resolution.py",
+      "sha256_before_removal": "170c107b1f6d1f78387dd72d69db965e3b35ebce3328d930990f0dd0c7cae255",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/medications/matching.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/matching.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/catalogue.py",
+      "sha256_before_removal": "75e7c81fa1d14a5d7a8a99a3879eb0e14fe0f41a6b6f46b3d135049dd53c688c",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/catalogue.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/catalogue.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/chat.py",
+      "sha256_before_removal": "5fd9376397d5333ee5d6ead547479392ce12db86e2347f10b9abd8de207e0fb0",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/chat.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/chat.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/conversations.py",
+      "sha256_before_removal": "b0a23734b2dadd94a0a38773a1df6bfd5dbde73d0ab34ac7ae729d838025a1d2",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/conversations.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/conversations.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/models.py",
+      "sha256_before_removal": "271ade408d7c0f8c81a2ea162e2fe6541eea1f9178608cc4c8fe106c77f57d32",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/models.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/core/storage/state_codec.py",
+      "sha256_before_removal": "3b2e6f5cfc1a9c9626a608b0bc9e1ac41d18b43c8254fb9aa4d96c28dd658b52",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/storage/postgres/state_codec.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/storage/postgres/state_codec.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/database.py",
+      "sha256_before_removal": "b325f063d9e244aacd60e5290f48e9cf802dfd99918d52c639af55245e9c0ff3",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/infrastructure/src/pharmacy_infrastructure/database.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/infrastructure/src/pharmacy_infrastructure/database.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/database_backup.py",
+      "sha256_before_removal": "0a3d4bb666e13560b6b4bf7eb49b5dbb4621161576e74d0e09e96d48fd2dd28e",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/backup.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/backup.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/database_migrations.py",
+      "sha256_before_removal": "5e6c2926ce880f6d9c139e00e53a7aefb638f5ac15845d5bbcd8d7e6cbf23447",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/migrations.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/migrations.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/database_setup.py",
+      "sha256_before_removal": "d1ecd2935b4313ba1233a3fc86b00e064f22200cc8856c4d2072ae740ff344dc",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/database.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/database.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/demo.py",
+      "sha256_before_removal": "e2141da63162fd2de703a2c354e1641eaacbb671e424cb6274545f06dd075071",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/demo_client.py",
+      "sha256_before_removal": "cd1a13ea0de270897d697c4fc48d56c54bf66703ba02e57d7b67706a0e346e5e",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/enrich_ammps.py",
+      "sha256_before_removal": "e8ca5e9e3a7aa88ce9a4b0ac6a1eb910bd2d38d2b14947d91bffc83c607ee8dc",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_baseline.py",
+      "sha256_before_removal": "d6611fb15758917d665d780fffad2bfa3cc6e993ab20dfbe3b0b7ded0a78ca67",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/baseline.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/baseline.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_chat_smoke.py",
+      "sha256_before_removal": "78026d9d344a069883b8fc0008fca05d12500bf7f5237136f9725475966cec91",
+      "R1_disposition": "consolidate",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/scenarios.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_conversation_smoke.py",
+      "sha256_before_removal": "0f31c49b14cce0c7092f065d59d60db2457ab4ca045d54bce0e73299afa9e6ba",
+      "R1_disposition": "consolidate",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/scenarios.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/scenarios/conversation.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_demo_smoke.py",
+      "sha256_before_removal": "cc8be9307f7797d888365fe276c94858da140907cc83373ee6fc27605ad71def",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_development.py",
+      "sha256_before_removal": "942f8738f5146a16efabfe5e6353c2da3e478ca001d08e47b199eff606108db1",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/development.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/development.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_held_out.py",
+      "sha256_before_removal": "9df982cf37b603593b2d8ccd27475f594781ce95f21e88d7b5bdcfe26e0a14bf",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/held_out.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/held_out.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_interpretation.py",
+      "sha256_before_removal": "39a613d25fa28ca0b23e190ce39c6aaed949814b0ec45ee201e900ff3a2eab7b",
+      "R1_disposition": "split",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/interpretation.py",
+        "tools/evaluation/src/pharmacy_evaluation/reporting/io.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/io.py",
+        "tools/evaluation/src/pharmacy_evaluation/runners/interpretation.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluate_pharmacy_smoke.py",
+      "sha256_before_removal": "d98c4370de77b88984e9357d5e50337080a8543901dc9e8d4b775aa2bcf385c4",
+      "R1_disposition": "consolidate",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/scenarios.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/runners/scenarios/pharmacy.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluation_dataset.py",
+      "sha256_before_removal": "13636edcc14d46a3819530091dfd95326cb7a932c3327d8c08f98a643527d8fe",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/datasets/baseline.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/datasets/baseline.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluation_freeze.py",
+      "sha256_before_removal": "8cedb89fbd4762b00edf4c9c1a1ec681d7536a5427320b176cd502ebeb56ad63",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/freeze.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/freeze.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/evaluation_state.py",
+      "sha256_before_removal": "d0d61d580151962cb9b548b8efa29ff79d8654625718e01e3ca620b5a64d47fe",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/state.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/state.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/expand_medications.py",
+      "sha256_before_removal": "bf31fb85b6fa4087f68b9afd3128599be34dbb2258fa55479516755ba0a5fb3e",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/expand_pharmacies.py",
+      "sha256_before_removal": "939582694d5094da4f615d22c1a230bdd018e8b60a6f2d5032f16f40c216dc1e",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/export_frontend_contract.py",
+      "sha256_before_removal": "dc1516a158368dcf96c5e8932bf180e773e65ad1048f1b53b72e1ecbb4e080a8",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/export_contract.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/export_contract.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/gemini_nlu.py",
+      "sha256_before_removal": "1fef215340faead5c40aa4b09fcc240ac7d0a217790a876d86bfb6f9d9880768",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/providers/gemini.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/inference.py",
+      "sha256_before_removal": "774516e3655e6f5fdf266b834d53796682ab9721cd5e74f66a23868b4af247ff",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/quota/control.py",
+        "tools/evaluation/src/pharmacy_evaluation/ledger.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/api.py",
+      "sha256_before_removal": "76b82099019e32d80f3a6c39168d77f5b9ebb67b6e6f80ca97383901d3c4df40",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/api/app.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/api/app.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/gemini_nlu.py",
+      "sha256_before_removal": "21adae5f44e28ada54e08135a3837623d1e142fcecde31882432ae7890ba1d0e",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/providers/gemini.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/providers/gemini.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/inference.py",
+      "sha256_before_removal": "5a4f5582db8632b7a4b5b51b3966a1881c8b9a8aecc3a6e15e59dde20c4eb6ea",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/extraction/service.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/extraction/service.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/legacy_quota.py",
+      "sha256_before_removal": "3317e89dfd10566a460e0c04b834b698905e9a9345cfe3c4e99310f966902aca",
+      "R1_disposition": "post_R1_transitional_fixture_or_legacy_adapter",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/language/nlu.py",
+      "sha256_before_removal": "4c844b0e18ad97621984382eb2996ada9e11962f1bcf717c67780aaac4b4ea0c",
+      "R1_disposition": "split",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/providers/groq.py",
+        "services/language/src/pharmacy_language/extraction/prompt.py",
+        "services/language/src/pharmacy_language/extraction/validation.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/extraction/prompt.py",
+        "services/language/src/pharmacy_language/extraction/validation.py",
+        "services/language/src/pharmacy_language/providers/groq.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/opencode_nlu.py",
+      "sha256_before_removal": "8079d9ada216698609450141b3feeecce7e1e4a35f5df94c3e28761a3bde532a",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/providers/opencode.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/providers/opencode.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/quota.py",
+      "sha256_before_removal": "92b585797ae200a3a359b2ec39d847ad2778b63576333d93d15197dd43d06085",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/quota/control.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/quota/control.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/storage/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/storage/postgres/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/storage/postgres/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/storage/models.py",
+      "sha256_before_removal": "bb8fa4f845872967865c47fb3c7c655ee0850a21663ad66c2b24824d6c84ec0b",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/storage/postgres/models.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/storage/postgres/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/language/storage/quota.py",
+      "sha256_before_removal": "0ce28b8018b493c3b408f8b98f4992757807a7f37335589f4b1e102b1eb4a425",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/language/src/pharmacy_language/storage/postgres/quota.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/storage/postgres/quota.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/medication_normalization.py",
+      "sha256_before_removal": "0d7c396a9c7c1e710f0cc7219f1059f58156d767caa1ac7b46a8c37bc9160bed",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/normalization.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/merge_development_rechecks.py",
+      "sha256_before_removal": "6e5004b8d5c72e9b1ef883eedc16ea429b600cc5291b6043aa3b7b1c6f7ccb59",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/merge.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/merge.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/models.py",
+      "sha256_before_removal": "bb54e0763572bb9d181069101656ee98a173127112e7c2c92c5b2dc3b8d197fa",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/models.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/nlu.py",
+      "sha256_before_removal": "8c96711ceab163f352edaf5d26a10306207b8db0efadc9f665d351ca63a5254d",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/providers/groq.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/nlu_models.py",
+      "sha256_before_removal": "32faf63bfebc9eec4d863ad56f4ff5272e90816e1115e1875f430a07f5d3ae0b",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/opencode_nlu.py",
+      "sha256_before_removal": "a1ce79e8543527b2c8d64a7e151085563837574997c76e7c36042c56ea429e48",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/providers/opencode.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/parse_ammps.py",
+      "sha256_before_removal": "76fb9b6eb18dae5b62aa842cd6e5398284a3839c0bc28773aaf12f161df1290c",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/parse_ammps_detailed.py",
+      "sha256_before_removal": "5d3e4c1918b62808c1b2d0439336b93d62d7627016e58b6efd8c6661a8f1376e",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/paths.py",
+      "sha256_before_removal": "5a64b50d0e67e06b03c4af474dd07e33f6efb8e65911c05bffa9678e7115ff20",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "packages/infrastructure/src/pharmacy_infrastructure/paths.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "packages/infrastructure/src/pharmacy_infrastructure/paths.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/pharmacy_directory.py",
+      "sha256_before_removal": "5bf923442c763f3fb7570978e5e67cb1e3b1194bccb5a5d6d2443993024adc76",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/pharmacies/directory.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/pharmacy_normalization.py",
+      "sha256_before_removal": "1f372f1847a362a360408cdb1e4c0baa682fa83c3097e596e50f018bf6bd204c",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/pharmacies/normalization.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/prepare_demo_enrichment.py",
+      "sha256_before_removal": "29b811465d6a0bdad27174865bb3aaa988843ffc6445b9a7cb7d8c5b21f2af74",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/pricing.py",
+      "sha256_before_removal": "8d69296455deac022805f1151ebbdf1a22e8fd73ba4f07ea0e9d93478050c9cb",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/pricing.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/process_ammps.py",
+      "sha256_before_removal": "ac8ed2cae711191af58c58b9c1ae9ba8fdada13a0bfce55a2ce7edc73adb0ccb",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/quality_ammps.py",
+      "sha256_before_removal": "f028bacabe0f489a147e5ac10f8f205f891018a08041434b34bfbd873e180679",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/import_validation.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/import_validation.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/quota.py",
+      "sha256_before_removal": "d8ebb2c22206aebfd38b4d458024865da31f0cdecdfe6137b1c2ace27598e014",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/language/src/pharmacy_language/quota/control.py",
+        "tools/evaluation/src/pharmacy_evaluation/ledger.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/report_live_evaluation.py",
+      "sha256_before_removal": "ff883af0e94672f3053c348ddabea785c27f4e773d34c0c0fdaa5420d895ee16",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/analysis.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "tools/evaluation/src/pharmacy_evaluation/reporting/analysis.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/resolution.py",
+      "sha256_before_removal": "0ff999b74f8537d786186e2ca265f194b3b57f7c5179ff38f58031b41c555400",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/medications/matching.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/review_collection_expansion.py",
+      "sha256_before_removal": "bed2af912add6af06b909259621d44630ddaaa90218ed779f83fc4a458d315b4",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/run_collection_expansion.py",
+      "sha256_before_removal": "bfcd633dd7f1d5a0770cb85a24343b5d02d167687c1e28b5fa214357a0304dd1",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/run_demo.py",
+      "sha256_before_removal": "1d018ac0154d8f98a81472b3ea88646874234a5819b9e1312d0c706e7481464a",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/search_medications.py",
+      "sha256_before_removal": "6d602f6239ca4d46ecedb8b9892ad3c0ba3619e46b5fbb103547bb4bf6288d5c",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/supplementary_sources.py",
+      "sha256_before_removal": "6753bd4f0b8ecfc5313d32e135295ae11604227fcb923c5e6e6d523868b8a061",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": []
+    },
+    {
+      "path": "src/pharmacy_assistant/transport/__init__.py",
+      "sha256_before_removal": "0cf6a31ab5c32181d4613750f154ac994a99cd0d99e9ab1d0cd43c368965ed1f",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/clients/__init__.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/clients/__init__.py"
+      ]
+    },
+    {
+      "path": "src/pharmacy_assistant/transport/language.py",
+      "sha256_before_removal": "caeb3c3c78fd58b133ff1fa8b5a48b8a9a3c33d3b85f2d39d7f645783f3410ce",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "services/core/src/pharmacy_core/clients/language.py"
+      ],
+      "gate": "Owned packages replace compatibility modules and retained tools; collection/enrichment, legacy UI and unused CLI retired after R5 coverage migration.",
+      "maintained_replacements": [
+        "services/core/src/pharmacy_core/clients/language.py"
+      ]
+    },
+    {
+      "path": "tests/build_frontend_fixtures.py",
+      "sha256_before_removal": "fe3d7feabab6a121848d69fd68921d907f432cfc0b9961cc2d27e4bcb6534e30",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tools/operations/src/pharmacy_ops/frontend_fixtures.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "maintained_replacements": [
+        "tools/operations/src/pharmacy_ops/fixtures.py"
+      ]
+    },
+    {
+      "path": "tests/runtime_fixtures.py",
+      "sha256_before_removal": "1406866bd1714432afce10446d7b73a8a64dac2a80c6f79fd7c4dcaf6ed6c396",
+      "R1_disposition": "post_R1_transitional_fixture_or_legacy_adapter",
+      "R1_destinations": [],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "maintained_replacements": [
+        "tests/support/runtime.py"
+      ]
+    },
+    {
+      "path": "tests/service_harness.py",
+      "sha256_before_removal": "0db7ce71a11443fd5f191c457e3f5708e5be248fc10b32523566222ebf0e820b",
+      "R1_disposition": "move",
+      "R1_destinations": [
+        "tests/support/service_harness.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "maintained_replacements": [
+        "tests/support/services.py"
+      ]
+    },
+    {
+      "path": "tests/test_arabic_package_regressions.py",
+      "sha256_before_removal": "8e545cee927ee7ff38bfd5fc1000a3644d9f75cfeea3f88c675f9d9f68219cc8",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_arabic_package_regressions.AliasRegressionTests.test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions",
+        "test_arabic_package_regressions.AliasRegressionTests.test_alias_alone_does_not_pick_a_strength_or_presentation",
+        "test_arabic_package_regressions.AliasRegressionTests.test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings",
+        "test_arabic_package_regressions.AliasRegressionTests.test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one",
+        "test_arabic_package_regressions.PackageSessionTests.test_package_selection_then_requested_quantity_remain_separate",
+        "test_arabic_package_regressions.PackageSessionTests.test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size",
+        "test_arabic_package_regressions.PackageSessionTests.test_arabic_and_latin_name_identity_share_only_confirmed_record",
+        "test_arabic_package_regressions.PackageSessionTests.test_definite_container_reference_is_corrected_only_in_effective_followup",
+        "test_arabic_package_regressions.PackageSessionTests.test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped",
+        "test_arabic_package_regressions.PackageSessionTests.test_outcome_metric_rejects_unnecessary_quantity_clarification"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ]
+    },
+    {
+      "path": "tests/test_architecture_boundaries.py",
+      "sha256_before_removal": "a9c01ad6cd7d1991c8b14804d97c75dd4bb9444ebcdda50c89935f8d43c73083",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/integration/test_errors.py",
+        "tests/architecture/test_boundaries.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_architecture_boundaries.OwnershipTests.test_core_import_needs_no_http_framework_provider_or_collector",
+        "test_architecture_boundaries.OwnershipTests.test_service_imports_respect_ownership",
+        "test_architecture_boundaries.OwnershipTests.test_legacy_imports_share_the_canonical_modules",
+        "test_architecture_boundaries.OwnershipTests.test_data_and_environment_paths_still_resolve_from_repository_root",
+        "test_architecture_boundaries.OwnershipTests.test_evaluation_guards_include_changes_in_nested_implementation",
+        "test_architecture_boundaries.ChatErrorApiTests.test_application_errors_keep_the_existing_http_contract",
+        "test_architecture_boundaries.ChatErrorApiTests.test_database_failures_are_sanitized_before_the_http_boundary"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/integration/test_errors.py",
+        "tests/architecture/test_boundaries.py",
+        "tests/architecture/test_tool_boundaries.py",
+        "tests/architecture/test_workspace_packages.py"
+      ]
+    },
+    {
+      "path": "tests/test_baseline.py",
+      "sha256_before_removal": "0a1a5ea07b4cdc8d685f8a423fcda5ffa1ba2a93d1a522d549d8b3c879a4c5cd",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_baseline.DatasetTests.test_balanced_splits_raw_spans_ids_and_freeze_validate",
+        "test_baseline.DatasetTests.test_modified_frozen_file_is_rejected",
+        "test_baseline.DatasetTests.test_live_cases_exclude_all_context_and_held_out_examples",
+        "test_baseline.MetricTests.test_order_of_multiple_medications_does_not_change_slot_f1",
+        "test_baseline.MetricTests.test_duplicate_prediction_cannot_reuse_a_gold_mention",
+        "test_baseline.MetricTests.test_wrong_slot_counts_false_positive_and_false_negative",
+        "test_baseline.MetricTests.test_missing_mention_counts_all_its_non_null_slots",
+        "test_baseline.MetricTests.test_alternate_evidenced_span_is_accepted",
+        "test_baseline.MetricTests.test_null_slots_do_not_artificially_inflate_entity_f1",
+        "test_baseline.MetricTests.test_wrong_intent_and_unobserved_language_groups_are_not_perfect",
+        "test_baseline.BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation",
+        "test_baseline.BackendBaselineTests.test_same_medication_with_wrong_price_record_is_not_a_correct_resolution",
+        "test_baseline.BackendBaselineTests.test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data",
+        "test_baseline.BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_baseline.py"
+      ]
+    },
+    {
+      "path": "tests/test_chat.py",
+      "sha256_before_removal": "84e5d828bab3cb6bf2a6f6c70ad51400e4aefa4b851967ac634d9cd5b8877d90",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/integration/test_chat.py",
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_chat.ResolutionTests.test_exact_brand_excludes_substring_collision_and_keeps_presentations",
+        "test_chat.ResolutionTests.test_strength_form_and_package_are_independent_and_quantity_is_not_package",
+        "test_chat.ResolutionTests.test_arabic_alias_units_and_form",
+        "test_chat.ResolutionTests.test_fuzzy_and_partial_names_never_resolve_automatically",
+        "test_chat.ResolutionTests.test_unknown_missing_and_large_substance_ambiguity",
+        "test_chat.ChatServiceTests.test_selection_uses_only_offered_records_without_new_inference",
+        "test_chat.ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported",
+        "test_chat.ChatServiceTests.test_expired_unknown_and_evicted_continuations",
+        "test_chat.ChatServiceTests.test_record_facts_missing_price_stock_and_sources",
+        "test_chat.ChatServiceTests.test_source_conflicts_do_not_replace_official_prices",
+        "test_chat.ChatServiceTests.test_answer_follows_retrieved_values_instead_of_fixed_example_prices",
+        "test_chat.ChatServiceTests.test_unknown_incomplete_and_unsupported_requests",
+        "test_chat.ChatServiceTests.test_unsupported_named_medication_does_not_trigger_unrequested_lookup",
+        "test_chat.ChatServiceTests.test_rabat_contacts_area_and_unverified_hours_duty",
+        "test_chat.ChatServiceTests.test_outside_coverage_and_missing_pharmacy_have_no_fallback_results",
+        "test_chat.ChatApiTests.test_http_clarification_serialization_and_selection_validation",
+        "test_chat.ChatApiTests.test_provider_error_is_visible_and_lookup_still_works"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/integration/test_chat.py",
+        "services/core/tests/unit/test_chat.py"
+      ]
+    },
+    {
+      "path": "tests/test_collection_expansion.py",
+      "sha256_before_removal": "e3b6c3562c9e68ae831d108eb063578324ae74f15b5960bf60c920f6c4963300",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_collection_expansion.MedicationExpansionTests.test_pipeline_never_marks_partial_or_failed_audit_ready",
+        "test_collection_expansion.MedicationExpansionTests.test_windows_checkpoint_rename_retries_and_preserves_previous_file_on_failure",
+        "test_collection_expansion.MedicationExpansionTests.test_all_letters_discovery_resumes_before_details_and_ignores_stale_sitemap_urls",
+        "test_collection_expansion.MedicationExpansionTests.test_page_discovery_is_not_capped_at_old_sample",
+        "test_collection_expansion.MedicationExpansionTests.test_zero_letter_and_duplicate_listing_links",
+        "test_collection_expansion.MedicationExpansionTests.test_budget_resume_preserves_stage_and_reuses_verified_cache",
+        "test_collection_expansion.MedicationExpansionTests.test_repeated_listing_page_is_coverage_failure",
+        "test_collection_expansion.MedicationExpansionTests.test_provider_rejection_stops_without_serializing_error_secrets",
+        "test_collection_expansion.MedicationExpansionTests.test_retry_attempts_count_against_budget",
+        "test_collection_expansion.PharmacyExpansionTests.test_offline_retrieval_audit_uses_full_entity_contract",
+        "test_collection_expansion.PharmacyExpansionTests.test_grid_covers_bounds_and_phone_normalization_preserves_unknowns",
+        "test_collection_expansion.PharmacyExpansionTests.test_generic_city_run_is_staged_capped_and_resumable",
+        "test_collection_expansion.PharmacyExpansionTests.test_duplicate_names_are_reviewed_not_automatically_merged"
+      ],
+      "maintained_replacements": []
+    },
+    {
+      "path": "tests/test_compose_deployment.py",
+      "sha256_before_removal": "b37d7c426cd159b88d7924581fe4fd104da3fa80c4386c70d81f1881e2e7bbdd",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_compose_deployment.ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials",
+        "test_compose_deployment.ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider",
+        "test_compose_deployment.ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file",
+        "test_compose_deployment.CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer",
+        "test_compose_deployment.CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors"
+      ],
+      "maintained_replacements": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ]
+    },
+    {
+      "path": "tests/test_conversation.py",
+      "sha256_before_removal": "820162883b49314a1f81d2f8aa026ddfd48ee1f764c06fd231e8b351577853c1",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_conversation.py",
+        "services/core/tests/unit/test_conversation.py",
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_conversation.ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals",
+        "test_conversation.ConversationTests.test_without_session_the_same_fragment_remains_incomplete",
+        "test_conversation.ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups",
+        "test_conversation.ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity",
+        "test_conversation.ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection",
+        "test_conversation.ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference",
+        "test_conversation.ConversationTests.test_named_followup_targets_only_matching_previous_medication",
+        "test_conversation.ConversationTests.test_ordinal_selection_and_multimedication_ambiguity",
+        "test_conversation.ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter",
+        "test_conversation.ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength",
+        "test_conversation.ConversationTests.test_unsupported_and_topic_switches_drop_old_medication",
+        "test_conversation.ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters",
+        "test_conversation.ConversationTests.test_sessions_expire_are_bounded_and_are_not_global_memory",
+        "test_conversation.ConversationTests.test_provider_failure_leaves_original_session_usable",
+        "test_conversation.ConversationTests.test_long_source_packaging_never_breaks_session_creation_or_pinning",
+        "test_conversation.ConversationTests.test_fragment_information_intent_inherits_previous_price_intent",
+        "test_conversation.ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip",
+        "test_conversation.ConversationApiAndUiTests.test_streamlit_attaches_session_to_text_and_clears_it_on_reset",
+        "test_conversation.ConversationApiAndUiTests.test_streamlit_reference_button_sends_the_offered_index_without_text"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_conversation.py",
+        "services/core/tests/unit/test_conversation.py",
+        "tests/integration/test_postgres_storage.py"
+      ]
+    },
+    {
+      "path": "tests/test_conversation_smoke.py",
+      "sha256_before_removal": "a91bcf41f2cfde1fda308920323df5c73d08b02d8e1fd15a75db042125a125e3",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_conversation_smoke.ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing",
+        "test_conversation_smoke.ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_scenarios_conversation_smoke.py"
+      ]
+    },
+    {
+      "path": "tests/test_demo.py",
+      "sha256_before_removal": "272ea3aee5f444caa753f2a848829511e8a17cf1c06dd097f5e41158ba4c7396",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_demo.DemoClientTests.test_api_url_cannot_contain_credentials_or_query_secrets",
+        "test_demo.DemoClientTests.test_provider_errors_are_redacted_and_cooldown_is_preserved",
+        "test_demo.DemoClientTests.test_connection_timeout_malformed_response_and_input_errors",
+        "test_demo.StreamlitTests.test_real_choice_payload_and_no_api_call_on_display_reruns",
+        "test_demo.StreamlitTests.test_example_error_and_explicit_retry_preserve_the_original_payload",
+        "test_demo.StreamlitTests.test_expired_selection_restarts_text_and_never_replays_the_expired_token",
+        "test_demo.StreamlitTests.test_arabic_input_is_escaped_and_no_health_connection_has_recovery",
+        "test_demo.StreamlitTests.test_cooldown_click_does_not_send_an_early_retry",
+        "test_demo.LauncherTests.test_old_in_process_api_is_not_silently_reused",
+        "test_demo.LauncherTests.test_language_storage_mismatch_leaves_reused_service_running",
+        "test_demo.LauncherTests.test_reused_backend_is_never_stopped_by_the_launcher",
+        "test_demo.LauncherTests.test_launcher_does_not_reuse_an_api_with_a_different_storage_backend",
+        "test_demo.LauncherTests.test_owned_backend_and_ui_are_stopped_on_interrupt"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ]
+    },
+    {
+      "path": "tests/test_demo_conversation_chain.py",
+      "sha256_before_removal": "c76a14c643d68b652aab691905a092cae87a62d7e00dae3e66cbf3e9d945ccec",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_demo_conversation_chain.DemoConversationChainTests.test_screenshot_sequence_uses_the_latest_response_session_even_after_retry"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ]
+    },
+    {
+      "path": "tests/test_development_live.py",
+      "sha256_before_removal": "431a55cd4d0a0d2b7917d62ef4c9a10b3b5315b251c9ef991d8d0b6b0083c6e9",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_development_live.DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions",
+        "test_development_live.DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success",
+        "test_development_live.DevelopmentTests.test_audit_separates_schema_failure_from_unsupported_entity_evidence",
+        "test_development_live.DevelopmentTests.test_held_out_gate_runs_before_loading_examples_or_creating_a_provider",
+        "test_development_live.DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_development.py"
+      ]
+    },
+    {
+      "path": "tests/test_evaluation_freeze.py",
+      "sha256_before_removal": "afa31fc05c3b8d78f45c38a0a30c87607d2ca40d18ca6c6079d1537333a8dd41",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_freeze.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_evaluation_freeze.FreezeTests.test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence",
+        "test_evaluation_freeze.FreezeTests.test_incomplete_development_cannot_be_frozen"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_freeze.py"
+      ]
+    },
+    {
+      "path": "tests/test_evaluation_resume.py",
+      "sha256_before_removal": "2e0ae883479cb4db1825f940b1c696729345a06a902f6b1405f36769f7dbbd0a",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_evaluation_resume.ResumeTests.test_zero_budget_sends_nothing_and_is_resumable",
+        "test_evaluation_resume.ResumeTests.test_three_invocations_complete_without_repeating_saved_cases",
+        "test_evaluation_resume.ResumeTests.test_existing_evidence_is_never_overwritten_by_accident",
+        "test_evaluation_resume.ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call",
+        "test_evaluation_resume.ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case",
+        "test_evaluation_resume.ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown",
+        "test_evaluation_resume.ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts",
+        "test_evaluation_resume.ResumeTests.test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly",
+        "test_evaluation_resume.ResumeTests.test_missing_report_key_and_invalid_budget_do_not_consume_requests",
+        "test_evaluation_resume.ResumeTests.test_duplicate_saved_results_are_rejected",
+        "test_evaluation_resume.ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_resume.py"
+      ]
+    },
+    {
+      "path": "tests/test_frontend_contract.py",
+      "sha256_before_removal": "ae58f47dce0f299ac27483ef395416b9cb596664d277d74b7ee11b029ef729cc",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tests/integration/test_frontend_contract.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_frontend_contract.FrontendContractTests.test_openapi_snapshot_matches_core_without_runtime_configuration",
+        "test_frontend_contract.FrontendContractTests.test_browser_factual_fixtures_validate_against_core_response"
+      ],
+      "maintained_replacements": [
+        "tests/integration/test_frontend_contract.py"
+      ]
+    },
+    {
+      "path": "tests/test_gemini.py",
+      "sha256_before_removal": "ca6dcfd3de81f91fb987db1207f24a3d83241c444cb237cc826fb666e79eb1d8",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/language/tests/unit/test_gemini.py",
+        "tests/integration/test_provider_contracts.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_gemini.GeminiConfigTests.test_default_selection_key_isolation_and_health",
+        "test_gemini.GeminiConfigTests.test_environment_precedence_and_config_validation",
+        "test_gemini.GeminiConfigTests.test_real_adapter_chat_clarification_and_sources_without_a_server",
+        "test_gemini.GeminiAdapterTests.test_native_schema_request_and_actual_usage_with_thoughts_excluded",
+        "test_gemini.GeminiAdapterTests.test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried",
+        "test_gemini.GeminiAdapterTests.test_google_invalid_key_error_and_retry_info",
+        "test_gemini.GeminiAdapterTests.test_short_rate_limit_cooldown_is_not_automatically_retried",
+        "test_gemini.GeminiAdapterTests.test_persistent_network_server_and_timeout_failures_stop_after_two",
+        "test_gemini.GeminiAdapterTests.test_refusals_truncation_malformed_and_invented_entities_are_rejected",
+        "test_gemini.GeminiAdapterTests.test_hard_deadline_is_bounded_even_without_transport_timeout"
+      ],
+      "maintained_replacements": [
+        "services/language/tests/unit/test_gemini.py",
+        "tests/integration/test_provider_contracts_gemini.py"
+      ]
+    },
+    {
+      "path": "tests/test_interpretation.py",
+      "sha256_before_removal": "b57426ef04e77f266bf5352e3a537300241cb5247ff3eca1d14b24727c03cce1",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/integration/test_interpretation_api.py",
+        "services/language/tests/unit/test_interpretation.py",
+        "tools/evaluation/tests/test_interpretation.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_interpretation.ConfigurationTests.test_configuration_file_and_environment_precedence",
+        "test_interpretation.ConfigurationTests.test_blank_placeholder_and_invalid_settings",
+        "test_interpretation.InterpretationTests.test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode",
+        "test_interpretation.InterpretationTests.test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema",
+        "test_interpretation.InterpretationTests.test_actual_sdk_sends_schema_and_returns_measured_metadata",
+        "test_interpretation.InterpretationTests.test_missing_key_never_sends_a_request",
+        "test_interpretation.InterpretationTests.test_transient_error_has_one_retry_without_sdk_multiplication",
+        "test_interpretation.InterpretationTests.test_successful_retry_is_recorded",
+        "test_interpretation.InterpretationTests.test_provider_json_generation_failure_gets_only_one_retry",
+        "test_interpretation.InterpretationTests.test_auth_permission_bad_model_and_long_rate_limit_are_not_retried",
+        "test_interpretation.InterpretationTests.test_connection_and_timeout_errors_have_bounded_retry",
+        "test_interpretation.InterpretationTests.test_invalid_truncated_refused_or_invented_outputs_are_rejected",
+        "test_interpretation.InterpretationTests.test_hard_deadline_is_enforced",
+        "test_interpretation.InterpretationTests.test_multiple_medications_and_incomplete_requests",
+        "test_interpretation.InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error",
+        "test_interpretation.InterpretationApiTests.test_input_validation_precedes_inference",
+        "test_interpretation.InterpretationApiTests.test_real_api_response_and_secret_redaction",
+        "test_interpretation.InterpretationApiTests.test_rate_limit_response_propagates_cooldown_without_provider_body",
+        "test_interpretation.SmokeEvaluationTests.test_fixture_has_twelve_balanced_cases_and_only_message_spans",
+        "test_interpretation.SmokeEvaluationTests.test_incomplete_or_failed_run_cannot_pass",
+        "test_interpretation.SmokeEvaluationTests.test_entity_comparison_distinguishes_missing_from_wrong"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/integration/test_interpretation_api.py",
+        "services/language/tests/unit/test_interpretation.py",
+        "tools/evaluation/tests/test_interpretation.py"
+      ]
+    },
+    {
+      "path": "tests/test_language_service.py",
+      "sha256_before_removal": "a944c1c9ba3a708beb4a3c693680feedaccd0421064f92f6cd8b81a97dd1ed48",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tests/architecture/test_service_configuration.py",
+        "tests/integration/test_language_transport.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_language_service.ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials",
+        "test_language_service.ServiceConfigurationTests.test_entrypoints_import_without_other_service_or_provider_modules",
+        "test_language_service.ServiceConfigurationTests.test_real_loopback_http_to_an_independent_language_server",
+        "test_language_service.LanguageHttpTests.test_two_services_preserve_grounding_and_only_send_current_message",
+        "test_language_service.LanguageHttpTests.test_language_failure_preserves_pending_choices_and_catalogue",
+        "test_language_service.LanguageHttpTests.test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt",
+        "test_language_service.LanguageHttpTests.test_readiness_checks_quota_without_a_provider_attempt",
+        "test_language_service.LanguageHttpTests.test_malformed_success_and_invented_evidence_are_rejected",
+        "test_language_service.LanguageHttpTests.test_remote_error_text_and_invalid_error_contract_never_leak",
+        "test_language_service.LanguageHttpTests.test_transport_timeout_is_single_attempt_and_completion_is_uncertain",
+        "test_language_service.LanguageHttpTests.test_language_total_deadline_stops_without_a_second_provider_attempt",
+        "test_language_service.LanguageHttpTests.test_invalid_request_never_calls_provider_or_echoes_patient_input"
+      ],
+      "maintained_replacements": [
+        "tests/architecture/test_service_configuration.py",
+        "tests/integration/test_language_transport_language_service.py"
+      ]
+    },
+    {
+      "path": "tests/test_matching_improvements.py",
+      "sha256_before_removal": "f44d6364f1d74332ad646a382ba998a49e9633eff20dbeeaf949f182ea253133",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_matching_improvements.py",
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_matching_improvements.NormalizationTests.test_explicit_unit_equivalence_and_ordered_combination_strengths",
+        "test_matching_improvements.NormalizationTests.test_form_synonyms_keep_qualifiers_and_negative_words_significant",
+        "test_matching_improvements.NormalizationTests.test_packaging_numbers_volumes_container_and_form_are_not_conflated",
+        "test_matching_improvements.MatchingTests.test_reviewed_alias_targets_exist_in_the_real_catalogue",
+        "test_matching_improvements.MatchingTests.test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions",
+        "test_matching_improvements.MatchingTests.test_known_brand_wrong_strength_never_auto_selects_and_retains_choices",
+        "test_matching_improvements.MatchingTests.test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation",
+        "test_matching_improvements.MatchingTests.test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate",
+        "test_matching_improvements.RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference",
+        "test_matching_improvements.RefinementTests.test_explicit_strength_correction_preserves_original_extraction_and_prices",
+        "test_matching_improvements.RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected",
+        "test_matching_improvements.RefinementTests.test_next_page_is_validated_and_only_offered_records_can_be_selected",
+        "test_matching_improvements.RefinementApiAndUiTests.test_http_refinement_validation_and_existing_presentation_selection",
+        "test_matching_improvements.RefinementApiAndUiTests.test_streamlit_refinement_menu_sends_the_real_continuation_payload"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_matching_improvements.py",
+        "services/core/tests/unit/test_matching.py"
+      ]
+    },
+    {
+      "path": "tests/test_medication_foundation.py",
+      "sha256_before_removal": "2fbe15faaf0d75bf2d35c298c2c7f437ad23183b03de46df84f4afdbac9179e2",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/integration/test_medication_foundation.py",
+        "services/core/tests/integration/test_startup.py",
+        "services/core/tests/unit/test_medication_foundation.py",
+        "tools/operations/tests/test_import_validation.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_medication_foundation.CatalogueTests.test_enriched_only_product_is_searchable",
+        "test_medication_foundation.CatalogueTests.test_abip_presentations_retain_prices_and_enrichment",
+        "test_medication_foundation.CatalogueTests.test_filters_select_one_presentation_without_merging",
+        "test_medication_foundation.CatalogueTests.test_active_substance_and_case_search",
+        "test_medication_foundation.CatalogueTests.test_spelling_suggestions_never_become_results",
+        "test_medication_foundation.CatalogueTests.test_unknown_and_filter_misses_are_not_nonexistence_claims",
+        "test_medication_foundation.CatalogueTests.test_strength_units_and_numeric_boundaries",
+        "test_medication_foundation.CatalogueTests.test_whitespace_input_rejected_for_query_and_filters",
+        "test_medication_foundation.CatalogueTests.test_python_search_interface_remains_list_of_dicts",
+        "test_medication_foundation.CatalogueTests.test_startup_rejects_empty_duplicate_and_invalid_data",
+        "test_medication_foundation.QualityTests.test_full_enriched_dataset_passes_with_unknown_prices",
+        "test_medication_foundation.QualityTests.test_invalid_prices_schema_and_provenance_fail",
+        "test_medication_foundation.QualityTests.test_empty_duplicate_and_nonobject_data_fail",
+        "test_medication_foundation.QualityTests.test_basic_and_detailed_page_numbers_can_differ",
+        "test_medication_foundation.ApiTests.test_health_and_search_need_no_further_file_reads",
+        "test_medication_foundation.ApiTests.test_original_search_fields_and_new_filters",
+        "test_medication_foundation.ApiTests.test_invalid_queries_return_422_instead_of_500",
+        "test_medication_foundation.ApiTests.test_lookup_and_partial_catalogue_404",
+        "test_medication_foundation.ApiTests.test_fuzzy_api_response_requires_review"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/integration/test_interpretation_api.py",
+        "services/core/tests/integration/test_medication_foundation.py",
+        "services/core/tests/unit/test_medication_foundation.py",
+        "services/core/tests/unit/test_runtime_startup.py",
+        "tests/integration/test_postgres_storage.py",
+        "tools/operations/tests/test_import_validation.py"
+      ]
+    },
+    {
+      "path": "tests/test_opencode.py",
+      "sha256_before_removal": "c471febd21a6663db05f7ed04db03c8c67657afaa308fb11807c0350b30313be",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/language/tests/unit/test_opencode.py",
+        "tests/integration/test_provider_contracts.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_opencode.OpenCodeConfigTests.test_provider_selection_and_selected_key_are_independent",
+        "test_opencode.OpenCodeConfigTests.test_env_selection_and_validation",
+        "test_opencode.OpenCodeConfigTests.test_health_and_missing_glm_key_never_use_the_existing_groq_key",
+        "test_opencode.OpenCodeAdapterTests.test_strict_request_endpoint_credentials_and_actual_metadata",
+        "test_opencode.OpenCodeAdapterTests.test_json_object_requires_explicit_configuration_and_keeps_local_validation",
+        "test_opencode.OpenCodeAdapterTests.test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback",
+        "test_opencode.OpenCodeAdapterTests.test_transient_error_retries_only_once_and_records_success",
+        "test_opencode.OpenCodeAdapterTests.test_free_tier_restriction_is_actionable_and_not_retried",
+        "test_opencode.OpenCodeAdapterTests.test_persistent_generation_connection_and_timeout_errors_stop_after_two",
+        "test_opencode.OpenCodeAdapterTests.test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected",
+        "test_opencode.OpenCodeAdapterTests.test_hard_deadline_is_bounded"
+      ],
+      "maintained_replacements": [
+        "services/language/tests/unit/test_opencode.py",
+        "tests/integration/test_provider_contracts_opencode.py"
+      ]
+    },
+    {
+      "path": "tests/test_pharmacy_matching.py",
+      "sha256_before_removal": "fff9d7bc6c3b9460e9ac06fe85f9c13ead224f96ba6df3a78ebfc6f6762e1fb1",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_pharmacy_matching.py",
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_pharmacy_matching.PharmacyMatchingTests.test_reviewed_alias_targets_exist_and_raw_fields_are_preserved",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_exact_names_win_over_real_directory_substring_collisions",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_whole_tokens_do_not_match_substrings_or_numbers_inside_names",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_name_and_area_are_both_required_and_never_fall_back",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_area_aliases_are_separate_from_pharmacy_names",
+        "test_pharmacy_matching.PharmacyMatchingTests.test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified",
+        "test_pharmacy_matching.PharmacyChatTests.test_multilingual_alias_returns_only_retrieved_contact_and_sources",
+        "test_pharmacy_matching.PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record",
+        "test_pharmacy_matching.PharmacyApiAndUiTests.test_api_preserves_raw_arabic_and_exposes_matching_method",
+        "test_pharmacy_matching.PharmacyApiAndUiTests.test_streamlit_displays_ambiguity_and_real_directory_choices"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_pharmacy_matching.py",
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ]
+    },
+    {
+      "path": "tests/test_pharmacy_smoke.py",
+      "sha256_before_removal": "1743d8b09cf227561607a6e20c3dc540a717aef5a1366f332f1fc4193ef8797e",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_pharmacy_smoke.PharmacySmokeTests.test_budgeted_partial_run_resumes_only_remaining_cases",
+        "test_pharmacy_smoke.PharmacySmokeTests.test_incorrect_resolution_and_incomplete_coverage_cannot_pass"
+      ],
+      "maintained_replacements": [
+        "tools/evaluation/tests/test_scenarios_pharmacy_smoke.py"
+      ]
+    },
+    {
+      "path": "tests/test_postgres_storage.py",
+      "sha256_before_removal": "c70538556ad63c92b0d61a80d7704c92118308de8674f8088c286918ebe048c0",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_postgres_storage.PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions",
+        "test_postgres_storage.PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history",
+        "test_postgres_storage.PostgresStorageTests.test_foreign_keys_and_exact_price_constraints",
+        "test_postgres_storage.PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset",
+        "test_postgres_storage.PostgresStorageTests.test_http_extraction_outage_restore_choices_and_postgres_quotas",
+        "test_postgres_storage.PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted",
+        "test_postgres_storage.PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context",
+        "test_postgres_storage.PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry",
+        "test_postgres_storage.PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits",
+        "test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger"
+      ],
+      "maintained_replacements": [
+        "tests/integration/test_postgres_storage.py"
+      ]
+    },
+    {
+      "path": "tests/test_prepare_demo_enrichment.py",
+      "sha256_before_removal": "16096d91db2077d11b8ef1272b12335d8e4911ebc8f547745bb7b760c0e592a2",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_latest_whole_observation_and_earlier_unrefreshed_ids_are_preserved",
+        "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_conflicting_same_timestamp_and_duplicate_source_ids_are_rejected",
+        "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_freeze_reparses_raw_content_and_rejects_tampered_parsed_prices",
+        "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_candidate_enrichment_preserves_official_facts_and_original_input"
+      ],
+      "maintained_replacements": []
+    },
+    {
+      "path": "tests/test_pricing.py",
+      "sha256_before_removal": "c5cca9935c434b2427b4e0c88e397a46c603c3fc5dd4f967817e7f65691d157d",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_pricing.py",
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_pricing.QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups",
+        "test_pricing.QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages",
+        "test_pricing.PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown",
+        "test_pricing.PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total",
+        "test_pricing.PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price",
+        "test_pricing.PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved",
+        "test_pricing.PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals",
+        "test_pricing.PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation",
+        "test_pricing.PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total",
+        "test_pricing.PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call",
+        "test_pricing.PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation",
+        "test_pricing.PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works",
+        "test_pricing.PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown",
+        "test_pricing.PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic",
+        "test_pricing.PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices",
+        "test_pricing.PricingApiAndUiTests.test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls"
+      ],
+      "maintained_replacements": [
+        "apps/web/tests/browser/chat.spec.ts",
+        "services/core/tests/integration/test_pricing.py",
+        "services/core/tests/unit/test_pricing.py"
+      ]
+    },
+    {
+      "path": "tests/test_quota.py",
+      "sha256_before_removal": "1ca0b1903b2ab99615e7406781d072c64054fcc02b819cd18892d19ce7236cc0",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/language/tests/unit/test_quota.py",
+        "tests/integration/test_language_transport.py",
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_quota.QuotaTests.test_concurrent_connections_allow_only_one_reservation",
+        "test_quota.QuotaTests.test_another_python_process_uses_the_same_ledger",
+        "test_quota.QuotaTests.test_cooldown_persists_and_cannot_be_shortened_by_another_caller",
+        "test_quota.QuotaTests.test_budget_counts_reservations_not_rejected_local_requests",
+        "test_quota.QuotaTests.test_unavailable_ledger_fails_closed_and_settings_are_validated",
+        "test_quota.QuotaTests.test_pacific_midnight_handles_summer_winter_and_dst",
+        "test_quota.QuotaAdapterTests.test_retries_cannot_exceed_one_wire_request_budget",
+        "test_quota.QuotaAdapterTests.test_waiting_evaluator_respects_spacing_without_real_sleep",
+        "test_quota.QuotaAdapterTests.test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter",
+        "test_quota.QuotaAdapterTests.test_unspecified_429_gets_a_shared_default_cooldown",
+        "test_quota.QuotaApiTests.test_factory_api_spacing_preserves_lookup_and_retry_after_without_network",
+        "test_quota.QuotaApiTests.test_default_allows_back_to_back_requests_and_ignores_old_spacing"
+      ],
+      "maintained_replacements": [
+        "services/language/tests/unit/test_quota.py",
+        "tests/integration/test_language_transport_quota.py",
+        "tests/integration/test_postgres_quota.py"
+      ]
+    },
+    {
+      "path": "tests/test_reference_data.py",
+      "sha256_before_removal": "adea60f35ad25dec9fab6bc66263c26324c4effd2365a11eabf80ba6d4f8a17e",
+      "R1_disposition": "delete_after_coverage_migration",
+      "R1_destinations": [],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_reference_data.SecondaryParserTests.test_medicament_extracts_actual_details_and_publication_date",
+        "test_reference_data.SecondaryParserTests.test_missing_presentation_is_preserved_without_guessing",
+        "test_reference_data.SecondaryParserTests.test_saydalia_repeated_attributes_do_not_duplicate_products",
+        "test_reference_data.SecondaryParserTests.test_secondary_prices_and_package_boundaries",
+        "test_reference_data.MatchingTests.test_unique_presentation_enrichment_preserves_official_prices",
+        "test_reference_data.MatchingTests.test_ambiguous_and_wrong_strength_never_auto_merge",
+        "test_reference_data.MatchingTests.test_secondary_disagreements_leave_canonical_fields_unknown",
+        "test_reference_data.MatchingTests.test_invalid_atc_and_nonmedication_products_are_not_promoted",
+        "test_reference_data.PharmacyAndCollectionTests.test_only_rabat_records_and_no_undated_duty_claim",
+        "test_reference_data.PharmacyAndCollectionTests.test_source_cache_verifies_hash_and_redacts_browser_tokens",
+        "test_reference_data.PharmacyAndCollectionTests.test_incomplete_snapshot_cannot_replace_dataset"
+      ],
+      "maintained_replacements": []
+    },
+    {
+      "path": "tests/test_storage_contracts.py",
+      "sha256_before_removal": "ffef7d1a158c6833ab2fb0fa0550de5968a5f23e50114a038cd646677e4a736a",
+      "R1_disposition": "migrate_test_coverage",
+      "R1_destinations": [
+        "services/core/tests/unit/test_config.py",
+        "services/language/tests/unit/test_config.py",
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "coverage_methods": [
+        "test_storage_contracts.StorageValueTests.test_frozen_initial_migrations_match_the_relational_models",
+        "test_storage_contracts.StorageValueTests.test_prices_preserve_missing_zero_and_exact_precision",
+        "test_storage_contracts.StorageValueTests.test_alias_spellings_and_confirmation_policies_remain_distinct",
+        "test_storage_contracts.StorageValueTests.test_postgres_configuration_requires_both_private_service_urls",
+        "test_storage_contracts.StateCodecTests.test_json_round_trip_restores_clarification_then_pricing_context",
+        "test_storage_contracts.StateCodecTests.test_transcript_payload_does_not_persist_bearer_tokens",
+        "test_storage_contracts.StateCodecTests.test_unrecognized_snapshot_version_is_rejected"
+      ],
+      "maintained_replacements": [
+        "services/core/tests/unit/test_runtime_startup.py",
+        "services/language/tests/unit/test_runtime_startup.py",
+        "tests/architecture/test_service_configuration.py",
+        "tests/integration/test_storage_contracts.py"
+      ]
+    },
+    {
+      "path": "tests/test_workspace_packages.py",
+      "sha256_before_removal": "74e2afcf1d8fba5558f45b811dffaf7b6f663aa06bff2a0eb62b9419b6e0dc77",
+      "R1_disposition": "post_R1_transitional_fixture_or_legacy_adapter",
+      "R1_destinations": [],
+      "gate": "R5 per-method map and maintained shared fixtures replace the old root suite; retired-capability scenarios are explicitly identified.",
+      "maintained_replacements": [
+        "tests/architecture/test_workspace_packages.py"
+      ]
+    }
+  ],
+  "note": "R1_destinations are historical planned paths; maintained_replacements identify existing canonical implementations/coverage. Empty replacements are retired-only files or package markers; their removal gate explains the retirement."
+}

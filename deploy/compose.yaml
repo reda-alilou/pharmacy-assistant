@@ -29,8 +29,7 @@ services:
     image: pharmacy-assistant-core:local
     build:
       context: ..
-      dockerfile: deploy/Dockerfile.python
-      target: core
+      dockerfile: services/core/Dockerfile
     environment:
       STORAGE_BACKEND: postgres
       CORE_DATABASE_URL: ${CORE_DATABASE_URL:?Run compose_setup first}
@@ -50,8 +49,7 @@ services:
     image: pharmacy-assistant-language:local
     build:
       context: ..
-      dockerfile: deploy/Dockerfile.python
-      target: language
+      dockerfile: services/language/Dockerfile
     environment:
       STORAGE_BACKEND: postgres
       LANGUAGE_DATABASE_URL: ${LANGUAGE_DATABASE_URL:?Run compose_setup first}
@@ -85,7 +83,7 @@ services:
     image: pharmacy-assistant-web:local
     build:
       context: ..
-      dockerfile: deploy/Dockerfile.web
+      dockerfile: apps/web/Dockerfile
     ports:
       - "127.0.0.1:${WEB_PORT:-8080}:8080"
     depends_on:
@@ -107,8 +105,7 @@ services:
     image: pharmacy-assistant-database-tools:local
     build:
       context: ..
-      dockerfile: deploy/Dockerfile.python
-      target: database-tools
+      dockerfile: tools/operations/Dockerfile
     environment:
       MIGRATION_DATABASE_URL: ${MIGRATION_DATABASE_URL:?Run compose_setup first}
       CORE_DATABASE_URL: ${CORE_DATABASE_URL:?Run compose_setup first}

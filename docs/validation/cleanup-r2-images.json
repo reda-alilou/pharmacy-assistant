@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-10-20T09:59:16.535603+00:00",
+  "network": "none",
+  "services_started": false,
+  "live_inference": false,
+  "images": {
+    "core": {
+      "independent_import": true,
+      "forbidden_packages_absent": true,
+      "original_openapi_preserved": true,
+      "schema_sha256": "f21b96c0dda204d9c21dac4762cd6856affb998a6dbbbb82c923fb105e62dded"
+    },
+    "language": {
+      "independent_import": true,
+      "forbidden_packages_absent": true,
+      "original_openapi_preserved": true,
+      "schema_sha256": "4726c221ba0406e959c6f4acaf9f3453784210f421aff477a3347e9aa43ad3b1"
+    },
+    "database-setup": {
+      "independent_service_migrations_offline_sql": true
+    }
+  },
+  "passed": true
+}

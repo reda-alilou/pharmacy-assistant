@@ -1,0 +1,2961 @@
+{
+  "version": 1,
+  "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+  "captured_at_utc": "2026-10-20T09:25:34.706100+00:00",
+  "policy": "Future coverage migration, not a claim that replacement tests have already been implemented. Preserve useful behavior; explicitly retire removed-capability tests. Do not preserve obsolete auto-replay or combined-secret-settings expectations.",
+  "totals": {
+    "python_methods": 282,
+    "by_disposition": {
+      "retain_and_retarget": 219,
+      "replace_obsolete_contract": 5,
+      "adapt_path_contract": 1,
+      "retire_with_capability": 34,
+      "replace_ui_coverage": 14,
+      "consolidate_scenario_coverage": 4,
+      "adapt_postgres_semantics": 5
+    },
+    "offline_browser_scenarios": 20,
+    "opt_in_real_browser_scenarios": 1
+  },
+  "python": [
+    {
+      "id": "test_arabic_package_regressions.AliasRegressionTests.test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.AliasRegressionTests.test_alias_alone_does_not_pick_a_strength_or_presentation",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.AliasRegressionTests.test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.AliasRegressionTests.test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_package_selection_then_requested_quantity_remain_separate",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_arabic_and_latin_name_identity_share_only_confirmed_record",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_definite_container_reference_is_corrected_only_in_effective_followup",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_arabic_package_regressions.PackageSessionTests.test_outcome_metric_rejects_unnecessary_quantity_clarification",
+      "source": "tests/test_arabic_package_regressions.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_arabic_package_regressions.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.OwnershipTests.test_core_import_needs_no_http_framework_provider_or_collector",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/architecture/test_boundaries.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.OwnershipTests.test_service_imports_respect_ownership",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/architecture/test_boundaries.py"
+      ],
+      "reason": "Preserve service/schema isolation. In the new package, allow FastAPI only in the API/composition area; conversation/medication/pharmacy logic and shared contracts stay free of framework/provider imports. Update prefixes and no-cross-service guards.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.OwnershipTests.test_legacy_imports_share_the_canonical_modules",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "replace_obsolete_contract",
+      "destinations": [
+        "tests/architecture/test_boundaries.py"
+      ],
+      "reason": "Replace alias identity with checks that old imports are absent and service packages load independently.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.OwnershipTests.test_data_and_environment_paths_still_resolve_from_repository_root",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "adapt_path_contract",
+      "destinations": [
+        "tests/architecture/test_boundaries.py"
+      ],
+      "reason": "Check explicit project-root/workspace discovery and moved import/archive paths, without fixed parent-depth assumptions.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.OwnershipTests.test_evaluation_guards_include_changes_in_nested_implementation",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/architecture/test_boundaries.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.ChatErrorApiTests.test_application_errors_keep_the_existing_http_contract",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_errors.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_architecture_boundaries.ChatErrorApiTests.test_database_failures_are_sanitized_before_the_http_boundary",
+      "source": "tests/test_architecture_boundaries.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_errors.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.DatasetTests.test_balanced_splits_raw_spans_ids_and_freeze_validate",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.DatasetTests.test_modified_frozen_file_is_rejected",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.DatasetTests.test_live_cases_exclude_all_context_and_held_out_examples",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_order_of_multiple_medications_does_not_change_slot_f1",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_duplicate_prediction_cannot_reuse_a_gold_mention",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_wrong_slot_counts_false_positive_and_false_negative",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_missing_mention_counts_all_its_non_null_slots",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_alternate_evidenced_span_is_accepted",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_null_slots_do_not_artificially_inflate_entity_f1",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.MetricTests.test_wrong_intent_and_unobserved_language_groups_are_not_perfect",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.BackendBaselineTests.test_same_medication_with_wrong_price_record_is_not_a_correct_resolution",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.BackendBaselineTests.test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_baseline.BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference",
+      "source": "tests/test_baseline.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_baseline.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ResolutionTests.test_exact_brand_excludes_substring_collision_and_keeps_presentations",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ResolutionTests.test_strength_form_and_package_are_independent_and_quantity_is_not_package",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ResolutionTests.test_arabic_alias_units_and_form",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ResolutionTests.test_fuzzy_and_partial_names_never_resolve_automatically",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ResolutionTests.test_unknown_missing_and_large_substance_ambiguity",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_selection_uses_only_offered_records_without_new_inference",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_expired_unknown_and_evicted_continuations",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_record_facts_missing_price_stock_and_sources",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_source_conflicts_do_not_replace_official_prices",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_answer_follows_retrieved_values_instead_of_fixed_example_prices",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_unknown_incomplete_and_unsupported_requests",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_unsupported_named_medication_does_not_trigger_unrequested_lookup",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_rabat_contacts_area_and_unverified_hours_duty",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatServiceTests.test_outside_coverage_and_missing_pharmacy_have_no_fallback_results",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatApiTests.test_http_clarification_serialization_and_selection_validation",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_chat.ChatApiTests.test_provider_error_is_visible_and_lookup_still_works",
+      "source": "tests/test_chat.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_chat.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_pipeline_never_marks_partial_or_failed_audit_ready",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_windows_checkpoint_rename_retries_and_preserves_previous_file_on_failure",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_all_letters_discovery_resumes_before_details_and_ignores_stale_sitemap_urls",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_page_discovery_is_not_capped_at_old_sample",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_zero_letter_and_duplicate_listing_links",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_budget_resume_preserves_stage_and_reuses_verified_cache",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_repeated_listing_page_is_coverage_failure",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_provider_rejection_stops_without_serializing_error_secrets",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.MedicationExpansionTests.test_retry_attempts_count_against_budget",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.PharmacyExpansionTests.test_offline_retrieval_audit_uses_full_entity_contract",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.PharmacyExpansionTests.test_grid_covers_bounds_and_phone_normalization_preserves_unknowns",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.PharmacyExpansionTests.test_generic_city_run_is_staged_capped_and_resumable",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_collection_expansion.PharmacyExpansionTests.test_duplicate_names_are_reviewed_not_automatically_merged",
+      "source": "tests/test_collection_expansion.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_compose_deployment.ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials",
+      "source": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_compose_deployment.ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider",
+      "source": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_compose_deployment.ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file",
+      "source": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_compose_deployment.CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer",
+      "source": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_compose_deployment.CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors",
+      "source": "tests/test_compose_deployment.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_compose_deployment.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_without_session_the_same_fragment_remains_incomplete",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_named_followup_targets_only_matching_previous_medication",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_ordinal_selection_and_multimedication_ambiguity",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_unsupported_and_topic_switches_drop_old_medication",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_sessions_expire_are_bounded_and_are_not_global_memory",
+      "source": "tests/test_conversation.py",
+      "disposition": "replace_obsolete_contract",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py",
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Separate pure fixture-engine isolation/bounds from the runtime contract: PostgreSQL owns context/transcript with 30-minute inactivity expiry. Do not impose the legacy 15-minute/128-entry in-memory runtime policy.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_provider_failure_leaves_original_session_usable",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_long_source_packaging_never_breaks_session_creation_or_pinning",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationTests.test_fragment_information_intent_inherits_previous_price_intent",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip",
+      "source": "tests/test_conversation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_conversation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationApiAndUiTests.test_streamlit_attaches_session_to_text_and_clears_it_on_reset",
+      "source": "tests/test_conversation.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation.ConversationApiAndUiTests.test_streamlit_reference_button_sends_the_offered_index_without_text",
+      "source": "tests/test_conversation.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation_smoke.ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing",
+      "source": "tests/test_conversation_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "reason": "Retain scenario, budget, resume, failure and scoring assertions in the maintained evaluation runner.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_conversation_smoke.ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten",
+      "source": "tests/test_conversation_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "reason": "Retain scenario, budget, resume, failure and scoring assertions in the maintained evaluation runner.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.DemoClientTests.test_api_url_cannot_contain_credentials_or_query_secrets",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.DemoClientTests.test_provider_errors_are_redacted_and_cooldown_is_preserved",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.DemoClientTests.test_connection_timeout_malformed_response_and_input_errors",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.StreamlitTests.test_real_choice_payload_and_no_api_call_on_display_reruns",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.StreamlitTests.test_example_error_and_explicit_retry_preserve_the_original_payload",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.StreamlitTests.test_expired_selection_restarts_text_and_never_replays_the_expired_token",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.StreamlitTests.test_arabic_input_is_escaped_and_no_health_connection_has_recovery",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.StreamlitTests.test_cooldown_click_does_not_send_an_early_retry",
+      "source": "tests/test_demo.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_demo.LauncherTests.test_old_in_process_api_is_not_silently_reused",
+      "source": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_demo.LauncherTests.test_language_storage_mismatch_leaves_reused_service_running",
+      "source": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_demo.LauncherTests.test_reused_backend_is_never_stopped_by_the_launcher",
+      "source": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_demo.LauncherTests.test_launcher_does_not_reuse_an_api_with_a_different_storage_backend",
+      "source": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_demo.LauncherTests.test_owned_backend_and_ui_are_stopped_on_interrupt",
+      "source": "tests/test_demo.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Streamlit process launcher is removed; Compose startup/isolation/ownership is verified separately.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_demo_conversation_chain.DemoConversationChainTests.test_screenshot_sequence_uses_the_latest_response_session_even_after_retry",
+      "source": "tests/test_demo_conversation_chain.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_development_live.DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions",
+      "source": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_development_live.DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success",
+      "source": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_development_live.DevelopmentTests.test_audit_separates_schema_failure_from_unsupported_entity_evidence",
+      "source": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_development_live.DevelopmentTests.test_held_out_gate_runs_before_loading_examples_or_creating_a_provider",
+      "source": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_development_live.DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum",
+      "source": "tests/test_development_live.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_development.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_freeze.FreezeTests.test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence",
+      "source": "tests/test_evaluation_freeze.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_freeze.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_freeze.FreezeTests.test_incomplete_development_cannot_be_frozen",
+      "source": "tests/test_evaluation_freeze.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_freeze.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_zero_budget_sends_nothing_and_is_resumable",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_three_invocations_complete_without_repeating_saved_cases",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_existing_evidence_is_never_overwritten_by_accident",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_missing_report_key_and_invalid_budget_do_not_consume_requests",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_duplicate_saved_results_are_rejected",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_evaluation_resume.ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts",
+      "source": "tests/test_evaluation_resume.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_resume.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_frontend_contract.FrontendContractTests.test_openapi_snapshot_matches_core_without_runtime_configuration",
+      "source": "tests/test_frontend_contract.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_frontend_contract.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_frontend_contract.FrontendContractTests.test_browser_factual_fixtures_validate_against_core_response",
+      "source": "tests/test_frontend_contract.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_frontend_contract.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiConfigTests.test_default_selection_key_isolation_and_health",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_provider_contracts.py"
+      ],
+      "reason": "Cross-package core/provider contract coverage belongs to root integration tests; provider-only HTTP/config tests stay under language. Runtime services still communicate through HTTP, with providers mocked here.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiConfigTests.test_environment_precedence_and_config_validation",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiConfigTests.test_real_adapter_chat_clarification_and_sources_without_a_server",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_provider_contracts.py"
+      ],
+      "reason": "Cross-package core/provider contract coverage belongs to root integration tests; provider-only HTTP/config tests stay under language. Runtime services still communicate through HTTP, with providers mocked here.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_native_schema_request_and_actual_usage_with_thoughts_excluded",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_google_invalid_key_error_and_retry_info",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_short_rate_limit_cooldown_is_not_automatically_retried",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_persistent_network_server_and_timeout_failures_stop_after_two",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_refusals_truncation_malformed_and_invented_entities_are_rejected",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_gemini.GeminiAdapterTests.test_hard_deadline_is_bounded_even_without_transport_timeout",
+      "source": "tests/test_gemini.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_gemini.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.ConfigurationTests.test_configuration_file_and_environment_precedence",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.ConfigurationTests.test_blank_placeholder_and_invalid_settings",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_actual_sdk_sends_schema_and_returns_measured_metadata",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_missing_key_never_sends_a_request",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_transient_error_has_one_retry_without_sdk_multiplication",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_successful_retry_is_recorded",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_provider_json_generation_failure_gets_only_one_retry",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_auth_permission_bad_model_and_long_rate_limit_are_not_retried",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_connection_and_timeout_errors_have_bounded_retry",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_invalid_truncated_refused_or_invented_outputs_are_rejected",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_hard_deadline_is_enforced",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationTests.test_multiple_medications_and_incomplete_requests",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_interpretation_api.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationApiTests.test_input_validation_precedes_inference",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_interpretation_api.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationApiTests.test_real_api_response_and_secret_redaction",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_interpretation_api.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.InterpretationApiTests.test_rate_limit_response_propagates_cooldown_without_provider_body",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_interpretation_api.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.SmokeEvaluationTests.test_fixture_has_twelve_balanced_cases_and_only_message_spans",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.SmokeEvaluationTests.test_incomplete_or_failed_run_cannot_pass",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_interpretation.SmokeEvaluationTests.test_entity_comparison_distinguishes_missing_from_wrong",
+      "source": "tests/test_interpretation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/evaluation/tests/test_interpretation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/architecture/test_service_configuration.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.ServiceConfigurationTests.test_entrypoints_import_without_other_service_or_provider_modules",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/architecture/test_service_configuration.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.ServiceConfigurationTests.test_real_loopback_http_to_an_independent_language_server",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_two_services_preserve_grounding_and_only_send_current_message",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_language_failure_preserves_pending_choices_and_catalogue",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_readiness_checks_quota_without_a_provider_attempt",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_malformed_success_and_invented_evidence_are_rejected",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_remote_error_text_and_invalid_error_contract_never_leak",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_transport_timeout_is_single_attempt_and_completion_is_uncertain",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_language_total_deadline_stops_without_a_second_provider_attempt",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_language_service.LanguageHttpTests.test_invalid_request_never_calls_provider_or_echoes_patient_input",
+      "source": "tests/test_language_service.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.NormalizationTests.test_explicit_unit_equivalence_and_ordered_combination_strengths",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.NormalizationTests.test_form_synonyms_keep_qualifiers_and_negative_words_significant",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.NormalizationTests.test_packaging_numbers_volumes_container_and_form_are_not_conflated",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.MatchingTests.test_reviewed_alias_targets_exist_in_the_real_catalogue",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.MatchingTests.test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.MatchingTests.test_known_brand_wrong_strength_never_auto_selects_and_retains_choices",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.MatchingTests.test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.MatchingTests.test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementTests.test_explicit_strength_correction_preserves_original_extraction_and_prices",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementTests.test_next_page_is_validated_and_only_offered_records_can_be_selected",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementApiAndUiTests.test_http_refinement_validation_and_existing_presentation_selection",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_matching_improvements.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_matching_improvements.RefinementApiAndUiTests.test_streamlit_refinement_menu_sends_the_real_continuation_payload",
+      "source": "tests/test_matching_improvements.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_enriched_only_product_is_searchable",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_abip_presentations_retain_prices_and_enrichment",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_filters_select_one_presentation_without_merging",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_active_substance_and_case_search",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_spelling_suggestions_never_become_results",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_unknown_and_filter_misses_are_not_nonexistence_claims",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_strength_units_and_numeric_boundaries",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_whitespace_input_rejected_for_query_and_filters",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_python_search_interface_remains_list_of_dicts",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "replace_obsolete_contract",
+      "destinations": [
+        "services/core/tests/unit/test_medication_foundation.py"
+      ],
+      "reason": "Remove the obsolete search CLI; retain catalogue result shape, filtering and API lookup assertions.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.CatalogueTests.test_startup_rejects_empty_duplicate_and_invalid_data",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "replace_obsolete_contract",
+      "destinations": [
+        "tools/operations/tests/test_import_validation.py",
+        "services/core/tests/integration/test_startup.py"
+      ],
+      "reason": "Replace file-backed API startup with explicit import validation and PostgreSQL startup checks. Empty, duplicate or malformed facts still fail clearly; do not retain a files runtime merely to satisfy this test.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_medication_foundation.QualityTests.test_full_enriched_dataset_passes_with_unknown_prices",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_import_validation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.QualityTests.test_invalid_prices_schema_and_provenance_fail",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_import_validation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.QualityTests.test_empty_duplicate_and_nonobject_data_fail",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tools/operations/tests/test_import_validation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.QualityTests.test_basic_and_detailed_page_numbers_can_differ",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Legacy basic/detailed source-merging algorithm is retired; source snapshots remain archived.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_medication_foundation.ApiTests.test_health_and_search_need_no_further_file_reads",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_medication_foundation.py"
+      ],
+      "reason": "After PostgreSQL startup reconstruction, health/search use loaded indices without opening JSONL/raw/import files. Preserve read-only request semantics with explicit injected fixtures or isolated PostgreSQL.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.ApiTests.test_original_search_fields_and_new_filters",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.ApiTests.test_invalid_queries_return_422_instead_of_500",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.ApiTests.test_lookup_and_partial_catalogue_404",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_medication_foundation.ApiTests.test_fuzzy_api_response_requires_review",
+      "source": "tests/test_medication_foundation.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_medication_foundation.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeConfigTests.test_provider_selection_and_selected_key_are_independent",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeConfigTests.test_env_selection_and_validation",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeConfigTests.test_health_and_missing_glm_key_never_use_the_existing_groq_key",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_provider_contracts.py"
+      ],
+      "reason": "Cross-package core/provider contract coverage belongs to root integration tests; provider-only HTTP/config tests stay under language. Runtime services still communicate through HTTP, with providers mocked here.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_strict_request_endpoint_credentials_and_actual_metadata",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_json_object_requires_explicit_configuration_and_keeps_local_validation",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_transient_error_retries_only_once_and_records_success",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_free_tier_restriction_is_actionable_and_not_retried",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_persistent_generation_connection_and_timeout_errors_stop_after_two",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_opencode.OpenCodeAdapterTests.test_hard_deadline_is_bounded",
+      "source": "tests/test_opencode.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_opencode.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_reviewed_alias_targets_exist_and_raw_fields_are_preserved",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_exact_names_win_over_real_directory_substring_collisions",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_whole_tokens_do_not_match_substrings_or_numbers_inside_names",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_name_and_area_are_both_required_and_never_fall_back",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_area_aliases_are_separate_from_pharmacy_names",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyMatchingTests.test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyChatTests.test_multilingual_alias_returns_only_retrieved_contact_and_sources",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyApiAndUiTests.test_api_preserves_raw_arabic_and_exposes_matching_method",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_pharmacy_matching.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_matching.PharmacyApiAndUiTests.test_streamlit_displays_ambiguity_and_real_directory_choices",
+      "source": "tests/test_pharmacy_matching.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_smoke.PharmacySmokeTests.test_budgeted_partial_run_resumes_only_remaining_cases",
+      "source": "tests/test_pharmacy_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "reason": "Retain scenario, budget, resume, failure and scoring assertions in the maintained evaluation runner.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pharmacy_smoke.PharmacySmokeTests.test_incorrect_resolution_and_incomplete_coverage_cannot_pass",
+      "source": "tests/test_pharmacy_smoke.py",
+      "disposition": "consolidate_scenario_coverage",
+      "destinations": [
+        "tools/evaluation/tests/test_scenarios.py"
+      ],
+      "reason": "Retain scenario, budget, resume, failure and scoring assertions in the maintained evaluation runner.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_foreign_keys_and_exact_price_constraints",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_http_extraction_outage_restore_choices_and_postgres_quotas",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger",
+      "source": "tests/test_postgres_storage.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_postgres_storage.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_latest_whole_observation_and_earlier_unrefreshed_ids_are_preserved",
+      "source": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_conflicting_same_timestamp_and_duplicate_source_ids_are_rejected",
+      "source": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_freeze_reparses_raw_content_and_rejects_tampered_parsed_prices",
+      "source": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_prepare_demo_enrichment.FrozenEnrichmentTests.test_candidate_enrichment_preserves_official_facts_and_original_input",
+      "source": "tests/test_prepare_demo_enrichment.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_pricing.QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py",
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Retain Decimal rounding and changed-source-price assertions in core. Replace the removed demo.price formatting assertion with React French money-format checks; do not import Streamlit helpers.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/unit/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices",
+      "source": "tests/test_pricing.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/core/tests/integration/test_pricing.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_pricing.PricingApiAndUiTests.test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls",
+      "source": "tests/test_pricing.py",
+      "disposition": "replace_ui_coverage",
+      "destinations": [
+        "apps/web/tests/browser/chat.spec.ts"
+      ],
+      "reason": "Port meaningful interaction/error assertions to React. Expired choices must not auto-resend; explicit retries preserve text with a fresh request ID. Browser URL tests enforce same-origin requests and reject unsafe links.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_concurrent_connections_allow_only_one_reservation",
+      "source": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "destinations": [
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "reason": "Retain concurrency/process-sharing, durable cooldown/budget or fail-closed semantics against isolated PostgreSQL; remove SQLite runtime assumptions.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_another_python_process_uses_the_same_ledger",
+      "source": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "destinations": [
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "reason": "Retain concurrency/process-sharing, durable cooldown/budget or fail-closed semantics against isolated PostgreSQL; remove SQLite runtime assumptions.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_cooldown_persists_and_cannot_be_shortened_by_another_caller",
+      "source": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "destinations": [
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "reason": "Retain concurrency/process-sharing, durable cooldown/budget or fail-closed semantics against isolated PostgreSQL; remove SQLite runtime assumptions.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_budget_counts_reservations_not_rejected_local_requests",
+      "source": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "destinations": [
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "reason": "Retain concurrency/process-sharing, durable cooldown/budget or fail-closed semantics against isolated PostgreSQL; remove SQLite runtime assumptions.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_unavailable_ledger_fails_closed_and_settings_are_validated",
+      "source": "tests/test_quota.py",
+      "disposition": "adapt_postgres_semantics",
+      "destinations": [
+        "tests/integration/test_postgres_quota.py"
+      ],
+      "reason": "Retain concurrency/process-sharing, durable cooldown/budget or fail-closed semantics against isolated PostgreSQL; remove SQLite runtime assumptions.",
+      "checkpoint": "R4"
+    },
+    {
+      "id": "test_quota.QuotaTests.test_pacific_midnight_handles_summer_winter_and_dst",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_quota.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaAdapterTests.test_retries_cannot_exceed_one_wire_request_budget",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_quota.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaAdapterTests.test_waiting_evaluator_respects_spacing_without_real_sleep",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_quota.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaAdapterTests.test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_quota.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaAdapterTests.test_unspecified_429_gets_a_shared_default_cooldown",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "services/language/tests/unit/test_quota.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaApiTests.test_factory_api_spacing_preserves_lookup_and_retry_after_without_network",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_quota.QuotaApiTests.test_default_allows_back_to_back_requests_and_ignores_old_spacing",
+      "source": "tests/test_quota.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_language_transport.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_reference_data.SecondaryParserTests.test_medicament_extracts_actual_details_and_publication_date",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.SecondaryParserTests.test_missing_presentation_is_preserved_without_guessing",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.SecondaryParserTests.test_saydalia_repeated_attributes_do_not_duplicate_products",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.SecondaryParserTests.test_secondary_prices_and_package_boundaries",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.MatchingTests.test_unique_presentation_enrichment_preserves_official_prices",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.MatchingTests.test_ambiguous_and_wrong_strength_never_auto_merge",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.MatchingTests.test_secondary_disagreements_leave_canonical_fields_unknown",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.MatchingTests.test_invalid_atc_and_nonmedication_products_are_not_promoted",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.PharmacyAndCollectionTests.test_only_rabat_records_and_no_undated_duty_claim",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.PharmacyAndCollectionTests.test_source_cache_verifies_hash_and_redacts_browser_tokens",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_reference_data.PharmacyAndCollectionTests.test_incomplete_snapshot_cannot_replace_dataset",
+      "source": "tests/test_reference_data.py",
+      "disposition": "retire_with_capability",
+      "destinations": [],
+      "reason": "Retired collection/parser/enrichment workflow. Preserve its evidence, not executable workflow tests; canonical fact/provenance invariants remain covered by chat, import and PostgreSQL round-trip tests.",
+      "checkpoint": "R6"
+    },
+    {
+      "id": "test_storage_contracts.StorageValueTests.test_frozen_initial_migrations_match_the_relational_models",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StorageValueTests.test_prices_preserve_missing_zero_and_exact_precision",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StorageValueTests.test_alias_spellings_and_confirmation_policies_remain_distinct",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StorageValueTests.test_postgres_configuration_requires_both_private_service_urls",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "replace_obsolete_contract",
+      "destinations": [
+        "services/core/tests/unit/test_config.py",
+        "services/language/tests/unit/test_config.py"
+      ],
+      "reason": "Replace combined Settings with independent required service URLs; neither runtime settings class receives the other service's secret.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StateCodecTests.test_json_round_trip_restores_clarification_then_pricing_context",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StateCodecTests.test_transcript_payload_does_not_persist_bearer_tokens",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    },
+    {
+      "id": "test_storage_contracts.StateCodecTests.test_unrecognized_snapshot_version_is_rejected",
+      "source": "tests/test_storage_contracts.py",
+      "disposition": "retain_and_retarget",
+      "destinations": [
+        "tests/integration/test_storage_contracts.py"
+      ],
+      "reason": "Preserve assertions; update canonical imports, fixtures and patch targets.",
+      "checkpoint": "R5"
+    }
+  ],
+  "browser": [
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "French empty state, examples prepare without sending, keyboard focus and no overflow",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "chat, explicit presentation, two packages and refresh restoration without inference",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "typed chat and selections work without the HTTPS-only randomUUID API",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "busy requests block duplicate submissions and historical choices stay inactive",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "cooldowns preserve failed text and allow inference-free choices, never automatic retry",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "lost successful response is recovered by GET without repeating the POST",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "uncertain pending request survives refresh and requires explicit status verification",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "manual retry uses a fresh request id and preserves the original failed message",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "new conversation waits for server invalidation; failed reset preserves messages",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "server expiry clears the temporary transcript and does not resend the question",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "elapsed local expiry clears messages and browser token",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "pharmacy cards expose readable provenance and safe contact links without stock claims",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "missing recorded price is explicit and never displayed as zero",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "invalid extraction response never renders an unvalidated factual answer",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "browser storage failure stays usable and explains refresh limitation",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "input limits, whitespace and IME composition never issue unintended requests",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "mobile layout and accessible empty/chat/reset states",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "multiple medication cards use server line totals and hide an incomplete order total",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "offered facet, pagination and reference actions send exact API values without text",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/chat.spec.ts",
+      "title": "user markup is text and unsafe source URLs never become links",
+      "destination": "apps/web/tests/browser/chat.spec.ts",
+      "mode": "offline_mocked_api",
+      "disposition": "retain_and_retarget"
+    },
+    {
+      "source": "frontend/tests/deployment.spec.ts",
+      "title": "real web/core/PostgreSQL: restore, quota error, inference-free choice, refresh, and reset",
+      "destination": "apps/web/tests/browser/deployment.spec.ts",
+      "mode": "explicit_isolated_compose",
+      "disposition": "retain_and_retarget"
+    }
+  ],
+  "required_additions": [
+    {
+      "checkpoint": "R2",
+      "scenario": "Each service installs/imports from only its declared runtime dependencies; no cross-service implementation imports or provider SDK in core."
+    },
+    {
+      "checkpoint": "R4",
+      "scenario": "Both service startups reject missing/invalid/unavailable PostgreSQL configuration without a file or SQLite runtime fallback."
+    },
+    {
+      "checkpoint": "R4",
+      "scenario": "Offline tests inject explicit fixture repositories, interpreters and quota stores rather than selecting a production memory/files mode."
+    },
+    {
+      "checkpoint": "R4",
+      "scenario": "Service settings require only their own URL and never receive the other service's secret."
+    },
+    {
+      "checkpoint": "R5",
+      "scenario": "Legacy quota import reads but never rewrites the original ledger; PostgreSQL cooldowns/accounting survive."
+    },
+    {
+      "checkpoint": "R5",
+      "scenario": "React has timeout/connection and expired-choice coverage without automatic POST replay; retries use a new request ID."
+    },
+    {
+      "checkpoint": "R6",
+      "scenario": "Every archived file matches its recorded hash after line-ending policy is accounted for; current code never imports archived/retired modules."
+    },
+    {
+      "checkpoint": "R7",
+      "scenario": "Fresh and existing-revision PostgreSQL setup, complete factual round-trip, repeated import, backup/restore, outages and transcript/quota persistence pass in an isolated stack."
+    }
+  ]
+}

@@ -1,0 +1,1452 @@
+{
+  "version": 1,
+  "baseline_commit": "b1bca1693c6b351edd95f40aed4ced7e19e78520",
+  "captured_at_utc": "2026-10-20T09:25:34.706100+00:00",
+  "method": "Static AST imports plus module/patch string literals and known repository-path assumptions. This is not a proof of non-use; CLI, tests, docs and Docker entry points also govern deletion.",
+  "python_references": {
+    "deploy/verification_seed.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.chat",
+        "pharmacy_assistant.core.storage.conversations",
+        "pharmacy_assistant.database"
+      ],
+      "module_or_patch_literals": []
+    },
+    "migrations/core/env.py": {
+      "imports": [
+        "pharmacy_assistant.database_migrations"
+      ],
+      "module_or_patch_literals": []
+    },
+    "migrations/language/env.py": {
+      "imports": [
+        "pharmacy_assistant.database_migrations"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/activate_demo_enrichment.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.prepare_demo_enrichment",
+        "pharmacy_assistant.quality_ammps"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/answer_templates.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.answer_templates"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/api.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.language_service",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.contracts.storage",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.models",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.chat",
+        "pharmacy_assistant.core.storage.conversations",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.transport.language"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/baseline_metrics.py": {
+      "imports": [
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/build_reference_data.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.models",
+        "pharmacy_assistant.process_ammps",
+        "pharmacy_assistant.quality_ammps",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/catalog.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.catalog"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/chat.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.chat"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/chat_models.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.chat_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/collect_ammps.py": {
+      "imports": [
+        "pharmacy_assistant.parse_ammps"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/collect_ammps_detailed.py": {
+      "imports": [
+        "pharmacy_assistant.parse_ammps_detailed"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/collect_ammps_snapshot.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.parse_ammps_detailed"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/collect_rabat_pharmacies.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.core.pharmacy_models",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/compose_setup.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.database_setup",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/compose_verify.py": {
+      "imports": [
+        "pharmacy_assistant.compose_setup",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/config.py": {
+      "imports": [
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/contracts/interpreter.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/conversation.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.conversation"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/answer_templates.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.pricing"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/catalog.py": {
+      "imports": [
+        "pharmacy_assistant.core.models",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/chat.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.interpreter",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.answer_templates",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.conversation",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.pricing",
+        "pharmacy_assistant.core.resolution"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/chat_models.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.models",
+        "pharmacy_assistant.core.pharmacy_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/conversation.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.answer_templates",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.medication_normalization",
+        "pharmacy_assistant.core.resolution"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/medication_normalization.py": {
+      "imports": [
+        "pharmacy_assistant.core.catalog"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/pharmacy_directory.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.pharmacy_models",
+        "pharmacy_assistant.core.pharmacy_normalization",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/pharmacy_normalization.py": {
+      "imports": [
+        "pharmacy_assistant.core.medication_normalization"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/pricing.py": {
+      "imports": [
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.medication_normalization"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/resolution.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.medication_normalization"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/storage/catalogue.py": {
+      "imports": [
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.medication_normalization",
+        "pharmacy_assistant.core.models",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.pharmacy_models",
+        "pharmacy_assistant.core.storage",
+        "pharmacy_assistant.core.storage.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/storage/chat.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.storage",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.storage.state_codec"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/storage/conversations.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.storage",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.storage",
+        "pharmacy_assistant.core.storage.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/core/storage/state_codec.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.conversation",
+        "pharmacy_assistant.core.resolution"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/database_backup.py": {
+      "imports": [
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.models",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.database_setup",
+        "pharmacy_assistant.language.storage.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/database_migrations.py": {
+      "imports": [
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant."
+      ]
+    },
+    "src/pharmacy_assistant/database_setup.py": {
+      "imports": [
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.models",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.language.storage.models",
+        "pharmacy_assistant.language.storage.quota",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/demo.py": {
+      "imports": [
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.pricing"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/demo_client.py": {
+      "imports": [
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/enrich_ammps.py": {
+      "imports": [
+        "pharmacy_assistant.process_ammps"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_baseline.py": {
+      "imports": [
+        "pharmacy_assistant.baseline_metrics",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_chat_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_conversation_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluation_state",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_demo_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.demo"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_development.py": {
+      "imports": [
+        "pharmacy_assistant.baseline_metrics",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.evaluation_freeze",
+        "pharmacy_assistant.evaluation_state",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_held_out.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_development"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_interpretation.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluation_state",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluate_pharmacy_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.answer_templates",
+        "pharmacy_assistant.baseline_metrics",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.pharmacy_directory"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluation_dataset.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluation_freeze.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/evaluation_state.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/expand_medications.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/expand_pharmacies.py": {
+      "imports": [
+        "pharmacy_assistant.collect_rabat_pharmacies",
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.expand_medications",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/export_frontend_contract.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/gemini_nlu.py": {
+      "imports": [
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.language.gemini_nlu"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/inference.py": {
+      "imports": [
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.language.inference"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/api.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.language_service",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.inference"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/gemini_nlu.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.nlu",
+        "pharmacy_assistant.language.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/inference.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.interpreter",
+        "pharmacy_assistant.language.gemini_nlu",
+        "pharmacy_assistant.language.nlu",
+        "pharmacy_assistant.language.opencode_nlu",
+        "pharmacy_assistant.language.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/nlu.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/opencode_nlu.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.nlu",
+        "pharmacy_assistant.language.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/quota.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.language.storage.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/language/storage/quota.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.storage.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/medication_normalization.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.medication_normalization"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/merge_development_rechecks.py": {
+      "imports": [
+        "pharmacy_assistant.evaluate_development",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/models.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/nlu.py": {
+      "imports": [
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.language.nlu"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/nlu_models.py": {
+      "imports": [
+        "pharmacy_assistant.contracts",
+        "pharmacy_assistant.contracts.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/opencode_nlu.py": {
+      "imports": [
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.language.opencode_nlu"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/pharmacy_directory.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.pharmacy_directory"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/pharmacy_normalization.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.pharmacy_normalization"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/prepare_demo_enrichment.py": {
+      "imports": [
+        "pharmacy_assistant.build_reference_data",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.expand_medications",
+        "pharmacy_assistant.expand_pharmacies",
+        "pharmacy_assistant.models",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.quality_ammps",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/pricing.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.pricing"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/quality_ammps.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/quota.py": {
+      "imports": [
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.language.quota"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/report_live_evaluation.py": {
+      "imports": [
+        "pharmacy_assistant.baseline_metrics",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/resolution.py": {
+      "imports": [
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.core.resolution"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/review_collection_expansion.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.expand_medications",
+        "pharmacy_assistant.expand_pharmacies",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/run_collection_expansion.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.",
+        "pharmacy_assistant.review_collection_expansion"
+      ]
+    },
+    "src/pharmacy_assistant/run_demo.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.language_service",
+        "pharmacy_assistant.demo_client"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api:app",
+        "pharmacy_assistant.language.api:app"
+      ]
+    },
+    "src/pharmacy_assistant/search_medications.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/supplementary_sources.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.process_ammps"
+      ],
+      "module_or_patch_literals": []
+    },
+    "src/pharmacy_assistant/transport/language.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.language_service",
+        "pharmacy_assistant.contracts.nlu_models"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/build_frontend_fixtures.py": {
+      "imports": [
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.pricing",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/service_harness.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.language.api",
+        "pharmacy_assistant.transport.language"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter",
+        "pharmacy_assistant.language.api.create_interpreter"
+      ]
+    },
+    "tests/test_arabic_package_regressions.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.pricing",
+        "pharmacy_assistant.resolution"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/test_architecture_boundaries.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.collect_rabat_pharmacies",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.storage",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.pharmacy_models",
+        "pharmacy_assistant.core.storage.conversations",
+        "pharmacy_assistant.evaluate_development",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.evaluation_freeze",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.",
+        "pharmacy_assistant.api.create_interpreter",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts",
+        "pharmacy_assistant.core",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.evaluate_development.sha256",
+        "pharmacy_assistant.evaluation_freeze.sha256",
+        "pharmacy_assistant.language",
+        "pharmacy_assistant.paths"
+      ]
+    },
+    "tests/test_baseline.py": {
+      "imports": [
+        "pharmacy_assistant.baseline_metrics",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluate_interpretation.create_interpreter"
+      ]
+    },
+    "tests/test_chat.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.resolution"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_collection_expansion.py": {
+      "imports": [
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.expand_medications",
+        "pharmacy_assistant.expand_pharmacies",
+        "pharmacy_assistant.review_collection_expansion",
+        "pharmacy_assistant.run_collection_expansion"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.collection_http.time.sleep"
+      ]
+    },
+    "tests/test_compose_deployment.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.compose_setup",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.storage",
+        "pharmacy_assistant.database_setup",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter",
+        "pharmacy_assistant.database_setup.configuration",
+        "pharmacy_assistant.database_setup.migrate"
+      ]
+    },
+    "tests/test_conversation.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.conversation",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.pharmacy_directory"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_conversation_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_conversation_smoke",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluate_conversation_smoke.create_interpreter"
+      ]
+    },
+    "tests/test_demo.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.models",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.run_demo"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.demo_client.requests.Session",
+        "pharmacy_assistant.run_demo.CoreSettings.from_env",
+        "pharmacy_assistant.run_demo.DemoClient",
+        "pharmacy_assistant.run_demo.language_health",
+        "pharmacy_assistant.run_demo.port_available",
+        "pharmacy_assistant.run_demo.subprocess.Popen",
+        "pharmacy_assistant.run_demo.time.sleep"
+      ]
+    },
+    "tests/test_demo_conversation_chain.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.demo_client"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_development_live.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_development",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.merge_development_rechecks",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.report_live_evaluation"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluate_development.load_examples",
+        "pharmacy_assistant.evaluation_freeze.verify_freeze"
+      ]
+    },
+    "tests/test_evaluation_freeze.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.evaluation_freeze",
+        "pharmacy_assistant.nlu"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluation_freeze.snapshot"
+      ]
+    },
+    "tests/test_evaluation_resume.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.evaluation_state",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.quota"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluate_interpretation.create_interpreter",
+        "pharmacy_assistant.evaluation_state.SYSTEM_PROMPT"
+      ]
+    },
+    "tests/test_frontend_contract.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/test_gemini.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.gemini_nlu",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.config.dotenv_values",
+        "pharmacy_assistant.gemini_nlu.asyncio.sleep"
+      ]
+    },
+    "tests/test_interpretation.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_interpretation",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.nlu.asyncio.sleep"
+      ]
+    },
+    "tests/test_language_service.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.language.api",
+        "pharmacy_assistant.language.nlu",
+        "pharmacy_assistant.language.quota",
+        "pharmacy_assistant.paths",
+        "pharmacy_assistant.transport.language"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter",
+        "pharmacy_assistant.language.api.asyncio.timeout",
+        "pharmacy_assistant.language.api.create_interpreter"
+      ]
+    },
+    "tests/test_matching_improvements.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.medication_normalization",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.resolution"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_medication_foundation.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.models",
+        "pharmacy_assistant.quality_ammps",
+        "pharmacy_assistant.search_medications"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/test_opencode.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.nlu",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.opencode_nlu"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.config.dotenv_values",
+        "pharmacy_assistant.opencode_nlu.asyncio.sleep"
+      ]
+    },
+    "tests/test_pharmacy_matching.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.pharmacy_normalization"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_pharmacy_smoke.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.evaluate_baseline",
+        "pharmacy_assistant.evaluate_pharmacy_smoke",
+        "pharmacy_assistant.evaluation_dataset",
+        "pharmacy_assistant.nlu_models"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.evaluate_interpretation.create_interpreter"
+      ]
+    },
+    "tests/test_postgres_storage.py": {
+      "imports": [
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.contracts.nlu_models",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.errors",
+        "pharmacy_assistant.core.storage",
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.conversations",
+        "pharmacy_assistant.core.storage.models",
+        "pharmacy_assistant.core.storage.state_codec",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.database_backup",
+        "pharmacy_assistant.database_setup",
+        "pharmacy_assistant.language.nlu",
+        "pharmacy_assistant.language.quota",
+        "pharmacy_assistant.language.storage.quota",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_prepare_demo_enrichment.py": {
+      "imports": [
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.prepare_demo_enrichment",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/test_pricing.py": {
+      "imports": [
+        "pharmacy_assistant.answer_templates",
+        "pharmacy_assistant.api",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.chat",
+        "pharmacy_assistant.chat_models",
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.demo",
+        "pharmacy_assistant.demo_client",
+        "pharmacy_assistant.pharmacy_directory",
+        "pharmacy_assistant.pricing",
+        "pharmacy_assistant.resolution"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.api.create_interpreter"
+      ]
+    },
+    "tests/test_quota.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.gemini_nlu",
+        "pharmacy_assistant.inference",
+        "pharmacy_assistant.language.api",
+        "pharmacy_assistant.nlu_models",
+        "pharmacy_assistant.quota"
+      ],
+      "module_or_patch_literals": [
+        "pharmacy_assistant.gemini_nlu.asyncio.sleep",
+        "pharmacy_assistant.gemini_nlu.httpx.AsyncClient"
+      ]
+    },
+    "tests/test_reference_data.py": {
+      "imports": [
+        "pharmacy_assistant.build_reference_data",
+        "pharmacy_assistant.catalog",
+        "pharmacy_assistant.collect_ammps_snapshot",
+        "pharmacy_assistant.collect_rabat_pharmacies",
+        "pharmacy_assistant.collection_http",
+        "pharmacy_assistant.process_ammps",
+        "pharmacy_assistant.supplementary_sources"
+      ],
+      "module_or_patch_literals": []
+    },
+    "tests/test_storage_contracts.py": {
+      "imports": [
+        "pharmacy_assistant.config",
+        "pharmacy_assistant.core.catalog",
+        "pharmacy_assistant.core.chat",
+        "pharmacy_assistant.core.chat_models",
+        "pharmacy_assistant.core.pharmacy_directory",
+        "pharmacy_assistant.core.storage.catalogue",
+        "pharmacy_assistant.core.storage.conversations",
+        "pharmacy_assistant.core.storage.models",
+        "pharmacy_assistant.core.storage.state_codec",
+        "pharmacy_assistant.database",
+        "pharmacy_assistant.language.storage.models",
+        "pharmacy_assistant.paths"
+      ],
+      "module_or_patch_literals": []
+    }
+  },
+  "path_assumptions": {
+    "src/pharmacy_assistant/activate_demo_enrichment.py": [
+      "data/processed",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/ammps.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/build_ammps_dataset.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/build_reference_data.py": [
+      "data/processed",
+      "data/raw",
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/collect_ammps.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/collect_ammps_detailed.py": [
+      "data/raw",
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/collect_ammps_snapshot.py": [
+      "data/raw",
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/collect_rabat_pharmacies.py": [
+      "data/processed",
+      "data/raw",
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/compose_verify.py": [
+      "frontend/",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/core/catalog.py": [
+      "data/processed"
+    ],
+    "src/pharmacy_assistant/core/pharmacy_directory.py": [
+      "data/processed"
+    ],
+    "src/pharmacy_assistant/database_setup.py": [
+      "data/processed"
+    ],
+    "src/pharmacy_assistant/demo.py": [
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/enrich_ammps.py": [
+      "data/processed",
+      "data/raw",
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/evaluate_baseline.py": [
+      "reports/",
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/evaluate_chat_smoke.py": [
+      "reports/"
+    ],
+    "src/pharmacy_assistant/evaluate_conversation_smoke.py": [
+      "reports/"
+    ],
+    "src/pharmacy_assistant/evaluate_demo_smoke.py": [
+      "parents[2]",
+      "reports/",
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/evaluate_development.py": [
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/evaluate_interpretation.py": [
+      "reports/"
+    ],
+    "src/pharmacy_assistant/evaluate_pharmacy_smoke.py": [
+      "reports/",
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/evaluation_freeze.py": [
+      "data/processed",
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/expand_medications.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/expand_pharmacies.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/export_frontend_contract.py": [
+      "frontend/"
+    ],
+    "src/pharmacy_assistant/parse_ammps.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/parse_ammps_detailed.py": [
+      "data/raw",
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/paths.py": [
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/prepare_demo_enrichment.py": [
+      "data/processed",
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/process_ammps.py": [
+      "data/processed",
+      "data/raw",
+      "parents[2]"
+    ],
+    "src/pharmacy_assistant/quality_ammps.py": [
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/review_collection_expansion.py": [
+      "data/processed",
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/run_collection_expansion.py": [
+      "data/processed",
+      "parents[2]",
+      "reports/"
+    ],
+    "src/pharmacy_assistant/run_demo.py": [
+      "parents[2]",
+      "src/pharmacy_assistant"
+    ],
+    "src/pharmacy_assistant/supplementary_sources.py": [
+      "data/processed",
+      "data/raw",
+      "parents[2]"
+    ],
+    "tests/build_frontend_fixtures.py": [
+      "frontend/"
+    ],
+    "tests/test_architecture_boundaries.py": [
+      "data/processed",
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_collection_expansion.py": [
+      "data/processed"
+    ],
+    "tests/test_conversation.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_demo.py": [
+      "parents[1]",
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_demo_conversation_chain.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_evaluation_freeze.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_frontend_contract.py": [
+      "frontend/"
+    ],
+    "tests/test_matching_improvements.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_medication_foundation.py": [
+      "parents[1]"
+    ],
+    "tests/test_pharmacy_matching.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_postgres_storage.py": [
+      "data/processed"
+    ],
+    "tests/test_prepare_demo_enrichment.py": [
+      "data/raw"
+    ],
+    "tests/test_pricing.py": [
+      "src/pharmacy_assistant"
+    ],
+    "tests/test_reference_data.py": [
+      "data/raw",
+      "parents[1]"
+    ]
+  },
+  "deletion_gates": [
+    "Runtime consumers migrated in R2-R4",
+    "Tooling and meaningful test consumers migrated in R5",
+    "Archive/factual integrity verified and representative flows pass before R6 deletions",
+    "Independent dependency/image and whole-stack checks pass in R7"
+  ],
+  "cross_test_helper_dependencies": {
+    "tests/test_arabic_package_regressions.py": [
+      "tests/test_chat.py"
+    ],
+    "tests/test_chat.py": [
+      "tests/service_harness.py"
+    ],
+    "tests/test_conversation.py": [
+      "tests/test_chat.py",
+      "tests/test_demo.py"
+    ],
+    "tests/test_conversation_smoke.py": [
+      "tests/test_chat.py"
+    ],
+    "tests/test_demo.py": [
+      "tests/test_chat.py"
+    ],
+    "tests/test_demo_conversation_chain.py": [
+      "tests/test_chat.py",
+      "tests/test_demo.py"
+    ],
+    "tests/test_gemini.py": [
+      "tests/service_harness.py",
+      "tests/test_interpretation.py"
+    ],
+    "tests/test_interpretation.py": [
+      "tests/service_harness.py"
+    ],
+    "tests/test_language_service.py": [
+      "tests/test_interpretation.py"
+    ],
+    "tests/test_matching_improvements.py": [
+      "tests/test_chat.py",
+      "tests/test_demo.py"
+    ],
+    "tests/test_opencode.py": [
+      "tests/service_harness.py",
+      "tests/test_interpretation.py"
+    ],
+    "tests/test_pharmacy_matching.py": [
+      "tests/test_chat.py",
+      "tests/test_demo.py"
+    ],
+    "tests/test_postgres_storage.py": [
+      "tests/service_harness.py",
+      "tests/test_chat.py",
+      "tests/test_interpretation.py"
+    ],
+    "tests/test_pricing.py": [
+      "tests/test_chat.py",
+      "tests/test_demo.py"
+    ],
+    "tests/test_quota.py": [
+      "tests/test_gemini.py"
+    ],
+    "tests/test_storage_contracts.py": [
+      "tests/test_chat.py"
+    ]
+  },
+  "helper_migration_gate": "Extract shared mention/response/completion/catalogue fixtures from test_chat/test_gemini and other test modules into explicit service/test-support fixtures. Replace test_demo/AppTest/DemoClient coupling with React/API coverage before retirement.",
+  "non_python_path_consumers": {
+    "R2": [
+      "deploy/Dockerfile.python",
+      "deploy/compose.yaml",
+      "deploy/compose.debug.yaml",
+      "alembic.ini",
+      "pyproject.toml",
+      "uv.lock"
+    ],
+    "R3": [
+      "deploy/Dockerfile.web",
+      "deploy/web/nginx.conf",
+      "frontend/index.html",
+      "frontend/package.json",
+      "frontend/vite.config.ts",
+      "frontend/tsconfig.json",
+      "frontend/tsconfig.app.json",
+      "frontend/components.json",
+      "frontend/playwright.config.ts"
+    ],
+    "R5": [
+      "frontend/contracts/core.openapi.json",
+      "frontend/tests/fixtures/responses.json",
+      "data/evaluation/baseline_v1/manifest.json"
+    ],
+    "R6": [
+      "README.md",
+      "PROJECT_CONTEXT.md",
+      "HOW_IT_WORKS.md",
+      ".dockerignore",
+      ".env.example",
+      "deploy/compose.database.yaml"
+    ]
+  }
+}

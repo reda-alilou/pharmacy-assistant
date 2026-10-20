@@ -1,0 +1,12 @@
+[project]
+name = "pharmacy-contracts"
+version = "0.1.0"
+description = "Pharmacy assistant contracts package"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.13.5,<3"
+]
+
+[build-system]
+requires = ["uv_build>=0.11.19,<0.12.0"]
+build-backend = "uv_build"

@@ -1,0 +1,176 @@
+{
+  "source": "AMMPS",
+  "source_url": "https://www.ammps.gov.ma/recherche-medicaments?page=17",
+  "parsed_at_utc": "2026-09-22T13:45:41.339259+00:00",
+  "record_count": 12,
+  "records": [
+    {
+      "source_record_id": "8136",
+      "brand_name": "ADVATE",
+      "details": {
+        "Substance active": "OCTOCOG ALFA",
+        "EPI": "AFRIC PHAR",
+        "Dosage": "500 UI",
+        "Forme": "POUDRE A DILUER POUR INJECTION INTRAVEINEUSE ET SOLVANT",
+        "Présentation": "FLACON DE 5ML",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "4392",
+      "brand_name": "AERIUS",
+      "details": {
+        "Substance active": "DESLORATADINE",
+        "EPI": "PHI",
+        "Dosage": "0,5   MG  /   ML",
+        "Forme": "SOLUTION BUVABLE",
+        "Présentation": "FLACON DE 60 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "30,80 DH",
+        "PH": "19,20 DH"
+      }
+    },
+    {
+      "source_record_id": "4393",
+      "brand_name": "AERIUS",
+      "details": {
+        "Substance active": "DESLORATADINE",
+        "EPI": "PHI",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 15",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "48,40 DH",
+        "PH": "30,20 DH"
+      }
+    },
+    {
+      "source_record_id": "4394",
+      "brand_name": "AERIUS",
+      "details": {
+        "Substance active": "DESLORATADINE",
+        "EPI": "PHI",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "95,90 DH",
+        "PH": "59,90 DH"
+      }
+    },
+    {
+      "source_record_id": "4395",
+      "brand_name": "AERIUS",
+      "details": {
+        "Substance active": "DESLORATADINE",
+        "EPI": "PHI",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME PELLICULE",
+        "Présentation": "BOITE DE 7",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "25,00 DH",
+        "PH": "15,60 DH"
+      }
+    },
+    {
+      "source_record_id": "6296",
+      "brand_name": "AEROL",
+      "details": {
+        "Substance active": "SALBUTAMOL (SULFATE)",
+        "EPI": "SYNTHEMEDIC",
+        "Dosage": "100 µG  /  DOSE",
+        "Forme": "SUSPENSION POUR INHALATION",
+        "Présentation": "FLACON DE 200 DOSES",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "30,40 DH",
+        "PH": "19,00 DH"
+      }
+    },
+    {
+      "source_record_id": "6043",
+      "brand_name": "AEROMAX",
+      "details": {
+        "Substance active": "BUDESONIDE",
+        "EPI": "STERIPHARMA",
+        "Dosage": "100 µG",
+        "Forme": "SUSPENSION POUR PULVERISATION NASALE",
+        "Présentation": "FLACON DE 200 DOSES",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "177,60 DH",
+        "PH": "111,00 DH"
+      }
+    },
+    {
+      "source_record_id": "3",
+      "brand_name": "AERRANE",
+      "details": {
+        "Substance active": "ISOFLURANE",
+        "EPI": "AFRIC PHAR",
+        "Dosage": "1",
+        "Forme": "LIQUIDE POUR INHALATION",
+        "Présentation": "FLACON DE 100 ML",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "338,00 DH",
+        "PH": "225,00 DH"
+      }
+    },
+    {
+      "source_record_id": "4",
+      "brand_name": "AERRANE",
+      "details": {
+        "Substance active": "ISOFLURANE",
+        "EPI": "AFRIC PHAR",
+        "Dosage": "1",
+        "Forme": "LIQUIDE POUR INHALATION",
+        "Présentation": "FLACON DE 250 ML",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "756,00 DH",
+        "PH": "502,00 DH"
+      }
+    },
+    {
+      "source_record_id": "3311",
+      "brand_name": "AFINITOR",
+      "details": {
+        "Substance active": "EVEROLIMUS",
+        "EPI": "NOVARTIS PHARMA",
+        "Dosage": "5   MG",
+        "Forme": "COMPRIME DE FORME OBLONGUE",
+        "Présentation": "BOITE DE 30",
+        "Statut commercialisation": "Non Commercialisé",
+        "PPV": "11.832.00 DH",
+        "PH": "11.607.00 DH"
+      }
+    },
+    {
+      "source_record_id": "8137",
+      "brand_name": "AFINITOR",
+      "details": {
+        "Substance active": "EVEROLIMUS",
+        "EPI": "NOVARTIS PHARMA",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "-",
+        "Statut commercialisation": "AMM sans prix",
+        "PPV": "SANS PPV DH",
+        "PH": "SANS PH DH"
+      }
+    },
+    {
+      "source_record_id": "7415",
+      "brand_name": "AFLAMIC",
+      "details": {
+        "Substance active": "MELOXICAM",
+        "EPI": "DEVA PHARMACEUTIQUE",
+        "Dosage": "7,5   MG",
+        "Forme": "COMPRIME",
+        "Présentation": "BOITE DE 10",
+        "Statut commercialisation": "Commercialisé",
+        "PPV": "26,20 DH",
+        "PH": "16,30 DH"
+      }
+    }
+  ]
+}

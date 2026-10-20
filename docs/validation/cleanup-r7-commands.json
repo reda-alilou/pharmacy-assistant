@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "hosted_inference_performed": false,
+  "private_configuration_present": false,
+  "public_archive_and_active_inputs_verified": 1004,
+  "generated_contract_matches": true,
+  "generated_frontend_fixture_facts_match": true,
+  "regenerated_types_byte_identical": true,
+  "deterministic_annotated_backend_cases_passed": 40,
+  "model_accuracy_not_remeasured": true
+}

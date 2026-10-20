@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 99,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=99",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6373",
+      "brand_name": "CLOFENE LP",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "DICLOFENAC (SODIQUE)",
+        "Classe thérapeutique": "ANTALGIQUES-ANALGESIQUES-ANTIPYRETIQUES-ANTI-INFLAMMATOIRES-ANTISPASMODIQUES",
+        "EPI": "SYNTHEMEDIC",
+        "PPV": "31,80 DH",
+        "PH": "19,80 DH",
+        "PFHT": "18,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5240",
+      "brand_name": "CLOMID",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "PP",
+        "Substance active": "CLOMIFENE CITRATE",
+        "Classe thérapeutique": "GYNECOLOGIE-OBSTETRIQUE-CONTRACEPTION",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "68,60 DH",
+        "PH": "42,90 DH",
+        "PFHT": "40,84 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "60",
+      "brand_name": "CLOMITER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "TUBE DE 30 G",
+        "PP / GN": "GN",
+        "Substance active": "CLOTRIMAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "27,70 DH",
+        "PH": "17,30 DH",
+        "PFHT": "16,52 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "CREME"
+      }
+    },
+    {
+      "source_record_id": "61",
+      "brand_name": "CLOMITER",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 30 ML",
+        "PP / GN": "GN",
+        "Substance active": "CLOTRIMAZOLE",
+        "Classe thérapeutique": "DERMATOLOGIE-VENEROLOGIE",
+        "EPI": "AFRIC PHAR",
+        "PPV": "27,00 DH",
+        "PH": "16,90 DH",
+        "PFHT": "16,08 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "0.01",
+        "Forme": "SOLUTION TOPIQUE"
+      }
+    },
+    {
+      "source_record_id": "4430",
+      "brand_name": "CLOPICARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 15",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "90,00 DH",
+        "PH": "56,30 DH",
+        "PFHT": "53,60 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "4431",
+      "brand_name": "CLOPICARD",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "PHI",
+        "PPV": "170,00 DH",
+        "PH": "106,30 DH",
+        "PFHT": "101,20 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "265",
+      "brand_name": "CLOPIDOGREL GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "255,00 DH",
+        "PH": "159,90 DH",
+        "PFHT": "152,26 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "266",
+      "brand_name": "CLOPIDOGREL GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 60",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "447,00 DH",
+        "PH": "297,00 DH",
+        "PFHT": "283,50 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "6640",
+      "brand_name": "CLOPIDOGREL GT",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "ATLAS PHARM",
+        "PPV": "97,20 DH",
+        "PH": "60,70 DH",
+        "PFHT": "57,86 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2739",
+      "brand_name": "CLOPIDOGREL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 14",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "183,00 DH",
+        "PH": "114,30 DH",
+        "PFHT": "108,91 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2740",
+      "brand_name": "CLOPIDOGREL WIN",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "BOITE DE 28",
+        "PP / GN": "GN",
+        "Substance active": "CLOPIDOGREL",
+        "Classe thérapeutique": "CARDIOLOGIE-ANGEIOLOGIE-HEMATOLOGIE",
+        "EPI": "MAPHAR",
+        "PPV": "316,00 DH",
+        "PH": "210,00 DH",
+        "PFHT": "200,46 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "75   MG",
+        "Forme": "COMPRIME PELLICULE"
+      }
+    },
+    {
+      "source_record_id": "2384",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "20,80 DH",
+        "PH": "13,00 DH",
+        "PFHT": "12,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2385",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 4 AMPOULE DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "8,60 DH",
+        "PH": "5,40 DH",
+        "PFHT": "5,12 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2386",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 40",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "16,20 DH",
+        "PH": "10,10 DH",
+        "PFHT": "9,62 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "COMPRIME"
+      }
+    },
+    {
+      "source_record_id": "2387",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé AO",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "9,00 DH",
+        "PH": "5,60 DH",
+        "PFHT": "5,34 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "2388",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON 130 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "17,10 DH",
+        "PH": "10,70 DH",
+        "PFHT": "10,18 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "100   MG  /  100  ML",
+        "Forme": "SOLUTION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "2389",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "13,10 DH",
+        "PH": "8,20 DH",
+        "PFHT": "7,29 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "260   MG  /  100  ML",
+        "Forme": "SOLUTION POUR GOUTTES BUVABLES"
+      }
+    },
+    {
+      "source_record_id": "2390",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "NA",
+        "EPI": "LAPROPHAN",
+        "PPV": "13,60 DH",
+        "PH": "8,50 DH",
+        "PFHT": "7,57 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "20   MG",
+        "Forme": "SUPPOSITOIRE"
+      }
+    },
+    {
+      "source_record_id": "8310",
+      "brand_name": "CLOPRAME",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "AMM sans prix",
+        "Présentation": "BOITE DE 25 AMPOULES DE 2 ML",
+        "PP / GN": "GN",
+        "Substance active": "METOCLOPRAMIDE",
+        "Classe thérapeutique": "GASTROENTEROLOGIE-HEPATOLOGIE",
+        "EPI": "LAPROPHAN",
+        "PPV": "SANSPPV DH",
+        "PH": "SANSPH DH",
+        "PFHT": "SANSPFHT DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "10   MG  /  2  ML",
+        "Forme": "SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5698",
+      "brand_name": "CLORACEF",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "GN",
+        "Substance active": "CEFACLOR",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "SOTHEMA",
+        "PPV": "43,50 DH",
+        "PH": "27,20 DH",
+        "PFHT": "25,92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG  /  5  ML",
+        "Forme": "GRANULE POUR SUSPENSION BUVABLE"
+      }
+    }
+  ]
+}

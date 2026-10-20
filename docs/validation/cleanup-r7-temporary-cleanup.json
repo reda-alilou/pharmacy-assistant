@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "recorded_at_utc": "2026-10-20T13:49:43.907749+00:00",
+  "removed_generated_directories": [
+    "artifacts/cleanup/r7/export",
+    "artifacts/cleanup/r7/envs"
+  ],
+  "temporary_frontend_Git_boundary_removed": true,
+  "original_repository_Git_state_not_changed": true,
+  "retained": [
+    "Compact logs and hash manifest",
+    "Six package wheels and source distributions",
+    "Verified production frontend assets",
+    "Fresh browser screenshots/results",
+    "Public R7 evidence"
+  ],
+  "primary_environment_private_runtime_local_archive_and_application_data_untouched": true
+}

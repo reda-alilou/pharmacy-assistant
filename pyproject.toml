@@ -1,48 +1,31 @@
 [project]
 name = "pharmacy-assistant"
 version = "0.1.0"
-description = "Add your description here"
+description = "Pharmacy assistant workspace coordinator"
 readme = "README.md"
 authors = [
     { name = "Reda Alilou", email = "redaalilou.re@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "alembic>=1.13,<2",
-    "beautifulsoup4>=4.15.0",
-    "fastapi>=0.141.1",
-    "groq>=1.7.0",
-    "httpx>=0.28,<1",
-    "psycopg[binary]>=3.2,<4",
-    "pydantic>=2.13.5,<3",
-    "python-dotenv>=1.2.3,<2",
-    "requests>=2.34.2",
-    "sqlalchemy>=2.0,<3",
-    "streamlit>=1.50,<2",
-    "uvicorn[standard]>=0.53.0",
+    "pharmacy-core",
+    "pharmacy-language",
+    "pharmacy-contracts",
+    "pharmacy-infrastructure",
+    "pharmacy-ops",
+    "pharmacy-evaluation",
 ]
 
-[project.scripts]
-pharmacy-assistant = "pharmacy_assistant:main"
+[tool.uv]
+package = false
 
-# Install each image's runtime independently from the same frozen lockfile.
-# The root dependencies retain the existing local demo/evaluation environment.
-[dependency-groups]
-core = [
-    "fastapi>=0.141.1", "httpx>=0.28,<1", "psycopg[binary]>=3.2,<4",
-    "pydantic>=2.13.5,<3", "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
-    "uvicorn[standard]>=0.53.0",
-]
-language = [
-    "fastapi>=0.141.1", "groq>=1.7.0", "httpx>=0.28,<1", "psycopg[binary]>=3.2,<4",
-    "pydantic>=2.13.5,<3", "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
-    "uvicorn[standard]>=0.53.0",
-]
-database-tools = [
-    "alembic>=1.13,<2", "psycopg[binary]>=3.2,<4", "pydantic>=2.13.5,<3",
-    "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
-]
+[tool.uv.workspace]
+members = ["services/core", "services/language", "packages/contracts", "packages/infrastructure", "tools/operations", "tools/evaluation"]
 
-[build-system]
-requires = ["uv_build>=0.11.19,<0.12.0"]
-build-backend = "uv_build"
+[tool.uv.sources]
+pharmacy-core = { workspace = true }
+pharmacy-language = { workspace = true }
+pharmacy-contracts = { workspace = true }
+pharmacy-infrastructure = { workspace = true }
+pharmacy-ops = { workspace = true }
+pharmacy-evaluation = { workspace = true }

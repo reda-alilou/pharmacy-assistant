@@ -1,0 +1,19 @@
+{
+  "project": "pharmacy-checkpoint4-test-04bad31e83c446e181e6145a39d913e6",
+  "verified_at_utc": "2026-10-20T10:00:59.306021+00:00",
+  "live_inference_performed": false,
+  "user_application_volume_modified": false,
+  "checks": {
+    "explicit_migrations_import_and_round_trip": true,
+    "web_static_page_and_core_forwarding": true,
+    "independent_images_runtime_credentials_and_internal_ports": true,
+    "language_outage_failed_message_restore_and_inference_free_selection": true,
+    "core_outage_safe_gateway_error_and_dns_recovery": true,
+    "database_container_replacement_preserves_catalogue_transcript_and_quota": true,
+    "proxy_preserves_cooldown_body_and_retry_after_without_inference": true,
+    "whole_stack_replacement_preserves_named_volume": true,
+    "real_frontend_restore_quota_selection_refresh_reset_without_inference": true
+  },
+  "passed": true,
+  "isolated_resources_removed": true
+}

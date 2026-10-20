@@ -1,0 +1,408 @@
+{
+  "source": "AMMPS",
+  "source_page": 95,
+  "source_url": "https://www.ammps.gov.ma/basesdedonnes/liste_marocaine_des_medicaments?page=95",
+  "record_count": 20,
+  "records": [
+    {
+      "source_record_id": "6069",
+      "brand_name": "CLADIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 10",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "128,30 DH",
+        "PH": "80,20 DH",
+        "PFHT": "76,38 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6070",
+      "brand_name": "CLADIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 20",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "256,00 DH",
+        "PH": "160,40 DH",
+        "PFHT": "152,76 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "6071",
+      "brand_name": "CLADIA",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé Export",
+        "Présentation": "BOITE DE 30",
+        "PP / GN": "GN",
+        "Substance active": "CLARITHROMYCINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "STERIPHARMA",
+        "PPV": "338,00 DH",
+        "PH": "225,00 DH",
+        "PFHT": "214,40 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME ENROBE"
+      }
+    },
+    {
+      "source_record_id": "5238",
+      "brand_name": "CLAFORAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML ET 1 AMPOULE DE 4 ML",
+        "PP / GN": "PP",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "69,00 DH",
+        "PH": "43,00 DH",
+        "PFHT": "38,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "5239",
+      "brand_name": "CLAFORAN",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1 FLACON DE 15 ML ET 1 AMPOULE DE 2 ML",
+        "PP / GN": "PP",
+        "Substance active": "CEFOTAXIME (SODIQUE)",
+        "Classe thérapeutique": "NA",
+        "EPI": "SANOFI AVENTIS",
+        "PPV": "28,60 DH",
+        "PH": "17,80 DH",
+        "PFHT": "15,93 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "POUDRE ET SOLVANT POUR SOLUTION INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "2034",
+      "brand_name": "CLAIRYG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "2.851.00 DH",
+        "PH": "2.523.00 DH",
+        "PFHT": "2.403.25 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2035",
+      "brand_name": "CLAIRYG",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 20 ML",
+        "PP / GN": "BS",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "838,00 DH",
+        "PH": "555,00 DH",
+        "PFHT": "495,94 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2036",
+      "brand_name": "CLAIRYG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 200 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "5.302.00 DH",
+        "PH": "5.046.00 DH",
+        "PFHT": "4.806.51 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2037",
+      "brand_name": "CLAIRYG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 400 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "10.517.00 DH",
+        "PH": "10.318.00 DH",
+        "PFHT": "9.918.92 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "2038",
+      "brand_name": "CLAIRYG",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 50 ML",
+        "PP / GN": "PP",
+        "Substance active": "IMMUNOGLOBULINE HUMAINE NORMALE",
+        "Classe thérapeutique": "IMMUNOTHERAPIE",
+        "EPI": "HEMOLAB PHARMA",
+        "PPV": "1.525.00 DH",
+        "PH": "1.261.00 DH",
+        "PFHT": "1.201.68 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "50   MG  /   ML",
+        "Forme": "SOLUTION POUR PERFUSION"
+      }
+    },
+    {
+      "source_record_id": "1819",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "15,10 DH",
+        "PH": "9,40 DH",
+        "PFHT": "8,42 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1820",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "51,40 DH",
+        "PH": "32,10 DH",
+        "PFHT": "30,59 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1821",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "96,90 DH",
+        "PH": "60,50 DH",
+        "PFHT": "57,66 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "1 G",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1822",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "25,40 DH",
+        "PH": "15,80 DH",
+        "PFHT": "14,14 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1823",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Non Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "14,30 DH",
+        "PH": "8,90 DH",
+        "PFHT": "8,53 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "125   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVABLE"
+      }
+    },
+    {
+      "source_record_id": "1824",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "FLACON DE 100 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "48,70 DH",
+        "PH": "30,30 DH",
+        "PFHT": "27,09 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVAVLE"
+      }
+    },
+    {
+      "source_record_id": "1825",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "FLACON DE 60 ML",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "28,20 DH",
+        "PH": "17,60 DH",
+        "PFHT": "16,77 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "250   MG",
+        "Forme": "POUDRE POUR SUSPENSION BUVAVLE"
+      }
+    },
+    {
+      "source_record_id": "1826",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM RETIREE",
+        "Statut commercialisation": "Retiré du Marché",
+        "Présentation": "BOITE DE 1",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "NA",
+        "EPI": "GSK",
+        "PPV": "12,20 DH",
+        "PH": "7,60 DH",
+        "PFHT": "6,81 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG  /   ML",
+        "Forme": "INJECTABLE"
+      }
+    },
+    {
+      "source_record_id": "1827",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 12",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "32,30 DH",
+        "PH": "20,20 DH",
+        "PFHT": "19,24 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    },
+    {
+      "source_record_id": "1828",
+      "brand_name": "CLAMOXYL",
+      "details": {
+        "Statut AMM": "AMM ENREGISTREE",
+        "Statut commercialisation": "Commercialisé",
+        "Présentation": "BOITE DE 24",
+        "PP / GN": "PP",
+        "Substance active": "AMOXICILLINE",
+        "Classe thérapeutique": "INFECTIOLOGIE-PARASITOLOGIE",
+        "EPI": "GSK",
+        "PPV": "61,20 DH",
+        "PH": "38,20 DH",
+        "PFHT": "36,41 DH",
+        "TVA": "0%",
+        "Lien RCP / NAF": "-",
+        "Dosage": "500   MG",
+        "Forme": "COMPRIME DISPERSIBLE"
+      }
+    }
+  ]
+}

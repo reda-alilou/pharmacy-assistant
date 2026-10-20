@@ -422,3 +422,32 @@ approach or technology, and why it was chosen.
   lifecycle checks against PostgreSQL before relying on the migrated runtime.
 - **Implementation boundary:** Resolve routine driver, migration, and connection
   details as needed. The user controls starting/stopping database and demo services.
+
+## D020 — Production-style monorepo cleanup in reviewed checkpoints
+
+- **Date:** 2026-10-20
+- **Status:** Finalized by the user
+- **Decision:** Reorganize core and language as separately installable Python
+  packages within this monorepo, with owned dependencies, settings, migrations
+  and tests. Keep React in its own app area; use small contracts/infrastructure
+  packages and the existing uv tooling with one workspace lockfile.
+- **Runtime:** Both running services require PostgreSQL. Remove the old
+  file/in-memory startup option and SQLite runtime quota backend. Keep JSONL for
+  explicit imports and fixtures for offline tests; do not remove raw data.
+- **Maintained tools:** Keep database setup/import/backup, isolated deployment
+  verification and current evaluation/scoring/evidence tools. Retire collection,
+  scraping, expansion/enrichment workflows, Streamlit, compatibility forwarding
+  modules and obsolete commands after useful coverage is migrated.
+- **Preservation:** Isolate raw snapshots, historical secondary data, reports and
+  superseded documents in a hash-verified archive. Keep active import/evaluation
+  inputs and preserve historical evidence contents. Private credentials, ledgers,
+  backups and existing application volumes remain untouched. This clarifies the
+  preservation rules in D016/D017; it does not authorize discarding raw data.
+- **Sequence:** Execute R1–R7 in `docs/development/cleanup-plan.md`, stopping after
+  each completed checkpoint for user review. R1 establishes the baseline and
+  inventory only. The remaining final validation/Streamlit retirement from D018
+  is still required; do not skip it or treat R1 authorization as approval for R2.
+- **Boundaries:** Preserve HTTP and factual behavior, supported provider adapters,
+  prompts and the accepted laptop/phone interface. The user controls service
+  lifecycle. No automatic hosted inference, scraping, network changes or Git
+  publication. This improves structure without claiming production readiness.

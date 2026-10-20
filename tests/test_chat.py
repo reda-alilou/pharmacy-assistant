@@ -3,10 +3,11 @@
 import unittest
 from unittest.mock import AsyncMock, patch
 
-from fastapi import HTTPException
+from pharmacy_assistant.core.errors import ChatError
 from fastapi.testclient import TestClient
 
 from pharmacy_assistant.api import create_app
+from service_harness import connected_apps
 from pharmacy_assistant.catalog import MedicationCatalog
 from pharmacy_assistant.chat import ChatService
 from pharmacy_assistant.chat_models import ChatRequest
@@ -103,15 +104,15 @@ class ChatServiceTests(unittest.IsolatedAsyncioTestCase):
         self.assertIsNone(selected.continuation_id)
         service.interpreter.interpret.assert_awaited_once()
         for selection in ({"mention_index": 0, "record_id": "771"}, {"mention_index": 9, "record_id": "9080"}):
-            with self.assertRaises(HTTPException) as caught:
+            with self.assertRaises(ChatError) as caught:
                 await service.respond(ChatRequest(continuation_id=initial.continuation_id, selections=[selection]))
-            self.assertEqual(caught.exception.status_code, 422)
+            self.assertEqual(caught.exception.code, "invalid_selection")
 
     async def test_selections_are_bound_to_each_mention_and_partial_selection_is_supported(self):
         service = self.service(response([mention(), mention("DOLIPRANE")]))
         initial = await service.respond(ChatRequest(text="ABIP et DOLIPRANE"))
         doliprane_id = initial.medications[1].candidates[0].source_record_id
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(continuation_id=initial.continuation_id,
                                               selections=[{"mention_index": 0, "record_id": doliprane_id}]))
         partial = await service.respond(ChatRequest(continuation_id=initial.continuation_id,
@@ -128,11 +129,11 @@ class ChatServiceTests(unittest.IsolatedAsyncioTestCase):
         first = await service.respond(ChatRequest(text="ABIP"))
         second = await service.respond(ChatRequest(text="ABIP"))
         for token in (first.continuation_id, "x" * 32):
-            with self.assertRaises(HTTPException) as caught:
+            with self.assertRaises(ChatError) as caught:
                 await service.respond(ChatRequest(continuation_id=token, selections=[{"mention_index": 0, "record_id": "9079"}]))
-            self.assertEqual(caught.exception.status_code, 410)
+            self.assertEqual(caught.exception.code, "clarification_expired")
         service.pending[second.continuation_id].expires = 0
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(continuation_id=second.continuation_id,
                                               selections=[{"mention_index": 0, "record_id": "9079"}]))
         self.assertEqual(len(service.pending), 0)
@@ -240,7 +241,7 @@ class ChatApiTests(unittest.TestCase):
                 fake.interpret.assert_awaited_once()
 
     def test_provider_error_is_visible_and_lookup_still_works(self):
-        with TestClient(create_app(settings=Settings())) as client:
+        with connected_apps(Settings()) as client:
             failed = client.post("/chat", json={"text": "Prix ABIP?"})
             self.assertEqual(failed.status_code, 503)
             self.assertEqual(failed.json()["detail"]["code"], "model_not_configured")

@@ -1,0 +1,12 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_container_setup_reads_only_explicit_environment_without_a_file (test_compose_deployment.ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file) ... ok
+test_credentials_translate_existing_database_without_changing_scope_or_provider (test_compose_deployment.ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider) ... ok
+test_default_stack_has_one_entry_point_and_only_owned_credentials (test_compose_deployment.ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials) ... ok
+test_core_ready_is_independent_of_language_and_does_not_infer (test_compose_deployment.CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer) ... ok
+test_database_outage_makes_core_unready_without_exposing_database_errors (test_compose_deployment.CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.539s
+
+OK

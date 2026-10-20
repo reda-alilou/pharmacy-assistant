@@ -1,0 +1,11 @@
+{
+  "storage_backend": "postgres",
+  "presentations": 9936,
+  "pharmacies": 327,
+  "selection_without_extra_inference": true,
+  "selected_presentation": "9080",
+  "stored_unit_price_mad": "372.00",
+  "reset_verified": true,
+  "inference_mocked": true,
+  "hosted_requests": 0
+}

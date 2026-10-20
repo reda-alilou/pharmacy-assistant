@@ -1,0 +1,38 @@
+{
+  "verified_at_utc": "2026-10-20T02:29:36.569101+00:00",
+  "checkpoint": 3,
+  "complete": true,
+  "awaiting_user_review": true,
+  "checkpoint_4_started": false,
+  "checkpoint_2_review": "User reported the PostgreSQL-backed demo worked seamlessly and authorized checkpoint 3.",
+  "tests": {
+    "discovered": 275,
+    "passed": 275,
+    "skipped": 0,
+    "seconds": 55.099,
+    "log": "reports/architecture_checkpoint3_final_verified.log"
+  },
+  "real_postgres_tests_passed": 10,
+  "real_loopback_http_check_passed": true,
+  "two_service_http_contract_checks_passed": true,
+  "inference_free_choices_during_language_outage_verified": true,
+  "postgres_failed_message_restore_and_recovery_verified": true,
+  "shared_postgres_quota_cooldowns_verified": true,
+  "service_runtime_credential_separation_verified": true,
+  "no_core_provider_import_or_fallback_verified": true,
+  "lock_check_offline_passed": true,
+  "package_build_offline_passed": true,
+  "source_input_hashes_unchanged": true,
+  "source_input_sha256": {
+    "data/processed/ammps_medications_enriched.jsonl": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b",
+    "data/processed/pharmacies_rabat.jsonl": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8"
+  },
+  "live_inference_performed": false,
+  "provider_model_or_prompt_changed": false,
+  "user_demo_started_or_stopped": false,
+  "user_database_started_or_stopped": false,
+  "schema_migrations_or_application_imports_performed": false,
+  "ephemeral_test_listener_started_and_stopped": true,
+  "git_commit_or_push_performed": false,
+  "next_step": "User stops the previous demo with Ctrl+C and reruns the PostgreSQL-mode launcher, reviews checkpoint 3, then authorizes checkpoint 4."
+}

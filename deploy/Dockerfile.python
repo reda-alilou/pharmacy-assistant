@@ -1,0 +1,55 @@
+FROM ghcr.io/astral-sh/uv:0.11.19 AS uv
+
+FROM python:3.12-slim-bookworm AS python-base
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app/src PATH=/app/.venv/bin:$PATH
+WORKDIR /app
+RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+
+FROM python-base AS dependency-base
+COPY --from=uv /uv /usr/local/bin/uv
+ENV UV_PYTHON_DOWNLOADS=never UV_LINK_MODE=copy
+COPY pyproject.toml uv.lock .python-version README.md ./
+
+FROM dependency-base AS core-dependencies
+RUN uv sync --frozen --only-group core --no-install-project
+
+FROM dependency-base AS language-dependencies
+RUN uv sync --frozen --only-group language --no-install-project
+
+FROM dependency-base AS tools-dependencies
+RUN uv sync --frozen --only-group database-tools --no-install-project
+
+FROM python-base AS common-runtime
+COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py \
+     src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+
+FROM common-runtime AS core
+COPY --from=core-dependencies /app/.venv /app/.venv
+COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+COPY src/pharmacy_assistant/transport/ ./src/pharmacy_assistant/transport/
+COPY src/pharmacy_assistant/api.py ./src/pharmacy_assistant/
+USER 10001:10001
+EXPOSE 8000
+CMD ["uvicorn", "pharmacy_assistant.api:app", "--host", "0.0.0.0", "--port", "8000", "--root-path", "/api", "--no-access-log"]
+
+FROM common-runtime AS language
+COPY --from=language-dependencies /app/.venv /app/.venv
+COPY src/pharmacy_assistant/language/ ./src/pharmacy_assistant/language/
+USER 10001:10001
+EXPOSE 8001
+CMD ["uvicorn", "pharmacy_assistant.language.api:app", "--host", "0.0.0.0", "--port", "8001", "--no-access-log"]
+
+# Short-lived, explicitly invoked setup job; never part of normal startup.
+FROM common-runtime AS database-tools
+COPY --from=tools-dependencies /app/.venv /app/.venv
+COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+COPY src/pharmacy_assistant/language/__init__.py src/pharmacy_assistant/language/quota.py ./src/pharmacy_assistant/language/
+COPY src/pharmacy_assistant/language/storage/ ./src/pharmacy_assistant/language/storage/
+COPY src/pharmacy_assistant/database_setup.py src/pharmacy_assistant/database_migrations.py ./src/pharmacy_assistant/
+COPY alembic.ini ./
+COPY migrations/ ./migrations/
+COPY data/processed/ammps_medications_enriched.jsonl data/processed/pharmacies_rabat.jsonl ./data/processed/
+USER 10001:10001
+ENTRYPOINT ["python", "-m", "pharmacy_assistant.database_setup", "--from-environment"]

@@ -5,7 +5,7 @@ from pathlib import Path
 import unittest
 from unittest.mock import AsyncMock, patch
 
-from fastapi import HTTPException
+from pharmacy_assistant.core.errors import ChatError
 from fastapi.testclient import TestClient
 from streamlit.testing.v1 import AppTest
 
@@ -165,12 +165,12 @@ class RefinementTests(unittest.IsolatedAsyncioTestCase):
                            {"mention_index": 0, "field": "brand_name", "value": "ABIP"},
                            {"mention_index": 1, "field": "strength", "value": "1 G"},
                            {"mention_index": 9, "field": "strength", "value": "1 G"}):
-            with self.assertRaises(HTTPException) as caught:
+            with self.assertRaises(ChatError) as caught:
                 await service.respond(ChatRequest(continuation_id=initial.continuation_id, refinements=[refinement]))
-            self.assertEqual(caught.exception.status_code, 422)
+            self.assertEqual(caught.exception.code, "invalid_refinement")
         hidden = next(identifier for identifier in service.pending[initial.continuation_id].resolution_states[0].candidate_ids
                       if identifier not in {r.source_record_id for r in initial.medications[0].candidates})
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(continuation_id=initial.continuation_id,
                 selections=[{"mention_index": 0, "record_id": hidden}]))
         service.interpreter.interpret.assert_awaited_once()
@@ -182,7 +182,7 @@ class RefinementTests(unittest.IsolatedAsyncioTestCase):
             "brand_name": "PAGINGTEST"}) for i in range(8)], "paging-fixture")
         initial = await service.respond(ChatRequest(text="PAGINGTEST"))
         self.assertEqual(len(initial.medications[0].candidates), 5)
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(continuation_id=initial.continuation_id,
                 refinements=[{"mention_index": 0, "field": "page", "value": "6"}]))
         page = await service.respond(ChatRequest(continuation_id=initial.continuation_id,

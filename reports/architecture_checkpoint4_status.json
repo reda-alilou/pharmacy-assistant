@@ -1,0 +1,52 @@
+{
+  "checkpoint": 4,
+  "updated_at_utc": "2026-10-20T02:49:11.322162+00:00",
+  "complete": true,
+  "checkpoint_5_started": false,
+  "checkpoint_3_reviewed_by_user": true,
+  "implementation_prepared": true,
+  "compose_configuration_validated": true,
+  "separate_frozen_dependency_exports_verified": true,
+  "lock_check_offline_passed": true,
+  "python_package_build_offline_passed": true,
+  "tests": {
+    "passed": 280,
+    "seconds": 54.715,
+    "skipped": 0,
+    "log": "reports/architecture_checkpoint4_tests_precontainer.log"
+  },
+  "later_test_attempt": {
+    "log": "reports/architecture_checkpoint4_final_tests.log",
+    "blocked_by": "User restart of Docker left the database container stopped; PostgreSQL setup could not connect."
+  },
+  "images_built": true,
+  "container_verification_passed": true,
+  "source_input_hashes_unchanged": true,
+  "application_services_started_or_stopped_by_agent": false,
+  "live_inference_performed": false,
+  "network_settings_changed": true,
+  "blocker": null,
+  "next_step": "User starts the full application Compose stack and reviews checkpoint 4 before authorizing checkpoint 5.",
+  "image_import_smoke_checks_passed": true,
+  "image_build_log": "reports/architecture_checkpoint4_build_verified.log",
+  "network_settings_restored": true,
+  "network_diagnosis": "Router DNS returned unreachable Docker CDN addresses. User approved a temporary Wi-Fi DNS change; image builds passed and the original automatic DNS configuration was restored.",
+  "final_offline_tests": {
+    "discovered": 280,
+    "passed": 270,
+    "skipped_postgres": 10,
+    "seconds": 45.917,
+    "log": "reports/architecture_checkpoint4_offline_final.log"
+  },
+  "first_container_attempt": {
+    "bootstrap_and_round_trip_passed": true,
+    "readiness_failure": "Incorrect presentation column reference; corrected to source_record_id and images rebuilt.",
+    "isolated_resources_removed": true,
+    "corrected_and_verified": true
+  },
+  "verified_at_utc": "2026-10-20T03:00:23.547613+00:00",
+  "awaiting_user_review": true,
+  "container_checks_passed": 8,
+  "container_validation_report": "reports/architecture_checkpoint4_container_validation.json",
+  "user_application_volume_modified": false
+}

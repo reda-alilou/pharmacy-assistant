@@ -1,0 +1,260 @@
+ Image pharmacy-assistant-database-tools:local Building 
+ Image pharmacy-assistant-core:local Building 
+ Image pharmacy-assistant-language:local Building 
+ Image pharmacy-assistant-web:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 2.53kB done
+#1 DONE 0.0s
+
+#2 [web internal] load build definition from Dockerfile.web
+#2 transferring dockerfile: 239B done
+#2 DONE 0.0s
+
+#3 [language internal] load build definition from Dockerfile.python
+#3 transferring dockerfile: 2.67kB done
+#3 DONE 0.0s
+
+#4 [language] resolve image config for docker-image://docker.io/docker/dockerfile:1
+#4 ...
+
+#5 [web internal] load metadata for docker.io/library/nginx:1.28-alpine
+#5 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/library/nginx/manifests/1.28-alpine": dialing registry-1.docker.io:443 container via direct connection because Docker Desktop has no HTTPS proxy: connecting to registry-1.docker.io:443: dial tcp 198.18.1.179:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+#4 [language] resolve image config for docker-image://docker.io/docker/dockerfile:1
+#4 ERROR: failed to do request: Head "https://registry-1.docker.io/v2/docker/dockerfile/manifests/1": dialing registry-1.docker.io:443 container via direct connection because Docker Desktop has no HTTPS proxy: connecting to registry-1.docker.io:443: dial tcp 198.18.1.179:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+------
+ > [language] resolve image config for docker-image://docker.io/docker/dockerfile:1:
+------
+------
+ > [web internal] load metadata for docker.io/library/nginx:1.28-alpine:
+------
+Dockerfile.python:1
+
+--------------------
+
+   1 | >>> # syntax=docker/dockerfile:1
+
+   2 |     FROM ghcr.io/astral-sh/uv:0.11.19 AS uv
+
+   3 |     
+
+--------------------
+
+target database-setup: failed to solve: failed to resolve source metadata for docker.io/docker/dockerfile:1: failed to do request: Head "https://registry-1.docker.io/v2/docker/dockerfile/manifests/1": dialing registry-1.docker.io:443 container via direct connection because Docker Desktop has no HTTPS proxy: connecting to registry-1.docker.io:443: dial tcp 198.18.1.179:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+102  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json
+
+github.com/moby/buildkit/client/llb/sourceresolver.(*imageMetaResolver).ResolveImageConfig
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/client/llb/sourceresolver/imageresolver.go:51
+
+github.com/moby/buildkit/frontend/gateway.(*gatewayFrontend).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/gateway.go:163
+
+github.com/moby/buildkit/solver/llbsolver.(*provenanceBridge).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/provenance.go:203
+
+github.com/moby/buildkit/frontend/gateway/forwarder.(*BridgeClient).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/forwarder/forward.go:81
+
+github.com/moby/buildkit/frontend/dockerfile/builder.forwardGateway
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/dockerfile/builder/build.go:253
+
+github.com/moby/buildkit/frontend/dockerfile/builder.Build
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/dockerfile/builder/build.go:63
+
+github.com/moby/buildkit/frontend/gateway/forwarder.(*GatewayForwarder).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/forwarder/frontend.go:36
+
+github.com/moby/buildkit/solver/llbsolver.(*provenanceBridge).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/solver/llbsolver/provenance.go:203
+
+github.com/moby/buildkit/frontend/gateway.(*llbBridgeForwarder).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/gateway.go:812
+
+github.com/moby/buildkit/control/gateway.(*GatewayForwarder).Solve
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/control/gateway/gateway.go:77
+
+github.com/moby/buildkit/frontend/gateway/pb._LLBBridge_Solve_Handler.func1
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/pb/gateway_grpc.pb.go:415
+
+google.golang.org/grpc.getChainUnaryHandler.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1238
+
+github.com/moby/moby/v2/daemon/server/router/grpc.unaryInterceptor
+
+	/root/build-deb/engine/daemon/server/router/grpc/grpc.go:77
+
+google.golang.org/grpc.NewServer.chainUnaryServerInterceptors.chainUnaryInterceptors.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1229
+
+github.com/moby/buildkit/frontend/gateway/pb._LLBBridge_Solve_Handler
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/pb/gateway_grpc.pb.go:417
+
+google.golang.org/grpc.(*Server).register.(*Server).wrapUnaryHandler.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1284
+
+google.golang.org/grpc.(*Server).processRPC
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1450
+
+google.golang.org/grpc.(*Server).handleStream
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1595
+
+google.golang.org/grpc.(*Server).serveStreams.func2.1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1096
+
+runtime.goexit
+
+	/usr/local/go/src/runtime/asm_amd64.s:1771
+
+
+
+31568 v0.38.0 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\REDA\AppData\Local\Temp\compose-build-metadataFile-b74cbf0d-3a10-4d99-98ff-d1bcedc5b489.json --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant
+
+google.golang.org/grpc.(*ClientConn).Invoke
+
+	google.golang.org/grpc@v1.84.0/call.go:39
+
+github.com/moby/buildkit/frontend/gateway/pb.(*lLBBridgeClient).Solve
+
+	github.com/moby/buildkit@v0.34.0/frontend/gateway/pb/gateway_grpc.pb.go:105
+
+github.com/moby/buildkit/client.(*gatewayClientForBuild).Solve
+
+	github.com/moby/buildkit@v0.34.0/client/build.go:98
+
+github.com/moby/buildkit/frontend/gateway/grpcclient.(*grpcClient).Solve
+
+	github.com/moby/buildkit@v0.34.0/frontend/gateway/grpcclient/client.go:416
+
+github.com/docker/buildx/build.solve
+
+	github.com/docker/buildx/build/build.go:1657
+
+github.com/docker/buildx/build.Build.func4.7.3
+
+	github.com/docker/buildx/build/build.go:903
+
+github.com/moby/buildkit/frontend/gateway/grpcclient.(*grpcClient).Run
+
+	github.com/moby/buildkit@v0.34.0/frontend/gateway/grpcclient/client.go:219
+
+github.com/moby/buildkit/client.(*Client).Build.func2
+
+	github.com/moby/buildkit@v0.34.0/client/build.go:59
+
+github.com/moby/buildkit/client.(*Client).solve.func3
+
+	github.com/moby/buildkit@v0.34.0/client/solve.go:368
+
+golang.org/x/sync/errgroup.(*Group).Go.func1
+
+	golang.org/x/sync@v0.23.0/errgroup/errgroup.go:93
+
+runtime.goexit
+
+	runtime/asm_amd64.s:1771
+
+
+
+102  /usr/local/bin/dockerd --config-file /run/config/docker/daemon.json
+
+github.com/moby/buildkit/frontend/gateway.(*llbBridgeForwarder).Return
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/gateway.go:1104
+
+github.com/moby/buildkit/control/gateway.(*GatewayForwarder).Return
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/control/gateway/gateway.go:109
+
+github.com/moby/buildkit/frontend/gateway/pb._LLBBridge_Return_Handler.func1
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/pb/gateway_grpc.pb.go:523
+
+google.golang.org/grpc.getChainUnaryHandler.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1238
+
+github.com/moby/moby/v2/daemon/server/router/grpc.unaryInterceptor
+
+	/root/build-deb/engine/daemon/server/router/grpc/grpc.go:77
+
+google.golang.org/grpc.NewServer.chainUnaryServerInterceptors.chainUnaryInterceptors.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1229
+
+github.com/moby/buildkit/frontend/gateway/pb._LLBBridge_Return_Handler
+
+	/root/build-deb/engine/vendor/github.com/moby/buildkit/frontend/gateway/pb/gateway_grpc.pb.go:525
+
+google.golang.org/grpc.(*Server).register.(*Server).wrapUnaryHandler.func1
+
+	/root/build-deb/engine/vendor/google.golang.org/grpc/server.go:1284
+
+
+
+31568 v0.38.0 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\REDA\AppData\Local\Temp\compose-build-metadataFile-b74cbf0d-3a10-4d99-98ff-d1bcedc5b489.json --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant
+
+google.golang.org/grpc.(*ClientConn).Invoke
+
+	google.golang.org/grpc@v1.84.0/call.go:39
+
+github.com/moby/buildkit/api/services/control.(*controlClient).Solve
+
+	github.com/moby/buildkit@v0.34.0/api/services/control/control_grpc.pb.go:88
+
+github.com/moby/buildkit/client.(*Client).solve.func2
+
+	github.com/moby/buildkit@v0.34.0/client/solve.go:356
+
+golang.org/x/sync/errgroup.(*Group).Go.func1
+
+	golang.org/x/sync@v0.23.0/errgroup/errgroup.go:93
+
+
+
+31568 v0.38.0 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\REDA\AppData\Local\Temp\compose-build-metadataFile-b74cbf0d-3a10-4d99-98ff-d1bcedc5b489.json --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant
+
+github.com/docker/buildx/build.Build.func4.8.3
+
+	github.com/docker/buildx/build/build.go:1054
+
+github.com/docker/buildx/build.Build.func4.8
+
+	github.com/docker/buildx/build/build.go:1178
+
+golang.org/x/sync/errgroup.(*Group).Go.func1
+
+	golang.org/x/sync@v0.23.0/errgroup/errgroup.go:93
+
+
+
+31568 v0.38.0 C:\Program Files\Docker\cli-plugins\docker-buildx.exe bake --file - --progress rawjson --metadata-file C:\Users\REDA\AppData\Local\Temp\compose-build-metadataFile-b74cbf0d-3a10-4d99-98ff-d1bcedc5b489.json --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant --allow fs.read=C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant
+
+github.com/moby/buildkit/client.(*Client).solve.func2
+
+	github.com/moby/buildkit@v0.34.0/client/solve.go:358
+
+golang.org/x/sync/errgroup.(*Group).Go.func1
+
+	golang.org/x/sync@v0.23.0/errgroup/errgroup.go:93
+
+
+

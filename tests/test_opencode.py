@@ -11,6 +11,7 @@ from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
 from pharmacy_assistant.api import create_app
+from service_harness import connected_apps
 from pharmacy_assistant.config import DEFAULT_OPENCODE_MODEL, OPENCODE_BASE_URL, Settings
 from pharmacy_assistant.inference import create_interpreter
 from pharmacy_assistant.nlu import GroqInterpreter, InferenceError
@@ -59,14 +60,14 @@ class OpenCodeConfigTests(unittest.TestCase):
                 Settings(**kwargs)
 
     def test_health_and_missing_glm_key_never_use_the_existing_groq_key(self):
-        with TestClient(create_app(settings=Settings(inference_provider="opencode", groq_api_key="unused-old-key"))) as client:
+        with connected_apps(Settings(inference_provider="opencode", groq_api_key="unused-old-key")) as client:
             health = client.get("/health").json()
             self.assertEqual(health["interpretation_provider"], "opencode")
             self.assertEqual(health["interpretation_model"], DEFAULT_OPENCODE_MODEL)
             self.assertFalse(health["interpretation_configured"])
             result = client.post("/chat", json={"text": TEXT})
             self.assertEqual(result.status_code, 503)
-            self.assertIn("OPENCODE_API_KEY", result.json()["detail"]["message"])
+            self.assertEqual(result.json()["detail"]["code"], "model_not_configured")
             self.assertNotIn("unused-old-key", result.text)
             self.assertEqual(client.get("/medications/9079").status_code, 200)
 

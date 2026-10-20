@@ -220,7 +220,9 @@ def main():
             health = st.session_state.health
             st.success("API connectée")
             st.metric("Présentations enregistrées", f"{health['catalog_record_count']:,}".replace(",", " "))
-            if not health["interpretation_configured"]:
+            if health.get("language_service_status") == "unavailable":
+                st.warning("Service de langue inaccessible. Les choix déjà proposés restent utilisables.")
+            elif not health["interpretation_configured"]:
                 st.warning("Clé du modèle non configurée sur le serveur.")
             if health.get("interpretation_provider"):
                 st.caption(f"Modèle : {health['interpretation_provider']} / {health['interpretation_model']}")

@@ -15,6 +15,7 @@ from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
 from pharmacy_assistant.api import create_app
+from service_harness import connected_apps
 from pharmacy_assistant.config import DEFAULT_MODEL, Settings
 from pharmacy_assistant.evaluate_interpretation import CASES, compare_entities, summarize
 from pharmacy_assistant.nlu import GroqInterpreter, InferenceError
@@ -315,7 +316,7 @@ class InterpretationTests(unittest.IsolatedAsyncioTestCase):
 
 class InterpretationApiTests(unittest.TestCase):
     def test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error(self):
-        with TestClient(create_app(settings=Settings())) as client:
+        with connected_apps(Settings()) as client:
             health = client.get("/health").json()
             self.assertFalse(health["interpretation_configured"])
             self.assertEqual(client.get("/medications/search", params={"query": "ABIP"}).status_code, 200)
@@ -324,31 +325,29 @@ class InterpretationApiTests(unittest.TestCase):
             self.assertEqual(result.json()["detail"]["code"], "model_not_configured")
 
     def test_input_validation_precedes_inference(self):
-        with TestClient(create_app(settings=Settings())) as client:
+        with connected_apps(Settings()) as client:
             for body in ({}, {"text": "  "}, {"text": "x" * 2001}, {"text": 123},
                          {"text": "ABIP", "unknown": True}):
                 self.assertEqual(client.post("/interpret", json=body).status_code, 422)
 
     def test_real_api_response_and_secret_redaction(self):
         interpreter = interpreter_for(lambda request: httpx.Response(200, json=completion()))
-        with patch("pharmacy_assistant.api.create_interpreter", return_value=interpreter):
-            with TestClient(create_app(settings=interpreter.settings)) as client:
-                result = client.post("/interpret", json={"text": "Wach kayn ABIP 15mg w bch7al?"})
-                self.assertEqual(result.status_code, 200)
-                self.assertEqual(result.json()["interpretation"]["intents"], ["price", "availability"])
-                self.assertNotIn("offline-test-key", result.text)
-                self.assertNotIn("offline-test-key", client.get("/health").text)
+        with connected_apps(interpreter.settings, interpreter) as client:
+            result = client.post("/interpret", json={"text": "Wach kayn ABIP 15mg w bch7al?"})
+            self.assertEqual(result.status_code, 200)
+            self.assertEqual(result.json()["interpretation"]["intents"], ["price", "availability"])
+            self.assertNotIn("offline-test-key", result.text)
+            self.assertNotIn("offline-test-key", client.get("/health").text)
 
     def test_rate_limit_response_propagates_cooldown_without_provider_body(self):
         interpreter = interpreter_for(lambda request: httpx.Response(
             429, headers={"retry-after": "120"}, json={"error": {"message": "SECRET_KEY_AND_PATIENT_TEXT"}},
         ))
-        with patch("pharmacy_assistant.api.create_interpreter", return_value=interpreter):
-            with TestClient(create_app(settings=interpreter.settings)) as client:
-                result = client.post("/interpret", json={"text": "ABIP"})
-                self.assertEqual(result.status_code, 429)
-                self.assertEqual(result.headers["retry-after"], "120")
-                self.assertNotIn("SECRET", result.text)
+        with connected_apps(interpreter.settings, interpreter) as client:
+            result = client.post("/interpret", json={"text": "ABIP"})
+            self.assertEqual(result.status_code, 429)
+            self.assertEqual(result.headers["retry-after"], "120")
+            self.assertNotIn("SECRET", result.text)
 
 
 class SmokeEvaluationTests(unittest.TestCase):

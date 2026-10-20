@@ -15,7 +15,7 @@ import httpx
 from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
-from pharmacy_assistant.api import create_app
+from pharmacy_assistant.language.api import create_app
 from pharmacy_assistant.config import Settings
 from pharmacy_assistant.gemini_nlu import GeminiInterpreter, status_error
 from pharmacy_assistant.inference import create_interpreter
@@ -187,13 +187,13 @@ class QuotaApiTests(unittest.TestCase):
             http_client = httpx.AsyncClient(transport=httpx.MockTransport(handler))
             with patch("pharmacy_assistant.gemini_nlu.httpx.AsyncClient", return_value=http_client), \
                  TestClient(create_app(settings=settings)) as client:
-                self.assertEqual(client.post("/interpret", json={"text": TEXT}).status_code, 200)
-                result = client.post("/interpret", json={"text": TEXT})
+                self.assertEqual(client.post("/v1/interpret", json={"text": TEXT}).status_code, 200)
+                result = client.post("/v1/interpret", json={"text": TEXT})
                 self.assertEqual(result.status_code, 429)
                 self.assertEqual(result.json()["detail"]["code"], "local_rate_limited")
                 self.assertGreater(int(result.headers["retry-after"]), 0)
                 self.assertNotIn("offline-key", result.text)
-                self.assertEqual(client.get("/medications/9079").status_code, 200)
+                self.assertEqual(client.get("/health").status_code, 200)
             self.assertEqual(len(calls), 1)
 
     def test_default_allows_back_to_back_requests_and_ignores_old_spacing(self):
@@ -210,7 +210,7 @@ class QuotaApiTests(unittest.TestCase):
             with patch("pharmacy_assistant.gemini_nlu.httpx.AsyncClient", return_value=http_client), \
                  TestClient(create_app(settings=settings)) as client:
                 for _ in range(2):
-                    result = client.post("/interpret", json={"text": TEXT})
+                    result = client.post("/v1/interpret", json={"text": TEXT})
                     self.assertEqual(result.status_code, 200, result.text)
             self.assertEqual(len(calls), 2)
 

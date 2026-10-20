@@ -1,0 +1,236 @@
+ Image pharmacy-assistant-web:local Building 
+ Image pharmacy-assistant-database-tools:local Building 
+ Image pharmacy-assistant-core:local Building 
+ Image pharmacy-assistant-language:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 2.53kB done
+#1 DONE 0.0s
+
+#2 [database-setup internal] load build definition from Dockerfile.python
+#2 transferring dockerfile: 2.69kB done
+#2 DONE 0.0s
+
+#3 [web internal] load build definition from Dockerfile.web
+#3 transferring dockerfile: 239B done
+#3 DONE 0.0s
+
+#4 [language internal] load metadata for ghcr.io/astral-sh/uv:0.11.19
+#4 ...
+
+#5 [web internal] load metadata for docker.io/library/nginx:1.28-alpine
+#5 DONE 0.7s
+
+#6 [web internal] load .dockerignore
+#6 transferring context: 511B done
+#6 DONE 0.0s
+
+#7 [database-setup internal] load metadata for docker.io/library/python:3.12-slim-bookworm
+#7 DONE 0.7s
+
+#8 [web internal] load build context
+#8 transferring context: 2.50kB done
+#8 DONE 0.0s
+
+#9 [web 1/3] FROM docker.io/library/nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236
+#9 resolve docker.io/library/nginx:1.28-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236 0.0s done
+#9 DONE 0.0s
+
+#10 [web 2/3] COPY deploy/web/nginx.conf /etc/nginx/nginx.conf
+#10 CACHED
+
+#11 [web 3/3] COPY deploy/web/placeholder.html /usr/share/nginx/html/index.html
+#11 CACHED
+
+#12 [web] exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:37495d3a564420058f8e9a5aec38d47033bd4cf06aff9a4b283d32e6b8cafe1c done
+#12 exporting config sha256:4d126cbd74d29f5579c07917db48710261b072fd33065d2357912cbe7b740d1a done
+#12 exporting attestation manifest sha256:390169c6672b4a0867bd45ad041a187a9bc47d402e1f2ef7a783d78b91a108f7 0.0s done
+#12 exporting manifest list sha256:eff3a8f93c409ffd1b4b9fbe5162a0de79fd73fdbdaa73552c8273d0e2e87ece done
+#12 naming to docker.io/library/pharmacy-assistant-web:local done
+#12 unpacking to docker.io/library/pharmacy-assistant-web:local done
+#12 DONE 0.1s
+
+#4 [language internal] load metadata for ghcr.io/astral-sh/uv:0.11.19
+#4 ...
+
+#13 [web] resolving provenance for metadata file
+#13 DONE 0.0s
+
+#4 [database-setup internal] load metadata for ghcr.io/astral-sh/uv:0.11.19
+#4 DONE 0.9s
+
+#6 [language internal] load .dockerignore
+#6 CACHED
+
+#14 [language internal] load build context
+#14 transferring context: 1.73kB 0.0s done
+#14 DONE 0.0s
+
+#15 [database-setup uv 1/1] FROM ghcr.io/astral-sh/uv:0.11.19@sha256:b46b03ddfcfbf8f547af7e9eaefdf8a39c8cebcba7c98858d3162bd28cf536f6
+#15 resolve ghcr.io/astral-sh/uv:0.11.19@sha256:b46b03ddfcfbf8f547af7e9eaefdf8a39c8cebcba7c98858d3162bd28cf536f6 0.0s done
+#15 DONE 0.0s
+
+#16 [language python-base 1/3] FROM docker.io/library/python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258
+#16 resolve docker.io/library/python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258 0.0s done
+#16 DONE 0.0s
+
+#17 [language dependency-base 1/2] COPY --from=uv /uv /usr/local/bin/uv
+#17 CACHED
+
+#18 [language language-dependencies 1/1] RUN uv sync --frozen --only-group language --no-install-project
+#18 CACHED
+
+#19 [language dependency-base 2/2] COPY pyproject.toml uv.lock .python-version README.md ./
+#19 CACHED
+
+#20 [language python-base 3/3] RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+#20 CACHED
+
+#21 [language common-runtime 1/2] COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py      src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+#21 CACHED
+
+#22 [language common-runtime 2/2] COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+#22 CACHED
+
+#23 [language language 1/2] COPY --from=language-dependencies /app/.venv /app/.venv
+#23 CACHED
+
+#24 [language python-base 2/3] WORKDIR /app
+#24 CACHED
+
+#25 [language language 2/2] COPY src/pharmacy_assistant/language/ ./src/pharmacy_assistant/language/
+#25 CACHED
+
+#26 [language] exporting to image
+#26 exporting layers done
+#26 exporting manifest sha256:b801a92837efe46567db1cafa0daef2a9340267f9a9a97f4cda4da5232e254ed done
+#26 exporting config sha256:a79c5edb9c896c048a84cef75bba469149525c1fd044deebeda525b2d7e95b57 done
+#26 exporting attestation manifest sha256:78bef4faac00e2724e29c1cdf1fd5cf1ecfc020613adac2c5afe9647fddf3709 0.0s done
+#26 exporting manifest list sha256:0aad1dd81068847208e5cd00fbd8c5e6b14c1239913309613dd9f151f1824b0d 0.0s done
+#26 naming to docker.io/library/pharmacy-assistant-language:local done
+#26 unpacking to docker.io/library/pharmacy-assistant-language:local done
+#26 DONE 0.1s
+
+#27 [core internal] load build context
+#27 transferring context: 532.13kB 0.1s done
+#27 DONE 0.1s
+
+#28 [core common-runtime 2/2] COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+#28 CACHED
+
+#29 [core core 3/4] COPY src/pharmacy_assistant/transport/ ./src/pharmacy_assistant/transport/
+#29 CACHED
+
+#30 [core common-runtime 1/2] COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py      src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+#30 CACHED
+
+#31 [core dependency-base 2/2] COPY pyproject.toml uv.lock .python-version README.md ./
+#31 CACHED
+
+#32 [core core-dependencies 1/1] RUN uv sync --frozen --only-group core --no-install-project
+#32 CACHED
+
+#33 [core core 2/4] COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+#33 CACHED
+
+#20 [core python-base 3/3] RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+#20 CACHED
+
+#34 [core core 1/4] COPY --from=core-dependencies /app/.venv /app/.venv
+#34 CACHED
+
+#24 [core python-base 2/3] WORKDIR /app
+#24 CACHED
+
+#17 [core dependency-base 1/2] COPY --from=uv /uv /usr/local/bin/uv
+#17 CACHED
+
+#35 [core core 4/4] COPY src/pharmacy_assistant/api.py ./src/pharmacy_assistant/
+#35 CACHED
+
+#36 [language] resolving provenance for metadata file
+#36 DONE 0.0s
+
+#37 [core] exporting to image
+#37 exporting layers done
+#37 exporting manifest sha256:c8bacab9ffbaace821efbc832257864e1ae31c50c3cb806e89b3ee9031ce6b71 done
+#37 exporting config sha256:9d0c90a2aa143ad7ca51b97f09cae9fec5d00e46abb1364b5a002ebc595d037a done
+#37 exporting attestation manifest sha256:e235501d0ca00d3d35c084595ff2eac4edfa8d624ced80aa66a8bbfda0ed82bc 0.0s done
+#37 exporting manifest list sha256:f83479dec61d96124b2f69fb70cd93afdc43310f36ec2103f90ed175eb972e4f 0.0s done
+#37 naming to docker.io/library/pharmacy-assistant-core:local done
+#37 unpacking to docker.io/library/pharmacy-assistant-core:local done
+#37 DONE 0.1s
+
+#38 [database-setup internal] load build context
+#38 ...
+
+#39 [core] resolving provenance for metadata file
+#39 DONE 0.1s
+
+#38 [database-setup internal] load build context
+#38 transferring context: 10.55MB 0.7s done
+#38 DONE 0.7s
+
+#40 [database-setup common-runtime 1/2] COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py      src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+#40 CACHED
+
+#41 [database-setup database-tools 7/8] COPY migrations/ ./migrations/
+#41 CACHED
+
+#42 [database-setup dependency-base 2/2] COPY pyproject.toml uv.lock .python-version README.md ./
+#42 CACHED
+
+#43 [database-setup database-tools 3/8] COPY src/pharmacy_assistant/language/__init__.py src/pharmacy_assistant/language/quota.py ./src/pharmacy_assistant/language/
+#43 CACHED
+
+#44 [database-setup tools-dependencies 1/1] RUN uv sync --frozen --only-group database-tools --no-install-project
+#44 CACHED
+
+#45 [database-setup database-tools 6/8] COPY alembic.ini ./
+#45 CACHED
+
+#46 [database-setup database-tools 4/8] COPY src/pharmacy_assistant/language/storage/ ./src/pharmacy_assistant/language/storage/
+#46 CACHED
+
+#47 [database-setup database-tools 2/8] COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+#47 CACHED
+
+#24 [database-setup python-base 2/3] WORKDIR /app
+#24 CACHED
+
+#48 [database-setup common-runtime 2/2] COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+#48 CACHED
+
+#20 [database-setup python-base 3/3] RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+#20 CACHED
+
+#49 [database-setup database-tools 5/8] COPY src/pharmacy_assistant/database_setup.py src/pharmacy_assistant/database_migrations.py ./src/pharmacy_assistant/
+#49 CACHED
+
+#50 [database-setup database-tools 1/8] COPY --from=tools-dependencies /app/.venv /app/.venv
+#50 CACHED
+
+#17 [database-setup dependency-base 1/2] COPY --from=uv /uv /usr/local/bin/uv
+#17 CACHED
+
+#51 [database-setup database-tools 8/8] COPY data/processed/ammps_medications_enriched.jsonl data/processed/pharmacies_rabat.jsonl ./data/processed/
+#51 CACHED
+
+#52 [database-setup] exporting to image
+#52 exporting layers done
+#52 exporting manifest sha256:9ddf9ecb2bfb97272f9534063da8ccde1609da277dc0091b0b8e6532a9f27c6b done
+#52 exporting config sha256:e7d20bc72ce65388ec87f44965108d495d6a81665c71104daee567445853b7a5 done
+#52 exporting attestation manifest sha256:a19b2558de7902f4c01f869d3cfd017bb9dceb7f4b49a600bad497d77dea396b 0.0s done
+#52 exporting manifest list sha256:65d65fcc0b3bc3db469f6447d93db795ec4a5e03078052eb9b7cc1ecbfd04110 done
+#52 naming to docker.io/library/pharmacy-assistant-database-tools:local
+#52 naming to docker.io/library/pharmacy-assistant-database-tools:local done
+#52 unpacking to docker.io/library/pharmacy-assistant-database-tools:local done
+#52 DONE 0.1s
+
+#53 [database-setup] resolving provenance for metadata file
+#53 DONE 0.0s
+ Image pharmacy-assistant-web:local Built 
+ Image pharmacy-assistant-core:local Built 
+ Image pharmacy-assistant-database-tools:local Built 
+ Image pharmacy-assistant-language:local Built 

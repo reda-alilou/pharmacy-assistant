@@ -34,7 +34,11 @@ VERSION = 1
 BACKEND_FILES = ("chat.py", "chat_models.py", "conversation.py", "pricing.py", "resolution.py",
                  "medication_normalization.py", "catalog.py", "pharmacy_directory.py",
                  "pharmacy_normalization.py", "answer_templates.py", "baseline_metrics.py",
-                 "evaluate_baseline.py", "evaluate_development.py")
+                 "evaluate_baseline.py", "evaluate_development.py", "paths.py", "database.py", "config.py", "api.py") + tuple(
+    path.relative_to(ROOT / "src/pharmacy_assistant").as_posix()
+    for package in ("core", "language", "contracts", "transport")
+    for path in sorted((ROOT / "src/pharmacy_assistant" / package).rglob("*.py"))
+)
 
 
 def provenance(split="development"):

@@ -20,7 +20,7 @@ def public_configuration(settings):
 
 
 def snapshot():
-    paths = sorted((ROOT / "src/pharmacy_assistant").glob("*.py"))
+    paths = sorted((ROOT / "src/pharmacy_assistant").rglob("*.py"))
     paths += [ROOT / p for p in (
         "pyproject.toml", "uv.lock", "data/evaluation/baseline_v1/manifest.json",
         "data/evaluation/baseline_v1/development.json", "data/evaluation/baseline_v1/held_out.json",

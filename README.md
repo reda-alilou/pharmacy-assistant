@@ -27,7 +27,7 @@ GROQ_OUTPUT_MODE=json_object
 INFERENCE_MIN_INTERVAL_SECONDS=0
 ```
 
-Start both local services with one command:
+Start the language API, core API, and retained Streamlit interface with one command:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pharmacy_assistant.run_demo
@@ -35,8 +35,11 @@ Start both local services with one command:
 
 Open <http://127.0.0.1:8501>. API documentation is at
 <http://127.0.0.1:8000/docs>. Ctrl+C stops the services started by the launcher;
-an existing compatible API reused by the launcher is left running.
-Use `--api-port` and `--ui-port` if the default ports are occupied.
+existing compatible APIs reused by the launcher are left running.
+Use `--api-port`, `--language-port`, and `--ui-port` if the default ports are occupied.
+The language API listens on localhost:8001 by default; its docs are at
+<http://127.0.0.1:8001/docs>. Stop the earlier demo with Ctrl+C before restarting
+after the checkpoint 3 changes; the launcher refuses to reuse an older core API.
 The application does not start merely by cloning or importing the project.
 
 Keep `.env` private. Credentials stay on the server and are excluded from Git.
@@ -75,21 +78,49 @@ live offer. More multilingual checks are in the [manual test guide](docs/arabic-
 
 ## Architecture
 
+Checkpoint 4 Docker Compose integration is implemented and verified; awaiting user review. The four-container
+setup, explicit database tools, isolated failure/restart checks, and debug overlay
+are described in [the checkpoint 4 guide](docs/architecture-checkpoint-4.md).
+The web container serves a temporary static page until the React checkpoint.
+Do not run full-stack and database-only Compose configurations concurrently for
+the same project; both intentionally reuse the checkpoint 2 database volume.
+
+Checkpoint 1 established core, language, and interpretation contract boundaries.
+Checkpoint 2's PostgreSQL implementation passed automated checks and user review.
+Checkpoint 3 extracts inference into its own HTTP service; see its
+[setup and validation](docs/architecture-checkpoint-3.md). File mode remains
+available for the legacy fixtures. To use the existing migrated PostgreSQL data:
+
+```powershell
+$env:DATABASE_ENV_FILE = (Resolve-Path .runtime/postgres.env).Path
+$env:STORAGE_BACKEND = "postgres"
+.\.venv\Scripts\python.exe -m pharmacy_assistant.run_demo
+```
+
+The user starts/stops PostgreSQL separately. See [checkpoint 2 setup/status](docs/architecture-checkpoint-2.md) and
+[checkpoint 1](docs/architecture-checkpoint-1.md) for changes and validation,
+and the root [decision log](DECISION_LOG.md) for the agreed target and checkpoints.
+
 ```text
-Streamlit -> FastAPI /chat
-          -> hosted Qwen intent/entity extraction
-          -> local schema and source-span validation
-          -> conversation context and medication resolution
-          -> local catalogue / Rabat directory lookup
+Streamlit -> core FastAPI /chat
+          -> HTTP/JSON -> language FastAPI /v1/interpret
+                        -> quota reservation -> hosted Qwen extraction
+                        -> strict schema and source-span validation
+          -> conversation context, catalogue / Rabat directory lookup
           -> deterministic pricing and multilingual answer templates
-          -> answer + raw JSON + effective context + sources
+          -> answer + raw JSON + effective context + sources (legacy UI)
 ```
 
 New text normally needs one inference request, with at most one bounded retry
 for eligible transient failures. Presentation/refinement/reference buttons use
 saved server-side state without another model call. Conversation and
-clarification state expires after 15 minutes and is lost on API restart.
-Prices and directory facts come from local data, not model memory.
+clarification state in file mode expires after 15 minutes and is lost on core
+restart. PostgreSQL mode persists temporary conversations with a 30-minute
+inactivity expiry, restore/reset APIs, and retained failed messages. Streamlit
+transcript restoration is deferred to the new frontend. Prices and directory
+facts come from stored data, not model memory. Core never retries the language
+HTTP request or falls back to local inference; offered buttons remain usable
+during a language outage when core/database are healthy.
 
 Main API routes:
 
@@ -105,6 +136,8 @@ Use the generated API documentation for request/response schemas. Run services
 separately if needed:
 
 ```powershell
+# In separate terminals with the same storage-mode environment:
+.\.venv\Scripts\python.exe -m uvicorn pharmacy_assistant.language.api:app --host 127.0.0.1 --port 8001
 .\.venv\Scripts\python.exe -m uvicorn pharmacy_assistant.api:app --host 127.0.0.1 --port 8000
 .\.venv\Scripts\python.exe -m streamlit run src/pharmacy_assistant/demo.py
 ```

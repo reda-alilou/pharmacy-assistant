@@ -1,0 +1,47 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\alembic\config.py:604: DeprecationWarning: No path_separator found in configuration; falling back to legacy splitting on spaces, commas, and colons for prepend_sys_path.  Consider adding path_separator=os to Alembic config.
+  util.warn_deprecated(
+test_backup_restore_preserves_facts_and_quotas_without_temporary_history (test_postgres_storage.PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history) ... ok
+test_concurrent_quota_reservations_and_budget_limits (test_postgres_storage.PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits) ... ok
+test_concurrent_updates_cannot_overwrite_successful_context (test_postgres_storage.PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context) ... ok
+test_conversation_api_restart_restore_idempotency_and_reset (test_postgres_storage.PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset) ... ok
+test_expired_context_rejected_before_cleanup_and_children_deleted (test_postgres_storage.PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted) ... ok
+test_foreign_keys_and_exact_price_constraints (test_postgres_storage.PostgresStorageTests.test_foreign_keys_and_exact_price_constraints) ... ok
+test_full_round_trip_repeat_import_and_permissions (test_postgres_storage.PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions) ... ok
+test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger (test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger) ... ERROR
+test_refresh_and_failed_messages_do_not_extend_expiry (test_postgres_storage.PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry) ... ok
+
+======================================================================
+ERROR: test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger (test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\shutil.py", line 633, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\REDA\\AppData\\Local\\Temp\\tmp59gio12w\\quota.sqlite3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_postgres_storage.py", line 213, in test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger
+    with tempfile.TemporaryDirectory() as directory:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\tempfile.py", line 950, in __exit__
+    self.cleanup()
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\shutil.py", line 635, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+  File "C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\tempfile.py", line 909, in onexc
+    _os.unlink(path)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\REDA\\AppData\\Local\\Temp\\tmp59gio12w\\quota.sqlite3'
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.663s
+
+FAILED (errors=1)

@@ -12,6 +12,7 @@ from streamlit.testing.v1 import AppTest
 from pharmacy_assistant.catalog import MedicationCatalog
 from pharmacy_assistant.chat import ChatService
 from pharmacy_assistant.chat_models import ChatRequest
+from pharmacy_assistant.config import CoreSettings, Settings
 from pharmacy_assistant.demo_client import DemoClient, DemoError, api_url
 from pharmacy_assistant.models import HealthResponse
 from pharmacy_assistant.pharmacy_directory import PharmacyDirectory
@@ -156,28 +157,60 @@ class StreamlitTests(unittest.TestCase):
 
 
 class LauncherTests(unittest.TestCase):
+    def test_old_in_process_api_is_not_silently_reused(self):
+        with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", side_effect=[True, False]), \
+             patch("pharmacy_assistant.run_demo.CoreSettings.from_env", return_value=CoreSettings()), \
+             patch("pharmacy_assistant.run_demo.DemoClient") as client, \
+             patch("pharmacy_assistant.run_demo.subprocess.Popen") as spawn:
+            client.return_value.health.return_value.storage_backend = "files"
+            client.return_value.health.return_value.language_service_url = None
+            self.assertEqual(launch_demo(), 1)
+            spawn.assert_not_called()
+
+    def test_language_storage_mismatch_leaves_reused_service_running(self):
+        with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", side_effect=[True, True, False]), \
+             patch("pharmacy_assistant.run_demo.CoreSettings.from_env", return_value=CoreSettings()), \
+             patch("pharmacy_assistant.run_demo.language_health", return_value=MagicMock(storage_backend="postgres")), \
+             patch("pharmacy_assistant.run_demo.subprocess.Popen") as spawn:
+            self.assertEqual(launch_demo(), 1)
+            spawn.assert_not_called()
+
     def test_reused_backend_is_never_stopped_by_the_launcher(self):
         child = MagicMock()
         child.poll.return_value = None
-        with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", side_effect=[True, False]), \
+        with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", side_effect=[True, False, False]), \
              patch("pharmacy_assistant.run_demo.DemoClient") as client, \
+             patch("pharmacy_assistant.run_demo.language_health", return_value=MagicMock(storage_backend="files")), \
              patch("pharmacy_assistant.run_demo.subprocess.Popen", return_value=child) as spawn, \
              patch("pharmacy_assistant.run_demo.time.sleep", side_effect=KeyboardInterrupt):
+            client.return_value.health.return_value.storage_backend = "files"
+            client.return_value.health.return_value.language_service_url = "http://127.0.0.1:8001"
             self.assertEqual(launch_demo(), 0)
             self.assertEqual(spawn.call_count, 1)
             self.assertIn("streamlit", spawn.call_args.args[0])
             child.terminate.assert_called_once()
             client.return_value.health.assert_called_once()
 
+    def test_launcher_does_not_reuse_an_api_with_a_different_storage_backend(self):
+        with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", side_effect=[True, False, False]), \
+             patch("pharmacy_assistant.run_demo.DemoClient") as client, \
+             patch("pharmacy_assistant.run_demo.subprocess.Popen") as spawn:
+            client.return_value.health.return_value.storage_backend = "postgres"
+            with patch("pharmacy_assistant.run_demo.CoreSettings.from_env", return_value=CoreSettings()):
+                self.assertEqual(launch_demo(), 1)
+            spawn.assert_not_called()
+
     def test_owned_backend_and_ui_are_stopped_on_interrupt(self):
-        backend, frontend = MagicMock(), MagicMock()
-        backend.poll.return_value = frontend.poll.return_value = None
+        language, backend, frontend = MagicMock(), MagicMock(), MagicMock()
+        language.poll.return_value = backend.poll.return_value = frontend.poll.return_value = None
         with patch("sys.argv", ["run_demo"]), patch("pharmacy_assistant.run_demo.port_available", return_value=True), \
              patch("pharmacy_assistant.run_demo.DemoClient"), \
-             patch("pharmacy_assistant.run_demo.subprocess.Popen", side_effect=[backend, frontend]), \
+             patch("pharmacy_assistant.run_demo.language_health", return_value=MagicMock(storage_backend="files")), \
+             patch("pharmacy_assistant.run_demo.subprocess.Popen", side_effect=[language, backend, frontend]), \
              patch("pharmacy_assistant.run_demo.time.sleep", side_effect=KeyboardInterrupt):
             self.assertEqual(launch_demo(), 0)
             backend.terminate.assert_called_once()
+            language.terminate.assert_called_once()
             frontend.terminate.assert_called_once()
 
 

@@ -13,6 +13,10 @@ from pharmacy_assistant.models import HealthResponse
 
 
 ERROR_MESSAGES = {
+    "language_unavailable": "Le service de langue est inaccessible. Vérifiez son démarrage puis réessayez manuellement.",
+    "language_timeout": "Le service de langue n'a pas répondu à temps. La demande a pu être comptabilisée ; évitez les renvois répétés.",
+    "language_invalid_response": "La réponse du service de langue est invalide. Aucune réponse factuelle n'a été générée.",
+    "storage_unavailable": "La base de données est indisponible. Votre demande n'a pas pu être terminée.",
     "model_not_configured": "La clé du modèle doit être configurée sur le serveur FastAPI.",
     "provider_authentication_failed": "Le fournisseur a refusé la clé configurée sur le serveur.",
     "provider_permission_denied": "Le compte ne peut pas accéder au modèle configuré.",
@@ -112,7 +116,7 @@ class DemoClient:
             validated = ChatRequest.model_validate(payload)
         except ValidationError:
             raise DemoError("invalid_request", 422) from None
-        body = self._request("POST", "/chat", json=validated.model_dump(exclude_none=True), timeout=(3, 135))
+        body = self._request("POST", "/chat", json=validated.model_dump(exclude_none=True), timeout=(3, 175))
         try:
             return ChatResponse.model_validate(body)
         except ValidationError:

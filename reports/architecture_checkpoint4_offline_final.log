@@ -1,0 +1,458 @@
+C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_alias_alone_does_not_pick_a_strength_or_presentation (test_arabic_package_regressions.AliasRegressionTests.test_alias_alone_does_not_pick_a_strength_or_presentation) ... ok
+test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings (test_arabic_package_regressions.AliasRegressionTests.test_alias_does_not_relax_wrong_filters_or_accept_nearby_spellings) ... ok
+test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions (test_arabic_package_regressions.AliasRegressionTests.test_arabic_brand_variants_diacritics_and_units_preserve_raw_mentions) ... ok
+test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one (test_arabic_package_regressions.AliasRegressionTests.test_arabic_indefinite_singular_is_explicit_but_missing_or_definite_quantities_are_not_one) ... ok
+test_arabic_and_latin_name_identity_share_only_confirmed_record (test_arabic_package_regressions.PackageSessionTests.test_arabic_and_latin_name_identity_share_only_confirmed_record) ... ok
+test_definite_container_reference_is_corrected_only_in_effective_followup (test_arabic_package_regressions.PackageSessionTests.test_definite_container_reference_is_corrected_only_in_effective_followup) ... ok
+test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped (test_arabic_package_regressions.PackageSessionTests.test_explicit_purchase_counts_and_ambiguous_counts_are_never_dropped) ... ok
+test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size (test_arabic_package_regressions.PackageSessionTests.test_explicit_unitless_or_wrong_strength_is_not_silently_replaced_by_box_size) ... ok
+test_outcome_metric_rejects_unnecessary_quantity_clarification (test_arabic_package_regressions.PackageSessionTests.test_outcome_metric_rejects_unnecessary_quantity_clarification) ... ok
+test_package_selection_then_requested_quantity_remain_separate (test_arabic_package_regressions.PackageSessionTests.test_package_selection_then_requested_quantity_remain_separate) ... ok
+test_application_errors_keep_the_existing_http_contract (test_architecture_boundaries.ChatErrorApiTests.test_application_errors_keep_the_existing_http_contract) ... ok
+test_database_failures_are_sanitized_before_the_http_boundary (test_architecture_boundaries.ChatErrorApiTests.test_database_failures_are_sanitized_before_the_http_boundary) ... ok
+test_core_import_needs_no_http_framework_provider_or_collector (test_architecture_boundaries.OwnershipTests.test_core_import_needs_no_http_framework_provider_or_collector) ... ok
+test_data_and_environment_paths_still_resolve_from_repository_root (test_architecture_boundaries.OwnershipTests.test_data_and_environment_paths_still_resolve_from_repository_root) ... ok
+test_evaluation_guards_include_changes_in_nested_implementation (test_architecture_boundaries.OwnershipTests.test_evaluation_guards_include_changes_in_nested_implementation) ... ok
+test_legacy_imports_share_the_canonical_modules (test_architecture_boundaries.OwnershipTests.test_legacy_imports_share_the_canonical_modules) ... ok
+test_service_imports_respect_ownership (test_architecture_boundaries.OwnershipTests.test_service_imports_respect_ownership) ... ok
+test_annotation_oracle_uses_no_live_factory_and_separates_conversation (test_baseline.BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation) ... Executing <Task finished name='Task-38' coro=<BackendBaselineTests.test_annotation_oracle_uses_no_live_factory_and_separates_conversation() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:131> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.844 seconds
+ok
+test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference (test_baseline.BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference) ... Executing <Task pending name='Task-43' coro=<BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:185> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.250 seconds
+Executing <Task pending name='Task-43' coro=<BackendBaselineTests.test_budgeted_live_adapter_resumes_custom_metrics_with_mocked_inference() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_baseline.py:186> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.344 seconds
+ok
+test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data (test_baseline.BackendBaselineTests.test_failure_summary_distinguishes_error_counts_from_case_counts_without_live_data) ... ok
+test_same_medication_with_wrong_price_record_is_not_a_correct_resolution (test_baseline.BackendBaselineTests.test_same_medication_with_wrong_price_record_is_not_a_correct_resolution) ... ok
+test_balanced_splits_raw_spans_ids_and_freeze_validate (test_baseline.DatasetTests.test_balanced_splits_raw_spans_ids_and_freeze_validate) ... ok
+test_live_cases_exclude_all_context_and_held_out_examples (test_baseline.DatasetTests.test_live_cases_exclude_all_context_and_held_out_examples) ... ok
+test_modified_frozen_file_is_rejected (test_baseline.DatasetTests.test_modified_frozen_file_is_rejected) ... ok
+test_alternate_evidenced_span_is_accepted (test_baseline.MetricTests.test_alternate_evidenced_span_is_accepted) ... ok
+test_duplicate_prediction_cannot_reuse_a_gold_mention (test_baseline.MetricTests.test_duplicate_prediction_cannot_reuse_a_gold_mention) ... ok
+test_missing_mention_counts_all_its_non_null_slots (test_baseline.MetricTests.test_missing_mention_counts_all_its_non_null_slots) ... ok
+test_null_slots_do_not_artificially_inflate_entity_f1 (test_baseline.MetricTests.test_null_slots_do_not_artificially_inflate_entity_f1) ... ok
+test_order_of_multiple_medications_does_not_change_slot_f1 (test_baseline.MetricTests.test_order_of_multiple_medications_does_not_change_slot_f1) ... ok
+test_wrong_intent_and_unobserved_language_groups_are_not_perfect (test_baseline.MetricTests.test_wrong_intent_and_unobserved_language_groups_are_not_perfect) ... ok
+test_wrong_slot_counts_false_positive_and_false_negative (test_baseline.MetricTests.test_wrong_slot_counts_false_positive_and_false_negative) ... ok
+test_http_clarification_serialization_and_selection_validation (test_chat.ChatApiTests.test_http_clarification_serialization_and_selection_validation) ... ok
+test_provider_error_is_visible_and_lookup_still_works (test_chat.ChatApiTests.test_provider_error_is_visible_and_lookup_still_works) ... ok
+test_answer_follows_retrieved_values_instead_of_fixed_example_prices (test_chat.ChatServiceTests.test_answer_follows_retrieved_values_instead_of_fixed_example_prices) ... ok
+test_expired_unknown_and_evicted_continuations (test_chat.ChatServiceTests.test_expired_unknown_and_evicted_continuations) ... ok
+test_outside_coverage_and_missing_pharmacy_have_no_fallback_results (test_chat.ChatServiceTests.test_outside_coverage_and_missing_pharmacy_have_no_fallback_results) ... ok
+test_rabat_contacts_area_and_unverified_hours_duty (test_chat.ChatServiceTests.test_rabat_contacts_area_and_unverified_hours_duty) ... ok
+test_record_facts_missing_price_stock_and_sources (test_chat.ChatServiceTests.test_record_facts_missing_price_stock_and_sources) ... ok
+test_selection_uses_only_offered_records_without_new_inference (test_chat.ChatServiceTests.test_selection_uses_only_offered_records_without_new_inference) ... ok
+test_selections_are_bound_to_each_mention_and_partial_selection_is_supported (test_chat.ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported) ... Executing <Task finished name='Task-97' coro=<ChatServiceTests.test_selections_are_bound_to_each_mention_and_partial_selection_is_supported() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_chat.py:111> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.109 seconds
+ok
+test_source_conflicts_do_not_replace_official_prices (test_chat.ChatServiceTests.test_source_conflicts_do_not_replace_official_prices) ... ok
+test_unknown_incomplete_and_unsupported_requests (test_chat.ChatServiceTests.test_unknown_incomplete_and_unsupported_requests) ... ok
+test_unsupported_named_medication_does_not_trigger_unrequested_lookup (test_chat.ChatServiceTests.test_unsupported_named_medication_does_not_trigger_unrequested_lookup) ... ok
+test_arabic_alias_units_and_form (test_chat.ResolutionTests.test_arabic_alias_units_and_form) ... ok
+test_exact_brand_excludes_substring_collision_and_keeps_presentations (test_chat.ResolutionTests.test_exact_brand_excludes_substring_collision_and_keeps_presentations) ... ok
+test_fuzzy_and_partial_names_never_resolve_automatically (test_chat.ResolutionTests.test_fuzzy_and_partial_names_never_resolve_automatically) ... ok
+test_strength_form_and_package_are_independent_and_quantity_is_not_package (test_chat.ResolutionTests.test_strength_form_and_package_are_independent_and_quantity_is_not_package) ... ok
+test_unknown_missing_and_large_substance_ambiguity (test_chat.ResolutionTests.test_unknown_missing_and_large_substance_ambiguity) ... ok
+medicament discovery: A, 1 URLs, 1 total active URLs
+medicament discovery: B, 1 URLs, 2 total active URLs
+medicament discovery: C, 0 URLs, 2 total active URLs
+medicament discovery: D, 0 URLs, 2 total active URLs
+medicament discovery: E, 0 URLs, 2 total active URLs
+medicament discovery: F, 0 URLs, 2 total active URLs
+medicament discovery: G, 0 URLs, 2 total active URLs
+medicament discovery: H, 0 URLs, 2 total active URLs
+medicament discovery: I, 0 URLs, 2 total active URLs
+medicament discovery: J, 0 URLs, 2 total active URLs
+medicament discovery: K, 0 URLs, 2 total active URLs
+medicament discovery: L, 0 URLs, 2 total active URLs
+medicament discovery: M, 0 URLs, 2 total active URLs
+medicament discovery: N, 0 URLs, 2 total active URLs
+medicament discovery: O, 0 URLs, 2 total active URLs
+medicament discovery: P, 0 URLs, 2 total active URLs
+medicament discovery: Q, 0 URLs, 2 total active URLs
+medicament discovery: R, 0 URLs, 2 total active URLs
+medicament discovery: S, 0 URLs, 2 total active URLs
+medicament discovery: T, 0 URLs, 2 total active URLs
+medicament discovery: U, 0 URLs, 2 total active URLs
+medicament discovery: V, 0 URLs, 2 total active URLs
+medicament discovery: W, 0 URLs, 2 total active URLs
+medicament discovery: X, 0 URLs, 2 total active URLs
+medicament discovery: Y, 0 URLs, 2 total active URLs
+medicament discovery: Z, 0 URLs, 2 total active URLs
+medicament discovery: A, 1 URLs, 1 total active URLs
+medicament discovery: B, 1 URLs, 2 total active URLs
+medicament discovery: C, 0 URLs, 2 total active URLs
+medicament discovery: D, 0 URLs, 2 total active URLs
+medicament discovery: E, 0 URLs, 2 total active URLs
+medicament discovery: F, 0 URLs, 2 total active URLs
+medicament discovery: G, 0 URLs, 2 total active URLs
+medicament discovery: H, 0 URLs, 2 total active URLs
+medicament discovery: I, 0 URLs, 2 total active URLs
+medicament discovery: J, 0 URLs, 2 total active URLs
+medicament discovery: K, 0 URLs, 2 total active URLs
+medicament discovery: L, 0 URLs, 2 total active URLs
+medicament discovery: M, 0 URLs, 2 total active URLs
+medicament discovery: N, 0 URLs, 2 total active URLs
+medicament discovery: O, 0 URLs, 2 total active URLs
+medicament discovery: P, 0 URLs, 2 total active URLs
+medicament discovery: Q, 0 URLs, 2 total active URLs
+medicament discovery: R, 0 URLs, 2 total active URLs
+medicament discovery: S, 0 URLs, 2 total active URLs
+medicament discovery: T, 0 URLs, 2 total active URLs
+medicament discovery: U, 0 URLs, 2 total active URLs
+medicament discovery: V, 0 URLs, 2 total active URLs
+medicament discovery: W, 0 URLs, 2 total active URLs
+medicament discovery: X, 0 URLs, 2 total active URLs
+medicament discovery: Y, 0 URLs, 2 total active URLs
+medicament discovery: Z, 0 URLs, 2 total active URLs
+medicament discovery: A, 1 URLs, 1 total active URLs
+medicament discovery: B, 1 URLs, 2 total active URLs
+medicament discovery: C, 0 URLs, 2 total active URLs
+medicament discovery: D, 0 URLs, 2 total active URLs
+medicament discovery: E, 0 URLs, 2 total active URLs
+medicament discovery: F, 0 URLs, 2 total active URLs
+medicament discovery: G, 0 URLs, 2 total active URLs
+medicament discovery: H, 0 URLs, 2 total active URLs
+medicament discovery: I, 0 URLs, 2 total active URLs
+medicament discovery: J, 0 URLs, 2 total active URLs
+medicament discovery: K, 0 URLs, 2 total active URLs
+medicament discovery: L, 0 URLs, 2 total active URLs
+medicament discovery: M, 0 URLs, 2 total active URLs
+medicament discovery: N, 0 URLs, 2 total active URLs
+medicament discovery: O, 0 URLs, 2 total active URLs
+medicament discovery: P, 0 URLs, 2 total active URLs
+medicament discovery: Q, 0 URLs, 2 total active URLs
+medicament discovery: R, 0 URLs, 2 total active URLs
+medicament discovery: S, 0 URLs, 2 total active URLs
+medicament discovery: T, 0 URLs, 2 total active URLs
+medicament discovery: U, 0 URLs, 2 total active URLs
+medicament discovery: V, 0 URLs, 2 total active URLs
+medicament discovery: W, 0 URLs, 2 total active URLs
+medicament discovery: X, 0 URLs, 2 total active URLs
+medicament discovery: Y, 0 URLs, 2 total active URLs
+medicament discovery: Z, 0 URLs, 2 total active URLs
+test_all_letters_discovery_resumes_before_details_and_ignores_stale_sitemap_urls (test_collection_expansion.MedicationExpansionTests.test_all_letters_discovery_resumes_before_details_and_ignores_stale_sitemap_urls) ... ok
+test_budget_resume_preserves_stage_and_reuses_verified_cache (test_collection_expansion.MedicationExpansionTests.test_budget_resume_preserves_stage_and_reuses_verified_cache) ... ok
+test_page_discovery_is_not_capped_at_old_sample (test_collection_expansion.MedicationExpansionTests.test_page_discovery_is_not_capped_at_old_sample) ... ok
+test_pipeline_never_marks_partial_or_failed_audit_ready (test_collection_expansion.MedicationExpansionTests.test_pipeline_never_marks_partial_or_failed_audit_ready) ... ok
+test_provider_rejection_stops_without_serializing_error_secrets (test_collection_expansion.MedicationExpansionTests.test_provider_rejection_stops_without_serializing_error_secrets) ... ok
+test_repeated_listing_page_is_coverage_failure (test_collection_expansion.MedicationExpansionTests.test_repeated_listing_page_is_coverage_failure) ... ok
+Retrying first: HTTP 503, waiting 2s
+test_retry_attempts_count_against_budget (test_collection_expansion.MedicationExpansionTests.test_retry_attempts_count_against_budget) ... ok
+test_windows_checkpoint_rename_retries_and_preserves_previous_file_on_failure (test_collection_expansion.MedicationExpansionTests.test_windows_checkpoint_rename_retries_and_preserves_previous_file_on_failure) ... ok
+test_zero_letter_and_duplicate_listing_links (test_collection_expansion.MedicationExpansionTests.test_zero_letter_and_duplicate_listing_links) ... ok
+test_duplicate_names_are_reviewed_not_automatically_merged (test_collection_expansion.PharmacyExpansionTests.test_duplicate_names_are_reviewed_not_automatically_merged) ... ok
+Other city: 1/4 points, 1 unique pharmacies
+Other city: 1/4 points, 1 unique pharmacies
+Other city: 1/4 points, 1 unique pharmacies
+test_generic_city_run_is_staged_capped_and_resumable (test_collection_expansion.PharmacyExpansionTests.test_generic_city_run_is_staged_capped_and_resumable) ... ok
+test_grid_covers_bounds_and_phone_normalization_preserves_unknowns (test_collection_expansion.PharmacyExpansionTests.test_grid_covers_bounds_and_phone_normalization_preserves_unknowns) ... ok
+Cache audit: tmp9iurua6f, 0 responses
+test_offline_retrieval_audit_uses_full_entity_contract (test_collection_expansion.PharmacyExpansionTests.test_offline_retrieval_audit_uses_full_entity_contract) ... ok
+test_container_setup_reads_only_explicit_environment_without_a_file (test_compose_deployment.ComposeConfigurationTests.test_container_setup_reads_only_explicit_environment_without_a_file) ... ok
+test_credentials_translate_existing_database_without_changing_scope_or_provider (test_compose_deployment.ComposeConfigurationTests.test_credentials_translate_existing_database_without_changing_scope_or_provider) ... ok
+test_default_stack_has_one_entry_point_and_only_owned_credentials (test_compose_deployment.ComposeConfigurationTests.test_default_stack_has_one_entry_point_and_only_owned_credentials) ... ok
+test_core_ready_is_independent_of_language_and_does_not_infer (test_compose_deployment.CoreReadinessTests.test_core_ready_is_independent_of_language_and_does_not_infer) ... ok
+test_database_outage_makes_core_unready_without_exposing_database_errors (test_compose_deployment.CoreReadinessTests.test_database_outage_makes_core_unready_without_exposing_database_errors) ... ok
+test_request_modes_and_api_session_roundtrip (test_conversation.ConversationApiAndUiTests.test_request_modes_and_api_session_roundtrip) ... ok
+test_streamlit_attaches_session_to_text_and_clears_it_on_reset (test_conversation.ConversationApiAndUiTests.test_streamlit_attaches_session_to_text_and_clears_it_on_reset) ... 2026-10-20 02:54:58.071 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_streamlit_reference_button_sends_the_offered_index_without_text (test_conversation.ConversationApiAndUiTests.test_streamlit_reference_button_sends_the_offered_index_without_text) ... 2026-10-20 02:54:59.221 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_eight_development_contexts_resolve_identity_and_requested_totals (test_conversation.ConversationTests.test_all_eight_development_contexts_resolve_identity_and_requested_totals) ... ok
+test_ambiguous_reference_needs_choice_and_choice_uses_no_inference (test_conversation.ConversationTests.test_ambiguous_reference_needs_choice_and_choice_uses_no_inference) ... ok
+test_confirmed_choice_survives_quantity_and_availability_followups (test_conversation.ConversationTests.test_confirmed_choice_survives_quantity_and_availability_followups) ... ok
+test_explicit_correction_is_remembered_instead_of_rejected_strength (test_conversation.ConversationTests.test_explicit_correction_is_remembered_instead_of_rejected_strength) ... ok
+test_fragment_information_intent_inherits_previous_price_intent (test_conversation.ConversationTests.test_fragment_information_intent_inherits_previous_price_intent) ... ok
+test_fuzzy_identity_stays_unconfirmed_after_typed_filter (test_conversation.ConversationTests.test_fuzzy_identity_stays_unconfirmed_after_typed_filter) ... ok
+test_long_source_packaging_never_breaks_session_creation_or_pinning (test_conversation.ConversationTests.test_long_source_packaging_never_breaks_session_creation_or_pinning) ... ok
+test_named_followup_targets_only_matching_previous_medication (test_conversation.ConversationTests.test_named_followup_targets_only_matching_previous_medication) ... ok
+test_new_product_does_not_inherit_filters_quantity_or_previous_identity (test_conversation.ConversationTests.test_new_product_does_not_inherit_filters_quantity_or_previous_identity) ... ok
+test_ordinal_selection_and_multimedication_ambiguity (test_conversation.ConversationTests.test_ordinal_selection_and_multimedication_ambiguity) ... ok
+test_pharmacy_context_and_city_switch_do_not_leak_filters (test_conversation.ConversationTests.test_pharmacy_context_and_city_switch_do_not_leak_filters) ... ok
+test_provider_failure_leaves_original_session_usable (test_conversation.ConversationTests.test_provider_failure_leaves_original_session_usable) ... ok
+test_sessions_expire_are_bounded_and_are_not_global_memory (test_conversation.ConversationTests.test_sessions_expire_are_bounded_and_are_not_global_memory) ... ok
+test_strength_form_and_presentation_changes_do_not_reuse_old_selection (test_conversation.ConversationTests.test_strength_form_and_presentation_changes_do_not_reuse_old_selection) ... ok
+test_unsupported_and_topic_switches_drop_old_medication (test_conversation.ConversationTests.test_unsupported_and_topic_switches_drop_old_medication) ... ok
+test_without_session_the_same_fragment_remains_incomplete (test_conversation.ConversationTests.test_without_session_the_same_fragment_remains_incomplete) ... ok
+test_provider_failure_stops_and_report_is_not_overwritten (test_conversation_smoke.ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten) ... Executing <Task pending name='Task-233' coro=<ConversationSmokeTests.test_provider_failure_stops_and_report_is_not_overwritten() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:52> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.281 seconds
+ok
+test_two_turns_share_context_and_zero_budget_sends_nothing (test_conversation_smoke.ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing) ... Executing <Task pending name='Task-238' coro=<ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:40> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.469 seconds
+Executing <Task pending name='Task-238' coro=<ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:40> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.234 seconds
+Executing <Task pending name='Task-238' coro=<ConversationSmokeTests.test_two_turns_share_context_and_zero_budget_sends_nothing() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_conversation_smoke.py:40> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.375 seconds
+ok
+test_api_url_cannot_contain_credentials_or_query_secrets (test_demo.DemoClientTests.test_api_url_cannot_contain_credentials_or_query_secrets) ... ok
+test_connection_timeout_malformed_response_and_input_errors (test_demo.DemoClientTests.test_connection_timeout_malformed_response_and_input_errors) ... ok
+test_provider_errors_are_redacted_and_cooldown_is_preserved (test_demo.DemoClientTests.test_provider_errors_are_redacted_and_cooldown_is_preserved) ... ok
+Reusing the running language service; it will be left running on exit.
+test_language_storage_mismatch_leaves_reused_service_running (test_demo.LauncherTests.test_language_storage_mismatch_leaves_reused_service_running) ... The language service uses a different storage backend. Stop it yourself or choose another --language-port.
+ok
+test_launcher_does_not_reuse_an_api_with_a_different_storage_backend (test_demo.LauncherTests.test_launcher_does_not_reuse_an_api_with_a_different_storage_backend) ... The running API uses a different storage backend. Stop it yourself or choose another --api-port.
+ok
+test_old_in_process_api_is_not_silently_reused (test_demo.LauncherTests.test_old_in_process_api_is_not_silently_reused) ... The running API uses an older architecture or different language URL. Stop it yourself or choose another --api-port.
+ok
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1849641740160'> | Ctrl+C to stop
+test_owned_backend_and_ui_are_stopped_on_interrupt (test_demo.LauncherTests.test_owned_backend_and_ui_are_stopped_on_interrupt) ... ok
+Reusing the running language service; it will be left running on exit.
+Reusing the running FastAPI service; it will be left running on exit.
+Open http://127.0.0.1:8501 | API: <MagicMock name='DemoClient().base_url' id='1849642800080'> | Ctrl+C to stop
+test_reused_backend_is_never_stopped_by_the_launcher (test_demo.LauncherTests.test_reused_backend_is_never_stopped_by_the_launcher) ... ok
+test_arabic_input_is_escaped_and_no_health_connection_has_recovery (test_demo.StreamlitTests.test_arabic_input_is_escaped_and_no_health_connection_has_recovery) ... 2026-10-20 02:55:01.613 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_cooldown_click_does_not_send_an_early_retry (test_demo.StreamlitTests.test_cooldown_click_does_not_send_an_early_retry) ... 2026-10-20 02:55:01.776 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_example_error_and_explicit_retry_preserve_the_original_payload (test_demo.StreamlitTests.test_example_error_and_explicit_retry_preserve_the_original_payload) ... 2026-10-20 02:55:01.963 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_expired_selection_restarts_text_and_never_replays_the_expired_token (test_demo.StreamlitTests.test_expired_selection_restarts_text_and_never_replays_the_expired_token) ... 2026-10-20 02:55:02.212 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_real_choice_payload_and_no_api_call_on_display_reruns (test_demo.StreamlitTests.test_real_choice_payload_and_no_api_call_on_display_reruns) ... 2026-10-20 02:55:02.475 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_screenshot_sequence_uses_the_latest_response_session_even_after_retry (test_demo_conversation_chain.DemoConversationChainTests.test_screenshot_sequence_uses_the_latest_response_session_even_after_retry) ... 2026-10-20 02:55:03.354 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-20 02:55:03.547 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-20 02:55:04.216 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-20 02:55:04.414 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_audit_separates_schema_failure_from_unsupported_entity_evidence (test_development_live.DevelopmentTests.test_audit_separates_schema_failure_from_unsupported_entity_evidence) ... ok
+test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions (test_development_live.DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions) ... Executing <Task pending name='Task-272' coro=<DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:50> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.406 seconds
+Executing <Task pending name='Task-272' coro=<DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:52> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.938 seconds
+Executing <Task finished name='Task-272' coro=<DevelopmentTests.test_budget_resume_and_all_40_outcomes_use_only_captured_live_predictions() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:22> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 2.078 seconds
+ok
+test_custom_seen_regressions_are_development_only_and_have_their_own_checksum (test_development_live.DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum) ... Executing <Task pending name='Task-277' coro=<DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:134> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.297 seconds
+Executing <Task finished name='Task-277' coro=<DevelopmentTests.test_custom_seen_regressions_are_development_only_and_have_their_own_checksum() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:123> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.406 seconds
+ok
+test_held_out_gate_runs_before_loading_examples_or_creating_a_provider (test_development_live.DevelopmentTests.test_held_out_gate_runs_before_loading_examples_or_creating_a_provider) ... ok
+test_invalid_output_is_retained_as_failure_instead_of_retried_until_success (test_development_live.DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success) ... Executing <Task pending name='Task-287' coro=<DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success() running at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:90> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:448> cb=[_run_until_complete_cb() at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\base_events.py:181] created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.343 seconds
+Executing <Task finished name='Task-287' coro=<DevelopmentTests.test_invalid_output_is_retained_as_failure_instead_of_retried_until_success() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_development_live.py:80> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.406 seconds
+ok
+test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence (test_evaluation_freeze.FreezeTests.test_freeze_and_reverify_refuse_changed_code_model_or_development_evidence) ... ok
+test_incomplete_development_cannot_be_frozen (test_evaluation_freeze.FreezeTests.test_incomplete_development_cannot_be_frozen) ... ok
+test_changed_model_prompt_or_labels_reject_resume_before_any_call (test_evaluation_resume.ResumeTests.test_changed_model_prompt_or_labels_reject_resume_before_any_call) ... ok
+test_duplicate_saved_results_are_rejected (test_evaluation_resume.ResumeTests.test_duplicate_saved_results_are_rejected) ... ok
+test_existing_evidence_is_never_overwritten_by_accident (test_evaluation_resume.ResumeTests.test_existing_evidence_is_never_overwritten_by_accident) ... ok
+test_interruption_preserves_saved_cases_and_counts_uncertain_attempts (test_evaluation_resume.ResumeTests.test_interruption_preserves_saved_cases_and_counts_uncertain_attempts) ... ok
+test_missing_report_key_and_invalid_budget_do_not_consume_requests (test_evaluation_resume.ResumeTests.test_missing_report_key_and_invalid_budget_do_not_consume_requests) ... ok
+test_missing_request_ledger_rejects_resume_without_resetting_counts (test_evaluation_resume.ResumeTests.test_missing_request_ledger_rejects_resume_without_resetting_counts) ... ok
+test_provider_failure_stays_pending_and_resume_retries_only_that_case (test_evaluation_resume.ResumeTests.test_provider_failure_stays_pending_and_resume_retries_only_that_case) ... ok
+test_quota_resume_does_not_probe_during_shared_cooldown (test_evaluation_resume.ResumeTests.test_quota_resume_does_not_probe_during_shared_cooldown) ... ok
+test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly (test_evaluation_resume.ResumeTests.test_report_lock_blocks_concurrent_evaluators_and_releases_cleanly) ... ok
+test_three_invocations_complete_without_repeating_saved_cases (test_evaluation_resume.ResumeTests.test_three_invocations_complete_without_repeating_saved_cases) ... ok
+test_zero_budget_sends_nothing_and_is_resumable (test_evaluation_resume.ResumeTests.test_zero_budget_sends_nothing_and_is_resumable) ... ok
+test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried (test_gemini.GeminiAdapterTests.test_auth_permission_model_schema_redirect_and_long_retry_are_not_retried) ... Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_permission_denied attempts=1
+Interpretation failed provider=gemini code=provider_model_unavailable attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+ok
+test_google_invalid_key_error_and_retry_info (test_gemini.GeminiAdapterTests.test_google_invalid_key_error_and_retry_info) ... Interpretation failed provider=gemini code=provider_authentication_failed attempts=1
+Interpretation failed provider=gemini code=provider_request_rejected attempts=1
+Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+ok
+test_hard_deadline_is_bounded_even_without_transport_timeout (test_gemini.GeminiAdapterTests.test_hard_deadline_is_bounded_even_without_transport_timeout) ... Interpretation failed provider=gemini code=provider_timeout attempts=2
+ok
+test_native_schema_request_and_actual_usage_with_thoughts_excluded (test_gemini.GeminiAdapterTests.test_native_schema_request_and_actual_usage_with_thoughts_excluded) ... ok
+test_persistent_network_server_and_timeout_failures_stop_after_two (test_gemini.GeminiAdapterTests.test_persistent_network_server_and_timeout_failures_stop_after_two) ... Interpretation failed provider=gemini code=provider_unavailable attempts=2
+Interpretation failed provider=gemini code=provider_unreachable attempts=2
+Interpretation failed provider=gemini code=provider_timeout attempts=2
+ok
+test_refusals_truncation_malformed_and_invented_entities_are_rejected (test_gemini.GeminiAdapterTests.test_refusals_truncation_malformed_and_invented_entities_are_rejected) ... ok
+test_short_rate_limit_cooldown_is_not_automatically_retried (test_gemini.GeminiAdapterTests.test_short_rate_limit_cooldown_is_not_automatically_retried) ... Interpretation failed provider=gemini code=provider_rate_limited attempts=1
+ok
+test_default_selection_key_isolation_and_health (test_gemini.GeminiConfigTests.test_default_selection_key_isolation_and_health) ... ok
+test_environment_precedence_and_config_validation (test_gemini.GeminiConfigTests.test_environment_precedence_and_config_validation) ... ok
+test_real_adapter_chat_clarification_and_sources_without_a_server (test_gemini.GeminiConfigTests.test_real_adapter_chat_clarification_and_sources_without_a_server) ... ok
+test_blank_placeholder_and_invalid_settings (test_interpretation.ConfigurationTests.test_blank_placeholder_and_invalid_settings) ... ok
+test_configuration_file_and_environment_precedence (test_interpretation.ConfigurationTests.test_configuration_file_and_environment_precedence) ... ok
+test_input_validation_precedes_inference (test_interpretation.InterpretationApiTests.test_input_validation_precedes_inference) ... ok
+test_rate_limit_response_propagates_cooldown_without_provider_body (test_interpretation.InterpretationApiTests.test_rate_limit_response_propagates_cooldown_without_provider_body) ... Interpretation failed code=provider_rate_limited attempts=1
+ok
+test_real_api_response_and_secret_redaction (test_interpretation.InterpretationApiTests.test_real_api_response_and_secret_redaction) ... ok
+test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error (test_interpretation.InterpretationApiTests.test_unconfigured_api_keeps_catalogue_working_and_returns_actionable_error) ... ok
+test_actual_sdk_sends_schema_and_returns_measured_metadata (test_interpretation.InterpretationTests.test_actual_sdk_sends_schema_and_returns_measured_metadata) ... ok
+test_auth_permission_bad_model_and_long_rate_limit_are_not_retried (test_interpretation.InterpretationTests.test_auth_permission_bad_model_and_long_rate_limit_are_not_retried) ... Interpretation failed code=provider_authentication_failed attempts=1
+Interpretation failed code=provider_permission_denied attempts=1
+Interpretation failed code=provider_request_rejected attempts=1
+Interpretation failed code=provider_rate_limited attempts=1
+ok
+test_connection_and_timeout_errors_have_bounded_retry (test_interpretation.InterpretationTests.test_connection_and_timeout_errors_have_bounded_retry) ... Interpretation failed code=provider_unreachable attempts=2
+Interpretation failed code=provider_timeout attempts=2
+ok
+test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode (test_interpretation.InterpretationTests.test_explicit_json_mode_sends_schema_in_prompt_and_reports_actual_mode) ... ok
+test_hard_deadline_is_enforced (test_interpretation.InterpretationTests.test_hard_deadline_is_enforced) ... Interpretation failed code=provider_timeout attempts=2
+ok
+test_invalid_truncated_refused_or_invented_outputs_are_rejected (test_interpretation.InterpretationTests.test_invalid_truncated_refused_or_invented_outputs_are_rejected) ... ok
+test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema (test_interpretation.InterpretationTests.test_json_mode_still_rejects_invented_entities_extra_fields_and_wrong_schema) ... ok
+test_missing_key_never_sends_a_request (test_interpretation.InterpretationTests.test_missing_key_never_sends_a_request) ... ok
+test_multiple_medications_and_incomplete_requests (test_interpretation.InterpretationTests.test_multiple_medications_and_incomplete_requests) ... ok
+test_provider_json_generation_failure_gets_only_one_retry (test_interpretation.InterpretationTests.test_provider_json_generation_failure_gets_only_one_retry) ... Interpretation failed code=provider_generation_failed attempts=2
+ok
+test_successful_retry_is_recorded (test_interpretation.InterpretationTests.test_successful_retry_is_recorded) ... ok
+test_transient_error_has_one_retry_without_sdk_multiplication (test_interpretation.InterpretationTests.test_transient_error_has_one_retry_without_sdk_multiplication) ... Interpretation failed code=provider_unavailable attempts=2
+ok
+test_entity_comparison_distinguishes_missing_from_wrong (test_interpretation.SmokeEvaluationTests.test_entity_comparison_distinguishes_missing_from_wrong) ... ok
+test_fixture_has_twelve_balanced_cases_and_only_message_spans (test_interpretation.SmokeEvaluationTests.test_fixture_has_twelve_balanced_cases_and_only_message_spans) ... ok
+test_incomplete_or_failed_run_cannot_pass (test_interpretation.SmokeEvaluationTests.test_incomplete_or_failed_run_cannot_pass) ... ok
+test_invalid_request_never_calls_provider_or_echoes_patient_input (test_language_service.LanguageHttpTests.test_invalid_request_never_calls_provider_or_echoes_patient_input) ... Executing <Task finished name='Task-478' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.375 seconds
+ok
+test_language_failure_preserves_pending_choices_and_catalogue (test_language_service.LanguageHttpTests.test_language_failure_preserves_pending_choices_and_catalogue) ... Executing <Task finished name='Task-485' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.203 seconds
+ok
+test_language_total_deadline_stops_without_a_second_provider_attempt (test_language_service.LanguageHttpTests.test_language_total_deadline_stops_without_a_second_provider_attempt) ... Executing <Task finished name='Task-490' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.375 seconds
+ok
+test_malformed_success_and_invented_evidence_are_rejected (test_language_service.LanguageHttpTests.test_malformed_success_and_invented_evidence_are_rejected) ... Executing <Task finished name='Task-495' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.203 seconds
+ok
+test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt (test_language_service.LanguageHttpTests.test_quota_cooldown_crosses_http_without_replay_and_blocks_next_attempt) ... Executing <Task finished name='Task-501' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.359 seconds
+Interpretation failed code=provider_rate_limited attempts=1
+ok
+test_readiness_checks_quota_without_a_provider_attempt (test_language_service.LanguageHttpTests.test_readiness_checks_quota_without_a_provider_attempt) ... Executing <Task finished name='Task-512' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.188 seconds
+ok
+test_remote_error_text_and_invalid_error_contract_never_leak (test_language_service.LanguageHttpTests.test_remote_error_text_and_invalid_error_contract_never_leak) ... Executing <Task finished name='Task-518' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.359 seconds
+ok
+test_transport_timeout_is_single_attempt_and_completion_is_uncertain (test_language_service.LanguageHttpTests.test_transport_timeout_is_single_attempt_and_completion_is_uncertain) ... Executing <Task finished name='Task-523' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.203 seconds
+ok
+test_two_services_preserve_grounding_and_only_send_current_message (test_language_service.LanguageHttpTests.test_two_services_preserve_grounding_and_only_send_current_message) ... Executing <Task finished name='Task-528' coro=<LanguageHttpTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_language_service.py:102> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.218 seconds
+ok
+test_entrypoints_import_without_other_service_or_provider_modules (test_language_service.ServiceConfigurationTests.test_entrypoints_import_without_other_service_or_provider_modules) ... ok
+test_real_loopback_http_to_an_independent_language_server (test_language_service.ServiceConfigurationTests.test_real_loopback_http_to_an_independent_language_server) ... ok
+test_runtime_settings_own_only_their_service_credentials (test_language_service.ServiceConfigurationTests.test_runtime_settings_own_only_their_service_credentials) ... ok
+test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions (test_matching_improvements.MatchingTests.test_arabic_substance_and_form_are_matched_without_rewriting_raw_mentions) ... ok
+test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation (test_matching_improvements.MatchingTests.test_arabizi_partial_and_fuzzy_proposals_require_record_confirmation) ... ok
+test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate (test_matching_improvements.MatchingTests.test_fuzzy_ranking_survives_sorting_and_brand_collisions_stay_separate) ... ok
+test_known_brand_wrong_strength_never_auto_selects_and_retains_choices (test_matching_improvements.MatchingTests.test_known_brand_wrong_strength_never_auto_selects_and_retains_choices) ... ok
+test_reviewed_alias_targets_exist_in_the_real_catalogue (test_matching_improvements.MatchingTests.test_reviewed_alias_targets_exist_in_the_real_catalogue) ... ok
+test_explicit_unit_equivalence_and_ordered_combination_strengths (test_matching_improvements.NormalizationTests.test_explicit_unit_equivalence_and_ordered_combination_strengths) ... ok
+test_form_synonyms_keep_qualifiers_and_negative_words_significant (test_matching_improvements.NormalizationTests.test_form_synonyms_keep_qualifiers_and_negative_words_significant) ... ok
+test_packaging_numbers_volumes_container_and_form_are_not_conflated (test_matching_improvements.NormalizationTests.test_packaging_numbers_volumes_container_and_form_are_not_conflated) ... ok
+test_http_refinement_validation_and_existing_presentation_selection (test_matching_improvements.RefinementApiAndUiTests.test_http_refinement_validation_and_existing_presentation_selection) ... ok
+test_streamlit_refinement_menu_sends_the_real_continuation_payload (test_matching_improvements.RefinementApiAndUiTests.test_streamlit_refinement_menu_sends_the_real_continuation_payload) ... 2026-10-20 02:55:23.315 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_explicit_strength_correction_preserves_original_extraction_and_prices (test_matching_improvements.RefinementTests.test_explicit_strength_correction_preserves_original_extraction_and_prices) ... ok
+test_narrowing_large_substance_search_preserves_scope_without_new_inference (test_matching_improvements.RefinementTests.test_narrowing_large_substance_search_preserves_scope_without_new_inference) ... ok
+test_next_page_is_validated_and_only_offered_records_can_be_selected (test_matching_improvements.RefinementTests.test_next_page_is_validated_and_only_offered_records_can_be_selected) ... ok
+test_unoffered_fields_values_and_cross_mention_choices_are_rejected (test_matching_improvements.RefinementTests.test_unoffered_fields_values_and_cross_mention_choices_are_rejected) ... ok
+test_fuzzy_api_response_requires_review (test_medication_foundation.ApiTests.test_fuzzy_api_response_requires_review) ... Executing <Task finished name='Task-579' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.219 seconds
+ok
+test_health_and_search_need_no_further_file_reads (test_medication_foundation.ApiTests.test_health_and_search_need_no_further_file_reads) ... Executing <Task finished name='Task-585' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.422 seconds
+ok
+test_invalid_queries_return_422_instead_of_500 (test_medication_foundation.ApiTests.test_invalid_queries_return_422_instead_of_500) ... Executing <Task finished name='Task-591' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.203 seconds
+ok
+test_lookup_and_partial_catalogue_404 (test_medication_foundation.ApiTests.test_lookup_and_partial_catalogue_404) ... Executing <Task finished name='Task-597' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.219 seconds
+ok
+test_original_search_fields_and_new_filters (test_medication_foundation.ApiTests.test_original_search_fields_and_new_filters) ... Executing <Task finished name='Task-603' coro=<ApiTests.asyncSetUp() done, defined at C:\Users\REDA\Desktop\COURSES\Challenge camp\Challenge 1\pharmacy-assistant\tests\test_medication_foundation.py:195> result=None created at C:\Users\REDA\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\asyncio\runners.py:100> took 0.500 seconds
+ok
+test_abip_presentations_retain_prices_and_enrichment (test_medication_foundation.CatalogueTests.test_abip_presentations_retain_prices_and_enrichment) ... ok
+test_active_substance_and_case_search (test_medication_foundation.CatalogueTests.test_active_substance_and_case_search) ... ok
+test_enriched_only_product_is_searchable (test_medication_foundation.CatalogueTests.test_enriched_only_product_is_searchable) ... ok
+test_filters_select_one_presentation_without_merging (test_medication_foundation.CatalogueTests.test_filters_select_one_presentation_without_merging) ... ok
+test_python_search_interface_remains_list_of_dicts (test_medication_foundation.CatalogueTests.test_python_search_interface_remains_list_of_dicts) ... ok
+test_spelling_suggestions_never_become_results (test_medication_foundation.CatalogueTests.test_spelling_suggestions_never_become_results) ... ok
+test_startup_rejects_empty_duplicate_and_invalid_data (test_medication_foundation.CatalogueTests.test_startup_rejects_empty_duplicate_and_invalid_data) ... ok
+test_strength_units_and_numeric_boundaries (test_medication_foundation.CatalogueTests.test_strength_units_and_numeric_boundaries) ... ok
+test_unknown_and_filter_misses_are_not_nonexistence_claims (test_medication_foundation.CatalogueTests.test_unknown_and_filter_misses_are_not_nonexistence_claims) ... ok
+test_whitespace_input_rejected_for_query_and_filters (test_medication_foundation.CatalogueTests.test_whitespace_input_rejected_for_query_and_filters) ... ok
+test_basic_and_detailed_page_numbers_can_differ (test_medication_foundation.QualityTests.test_basic_and_detailed_page_numbers_can_differ) ... ok
+test_empty_duplicate_and_nonobject_data_fail (test_medication_foundation.QualityTests.test_empty_duplicate_and_nonobject_data_fail) ... ok
+test_full_enriched_dataset_passes_with_unknown_prices (test_medication_foundation.QualityTests.test_full_enriched_dataset_passes_with_unknown_prices) ... ok
+test_invalid_prices_schema_and_provenance_fail (test_medication_foundation.QualityTests.test_invalid_prices_schema_and_provenance_fail) ... ok
+test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback (test_opencode.OpenCodeAdapterTests.test_bad_schema_auth_payment_redirect_and_long_cooldown_have_no_fallback) ... Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_authentication_failed attempts=1
+Interpretation failed provider=opencode code=provider_payment_required attempts=1
+Interpretation failed provider=opencode code=provider_permission_denied attempts=1
+Interpretation failed provider=opencode code=provider_request_rejected attempts=1
+Interpretation failed provider=opencode code=provider_rate_limited attempts=1
+ok
+test_free_tier_restriction_is_actionable_and_not_retried (test_opencode.OpenCodeAdapterTests.test_free_tier_restriction_is_actionable_and_not_retried) ... Interpretation failed provider=opencode code=provider_free_tier_restricted attempts=1
+ok
+test_hard_deadline_is_bounded (test_opencode.OpenCodeAdapterTests.test_hard_deadline_is_bounded) ... Interpretation failed provider=opencode code=provider_timeout attempts=2
+ok
+test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected (test_opencode.OpenCodeAdapterTests.test_invalid_entities_refusal_truncation_and_missing_metadata_are_rejected) ... ok
+test_json_object_requires_explicit_configuration_and_keeps_local_validation (test_opencode.OpenCodeAdapterTests.test_json_object_requires_explicit_configuration_and_keeps_local_validation) ... ok
+test_persistent_generation_connection_and_timeout_errors_stop_after_two (test_opencode.OpenCodeAdapterTests.test_persistent_generation_connection_and_timeout_errors_stop_after_two) ... Interpretation failed provider=opencode code=provider_generation_failed attempts=2
+Interpretation failed provider=opencode code=provider_unreachable attempts=2
+Interpretation failed provider=opencode code=provider_timeout attempts=2
+ok
+test_strict_request_endpoint_credentials_and_actual_metadata (test_opencode.OpenCodeAdapterTests.test_strict_request_endpoint_credentials_and_actual_metadata) ... ok
+test_transient_error_retries_only_once_and_records_success (test_opencode.OpenCodeAdapterTests.test_transient_error_retries_only_once_and_records_success) ... ok
+test_env_selection_and_validation (test_opencode.OpenCodeConfigTests.test_env_selection_and_validation) ... ok
+test_health_and_missing_glm_key_never_use_the_existing_groq_key (test_opencode.OpenCodeConfigTests.test_health_and_missing_glm_key_never_use_the_existing_groq_key) ... ok
+test_provider_selection_and_selected_key_are_independent (test_opencode.OpenCodeConfigTests.test_provider_selection_and_selected_key_are_independent) ... ok
+test_api_preserves_raw_arabic_and_exposes_matching_method (test_pharmacy_matching.PharmacyApiAndUiTests.test_api_preserves_raw_arabic_and_exposes_matching_method) ... ok
+test_streamlit_displays_ambiguity_and_real_directory_choices (test_pharmacy_matching.PharmacyApiAndUiTests.test_streamlit_displays_ambiguity_and_real_directory_choices) ... 2026-10-20 02:55:30.889 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_multilingual_alias_returns_only_retrieved_contact_and_sources (test_pharmacy_matching.PharmacyChatTests.test_multilingual_alias_returns_only_retrieved_contact_and_sources) ... ok
+test_partial_name_clarifies_then_exact_name_targets_one_record (test_pharmacy_matching.PharmacyChatTests.test_partial_name_clarifies_then_exact_name_targets_one_record) ... ok
+test_area_aliases_are_separate_from_pharmacy_names (test_pharmacy_matching.PharmacyMatchingTests.test_area_aliases_are_separate_from_pharmacy_names) ... ok
+test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities (test_pharmacy_matching.PharmacyMatchingTests.test_broad_name_returns_ambiguity_and_retains_all_duplicate_identities) ... ok
+test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified (test_pharmacy_matching.PharmacyMatchingTests.test_browse_truncation_and_scope_are_explicit_and_records_are_unmodified) ... ok
+test_exact_names_win_over_real_directory_substring_collisions (test_pharmacy_matching.PharmacyMatchingTests.test_exact_names_win_over_real_directory_substring_collisions) ... ok
+test_name_and_area_are_both_required_and_never_fall_back (test_pharmacy_matching.PharmacyMatchingTests.test_name_and_area_are_both_required_and_never_fall_back) ... ok
+test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants (test_pharmacy_matching.PharmacyMatchingTests.test_punctuation_diacritics_attached_arabic_labels_and_lexical_variants) ... ok
+test_reviewed_alias_targets_exist_and_raw_fields_are_preserved (test_pharmacy_matching.PharmacyMatchingTests.test_reviewed_alias_targets_exist_and_raw_fields_are_preserved) ... ok
+test_whole_tokens_do_not_match_substrings_or_numbers_inside_names (test_pharmacy_matching.PharmacyMatchingTests.test_whole_tokens_do_not_match_substrings_or_numbers_inside_names) ... ok
+test_budgeted_partial_run_resumes_only_remaining_cases (test_pharmacy_smoke.PharmacySmokeTests.test_budgeted_partial_run_resumes_only_remaining_cases) ... ok
+test_incorrect_resolution_and_incomplete_coverage_cannot_pass (test_pharmacy_smoke.PharmacySmokeTests.test_incorrect_resolution_and_incomplete_coverage_cannot_pass) ... ok
+test_backup_restore_preserves_facts_and_quotas_without_temporary_history (test_postgres_storage.PostgresStorageTests.test_backup_restore_preserves_facts_and_quotas_without_temporary_history) ... skipped 'Real PostgreSQL not explicitly configured'
+test_concurrent_quota_reservations_and_budget_limits (test_postgres_storage.PostgresStorageTests.test_concurrent_quota_reservations_and_budget_limits) ... skipped 'Real PostgreSQL not explicitly configured'
+test_concurrent_updates_cannot_overwrite_successful_context (test_postgres_storage.PostgresStorageTests.test_concurrent_updates_cannot_overwrite_successful_context) ... skipped 'Real PostgreSQL not explicitly configured'
+test_conversation_api_restart_restore_idempotency_and_reset (test_postgres_storage.PostgresStorageTests.test_conversation_api_restart_restore_idempotency_and_reset) ... skipped 'Real PostgreSQL not explicitly configured'
+test_expired_context_rejected_before_cleanup_and_children_deleted (test_postgres_storage.PostgresStorageTests.test_expired_context_rejected_before_cleanup_and_children_deleted) ... skipped 'Real PostgreSQL not explicitly configured'
+test_foreign_keys_and_exact_price_constraints (test_postgres_storage.PostgresStorageTests.test_foreign_keys_and_exact_price_constraints) ... skipped 'Real PostgreSQL not explicitly configured'
+test_full_round_trip_repeat_import_and_permissions (test_postgres_storage.PostgresStorageTests.test_full_round_trip_repeat_import_and_permissions) ... skipped 'Real PostgreSQL not explicitly configured'
+test_http_extraction_outage_restore_choices_and_postgres_quotas (test_postgres_storage.PostgresStorageTests.test_http_extraction_outage_restore_choices_and_postgres_quotas) ... skipped 'Real PostgreSQL not explicitly configured'
+test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger (test_postgres_storage.PostgresStorageTests.test_legacy_quota_import_preserves_cooldowns_without_modifying_ledger) ... skipped 'Real PostgreSQL not explicitly configured'
+test_refresh_and_failed_messages_do_not_extend_expiry (test_postgres_storage.PostgresStorageTests.test_refresh_and_failed_messages_do_not_extend_expiry) ... skipped 'Real PostgreSQL not explicitly configured'
+test_candidate_enrichment_preserves_official_facts_and_original_input (test_prepare_demo_enrichment.FrozenEnrichmentTests.test_candidate_enrichment_preserves_official_facts_and_original_input) ... ok
+test_conflicting_same_timestamp_and_duplicate_source_ids_are_rejected (test_prepare_demo_enrichment.FrozenEnrichmentTests.test_conflicting_same_timestamp_and_duplicate_source_ids_are_rejected) ... ok
+test_freeze_reparses_raw_content_and_rejects_tampered_parsed_prices (test_prepare_demo_enrichment.FrozenEnrichmentTests.test_freeze_reparses_raw_content_and_rejects_tampered_parsed_prices) ... ok
+test_latest_whole_observation_and_earlier_unrefreshed_ids_are_preserved (test_prepare_demo_enrichment.FrozenEnrichmentTests.test_latest_whole_observation_and_earlier_unrefreshed_ids_are_preserved) ... ok
+test_real_api_returns_exact_string_amounts_and_rejects_injected_prices (test_pricing.PricingApiAndUiTests.test_real_api_returns_exact_string_amounts_and_rejects_injected_prices) ... ok
+test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls (test_pricing.PricingApiAndUiTests.test_streamlit_displays_line_and_complete_order_totals_without_rerun_calls) ... 2026-10-20 02:55:32.878 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ambiguous_abip_selection_calculates_without_another_model_call (test_pricing.PricingChatTests.test_ambiguous_abip_selection_calculates_without_another_model_call) ... ok
+test_multilingual_answers_have_identical_math_and_keep_stock_unknown (test_pricing.PricingChatTests.test_multilingual_answers_have_identical_math_and_keep_stock_unknown) ... ok
+test_quantity_followups_replace_previous_quantity_and_keep_presentation (test_pricing.PricingChatTests.test_quantity_followups_replace_previous_quantity_and_keep_presentation) ... ok
+test_source_conflicts_keep_official_price_in_arithmetic (test_pricing.PricingChatTests.test_source_conflicts_keep_official_price_in_arithmetic) ... ok
+test_unclear_quantity_asks_for_packages_then_a_clear_followup_works (test_pricing.PricingChatTests.test_unclear_quantity_asks_for_packages_then_a_clear_followup_works) ... ok
+test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown (test_pricing.PricingGroundingTests.test_box_size_is_not_purchase_quantity_and_missing_quantity_stays_unknown) ... ok
+test_missing_price_never_becomes_zero_but_stored_zero_is_preserved (test_pricing.PricingGroundingTests.test_missing_price_never_becomes_zero_but_stored_zero_is_preserved) ... ok
+test_money_uses_decimal_cents_and_changed_source_price (test_pricing.PricingGroundingTests.test_money_uses_decimal_cents_and_changed_source_price) ... ok
+test_multimedication_order_has_no_partial_or_implicit_quantity_total (test_pricing.PricingGroundingTests.test_multimedication_order_has_no_partial_or_implicit_quantity_total) ... ok
+test_real_prices_and_presentation_identity_determine_the_total (test_pricing.PricingGroundingTests.test_real_prices_and_presentation_identity_determine_the_total) ... ok
+test_specific_containers_must_be_the_selected_retail_presentation (test_pricing.PricingGroundingTests.test_specific_containers_must_be_the_selected_retail_presentation) ... ok
+test_spelling_and_presentation_ambiguity_prevent_totals (test_pricing.PricingGroundingTests.test_spelling_and_presentation_ambiguity_prevent_totals) ... ok
+test_reviewed_number_words_digits_and_duals_in_four_language_groups (test_pricing.QuantityParserTests.test_reviewed_number_words_digits_and_duals_in_four_language_groups) ... ok
+test_unclear_fractional_negative_range_or_physical_units_never_become_packages (test_pricing.QuantityParserTests.test_unclear_fractional_negative_range_or_physical_units_never_become_packages) ... ok
+test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter (test_quota.QuotaAdapterTests.test_known_daily_429_stops_without_retry_and_blocks_a_new_interpreter) ... Interpretation failed provider=gemini code=provider_daily_quota_exhausted attempts=1
+ok
+test_retries_cannot_exceed_one_wire_request_budget (test_quota.QuotaAdapterTests.test_retries_cannot_exceed_one_wire_request_budget) ... ok
+test_unspecified_429_gets_a_shared_default_cooldown (test_quota.QuotaAdapterTests.test_unspecified_429_gets_a_shared_default_cooldown) ... ok
+test_waiting_evaluator_respects_spacing_without_real_sleep (test_quota.QuotaAdapterTests.test_waiting_evaluator_respects_spacing_without_real_sleep) ... ok
+test_default_allows_back_to_back_requests_and_ignores_old_spacing (test_quota.QuotaApiTests.test_default_allows_back_to_back_requests_and_ignores_old_spacing) ... ok
+test_factory_api_spacing_preserves_lookup_and_retry_after_without_network (test_quota.QuotaApiTests.test_factory_api_spacing_preserves_lookup_and_retry_after_without_network) ... ok
+test_another_python_process_uses_the_same_ledger (test_quota.QuotaTests.test_another_python_process_uses_the_same_ledger) ... ok
+test_budget_counts_reservations_not_rejected_local_requests (test_quota.QuotaTests.test_budget_counts_reservations_not_rejected_local_requests) ... ok
+test_concurrent_connections_allow_only_one_reservation (test_quota.QuotaTests.test_concurrent_connections_allow_only_one_reservation) ... ok
+test_cooldown_persists_and_cannot_be_shortened_by_another_caller (test_quota.QuotaTests.test_cooldown_persists_and_cannot_be_shortened_by_another_caller) ... ok
+test_pacific_midnight_handles_summer_winter_and_dst (test_quota.QuotaTests.test_pacific_midnight_handles_summer_winter_and_dst) ... ok
+test_unavailable_ledger_fails_closed_and_settings_are_validated (test_quota.QuotaTests.test_unavailable_ledger_fails_closed_and_settings_are_validated) ... ok
+test_ambiguous_and_wrong_strength_never_auto_merge (test_reference_data.MatchingTests.test_ambiguous_and_wrong_strength_never_auto_merge) ... ok
+test_invalid_atc_and_nonmedication_products_are_not_promoted (test_reference_data.MatchingTests.test_invalid_atc_and_nonmedication_products_are_not_promoted) ... ok
+test_secondary_disagreements_leave_canonical_fields_unknown (test_reference_data.MatchingTests.test_secondary_disagreements_leave_canonical_fields_unknown) ... ok
+test_unique_presentation_enrichment_preserves_official_prices (test_reference_data.MatchingTests.test_unique_presentation_enrichment_preserves_official_prices) ... ok
+test_incomplete_snapshot_cannot_replace_dataset (test_reference_data.PharmacyAndCollectionTests.test_incomplete_snapshot_cannot_replace_dataset) ... ok
+test_only_rabat_records_and_no_undated_duty_claim (test_reference_data.PharmacyAndCollectionTests.test_only_rabat_records_and_no_undated_duty_claim) ... ok
+test_source_cache_verifies_hash_and_redacts_browser_tokens (test_reference_data.PharmacyAndCollectionTests.test_source_cache_verifies_hash_and_redacts_browser_tokens) ... ok
+test_medicament_extracts_actual_details_and_publication_date (test_reference_data.SecondaryParserTests.test_medicament_extracts_actual_details_and_publication_date) ... ok
+test_missing_presentation_is_preserved_without_guessing (test_reference_data.SecondaryParserTests.test_missing_presentation_is_preserved_without_guessing) ... ok
+test_saydalia_repeated_attributes_do_not_duplicate_products (test_reference_data.SecondaryParserTests.test_saydalia_repeated_attributes_do_not_duplicate_products) ... ok
+test_secondary_prices_and_package_boundaries (test_reference_data.SecondaryParserTests.test_secondary_prices_and_package_boundaries) ... ok
+test_json_round_trip_restores_clarification_then_pricing_context (test_storage_contracts.StateCodecTests.test_json_round_trip_restores_clarification_then_pricing_context) ... ok
+test_transcript_payload_does_not_persist_bearer_tokens (test_storage_contracts.StateCodecTests.test_transcript_payload_does_not_persist_bearer_tokens) ... ok
+test_unrecognized_snapshot_version_is_rejected (test_storage_contracts.StateCodecTests.test_unrecognized_snapshot_version_is_rejected) ... ok
+test_alias_spellings_and_confirmation_policies_remain_distinct (test_storage_contracts.StorageValueTests.test_alias_spellings_and_confirmation_policies_remain_distinct) ... ok
+test_frozen_initial_migrations_match_the_relational_models (test_storage_contracts.StorageValueTests.test_frozen_initial_migrations_match_the_relational_models) ... ok
+test_postgres_configuration_requires_both_private_service_urls (test_storage_contracts.StorageValueTests.test_postgres_configuration_requires_both_private_service_urls) ... ok
+test_prices_preserve_missing_zero_and_exact_precision (test_storage_contracts.StorageValueTests.test_prices_preserve_missing_zero_and_exact_precision) ... ok
+
+----------------------------------------------------------------------
+Ran 280 tests in 45.917s
+
+OK (skipped=10)

@@ -1,0 +1,35 @@
+{
+  "date_utc": "2026-10-20",
+  "counts": {
+    "medications": 7302,
+    "presentations": 9936,
+    "presentation_prices": 29808,
+    "pharmacies": 327,
+    "source_observations": 3128,
+    "data_conflicts": 1260,
+    "medication_aliases": 22,
+    "import_runs": 1,
+    "missing_public_prices": 1126,
+    "quota_scopes": 2
+  },
+  "migration_revisions": {
+    "core": "core_0001",
+    "language": "language_0001"
+  },
+  "source_input_hashes_unchanged": true,
+  "full_round_trip_and_permissions": {
+    "round_trip_passed": true,
+    "presentations": 9936,
+    "pharmacies": 327,
+    "cross_service_access_denied": true
+  },
+  "reimport_verified": true,
+  "backup_restore_verified": true,
+  "backup_path": ".runtime/backups/checkpoint2_20261020.dump",
+  "backup_sha256": "4c2927b9782d8fd3cf554fe0b7bafd5a0546ead727172c4173e6507b362bd916",
+  "temporary_conversation_data_excluded_from_backup": true,
+  "historical_sqlite_budgets_migrated": false,
+  "hosted_inference_requests": 0,
+  "demo_services_started_by_agent": false,
+  "native_postgresql_modified": false
+}

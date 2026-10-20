@@ -1,0 +1,129 @@
+ARCHITECTURE AND INTERFACE DECISIONS - WORKING DRAFT
+Date: 2026-10-19
+
+This records the direction discussed so far. Proposed technologies and service
+boundaries are not all final approvals. This file does not authorize migration,
+starting services, collecting more data, or publishing changes.
+
+1. CURRENT PRIORITY
+
+- Focus the next phase on architecture, maintainability and interface design.
+- Build on the working prototype and preserve its tested behavior and evidence.
+- Implement one checkpoint at a time, then stop for the user's validation.
+
+2. USER INTERFACE
+
+- Build a proper frontend separate from the backend, replacing Streamlit after
+  the replacement is validated.
+- React with TypeScript is the proposed frontend stack; final tooling remains
+  to be confirmed.
+- Do not show raw JSON to patients, including in additional-details panels.
+- Present medication details, quantities, prices, totals, sources and dates as
+  readable labelled information, cards and links.
+- Make clarification choices, loading states and errors understandable.
+- Support responsive layouts and Arabic/right-to-left text correctly.
+- Keep API credentials on the server. Keep developer diagnostics in logs and
+  development tools, outside the patient interface.
+- JSON remains an internal API format; removing its display does not remove
+  structured extraction or API contracts.
+
+3. BACKEND FRAMEWORK
+
+- FastAPI is optional, not an architectural requirement.
+- Migrating is feasible. Replacing a Python HTTP framework can reuse most
+  business logic; moving that logic to TypeScript/NestJS requires more porting,
+  or retaining Python services behind a TypeScript API.
+- Current recommendation, not a final user decision: keep Python/FastAPI for
+  the first migration to reuse tested functionality.
+- Remove HTTP-framework dependencies from business logic and make service
+  contracts explicit so transport/framework choices remain replaceable.
+- Final public API framework remains open for confirmation.
+
+4. SERVICE SEPARATION
+
+- Separate relevant services into independently runnable containers, rather
+  than relying only on folders inside one process.
+- Proposed boundaries:
+  * Web frontend: interface and public entry point.
+  * Conversation API: conversation flow, clarification, sessions and responses.
+  * Language service: hosted inference, extraction validation, provider adapters
+    and quota handling.
+  * Medication service: search, matching, presentations, prices and provenance.
+  * Pharmacy service: search, contact/location details and coverage.
+  * PostgreSQL: persistent storage with service-owned schemas and permissions.
+- Exact boundaries and API contracts still need review before implementation.
+- Services should communicate through defined contracts; avoid arbitrary
+  cross-service writes to another service's tables.
+- Use bounded timeouts, controlled retries, health checks and service-specific
+  logs. Containers alone do not prevent cascading failures.
+- Aim to keep direct medication/pharmacy browsing and inference-free selection
+  actions available during an inference outage, where dependencies allow it.
+- Never invent factual answers when a required dependency is unavailable.
+
+5. CONTAINERS AND ORCHESTRATION
+
+- Package the application components in Docker containers.
+- Docker Compose is the recommended initial orchestrator for the laptop and
+  single-host deployment; final confirmation is pending.
+- Use persistent database volumes and explicit configuration/secrets handling.
+- Kubernetes is deferred unless cluster deployment, replicas or advanced
+  deployment management become an actual requirement.
+- A single laptop and a single PostgreSQL instance remain shared failure points;
+  containerization is not a claim of high availability.
+
+6. DATABASE AND DATA MIGRATION
+
+- PostgreSQL is the proposed runtime data store instead of application lookup
+  directly from scattered JSONL files.
+- Store medications, distinct presentations, prices, reviewed name aliases,
+  source observations, collection timestamps and conflicts.
+- Store pharmacies and their contact/location/source information.
+- Persist expiring conversation/clarification state and durable quota tracking.
+- A single PostgreSQL instance with clearly owned schemas is the proposed
+  starting point; separate database servers per service are not yet planned.
+- Preserve existing record identities, prices, missing values and provenance.
+- Use versioned migrations, repeatable imports, validation and backup/restore
+  procedures. Re-importing must not create duplicate records.
+- PostgreSQL pg_trgm is a possible tool for spelling suggestions, not permission
+  to silently select uncertain matches.
+- Exact schema, persistence/retention rules and migration tooling remain open.
+
+7. REPOSITORY ORGANIZATION
+
+- Organize frontend, services, deployment configuration, database migrations,
+  import tools, tests and evaluation evidence into clear locations.
+- Keep reproducible seed/import inputs and necessary test fixtures.
+- Move bulk raw archives and collection working copies outside application
+  source as appropriate; retain provenance and reproducibility.
+- Moving to a database does not by itself clean up the repository.
+- Do not delete existing data or evaluation evidence as an automatic cleanup.
+
+8. MIGRATION CHECKPOINTS - PROPOSED ORDER
+
+1) Agree on architecture, service contracts and initial visual direction.
+2) Introduce the database and validate migrated data against current records.
+3) Extract service boundaries while preserving tested behavior.
+4) Package and connect services with Docker Compose; verify failure behavior.
+5) Build and integrate the frontend, validate it, then retire Streamlit.
+
+Each checkpoint requires user validation before proceeding to the next.
+
+9. SCOPE AND USER CONTROL
+
+- No model/provider switch is part of this architecture discussion.
+- Further scraping, additional cities, voice input, verified stock/hours/duty
+  data and public hosting are not automatically included in this migration.
+- Existing coverage and data limitations must remain visible and honest.
+- The user starts and stops demo services. Provide commands for the user to run.
+- When the user says "let's push", provide Git commands; do not execute commits
+  or pushes unless explicitly asked to execute them.
+- No paid upgrade or paid fallback is authorized.
+
+OPEN ITEMS TO CONFIRM
+
+- Final frontend tooling and visual direction.
+- Whether to retain FastAPI or migrate the public API framework.
+- Exact service boundaries and communication contracts.
+- Database schema, retention, migrations and import tooling.
+- Docker Compose as the initial deployment choice.
+- Final repository layout and the proposed checkpoint sequence.

@@ -12,6 +12,7 @@ from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
 from pharmacy_assistant.api import create_app
+from service_harness import connected_apps
 from pharmacy_assistant.config import DEFAULT_GEMINI_MODEL, GEMINI_BASE_URL, Settings
 from pharmacy_assistant.gemini_nlu import GeminiInterpreter
 from pharmacy_assistant.inference import create_interpreter
@@ -50,14 +51,14 @@ class GeminiConfigTests(unittest.TestCase):
         self.assertFalse(settings.interpretation_configured)
         self.assertIsInstance(create_interpreter(settings), GeminiInterpreter)
         self.assertNotIn("unused-groq", repr(settings))
-        with TestClient(create_app(settings=settings)) as client:
+        with connected_apps(settings) as client:
             health = client.get("/health").json()
             self.assertEqual(health["interpretation_provider"], "gemini")
             self.assertEqual(health["interpretation_model"], DEFAULT_GEMINI_MODEL)
             self.assertFalse(health["interpretation_configured"])
             result = client.post("/chat", json={"text": TEXT})
             self.assertEqual(result.status_code, 503)
-            self.assertIn("GEMINI_API_KEY", result.json()["detail"]["message"])
+            self.assertEqual(result.json()["detail"]["code"], "model_not_configured")
             self.assertNotIn("unused-", result.text)
             self.assertEqual(client.get("/medications/9079").status_code, 200)
 
@@ -84,8 +85,7 @@ class GeminiConfigTests(unittest.TestCase):
             calls.append(request)
             return httpx.Response(200, json=completion())
         interpreter = adapter(handler)
-        with patch("pharmacy_assistant.api.create_interpreter", return_value=interpreter), \
-             TestClient(create_app(settings=interpreter.settings)) as client:
+        with connected_apps(interpreter.settings, interpreter) as client:
             initial = client.post("/chat", json={"text": TEXT})
             self.assertEqual(initial.status_code, 200)
             body = initial.json()

@@ -9,6 +9,10 @@ wheels/
 # Virtual environments
 .venv
 
+# Frontend dependencies and local build cache
+node_modules/
+.vite/
+
 # Local environment / secrets
 .env
 .env.*
@@ -50,3 +54,8 @@ data/raw/expansion_v1/
 # Failed sandbox-only run; the verified normal-permission test log is retained.
 /reports/github_checkpoint_tests.log
 /reports/github_clean_checkout_tests.log
+
+# Failed Docker download diagnostics contain temporary signed CDN URLs.
+# Keep the successful build/validation evidence tracked separately.
+/reports/architecture_checkpoint4_build_retry.log
+/reports/architecture_checkpoint4_build_retry2.log

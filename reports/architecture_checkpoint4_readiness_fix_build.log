@@ -1,0 +1,150 @@
+ Image pharmacy-assistant-database-tools:local Building 
+ Image pharmacy-assistant-core:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.34kB done
+#1 DONE 0.0s
+
+#2 [core internal] load build definition from Dockerfile.python
+#2 transferring dockerfile: 2.69kB 0.0s done
+#2 DONE 0.0s
+
+#3 [database-setup internal] load metadata for ghcr.io/astral-sh/uv:0.11.19
+#3 DONE 0.9s
+
+#4 [database-setup internal] load metadata for docker.io/library/python:3.12-slim-bookworm
+#4 DONE 1.2s
+
+#5 [core internal] load .dockerignore
+#5 transferring context: 511B 0.0s done
+#5 DONE 0.0s
+
+#6 [core python-base 1/3] FROM docker.io/library/python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258
+#6 resolve docker.io/library/python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258 0.0s done
+#6 DONE 0.0s
+
+#7 [core uv 1/1] FROM ghcr.io/astral-sh/uv:0.11.19@sha256:b46b03ddfcfbf8f547af7e9eaefdf8a39c8cebcba7c98858d3162bd28cf536f6
+#7 resolve ghcr.io/astral-sh/uv:0.11.19@sha256:b46b03ddfcfbf8f547af7e9eaefdf8a39c8cebcba7c98858d3162bd28cf536f6 0.0s done
+#7 DONE 0.0s
+
+#8 [core internal] load build context
+#8 transferring context: 140.47kB 0.1s done
+#8 DONE 0.1s
+
+#9 [database-setup internal] load build context
+#9 ...
+
+#10 [core core-dependencies 1/1] RUN uv sync --frozen --only-group core --no-install-project
+#10 CACHED
+
+#11 [core common-runtime 2/2] COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+#11 CACHED
+
+#12 [core dependency-base 2/2] COPY pyproject.toml uv.lock .python-version README.md ./
+#12 CACHED
+
+#13 [core python-base 2/3] WORKDIR /app
+#13 CACHED
+
+#14 [core dependency-base 1/2] COPY --from=uv /uv /usr/local/bin/uv
+#14 CACHED
+
+#15 [core python-base 3/3] RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+#15 CACHED
+
+#16 [core common-runtime 1/2] COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py      src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+#16 CACHED
+
+#17 [core core 1/4] COPY --from=core-dependencies /app/.venv /app/.venv
+#17 CACHED
+
+#18 [core core 2/4] COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+#18 DONE 0.0s
+
+#19 [core core 3/4] COPY src/pharmacy_assistant/transport/ ./src/pharmacy_assistant/transport/
+#19 DONE 0.0s
+
+#20 [core core 4/4] COPY src/pharmacy_assistant/api.py ./src/pharmacy_assistant/
+#20 DONE 0.0s
+
+#9 [database-setup internal] load build context
+#9 ...
+
+#21 [core] exporting to image
+#21 exporting layers 0.1s done
+#21 exporting manifest sha256:62470820c2e47b576723daba809cf92af955b0dca77c636a0327f0246aaafec9 0.0s done
+#21 exporting config sha256:ca1777c9add44e9c1a8417541f7099f54f5061fd708ac9993dfada3d672549a6 0.0s done
+#21 exporting attestation manifest sha256:683ddce43e062fbfb414f022a56fcdbc92ec8533013680758c2e8f9fd89af9ca 0.0s done
+#21 exporting manifest list sha256:ca41fbc74f025713c968ca50e4f63de6bcca3dbaf8bc02b0cd18bd4d6d8d5c37 0.0s done
+#21 naming to docker.io/library/pharmacy-assistant-core:local done
+#21 unpacking to docker.io/library/pharmacy-assistant-core:local 0.0s done
+#21 DONE 0.2s
+
+#9 [database-setup internal] load build context
+#9 ...
+
+#22 [core] resolving provenance for metadata file
+#22 DONE 0.1s
+
+#9 [database-setup internal] load build context
+#9 transferring context: 10.56MB 0.6s done
+#9 DONE 0.6s
+
+#13 [database-setup python-base 2/3] WORKDIR /app
+#13 CACHED
+
+#15 [database-setup python-base 3/3] RUN groupadd --gid 10001 app && useradd --uid 10001 --gid app --no-create-home app
+#15 CACHED
+
+#14 [database-setup dependency-base 1/2] COPY --from=uv /uv /usr/local/bin/uv
+#14 CACHED
+
+#23 [database-setup dependency-base 2/2] COPY pyproject.toml uv.lock .python-version README.md ./
+#23 CACHED
+
+#24 [database-setup tools-dependencies 1/1] RUN uv sync --frozen --only-group database-tools --no-install-project
+#24 CACHED
+
+#25 [database-setup common-runtime 2/2] COPY src/pharmacy_assistant/contracts/ ./src/pharmacy_assistant/contracts/
+#25 CACHED
+
+#26 [database-setup common-runtime 1/2] COPY src/pharmacy_assistant/__init__.py src/pharmacy_assistant/config.py      src/pharmacy_assistant/paths.py src/pharmacy_assistant/database.py ./src/pharmacy_assistant/
+#26 CACHED
+
+#27 [database-setup database-tools 1/8] COPY --from=tools-dependencies /app/.venv /app/.venv
+#27 CACHED
+
+#28 [database-setup database-tools 2/8] COPY src/pharmacy_assistant/core/ ./src/pharmacy_assistant/core/
+#28 DONE 0.0s
+
+#29 [database-setup database-tools 3/8] COPY src/pharmacy_assistant/language/__init__.py src/pharmacy_assistant/language/quota.py ./src/pharmacy_assistant/language/
+#29 DONE 0.0s
+
+#30 [database-setup database-tools 4/8] COPY src/pharmacy_assistant/language/storage/ ./src/pharmacy_assistant/language/storage/
+#30 DONE 0.0s
+
+#31 [database-setup database-tools 5/8] COPY src/pharmacy_assistant/database_setup.py src/pharmacy_assistant/database_migrations.py ./src/pharmacy_assistant/
+#31 DONE 0.0s
+
+#32 [database-setup database-tools 6/8] COPY alembic.ini ./
+#32 DONE 0.0s
+
+#33 [database-setup database-tools 7/8] COPY migrations/ ./migrations/
+#33 DONE 0.0s
+
+#34 [database-setup database-tools 8/8] COPY data/processed/ammps_medications_enriched.jsonl data/processed/pharmacies_rabat.jsonl ./data/processed/
+#34 DONE 0.0s
+
+#35 [database-setup] exporting to image
+#35 exporting layers 0.2s done
+#35 exporting manifest sha256:865f494426247d21f073b816fed2df2e2fe0bd36895f47dac2c3dbb4ed51482c 0.0s done
+#35 exporting config sha256:32791b1605e8d2c5e445832743cfe4ddb18013675e57771812be57ed590f4778 done
+#35 exporting attestation manifest sha256:05abb793adc1fe2fe6b6ab4db804410ea68eaac1ec02178fd5874a44b14fcb63 done
+#35 exporting manifest list sha256:79c920d2ec455e54508f0d14535a3c3bdd55d4d3f6113389a3af0bd9e9835da0 done
+#35 naming to docker.io/library/pharmacy-assistant-database-tools:local done
+#35 unpacking to docker.io/library/pharmacy-assistant-database-tools:local 0.1s done
+#35 DONE 0.3s
+
+#36 [database-setup] resolving provenance for metadata file
+#36 DONE 0.0s
+ Image pharmacy-assistant-database-tools:local Built 
+ Image pharmacy-assistant-core:local Built 

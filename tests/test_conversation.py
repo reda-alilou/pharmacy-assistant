@@ -5,7 +5,7 @@ from pathlib import Path
 import unittest
 from unittest.mock import AsyncMock, patch
 
-from fastapi import HTTPException
+from pharmacy_assistant.core.errors import ChatError
 from fastapi.testclient import TestClient
 from pydantic import ValidationError
 from streamlit.testing.v1 import AppTest
@@ -116,7 +116,7 @@ class ConversationTests(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(fragment.sources)
         self.assertNotIn('83.00', fragment.answer)
         self.assertEqual(len(fragment.context.reference_options), 2)
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(session_id=fragment.session_id, reference_index=2))
         selected = await service.respond(ChatRequest(session_id=fragment.session_id, reference_index=1))
         self.assertEqual(selected.medications[0].medication.source_record_id, '771')
@@ -192,11 +192,11 @@ class ConversationTests(unittest.IsolatedAsyncioTestCase):
         third = await service.respond(ChatRequest(text='ABIP'))
         self.assertEqual(len(service.sessions), 2)
         for token in (first.session_id, 'x' * 32):
-            with self.assertRaises(HTTPException) as caught:
+            with self.assertRaises(ChatError) as caught:
                 await service.respond(ChatRequest(text='Prix?', session_id=token))
-            self.assertEqual(caught.exception.status_code, 410)
+            self.assertEqual(caught.exception.code, "session_expired")
         service.sessions[second.session_id].expires = 0
-        with self.assertRaises(HTTPException):
+        with self.assertRaises(ChatError):
             await service.respond(ChatRequest(text='Prix?', session_id=second.session_id))
         self.assertIn(third.session_id, service.sessions)
         self.assertEqual(service.interpreter.interpret.await_count, 3)

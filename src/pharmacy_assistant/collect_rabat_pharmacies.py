@@ -4,8 +4,7 @@ import json
 import re
 from pathlib import Path
 
-from pydantic import BaseModel, ConfigDict, Field
-
+from pharmacy_assistant.core.pharmacy_models import PharmacyRecord
 from pharmacy_assistant.collection_http import SourceClient, write_json
 from pharmacy_assistant.supplementary_sources import text, write_jsonl
 
@@ -16,23 +15,6 @@ API_URL = "https://saydalia.ma/api/siteweb_api.php"
 # Approximate map-search points, not user locations or pharmacy coordinates.
 SEARCH_POINTS = {"center": "34.0209,-6.8416", "south": "33.9949,-6.8499",
                  "southwest": "33.9617,-6.8750"}
-
-
-class PharmacyRecord(BaseModel):
-    model_config = ConfigDict(extra="forbid", strict=True)
-    pharmacy_id: str
-    name: str = Field(min_length=1)
-    city: str
-    address: str | None
-    phone: str | None
-    latitude: float = Field(ge=-90, le=90)
-    longitude: float = Field(ge=-180, le=180)
-    opening_information: str | None = None
-    source: str = "saydalia.ma"
-    source_url: str
-    source_request_url: str
-    fetched_at_utc: str
-    directory_scope: str = "partial_rabat_map_sample"
 
 
 def normalize_pharmacies(raw: list[dict], meta: dict, city: str = "Rabat",

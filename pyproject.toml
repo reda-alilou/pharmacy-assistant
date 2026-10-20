@@ -8,19 +8,40 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.13,<2",
     "beautifulsoup4>=4.15.0",
     "fastapi>=0.141.1",
     "groq>=1.7.0",
     "httpx>=0.28,<1",
+    "psycopg[binary]>=3.2,<4",
     "pydantic>=2.13.5,<3",
     "python-dotenv>=1.2.3,<2",
     "requests>=2.34.2",
+    "sqlalchemy>=2.0,<3",
     "streamlit>=1.50,<2",
     "uvicorn[standard]>=0.53.0",
 ]
 
 [project.scripts]
 pharmacy-assistant = "pharmacy_assistant:main"
+
+# Install each image's runtime independently from the same frozen lockfile.
+# The root dependencies retain the existing local demo/evaluation environment.
+[dependency-groups]
+core = [
+    "fastapi>=0.141.1", "httpx>=0.28,<1", "psycopg[binary]>=3.2,<4",
+    "pydantic>=2.13.5,<3", "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
+    "uvicorn[standard]>=0.53.0",
+]
+language = [
+    "fastapi>=0.141.1", "groq>=1.7.0", "httpx>=0.28,<1", "psycopg[binary]>=3.2,<4",
+    "pydantic>=2.13.5,<3", "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
+    "uvicorn[standard]>=0.53.0",
+]
+database-tools = [
+    "alembic>=1.13,<2", "psycopg[binary]>=3.2,<4", "pydantic>=2.13.5,<3",
+    "python-dotenv>=1.2.3,<2", "sqlalchemy>=2.0,<3",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.19,<0.12.0"]

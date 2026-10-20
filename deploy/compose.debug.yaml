@@ -1,0 +1,11 @@
+# Explicit host debugging access; excluded from the normal single-entry-point stack.
+services:
+  postgres:
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+  core:
+    ports:
+      - "127.0.0.1:18000:8000"
+  language:
+    ports:
+      - "127.0.0.1:18001:8001"

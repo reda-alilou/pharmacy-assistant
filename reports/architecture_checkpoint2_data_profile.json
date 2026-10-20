@@ -1,0 +1,48 @@
+{
+  "profile_date_utc": "2026-10-20",
+  "mode": "offline_read_only_source_inspection",
+  "inputs": {
+    "data/processed/ammps_medications_enriched.jsonl": {
+      "sha256": "00cfe355403a12360d108bd5d2d9673f44599c51af592245e229b2827681bb0b"
+    },
+    "data/processed/pharmacies_rabat.jsonl": {
+      "sha256": "e64af06edd1d3116732196dbe010b61d82c5c4e4ce8c345db22f22f5add233b8"
+    }
+  },
+  "presentations": 9936,
+  "proposed_medication_group_fields": [
+    "brand_name",
+    "active_substance",
+    "epi",
+    "dosage",
+    "form"
+  ],
+  "exact_medication_groups": 7302,
+  "groups_with_multiple_presentations": 1864,
+  "largest_group": 12,
+  "missing_public_prices": 1126,
+  "presentations_with_secondary_sources": 2700,
+  "linked_source_observations": 3128,
+  "conflicts": 1260,
+  "conflicts_by_field": {
+    "commercialization_status": 701,
+    "ppv_price_mad": 540,
+    "hospital_price_mad": 15,
+    "atc_code": 4
+  },
+  "linked_observations_by_source": {
+    "medicament.ma": 482,
+    "saydalia.ma": 2646
+  },
+  "prices_requiring_more_than_two_decimal_places": 0,
+  "max_recorded_price_mad": "108934.0",
+  "pharmacies": 327,
+  "pharmacy_cities": {
+    "Rabat": 327
+  },
+  "pharmacies_with_recorded_opening_information": 0,
+  "reviewed_medication_alias_spellings": 22,
+  "distinct_normalized_alias_keys": 17,
+  "database_created": false,
+  "data_imported": false
+}

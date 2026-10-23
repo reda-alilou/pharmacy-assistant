@@ -6,6 +6,8 @@ export const CONTINUATION = 'test_continuation_long_enough_1234567890'
 export type MockOptions = { delay?: number; expired?: boolean; pending?: boolean; failure?: string; cooldown?: number; invalid?: boolean }
 
 export async function mockApi(page: Page, options: MockOptions = {}) {
+  let responseGate: Promise<void> | null = null
+  let releaseResponse: (() => void) | null = null
   const calls: Record<string, unknown>[] = []
   const messages: Record<string, unknown>[] = []
   let current: Record<string, unknown> | null = null
@@ -50,6 +52,7 @@ export async function mockApi(page: Page, options: MockOptions = {}) {
       user(typed ? body.text as string : null, pending && typed ? 'pending' : failure ? 'failed' : 'answered',
         failure ? { error_code: failure } : { action: { ...body } })
       if (options.delay) await new Promise(resolve => setTimeout(resolve, options.delay))
+      if (responseGate) await responseGate
       if (pending && typed) return route.abort('connectionreset')
       if (failure) return fulfill(route, options.cooldown ? 429 : 503,
         { detail: { code: failure, retryable: true, retry_after_seconds: options.cooldown ?? null, message: 'PRIVATE PROVIDER BODY' } },
@@ -64,6 +67,8 @@ export async function mockApi(page: Page, options: MockOptions = {}) {
     return fulfill(route, 404, {})
   })
   return { calls, messages, view, prepare,
+    holdResponse: () => { responseGate = new Promise<void>(resolve => { releaseResponse = resolve }) },
+    releaseResponse: () => { releaseResponse?.(); responseGate = null; releaseResponse = null },
     failChat: (code: string | undefined) => { chatFailure = code }, failRestore: (value: boolean) => { restoreFailure = value },
     failReset: (value: boolean) => { resetFailure = value }, loseResponse: () => { lostAfterCompletion = true },
     finishPending: () => { pending = false; const last = messages.at(-1)!; last.outcome = 'answered'; answer(raw.initial) },

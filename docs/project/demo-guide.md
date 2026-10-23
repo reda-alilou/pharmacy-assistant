@@ -1,8 +1,11 @@
 # Demo guide and spoken presentation
 
-Prepared 2026-10-20 for the current four-container laptop demo. The narration is
-in English; patient prompts are in French, matching the interface. Suggested
-length: 7–9 minutes. The presenter runs all lifecycle commands.
+Assistant narration prepared 2026-10-20; startup/navigation updated 2026-10-23
+for the five-service platform foundation. Apply the
+[one-time platform upgrade](../operations/platform-accounts.md) before using these
+commands. This remains the assistant demonstration, not the unfinished Full Stack
+analytics demonstration. The narration is in English; patient prompts are in
+French. Suggested length: 7–9 minutes. The presenter runs all lifecycle commands.
 
 ## 1. Prepare before presenting
 
@@ -10,20 +13,21 @@ Open Docker Desktop and wait until its engine is running. In PowerShell, from
 the project root, run:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml ps
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml ps
 ```
 
-The four normal services should be healthy: `web`, `core`, `language`, `postgres`.
+The five normal services should be healthy: `web`, `platform`, `core`, `language`, `postgres`.
 Open these pages:
 
-- Patient interface: <http://127.0.0.1:8080>
+- Patient interface: <http://127.0.0.1:8080/assistant>
 - Core API documentation: <http://127.0.0.1:8080/api/docs>
 - Architecture diagram: `PROJECT_CONTEXT.md`, section 2, in Markdown preview.
 - Database relationships/table descriptions: the same file, section 6.
 
-The existing images and database are already prepared. Documentation-only
-changes do not require rebuilding, migrating or importing. New typed questions
+After Checkpoint 1 image builds, explicit platform migrations/grants and
+administrator provisioning, the upgraded stack can serve accounts separately
+from this assistant scenario. Normal startup does not migrate or import. New typed questions
 use the configured hosted provider and require its availability/internet access.
 Rehearse the exact prompts once beforehand, then use “Nouvelle conversation”
 to begin the presentation with an empty chat. Keep private `.env` and runtime
@@ -235,7 +239,7 @@ You do not need to open every implementation file. Use this small sequence:
 | Open | Show/explain |
 | --- | --- |
 | `PROJECT_CONTEXT.md`, section 2 | Full architecture diagram and ownership |
-| `deploy/compose.yaml` | Four normal services; only web published by default; persistent volume |
+| `deploy/compose.yaml` | Five normal services (including platform accounts); only web published by default; persistent volume |
 | `services/core/src/pharmacy_core/api/routes/chat.py` | Thin HTTP entry point |
 | `services/core/src/pharmacy_core/clients/language.py` | HTTP contract boundary and no core-side replay |
 | `services/language/src/pharmacy_language/extraction/prompt.py` | Extraction instructions, not final-answer generation |
@@ -255,7 +259,7 @@ claim that current traffic needs independently scaled microservices.
 From the project root, run:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml down
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml down
 ```
 
 This removes the containers/network while preserving the named database volume.

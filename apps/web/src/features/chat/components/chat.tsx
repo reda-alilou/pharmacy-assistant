@@ -5,6 +5,7 @@ import { Textarea } from '@/shared/ui/textarea'
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/shared/ui/alert-dialog'
 import { Results } from '@/features/results/components/results'
 import { ConversationController } from '@/features/chat/state/conversation'
+import { Link } from 'react-router'
 
 const examples = [
   { title: 'Le prix d’un médicament', question: 'Quel est le prix de ABIP ?', icon: Pill },
@@ -45,6 +46,7 @@ function Chat() {
   }
 
   return <div className={state.messages.length ? 'app-shell is-chat' : 'app-shell is-welcome'}><a className="skip-link" href="#conversation">Aller à la conversation</a>
+    <nav className="assistant-platform-nav" aria-label="Navigation plateforme"><Link to="/">Pharma Analyse · Accueil</Link><Link to="/espace">Mon espace</Link></nav>
     <header className="app-header"><div className="header-inner"><a className="brand" href="#conversation" aria-label="Assistant pharmacie, accueil"><span className="brand-mark"><Cross size={22} strokeWidth={1.8} aria-hidden="true" /></span><span>Assistant<span className="brand-second"> pharmacie</span></span></a>
       <div className="header-right"><span className="header-context">Un repère, des informations sourcées.</span><AlertDialog open={resetOpen} onOpenChange={setResetOpen}><AlertDialogTrigger asChild><Button variant="outline" className="new-conversation" disabled={state.busy || state.loading || !hasConversation}><MessageSquarePlus size={16} aria-hidden="true" /><span>Nouvelle conversation</span></Button></AlertDialogTrigger>
         <AlertDialogContent><AlertDialogHeader><AlertDialogTitle>Commencer une nouvelle conversation ?</AlertDialogTitle><AlertDialogDescription>Les messages et le contexte de cette conversation temporaire seront supprimés. Cette action est définitive.</AlertDialogDescription></AlertDialogHeader>

@@ -1,6 +1,19 @@
-# Multilingual Patient–Pharmacy Assistant
+# Pharmaceutical analysis platform — datasets and assistant
 
-A local challenge demo and learning project for Moroccan pharmacy requests.
+A local pharmaceutical data platform under construction. Accounts, profiles,
+guided CSV imports, private immutable versions, exploration, analytics and private
+saved definitions now use a real TypeScript/Express service. Dashboards, sharing
+and the administration workflow are future checkpoints. The existing Moroccan pharmacy assistant
+remains separately accessible at `/assistant`.
+
+Checkpoint 2's 14 rebuilt-image checks and 18 assistant PostgreSQL tests passed;
+the user authorized Checkpoint 3. Final analytics host/browser checks and all
+16 isolated full-stack checks pass, with all 18 assistant PostgreSQL tests passing
+and isolated cleanup confirmed. Checkpoint 3 awaits user review; Checkpoint 4 has
+not started. Normal-volume upgrade remains a separate user-run step.
+See [actual Checkpoint 3 evidence](docs/validation/platform-checkpoint-3.md).
+
+The assistant is a local challenge demo and learning project for pharmacy requests.
 A French React chat connects to a core FastAPI service; a separate language
 service uses hosted Qwen extraction through Groq. Local code matches medication
 and pharmacy records, manages clarification and temporary conversations, and
@@ -14,23 +27,27 @@ transformation, repository structure, configuration and validation evidence.
 
 ## Run the configured demo
 
-With Docker Desktop running, from the repository root:
+Follow the [Checkpoint 3 upgrade](docs/operations/analytics.md), including the
+one-time account setup if not already applied. Reuse
+existing private credentials and the database volume. After that setup, with
+Docker Desktop running, from the repository root:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait
 ```
 
-Open <http://127.0.0.1:8080>. After source updates, build the affected images
+Open <http://127.0.0.1:8080> for accounts and **Mes données**, or
+**Mes analyses** for analytics, or <http://127.0.0.1:8080/assistant> for the assistant. After source updates, build the affected images
 first, or build all application/setup images:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools build
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools build
 ```
 
 Stop the stack while preserving its database:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml down
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml down
 ```
 
 Startup never migrates or re-imports data. Existing credentials, migration
@@ -44,6 +61,23 @@ Valid offered clarification choices can work without another model call.
 There is no automatic provider switch, paid fallback or saved-answer fallback.
 
 ## Implemented behavior
+
+Registration (analyst only), login/logout, own-profile/name/password editing,
+PostgreSQL account sessions, CSRF checks and login throttling are implemented.
+Administrator provisioning is explicit. Dataset upload/configuration, full CSV
+validation/report, atomic publication, immutable versions, metadata editing,
+archive/restore and guarded deletion are implemented. Exploration includes
+full-dataset search/typed filters/sort/pagination, original cells and column/
+completeness profiles. Checkpoint 3 adds aggregations, pharmaceutical templates,
+KPI/bar/line/histogram/pie/scatter charts, four advanced features (missingness,
+IQR outliers, editable chart recommendations, explicit dataset/version comparison)
+and private version-pinned saved configurations. Dashboard construction, sharing
+and administration remain future work. See [account security](docs/architecture/platform-api.md),
+[dataset API](docs/architecture/datasets-api.md) and
+[analytics/calculation contract](docs/architecture/analytics-api.md), plus
+[sample provenance](apps/web/public/samples/README.md).
+
+The retained assistant provides:
 
 - Validated multilingual intent/entity extraction, with raw spans kept separate
   from inherited conversation context.
@@ -69,7 +103,8 @@ commands, a presentation sequence, verified examples and an architecture walkthr
 
 | Location | Responsibility |
 | --- | --- |
-| `apps/web/` | React/TypeScript chat, result cards and browser tests |
+| `apps/web/` | Router/accounts, CSV/exploration, analysis builder/charts/saved definitions, separate assistant/tests |
+| `services/platform/` | Express accounts, CSV/datasets, analytics/saved settings, ownership, SQL migrations/admin CLI |
 | `services/core/` | Conversation, matching, pricing, HTTP API and owned migrations |
 | `services/language/` | Provider adapters, extraction validation, quotas and owned migrations |
 | `packages/contracts/` | Shared schemas, protocols and errors |
@@ -124,6 +159,10 @@ inference, then removes its own stack and volume. It preserves application data.
 See [administration commands](docs/operations/tooling.md) and
 [evaluation commands and budgets](docs/development/evaluation-tools.md).
 
+Platform checks additionally use `npm --prefix services/platform test` and the
+dedicated database/browser commands in [analytics operations](docs/operations/analytics.md).
+The user starts/stops the dedicated test database and isolated stacks.
+
 ## Data, evidence and limits
 
 The active medication input contains **9,936 presentations** and the pharmacy
@@ -146,8 +185,8 @@ unchanged and cannot silently authorize a current live freeze.
 
 This demo does not verify stock, opening hours or duty schedules, calculate
 geographic proximity, diagnose conditions or recommend treatment. Pharmacy
-coverage is partial and limited to Rabat. Voice, accounts, durable patient history
-and public deployment are outside the implemented scope. Hosted free inference
+coverage is partial and limited to Rabat. Voice, durable patient history and public deployment remain outside the
+implemented scope. Platform accounts are separate from temporary patient chats. Hosted free inference
 can be interrupted by quotas and provider availability. No local model training
 or universal extraction accuracy is claimed.
 
@@ -159,7 +198,9 @@ checks and all 18 PostgreSQL tests. The user accepted the laptop demo and waived
 the final physical-phone review; automated mobile checks passed. See
 [the final R7 evidence and limits](docs/validation/cleanup-r7.md). Follow
 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) for the current handoff and
-[DECISION_LOG.md](DECISION_LOG.md) for finalized choices. The
+[DECISION_LOG.md](DECISION_LOG.md) for approved Full Stack CdC decisions, checkpoint status and remaining work,
+and the [historical decision log](docs/development/decisions-2026-10-19-20.md)
+for completed architecture-phase choices. Proposals are not implemented features. The
 [cleanup plan](docs/development/cleanup-plan.md) defines the checkpoint gates.
 
 Read the [current architecture](docs/architecture/overview.md),

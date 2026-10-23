@@ -1,0 +1,16 @@
+# User-run disposable PostgreSQL only. No application credentials or volumes.
+name: pharmacy-platform-checkpoint1-test
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: platform_checkpoint1_test
+      POSTGRES_USER: platform_test_admin
+      POSTGRES_PASSWORD: isolated-test-only-password
+    ports: ["127.0.0.1:55433:5432"]
+    tmpfs: ["/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U platform_test_admin -d platform_checkpoint1_test"]
+      interval: 2s
+      timeout: 3s
+      retries: 20

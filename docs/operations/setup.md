@@ -5,6 +5,16 @@ Use Docker Desktop with Linux containers and Compose, Python 3.12+ and uv
 The isolated PostgreSQL backup tests also require PostgreSQL 17 client tools;
 see [tooling](tooling.md). Starting services is an explicit user action.
 
+Checkpoint 1 adds a fifth service and new platform-only configuration. Read the
+[platform upgrade/provisioning guide](platform-accounts.md) before starting the
+upgraded stack. This does not regenerate existing credentials or re-import data.
+Checkpoint 2 adds an explicit dataset migration and grants. Follow the
+[dataset upgrade guide](datasets.md) before starting updated images; reuse the
+existing platform configuration and administrator. Startup does not migrate.
+Checkpoint 3 adds saved analyses and source relationships. Use the current
+[analytics upgrade guide](analytics.md) for all three explicit revisions/grants;
+keep existing credentials, datasets and the application volume.
+
 ## Existing configured workspace
 
 Keep the existing private `.env`, `.runtime/postgres.env`, `.runtime/compose.env`
@@ -12,11 +22,11 @@ and named database volume. Update Python commands after pulling changes:
 
 ```powershell
 uv sync --frozen
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools build
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools build
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait
 ```
 
-Open <http://127.0.0.1:8080>. The normal configuration exposes only web on localhost.
+Open <http://127.0.0.1:8080> for accounts, or `/assistant` for the assistant. The normal configuration exposes only web on localhost.
 Startup never changes migration state or re-imports facts. Cleanup has preserved
 the project name `pharmacy-assistant-architecture`, service names and
 `postgres_data` named-volume identity. Do not regenerate credentials or reset
@@ -25,7 +35,7 @@ the database merely because package/input paths changed.
 Stop when finished:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml down
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml down
 ```
 
 This preserves the named volume. `stop`/`start` also reuse existing containers.
@@ -48,8 +58,10 @@ initialize new credentials and translate them into the container configuration:
 ```powershell
 .\.venv\Scripts\pharmacy-db.exe init-env
 .\.venv\Scripts\pharmacy-compose-setup.exe
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools build
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait postgres
+npm ci --prefix services/platform
+npm --prefix services/platform run admin -- configure --source .runtime/compose.env --output .runtime/platform.env
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools build
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait postgres
 ```
 
 Both initialization commands refuse to overwrite existing files. If credentials
@@ -60,11 +72,14 @@ them to the internal `postgres` hostname without changing credentials.
 Migrate, grant, import and verify explicitly, in order:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup migrate
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup grant
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup import
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup verify
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm database-setup migrate
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm database-setup grant
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm database-setup import
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm database-setup verify
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm platform-setup migrate
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm platform-setup grant
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm -it platform-setup provision-admin --email admin@example.com --name "Administrateur"
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait
 ```
 
 Owned migrations retain their revision IDs. The importer reads the two
@@ -78,7 +93,7 @@ imports is recognized; normal startup does not import. Verification compares all
 For host database clients, evaluation or API debugging, add the debug overlay:
 
 ```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml -f deploy/compose.debug.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml -f deploy/compose.debug.yaml up -d --wait
 ```
 
 It binds PostgreSQL to localhost:55432, core to localhost:18000 and language to

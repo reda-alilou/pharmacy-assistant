@@ -37,5 +37,8 @@ apps/web/node_modules/**
 apps/web/dist/**
 apps/web/tests/**
 apps/web/playwright.config.ts
+apps/web/playwright.*.config.ts
 apps/web/.gitignore
 apps/web/.vite/**
+services/platform/node_modules/**
+services/platform/dist/**

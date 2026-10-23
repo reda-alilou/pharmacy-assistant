@@ -1,453 +1,673 @@
-# Final improvement decisions
+# Full Stack CdC — decisions and remaining work
 
-This file records only finalized decisions about project improvements that the
-user has explicitly approved. Each entry will state the improvement, the chosen
-approach or technology, and why it was chosen.
+Updated **2026-10-23**. Submission: **2026-10-25**. Demonstration: **Monday 2026-10-26**.
 
-## D001 — Separate frontend, core backend, and language service
+Requirement source: [CdC_Application_Full_Stack.md](CdC_Application_Full_Stack.md).
+Implemented baseline: [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md).
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use a separate frontend and two independently runnable backend
-  services with explicit communication contracts.
-- **Responsibilities:**
-  - Frontend: patient interface.
-  - Core backend: conversation flow, clarification, medication matching,
-    pharmacy lookup, and pricing, organized into separate internal modules.
-  - Language service: hosted model calls, extraction validation, provider
-    adapters, and inference quota handling.
-- **Reason:** Balance a polished laptop demo with practical learning about
-  service communication, timeouts, errors, and independent containers. Language
-  extraction already has a clear boundary from local factual answers. Keeping
-  medication and pharmacy logic in the core backend limits network dependencies
-  and operational complexity.
-- **Alternatives considered:** One modular backend offers simpler operation but
-  less distributed-service practice. Separate medication and pharmacy services
-  add complexity without an established need for independent scaling or deployment.
-- **Conditions:** Medication and pharmacy services remain possible later
-  extractions, not part of this initial split. Define and test behavior during
-  language-service failures; separation alone does not guarantee resilience.
-- **Still open:** Frontend technology, exact service contracts,
-  database design, container tooling, and orchestration. This decision does not
-  finalize those choices or authorize implementation of the migration.
-  Backend technology is finalized separately in D002.
+## Previous phase
 
-## D002 — Keep Python and FastAPI for both backend services
+D001–D020 are preserved byte-for-byte in
+[the historical decision log](docs/development/decisions-2026-10-19-20.md).
+[R7 evidence](docs/validation/cleanup-r7.md) confirms completion of the architecture
+and cleanup phase, including remaining D018 validation. Historical “still open”
+wording is not a current backlog. Deliberately deferred features, such as full
+Arabic UI localization, were not all implemented.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use Python and FastAPI for both the core backend and the language
-  service. They remain independently runnable applications as agreed in D001.
-- **Reason:** Preserve tested Python behavior and existing Pydantic validation
-  while focusing migration effort on service architecture, maintainability, and
-  the patient interface. FastAPI meets the identified API needs and supports the
-  intended separation without a framework or language rewrite.
-- **Alternatives considered:** NestJS for the core backend or both services would
-  provide TypeScript backend learning but require substantial porting and
-  regression verification. No current requirement justifies that additional work.
-- **Implementation direction:** Keep business logic separate from HTTP handling;
-  translate application errors into HTTP responses at the API boundary. Reuse
-  existing domain logic and validation while defining explicit service contracts.
-- **Still open:** Database access and migration libraries,
-  frontend technology, and exact service contracts. This records the technology
-  choice; implementation of the migration has not started.
-  Database engine choice is finalized separately in D003.
+Existing design and operating constraints remain in force until explicitly
+superseded. Preserve source facts/history, service ownership, database volumes,
+and the user's control of container lifecycle and Git publication.
 
-## D003 — Use PostgreSQL as the runtime database engine
+## How we use this file
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use PostgreSQL for the planned runtime database. Do not add
-  MongoDB or another NoSQL database for the currently identified requirements.
-- **Reason:** The application has structured, related medication, presentation,
-  price, pharmacy, and provenance data. PostgreSQL also supports queryable JSONB
-  for flexible data where appropriate, so JSON inputs or model outputs do not
-  require a separate document database. It supports the database-backed service
-  architecture and learning goals without introducing a second database system.
-- **Alternatives considered:** Keeping file-based storage minimizes migration;
-  SQLite provides simpler local SQL persistence. PostgreSQL provides practice
-  operating a database server and connecting independent services. No identified
-  requirement calls for MongoDB or another NoSQL database.
-- **Still open:** Exact migration scope and table design,
-  persistence and retention rules, database access and migration libraries,
-  database version, and deployment tooling. JSONB support is a capability, not
-  a finalized schema choice. Existing source files and evaluation evidence are
-  not authorized for deletion by this decision.
-  Database topology and service ownership are finalized separately in D004.
+Discuss each entry, then record the user-approved decision, chosen approach,
+reason, alternatives and remaining details. Keep decision approval separate from
+implementation completion, which requires evidence. Continue IDs after D020.
 
-## D004 — One PostgreSQL database with service-owned schemas
+**D021, D022 and D024–D034 are approved by the user, with remaining details
+identified in each entry.** D023 has approved navigation boundaries; Checkpoint
+1 route/layout details are resolved below and later screen details remain open. The six implementation checkpoints below are approved.
+Approval of the product direction is not evidence of implementation or blanket
+approval of every proposed feature design. Routine details can be resolved within
+agreed scope.
+Update this file as choices are made; do not mark proposals approved because of
+the deadline. PROJECT_CONTEXT remains a description of implemented behavior.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Start with one PostgreSQL server and one database containing two
-  schemas, each owned by its corresponding backend service.
-- **Ownership:**
-  - `core`: core backend; medications, presentations, prices, pharmacies,
-    provenance, and conversation/clarification state.
-  - `language`: language service; runtime inference quota counters, reservations,
-    and cooldowns.
-- **Access boundaries:** Each service uses separate runtime credentials with
-  permissions restricted to its own schema. Services communicate through their
-  APIs rather than accessing each other's tables. The frontend accesses data
-  through the core API, without direct database access.
-- **Reason:** Practice explicit data ownership and permissions while keeping
-  local operation manageable. Both services still share the database server as
-  a dependency; separate schemas do not provide independent availability.
-- **Alternatives considered:** Shared tables accessible to both services risk
-  coupling their internal storage. Separate databases or servers add operational
-  work that is not currently justified; later separation remains possible.
-- **Still open:** Detailed tables,
-  migration/import tooling, administrative and migration credentials, and the
-  treatment of existing offline evaluation ledgers.
-  Temporary conversation behavior is finalized separately in D005.
+**User constraint (2026-10-23):** Do not skip important requirements or excessively
+simplify functionality in the name of limited time. Cover every mandatory CdC
+requirement with working behavior and verification. Choose simpler designs when
+they are appropriate, not merely because of deadline pressure. Optional features
+remain choices to discuss, rather than automatically included or excluded.
 
-## D005 — Temporary conversations with persistent, expiring context
+## Baseline and coverage
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use temporary conversations for the first version, without
-  permanent reopenable chat history or account-based history.
-- **Behavior:**
-  - Store conversation context and pending clarification choices in the `core`
-    schema so follow-ups retain the selected medicine, presentation, quantities,
-    and outstanding choices.
-  - Preserve active context across backend restarts and page refreshes while
-    its token remains available and valid.
-  - Expire context after 30 minutes without a successful interaction.
-  - Provide a New conversation action that clears the current conversation from
-    the interface and invalidates its active server state.
-  - Reject expired tokens immediately and periodically delete expired state.
-- **Reason:** Support a polished conversational demo and learn persistent state
-  handling without adding user accounts or a chat-history feature.
-- **Alternatives considered:** Reopenable history on the same browser or across
-  signed-in devices would require additional message storage, ownership, and UI.
-- **Still open:** Browser token storage, exact cleanup scheduling, and detailed
-  state/token mechanics. Temporary transcript restoration is finalized in D006.
+The assistant baseline includes React/TypeScript, Hooks, REST APIs, PostgreSQL,
+Docker, provenance, multilingual extraction and temporary conversations. Checkpoint
+1 implements React Router, Express and accounts. The user authorized continuation
+after its isolated acceptance; Checkpoint 2 now implements private CSV datasets,
+immutable versions and exploration. The user authorized Checkpoint 3 after the
+rebuilt-image results. Analytics calculations, four advanced features, charts and
+private saved definitions now pass final host/browser and isolated production
+checks. All 16 full-stack checks and 18 assistant PostgreSQL tests pass. Dashboards, sharing and
+administration remain future work. All 14
+Checkpoint 2 container checks pass, including the follow-up metadata-save fix
+verified after rebuilding web. Normal-volume upgrade and checkpoint
+review are tracked separately below.
+The previous requirements audit concerns Challenge 1, not this CdC.
 
-## D006 — Restore the active temporary transcript after refresh
+| ID | Topic | CdC sections | Implementation status |
+| --- | --- | --- | --- |
+| D021 | Product scope | 1–2 | Accounts, CSV/exploration and analytics implemented; dashboard/sharing workflow future |
+| D022 | Express backend | 11 | Accounts, datasets and analytics implemented; dashboard/sharing/admin APIs future |
+| D023 | Navigation and screens | 3, 11 | Accounts/datasets/analyses/charts/separate assistant implemented |
+| D024 | Accounts, roles and security | 3, 12 | Implemented and locally verified for Checkpoint 1 |
+| D025 | Dataset management and CSV | 4 | Implemented and verified; user authorized continuation after rebuilt-image checks |
+| D026 | Exploration and profiling | 5 | Table, typed filters, profiles and versions implemented; Analysis view is Checkpoint 3 |
+| D027 | Analysis and indicators | 6 | Implemented and verified in host/browser and production-image checks |
+| D028 | Charts and dashboard builder | 7 | Analysis charts implemented; dashboard builder remains Checkpoint 4 |
+| D029 | Saved analyses and sharing | 8 | Private version-pinned definitions implemented; sharing remains Checkpoint 4 |
+| D030 | Four advanced data features | 9 | All four implemented and verified in host/browser and production-image checks |
+| D031 | Administration | 10 | Account CLI/activity/safeguards only; administration UI future |
+| D032 | Platform persistence and setup | 11–13 | Accounts/datasets/analyses, explicit migrations/grants and verified backup/restore implemented |
+| D033 | Validation and demo | 12, 14 | Account/dataset/analytics/API/browser evidence; full workflow future |
+| D034 | Submission deliverables | 13–14 | Checkpoint 1–3 API/setup/evidence and attributed CSV added; final delivery future |
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Restore the active conversation's visible messages after a page
-  refresh while the conversation remains valid.
-- **Lifetime:** The transcript shares the context's 30-minute inactivity expiry.
-  It is no longer available when that conversation expires or the user starts a
-  new conversation. This adds no permanent history or list of previous chats.
-- **Reason:** Keep the displayed conversation consistent with the context the
-  backend remembers, making refreshes less disruptive to the demo.
-- **Still open:** Transcript storage and retrieval details, browser token storage,
-  and cleanup scheduling. These must respect the temporary lifetime above.
+## D021 — Pharmaceutical analytics product scope
 
-## D007 — SQLAlchemy for database access and Alembic for migrations
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Accounts, private CSV lifecycle/exploration, analytics
+  and private saved definitions implemented. Dashboard/sharing/admin workflows
+  remain later checkpoints. Checkpoint 3 host and isolated production checks pass.
+- **Requirement:** Import → exploration → analysis → visualization → sharing.
+- **Decision:** Extend the project into a pharmaceutical data-analysis
+  platform; retain the assistant as an additional feature.
+- **Reason:** Reuse the catalogue and provenance while serving the analyst workflow.
+- **Still open:** Product name, precise analyst personas, integration details and
+  feature designs. Retaining the assistant and covering the complete mandatory
+  CdC workflow are agreed, not open scope questions.
+- **Acceptance:** Complete the workflow with a newly uploaded CSV. Keep recorded
+  prices explicitly dated; make no clinical or live-stock claims.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use SQLAlchemy for database access and transaction handling in
-  both backend services, and Alembic for versioned database schema migrations.
-  Retain Pydantic for API request and response validation. Keep database models
-  separate from API models.
-- **Reason:** Reuse existing API contracts while allowing storage structures to
-  evolve independently. SQLAlchemy provides object mapping and explicit query
-  tools; Alembic makes database structure changes tracked and repeatable.
-- **Alternatives considered:** Direct SQL through a driver requires more manual
-  row mapping. SQLModel reduces some repetitive definitions but adds an
-  abstraction over SQLAlchemy and Pydantic; explicit model separation better
-  fits the existing contracts and planned storage changes.
-- **Implementation direction:** Review generated migrations before applying them.
-  Use SQLAlchemy ORM or Core queries where appropriate without exposing database
-  models directly as the public API contract.
-- **Still open:** PostgreSQL driver, exact dependency versions, synchronous versus
-  asynchronous access, and migration organization for the service-owned schemas.
-  This resolves the database access and migration library choices left open in
-  D002 and D003; migration execution and imports remain to be designed.
+## D022 — Node.js and Express backend
 
-## D008 — React, TypeScript, and Vite for the frontend
+- **Date / decision status:** 2026-10-23 / Finalized by the user; implementation
+  details listed below remain open. Node/Express are imposed by §11.
+- **Implementation status:** Express accounts/datasets implemented and verified in
+  host/isolated image checks. Analytics/saved configurations now pass both host and
+  final image checks. Dashboard/sharing/admin APIs remain future.
+- **Decision:** Use React, Node.js/Express and PostgreSQL for the analytics platform.
+  Express owns accounts, datasets, analytics, dashboards, sharing and administration.
+  Keep the existing Python services backing the additional assistant screen.
+- **Architecture:** One React application with React Router, served through Nginx.
+  The gateway routes analytics requests to Express and assistant requests to the
+  existing FastAPI core, which retains its language-service connection.
+  Use TypeScript for Express, with runtime request/response validation.
+  Keep the monorepo; the new service owns its package, dependencies, migrations,
+  tests and Docker image.
+- **Reason:** An Express proxy alone would not demonstrate the required backend.
+- **Checkpoint 1 details resolved:** `pg` with parameterized SQL, transactional
+  checksummed owned SQL migrations; `/platform-api` to Express, unchanged `/api`
+  to core. Zod validates account and dataset contracts; CSV uses bounded raw
+  upload followed by validated JSON configuration. Later domain contracts remain
+  to implement. The user has approved auxiliary Python
+  services; this does not claim that an instructor has independently confirmed
+  mixed-backend acceptability.
+- **Relationship:** Extends the platform scope of D002, D004 and D014; existing
+  Python services and ownership remain intact pending detailed integration design.
+- **Acceptance:** Analyst operations use a real Express API with validation,
+  consistent errors and explicit service boundaries.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Build the separate frontend with React for interface components,
-  TypeScript for development-time type checking, and Vite for development and
-  production builds. The browser interface calls the FastAPI core backend.
-- **Reason:** Fits the interactive chat, clarification choices, medication cards,
-  and temporary conversation restoration while providing practical frontend
-  learning. No current requirement calls for server-rendered public pages.
-- **Alternatives considered:** Vue with TypeScript and Vite is viable, but the
-  user has no framework preference. Next.js adds routing and server-rendering
-  capabilities whose additional concepts are not currently needed.
-- **Still open:** Visual design, routing and
-  data-fetching tools, runtime response validation, exact versions, and frontend
-  serving configuration. Arabic and mixed-direction layout require deliberate
-  implementation and testing regardless of this stack choice.
-- **Relationship:** Resolves the frontend technology choice left open in D001
-  and D002. This records the choice; frontend implementation has not started.
-  Styling and component choices are finalized separately in D009.
+## D023 — React Router and platform navigation
 
-## D009 — Tailwind CSS and shadcn/ui for styling and common controls
+- **Date / decision status:** 2026-10-23 / Single React application, React Router
+  and separate analytics/assistant areas approved; detailed screen design open.
+- **Implementation status:** Router/accounts/separate assistant and Checkpoint 2
+  dataset/import/exploration screens implemented and browser-verified. Checkpoint 3
+  adds analysis/chart/saved-configuration routes; dashboard/admin remain future.
+- **Proposed approach:** Reuse React/TypeScript/Vite and existing UI controls. Add
+  introduction, login/register, datasets, exploration, dashboards, profile and
+  administration routes; place the assistant on its own screen.
+- **Reason:** Extend the existing frontend into the required multi-screen workspace.
+- **Approved boundary:** Keep the assistant on a separate screen accessible to
+  visitors and authenticated users. Account registration does not create permanent
+  patient history; existing temporary conversations remain separate.
+- **Checkpoint 1 details resolved:** French introduction `/`, `/inscription`,
+  `/connexion`, `/espace`, `/profil`, visitor `/assistant`; role-guarded
+  `/administration` explicitly labels its future workflow. Checkpoint 2 adds
+  `/donnees`, `/donnees/importer`, resumable `/donnees/imports/:id` and
+  `/donnees/:id` with overview/data/columns/quality/versions views. Checkpoint 3
+  adds `/analyses`, `/analyses/nouvelle`, `/analyses/:id` and a dataset Analysis
+  tab; protected source/version URLs retain their query through login. Dashboard
+  routes are future work. The calm solid-color layout
+  preserves assistant content and uses responsive, accessible forms.
+- **Acceptance:** Direct URLs, refresh, loading, empty/error states and responsive
+  navigation work. Preserve French labels and no gradients/card side strips unless
+  explicitly changed. UI route guards do not replace backend authorization.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use Tailwind CSS for layout, typography, colors, spacing, and
-  responsive styling, with shadcn/ui for common controls such as buttons,
-  dialogs, and selection controls. Build application-specific chat messages,
-  medication cards, and pharmacy results using these tools.
-- **Reason:** Combine customizable components with control over the pharmacy
-  assistant's design, while providing inspectable component code for learning.
-- **Alternatives considered:** Plain CSS with entirely custom controls requires
-  more interaction and consistency work. Material UI provides a more complete
-  default appearance but may require more overrides for a custom design.
-- **Implementation direction:** Maintain added shadcn/ui component source as
-  project code. Verify keyboard navigation, focus behavior, contrast, responsive
-  layouts, and Arabic/RTL including mixed Latin names, numbers, and prices.
-- **Still open:** Visual direction, colors, fonts, page layout, exact component
-  selection, and dependency versions. This choice does not finalize a design.
+## D024 — Accounts, profiles, roles and security
 
-## D010 — Focus the first frontend version on chat
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Registration/login/logout, own-profile/name/password editing, secure hashes, PostgreSQL sessions, CSRF, throttling and backend guards implemented and verified. Isolated container acceptance passed; normal-volume upgrade and review remain user-run steps.
+- **Requirement:** Visitor, analyst and administrator access; registration,
+  authentication, profile management and protected functionality.
+- **Decision:** Persistent accounts, secure password hashing, basic profile editing,
+  backend role/ownership checks and server-managed sessions. Store an opaque session
+  identifier in an HttpOnly cookie and session records in PostgreSQL. Enforce expiry,
+  logout invalidation, CSRF protection for state-changing operations, login throttling
+  and consistent authentication errors. Disabling an account invalidates its sessions.
+  Provision administrators explicitly; public registration creates analysts only.
+- **Permissions:** Visitors can view the introduction, register/login and use the
+  assistant. Analysts can edit their own profiles, manage their own datasets, analyze,
+  build/save dashboards and access explicitly shared resources. Administrators also
+  have those capabilities plus account management and platform supervision.
+- **Reason:** Support meaningful logout and account suspension without storing
+  authentication tokens in browser JavaScript storage.
+- **Checkpoint 1 details resolved:** Node scrypt (N=131072/r=8/p=1), random salted
+  versioned hashes; 30-minute request inactivity / 12-hour absolute sessions;
+  HttpOnly SameSite=Lax scoped cookie, Secure for HTTPS and explicit loopback-only
+  HTTP exception; exact-Origin plus session-bound CSRF; PostgreSQL throttle counters.
+  Editable displayed name and current-password-protected password changes; login
+  email remains unchanged. Explicit hidden-password CLI creates new admins only.
+  Role/status/password changes invalidate sessions; last-active-admin protection
+  is transactional. See the [API/security contract](docs/architecture/platform-api.md).
+- **Acceptance:** Direct API requests cannot bypass ownership or admin permissions;
+  credentials are not exposed; validation and errors are clear. Protect login and
+  upload endpoints appropriately. Conversation bearers are not account sessions.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Make the first version a chat-focused interface. Show medication
-  and pharmacy results, clarification choices, and price summaries within the
-  conversation. Do not add separate medication or pharmacy browsing views or a
-  permanent results panel in this version.
-- **Reason:** Keep the initial interface and implementation focused on the
-  conversational experience.
-- **Alternatives considered:** Separate browsing views provide direct lookup
-  without inference but add screens and API work. A permanent results panel adds
-  layout and state complexity, especially on mobile.
-- **Relationship:** Retain the New conversation action and temporary transcript
-  behavior agreed in D005 and D006. This UI scope choice does not remove existing
-  backend search APIs or change the service boundaries in D001.
-- **Still open:** Detailed chat layout and
-  presentation of sources, limitations, loading states, and errors.
-  Visual direction is finalized separately in D011.
-  Interface language scope is finalized in D012.
+## D025 — Dataset management and CSV import
 
-## D011 — Calm healthcare visual style without gradients or card side strips
+- **Date / decision status:** 2026-10-23 / Finalized by the user; CSV is mandatory.
+- **Implementation status:** Implemented in Checkpoint 2: guided preview/configuration,
+  full validation/report, atomic publication, metadata editing, private immutable
+  versions, archive/restore and dependency-reviewed deletion. Host database/browser
+  and production-image checks passed, including follow-up metadata-save protection
+  in the rebuilt web image; user review remains pending.
+- **Decision:** Owned datasets with title, description, category and source;
+  listing, upload preview/import, metadata editing and deletion.
+- **Import flow:** Select file → preview/configure → describe → validate/import.
+  Detect comma, semicolon or tab separators and allow correction. Show headers and
+  sample rows; infer types and permit corrections. Include optional source
+  observation date alongside dataset metadata.
+- **Types:** Text, integer, decimal, boolean, date and date/time. Preserve identifiers
+  as text where needed to retain leading zeros. Preserve original cell text alongside
+  interpreted values where needed for traceability.
+- **Validation:** Configurable missing markers; do not automatically interpret every
+  NA string as missing. Distinguish missingness from zero, false and empty-looking
+  textual values. Let users specify decimal/date conventions rather than silently
+  guessing ambiguous values. Report row, column and reason for invalid values.
+  Never silently drop malformed rows or turn invalid numbers into missing values.
+  Users can correct configuration or download a validation report to fix the source.
+  Imports are atomic: failed imports do not expose partially usable datasets.
+- **Reason:** Fixed administrative JSONL imports do not meet this user workflow.
+- **Approved ownership/versioning:** Each dataset has one owner and is private by
+  default. Each successful import creates an immutable dataset version; metadata
+  remains editable. Replacing a CSV creates a new version. Saved analyses pin a
+  version; switching versions requires column/configuration validation. Deletion
+  must identify dependent analyses and shared access before proceeding.
+- **Checkpoint 2 details resolved:** Pinned `csv-parse`; UTF-8 (fatal decoding) and
+  explicit Windows-1252; 10 MiB, 25,000 rows, 100 columns, 1,000,000 cells, 16,384
+  UTF-16 units per cell. Preview 20 rows, inference 200 rows with full-file leading
+  zero protection; complete-file validation before publication. Decimal precision
+  is 38 significant/12 fractional digits; ISO timestamps retain six fractional
+  digits. Report counts all errors and retains the first 1,000. Staging expires
+  after one hour; five active uploads/account; one heavy CSV operation/process.
+  Benchmarks cover all 9,936 source records and larger fixtures. Dependency
+  registry/FKs block deletion until future analyses/shares are removed or migrated;
+  analysis management is now implemented in Checkpoint 3, sharing remains later.
+  [Contract](docs/architecture/datasets-api.md).
+- **Acceptance:** A fresh CSV persists and can be explored; empty/malformed files
+  and invalid headers receive clear errors. Missing values remain distinct from zero.
+- **Optional:** Excel, JSON and external API imports are not necessary for the MVP.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use a light, calm healthcare-oriented interface with an off-white
-  background, restrained teal accents, readable text, and clearly labelled
-  result cards.
-- **Explicit constraints:** Do not use gradients or decorative side strips on
-  cards, including colored accent bars along card edges.
-- **Reason:** Reflect the user's preferred healthcare aesthetic while avoiding
-  the decorative patterns they explicitly dislike.
-- **Still open:** Exact color values, fonts, spacing, and detailed component
-  layouts. These must follow this visual direction and the constraints above.
+## D026 — Exploration and dataset characteristics
 
-## D012 — French-only interface for the first version
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Overview, Data, Columns, Quality and Versions implemented
+  and verified in Checkpoint 2. Checkpoint 3 now adds the analytical builder and
+  advanced features; the dataset Quality view retains its initial import profile.
+- **Decision:** Paginated table, search, typed filters, sorting, row/column
+  counts, inferred types and missing-value summaries.
+- **Workspace views:** Overview (metadata, owner, source, version and import summary);
+  Data (table); Columns (types, missing/distinct counts and descriptive statistics);
+  Analysis (aggregations/grouping/chart creation); Quality (missingness/issues);
+  Versions (import history and previous versions).
+- **Filters:** Text contains/equals/starts-with/selected values; numeric equality,
+  comparisons and ranges; dates before/after/between; boolean true/false; and
+  missing/present for all types. Combine filters with AND and selected values
+  within one filter with OR. Show active filters and clear-all.
+  Backend search, filters and sorting apply to the full dataset, not the current page.
+- **Reason:** Make supported uploads inspectable through the application.
+- **Checkpoint 2 details resolved:** Parameterized full-version queries; count/page
+  share a repeatable-read snapshot; 25 rows/page by default, maximum 100; stable
+  typed sort with nulls last. Active filters and clear-all are visible. Immutable
+  profiles include present/missing/distinct counts, typed min/max and PostgreSQL
+  numeric average, excluding missing cells. Original strings remain inspectable.
+  [Query and profiling conventions](docs/architecture/datasets-api.md).
+- **Acceptance:** Counts agree with filters, numbers sort numerically and large
+  permitted uploads do not render every row at once.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use French for interface labels, buttons, navigation, and notices
-  in the first version. Do not add a language switcher. Defer Arabic interface
-  translation and full right-to-left application layout to a later phase.
-- **Reason:** Keep the initial interface scope focused; the user prefers to
-  address Arabic interface support later.
-- **Boundary:** This decision concerns interface localization, not removal of
-  existing multilingual interpretation or reply behavior. Preserve existing
-  chat capabilities and readable message content.
-- **Relationship:** Defers the full Arabic/RTL interface work discussed in D008
-  and D009. Other accessibility and responsive-layout requirements remain.
+## D027 — Analysis and domain indicators
 
-## D013 — Short conversational answers with structured result cards
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Checkpoint 3 implements aggregations, typed grouping,
+  pharmaceutical templates, explicit version/filter/algorithm settings and private
+  saved definitions. Final host database/browser/regression and production-image
+  checks pass; user review and normal-volume upgrade remain separate.
+- **Decision:** Select dataset version, filters, measure/aggregation, optional
+  grouping columns, sorting, top/bottom limit and visualization.
+- **Operations:** General row/present/missing/distinct counts; numeric sum, mean,
+  median, min/max, quartiles and standard deviation; categorical frequencies,
+  percentage distributions and rankings; date/time grouping by day, month or year
+  for counts and numeric aggregates.
+- **Interpretation:** Display version, active filters, units and missing-value
+  treatment. Show the number of contributing nonmissing observations for statistics
+  such as average price. Pharmaceutical templates include presentations by form,
+  missing-price rates, price distributions and source disagreements where fields
+  exist. Templates use the same engine as user-created analyses.
+- **Reproducibility:** Persist version, filters, aggregation definitions and relevant
+  algorithm settings. Never silently substitute a newer dataset or changed thresholds.
+- **Reason:** Package-price calculations alone are not an analytics workspace.
+- **Checkpoint 3 details resolved:** Parameterized full-version PostgreSQL numeric
+  aggregation, at most 8 measures/2 grouping columns/200 returned groups, with
+  full-group totals and explicit omissions. Quartiles use exact numeric type-7
+  interpolation; mean/deviation inputs use numeric(80,24) to avoid rounding away
+  small differences at large magnitudes. Both sample (n−1) and population (n)
+  deviation are explicit; missing cells are excluded and denominators shown.
+  Temporal grouping uses canonical UTC dates, with no invented observations.
+  [Complete conventions/API](docs/architecture/analytics-api.md).
+- **Acceptance:** Known-input checks verify results, filters and missing values;
+  incompatible operations are rejected. Cross-product price averages are descriptive
+  statistics, not therapeutic-value comparisons. Do not invent time series from a
+  single snapshot; the CdC's example analyses are not all individually mandatory.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Present a short conversational answer followed by structured
-  cards when useful. Avoid repeating full breakdowns in both prose and cards.
-- **Presentation:**
-  - Medication cards show identity, strength, presentation, stored price,
-    explicit quantity and calculated total where available. Show stored
-    commercialization status separately from stock availability.
-  - Offer clearly labelled buttons or selectable cards for clarification.
-  - For multiple medications, show one card per medication and an order total
-    only when every line is calculable.
-  - Pharmacy results show name, address, phone, and source where available,
-    with relevant coverage limitations.
-  - Describe missing prices and unknown stock plainly; never imply live stock
-    or current retail price verification from stored records.
-  - Make source links and collection dates easy to find. Put longer readable
-    provenance under Sources et détails, without raw extraction JSON or
-    internal diagnostics anywhere in the patient interface.
-  - Show a simple loading indicator and prevent duplicate submission while
-    a request is in progress. Explain errors and expiry briefly in French,
-    with an appropriate next action.
-- **Reason:** Keep answers readable while preserving factual limits, provenance,
-  and the existing matching and pricing rules.
-- **Still open:** Exact component layouts and wording, response-to-card mapping,
-  and implementation of error recovery. Follow D011's visual constraints.
+## D028 — Visualizations and dashboard construction
 
-## D014 — Docker containers managed with Docker Compose
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Checkpoint 3 analysis charts support KPI, bar, temporal
+  line, histogram, pie and scatter with editable labels/units/precision and exact
+  table alternatives. Dashboard widgets/layout/filter mapping remain Checkpoint 4.
+- **Decision:** Dashboards have a title, description and configurable widgets.
+  Start empty or add visualizations from existing analyses. Support KPI cards,
+  bar charts (including horizontal rankings), date/time line charts, configurable
+  histograms, pie/donut charts for manageable category counts, scatter plots and
+  grouped summary tables. Scatter plots do not imply causation.
+- **Widget configuration:** Retain dataset version, measure, grouping, filters and
+  visualization settings. Rename, edit, duplicate and delete widgets; preview
+  configuration changes. Offer axis labels, units, sorting, legend visibility,
+  numeric precision and category limits. Explain Other groupings and omissions.
+- **Layout:** Responsive grid with drag-and-drop arrangement and resizing on larger
+  screens, keyboard-accessible move controls and explicit width choices. Small
+  screens use a predictable single-column reading order. Separate view/edit modes.
+- **Saving:** Explicit Save changes, unsaved-change indicator and warning before
+  leaving with unsaved edits. Reader filter adjustments never overwrite the owner's
+  saved configuration.
+- **Filters:** Date ranges, categories, numeric ranges and missing/present. Explicitly
+  map each filter to affected widgets and columns; do not infer cross-dataset
+  equivalence from matching names. Show active filters, reset and affected widgets.
+- **Result states:** Show per-widget loading, empty/error states, dataset version
+  and source. Use consistent filter semantics. Failed calculations must not leave
+  old values appearing current.
+- **Reason:** Provide capable, accessible dashboard editing and understandable
+  interaction while preserving reproducible configurations and source meaning.
+- **Still open:** Chart/grid libraries, detailed layout and configuration contracts.
+- **Acceptance:** Verify widget editing and persistence, filter mappings, responsive
+  layout, keyboard operation, units and failure states.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Run four long-running containers through Docker Compose:
-  web (React assets and forwarding to the core API), core API, language service,
-  and PostgreSQL. Keep inference hosted by the existing provider.
-- **Operating rules:**
-  - Provide one localhost browser entry point. Keep the language service and
-    database internal; configure any additional debugging access separately.
-  - Store PostgreSQL data in a persistent volume that survives normal shutdown
-    and container replacement. Backups are a separate concern.
-  - The user controls startup and shutdown using provided commands, with
-    service-specific logs available.
-  - Supply credentials at runtime; exclude them from source control, frontend
-    assets, and built images.
-  - Run migrations and imports as explicit setup steps, not automatic data
-    rebuilds on application startup.
-  - Use readiness health checks and application-level dependency failure handling.
-- **Local environment:** Use Docker Desktop with the WSL 2 backend on Windows,
-  subject to checking machine prerequisites before installation.
-- **Reason:** Reproducible local operation and practical container/service
-  learning without the overhead of cluster management.
-- **Alternatives considered:** Manual processes require more environment and
-  lifecycle management. Kubernetes is deferred without a cluster requirement.
-- **Deferred to implementation:** Ports, image versions, web-serving software,
-  exact Compose configuration, and development/debugging configuration. This
-  decision does not authorize installing software or starting services now.
+## D029 — Saved analyses and sharing
 
-## D015 — HTTP/JSON service communication and explicit failure handling
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Checkpoint 3 private named configurations, immutable
+  source references, filters, rules and charts are persisted with revisions and
+  real dataset dependency safeguards. Sharing/copy/recipient controls remain
+  Checkpoint 4. No save creates a sharing grant.
+- **Decision:** Save named configurations with dataset-version references, filters,
+  indicators and charts. Private by default; revocable read-only sharing with
+  registered accounts. Separate dataset grants from analysis/dashboard grants.
+  Dataset recipients can explore and create their own analyses; the dataset owner
+  retains editing/deletion control. Dashboard-only recipients see the permitted
+  charts, indicators and interactive results, not automatic raw-data browsing or
+  downloads. Enforce allowed columns, filters and queries at the API.
+- **Collaboration:** No simultaneous editing of shared originals. Recipients use
+  their own copies for changes, subject to underlying dataset permissions; a copied
+  configuration must not bypass missing or revoked data access.
+- **Reason:** Support collaboration without exposing more data than intended,
+  while keeping ownership and analysis reproducibility explicit.
+- **Sharing controls:** Owners enter an existing account's exact email, select
+  dashboard or dataset sharing, review recipients and revoke access. Explain each
+  permission plainly; do not expose a searchable directory of all accounts.
+  Dashboard owners configure permitted recipient filters. The backend derives
+  allowed queries from saved configuration, rejecting arbitrary columns/aggregations.
+- **Onward sharing:** Access to somebody else's dataset does not permit distributing
+  its results onward. Block sharing of dependent dashboards unless the original
+  dataset owner explicitly authorizes it. Copies cannot bypass this boundary.
+- **Still open:** Precise query-permission representation, original-owner onward-
+  sharing authorization mechanism, copy workflow and deletion handling. Versioning
+  follows D025.
+- **Acceptance:** Reopen after a new login; recipients can view only the intended
+  resources; unauthorized users cannot; revocation is enforced by the API.
+- **Optional:** Anonymous public dashboards. Durable patient chat history is not
+  required by saved analyst dashboards.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Use HTTP requests with JSON responses between the core backend
-  and language service for the interactive request-response flow. Do not add a
-  message broker or background-job system for this flow.
-- **Responsibilities:** The core sends the current typed message for validated
-  extraction; it retains context merging, matching, pricing, and factual answer
-  generation. Clarification buttons use the core without another inference call.
-- **Failure behavior:**
-  - On language/provider unavailability, show a clear French error and allow
-    retry while preserving the conversation. Inference-free choices remain
-    usable when the core and database are healthy.
-  - On core/database unavailability, explain that the operation cannot complete;
-    do not fabricate a successful result.
-  - Bound waiting times, respect quota cooldowns, and avoid retries at multiple
-    layers multiplying inference requests.
-  - Preserve failed user messages so they do not need to be typed again.
-- **Reason:** Keep service communication understandable and preserve existing
-  inference-free behavior while making dependency failures visible and recoverable.
-- **Deferred to implementation:** Endpoint names, exact contracts, timeout values,
-  retry mechanics, and handling of uncertain completion after connection loss.
+## D030 — Four advanced data features
 
-## D016 — Relational database design with a validated data migration
+- **Date / decision status:** 2026-10-23 / Finalized by the user; four selected
+  features exceed the CdC minimum of three.
+- **Implementation status:** Checkpoint 3 implements all four features, including
+  visible rules, affected/flagged-row inspection, editable recommended chart
+  definitions and exact optional unique-key comparison. Final host and
+  production-image checks pass.
+- **Decision:**
+  1. Missing-value analysis: completeness by column/group, missingness visualization
+     and affected-row inspection. Explain denominators and distinguish source
+     missingness from invalid input.
+  2. Numeric outlier detection: choose a column and optional comparable groups,
+     apply an explained IQR rule and inspect flagged rows. Do not delete or declare
+     values incorrect automatically; encourage meaningful grouping for medicine prices.
+  3. Chart recommendations: use selected column types/cardinality, explain suitability
+     and create a valid editable chart configuration.
+  4. Dataset/version comparison: compare schema, row counts, completeness and summary
+     statistics. Optional row-level comparison uses user-selected, validated unique
+     keys; never silently fuzzy-match medication records.
+- **Reason:** Distinct features applicable to uploaded data without hosted inference.
+- **Reason for comparison:** Distinguish the pharmaceutical platform through
+  provenance-aware analysis and meaningful comparison of successive imports.
+- **Other possibilities, not selected:** Quality scoring, geographic analysis
+  and correlation.
+- **Checkpoint 3 details resolved:** Missingness uses per-group row denominators;
+  zero-row rates are undefined. IQR factors 1.5/3, type-7 quartiles, minimum four
+  present observations/group, strict outside fences, and explicit zero-IQR behavior.
+  Recommendations use filtered types/cardinality and create ordinary editable
+  engine definitions. Comparison maps columns explicitly (10 pairs maximum),
+  optionally validates up to 3 complete unique key pairs, and rejects duplicates,
+  missing keys or implicit text/numeric coercion. Settings persist under cp3-v1.
+  [Contract and limits](docs/architecture/analytics-api.md).
+- **Acceptance:** Each feature has visible results, explained rules and edge-case
+  checks. Outliers are flags, not automatic corrections. Do not rely on counting
+  the existing chatbot as a qualifying analytics feature without justification.
+- **Verification:** Use manually calculable fixtures and the pharmaceutical sample.
+  Cover malformed CSVs, ambiguous dates, decimal conventions, missing values,
+  duplicate comparison keys and permission enforcement.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Design proper relational tables within the service-owned schemas,
-  with primary/foreign keys, uniqueness constraints, appropriate numeric price
-  types, and indexes. Use JSONB only where flexible structures warrant it, not
-  as a replacement for relational catalogue design.
-- **Migration:** Import the active medication catalogue and Rabat pharmacy
-  directory while preserving record identities, distinct presentations, prices,
-  missing values, source observations and dates, and conflicts. Imports must be
-  repeatable without duplicates. Do not merge products solely by brand name.
-- **Validation:** Review the concrete schema before creating tables and importing
-  data. Compare counts and field values, and verify existing matching,
-  clarification, and pricing behavior before switching runtime storage.
-- **Preservation:** Retain source snapshots, reproducible import inputs, and
-  original evaluation evidence as files. Keep historical evaluation ledgers
-  intact; migrate runtime quota state separately without silently resetting
-  cooldowns or accounting.
-- **Recovery:** Provide and verify a database backup-and-restore procedure before
-  relying on the migrated database.
-- **Reason:** Improve storage structure and integrity while preserving data
-  meaning, provenance, and tested behavior.
-- **Deferred to implementation:** Exact tables and relationships, medication
-  grouping rules, indexes, import commands, and backup tooling. Example tables
-  discussed are illustrative, not a finalized schema.
+## D031 — Administration and activity
 
-## D017 — Keep the existing repository as a monorepo
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** No administration workflow/UI yet. Checkpoint 1 includes explicit account provisioning/status/role CLI, account activity and last-active-admin protection as security foundation.
+- **Decision:** Four administration sections:
+  - Overview: total/active users, datasets/versions, imported rows, saved analyses/
+    dashboards, recent imports and failures.
+  - Users: search/filter accounts, inspect status, enable/disable accounts and
+    manage analyst/admin roles.
+  - Datasets: ownership, source, versions, dimensions and import status; explicit,
+    logged content inspection.
+  - Activity: filter by actor, action, resource, outcome and date.
+- **Reason:** Operational CLI commands are not the required administration screen.
+- **Approved boundaries:** Administrators can inspect dataset metadata, ownership,
+  size and import status platform-wide. Reading actual dataset contents is an
+  explicit administrative action recorded in activity logs. Administrative account
+  permissions do not expose patient conversations. Account disabling invalidates
+  sessions as specified in D024.
+- **Account safeguards:** Prevent disabling/demoting the last active administrator.
+  Confirm role changes and disabling. Apply changed permissions immediately to
+  existing sessions. Explain effects on ownership/shared access when disabling.
+  Use disabling rather than permanent account deletion in the UI; permanent
+  deletion requires a separate policy for owned resources and retained activity.
+- **Dataset suspension:** Administrators can suspend use with a recorded reason.
+  Dependent dashboards show source unavailability; preserve data/history rather
+  than deleting silently.
+- **Activity events:** Import success/failure, dataset version creation, analysis/
+  dashboard creation and updates, sharing/revocation, account status/role changes,
+  dataset suspension and administrative content inspection. Do not record passwords,
+  session tokens or patient conversations.
+- **Still open:** Activity retention, exact disabled-owner resource policy,
+  suspension lifecycle and detailed UI/API contracts.
+- **Acceptance:** Admin can manage accounts and supervise real datasets/activity;
+  analysts cannot invoke those APIs. Logs exclude secrets and unnecessary patient text.
+- **Verification:** Check immediate permission changes, revocation, blocked onward
+  sharing, suspension effects and last-administrator protection.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Organize the existing repository as a monorepo with clear areas
-  for the frontend, core service, language service, deployment configuration,
-  data/import tools, evaluation evidence, and documentation. Keep service code,
-  database models, migrations, and tests clearly owned by their service.
-- **Boundaries:** Each service builds and runs independently. Sharing a repository
-  does not permit imports of another service's internals or access to its tables.
-- **Reason:** Simplify coordinated contract, test, and deployment changes for a
-  solo learning project while retaining explicit service boundaries.
-- **Alternatives considered:** Separate repositories add coordination overhead
-  without a current need for independent repository management.
-- **Existing setup:** The user has already created the improvement branch;
-  verified current branch is `refactor/web-architecture`. Continue within this
-  repository and branch; no new repository or branch is needed for this decision.
-- **Deferred to implementation:** Exact folder names and any shared contract
-  package. Repository cleanup must not automatically delete data or evidence.
+## D032 — Platform schema, migrations and reproducible setup
 
-## D018 — Implement in reviewed checkpoints
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Accounts plus dataset/import/version/column/row/dependency
+  foundation implemented with explicit migrations/grants. Backup/restore verifies
+  retained datasets/original values/receipts and excluded staging/session state.
+  Checkpoint 3 adds analyses/source relationships and extends backup verification;
+  dashboard/sharing domain tables remain future work.
+- **Decision:** Retain one PostgreSQL server/database and existing volume. Add a
+  separately owned platform schema and runtime permissions alongside core/language.
+  No direct access to peer services' private tables.
+- **Schema design:** Relational tables for users/sessions/status, datasets/versions/
+  column definitions, import state/validation/outcomes, saved analyses/settings,
+  dashboards/widgets/layout/filter mappings, sharing/onward-sharing grants,
+  suspension and activity. Use foreign keys, uniqueness constraints and indexes.
+  Store one record per imported row, with variable values in JSONB linked to its
+  immutable version. Column definitions retain stable identifiers, display names,
+  types and interpretation rules. Preserve original values where needed.
+- **Query behavior:** Server-side filtering/aggregation, bounded results and query
+  timeouts; PostgreSQL numeric arithmetic where appropriate. JSONB does not permit
+  uncontrolled types or require loading whole datasets into the browser. Benchmark
+  the catalogue and larger fixtures before finalizing supported limits.
+- **Lifecycle:** Publish only fully validated versions atomically. Clean failed/
+  abandoned temporary uploads under a documented retention policy. Analyses remain
+  pinned to versions. Archiving removes datasets from the owner's normal workspace
+  without breaking analyses. Before deletion show dependencies and shares; block
+  deletion until dependent analyses are explicitly removed or migrated.
+- **Revocation and disabling:** Dataset revocation blocks exploration and execution
+  that depended on that grant, while preserving saved configurations. Revoking
+  onward-sharing authorization invalidates access dependent on it. Disabled owners
+  lose login/sessions, but their resources and recipients' explicit access remain
+  unless grants are revoked or datasets suspended.
+- **Reproducible setup:** Pinned dependencies → private configuration → service builds
+  → explicit migrations/permissions → administrator provisioning → attributed samples
+  through the normal import pipeline → user-run startup. Express runtime privileges
+  are restricted to platform; migration privileges are separate. Startup never
+  silently recreates tables, regenerates credentials or overwrites datasets.
+- **Backup/restore:** Extend coverage to platform accounts, datasets, analyses and
+  sharing. Exclude active sessions and temporary upload state; retain the existing
+  exclusion of temporary patient conversations. Verify restored data and access
+  relationships without reviving sessions or abandoned imports.
+- **Reason:** Preserve existing core/language ownership and application data.
+- **Approved data integration:** Create attributed pharmaceutical analytics samples
+  through an explicit export/import process, using the same import/analysis pipeline
+  as user uploads. Express does not query the Python services' private tables.
+- **Implementation details:** Concrete tables/indexes, retention values, dependency
+  handling, database/migration libraries and Compose changes. Select compatible
+  libraries during implementation without another product-level approval.
+- **Acceptance:** Clean setup and persistence verified; no modification of frozen
+  old migrations, schema ownership or existing volume identity. Document updates.
+- **Operating rule:** User runs container lifecycle commands. No credential
+  regeneration or destructive database reset as a routine setup shortcut.
 
-- **Date:** 2026-10-19
-- **Status:** Finalized by the user
-- **Decision:** Follow this implementation sequence, reviewing each completed
-  checkpoint with the user before proceeding to the next:
-  1. Establish the baseline and code boundaries: verify existing tests, organize
-     service-owned code, and separate business errors from HTTP handling.
-  2. Design and introduce PostgreSQL storage: review the relational schema,
-     implement migrations/imports, validate data, and add temporary conversation
-     persistence.
-  3. Extract the language service: connect through HTTP/JSON and verify inference
-     failures, quotas, and inference-free choices.
-  4. Complete Docker Compose integration: verify startup, persistent storage,
-     readiness, and failure handling. Container setup may begin earlier when
-     needed for PostgreSQL.
-  5. Build and integrate the frontend: implement the agreed chat experience,
-     result cards, temporary transcript restoration, and French healthcare style.
-  6. Validate the complete demo and retire Streamlit: check representative
-     conversations, refresh/expiry, error recovery, and setup documentation before
-     removing the old interface.
-- **Reason:** Keep changes reviewable and preserve working behavior throughout
-  the migration, with user validation at each checkpoint.
-- **Deferred to implementation:** Resolve detailed implementation choices when
-  needed within the agreed architecture and scope. Approval of this sequence
-  records the plan; implementation has not started.
+## D033 — Validation and demo acceptance
 
-## D019 — Approve the checkpoint 2 relational schema direction
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Checkpoint 1–3 API, PostgreSQL, account/dataset/analytics
+  browser and relevant assistant regression checks performed. The final Checkpoint 2 container
+  run passed all 14 checks and 18 assistant PostgreSQL tests. Full new-product scenario,
+  normal-volume upgrade and user review remain separate. Checkpoint 3's final
+  isolated gate passed all 16 checks and all 18 assistant PostgreSQL tests.
+- **Decision / scenario:** Login → CSV upload → exploration/filtering → advanced
+  analyses → dashboard → save/reopen → share with second account → admin activity.
+- **Reason:** Prove the full workflow, not just disconnected screens.
+- **Checks:** Calculation correctness, malformed CSVs, missing values, persistence,
+  ownership/roles, sharing/revocation and browser flow. Verify assistant regressions
+  when integration changes affect it.
+- **Coverage checklist:** Map every mandatory CdC requirement to its implemented
+  screen/workflow, relevant API, verification evidence and demonstration step.
+  Rehearse invalid CSV, revoked access, unavailable dataset and failed widget
+  recovery as well as the successful workflow.
+- **Implementation details:** Exact fixtures and demonstration accounts/data;
+  review checkpoints are approved below.
+- **Acceptance:** Record passing evidence, rehearse, prepare backup screenshots or
+  recording. Core analytics demonstration works without hosted inference.
+- **Boundary:** Historical R7 passes do not validate these new features.
 
-- **Date:** 2026-10-20
-- **Status:** Finalized by the user
-- **Decision:** Proceed with the relational schema described in
-  `docs/architecture-checkpoint-2-schema.md`, following its review under D016.
-  Group medications by the exact source brand/substance/EPI/strength/form tuple
-  while preserving each presentation's original public ID. Store prices,
-  observations, conflicts, pharmacies, aliases, and temporary conversations in
-  related service-owned tables; use versioned JSONB for flexible temporary state.
-- **Reason:** Preserve existing facts and behavior while improving data integrity,
-  provenance, and restart-safe temporary conversations.
-- **Validation:** Complete round-trip, constraints, quota, and conversation
-  lifecycle checks against PostgreSQL before relying on the migrated runtime.
-- **Implementation boundary:** Resolve routine driver, migration, and connection
-  details as needed. The user controls starting/stopping database and demo services.
+## D034 — Submission and presentation deliverables
 
-## D020 — Production-style monorepo cleanup in reviewed checkpoints
+- **Date / decision status:** 2026-10-23 / Finalized by the user.
+- **Implementation status:** Checkpoint 1–3 architecture/API/setup/evidence and an
+  attributed pharmaceutical sample CSV added; final packaging, CdC coverage and
+  presentation remain future work.
+- **Required:** Complete source; database scripts/migrations; architecture summary;
+  API documentation or Postman collection; project presentation.
+- **Approved additions:** Clean setup instructions, architecture diagram, attributed
+  sample CSVs, demo-account setup, requirement-to-screen/API checklist and rehearsed
+  demonstration script. Distinguish implemented behavior from future improvements.
+- **Presentation:** Need, architecture, features, user scenario, technical choices,
+  difficulties and future improvements.
+- **Still open:** Submission packaging, presentation format and team contributions.
+  The CdC specifies group work; describe actual contributions honestly.
+- **Acceptance:** Submit by October 25; rehearse for October 26. Update README and
+  PROJECT_CONTEXT with implemented facts and actual validation, not proposed features.
 
-- **Date:** 2026-10-20
-- **Status:** Finalized by the user
-- **Decision:** Reorganize core and language as separately installable Python
-  packages within this monorepo, with owned dependencies, settings, migrations
-  and tests. Keep React in its own app area; use small contracts/infrastructure
-  packages and the existing uv tooling with one workspace lockfile.
-- **Runtime:** Both running services require PostgreSQL. Remove the old
-  file/in-memory startup option and SQLite runtime quota backend. Keep JSONL for
-  explicit imports and fixtures for offline tests; do not remove raw data.
-- **Maintained tools:** Keep database setup/import/backup, isolated deployment
-  verification and current evaluation/scoring/evidence tools. Retire collection,
-  scraping, expansion/enrichment workflows, Streamlit, compatibility forwarding
-  modules and obsolete commands after useful coverage is migrated.
-- **Preservation:** Isolate raw snapshots, historical secondary data, reports and
-  superseded documents in a hash-verified archive. Keep active import/evaluation
-  inputs and preserve historical evidence contents. Private credentials, ledgers,
-  backups and existing application volumes remain untouched. This clarifies the
-  preservation rules in D016/D017; it does not authorize discarding raw data.
-- **Sequence:** Execute R1–R7 in `docs/development/cleanup-plan.md`, stopping after
-  each completed checkpoint for user review. R1 establishes the baseline and
-  inventory only. The remaining final validation/Streamlit retirement from D018
-  is still required; do not skip it or treat R1 authorization as approval for R2.
-- **Boundaries:** Preserve HTTP and factual behavior, supported provider adapters,
-  prompts and the accepted laptop/phone interface. The user controls service
-  lifecycle. No automatic hosted inference, scraping, network changes or Git
-  publication. This improves structure without claiming production readiness.
+## Checkpoint 1 implementation record — 2026-10-23
+
+- Branch verified as `feat/pharmaceutical-analytics` before editing. Existing
+  uncommitted planning files retained; no branch/commit/push or application-volume
+  mutation by the agent. The user started the dedicated PostgreSQL test service.
+- `services/platform` now owns Express/TypeScript, npm manifest/lockfile,
+  parameterized PostgreSQL access, runtime permission checks, a production image
+  recipe and explicit migrations/grants/admin CLI. No peer schema/table access.
+- `platform` has users, sessions, auth throttles, account activity and checksummed
+  migration history. Frozen Python revisions and source identities/prices/nulls/
+  provenance are unchanged. Later domain schemas have not been created.
+- Router/account screens and backend role/own-profile enforcement are working;
+  password changes require the current password and revoke all sessions. Account
+  status/role operations are explicit CLI work until the administration checkpoint.
+- Maintained backup now preserves account/activity state while excluding sessions
+  and throttles. A real dump/restore against disposable databases verified this
+  policy. Dataset/upload coverage was added in Checkpoint 2; sharing remains later.
+- Verification: 5 Node security/HTTP/configuration tests; 7 real PostgreSQL scenario groups
+  (8 Node test results including the parent), zero skips; 1 real React → Express →
+  PostgreSQL browser workflow; 26 offline browser checks including 22 retained
+  assistant regressions, with one deployment-only skip; 247 Python checks passed
+  with 18 real-assistant-PostgreSQL checks intentionally skipped in that offline
+  command and subsequently all passed with zero skips in the user-run full verifier. Service/frontend builds and frontend lint passed (two existing UI
+  hot-refresh warnings). Initial sandbox/process restrictions and test fixes are
+  documented in [actual evidence](docs/validation/platform-checkpoint-1.md).
+- User-run container gate: all 12 full-stack checks passed, including Nginx
+  account cookie/CSRF/roles and assistant browser/lifecycle behavior; all 18
+  assistant PostgreSQL checks passed, zero skips. The verifier confirmed no
+  hosted inference, no application-volume modification and isolated cleanup.
+  [Container evidence](docs/validation/platform-checkpoint-1-container.json).
+- The user subsequently authorized Checkpoint 2 after these results. Upgrade
+  against the preserved normal volume remains a user-run operation. Exact commands are in
+  [platform operations](docs/operations/platform-accounts.md). Historical R7 is
+  unchanged and is not evidence for the platform.
+
+## Checkpoint 2 implementation record — 2026-10-23
+
+- Continued on `feat/pharmaceutical-analytics`, preserving existing uncommitted
+  planning/account work. No commit/push, container lifecycle or normal-volume
+  mutation by the agent. User started the dedicated test database and ran the
+  isolated image verifier.
+- Added owned migration `0002_datasets.sql`; preserved `0001_accounts.sql` and
+  Python revisions. Runtime has no update/delete on immutable rows/columns/versions
+  and no access to peer schemas. A populated Checkpoint 1 upgrade is tested.
+- Guided CSV imports, full-file validation/report, permanent receipts, temporary
+  staging cleanup, idempotent atomic publication, private versions, metadata,
+  archive/restore and guarded deletion now work through Express and React.
+- Full-dataset search/typed AND filters with selected-value OR, typed stable sort,
+  pagination, original cells and full-version column/completeness profiles work.
+  Analyses, advanced quality/comparison, dashboards and sharing remain future work.
+- Added an offline explicit source-to-CSV exporter and 28-record attributed sample;
+  no private Python table access or automatic import. Maintained backup retains
+  dataset data/receipts and excludes staging, sessions and temporary patient state.
+- Evidence: 8 unit tests; 9 dataset PostgreSQL scenario groups (10 test results),
+  7 retained account PostgreSQL groups (8 results), 2 real dataset browser workflows,
+  1 real account browser workflow, 26 offline browser passes/1 deployment-only skip,
+  247 offline Python passes/18 deliberately skipped PostgreSQL checks. Focused
+  operations/architecture recheck: 12 passes. Builds/lint pass, with two existing
+  UI fast-refresh warnings. Final rebuilt images passed all 14 container checks
+  and all 18 assistant PostgreSQL tests, zero skips. The preview-edit race found
+  by the first production browser attempt was fixed and verified with a held
+  response regression. [Evidence and measurement limits](docs/validation/platform-checkpoint-2.md).
+- The final production verifier also exercises dataset browser accessibility,
+  versions, ownership, archive/delete and validation recovery through Nginx.
+  [Container evidence](docs/validation/platform-checkpoint-2-container.json)
+  confirms isolated cleanup, no inference and no application-volume modification.
+  Normal-volume upgrade and user review remain pending. Stop before Checkpoint 3.
+- Follow-up confidence review found that editing/resetting metadata during a
+  pending save could discard the newer edit. Fields/reset now disable until the
+  operation completes, and failure preserves the draft. Added a held-response
+  offline regression and extended the real dataset browser workflow. All five
+  focused offline browser checks plus frontend build/lint pass. The user rebuilt
+  web and reran the full verifier: all 14 checks and 18 assistant PostgreSQL tests
+  passed, zero skips; cleanup/no inference/no application-volume modification
+  confirmed. [Latest container evidence](docs/validation/platform-checkpoint-2-review-container.json)
+  validates this fix; the earlier passing report is retained separately.
+
+## Checkpoint 3 implementation record — 2026-10-23
+
+- Continued on `feat/pharmaceutical-analytics` after the user's authorization,
+  preserving uncommitted planning/foundation/dataset work. No branch, commit,
+  push, hosted inference, catalogue-data changes or application-volume mutation by the
+  agent. The user controls test-container startup/shutdown and production checks.
+- Added owned migration `0003_analyses.sql`, private saved definitions and
+  restrictive source/version relationships, real dependency registrations and
+  extended runtime grants/activity/backup coverage. Prior SQL/Alembic revisions,
+  immutable source cells and Python schema ownership remain intact. A populated
+  Checkpoint 2 upgrade and maintained real backup/restore pass.
+- Parameterized full-version aggregates, typed rankings/grouping, templates and
+  all four advanced features work through Express and React. Results explain
+  denominators, limits, missingness and statistical rules. Recommendations create
+  editable definitions; comparison requires explicit mappings and complete unique
+  row keys when matching rows. Neither infers medication equivalence.
+- Added standalone KPI/bar/temporal-line/pie/histogram/scatter views with exact
+  table alternatives, explicit save/reopen/recalculate, immutable version pinning,
+  revisions, active-account/source ownership checks and pending-edit protection.
+  Dashboards, interactive dashboard filters, sharing and administrative workflows
+  remain later checkpoints.
+- Correctness evidence: 8 retained unit tests; 11 analytics PostgreSQL groups
+  (12 test results), 9 dataset groups (10 results) and 7 account groups (8 results),
+  all passing with zero skips. Both final analytics browser workflows pass,
+  including desktop/mobile axe, held-save locking and all chart types; both
+  dataset workflows and the account workflow pass. Offline browser: 28 passes,
+  one deployment-only skip. Final operations/architecture: 23 passes. Service/
+  frontend builds and lint pass, with two preexisting UI fast-refresh warnings.
+- Known-input checks include large close-decimal statistics, exact type-7
+  quartiles, all-missing/constant/zero-IQR cases, strict fences, source privacy,
+  complete unique keys and real source dependency changes. New means use
+  numeric(80,24); old immutable profiles are not backfilled. Catalogue (9,936
+  rows), 25,000-row and 25,000-group measurements are recorded with their local
+  evidence limits in [Checkpoint 3 evidence](docs/validation/platform-checkpoint-3.md).
+- All images built successfully. The first production verifier passed its
+  analytics API probes, then crashed recording them: an HTTP response variable
+  overwrote the report dictionary. The helper-only correction passes a mocked
+  orchestration/reporting/cleanup regression. Read-only Docker inspection found
+  no containers, volumes or networks left for the failed isolated project.
+  The user reran the verifier without rebuilding: all 16 named checks and all
+  18 assistant PostgreSQL tests passed, zero skips. The real analytics workflow
+  ran through production Nginx; saved source persistence survived whole-stack
+  replacement. The report confirms no inference, no application-volume changes
+  and complete isolated cleanup. [Retained container evidence](docs/validation/platform-checkpoint-3-container.json).
+- Normal-volume upgrade and user workflow/layout review remain separate. Stop
+  for review before Checkpoint 4; no authorization to start it has been given.
+
+## Approved implementation checkpoints
+
+Approved by the user on 2026-10-23. Checkpoint 1 is **implemented and verified**;
+the user authorized continuation. Checkpoint 2 is **implemented and verified in
+host and isolated production-image checks, including the follow-up metadata fix;
+the user authorized continuation**. Normal-volume upgrade remains a user-run
+operation. Checkpoint 3 is **implemented and verified in host/browser and isolated
+production-image checks, awaiting user review**. Checkpoints 4–6 are **not started**.
+
+| Checkpoint | Working result | Completion evidence |
+| --- | --- | --- |
+| 1 — Foundation and accounts | Implemented: Express service, account schema/migrations, Router, registration/login/logout/profile, role/ownership guards | PostgreSQL/API/browser and 12 full-stack checks passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-1.md) |
+| 2 — Dataset lifecycle | Implemented: CSV preview/validation/import, private versions, exploration, metadata/archive/deletion | All 14 rebuilt-image checks/18 assistant PostgreSQL tests passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-2.md) |
+| 3 — Analytics | Implemented: aggregations, pharmaceutical templates, all four advanced features, charts/private saved definitions | Final host checks, all 16 full-stack checks and 18 assistant PostgreSQL tests pass; awaiting user review. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-3.md) |
+| 4 — Dashboards and collaboration | Adjustable builder, persistence, filters, sharing/revocation | Browser workflow and adversarial permission checks |
+| 5 — Administration and integration | User controls, suspension, activity, assistant integration, backup/restore | Lifecycle, last-admin protection and regression checks |
+| 6 — Delivery | Clean setup, complete demonstration, documentation, presentation | CdC coverage checklist, final verification and rehearsal |
+
+At each completed checkpoint, provide changes, validation evidence and remaining
+issues for user review before proceeding to the next. Security and verification
+are part of each checkpoint. The user retains container lifecycle and Git publication
+control. Plan approval does not mean any checkpoint has been implemented.
+
+Security and focused checks accompany each stage. All mandatory requirements need
+complete workflows and verification. Evaluate optional formats, forecasting,
+public publishing and layout features on their value; do not silently cut important
+behavior or quality because of the submission date.

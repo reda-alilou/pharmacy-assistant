@@ -17,20 +17,21 @@ class ComposeConfigurationTests(unittest.TestCase):
         config = yaml.safe_load((ROOT / 'deploy/compose.yaml').read_text(encoding='utf-8'))
         services = config['services']
         self.assertEqual(config['name'], 'pharmacy-assistant-architecture')
-        self.assertEqual({key for key, service in services.items() if not service.get('profiles')}, {'web', 'core', 'language', 'postgres'})
+        self.assertEqual({key for key, service in services.items() if not service.get('profiles')}, {'web', 'core', 'language', 'platform', 'postgres'})
         for key, service in services.items():
             if key != 'web':
                 self.assertNotIn('ports', service)
-            self.assertIn('healthcheck', service) if key != 'database-setup' else None
+            self.assertIn('healthcheck', service) if not service.get('profiles') else None
         self.assertEqual(services['web']['ports'], ['127.0.0.1:${WEB_PORT:-8080}:8080'])
         self.assertEqual(set(services['core']['environment']), {'STORAGE_BACKEND', 'CORE_DATABASE_URL', 'LANGUAGE_SERVICE_URL', 'LANGUAGE_SERVICE_TIMEOUT_SECONDS'})
         self.assertNotIn('CORE_DATABASE_URL', services['language']['environment'])
         self.assertNotIn('MIGRATION_DATABASE_URL', services['language']['environment'])
+        self.assertEqual(set(services['platform']['environment']), {'PLATFORM_DATABASE_URL', 'PLATFORM_ORIGIN', 'PLATFORM_COOKIE_SECURE', 'PLATFORM_TRUST_PROXY'})
         self.assertNotIn('environment', services['web'])
         self.assertNotIn('language', services['core']['depends_on'])
         self.assertEqual(services['postgres']['volumes'], ['postgres_data:/var/lib/postgresql/data'])
         self.assertEqual(services['database-setup']['profiles'], ['tools'])
-        for name in ('core', 'language', 'web'):
+        for name in ('core', 'language', 'platform', 'web'):
             self.assertTrue(services[name]['read_only'])
             self.assertEqual(services[name]['cap_drop'], ['ALL'])
 

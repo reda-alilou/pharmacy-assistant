@@ -8,7 +8,7 @@ test('real web/core/PostgreSQL: restore, quota error, inference-free choice, ref
   const token = process.env.DEPLOYMENT_TOKEN!
   await page.addInitScript(({ token }) => sessionStorage.setItem('pharmacy.active-conversation.v1',
     JSON.stringify({ token, expiresAt: new Date(Date.now() + 1_800_000).toISOString() })), { token })
-  await page.goto('/')
+  await page.goto('/assistant')
   await expect(page.getByRole('button', { name: /Choisir ABIP.*BOITE DE 30/ }).last()).toBeEnabled()
   await page.getByRole('textbox', { name: 'Votre question' }).fill('Et deux boîtes ?')
   await page.getByRole('button', { name: 'Envoyer la question' }).click()

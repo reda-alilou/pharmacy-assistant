@@ -46,11 +46,13 @@ def backup(values, output):
         run_tool("pg_dump", values["MIGRATION_DATABASE_URL"], ["--format=custom", "--no-owner", "--no-privileges",
             "--exclude-table-data=core.conversations", "--exclude-table-data=core.conversation_messages",
             "--exclude-table-data=core.conversation_states", "--exclude-table-data=core.pending_choices",
+            "--exclude-table-data=platform.sessions", "--exclude-table-data=platform.auth_throttles",
+            "--exclude-table-data=platform.import_uploads",
             "--file", str(output)])
     except Exception:
         output.unlink(missing_ok=True)
         raise
-    return {"backup": str(output), "temporary_conversations_excluded": True}
+    return {"backup": str(output), "temporary_conversations_excluded": True, "platform_sessions_and_throttles_excluded": True}
 
 
 def verify_backup(values, backup_path):
@@ -85,8 +87,25 @@ def verify_backup(values, backup_path):
                     raise ValueError("Restored quota accounting differs from the backup source.")
             if target.scalar(select(func.count()).select_from(conversations)) != 0:
                 raise ValueError("Backup unexpectedly retained temporary conversations.")
+            platform_present = source.scalar(text("SELECT to_regclass('platform.users') IS NOT NULL"))
+            if platform_present:
+                platform_tables = ['users', 'activity', 'schema_migrations']
+                datasets_present = source.scalar(text("SELECT to_regclass('platform.datasets') IS NOT NULL"))
+                if datasets_present:
+                    platform_tables.extend(['datasets', 'import_receipts', 'dataset_versions', 'dataset_columns', 'dataset_rows', 'dataset_dependencies'])
+                if source.scalar(text("SELECT to_regclass('platform.analyses') IS NOT NULL")):
+                    platform_tables.extend(['analyses', 'analysis_sources'])
+                for table in platform_tables:
+                    # Owned fixed identifiers only. Compare values without emitting account data.
+                    query = text(f'SELECT row_to_json(t)::text FROM platform.{table} t ORDER BY row_to_json(t)::text')
+                    if source.execute(query).all() != target.execute(query).all():
+                        raise ValueError("Restored platform accounts/activity differ; repeat while account writes are idle.")
+                for table in ['sessions', 'auth_throttles'] + (['import_uploads'] if datasets_present else []):
+                    if target.scalar(text(f'SELECT count(*) FROM platform.{table}')) != 0:
+                        raise ValueError("Backup unexpectedly retained platform authentication state.")
         return {"restore_verified": True, "presentations": len(after), "pharmacies": len(after_pharmacies),
-                "quota_state_preserved": True, "temporary_history_absent": True}
+                "quota_state_preserved": True, "temporary_history_absent": True,
+                "platform_accounts_verified": bool(platform_present), "platform_sessions_absent": True}
     finally:
         restored.dispose()
         original.dispose()

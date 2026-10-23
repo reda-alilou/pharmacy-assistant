@@ -1,15 +1,36 @@
 # Processing and service ownership
 
-The patient interface is a French React/TypeScript chat. Nginx serves its static
+One French React/TypeScript application now uses React Router for the platform
+introduction, accounts/profile, CSV exploration, analytics/private saved configurations
+and a separate visitor-accessible `/assistant`. Nginx serves its static
 assets and forwards same-origin `/api` requests to core. Core and language are
-separate FastAPI services. A single PostgreSQL instance stores their independent
-schemas with separate credentials; neither running service accesses the other's
-tables or imports its implementation.
+separate FastAPI services. Express/TypeScript owns accounts, PostgreSQL sessions,
+guided CSV imports, immutable dataset versions and analytics through
+`/platform-api`. A single PostgreSQL instance stores `platform`, `core` and
+`language` with separate runtime credentials; each running service is restricted to its own schema and does not import its
+peers’ implementations.
+
+Dataset work uses owned migration `0002_datasets.sql`, parameterized full-version
+queries and owner checks even for administrators. Temporary uploads expire;
+successful publications atomically retain original and typed cells, configuration,
+provenance and column profiles. Runtime grants prohibit mutation of published
+rows/columns/versions. Migration `0003_analyses.sql` adds saved definitions/source
+FKs and real analysis dependency registrations, with extended backup coverage.
+Dashboard/sharing workflows remain unimplemented. The platform
+never queries core/language private tables. See [dataset API](datasets-api.md).
+Analytics uses parameterized server aggregations, numeric type-7 quartiles and
+four visible advanced features. Configurations pin explicit source versions,
+filters and algorithm settings. All comparison sources require ownership, even
+for admins; saving creates no sharing grant. Read calculations use a repeatable-
+read snapshot; saves lock active accounts/datasets and maintain dependencies
+transactionally. [Analytics API and conventions](analytics-api.md).
 
 ```mermaid
 flowchart LR
-    Browser[React chat] --> Gateway[Nginx /api]
-    Gateway --> Core[Core FastAPI]
+    Browser[React with Router] --> Gateway[Nginx]
+    Gateway -->|/platform-api| Platform[Express TypeScript]
+    Platform --> PlatformSchema[(PostgreSQL platform schema)]
+    Gateway -->|/api| Core[Core FastAPI]
     Core -->|HTTP/JSON interpretation| Language[Language FastAPI]
     Language -->|Budgeted extraction| Hosted[Hosted provider]
     Core --> CoreSchema[(PostgreSQL core schema)]
@@ -69,8 +90,15 @@ it owns no business rules or tables. Maintenance and evaluation packages may
 depend explicitly on both services, but services do not depend on those tools.
 
 The virtual uv root coordinates six installable members and one lockfile. The
-four normal containers are web, core, language and PostgreSQL. The operations
+five normal containers are web, platform, core, language and PostgreSQL. The operations
 image runs only explicit setup jobs. Only web is exposed by default; phone/debug
 overlays are explicit opt-ins. See [setup](../operations/setup.md),
 [administration](../operations/tooling.md), [evaluation](../development/evaluation-tools.md)
-and [finalized decisions](../../DECISION_LOG.md).
+and [architecture-phase decisions](../development/decisions-2026-10-19-20.md).
+The [current decision tracker](../../DECISION_LOG.md) separates approved Full Stack
+CdC decisions from actual implementation. Accounts/navigation and Checkpoint 2
+CSV datasets/exploration plus Checkpoint 3 analytics are implemented in the
+workspace; dashboards, sharing and administration remain future work. See the
+[account API](platform-api.md), [dataset API](datasets-api.md),
+[analytics API](analytics-api.md), [explicit upgrade](../operations/analytics.md) and
+[Checkpoint 3 evidence/limits](../validation/platform-checkpoint-3.md).

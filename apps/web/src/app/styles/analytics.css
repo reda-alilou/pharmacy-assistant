@@ -1,0 +1,26 @@
+.analytics-controls { border:0; margin:0; padding:0; min-width:0; }
+.analytics-fieldset { border:1px solid #c9dcd2; border-radius:.6rem; min-width:0; margin:1rem 0; padding:1rem; }
+.analytics-fieldset legend { color:#214e40; font-weight:650; padding:0 .35rem; }
+.analytics-measure { padding:.8rem 0; border-bottom:1px solid #dce7e0; margin-bottom:.8rem; }
+.analytics-measure:last-of-type { border-bottom:0; }
+.analytics-recommendation { padding:1rem 0; border-bottom:1px solid #dce7e0; }
+.analytics-recommendation:last-child { border-bottom:0; }
+.analytics-recommendation h3 { margin:.3rem 0; }
+.analytics-chart { margin:1.4rem 0; padding:.8rem; border:1px solid #d6e4dc; border-radius:.5rem; background:#fff; }
+.analytics-chart figcaption { color:#214e40; font-weight:650; margin-bottom:.5rem; }
+.analytics-chart svg { width:100%; height:auto; display:block; }
+.analytics-chart svg text { font-size:14px; fill:#214e40; }
+.analytics-chart-scroll { max-height:600px; overflow:auto; }
+.analytics-legend { display:flex; flex-wrap:wrap; gap:.7rem 1.3rem; list-style:none; padding:0; }
+.analytics-legend li { display:flex; gap:.5rem; align-items:center; }
+.analytics-legend span { display:inline-block; width:1rem; height:1rem; border-radius:.15rem; }
+.analytics-kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin:1.3rem 0; }
+.analytics-kpis article { padding:1rem; border:1px solid #d6e4dc; border-radius:.6rem; overflow-wrap:anywhere; }
+.analytics-kpi-value { color:#155c45; font-size:1.65rem; font-weight:700; margin:.5rem 0; }
+.analytics-completeness { display:grid; gap:.8rem; margin:1rem 0; }
+.analytics-completeness div { display:grid; gap:.3rem; }
+.analytics-completeness meter { width:100%; height:1.5rem; }
+.analytics-results details { margin-top:1rem; }
+.analytics-delete { margin-top:1.2rem; }
+.analytics-results .dataset-table-wrap { margin:1rem 0; }
+@media(max-width:650px) { .analytics-fieldset { padding:.7rem; } .analytics-kpis { grid-template-columns:1fr; } .analytics-chart { padding:.35rem; } }

@@ -9,6 +9,9 @@ export default defineConfig({
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
   server: {
     host: '127.0.0.1',
-    proxy: { '/api': { target: process.env.DEV_API_ORIGIN ?? 'http://127.0.0.1:18000', rewrite: path => path.replace(/^\/api/, '') } },
+    proxy: {
+      '/platform-api': { target: process.env.DEV_PLATFORM_ORIGIN ?? 'http://127.0.0.1:3000', rewrite: path => path.replace(/^\/platform-api/, '') },
+      '/api': { target: process.env.DEV_API_ORIGIN ?? 'http://127.0.0.1:18000', rewrite: path => path.replace(/^\/api/, '') },
+    },
   },
 })

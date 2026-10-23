@@ -14,7 +14,7 @@ async function saveToken(page: import('@playwright/test').Page) {
 
 test('French empty state, examples prepare without sending, keyboard focus and no overflow', async ({ page }, testInfo) => {
   const api = await mockApi(page)
-  await page.goto('/')
+  await page.goto('/assistant')
   await expect(page).toHaveTitle('Assistant pharmacie')
   await expect(page.getByRole('heading', { name: /Une question sur/ })).toBeVisible()
   await page.getByRole('button', { name: /Le prix d’un médicament/ }).click()
@@ -28,7 +28,7 @@ test('French empty state, examples prepare without sending, keyboard focus and n
 
 test('chat, explicit presentation, two packages and refresh restoration without inference', async ({ page }, testInfo) => {
   const api = await mockApi(page)
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(choose30(page)).toBeEnabled()
   await choose30(page).click()
   await expect(page.getByText('372,00 MAD', { exact: true }).last()).toBeVisible()
@@ -54,7 +54,7 @@ test('typed chat and selections work without the HTTPS-only randomUUID API', asy
     Object.defineProperty(Crypto.prototype, 'randomUUID', { configurable: true, value: undefined })
   })
   const api = await mockApi(page)
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(choose30(page)).toBeEnabled()
   await choose30(page).click()
   await expect(page.getByText('372,00 MAD', { exact: true }).last()).toBeVisible()
@@ -67,10 +67,12 @@ test('typed chat and selections work without the HTTPS-only randomUUID API', asy
 })
 
 test('busy requests block duplicate submissions and historical choices stay inactive', async ({ page }) => {
-  const api = await mockApi(page, { delay: 250 })
-  await page.goto('/'); await send(page)
+  const api = await mockApi(page)
+  api.holdResponse()
+  await page.goto('/assistant'); await send(page)
   await expect(page.getByRole('button', { name: 'Envoyer la question' })).toBeDisabled()
   await expect(input(page)).toBeDisabled()
+  api.releaseResponse()
   await expect(choose30(page)).toBeEnabled(); await choose30(page).click()
   await expect(page.getByText('372,00 MAD', { exact: true }).last()).toBeVisible()
   await expect(choose30(page)).toBeDisabled()
@@ -79,7 +81,7 @@ test('busy requests block duplicate submissions and historical choices stay inac
 
 test('cooldowns preserve failed text and allow inference-free choices, never automatic retry', async ({ page }) => {
   const api = await mockApi(page, { cooldown: 120 })
-  await page.goto('/'); await send(page); await expect(choose30(page)).toBeEnabled()
+  await page.goto('/assistant'); await send(page); await expect(choose30(page)).toBeEnabled()
   api.failChat('provider_rate_limited')
   await send(page, 'Et deux boîtes ?')
   await expect(page.getByRole('alert')).toContainText('La limite de demandes est atteinte')
@@ -93,7 +95,7 @@ test('cooldowns preserve failed text and allow inference-free choices, never aut
 
 test('lost successful response is recovered by GET without repeating the POST', async ({ page }) => {
   const api = await mockApi(page); api.loseResponse()
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(choose30(page)).toBeEnabled()
   await expect(page.getByRole('alert')).toHaveCount(0)
   expect(api.calls).toHaveLength(1)
@@ -101,7 +103,7 @@ test('lost successful response is recovered by GET without repeating the POST', 
 
 test('uncertain pending request survives refresh and requires explicit status verification', async ({ page }) => {
   const api = await mockApi(page, { pending: true })
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(page.getByRole('button', { name: 'Vérifier la conversation' })).toBeEnabled()
   await page.reload()
   await expect(page.getByText(question, { exact: true })).toBeVisible()
@@ -115,7 +117,7 @@ test('uncertain pending request survives refresh and requires explicit status ve
 
 test('manual retry uses a fresh request id and preserves the original failed message', async ({ page }) => {
   const api = await mockApi(page, { failure: 'language_unavailable' })
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(page.getByRole('button', { name: 'Réessayer la question' })).toBeEnabled()
   api.failChat(undefined)
   await page.getByRole('button', { name: 'Réessayer la question' }).click()
@@ -126,7 +128,7 @@ test('manual retry uses a fresh request id and preserves the original failed mes
 })
 
 test('new conversation waits for server invalidation; failed reset preserves messages', async ({ page }) => {
-  const api = await mockApi(page); await page.goto('/'); await send(page); await expect(choose30(page)).toBeEnabled()
+  const api = await mockApi(page); await page.goto('/assistant'); await send(page); await expect(choose30(page)).toBeEnabled()
   await page.getByRole('button', { name: 'Nouvelle conversation' }).click()
   const dialog = page.getByRole('alertdialog')
   await expect(dialog).toBeVisible()
@@ -145,7 +147,7 @@ test('new conversation waits for server invalidation; failed reset preserves mes
 
 test('server expiry clears the temporary transcript and does not resend the question', async ({ page }) => {
   const api = await mockApi(page); api.seed(); await saveToken(page)
-  await page.goto('/'); await expect(choose30(page)).toBeEnabled()
+  await page.goto('/assistant'); await expect(choose30(page)).toBeEnabled()
   api.expire(); await page.reload()
   await expect(page.getByText(/Cette conversation a expiré/)).toBeVisible()
   await expect(page.getByText(question, { exact: true })).toHaveCount(0)
@@ -155,7 +157,7 @@ test('server expiry clears the temporary transcript and does not resend the ques
 test('elapsed local expiry clears messages and browser token', async ({ page }) => {
   const api = await mockApi(page); api.seed(); await saveToken(page)
   await page.clock.install()
-  await page.goto('/'); await expect(choose30(page)).toBeEnabled()
+  await page.goto('/assistant'); await expect(choose30(page)).toBeEnabled()
   await page.clock.fastForward(1_801_000)
   await expect(page.getByText(/Cette conversation a expiré/)).toBeVisible()
   expect(await page.evaluate(() => sessionStorage.getItem('pharmacy.active-conversation.v1'))).toBeNull()
@@ -163,7 +165,7 @@ test('elapsed local expiry clears messages and browser token', async ({ page }) 
 
 test('pharmacy cards expose readable provenance and safe contact links without stock claims', async ({ page }) => {
   const api = await mockApi(page); api.seed('pharmacy'); await saveToken(page)
-  await page.goto('/')
+  await page.goto('/assistant')
   await expect(page.getByRole('region', { name: 'Pharmacies trouvées' })).toBeVisible()
   await expect(page.getByText(/Horaires inconnus · Garde non vérifiée/)).toBeVisible()
   await expect(page.locator('.pharmacy-card').first()).toContainText('Collecté le')
@@ -182,14 +184,14 @@ test('pharmacy cards expose readable provenance and safe contact links without s
 
 test('missing recorded price is explicit and never displayed as zero', async ({ page }) => {
   const api = await mockApi(page); api.seed('missing'); await saveToken(page)
-  await page.goto('/')
+  await page.goto('/assistant')
   await expect(page.getByText('Prix non renseigné', { exact: true })).toBeVisible()
   await expect(page.getByText('0,00 MAD', { exact: true })).toHaveCount(0)
 })
 
 test('invalid extraction response never renders an unvalidated factual answer', async ({ page }) => {
   const api = await mockApi(page, { invalid: true })
-  await page.goto('/'); await send(page)
+  await page.goto('/assistant'); await send(page)
   await expect(choose30(page)).toBeEnabled() // Canonical validated recovery, no replay.
   await expect(page.getByText(/UNTRUSTED UNVALIDATED PRICE/)).toHaveCount(0)
   expect(api.calls).toHaveLength(1)
@@ -197,14 +199,14 @@ test('invalid extraction response never renders an unvalidated factual answer', 
 
 test('browser storage failure stays usable and explains refresh limitation', async ({ page }) => {
   await page.addInitScript(() => { Storage.prototype.setItem = () => { throw new Error('blocked') } })
-  const api = await mockApi(page); await page.goto('/'); await send(page)
+  const api = await mockApi(page); await page.goto('/assistant'); await send(page)
   await expect(choose30(page)).toBeEnabled()
   await expect(page.getByText(/La reprise après actualisation n’est pas disponible/)).toBeVisible()
   expect(api.calls).toHaveLength(1)
 })
 
 test('input limits, whitespace and IME composition never issue unintended requests', async ({ page }) => {
-  const api = await mockApi(page); await page.goto('/')
+  const api = await mockApi(page); await page.goto('/assistant')
   await input(page).fill('   '); await expect(page.getByRole('button', { name: 'Envoyer la question' })).toBeDisabled()
   await input(page).fill('a'.repeat(2001)); await expect(page.getByRole('button', { name: 'Envoyer la question' })).toBeDisabled()
   await input(page).fill('ما ثمن ABIP؟')
@@ -216,7 +218,7 @@ test('input limits, whitespace and IME composition never issue unintended reques
 test('mobile layout and accessible empty/chat/reset states', async ({ page }, testInfo) => {
   test.slow() // Three complete accessibility scans, including the reset dialog.
   await page.setViewportSize({ width: 390, height: 844 })
-  await mockApi(page); await page.goto('/')
+  await mockApi(page); await page.goto('/assistant')
   await expect(page.getByRole('heading', { name: /Une question sur/ })).toBeVisible()
   await expect(input(page)).toBeEnabled()
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([])
@@ -234,7 +236,7 @@ test('mobile layout and accessible empty/chat/reset states', async ({ page }, te
 })
 
 test('multiple medication cards use server line totals and hide an incomplete order total', async ({ page }) => {
-  const api = await mockApi(page); api.seed('multi'); await saveToken(page); await page.goto('/')
+  const api = await mockApi(page); api.seed('multi'); await saveToken(page); await page.goto('/assistant')
   await expect(page.locator('.medication-card')).toHaveCount(2)
   await expect(page.locator('.order-total')).toContainText(raw.multi.order_pricing.total_price_mad!.replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '\u202f'))
   const incomplete = structuredClone(raw.multi)
@@ -249,7 +251,7 @@ test('offered facet, pagination and reference actions send exact API values with
   const facet = structuredClone(raw.initial)
   facet.medications[0].candidate_count = 10
   facet.medications[0].clarification = { kind: 'refine_search', field: 'strength', options: [{ value: '15 MG', candidate_count: 2 }] }
-  api.seedCustom(facet); await saveToken(page); await page.goto('/')
+  api.seedCustom(facet); await saveToken(page); await page.goto('/assistant')
   await page.getByRole('combobox', { name: 'Dosage pour ABIP' }).selectOption('15 MG')
   await page.getByRole('button', { name: 'Préciser', exact: true }).click()
   await expect(choose30(page)).toBeEnabled()
@@ -267,7 +269,7 @@ test('offered facet, pagination and reference actions send exact API values with
 })
 
 test('user markup is text and unsafe source URLs never become links', async ({ page }) => {
-  const api = await mockApi(page); await page.goto('/')
+  const api = await mockApi(page); await page.goto('/assistant')
   await send(page, '<script>window.unsafe = true</script> ما ثمن ABIP؟')
   await expect(page.getByText('<script>window.unsafe = true</script> ما ثمن ABIP؟', { exact: true })).toBeVisible()
   expect(await page.evaluate(() => 'unsafe' in window)).toBe(false)
@@ -294,7 +296,7 @@ test('recorded decimal and zero prices stay distinct from missing prices and sho
           presentation_count: 3, unit_price_mad: unit.replace(',', '.'), total_price_mad: total.replace(',', '.') },
       })),
     })
-    await page.goto('/')
+    await page.goto('/assistant')
     await expect(page.getByText(`${unit} MAD`, { exact: true }).first()).toBeVisible()
     await expect(page.getByText(`${total} MAD`, { exact: true }).last()).toBeVisible()
     if (unit === total) await expect(page.getByText(`${unit} MAD`, { exact: true })).toHaveCount(2)
@@ -310,7 +312,7 @@ test('chat requests use fixed same-origin API paths without credentials or quest
     if (url.pathname.startsWith('/api/')) addresses.push(url)
   })
   await mockApi(page)
-  await page.goto('/')
+  await page.goto('/assistant')
   await send(page)
   await choose30(page).click()
   await expect(page.getByText('372,00 MAD', { exact: true }).last()).toBeVisible()

@@ -34,10 +34,26 @@ reset the database or import facts. `grant`, `import`, `verify` and `import-quot
 are separate actions. Existing environments and private ledgers stay in place;
 do not run initialization again for the configured demo.
 
+Checkpoint 1 adds a separate TypeScript CLI under `services/platform` for platform
+SQL migrations, restricted grants, explicit administrator provisioning and
+confirmed account status/role changes. Python `pharmacy-db` still owns only the
+original core/language operations. Use the exact [platform commands](platform-accounts.md);
+normal Compose now needs the additional private `.runtime/platform.env`. Neither
+runtime service receives migration credentials, and no startup runs migrations.
+
 `pharmacy-backup backup <new-path>` writes a new dump. `pharmacy-backup verify
 <path>` creates and drops its own restore database, comparing catalogue facts
 and quotas with the original. PostgreSQL 17 `pg_dump` and `pg_restore` must be on
 PATH or installed in the standard Windows PostgreSQL 17 location.
+
+The dump excludes `platform.sessions`, `platform.auth_throttles` and temporary
+`platform.import_uploads`, while retaining accounts, activity, datasets, immutable
+versions/columns/typed and original rows, dependencies and permanent import receipts.
+Verification compares those tables when present and checks excluded state is
+absent. Restored incomplete receipts cannot resume without excluded upload bodies.
+Reapply explicit runtime grants after restoring. Checkpoint 3 also retains and
+compares `analyses` and `analysis_sources` with their dependency registrations.
+Dashboard/sharing relationships remain future work. [Current commands](analytics.md).
 
 To read the host language ledger, first select its already configured environment:
 
@@ -67,6 +83,28 @@ databases in that cluster for concurrent/cross-process reservation accounting,
 budget resume and missing-ledger rejection, invalid-import rollback, read-only
 legacy import, owned credentials and backup/restore. Hosted inference is mocked.
 The helper refuses an ordinary application administrator/environment file.
+
+The upgraded verifier explicitly migrates/grants platform before its five-service
+startup and probes account cookies/CSRF/roles through Nginx. It uploads a CSV above
+the former gateway body limit, validates/publishes it, checks microsecond timestamp
+precision, full-version pagination and persistence after replacement. With
+`--frontend` it also runs the real dataset browser lifecycle against production
+Nginx, including versions, ownership, archive/delete and invalid-input recovery.
+Checkpoint 3 extends this to exact statistical/advanced APIs, saved-source
+dependencies and persistence, and the real analysis builder/chart/four-feature
+browser flow. With `--frontend` it now expects 16 named checks plus the 18 assistant
+PostgreSQL tests. Account/dataset suites remain included.
+The dedicated
+`npm --prefix services/platform run test:postgres` and
+`npm --prefix apps/web run test:accounts` checks cover account adversarial and
+browser scenarios against the separately user-started test cluster; they do not
+start/stop containers. Dataset suites use `test:datasets` in each npm package.
+Analytics suites use `test:analytics` in each package, including known-input,
+precision, comparison-key and restored-definition checks. See
+[Checkpoint 3 evidence](../validation/platform-checkpoint-3.md).
+[Checkpoint 2 evidence](../validation/platform-checkpoint-2.md) records actual runs,
+separately from pending normal-volume upgrade and review. Historical Checkpoint 1
+and R7 reports remain unchanged.
 
 Finally, it removes its project, test volume, generated environments and port
 overlay. It preserves the application's project, volume, credentials and ledgers.

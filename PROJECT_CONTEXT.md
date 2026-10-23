@@ -1,14 +1,25 @@
-# Pharmacy Assistant — complete current project reference
+# Pharmaceutical platform and assistant — current project reference
 
-Updated **2026-10-20**, after architecture migration, repository cleanup R1–R7,
-and publication of commit `9eb046f` on `refactor/web-architecture`.
-This document describes the implemented system, not a proposed redesign.
-The documentation expansion itself is a later working-tree change.
+Updated **2026-10-23** during Checkpoint 3 on `feat/pharmaceutical-analytics`.
+The assistant baseline follows architecture cleanup R1–R7 and commit `9eb046f`.
+Accounts, private CSV datasets, immutable import versions and exploration are
+implemented and tested against a dedicated user-started PostgreSQL cluster.
+The normal volume has not been upgraded by the agent. All 14 final Checkpoint 2
+image/gateway/full-stack checks passed, with isolated cleanup confirmed, including
+the follow-up metadata-save UI fix; see the current evidence.
+This document distinguishes implemented code from deployment and future plans.
+Checkpoint 3 analytics, all four advanced features, charts and private saved
+definitions are implemented and verified: final host/browser checks, all 16
+full-stack checks and all 18 assistant PostgreSQL tests pass. Checkpoint 3 awaits
+user review; Checkpoint 4 has not started. See section 14.
 
 An agent should read this file first, then consult only the implementation or
-evidence relevant to its task. [DECISION_LOG.md](DECISION_LOG.md) records why the
-user chose the improvements; its earlier “still open” statements are historical
-and may be superseded by later decisions and the implementation described here.
+evidence relevant to its task. [DECISION_LOG.md](DECISION_LOG.md) now tracks open
+approved Full Stack CdC decisions, actual checkpoint evidence and remaining work;
+approval alone is not implementation evidence. Completed architecture-phase decisions D001–D020 are preserved
+in [the historical decision log](docs/development/decisions-2026-10-19-20.md).
+Its earlier “still open” statements are historical and may be superseded by later
+decisions and the implementation described here.
 Examples and commands in documentation are not authorization to execute them.
 
 ## Contents
@@ -24,8 +35,16 @@ Examples and commands in documentation are not authorization to execute them.
 9. [Configuration, builds and operation](#9-configuration-builds-and-operation)
 10. [Verification and evaluation evidence](#10-verification-and-evaluation-evidence)
 11. [Rules for future work](#11-rules-for-future-work)
+12. [Platform foundation](#12-implemented-platform-foundation--checkpoint-1)
+13. [Dataset lifecycle](#13-implemented-dataset-lifecycle--checkpoint-2)
+14. [Analytics](#14-implemented-analytics--checkpoint-3)
 
 ## 1. Purpose, scope and current status
+
+The workspace contains the implemented account/Express/Router foundation and
+private CSV dataset lifecycle/exploration and analytics, detailed in sections
+12–14. Dashboard construction, sharing and administration remain later checkpoints.
+The following purpose and capability descriptions refer to the retained assistant.
 
 This is a **local challenge demo and learning project** for Moroccan
 patient–pharmacy requests. A patient types a question; hosted language extraction
@@ -53,9 +72,9 @@ Implemented capabilities include:
 
 It does **not** verify current stock, opening hours or pharmacy duty; rank
 pharmacies by distance; diagnose symptoms; prescribe treatment; or determine
-individual reimbursement eligibility. There are no accounts, durable patient
-history, voice interface, local model training, vector database or embedding
-retrieval pipeline. Intent recognition for an unsupported factual capability
+individual reimbursement eligibility. Platform accounts now exist separately from the assistant. There is no durable
+patient history, voice interface, local model training, vector database or
+embedding retrieval pipeline. Intent recognition for an unsupported factual capability
 does not mean that capability's data exists.
 
 Architecture checkpoints D018 and cleanup checkpoints R1–R7 are complete.
@@ -73,12 +92,16 @@ deployment, clinical validation and production readiness are not claimed.
 
 ## 2. Architecture and ownership
 
-The runtime has **four normal containers**: web, core, language and PostgreSQL.
+The upgraded runtime defines **five normal containers**: web, platform (Express),
+core, language and PostgreSQL. Apply the explicit platform setup before starting
+the upgraded stack; startup does not migrate or provision accounts.
 An additional operations image runs explicit administrative jobs only.
 
 ```mermaid
 flowchart LR
-    Patient[Patient browser] -->|HTTP same origin| Web[web: React assets + Nginx :8080]
+    Patient[React browser with Router] -->|HTTP same origin| Web[web: React assets + Nginx :8080]
+    Web -->|/platform-api prefix removed| Platform[platform: Express TypeScript :3000]
+    Platform -->|Restricted runtime SQL| PlatformDB[(PostgreSQL: platform schema)]
     Web -->|/api prefix removed; HTTP/JSON| Core[core: FastAPI :8000]
     Core -->|POST /v1/interpret| Language[language: FastAPI :8001]
     Language -->|HTTPS: prompt + current message| Provider[Selected hosted provider]
@@ -88,12 +111,14 @@ flowchart LR
     Ops -->|Admin migrations/quota import/backup| LanguageDB
 ```
 
-The two schema nodes are in **one PostgreSQL server and one database**, not two
-independent database instances. A database/server outage affects both services.
+The three schema nodes are in **one PostgreSQL server and one database**, with
+independent runtime permissions. A database/server outage affects all services.
 
 | Component | Responsibility | Important boundary |
 | --- | --- | --- |
-| React/TypeScript frontend | Chat, transcript state, selection/refinement controls, medication/pharmacy cards, sources and recovery UI | Calls core through `/api`; no provider keys or SQL access; displays server-calculated amounts |
+| React/TypeScript frontend | Router, accounts/profile, CSV wizard, exploration, analytical builder/charts/saved definitions; separate assistant | Calls Express through `/platform-api` and core through `/api`; no provider keys or SQL access |
+| Express/TypeScript platform | Accounts, CSV/version lifecycle, queries/profiles, analytics and private saved configurations, ownership guards/admin CLI | Restricted to `platform`; no Python private-table or patient-history access |
+| PostgreSQL `platform` | Accounts/authentication/activity, datasets/imports/immutable versions, analyses/source FKs and dependencies | Runtime role `pharmacy_platform`; no DDL or peer-schema access |
 | Nginx in web image | Static frontend serving, same-origin reverse proxy, gateway failure response | Removes `/api` before forwarding; never automatically retries a request upstream |
 | Core FastAPI | Conversation flow, context, medication matching, pharmacy lookup, pricing and templated answers | Calls language over HTTP; no provider SDK, peer implementation import or language-table access |
 | Language FastAPI | Provider selection/adapters, extraction prompt, schema/span validation and attempt control | No catalogue/conversation access; no final factual answer generation |
@@ -129,8 +154,8 @@ in-memory resources; no environment setting enables a file/SQLite runtime mode.
 
 The default browser entry point is `http://127.0.0.1:8080`. Docker's private
 network resolves `core`, `language` and `postgres` by service name. Only web has a
-host port in normal Compose. PostgreSQL listens internally on 5432; core on 8000;
-language on 8001. Core's Compose language URL is `http://language:8001`.
+host port in normal Compose. PostgreSQL listens internally on 5432; Express on
+3000; core on 8000; language on 8001. Core's Compose language URL is `http://language:8001`.
 
 Nginx forwards `/api/chat` to core `/chat`, `/api/conversation` to
 `/conversation`, and similarly for the other core routes. Core's interactive API
@@ -375,7 +400,9 @@ only when all requested lines can be calculated; otherwise it is incomplete.
 
 ## 6. PostgreSQL schema
 
-The normal database is `pharmacy_assistant` on PostgreSQL 17. SQL tables are
+The normal database is `pharmacy_assistant` on PostgreSQL 17. Platform accounts
+are described in section 12 and have independent checksummed SQL migrations.
+The following SQL tables are the unchanged assistant-owned structures and are
 defined in each service's `storage/postgres/models.py`; frozen DDL lives in its
 `migrations/versions/0001_initial.py`. Current revisions are **`core_0001`** and
 **`language_0001`**. Each schema also has its own `alembic_version` table.
@@ -639,7 +666,7 @@ markers and routine build-config files are not individually expanded everywhere.
 ```text
 pharmacy-assistant/
 ├── PROJECT_CONTEXT.md                 # this self-contained system reference
-├── DECISION_LOG.md                    # finalized improvement choices/rationale
+├── DECISION_LOG.md                    # CdC decisions and proposed remaining work
 ├── README.md                         # public introduction and navigation
 ├── pyproject.toml                    # virtual uv coordinator, not an app package
 ├── uv.lock                           # one Python workspace lockfile
@@ -667,6 +694,11 @@ pharmacy-assistant/
 │       │       └── lib/utils.ts
 │       └── tests/browser/, fixtures/, support/
 ├── services/
+│   ├── platform/                     # Express/TypeScript account foundation
+│   │   ├── package.json, package-lock.json, tsconfig.json, Dockerfile
+│   │   ├── src/                      # API, PostgreSQL store, security, CLI
+│   │   ├── migrations/0001_accounts.sql
+│   │   └── tests/                    # HTTP/security and real PostgreSQL
 │   ├── core/
 │   │   ├── pyproject.toml, Dockerfile, alembic.ini
 │   │   ├── migrations/env.py, script.py.mako, versions/0001_initial.py
@@ -721,7 +753,7 @@ pharmacy-assistant/
 │       │   └── reporting/analysis.py, freeze.py, io.py, merge.py, state.py
 │       └── tests/
 ├── deploy/
-│   ├── compose.yaml                   # four normal services + tools-profile job
+│   ├── compose.yaml                   # five normal services + tools-profile jobs
 │   ├── compose.phone.yaml             # opt-in web-only Wi-Fi exposure
 │   ├── compose.debug.yaml             # opt-in localhost backend/database ports
 │   └── nginx/nginx.conf
@@ -777,7 +809,10 @@ only `postgres` in running service settings.
 | `.env.example` | Public placeholders/settings example; no actual secrets |
 | `.env` | Ignored local provider selection/key/settings; never publish/read out keys |
 | `.runtime/postgres.env` | Ignored host/admin/runtime DB credentials created explicitly |
-| `.runtime/compose.env` | Ignored Compose-ready settings, including internal database addresses/provider settings |
+| `.runtime/compose.env` | Existing ignored Compose-ready database/provider settings; preserved |
+| `.runtime/platform.env` | New separate private platform runtime URL/password and cookie/origin settings; explicit one-time creation |
+| `PLATFORM_DATABASE_URL` | Express-only runtime URL; no migration or peer-service credentials |
+| `PLATFORM_ORIGIN`, `PLATFORM_COOKIE_SECURE`, `PLATFORM_TRUST_PROXY` | Exact CSRF browser origin, HTTPS cookie flag and explicit private-proxy trust |
 | `CORE_DATABASE_URL` | Core-owned PostgreSQL URL; core does not retain provider or language DB credentials |
 | `LANGUAGE_DATABASE_URL` | Language-owned PostgreSQL URL and quota storage |
 | `MIGRATION_DATABASE_URL` | Administrative URL for explicit jobs, not normal service environment |
@@ -788,8 +823,10 @@ only `postgres` in running service settings.
 Database engines use pre-ping, bounded pools, a five-second connection timeout,
 ten-second SQL statement timeout, three-second lock timeout and UTC sessions.
 SQL parameter hiding and sanitized errors reduce accidental secret exposure.
-Bearer tokens authorize temporary conversations; this is not account authentication.
-There is no configured public TLS/authentication/deployment layer. Never expose
+Bearer tokens authorize temporary conversations; platform account authentication
+uses a separate HttpOnly cookie and PostgreSQL session records.
+There is no configured public TLS/deployment layer. Platform account
+authentication is implemented for the configured same-origin application. Never expose
 the internal services/database publicly just to access the web interface.
 
 `pharmacy-compose-setup` creates the Compose environment from existing private
@@ -816,14 +853,16 @@ Multi-stage images contain installed packages or built frontend assets rather
 than requiring the development checkout. The operations image includes owned
 migrations and the two import inputs for explicit jobs.
 
-For the **user to run** in an already configured workspace:
+First perform the [Checkpoint 3 analytics upgrade](docs/operations/analytics.md),
+including initial account setup if needed, without regenerating existing
+credentials. Then, for the **user to run**:
 
 ```powershell
 # Start the configured demo; does not migrate/import.
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait
 
 # Stop/remove containers and network, preserving the database volume.
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml down
+docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml down
 ```
 
 The phone overlay binds only web to a chosen Wi-Fi IP; it leaves core/language/
@@ -848,11 +887,14 @@ access. The debug overlay publishes database/core/language on **localhost only**
 
 `pharmacy-backup` uses PostgreSQL 17 `pg_dump`/`pg_restore` client tools. Its
 custom-format backup retains catalogue/directory and language accounting data,
-but explicitly excludes rows from all four temporary-conversation tables. The
+but explicitly excludes rows from all four temporary-conversation tables,
+`platform.sessions` and `platform.auth_throttles`. Platform account/activity and
+migration rows are retained and checked when present. The
 `verify` action restores into a newly created temporary database, compares
 catalogue/directory/quota/budget/import data, checks temporary history is absent,
-then removes that verification database. It does not overwrite the application
-database. Backup preservation and named-volume persistence are different:
+then removes that verification database. It also compares platform account/
+activity/migration rows when present and checks authentication state is absent.
+It does not overwrite the application database. Backup preservation and named-volume persistence are different:
 restarting containers keeps unexpired conversations in the volume; these backups
 intentionally do not retain their contents.
 
@@ -958,8 +1000,9 @@ require explicit authorization/budgets, not just a passing offline score.
   deployed persistence/architecture described here.
 - Update this reference when structure, communication, tables, inputs or operating
   behavior change. Cite evidence and distinguish implemented facts from proposed
-  choices. `DECISION_LOG.md` is for finalized user-approved improvement decisions,
-  not every operational action. Commits/pushes remain user-controlled.
+  choices. `DECISION_LOG.md` tracks CdC decisions and remaining work, separating
+  proposals, user-approved choices and verified implementation; it is not a log
+  of every operational action. Commits/pushes remain user-controlled.
 
 Focused companion guides: [README](README.md),
 [architecture overview](docs/architecture/overview.md),
@@ -970,3 +1013,250 @@ Focused companion guides: [README](README.md),
 [R7 validation](docs/validation/cleanup-r7.md), and
 [archive rules](archive/README.md). This file contains the system explanation;
 those guides provide deeper procedures/evidence when a task needs them.
+
+
+## 12. Implemented platform foundation — Checkpoint 1
+
+React Router now serves introduction `/`, registration `/inscription`, login
+`/connexion`, own profile `/profil`, account workspace `/espace`, and separate
+visitor-accessible `/assistant`. The administrator-only `/administration` page
+explicitly says the administration workflow is coming in Checkpoint 5. Dataset
+routes were added in Checkpoint 2 (section 13), analytics in Checkpoint 3 (section
+14); dashboards and sharing remain future work. French labels, solid healthcare colors, responsive forms
+and the assistant's factual behavior remain in place.
+
+`services/platform` owns an Express 5 TypeScript service, npm lockfile,
+production Dockerfile, SQL migrations, CLI and tests. The gateway adds
+`/platform-api`; the assistant retains `/api` and unchanged Python contracts.
+The platform runtime receives only its own database URL, origin/cookie/proxy
+settings. It receives no provider, migration or peer-service credentials.
+
+`platform` migration `0001_accounts.sql` introduces `users`, `sessions`,
+`auth_throttles` and `activity`; `schema_migrations` tracks checksummed revisions.
+Existing `core_0001` and `language_0001` remain untouched. Explicit migrations
+and grants never run at service startup. New `pharmacy_platform` runtime grants
+exclude peer schemas, DDL, migration changes and activity deletion. Existing
+volume identity and imports are unchanged. Administrator provisioning is explicit;
+public registration always creates an analyst. The CLI refuses silent elevation
+of an existing account, and status/role changes require an explicit confirmation
+flag and generate activity. The Users administration screen is future work.
+
+Passwords use versioned scrypt hashes (random salt, N=131072/r=8/p=1). The account
+cookie is HttpOnly/SameSite=Lax, scoped to `/platform-api`, Secure when HTTPS is
+configured; local loopback HTTP is explicit. Session secrets are random 256-bit
+values, stored only as hashes, with 30-minute request inactivity and a fixed
+12-hour absolute lifetime. CSRF checks cover all writes including login/register.
+Database-backed login/registration/password/bootstrap limits coordinate processes.
+Account state and role are checked on requests; password/status/role changes
+invalidate sessions. SQL and CLI safeguards protect the last active administrator.
+Own-profile APIs enforce ownership for analysts and administrators alike. No new
+API exposes patient history or other users' profiles. Names and passwords can be
+changed; the login email stays unchanged in Checkpoint 1.
+
+Session and throttle cleanup runs every minute. Account activity is retained
+without automatic pruning at this checkpoint. Backups retain accounts/activity
+and exclude platform sessions/auth throttles as well as temporary patient
+conversations. Checkpoint 2 extends persistence and backup to datasets, permanent
+receipts and original cells, while excluding temporary import staging.
+
+Current evidence and limits are in
+[Checkpoint 1 validation](docs/validation/platform-checkpoint-1.md). The dedicated
+PostgreSQL and real React/Express/PostgreSQL checks are new evidence, separate
+from R7. The user-run full container verifier passed all 12 checks, including Nginx
+account security/routing and assistant persistence/outage/browser behavior; all
+18 assistant PostgreSQL tests passed with zero skips, with isolated cleanup
+confirmed. The agent did not run container lifecycle commands. Normal-volume
+migration/provisioning remain user operations; the user authorized continuation
+to Checkpoint 2 after those results. [Platform setup](docs/operations/platform-accounts.md) provides exact
+commands; [the API/security contract](docs/architecture/platform-api.md) specifies
+parameters, limits, schema and permission boundaries.
+
+## 13. Implemented dataset lifecycle — Checkpoint 2
+
+Authenticated users open `/donnees` for their own datasets, `/donnees/importer`
+for upload, `/donnees/imports/:id` for a resumable one-hour staging workflow and
+`/donnees/:id` for overview/data/columns/quality/versions. Every dataset/import
+operation checks ownership in Express, including requests by administrators.
+There is no implicit administrator access to another owner's contents. Sharing
+and administrative inspection/suspension remain future work. Section 14 adds
+owned analytical operations and private saved definitions.
+
+Migration `0002_datasets.sql` adds datasets, permanent import receipts, expiring
+raw upload/configuration/validation staging, immutable versions/column definitions/
+profiles/typed and original rows, and a dependency registry for guarded deletion.
+The checksummed account revision and Python revisions are preserved. Explicit
+grants allow immutable table SELECT/INSERT only, mutable metadata/staging DML and
+dependency SELECT. Parent deletion cascades through versions; future dependency
+registrations block deletion through restrictive foreign keys. Account activity
+now identifies account/dataset/import resources. Transactions recheck active
+account status before writes; publication serializes versions under dataset locks.
+
+CSV uses pinned `csv-parse`, bounded streaming parsing, strict UTF-8 or explicit
+Windows-1252, comma/semicolon/tab correction, explicit decimal/date/boolean
+conventions and configurable missing markers. Preview is 20 rows; inference
+samples 200 rows with full-file leading-zero protection. Full validation never
+silently discards malformed records or converts invalid numbers to null. Reports
+give row/source line/column/reason, retain the first 1,000 errors and expose total
+error counts. Formula-like column labels are escaped in the downloadable report.
+Publication revalidates and atomically inserts the complete version and profiles;
+receipts make retries idempotent. Failed transactions expose no partial dataset.
+
+Supported limits: 10 MiB, 25,000 data rows, 100 columns, 1,000,000 cells and 16,384
+UTF-16 units per cell; five active uploads per user, one heavy CSV operation per
+process, one-hour staging retention. JSON configuration is bounded to 128 KiB;
+account JSON remains 16 KiB. Dataset gateway uploads allow 10 MiB/60 seconds;
+assistant limits remain unchanged. Decimal strings retain up to 38 significant
+and 12 fractional digits; timestamp normalization preserves up to six fractional
+digits. Original strings, source order, missing values, zeros, false and leading
+zero identifiers remain inspectable. Source observation dates are metadata.
+
+Server queries apply search, typed AND filters (selected values OR), stable sort,
+count and pagination to a complete version. Pages default to 25, maximum 100.
+Parameterized operations and known column IDs prevent SQL injection. Count/page
+use one repeatable-read snapshot. Immutable profiles contain present/missing/
+distinct counts, typed min/max and PostgreSQL numeric averages excluding missing
+cells. Quality shows the initial import completeness profile; the Analysis tab
+now links to Checkpoint 3 missingness, outliers, recommendations, comparison and
+aggregations. Metadata uses explicit saving and
+optimistic revisions. Archive hides datasets from the default list and blocks new
+versions; deletion requires dependency review and the exact title/revision.
+
+An offline explicit exporter reads the preserved authoritative source JSONL and
+creates a new CSV without overwriting files, database access or network calls.
+The downloadable 28-presentation sample includes attribution, missing prices and
+linked observations/conflicts. It uses the normal import pipeline; Express never
+reads Python-private tables. Full-source round-trip checks preserve all 9,936
+records and 1,126 missing prices. The source inputs were not changed.
+
+Backup/restore retains account/dataset/version/column/row/receipt/dependency state,
+excluding sessions/throttles, upload staging and temporary patient conversations.
+Restored incomplete receipts cannot recover excluded staging. Reapply restricted
+runtime grants explicitly after restore. Checkpoint 3 adds saved-analysis/source
+backup coverage; sharing relationships remain later work.
+
+Host evidence: 8 Node unit tests; 9 real dataset PostgreSQL scenario groups
+(10 results), 7 retained account groups (8 results); 2 dataset browser workflows
+with desktop/mobile axe checks; 1 account browser workflow; 26 offline browser
+passes and one deployment-only skip; 247 offline Python passes and 18 intentional
+PostgreSQL skips. The final user-run container check passed all 14 checks,
+including the production dataset browser workflow; all 18 assistant PostgreSQL
+tests passed, zero skips. Cleanup, no hosted inference and no application-volume
+modification were confirmed. [Container evidence](docs/validation/platform-checkpoint-2-container.json).
+Local measured imports: 9,936 rows 1.136 s; 25,000 rows 3.050 s; 1,000,000 cells
+13.338 s. These are local measurements; simultaneous heavy suites caused a
+62-second wide import once, so they establish no latency SLA.
+
+See [dataset API](docs/architecture/datasets-api.md),
+[upgrade/test commands](docs/operations/datasets.md) and
+[actual evidence and limits](docs/validation/platform-checkpoint-2.md).
+Follow-up review found that metadata editing/reset remained possible during a
+pending save. Those controls now disable until completion; errors preserve the
+draft. A held-response browser regression and the extended real browser workflow
+cover this. Five focused offline browser checks, build and lint pass after the
+fix. The dedicated test database was stopped, so the extended host real-database
+browser workflow could not run there. The user then rebuilt web and ran the
+extended workflow through production Nginx in an isolated stack: all 14 checks
+and all 18 assistant PostgreSQL tests passed, zero skips, with isolated cleanup,
+no inference and no application-volume modification confirmed.
+[Latest review container evidence](docs/validation/platform-checkpoint-2-review-container.json)
+is separate from the preserved earlier image report.
+
+The user authorized Checkpoint 3 after those results. Normal-volume upgrade remains
+a user operation and has not been established by disposable-stack evidence.
+
+## 14. Implemented analytics — Checkpoint 3
+
+`services/platform/src/analytics` owns strict definition contracts, SQL helpers,
+aggregations/advanced engines, saved-definition lifecycle and routes. React
+`features/analytics` provides `/analyses`, `/analyses/nouvelle` and `/analyses/:id`.
+The dataset's Analysis tab starts a builder pinned to the selected immutable
+version. Authenticated deep links preserve source/version query through login.
+Assistant routes and Python contracts are unchanged.
+
+Definitions retain `algorithm: cp3-v1`, explicit dataset/version references,
+full-dataset filters/search and relevant statistical/chart settings. Aggregations
+support row/present/missing/distinct counts; numeric sum/mean/median/min/max/
+quartiles and sample/population deviation; up to two categorical or UTC day/month/
+year groups; typed rankings and explicit top/bottom limits. At most eight measures
+and 200 groups are returned, with full filtered denominators and omitted-group
+counts. Parameterized SQL uses immutable typed cells. Read calculations authorize
+all sources in a repeatable-read snapshot; they never access Python-private tables.
+
+Quartiles use exact numeric type-7 interpolation at `(n−1)×p`. Mean/deviation inputs
+use numeric(80,24), preserving low fractional digits at large magnitudes while
+still providing finite-precision results for nonterminating/irrational statistics.
+Missing values are excluded and contributing counts shown; sample deviation is
+undefined below two values. Chart labels round separately with decimal strings/
+BigInt. Source cells remain unchanged. New import profiles use this mean scale;
+old immutable profiles are retained and analytics recalculate from their cells.
+
+Four advanced functions are working in the host implementation:
+
+- Missingness: 1–20 columns, optional groups, column meters/group completeness,
+  defined denominators and paginated affected rows with original/interpreted cells.
+- IQR flags: numeric column, optional comparable groups, k=1.5/3, minimum four
+  present values, strict outside fences, explicit zero-IQR/small-group states and
+  paginated flagged rows/thresholds. Values are never corrected or deleted.
+- Recommendations: filtered types/cardinalities generate explained, valid editable
+  histogram/KPI/category/pie/scatter/time-grouped configurations. Fewer than two
+  observed months do not create a suggested time series. No hosted model is used.
+- Comparison: explicit left/right versions and column mappings, complete schema,
+  row counts and selected completeness/statistics; optional complete unique keys
+  identify exact added/removed/changed/unchanged rows. Missing/duplicate/incompatible
+  keys are rejected. Key-only comparisons report presence without inventing value
+  changes; names never silently establish dataset/medication equivalence.
+
+Editable standalone analysis visualizations include KPI, bar, temporal line,
+histogram, pie and scatter, with exact table alternatives and bounded points/
+groups. Pie shows all additive groups (maximum eight); numeric normalization
+preserves close large values for coordinates. Curves respect observed UTC spacing,
+missing measures and declared omissions. Empty states are explicit. Counts remain
+unitless. Prices are historical descriptive observations, not clinical value,
+live offers or treatment recommendations. Pharmaceutical templates use the same
+engine for presentations by form, missing price, price distribution and source
+disagreements where exact expected fields exist.
+
+Changing datasets resets filters/calculation settings; changing versions retains
+settings for explicit server validation. Results clear when configuration changes
+or requests fail. Pending operations lock all editing controls, including saving.
+Saving is explicit after preview; the backend independently executes validation.
+Saved configurations reopen without auto-substituting a newer source; calculation
+is an explicit action. Unsaved state/unload warning and save-error draft retention
+are implemented. Dashboard edit/layout/navigation controls remain Checkpoint 4.
+
+Migration `0003_analyses.sql` adds `analyses`, `analysis_sources`, indexes/FKs and
+analysis activity kinds. Prior SQL/Alembic revisions are preserved. Save/update/
+delete maintain real dataset dependency registrations transactionally, including
+both comparison sources. Deletion is blocked until dependencies are explicitly
+deleted or migrated. Save checks active state inside the transaction, locks source
+datasets in stable order and uses optimistic revisions. Analysts/admins can only
+read/save their own configurations and owned data at this checkpoint. Runtime
+grants extend only the platform domain; published cells/versions remain immutable.
+Backup includes definitions and source/dependency relationships while retaining
+all prior staging/session/temporary-patient exclusions.
+
+Analytics execution/save throttle: 60/account/15 minutes; two concurrent heavy
+analytics operations/process; existing bounded pools, 10-second SQL statements,
+3-second locks and 60-second request deadlines. Inspection pages default to 25,
+maximum 100; scatter at most 1,000 points. Both comparison sources may total 50,000
+row differences. Limits and omissions are explicit; no production SLA is claimed.
+
+Current evidence: 11 real analytics PostgreSQL scenario groups (12 results),
+retained dataset groups (10 results) and account groups (8 results) pass; two real
+analytics browser flows and retained account/dataset browser workflows pass;
+28 offline browser checks pass with one deployment-only skip; 23 focused Python
+operations/architecture checks pass. All production images built successfully.
+The first isolated gate passed analytics API probes, then failed because a local
+verifier response variable overwrote its report dictionary. That helper-only
+collision is fixed and covered by a mocked reporting/cleanup regression. The user's
+full rerun passed all 16 named checks and all 18 assistant PostgreSQL tests, zero
+skips, including analytics/browser behavior through production Nginx and saved
+source persistence after whole-stack replacement. The report confirms isolated
+cleanup, no inference and no application-volume modification. Read-only inspection
+also found no resources left by the earlier failed isolated project.
+[Retained container report](docs/validation/platform-checkpoint-3-container.json).
+The normal application volume has not
+been upgraded by the agent. [Actual evidence](docs/validation/platform-checkpoint-3.md),
+[API and conventions](docs/architecture/analytics-api.md),
+[upgrade/test commands](docs/operations/analytics.md). No dashboard builder,
+sharing or administration workflow is implemented. Stop for review before Checkpoint 4.

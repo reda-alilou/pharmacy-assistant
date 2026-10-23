@@ -7,6 +7,7 @@ project/volume are removed afterward. No production-provider credentials are rea
 
 import argparse
 from datetime import datetime, timezone
+from decimal import Decimal
 import json
 import os
 from pathlib import Path
@@ -34,13 +35,14 @@ def verify(*, frontend=False, output=None):
     diagnostic = work / (project + ".log")
     result = {"project": project, "verified_at_utc": datetime.now(timezone.utc).isoformat(),
               "live_inference_performed": False, "user_application_volume_modified": False, "checks": {}}
-    credentials = [secrets.token_urlsafe(32) for _ in range(3)]
+    credentials = [secrets.token_urlsafe(32) for _ in range(4)]
     values = dict(POSTGRES_DB="pharmacy_assistant", POSTGRES_USER="verification_admin", POSTGRES_PASSWORD=credentials[0],
-        CORE_DB_PASSWORD=credentials[1], LANGUAGE_DB_PASSWORD=credentials[2], WEB_PORT="0",
+        CORE_DB_PASSWORD=credentials[1], LANGUAGE_DB_PASSWORD=credentials[2], PLATFORM_DB_PASSWORD=credentials[3], WEB_PORT="0",
         INFERENCE_PROVIDER="groq", GROQ_API_KEY="offline-verification-key", INFERENCE_QUOTA_SCOPE="verification")
     for key, role, password in (("MIGRATION_DATABASE_URL", "verification_admin", credentials[0]),
                               ("CORE_DATABASE_URL", "pharmacy_core", credentials[1]),
-                              ("LANGUAGE_DATABASE_URL", "pharmacy_language", credentials[2])):
+                              ("LANGUAGE_DATABASE_URL", "pharmacy_language", credentials[2]),
+                              ("PLATFORM_DATABASE_URL", "pharmacy_platform", credentials[3])):
         values[key] = f"postgresql+psycopg://{role}:{password}@postgres:5432/pharmacy_assistant"
     write_environment(env_file, values)
     overlay.write_text("""services:
@@ -96,7 +98,10 @@ finally:
         for action in ("migrate", "grant", "import", "verify"):
             compose("--profile", "tools", "run", "--rm", "--no-deps", "database-setup", action)
         mark("explicit_migrations_import_and_round_trip")
-        stage = "four-service startup"
+        for action in ("migrate", "grant", "migrate", "grant"):
+            compose("--profile", "tools", "run", "--rm", "--no-deps", "platform-setup", action)
+        mark("explicit_platform_migrations_and_grants")
+        stage = "five-service startup"
         compose("up", "-d", "--wait", "--wait-timeout", "120")
         address = compose("port", "web", "8080")
         origin = "http://" + address
@@ -124,6 +129,73 @@ finally:
             assert "/api/openapi.json" in client.get("/api/docs").text
             assert request("GET", "/openapi.json")["servers"] == [{"url": "/api"}]
             mark("web_static_page_and_core_forwarding")
+            assert client.get('/platform-api/ready').status_code == 200
+            anonymous = client.get('/platform-api/auth/session')
+            assert anonymous.status_code == 200 and anonymous.json()['user'] is None
+            # The isolated web port is assigned dynamically; HTTPX deliberately
+            # supplies the exact configured platform origin for this API probe.
+            registered = client.post('/platform-api/auth/register',
+                headers={'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': anonymous.json()['csrfToken']},
+                json={'email': 'isolated-platform@example.test', 'displayName': 'Isolated analyst',
+                      'password': 'isolated-verification-password'})
+            assert registered.status_code == 201 and registered.json()['user']['role'] == 'analyst'
+            platform_user_id = registered.json()['user']['id']
+            assert client.get('/platform-api/users/' + platform_user_id).status_code == 200
+            assert client.get('/platform-api/admin/access').status_code == 403
+            assert client.post('/platform-api/auth/logout', json={},
+                               headers={'Origin': 'https://invalid.example'}).status_code == 403
+            mark('platform_gateway_account_cookie_csrf_and_role_boundary')
+            platform_headers = {'Origin': 'http://127.0.0.1:8080',
+                                'X-CSRF-Token': registered.json()['csrfToken']}
+            csv_text = 'code,amount,label,observed_at\n' + '\n'.join(
+                f'{index:06d},{index},' + 'synthetic-private-dataset-row-' * 2 + ',2026-10-18T16:17:23.815325+00:00' for index in range(1000)) + '\n'
+            assert len(csv_text.encode()) > 32768
+            staged = client.post('/platform-api/imports', content=csv_text.encode(),
+                headers={**platform_headers, 'Content-Type': 'application/octet-stream', 'X-Filename': 'isolated.csv'})
+            assert staged.status_code == 201
+            import_id = staged.json()['id']
+            preview = client.get('/platform-api/imports/' + import_id)
+            assert preview.status_code == 200 and preview.json()['rowCount'] == 1000
+            configuration = preview.json()['configuration']
+            validation = client.post('/platform-api/imports/' + import_id + '/validate', headers=platform_headers,
+                json={'revision': preview.json()['revision'],
+                      'options': {key: value for key, value in configuration.items() if key != 'columns'},
+                      'columns': configuration['columns']})
+            assert validation.status_code == 200 and validation.json()['validation']['valid']
+            published = client.post('/platform-api/imports/' + import_id + '/publish', headers=platform_headers,
+                json={'revision': validation.json()['revision'], 'metadata': {'title': 'Isolated dataset', 'source': 'Synthetic verification'}})
+            assert published.status_code == 201
+            dataset_path = '/platform-api/datasets/' + published.json()['datasetId'] + '/versions/' + published.json()['versionId']
+            rows = client.post(dataset_path + '/rows', json={'pageSize': 25}, headers=platform_headers)
+            assert rows.status_code == 200 and rows.json()['total'] == 1000 and len(rows.json()['rows']) == 25
+            timestamp_column = next(column['id'] for column in configuration['columns'] if column['originalName'] == 'observed_at')
+            assert rows.json()['rows'][0]['values'][timestamp_column] == '2026-10-18T16:17:23.815325Z'
+            mark('platform_csv_gateway_validation_atomic_import_and_pagination')
+            stage = 'platform analytics correctness and saved configuration'
+            amount_column = next(column['id'] for column in configuration['columns'] if column['originalName'] == 'amount')
+            code_column = next(column['id'] for column in configuration['columns'] if column['originalName'] == 'code')
+            analytics_source = {'datasetId': published.json()['datasetId'], 'versionId': published.json()['versionId']}
+            analytics_definition = {'kind': 'aggregate', 'source': analytics_source,
+                'measures': [{'operation': operation, 'column': amount_column} for operation in ['sum', 'mean', 'median', 'q1', 'q3']]}
+            calculation = client.post('/platform-api/analytics/execute', headers=platform_headers, json={'definition': analytics_definition})
+            assert calculation.status_code == 200
+            assert [Decimal(metric['value']) for metric in calculation.json()['rows'][0]['metrics']] == [Decimal('499500'), Decimal('499.5'), Decimal('499.5'), Decimal('249.75'), Decimal('749.25')]
+            for definition in [
+                {'kind': 'missing', 'source': analytics_source, 'columns': [amount_column]},
+                {'kind': 'outliers', 'source': analytics_source, 'column': amount_column},
+                {'kind': 'recommend', 'source': analytics_source, 'columns': [amount_column]},
+                {'kind': 'compare', 'source': analytics_source, 'right': analytics_source,
+                 'mappings': [{'left': amount_column, 'right': amount_column}], 'keys': [{'left': code_column, 'right': code_column}]},
+            ]:
+                feature_response = client.post('/platform-api/analytics/execute', headers=platform_headers, json={'definition': definition})
+                assert feature_response.status_code == 200 and feature_response.json()['kind'] == definition['kind']
+            saved_analysis = client.post('/platform-api/analyses', headers=platform_headers,
+                json={'title': 'Isolated pinned analysis', 'definition': analytics_definition})
+            assert saved_analysis.status_code == 201
+            analysis_path = '/platform-api/analyses/' + saved_analysis.json()['analysis']['id']
+            dependencies = client.get('/platform-api/datasets/' + analytics_source['datasetId'] + '/dependencies')
+            assert dependencies.status_code == 200 and not dependencies.json()['canDelete']
+            mark('platform_analytics_exact_statistics_four_features_and_saved_dependencies')
             core_check = inside("core", """import importlib.util,json,os
 assert importlib.util.find_spec('groq') is None
 assert importlib.util.find_spec('pharmacy_language') is None
@@ -137,7 +209,7 @@ assert not any(k in os.environ for k in ['CORE_DATABASE_URL','MIGRATION_DATABASE
 assert not os.path.exists('/app/.env') and not os.path.exists('/app/.runtime')
 print(json.dumps({'ok':True}))""")
             assert language_check["ok"]
-            for service in ("postgres", "core", "language"):
+            for service in ("postgres", "core", "language", "platform"):
                 identifier = compose("ps", "-q", service)
                 ports = json.loads(run(["docker", "inspect", "--format", "{{json .NetworkSettings.Ports}}", identifier]))
                 assert not ports or all(binding is None for binding in ports.values())
@@ -196,6 +268,15 @@ print(json.dumps({'ok':True}))""")
             request("GET", "/conversation", headers={"Authorization": "Bearer " + restored["session_id"]})
             assert request("GET", "/health")["catalog_record_count"] == 9936
             assert inside("language", quota_script.replace("MODE", "pass"))["local_attempts_reserved"] == 1
+            assert client.get('/platform-api/users/' + platform_user_id).status_code == 200
+            rows = client.post(dataset_path + '/rows', json={'pageSize': 25}, headers=platform_headers)
+            assert rows.status_code == 200 and rows.json()['total'] == 1000
+            persisted_analysis = client.get(analysis_path)
+            assert persisted_analysis.status_code == 200
+            assert persisted_analysis.json()['analysis']['definition']['source']['versionId'] == analytics_source['versionId']
+            recalculated = client.post('/platform-api/analytics/execute', headers=platform_headers,
+                json={'definition': persisted_analysis.json()['analysis']['definition']})
+            assert recalculated.status_code == 200 and Decimal(recalculated.json()['rows'][0]['metrics'][1]['value']) == Decimal('499.5')
             mark("whole_stack_replacement_preserves_named_volume")
             if frontend:
                 stage = "real frontend integration"
@@ -211,6 +292,23 @@ print(json.dumps({'ok':True}))""")
                      "--reporter=list"], env=environment, timeout=120)
                 assert inside("language", quota_script.replace("MODE", "pass"))["local_attempts_reserved"] == 1
                 mark("real_frontend_restore_quota_selection_refresh_reset_without_inference")
+                stage = "real frontend dataset lifecycle"
+                # Browser writes must use the actual dynamically allocated origin.
+                # Only this disposable test environment is amended; no credentials
+                # or application configuration are regenerated or printed.
+                with env_file.open('a', encoding='utf-8') as handle:
+                    handle.write("PLATFORM_ORIGIN='http://" + address + "'\n")
+                compose('up', '-d', '--wait', '--force-recreate', '--no-deps', 'platform')
+                environment = dict(os.environ, DEPLOYMENT_ORIGIN='http://' + address)
+                run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
+                     'tests/browser/real-datasets.spec.ts', '--config', str(ROOT / 'apps/web/playwright.datasets.config.ts'),
+                     '--reporter=list'], env=environment, timeout=240)
+                mark('real_frontend_csv_versions_ownership_archive_delete_and_validation_recovery')
+                stage = 'real frontend analytics and advanced features'
+                run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
+                     'tests/browser/real-analytics.spec.ts', '--config', str(ROOT / 'apps/web/playwright.analytics.config.ts'),
+                     '--reporter=list'], env=environment, timeout=420)
+                mark('real_frontend_analytics_four_features_saved_versions_charts_and_permissions')
         # Only the temporary verification database is exposed, on a random
         # localhost port, after the normal internal-port checks have passed.
         stage = "owned PostgreSQL concurrency, backup and evaluation checks"

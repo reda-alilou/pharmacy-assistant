@@ -14,7 +14,8 @@
     "test": "tsx --test tests/*.test.ts",
     "test:postgres": "tsx --test tests/postgres.integration.ts",
     "test:datasets": "tsx --test tests/datasets.integration.ts",
-    "test:analytics": "tsx --test tests/analytics.integration.ts"
+    "test:analytics": "tsx --test tests/analytics.integration.ts",
+    "test:dashboards": "tsx --test tests/dashboards.integration.ts"
   },
   "dependencies": {
     "csv-parse": "7.0.3",

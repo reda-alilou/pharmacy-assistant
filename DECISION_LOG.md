@@ -48,8 +48,11 @@ after its isolated acceptance; Checkpoint 2 now implements private CSV datasets,
 immutable versions and exploration. The user authorized Checkpoint 3 after the
 rebuilt-image results. Analytics calculations, four advanced features, charts and
 private saved definitions now pass final host/browser and isolated production
-checks. All 16 full-stack checks and 18 assistant PostgreSQL tests pass. Dashboards, sharing and
-administration remain future work. All 14
+checks. All 16 Checkpoint 3 full-stack checks and 18 assistant PostgreSQL tests pass.
+The user authorized Checkpoint 4: dashboards/collaboration pass host checks and
+the final isolated gate, including the frontend mapping fix (18 checks/18 assistant
+PostgreSQL tests). Checkpoint 4 is ready for user review. Administration remains
+future work. All 14
 Checkpoint 2 container checks pass, including the follow-up metadata-save fix
 verified after rebuilding web. Normal-volume upgrade and checkpoint
 review are tracked separately below.
@@ -57,27 +60,29 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 
 | ID | Topic | CdC sections | Implementation status |
 | --- | --- | --- | --- |
-| D021 | Product scope | 1–2 | Accounts, CSV/exploration and analytics implemented; dashboard/sharing workflow future |
-| D022 | Express backend | 11 | Accounts, datasets and analytics implemented; dashboard/sharing/admin APIs future |
-| D023 | Navigation and screens | 3, 11 | Accounts/datasets/analyses/charts/separate assistant implemented |
+| D021 | Product scope | 1–2 | Accounts, CSV/exploration, analytics and dashboard/sharing implemented; final CP4 host/image checks pass |
+| D022 | Express backend | 11 | Accounts/datasets/analytics/dashboard/sharing APIs implemented; administration future |
+| D023 | Navigation and screens | 3, 11 | Accounts/datasets/analyses/charts/dashboards/sharing/separate assistant implemented |
 | D024 | Accounts, roles and security | 3, 12 | Implemented and locally verified for Checkpoint 1 |
 | D025 | Dataset management and CSV | 4 | Implemented and verified; user authorized continuation after rebuilt-image checks |
 | D026 | Exploration and profiling | 5 | Table, typed filters, profiles and versions implemented; Analysis view is Checkpoint 3 |
 | D027 | Analysis and indicators | 6 | Implemented and verified in host/browser and production-image checks |
-| D028 | Charts and dashboard builder | 7 | Analysis charts implemented; dashboard builder remains Checkpoint 4 |
-| D029 | Saved analyses and sharing | 8 | Private version-pinned definitions implemented; sharing remains Checkpoint 4 |
+| D028 | Charts and dashboard builder | 7 | Analysis charts and accessible dashboard builder implemented; final host/image checks pass |
+| D029 | Saved analyses and sharing | 8 | Saved definitions, separate grants, copies/revocation and onward approvals implemented; final host/image checks pass |
 | D030 | Four advanced data features | 9 | All four implemented and verified in host/browser and production-image checks |
 | D031 | Administration | 10 | Account CLI/activity/safeguards only; administration UI future |
-| D032 | Platform persistence and setup | 11–13 | Accounts/datasets/analyses, explicit migrations/grants and verified backup/restore implemented |
-| D033 | Validation and demo | 12, 14 | Account/dataset/analytics/API/browser evidence; full workflow future |
-| D034 | Submission deliverables | 13–14 | Checkpoint 1–3 API/setup/evidence and attributed CSV added; final delivery future |
+| D032 | Platform persistence and setup | 11–13 | Accounts/datasets/analyses/dashboards/sharing, explicit migrations/grants and verified backup/restore implemented |
+| D033 | Validation and demo | 12, 14 | Account/dataset/analytics/dashboard/sharing API/browser evidence; admin/full demo future |
+| D034 | Submission deliverables | 13–14 | Checkpoint 1–4 API/setup/evidence and attributed CSV added; final delivery future |
 
 ## D021 — Pharmaceutical analytics product scope
 
 - **Date / decision status:** 2026-10-23 / Finalized by the user.
 - **Implementation status:** Accounts, private CSV lifecycle/exploration, analytics
-  and private saved definitions implemented. Dashboard/sharing/admin workflows
-  remain later checkpoints. Checkpoint 3 host and isolated production checks pass.
+  and private saved definitions implemented. Checkpoint 4 now adds dashboards and
+  collaboration with passing host checks and the final 18-check production pass,
+  including the frontend mapping fix. Administration
+  remains later. Checkpoint 3 host and isolated production checks pass.
 - **Requirement:** Import → exploration → analysis → visualization → sharing.
 - **Decision:** Extend the project into a pharmaceutical data-analysis
   platform; retain the assistant as an additional feature.
@@ -94,7 +99,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   details listed below remain open. Node/Express are imposed by §11.
 - **Implementation status:** Express accounts/datasets implemented and verified in
   host/isolated image checks. Analytics/saved configurations now pass both host and
-  final image checks. Dashboard/sharing/admin APIs remain future.
+  final image checks. Dashboard/sharing APIs pass Checkpoint 4 host checks and the
+  final production gate, including the frontend mapping fix.
+  Administration remains future.
 - **Decision:** Use React, Node.js/Express and PostgreSQL for the analytics platform.
   Express owns accounts, datasets, analytics, dashboards, sharing and administration.
   Keep the existing Python services backing the additional assistant screen.
@@ -123,7 +130,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   and separate analytics/assistant areas approved; detailed screen design open.
 - **Implementation status:** Router/accounts/separate assistant and Checkpoint 2
   dataset/import/exploration screens implemented and browser-verified. Checkpoint 3
-  adds analysis/chart/saved-configuration routes; dashboard/admin remain future.
+  adds analysis/chart/saved-configuration routes. Checkpoint 4 implements dashboard
+  routes and sharing controls; administration remains future.
 - **Proposed approach:** Reuse React/TypeScript/Vite and existing UI controls. Add
   introduction, login/register, datasets, exploration, dashboards, profile and
   administration routes; place the assistant on its own screen.
@@ -137,8 +145,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   `/donnees`, `/donnees/importer`, resumable `/donnees/imports/:id` and
   `/donnees/:id` with overview/data/columns/quality/versions views. Checkpoint 3
   adds `/analyses`, `/analyses/nouvelle`, `/analyses/:id` and a dataset Analysis
-  tab; protected source/version URLs retain their query through login. Dashboard
-  routes are future work. The calm solid-color layout
+  tab; protected source/version URLs retain their query through login. Checkpoint 4
+  adds `/tableaux`, `/tableaux/nouveau`, `/tableaux/:id` and sharing within resource
+  screens. The calm solid-color layout
   preserves assistant content and uses responsive, accessible forms.
 - **Acceptance:** Direct URLs, refresh, loading, empty/error states and responsive
   navigation work. Preserve French labels and no gradients/card side strips unless
@@ -285,7 +294,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 - **Date / decision status:** 2026-10-23 / Finalized by the user.
 - **Implementation status:** Checkpoint 3 analysis charts support KPI, bar, temporal
   line, histogram, pie and scatter with editable labels/units/precision and exact
-  table alternatives. Dashboard widgets/layout/filter mapping remain Checkpoint 4.
+  table alternatives. Checkpoint 4 now implements widget editing, pointer/keyboard
+  layout, mapped filters and explicit revisioned saves. Host checks and the final
+  production gate pass, including the frontend mapping fix.
 - **Decision:** Dashboards have a title, description and configurable widgets.
   Start empty or add visualizations from existing analyses. Support KPI cards,
   bar charts (including horizontal rankings), date/time line charts, configurable
@@ -309,7 +320,13 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   old values appearing current.
 - **Reason:** Provide capable, accessible dashboard editing and understandable
   interaction while preserving reproducible configurations and source meaning.
-- **Still open:** Chart/grid libraries, detailed layout and configuration contracts.
+- **Checkpoint 4 details resolved:** Native CSS grid and pointer capture, keyboard
+  movement/resizing, widths 4/6/12, heights 3–12, single-column mobile order;
+  20 widgets and 10 explicitly mapped filters. cp4-v1 stores layout/order and
+  independent cp3-v1 visual definitions. Data-router navigation/unload/logout
+  guards and pending-save locks preserve drafts. Changing a widget's dataset
+  removes its interactive mappings even if identifiers match, requiring explicit
+  remapping. [Contract](docs/architecture/dashboards-sharing-api.md).
 - **Acceptance:** Verify widget editing and persistence, filter mappings, responsive
   layout, keyboard operation, units and failure states.
 
@@ -318,8 +335,10 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 - **Date / decision status:** 2026-10-23 / Finalized by the user.
 - **Implementation status:** Checkpoint 3 private named configurations, immutable
   source references, filters, rules and charts are persisted with revisions and
-  real dataset dependency safeguards. Sharing/copy/recipient controls remain
-  Checkpoint 4. No save creates a sharing grant.
+  real dataset dependency safeguards. Checkpoint 4 implements separate dataset/
+  analysis/dashboard grants, copies, exact-email recipient controls, revocation
+  and original-owner review/authorization. Host checks and the final image gate
+  pass. No save creates a sharing grant.
 - **Decision:** Save named configurations with dataset-version references, filters,
   indicators and charts. Private by default; revocable read-only sharing with
   registered accounts. Separate dataset grants from analysis/dashboard grants.
@@ -340,9 +359,14 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 - **Onward sharing:** Access to somebody else's dataset does not permit distributing
   its results onward. Block sharing of dependent dashboards unless the original
   dataset owner explicitly authorizes it. Copies cannot bypass this boundary.
-- **Still open:** Precise query-permission representation, original-owner onward-
-  sharing authorization mechanism, copy workflow and deletion handling. Versioning
-  follows D025.
+- **Checkpoint 4 details resolved:** Relational grants and source FKs; saved
+  widget queries with typed permitted filter values, never arbitrary recipient
+  definitions. Dataset owners review named columns/measures/versions/boundaries
+  and authorize an exact resource revision for onward sharing; edits invalidate
+  approval. Copies require all actual source permissions and inherit no sharing.
+  Revocation preserves definitions but blocks execution; real dependencies still
+  guard deletion. Lists/reviews are bounded and paginated. Dataset grants cover
+  current/future versions, stated explicitly in the UI. [Contract](docs/architecture/dashboards-sharing-api.md).
 - **Acceptance:** Reopen after a new login; recipients can view only the intended
   resources; unauthorized users cannot; revocation is enforced by the API.
 - **Optional:** Anonymous public dashboards. Durable patient chat history is not
@@ -432,7 +456,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   foundation implemented with explicit migrations/grants. Backup/restore verifies
   retained datasets/original values/receipts and excluded staging/session state.
   Checkpoint 3 adds analyses/source relationships and extends backup verification;
-  dashboard/sharing domain tables remain future work.
+  Checkpoint 4 adds dashboard/source/grant/approval relationships and verifies
+  maintained restore and permission behavior. Earlier owned revisions are preserved.
 - **Decision:** Retain one PostgreSQL server/database and existing volume. Add a
   separately owned platform schema and runtime permissions alongside core/language.
   No direct access to peer services' private tables.
@@ -486,6 +511,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   run passed all 14 checks and 18 assistant PostgreSQL tests. Full new-product scenario,
   normal-volume upgrade and user review remain separate. Checkpoint 3's final
   isolated gate passed all 16 checks and all 18 assistant PostgreSQL tests.
+  Checkpoint 4 host/API/browser checks and final production gate pass (18 checks
+  and 18 assistant PostgreSQL tests), including the final frontend mapping fix.
+  No administration/full-product pass is claimed.
 - **Decision / scenario:** Login → CSV upload → exploration/filtering → advanced
   analyses → dashboard → save/reopen → share with second account → admin activity.
 - **Reason:** Prove the full workflow, not just disconnected screens.
@@ -642,7 +670,66 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   replacement. The report confirms no inference, no application-volume changes
   and complete isolated cleanup. [Retained container evidence](docs/validation/platform-checkpoint-3-container.json).
 - Normal-volume upgrade and user workflow/layout review remain separate. Stop
-  for review before Checkpoint 4; no authorization to start it has been given.
+  at the Checkpoint 3 review gate. The user subsequently authorized Checkpoint 4;
+  normal-volume upgrade and manual/device acceptance remain separate.
+
+## Checkpoint 4 implementation record — 2026-10-23
+
+- User authorized continuation after Checkpoint 3. Verified branch
+  `feat/pharmaceutical-analytics` and a clean tree before editing, preserving the
+  user's `2734703` Checkpoint 1–3 commit. No branch/commit/push by the agent.
+- Added only migration `0004_dashboards_sharing.sql`: dashboards, source FKs,
+  separate dataset/analysis/dashboard grants, revision-bound original-owner
+  approvals, indexes/activity and restricted runtime grants. Earlier SQL/Alembic
+  revisions, immutable source cells/provenance, private service ownership and
+  normal application volume are unchanged.
+- Dashboard widgets, independent saved visual definitions, explicit saving,
+  revisions, drag/keyboard reorder and resizing, mobile reading order, mapped
+  category/numeric/date/presence filters, permitted boundaries/defaults and
+  per-widget loading/empty/error/retry states now work. Reader adjustments never
+  save over owner defaults. Dirty route/unload/logout guards and held-save locks
+  preserve drafts; copies/duplicates retain explicit source semantics.
+- Separate dataset and result grants, owner-only mutation, exact existing-account
+  email, read-only recipient views and explicit revocation are implemented.
+  Original owners inspect human-readable configurations using only their source,
+  then authorize a specific saved revision for onward diffusion. Modifications
+  invalidate approvals; copies inherit no grants and require actual dataset
+  permissions. Advanced result shares omit original rows without data grants.
+- Host evidence: 14 dashboard/sharing PostgreSQL results including populated CP3
+  upgrade, constrained permissions, real maintained backup/restore, concurrent
+  save/approval, and bounded pagination; retained analytics 12, datasets 10 and
+  accounts 8 results; 8 unit tests. Three dashboard browser workflows pass,
+  including pointer/keyboard layout, donut/histogram controls, all filter types,
+  save locking, stale/error recovery, new-login persistence, mobile/desktop axe,
+  three-account onward approval/revocation and permission-aware analysis copies.
+  Retained analytics/dataset/account browser suites pass; 28 offline browser
+  checks pass with one deployment-only skip. Service/frontend builds and lint
+  pass, with two preexisting fast-refresh warnings. Operations/architecture: 23
+  passes. A follow-up dirty-logout guard passed the full builder workflow; declining
+  the warning sends no logout request and preserves the draft/session.
+  A further source-switch regression passed the builder workflow in 15.4 s,
+  proving identical column identifiers do not retain cross-dataset mappings;
+  final frontend build/lint pass after this fix.
+- The production verifier has 18 distinct named checks and still runs all 18
+  assistant PostgreSQL tests. New API/browser probes cover dashboard boundaries,
+  grants, copies/revocation, persisted sources/filters/grants and the complete
+  UI. The mocked reporting/cleanup regression passes. Only its generated
+  disposable-stack auth throttle counters are cleared between independent
+  browser suites; normal application/session state and runtime limits are intact.
+  The user-run initial gate passed all 18 named checks and 18 assistant PostgreSQL
+  tests at 21:37:45 UTC, with cleanup confirmed, no inference and no application-
+  volume changes. [Initial report](docs/validation/platform-checkpoint-4-initial-container.json).
+  That build predates the final frontend mapping fix. The final user-run rerun
+  passed all 18 named checks and 18 assistant PostgreSQL tests, zero skips, at
+  **21:49:13 UTC**, including the source-switch regression through production
+  Nginx. Cleanup is confirmed, with no inference or application-volume changes.
+  [Final report](docs/validation/platform-checkpoint-4-container.json).
+  [Actual evidence](docs/validation/platform-checkpoint-4.md).
+- Exact commands and current API/permission behavior are documented. Normal-volume
+  upgrade, manual UI/device review remain separate. Stop before Checkpoint 5.
+- User clarified the verification handoff: finish work and independent checks
+  first, then provide the required user-run commands and stop until results
+  arrive. Do not continue changing source while the user verifies it.
 
 ## Approved implementation checkpoints
 
@@ -651,14 +738,16 @@ the user authorized continuation. Checkpoint 2 is **implemented and verified in
 host and isolated production-image checks, including the follow-up metadata fix;
 the user authorized continuation**. Normal-volume upgrade remains a user-run
 operation. Checkpoint 3 is **implemented and verified in host/browser and isolated
-production-image checks, awaiting user review**. Checkpoints 4–6 are **not started**.
+production-image checks; the user authorized continuation**. Checkpoint 4 is
+**implemented and verified in host/browser and final isolated production-image
+checks; awaiting user review**. Checkpoints 5–6 are **not started**.
 
 | Checkpoint | Working result | Completion evidence |
 | --- | --- | --- |
 | 1 — Foundation and accounts | Implemented: Express service, account schema/migrations, Router, registration/login/logout/profile, role/ownership guards | PostgreSQL/API/browser and 12 full-stack checks passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-1.md) |
 | 2 — Dataset lifecycle | Implemented: CSV preview/validation/import, private versions, exploration, metadata/archive/deletion | All 14 rebuilt-image checks/18 assistant PostgreSQL tests passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-2.md) |
-| 3 — Analytics | Implemented: aggregations, pharmaceutical templates, all four advanced features, charts/private saved definitions | Final host checks, all 16 full-stack checks and 18 assistant PostgreSQL tests pass; awaiting user review. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-3.md) |
-| 4 — Dashboards and collaboration | Adjustable builder, persistence, filters, sharing/revocation | Browser workflow and adversarial permission checks |
+| 3 — Analytics | Implemented: aggregations, pharmaceutical templates, all four advanced features, charts/private saved definitions | Final host checks, all 16 full-stack checks and 18 assistant PostgreSQL tests pass; user authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-3.md) |
+| 4 — Dashboards and collaboration | Implemented: adjustable builder, revisioned persistence, mapped filters, separate grants and onward authorization | All 14 PostgreSQL results, 3 real browser workflows and final production 18-check/18-test gate pass, including the frontend mapping fix; awaiting user review. Normal-volume upgrade separate. [Current evidence](docs/validation/platform-checkpoint-4.md) |
 | 5 — Administration and integration | User controls, suspension, activity, assistant integration, backup/restore | Lifecycle, last-admin protection and regression checks |
 | 6 — Delivery | Clean setup, complete demonstration, documentation, presentation | CdC coverage checklist, final verification and rehearsal |
 

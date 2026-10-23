@@ -3,14 +3,16 @@ import { ApiError } from '../contracts.js'
 import { columnSchema, querySchema, type Column } from '../datasets/contracts.js'
 import { buildQuery, expression } from '../datasets/query.js'
 import type { Group, Source } from './contracts.js'
+import { datasetAccess } from '../access.js'
 
 export const invalid = (message: string) => new ApiError(422,'invalid_analysis',message)
 export const numericType = (column: Column) => column.type==='integer' || column.type==='decimal'
 export const compatible = (a:Column,b:Column) => a.type===b.type || numericType(a)&&numericType(b)
 export type Loaded = { source: Source; title: string; number: number; rowCount:number; columns:Column[] }
 export async function load(db:pg.PoolClient,owner:string,source:Source,lock=false):Promise<Loaded> {
+  await datasetAccess(db,owner,source.datasetId,lock,()=>new ApiError(404,'analysis_source_unavailable','Source ou version introuvable ou accès révoqué pour ce compte.'))
   const result=await db.query(`SELECT d.title,v.version_number,v.row_count FROM platform.datasets d JOIN platform.dataset_versions v ON v.dataset_id=d.id
-    WHERE d.id=$1 AND v.id=$2 AND d.owner_id=$3 ${lock?'FOR SHARE OF d':''}`,[source.datasetId,source.versionId,owner])
+    WHERE d.id=$1 AND v.id=$2 ${lock?'FOR SHARE OF d':''}`,[source.datasetId,source.versionId])
   if(!result.rowCount)throw new ApiError(404,'analysis_source_unavailable','Source ou version introuvable pour ce compte.')
   const columns=await db.query('SELECT interpretation FROM platform.dataset_columns WHERE version_id=$1 ORDER BY ordinal',[source.versionId])
   return {source,title:result.rows[0].title,number:result.rows[0].version_number,rowCount:result.rows[0].row_count,columns:columns.rows.map(row=>columnSchema.parse(row.interpretation))}

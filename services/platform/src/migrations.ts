@@ -54,6 +54,9 @@ export async function grantRuntime(pool: pg.Pool, password: string) {
     if((await db.query("SELECT to_regclass('platform.analyses') IS NOT NULL present")).rows[0].present){
       await db.query('GRANT SELECT, INSERT, UPDATE, DELETE ON platform.analyses,platform.analysis_sources,platform.dataset_dependencies TO pharmacy_platform')
     }
+    if((await db.query("SELECT to_regclass('platform.dashboards') IS NOT NULL present")).rows[0].present){
+      await db.query('GRANT SELECT, INSERT, UPDATE, DELETE ON platform.dashboards,platform.dashboard_sources,platform.dataset_grants,platform.dashboard_grants,platform.analysis_grants,platform.dashboard_authorizations,platform.analysis_authorizations TO pharmacy_platform')
+    }
     // No DDL, migration history writes, peer-schema grants or administrative credentials.
   })
 }

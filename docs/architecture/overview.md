@@ -16,12 +16,14 @@ successful publications atomically retain original and typed cells, configuratio
 provenance and column profiles. Runtime grants prohibit mutation of published
 rows/columns/versions. Migration `0003_analyses.sql` adds saved definitions/source
 FKs and real analysis dependency registrations, with extended backup coverage.
-Dashboard/sharing workflows remain unimplemented. The platform
+Migration `0004_dashboards_sharing.sql` adds dashboards, source dependencies,
+separate grants and revision-bound original-owner authorizations. The platform
 never queries core/language private tables. See [dataset API](datasets-api.md).
 Analytics uses parameterized server aggregations, numeric type-7 quartiles and
 four visible advanced features. Configurations pin explicit source versions,
-filters and algorithm settings. All comparison sources require ownership, even
-for admins; saving creates no sharing grant. Read calculations use a repeatable-
+filters and algorithm settings. Every direct comparison source requires ownership
+or an explicit dataset grant, even for admins; result-only queries derive from
+saved configurations and cannot be replaced by a recipient. Saving creates no sharing grant. Read calculations use a repeatable-
 read snapshot; saves lock active accounts/datasets and maintain dependencies
 transactionally. [Analytics API and conventions](analytics-api.md).
 
@@ -98,7 +100,10 @@ and [architecture-phase decisions](../development/decisions-2026-10-19-20.md).
 The [current decision tracker](../../DECISION_LOG.md) separates approved Full Stack
 CdC decisions from actual implementation. Accounts/navigation and Checkpoint 2
 CSV datasets/exploration plus Checkpoint 3 analytics are implemented in the
-workspace; dashboards, sharing and administration remain future work. See the
+workspace. Checkpoint 4 dashboard/collaboration host checks and the final
+production gate pass, including the frontend source-switch mapping fix.
+Administration remains future work. See the
 [account API](platform-api.md), [dataset API](datasets-api.md),
-[analytics API](analytics-api.md), [explicit upgrade](../operations/analytics.md) and
-[Checkpoint 3 evidence/limits](../validation/platform-checkpoint-3.md).
+[analytics API](analytics-api.md), [dashboard/sharing API](dashboards-sharing-api.md),
+[explicit upgrade](../operations/dashboards-sharing.md) and
+[Checkpoint 4 evidence/limits](../validation/platform-checkpoint-4.md).

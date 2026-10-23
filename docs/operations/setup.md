@@ -12,7 +12,7 @@ Checkpoint 2 adds an explicit dataset migration and grants. Follow the
 [dataset upgrade guide](datasets.md) before starting updated images; reuse the
 existing platform configuration and administrator. Startup does not migrate.
 Checkpoint 3 adds saved analyses and source relationships. Use the current
-[analytics upgrade guide](analytics.md) for all three explicit revisions/grants;
+[dashboard/collaboration upgrade guide](dashboards-sharing.md) for all four explicit revisions/grants;
 keep existing credentials, datasets and the application volume.
 
 ## Existing configured workspace

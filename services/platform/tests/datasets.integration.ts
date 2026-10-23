@@ -45,7 +45,7 @@ test('Checkpoint 2 real PostgreSQL lifecycle, ownership, filtering and measured 
       await migrate(db);await migrate(db);await grantRuntime(db,'platform-test-runtime-password-at-least-32-characters');await grantRuntime(db,'platform-test-runtime-password-at-least-32-characters')
       assert.equal((await db.query('SELECT count(*)::int n FROM platform.users')).rows[0].n,3)
       assert.equal((await db.query('SELECT count(*)::int n FROM platform.sessions')).rows[0].n,1)
-      assert.equal((await db.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,3)
+      assert.equal((await db.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,4)
       url.username='pharmacy_platform';url.password='platform-test-runtime-password-at-least-32-characters';runtime=createPool(url.href)
     })
     if(!runtime)throw new Error('Migration failed')

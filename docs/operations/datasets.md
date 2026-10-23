@@ -1,8 +1,9 @@
 # Checkpoint 2 setup and checks
 
-Current code also includes Checkpoint 3 analytics. Use the
-[current analytics upgrade/check guide](analytics.md) for the latest migration,
-test scripts and 16-check isolated verifier; this page retains the CSV workflow.
+Current code also includes analytics and Checkpoint 4 dashboards/collaboration.
+Use the [current upgrade/check guide](dashboards-sharing.md) for all four
+migrations, test scripts and the 18-check isolated verifier; this page retains
+the CSV workflow.
 
 The user controls container startup/shutdown and all isolated stack lifecycles.
 No agent command upgrades the normal volume, regenerates credentials, imports
@@ -13,7 +14,7 @@ samples automatically or runs hosted inference. Stay on
 
 If Checkpoint 1 has not yet been installed against the normal application volume,
 first follow [platform account setup](platform-accounts.md). The migration command
-applies all owned account/dataset/analysis revisions; do not provision an existing
+applies all owned account/dataset/analysis/dashboard revisions; do not provision an existing
 administrator again or recreate `.runtime/platform.env`. If Checkpoint 1 is
 already installed, keep its existing configuration and accounts. From the root,
 the **user runs**:

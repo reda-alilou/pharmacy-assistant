@@ -2,16 +2,20 @@
 
 A local pharmaceutical data platform under construction. Accounts, profiles,
 guided CSV imports, private immutable versions, exploration, analytics and private
-saved definitions now use a real TypeScript/Express service. Dashboards, sharing
-and the administration workflow are future checkpoints. The existing Moroccan pharmacy assistant
+saved definitions now use a real TypeScript/Express service. Dashboard construction,
+mapped filters and read-only sharing are implemented with passing host/browser
+checks and the final production pass, including the source-switch mapping fix.
+Administration remains future work. The existing Moroccan pharmacy assistant
 remains separately accessible at `/assistant`.
 
 Checkpoint 2's 14 rebuilt-image checks and 18 assistant PostgreSQL tests passed;
 the user authorized Checkpoint 3. Final analytics host/browser checks and all
 16 isolated full-stack checks pass, with all 18 assistant PostgreSQL tests passing
-and isolated cleanup confirmed. Checkpoint 3 awaits user review; Checkpoint 4 has
-not started. Normal-volume upgrade remains a separate user-run step.
-See [actual Checkpoint 3 evidence](docs/validation/platform-checkpoint-3.md).
+and isolated cleanup confirmed. The user authorized Checkpoint 4; its final host
+checks and final isolated production gate pass (18 checks/18 assistant PostgreSQL
+tests); Checkpoint 4 is ready for user review. Normal-volume
+upgrade remains a separate user-run step. See
+[current Checkpoint 4 evidence](docs/validation/platform-checkpoint-4.md).
 
 The assistant is a local challenge demo and learning project for pharmacy requests.
 A French React chat connects to a core FastAPI service; a separate language
@@ -27,7 +31,7 @@ transformation, repository structure, configuration and validation evidence.
 
 ## Run the configured demo
 
-Follow the [Checkpoint 3 upgrade](docs/operations/analytics.md), including the
+Follow the [Checkpoint 4 upgrade](docs/operations/dashboards-sharing.md), including the
 one-time account setup if not already applied. Reuse
 existing private credentials and the database volume. After that setup, with
 Docker Desktop running, from the repository root:
@@ -71,10 +75,13 @@ full-dataset search/typed filters/sort/pagination, original cells and column/
 completeness profiles. Checkpoint 3 adds aggregations, pharmaceutical templates,
 KPI/bar/line/histogram/pie/scatter charts, four advanced features (missingness,
 IQR outliers, editable chart recommendations, explicit dataset/version comparison)
-and private version-pinned saved configurations. Dashboard construction, sharing
-and administration remain future work. See [account security](docs/architecture/platform-api.md),
+and private version-pinned saved configurations. Checkpoint 4 adds an accessible
+adjustable dashboard builder, explicit saving and mapped interactive filters,
+separate dataset/result grants, copies, revocation and revision-bound original-owner
+authorization. Administration remains future work. See [account security](docs/architecture/platform-api.md),
 [dataset API](docs/architecture/datasets-api.md) and
-[analytics/calculation contract](docs/architecture/analytics-api.md), plus
+[analytics/calculation contract](docs/architecture/analytics-api.md),
+[dashboard/sharing contract](docs/architecture/dashboards-sharing-api.md), plus
 [sample provenance](apps/web/public/samples/README.md).
 
 The retained assistant provides:

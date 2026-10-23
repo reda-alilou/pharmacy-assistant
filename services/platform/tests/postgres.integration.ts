@@ -41,7 +41,7 @@ test('real PostgreSQL Checkpoint 1 (dedicated user-started test cluster only)', 
         REVOKE ALL ON SCHEMA core,language FROM PUBLIC;
         CREATE TABLE core.private_data(secret text); CREATE TABLE language.private_data(secret text)`)
       await migrate(admin); await migrate(admin)
-      assert.equal((await admin.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n, 3)
+      assert.equal((await admin.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n, 4)
       const before = await admin.query("SELECT checksum FROM platform.schema_migrations WHERE version='0001_accounts.sql'")
       await admin.query("UPDATE platform.schema_migrations SET checksum='changed' WHERE version='0001_accounts.sql'")
       await assert.rejects(migrate(admin), /checksum/)

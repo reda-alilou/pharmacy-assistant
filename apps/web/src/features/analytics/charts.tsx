@@ -2,7 +2,7 @@ import { useId } from 'react'
 import { decimalLabel, OP_NAMES, type Result } from './api'
 
 const colors=['#17674f','#315ca8','#986515','#854c8f','#307c86','#a33e40','#5f6536','#655e86']
-export function Chart({result}:{result:Result}){
+export function Chart({result,variant='standard',scope=''}:{scope?:string;result:Result;variant?:'standard'|'horizontal'|'donut'}){
   const caption=useId(),description=useId(),definition=result.definition
   if(!('style'in definition))return null
   const style=definition.style
@@ -25,7 +25,7 @@ export function Chart({result}:{result:Result}){
         if(value===total)return <circle key={i} cx={250} cy={150} r={120} fill={colors[i%colors.length]}><title>{labels[i]} : {value}</title></circle>
         const path=`M 250 150 L ${250+120*Math.cos(start)} ${150+120*Math.sin(start)} A 120 120 0 ${end-start>Math.PI?1:0} 1 ${250+120*Math.cos(end)} ${150+120*Math.sin(end)} Z`
         return value>0?<path key={i} d={path} fill={colors[i%colors.length]} stroke="white"><title>{labels[i]} : {value}</title></path>:null
-      })}</svg>{style.legend&&<ul className="analytics-legend">{labels.map((text,i)=><li key={i}><span style={{background:colors[i%colors.length]}}/>{text} : {counts[i]}</li>)}</ul>}</figure>
+      })}{variant==='donut'&&<circle cx={250} cy={150} r={65} fill="white"/>}</svg>{style.legend&&<ul className="analytics-legend">{labels.map((text,i)=><li key={i}><span style={{background:colors[i%colors.length]}}/>{text} : {counts[i]}</li>)}</ul>}</figure>
     }
     if(definition.chart==='line'){
       const points=result.rows.map((row,i)=>{
@@ -40,7 +40,7 @@ export function Chart({result}:{result:Result}){
     }
     if(result.plot.positions.every(position=>position===null))return <p>Aucune mesure définie à représenter. Les valeurs manquantes restent dans le tableau.</p>
     const height=Math.max(160,result.rows.length*34+65),zero=200+Number(result.plot.zero)*500
-    return <figure className="analytics-chart" aria-labelledby={caption}><figcaption id={caption}>{title}{unit} · première mesure</figcaption><div className="analytics-chart-scroll" tabIndex={0} role="region" aria-label="Graphique en barres"><svg viewBox={`0 0 900 ${height}`} role="img" aria-labelledby={caption} aria-describedby={description}><desc id={description}>Classement des groupes. La ligne verticale marque zéro ; les valeurs négatives s’étendent à gauche. Le tableau contient toutes les valeurs exactes affichées.</desc><line x1={zero} x2={zero} y1={15} y2={height-45} stroke="#70877d"/>{result.rows.map((row,i)=>{const position=result.plot.positions[i],x=200+Number(position??result.plot.zero)*500,y=i*34+15;return <g key={i}><text x={190} y={y+17} textAnchor="end">{labels[i]!.length>25?labels[i]!.slice(0,22)+'…':labels[i]}<title>{labels[i]}</title></text>{position!==null&&<rect x={Math.min(zero,x)} y={y} width={Math.max(0,Math.abs(zero-x))} height={24} fill="#17674f"/>}<text x={725} y={y+17}>{label(row.metrics[0]?.value??null)}</text></g>})}<text x={450} y={height-10} textAnchor="middle">{style.xLabel||title}</text></svg></div></figure>
+    return <figure className="analytics-chart" aria-labelledby={caption}><figcaption id={caption}>{title}{unit} · première mesure</figcaption><div className="analytics-chart-scroll" tabIndex={0} role="region" aria-label={'Graphique en barres'+(scope?' · '+scope:'')}><svg viewBox={`0 0 900 ${height}`} role="img" aria-labelledby={caption} aria-describedby={description}><desc id={description}>Classement des groupes. La ligne verticale marque zéro ; les valeurs négatives s’étendent à gauche. Le tableau contient toutes les valeurs exactes affichées.</desc><line x1={zero} x2={zero} y1={15} y2={height-45} stroke="#70877d"/>{result.rows.map((row,i)=>{const position=result.plot.positions[i],x=200+Number(position??result.plot.zero)*500,y=i*34+15;return <g key={i}><text x={190} y={y+17} textAnchor="end">{labels[i]!.length>25?labels[i]!.slice(0,22)+'…':labels[i]}<title>{labels[i]}</title></text>{position!==null&&<rect x={Math.min(zero,x)} y={y} width={Math.max(0,Math.abs(zero-x))} height={24} fill="#17674f"/>}<text x={725} y={y+17}>{label(row.metrics[0]?.value??null)}</text></g>})}<text x={450} y={height-10} textAnchor="middle">{style.xLabel||title}</text></svg></div></figure>
   }
   if(result.kind==='histogram'){
     if(!result.bins.length)return <p>Aucune valeur présente à représenter dans la distribution.</p>

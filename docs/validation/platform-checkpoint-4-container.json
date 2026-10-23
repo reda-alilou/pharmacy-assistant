@@ -1,0 +1,34 @@
+{
+  "project": "pharmacy-checkpoint4-test-ff6a4725a3a843d19cf384430b89e5fe",
+  "verified_at_utc": "2026-10-23T21:49:13.374003+00:00",
+  "live_inference_performed": false,
+  "user_application_volume_modified": false,
+  "checks": {
+    "explicit_migrations_import_and_round_trip": true,
+    "explicit_platform_migrations_and_grants": true,
+    "web_static_page_and_core_forwarding": true,
+    "platform_gateway_account_cookie_csrf_and_role_boundary": true,
+    "platform_csv_gateway_validation_atomic_import_and_pagination": true,
+    "platform_analytics_exact_statistics_four_features_and_saved_dependencies": true,
+    "platform_dashboard_filters_result_only_sharing_revocation_and_copy_boundary": true,
+    "independent_images_runtime_credentials_and_internal_ports": true,
+    "language_outage_failed_message_restore_and_inference_free_selection": true,
+    "core_outage_safe_gateway_error_and_dns_recovery": true,
+    "database_container_replacement_preserves_catalogue_transcript_and_quota": true,
+    "proxy_preserves_cooldown_body_and_retry_after_without_inference": true,
+    "whole_stack_replacement_preserves_named_volume": true,
+    "real_frontend_restore_quota_selection_refresh_reset_without_inference": true,
+    "real_frontend_csv_versions_ownership_archive_delete_and_validation_recovery": true,
+    "real_frontend_analytics_four_features_saved_versions_charts_and_permissions": true,
+    "real_frontend_dashboards_accessible_layout_filters_sharing_onward_and_revocation": true,
+    "postgres_concurrency_backup_and_evaluation_resume_without_inference": true
+  },
+  "postgres_tests": {
+    "passed": true,
+    "tests_run": 18,
+    "skipped": 0,
+    "inference_performed": false
+  },
+  "passed": true,
+  "isolated_resources_removed": true
+}

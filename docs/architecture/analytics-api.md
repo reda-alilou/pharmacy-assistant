@@ -4,7 +4,8 @@ Express owns these routes and tables exclusively in `platform`. The frontend
 provides `/analyses`, `/analyses/nouvelle` and `/analyses/:id`; the dataset's
 Analysis tab links to a builder with an explicit immutable version. Protected
 deep links retain their local path and query through login. The assistant remains
-independent at `/assistant`. Dashboard construction and all sharing are future work.
+independent at `/assistant`. Checkpoint 4 extends these calculations with
+[dashboards and separate sharing/copy permissions](dashboards-sharing-api.md).
 
 ## HTTP contract
 
@@ -12,7 +13,9 @@ Same-origin gateway prefix: `/platform-api`. All routes require an active accoun
 all POST/PATCH/DELETE requests also require exact Origin and X-CSRF-Token. JSON
 is bounded to 128 KiB. Unknown properties and unsupported algorithm versions are
 rejected. Administrators receive no implicit access to other owners' analyses or
-dataset contents. Missing/foreign resources return 404.
+dataset contents. Own configurations or explicit result grants authorize saved
+resource reads; direct execution/templates require ownership or a dataset grant
+on every source. Unauthorized/missing resources return 404.
 
 | Method and Express route | Body / result |
 | --- | --- |
@@ -63,7 +66,7 @@ while processing. Saving is explicit and requires a current preview; the backend
 independently verifies executability. Reopening restores settings and offers an
 explicit recalculation, without presenting a cached result as current. Dirty state
 is visible, with a browser unload warning; the full dashboard edit/navigation
-guard and layout workflow remain Checkpoint 4. Failed saves preserve the draft.
+guard and layout workflow are implemented in Checkpoint 4. Failed saves preserve the draft.
 
 ## Aggregation and charts
 

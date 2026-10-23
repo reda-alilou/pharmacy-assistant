@@ -28,7 +28,8 @@ export function buildQuery(versionId: string, columns: Column[], query: DataQuer
       clauses.push(`${value} IS ${op==='present'?'NOT ':''}NULL`); continue
     }
     const textOperation = ['contains','starts_with'].includes(op)
-    if ((textOperation && column.type !== 'text') || (['gt','gte','lt','lte'].includes(op) && !['integer','decimal'].includes(column.type)) ||
+    if ((textOperation && column.type !== 'text') || (['gt','lt'].includes(op) && !['integer','decimal'].includes(column.type)) ||
+      (['gte','lte'].includes(op) && !['integer','decimal','date','datetime'].includes(column.type)) ||
       (['before','after'].includes(op) && !['date','datetime'].includes(column.type)) || (op==='between' && !['integer','decimal','date','datetime'].includes(column.type)))
       throw new ApiError(422,'invalid_filter','Opération incompatible avec le type de colonne.')
     if (values.length !== (op==='between'?2:op==='in'?values.length:1) || !values.length) throw new ApiError(422,'invalid_filter','Nombre de valeurs de filtre invalide.')

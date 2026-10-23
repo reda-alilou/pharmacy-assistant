@@ -196,6 +196,54 @@ finally:
             dependencies = client.get('/platform-api/datasets/' + analytics_source['datasetId'] + '/dependencies')
             assert dependencies.status_code == 200 and not dependencies.json()['canDelete']
             mark('platform_analytics_exact_statistics_four_features_and_saved_dependencies')
+            stage = 'platform dashboard filtering and read-only sharing'
+            dashboard_widget, dashboard_filter = str(uuid.uuid4()), str(uuid.uuid4())
+            dashboard_definition = {'kind': 'aggregate', 'source': analytics_source,
+                'measures': [{'operation': 'mean', 'column': amount_column}], 'chart': 'kpi'}
+            dashboard_configuration = {'algorithm': 'cp4-v1', 'widgets': [
+                {'id': dashboard_widget, 'title': 'Bounded mean', 'definition': dashboard_definition}],
+                'filters': [{'id': dashboard_filter, 'label': 'Allowed amount', 'kind': 'numeric',
+                    'minimum': '100', 'maximum': '199', 'mappings': [
+                        {'widgetId': dashboard_widget, 'column': amount_column}]}]}
+            dashboard_response = client.post('/platform-api/dashboards', headers=platform_headers,
+                json={'title': 'Isolated constrained dashboard', 'configuration': dashboard_configuration})
+            assert dashboard_response.status_code == 201
+            dashboard_path = '/platform-api/dashboards/' + dashboard_response.json()['dashboard']['id']
+            widget_path = dashboard_path + '/widgets/' + dashboard_widget + '/execute'
+            dashboard_selection = {'revision': 1, 'values': [
+                {'filterId': dashboard_filter, 'values': ['120', '129']}]}
+            with httpx.Client(base_url=origin, timeout=20, trust_env=False) as recipient:
+                recipient_session = recipient.get('/platform-api/auth/session').json()
+                recipient_registration = recipient.post('/platform-api/auth/register',
+                    headers={'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': recipient_session['csrfToken']},
+                    json={'email': 'isolated-dashboard-reader@example.test', 'displayName': 'Dashboard reader',
+                          'password': 'isolated-reader-verification-password'})
+                assert recipient_registration.status_code == 201
+                reader_headers = {'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': recipient_registration.json()['csrfToken']}
+                dashboard_grant = client.post(dashboard_path + '/shares', headers=platform_headers,
+                    json={'email': 'isolated-dashboard-reader@example.test'})
+                assert dashboard_grant.status_code == 201
+                permitted_chart = recipient.post(widget_path, headers=reader_headers, json=dashboard_selection)
+                assert permitted_chart.status_code == 200
+                assert Decimal(permitted_chart.json()['result']['rows'][0]['metrics'][0]['value']) == Decimal('124.5')
+                assert amount_column in [column['id'] for column in permitted_chart.json()['columns']]
+                assert code_column not in [column['id'] for column in permitted_chart.json()['columns']]
+                assert recipient.get('/platform-api/datasets/' + analytics_source['datasetId']).status_code == 404
+                assert recipient.post('/platform-api/analytics/execute', headers=reader_headers,
+                    json={'definition': dashboard_definition}).status_code == 404
+                assert recipient.post(widget_path, headers=reader_headers,
+                    json={**dashboard_selection, 'definition': dashboard_definition}).status_code == 422
+                assert recipient.post(widget_path, headers=reader_headers,
+                    json={'revision': 1, 'values': [{'filterId': dashboard_filter, 'values': ['0', '999']}]}).status_code == 422
+                assert recipient.post(dashboard_path + '/copy', headers=reader_headers,
+                    json={'title': 'Forbidden source copy'}).status_code == 404
+                revoked = client.request('DELETE', dashboard_path + '/shares/' + dashboard_grant.json()['id'],
+                    headers=platform_headers, json={})
+                assert revoked.status_code == 204
+                assert recipient.post(widget_path, headers=reader_headers, json=dashboard_selection).status_code == 404
+                assert client.post(dashboard_path + '/shares', headers=platform_headers,
+                    json={'email': 'isolated-dashboard-reader@example.test'}).status_code == 201
+            mark('platform_dashboard_filters_result_only_sharing_revocation_and_copy_boundary')
             core_check = inside("core", """import importlib.util,json,os
 assert importlib.util.find_spec('groq') is None
 assert importlib.util.find_spec('pharmacy_language') is None
@@ -277,6 +325,14 @@ print(json.dumps({'ok':True}))""")
             recalculated = client.post('/platform-api/analytics/execute', headers=platform_headers,
                 json={'definition': persisted_analysis.json()['analysis']['definition']})
             assert recalculated.status_code == 200 and Decimal(recalculated.json()['rows'][0]['metrics'][1]['value']) == Decimal('499.5')
+            persisted_dashboard = client.get(dashboard_path)
+            assert persisted_dashboard.status_code == 200
+            assert persisted_dashboard.json()['dashboard']['configuration']['widgets'][0]['definition']['source']['versionId'] == analytics_source['versionId']
+            persisted_widget = client.post(widget_path, headers=platform_headers, json=dashboard_selection)
+            assert persisted_widget.status_code == 200
+            assert Decimal(persisted_widget.json()['result']['rows'][0]['metrics'][0]['value']) == Decimal('124.5')
+            persisted_recipients = client.get(dashboard_path + '/shares')
+            assert persisted_recipients.status_code == 200 and len(persisted_recipients.json()['grants']) == 1
             mark("whole_stack_replacement_preserves_named_volume")
             if frontend:
                 stage = "real frontend integration"
@@ -300,15 +356,31 @@ print(json.dumps({'ok':True}))""")
                     handle.write("PLATFORM_ORIGIN='http://" + address + "'\n")
                 compose('up', '-d', '--wait', '--force-recreate', '--no-deps', 'platform')
                 environment = dict(os.environ, DEPLOYMENT_ORIGIN='http://' + address)
+                def clear_browser_throttles():
+                    # Only this generated disposable project; never the application stack.
+                    # Independent suites create >10 fixture accounts in one window.
+                    # Runtime registration limits stay unchanged, and sessions persist.
+                    assert project.startswith('pharmacy-checkpoint4-test-') and len(project) == 58
+                    compose('exec', '-T', 'platform', 'node', '--input-type=module', '-e',
+                        "import {createPool} from './dist/database.js'; const p=createPool(process.env.PLATFORM_DATABASE_URL); "
+                        "try{await p.query('DELETE FROM platform.auth_throttles')}finally{await p.end()}")
+                clear_browser_throttles()
                 run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
                      'tests/browser/real-datasets.spec.ts', '--config', str(ROOT / 'apps/web/playwright.datasets.config.ts'),
                      '--reporter=list'], env=environment, timeout=240)
                 mark('real_frontend_csv_versions_ownership_archive_delete_and_validation_recovery')
+                clear_browser_throttles()
                 stage = 'real frontend analytics and advanced features'
                 run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
                      'tests/browser/real-analytics.spec.ts', '--config', str(ROOT / 'apps/web/playwright.analytics.config.ts'),
                      '--reporter=list'], env=environment, timeout=420)
                 mark('real_frontend_analytics_four_features_saved_versions_charts_and_permissions')
+                stage = 'real frontend dashboard editing, mapped filters and permission-aware collaboration'
+                clear_browser_throttles()
+                run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
+                     'tests/browser/real-dashboards.spec.ts', '--config', str(ROOT / 'apps/web/playwright.dashboards.config.ts'),
+                     '--reporter=list'], env=environment, timeout=480)
+                mark('real_frontend_dashboards_accessible_layout_filters_sharing_onward_and_revocation')
         # Only the temporary verification database is exposed, on a random
         # localhost port, after the normal internal-port checks have passed.
         stage = "owned PostgreSQL concurrency, backup and evaluation checks"

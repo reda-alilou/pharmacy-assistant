@@ -8,6 +8,8 @@ import { definitionSchema, type Definition, type Source } from './contracts'
 import { analysisSchema, analyticsRequest, KIND_NAMES, listSchema, resultSchema, savedSchema, templatesSchema, type Result } from './api'
 import { DefinitionControls, Filters, SourcePicker } from './controls'
 import { Results } from './results'
+import { SharedAnalysis } from './shared'
+import { SharingPanel } from '@/features/sharing/panel'
 
 const emptySource:Source={datasetId:'',versionId:'',search:'',filters:[]}
 const defaultStyle={xLabel:'',yLabel:'',unit:'',precision:2,legend:true}
@@ -23,13 +25,14 @@ function draft(kind:Definition['kind'],source:Source,columns:Column[]):Definitio
 }
 export function AnalysesPage(){
   const[page,setPage]=useState(1),resource=useDatasetResource('/analyses?page='+page,listSchema)
-  return <><p className="platform-eyebrow">Configurations privées et reproductibles</p><h1>Mes analyses</h1><p>Chaque analyse conserve ses versions, filtres, règles et choix graphiques. Le partage et les tableaux de bord sont à venir.</p><Link className="platform-primary" to="/analyses/nouvelle">Créer une analyse</Link>
-    {!resource.data?<Status error={resource.error}/>:<>{!resource.data.analyses.length?<section className="platform-panel"><h2>Aucune analyse enregistrée</h2><p>Créez une configuration, vérifiez son résultat puis enregistrez-la explicitement.</p></section>:resource.data.analyses.map(analysis=><article className="platform-panel" key={analysis.id}><h2><Link to={'/analyses/'+analysis.id}>{analysis.title}</Link></h2><p>{analysis.description||'Aucune description.'}</p><p>{KIND_NAMES[analysis.definition.kind]} · privé · version épinglée · modifiée le {new Date(analysis.updatedAt).toLocaleString('fr-FR')}</p></article>)}<div className="dataset-pagination"><button type="button" disabled={page===1} onClick={()=>setPage(page-1)}>Analyses précédentes</button><span>Page {page}</span><button type="button" disabled={!resource.data.hasMore} onClick={()=>setPage(page+1)}>Analyses suivantes</button></div></>}
+  return <><p className="platform-eyebrow">Configurations privées et reproductibles</p><h1>Mes analyses</h1><p>Chaque analyse conserve ses versions, filtres, règles et choix graphiques. Le partage en lecture seule et les tableaux de bord conservent des autorisations distinctes des datasets.</p><Link className="platform-primary" to="/analyses/nouvelle">Créer une analyse</Link>
+    {!resource.data?<Status error={resource.error}/>:<>{!resource.data.analyses.length?<section className="platform-panel"><h2>Aucune analyse enregistrée</h2><p>Créez une configuration, vérifiez son résultat puis enregistrez-la explicitement.</p></section>:resource.data.analyses.map(analysis=><article className="platform-panel" key={analysis.id}><h2><Link to={'/analyses/'+analysis.id}>{analysis.title}</Link></h2><p>{analysis.description||'Aucune description.'}</p><p>{analysis.definition?KIND_NAMES[analysis.definition.kind]:'Analyse partagée'} · {analysis.access==='shared'?'lecture seule':'vous êtes propriétaire'} · version épinglée · modifiée le {new Date(analysis.updatedAt).toLocaleString('fr-FR')}</p></article>)}<div className="dataset-pagination"><button type="button" disabled={page===1} onClick={()=>setPage(page-1)}>Analyses précédentes</button><span>Page {page}</span><button type="button" disabled={!resource.data.hasMore} onClick={()=>setPage(page+1)}>Analyses suivantes</button></div></>}
   </>
 }
 export function AnalysisPage(){
   const{id}=useParams<{id:string}>(),[search]=useSearchParams(),resource=useDatasetResource(id?'/analyses/'+id:null,savedSchema)
   if(id&&!resource.data)return <Status error={resource.error}/>
+  if(resource.data?.analysis.access==='shared')return <><Link to="/analyses">← Mes analyses</Link><SharedAnalysis analysis={resource.data.analysis}/></>
   const kind=search.get('kind')
   return <Editor key={id??'new'} initial={resource.data?.analysis} initialKind={kind&&Object.hasOwn(KIND_NAMES,kind)?kind as Definition['kind']:'aggregate'} source={{...emptySource,datasetId:search.get('dataset')??'',versionId:search.get('version')??''}}/>
 }
@@ -83,5 +86,6 @@ function Editor({initial,source,initialKind}:{initial?:z.infer<typeof analysisSc
         {saved&&<div className="analytics-delete">{!deleting?<button type="button" onClick={()=>setDeleting(true)}>Supprimer cette analyse</button>:<><p>La configuration sera supprimée et ses dépendances retirées. Les datasets et leurs versions seront conservés.</p><button type="button" className="dataset-danger" onClick={()=>{void remove()}}>Confirmer la suppression de l’analyse</button><button type="button" onClick={()=>setDeleting(false)}>Annuler la suppression de l’analyse</button></>}</div>}
       </section>
     </fieldset>
+    {saved&&!dirty&&!busy&&<><p><Link to={'/tableaux/nouveau?analysis='+saved.id}>Ajouter une visualisation de cette analyse à un tableau de bord</Link></p><SharingPanel path={'/analyses/'+saved.id} kind="analysis"/></>}
   </>
 }

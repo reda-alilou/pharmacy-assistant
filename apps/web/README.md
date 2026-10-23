@@ -3,8 +3,10 @@
 React, TypeScript and Vite, with Tailwind CSS and project-owned shadcn/ui controls.
 React Router provides introduction, account/profile, private datasets/import/
 exploration, analysis builder/charts/private saved definitions and separate
-`/assistant` routes. Dashboards, sharing and administration remain future
-checkpoints. The interface is French;
+`/assistant` routes. Checkpoint 4 adds `/tableaux`, a dashboard builder, mapped
+filters and permission-aware collaboration. Administration remains a future
+checkpoint. Checkpoint 4 host checks and the final production gate pass,
+including the source-switch mapping fix; ready for user review. The interface is French;
 backend multilingual answers remain unchanged. No
 frontend environment variable contains a provider key or database credential.
 
@@ -72,6 +74,24 @@ inference and retains no credential-bearing network traces. See
 [calculation/API contract](../../docs/architecture/analytics-api.md),
 [current operations](../../docs/operations/analytics.md) and
 [Checkpoint 3 evidence](../../docs/validation/platform-checkpoint-3.md).
+
+`features/dashboards` implements `/tableaux`, `/tableaux/nouveau` and
+`/tableaux/:id`: explicit view/edit/save/discard, widget configuration/duplication,
+pointer and keyboard arrangement/resizing, a mobile single-column order and
+mapped reader filters. `features/sharing` provides exact-email grants, recipient
+revocation and readable revision-specific original-owner approval. Dataset/result
+grants remain separate; copies require actual dataset permissions.
+
+`npm run test:dashboards` runs three real browser workflows against a verified
+temporary database or the user-invoked production verifier. It covers layout,
+donut/histogram configuration, category/numeric/date/presence filters, stale and
+failed-response recovery, held-save locks, login/reopen, desktop/mobile axe,
+three-account onward authorization, source/result revocation and permission-aware
+analysis copies. Real traces remain disabled. The router uses a data router for
+navigation blocking; the assistant loads separately without account dependencies.
+See [contract](../../docs/architecture/dashboards-sharing-api.md),
+[operations](../../docs/operations/dashboards-sharing.md) and
+[actual evidence](../../docs/validation/platform-checkpoint-4.md).
 
 ## Test on a phone over Wi-Fi
 

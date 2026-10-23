@@ -14,6 +14,8 @@ export function PlatformLayout() {
   useEffect(() => { document.title = 'Pharma Analyse'; window.scrollTo(0, 0) }, [location.pathname])
   async function logout() {
     if (!session) return
+    // Editors can warn before session invalidation removes their protected view.
+    if(!window.dispatchEvent(new Event('platform:before-logout',{cancelable:true})))return
     setBusy(true); setLogoutError('')
     try {
       await accountRequest('/auth/logout', z.undefined(), { method: 'POST', csrfToken: session.csrfToken })
@@ -26,7 +28,7 @@ export function PlatformLayout() {
   return <div className="platform-shell"><a className="skip-link" href="#platform-main">Aller au contenu</a>
     <header className="platform-header"><Link className="platform-brand" to="/">Pharma Analyse</Link>
       <nav aria-label="Navigation principale"><Link to="/assistant">Assistant pharmacie</Link>
-        {session?.user ? <><Link to="/espace">Mon espace</Link><Link to="/donnees">Mes données</Link><Link to="/analyses">Mes analyses</Link><Link to="/profil">Mon profil</Link>{session.user.role === 'admin' && <Link to="/administration">Administration · à venir</Link>}<button type="button" onClick={() => { void logout() }} disabled={busy}>{busy ? 'Déconnexion…' : 'Se déconnecter'}</button></>
+        {session?.user ? <><Link to="/espace">Mon espace</Link><Link to="/donnees">Mes données</Link><Link to="/analyses">Mes analyses</Link><Link to="/tableaux">Mes tableaux de bord</Link><Link to="/profil">Mon profil</Link>{session.user.role === 'admin' && <Link to="/administration">Administration · à venir</Link>}<button type="button" onClick={() => { void logout() }} disabled={busy}>{busy ? 'Déconnexion…' : 'Se déconnecter'}</button></>
           : <><Link to="/connexion">Connexion</Link><Link to="/inscription">Créer un compte</Link></>}
       </nav></header>
     <main id="platform-main" className="platform-main" tabIndex={-1}>
@@ -41,7 +43,7 @@ export function Introduction() {
     <p className="platform-lead">Un espace pour importer, explorer et comprendre les données pharmaceutiques. Les comptes, les CSV privés, l’exploration et les analyses reproductibles sont disponibles dès maintenant.</p>
     <div className="platform-actions"><Link className="platform-primary" to={session?.user ? '/espace' : '/inscription'}>{session?.user ? 'Accéder à mon espace' : 'Créer mon compte'}</Link><Link to="/assistant">Consulter l’assistant pharmacie</Link></div>
     <section className="platform-panel"><h2>Disponible aujourd’hui</h2><p>Créez un compte, gérez votre profil, importez un CSV privé et créez des analyses avec agrégations, graphiques et quatre fonctions avancées. L’assistant pharmacie reste accessible à tous, avec des conversations temporaires indépendantes des comptes.</p></section>
-    <section className="platform-panel"><h2>Prochaines étapes</h2><p>Les tableaux de bord et le partage ne sont pas encore disponibles. Les analyses et les quatre fonctions avancées sont accessibles avec un compte.</p><p>Les prix de l’assistant sont des observations datées. Le stock n’est pas vérifié ; l’annuaire de Rabat est partiel.</p></section>
+    <section className="platform-panel"><h2>Prochaines étapes</h2><p>Les tableaux de bord interactifs et le partage en lecture seule sont disponibles avec un compte. L’administration visuelle reste une prochaine étape.</p><p>Les prix de l’assistant sont des observations datées. Le stock n’est pas vérifié ; l’annuaire de Rabat est partiel.</p></section>
   </>
 }
 export function Protected({ admin = false }: { admin?: boolean }) {
@@ -58,7 +60,7 @@ export function AuthPage({ register = false }: { register?: boolean }) {
   const navigate = useNavigate()
   const location = useLocation()
   const requested:unknown=location.state?.from
-  const next=typeof requested==='string'&&/^\/(?:espace|profil|administration|donnees(?:\/(?:importer|[a-f0-9-]{36}|imports\/[a-f0-9-]{36}))?|analyses(?:\/(?:nouvelle|[a-f0-9-]{36}))?)(?:\?[^#]*)?$/i.test(requested)?requested:'/espace'
+  const next=typeof requested==='string'&&/^\/(?:espace|profil|administration|donnees(?:\/(?:importer|[a-f0-9-]{36}|imports\/[a-f0-9-]{36}))?|analyses(?:\/(?:nouvelle|[a-f0-9-]{36}))?|tableaux(?:\/(?:nouveau|[a-f0-9-]{36}))?)(?:\?[^#]*)?$/i.test(requested)?requested:'/espace'
   if (session?.user) return <Navigate to={next} replace />
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -87,7 +89,7 @@ export function Workspace() {
   const { session } = useAccounts()
   return <><p className="platform-eyebrow">Espace personnel</p><h1>Bonjour, {session?.user?.displayName}</h1><p>Votre compte {session?.user?.role === 'admin' ? 'administrateur' : 'analyste'} est actif.</p>
     <section className="platform-panel"><h2>Votre profil</h2><p>Modifiez votre nom affiché ou votre mot de passe.</p><Link to="/profil">Gérer mon profil</Link></section>
-    <section className="platform-panel"><h2>Mes jeux de données</h2><p>Importez un CSV privé, validez les types et consultez ses lignes et versions.</p><Link to="/donnees">Ouvrir mes données</Link></section><section className="platform-panel"><h2>Mes analyses</h2><p>Calculez des indicateurs, inspectez les valeurs manquantes et atypiques, comparez des versions et enregistrez vos configurations privées.</p><Link to="/analyses">Ouvrir mes analyses</Link></section><section className="platform-panel"><h2>Fonctionnalités à venir</h2><p>Les tableaux de bord et le partage sont à venir.</p></section>
+    <section className="platform-panel"><h2>Mes jeux de données</h2><p>Importez un CSV privé, validez les types et consultez ses lignes et versions.</p><Link to="/donnees">Ouvrir mes données</Link></section><section className="platform-panel"><h2>Mes analyses</h2><p>Calculez des indicateurs, inspectez les valeurs manquantes et atypiques, comparez des versions et enregistrez vos configurations privées.</p><Link to="/analyses">Ouvrir mes analyses</Link></section><section className="platform-panel"><h2>Mes tableaux de bord</h2><p>Regroupez vos visualisations, configurez des filtres explicites et partagez des résultats en lecture seule.</p><Link to="/tableaux">Ouvrir mes tableaux de bord</Link></section><section className="platform-panel"><h2>Fonctionnalités à venir</h2><p>L’administration visuelle reste à venir.</p></section>
   </>
 }
 export function Profile() {

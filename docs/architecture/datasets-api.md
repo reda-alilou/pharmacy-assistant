@@ -4,7 +4,9 @@ Express owns all dataset operations in `platform`. Browser routes are `/donnees`
 `/donnees/importer`, `/donnees/imports/:id` and `/donnees/:id`. The dataset URL
 accepts `version=<uuid>` and `tab=overview|data|columns|quality|versions`, so direct
 URLs and refresh retain the selected version/view. Dataset, import and version
-APIs require an active account, ownership and the account-session protections.
+APIs require an active account and account-session protections. Mutations remain
+owner-only; Checkpoint 4 read routes also accept an explicit dataset grant. A
+result-only grant does not authorize these dataset routes.
 Administrators have no implicit access to another owner's dataset contents.
 Sharing and administrative inspection remain later work. Checkpoint 3 adds
 [analytical tools and private saved definitions](analytics-api.md).
@@ -123,9 +125,11 @@ Archiving hides datasets from the normal listing and prevents new versions, but
 preserves old versions and access by their owner. Deletion requires a dependency/
 share review and exact confirmation; dependency rows and database FKs prevent
 accidental removal. Checkpoint 3 now creates real saved-analysis dependency
-registrations and source FKs; dashboards/shares remain future work. Future resource
-creation must also register and later remove/migrate dependencies explicitly.
-No copied/sharing access is granted at this stage.
+registrations and source FKs. Checkpoint 4 also registers real dashboard and
+dataset-share dependencies. Dependent personal configurations remain after a
+source grant is revoked, and still block deletion until removed or migrated.
+[Dashboard/sharing permissions](dashboards-sharing-api.md) explain grants and copies;
+saving a dataset/analysis never creates a grant automatically.
 
 Backups retain datasets, versions, columns, normalized/original rows, receipts
 and dependencies, but exclude `import_uploads`, account sessions/throttles and

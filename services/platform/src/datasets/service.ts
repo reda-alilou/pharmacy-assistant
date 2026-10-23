@@ -2,6 +2,7 @@ import { randomUUID, createHash } from 'node:crypto'
 import type pg from 'pg'
 import { ApiError } from '../contracts.js'
 import { transaction } from '../database.js'
+import { datasetAccess, datasetPermission } from '../access.js'
 import { columnSchema, configurationSchema, LIMITS, optionsSchema, type Column, type Configuration, type DataQuery, type Metadata, type Options, type Validation } from './contracts.js'
 import { columnId, inferColumns, parseCsv, validDate, validateRows } from './csv.js'
 import { buildQuery, expression } from './query.js'
@@ -171,11 +172,11 @@ export class DatasetService {
   }
   async list(owner:string,archived:boolean,page=1) {
     const result=await this.pool.query(`SELECT d.*,u.display_name owner_name,(SELECT count(*) FROM platform.dataset_versions v WHERE v.dataset_id=d.id) version_count
-      FROM platform.datasets d JOIN platform.users u ON u.id=d.owner_id WHERE d.owner_id=$1 AND d.archived=$2 ORDER BY d.updated_at DESC,d.id LIMIT 26 OFFSET $3`,[owner,archived,(page-1)*25])
+      FROM platform.datasets d JOIN platform.users u ON u.id=d.owner_id WHERE (d.owner_id=$1 OR EXISTS(SELECT 1 FROM platform.dataset_grants g WHERE g.dataset_id=d.id AND g.recipient_id=$1)) AND d.archived=$2 ORDER BY d.updated_at DESC,d.id LIMIT 26 OFFSET $3`,[owner,archived,(page-1)*25])
     return {datasets:result.rows.slice(0,25).map(dataset),hasMore:result.rows.length>25,page}
   }
   async detail(owner:string,id:string) {
-    const result=await this.pool.query(`SELECT d.*,u.display_name owner_name,(SELECT count(*) FROM platform.dataset_versions v WHERE v.dataset_id=d.id) version_count FROM platform.datasets d JOIN platform.users u ON u.id=d.owner_id WHERE d.id=$1 AND d.owner_id=$2`,[id,owner])
+    const result=await this.pool.query(`SELECT d.*,u.display_name owner_name,(SELECT count(*) FROM platform.dataset_versions v WHERE v.dataset_id=d.id) version_count FROM platform.datasets d JOIN platform.users u ON u.id=d.owner_id WHERE d.id=$1 AND ${datasetPermission}`,[id,owner])
     if(!result.rowCount) throw missing()
     const versions=await this.pool.query('SELECT * FROM platform.dataset_versions WHERE dataset_id=$1 ORDER BY version_number DESC LIMIT 25',[id])
     return {dataset:dataset(result.rows[0]),versions:versions.rows.map(version)}
@@ -186,7 +187,8 @@ export class DatasetService {
     return {versions:result.rows.map(version),total:detail.dataset.versionCount,page}
   }
   async version(owner:string,datasetId:string,versionId:string) {
-    const result=await this.pool.query('SELECT v.* FROM platform.dataset_versions v JOIN platform.datasets d ON d.id=v.dataset_id WHERE v.dataset_id=$1 AND v.id=$2 AND d.owner_id=$3',[datasetId,versionId,owner])
+    await datasetAccess(this.pool,owner,datasetId,false,missing)
+    const result=await this.pool.query('SELECT v.* FROM platform.dataset_versions v WHERE v.dataset_id=$1 AND v.id=$2',[datasetId,versionId])
     if(!result.rowCount) throw missing()
     const columns=await this.pool.query('SELECT interpretation,profile FROM platform.dataset_columns WHERE version_id=$1 ORDER BY ordinal',[versionId])
     return {version:version(result.rows[0]),columns:columns.rows.map(row=>({definition:columnSchema.parse(row.interpretation),profile:row.profile}))}
@@ -196,8 +198,8 @@ export class DatasetService {
     const built=buildQuery(versionId,selected.columns.map(column=>column.definition),query)
     return transaction(this.pool,async db=>{
       await db.query('SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY')
-      // Recheck ownership in the same snapshot as the data/count query.
-      if(!(await db.query('SELECT 1 FROM platform.datasets WHERE id=$1 AND owner_id=$2',[datasetId,owner])).rowCount) throw missing()
+      // Recheck explicit dataset permission in the data/count snapshot.
+      await datasetAccess(db,owner,datasetId,false,missing)
       const total=await db.query(`SELECT count(*)::int total FROM platform.dataset_rows r WHERE ${built.where}`,built.countParameters)
       const parameters=[...built.parameters,query.pageSize,(query.page-1)*query.pageSize]
       const rows=await db.query(`SELECT row_number,source_line,values,original_values FROM platform.dataset_rows r WHERE ${built.where} ORDER BY ${built.order} LIMIT $${parameters.length-1} OFFSET $${parameters.length}`,parameters)
@@ -218,6 +220,7 @@ export class DatasetService {
   }
   async dependencies(owner:string,id:string) {
     const detail=await this.detail(owner,id)
+    if(detail.dataset.ownerId!==owner)throw missing()
     const result=await this.pool.query('SELECT kind,resource_id,label,version_id FROM platform.dataset_dependencies WHERE dataset_id=$1 ORDER BY kind,resource_id',[id])
     return {datasetId:id,title:detail.dataset.title,revision:detail.dataset.revision,versionCount:detail.dataset.versionCount,
       dependencies:result.rows.map(row=>({kind:row.kind,resourceId:row.resource_id,label:row.label,versionId:row.version_id})),canDelete:!result.rowCount}

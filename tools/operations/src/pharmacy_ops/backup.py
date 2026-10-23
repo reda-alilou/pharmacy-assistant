@@ -95,6 +95,9 @@ def verify_backup(values, backup_path):
                     platform_tables.extend(['datasets', 'import_receipts', 'dataset_versions', 'dataset_columns', 'dataset_rows', 'dataset_dependencies'])
                 if source.scalar(text("SELECT to_regclass('platform.analyses') IS NOT NULL")):
                     platform_tables.extend(['analyses', 'analysis_sources'])
+                if source.scalar(text("SELECT to_regclass('platform.dashboards') IS NOT NULL")):
+                    platform_tables.extend(['dashboards', 'dashboard_sources', 'dataset_grants',
+                        'dashboard_grants', 'analysis_grants', 'dashboard_authorizations', 'analysis_authorizations'])
                 for table in platform_tables:
                     # Owned fixed identifiers only. Compare values without emitting account data.
                     query = text(f'SELECT row_to_json(t)::text FROM platform.{table} t ORDER BY row_to_json(t)::text')

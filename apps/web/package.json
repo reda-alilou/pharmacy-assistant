@@ -12,6 +12,7 @@
     "test:accounts": "playwright test --config playwright.accounts.config.ts",
     "test:datasets": "playwright test --config playwright.datasets.config.ts",
     "test:analytics": "playwright test --config playwright.analytics.config.ts",
+    "test:dashboards": "playwright test --config playwright.dashboards.config.ts",
     "test:ui": "playwright test --ui",
     "types:api": "openapi-typescript contracts/core.openapi.json -o src/shared/api/generated.ts"
   },

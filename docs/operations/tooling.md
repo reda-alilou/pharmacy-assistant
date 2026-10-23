@@ -53,7 +53,8 @@ Verification compares those tables when present and checks excluded state is
 absent. Restored incomplete receipts cannot resume without excluded upload bodies.
 Reapply explicit runtime grants after restoring. Checkpoint 3 also retains and
 compares `analyses` and `analysis_sources` with their dependency registrations.
-Dashboard/sharing relationships remain future work. [Current commands](analytics.md).
+Checkpoint 4 also compares dashboards, dashboard source references, dataset/analysis/
+dashboard grants and original-owner approvals. [Current commands](dashboards-sharing.md).
 
 To read the host language ledger, first select its already configured environment:
 
@@ -92,8 +93,12 @@ precision, full-version pagination and persistence after replacement. With
 Nginx, including versions, ownership, archive/delete and invalid-input recovery.
 Checkpoint 3 extends this to exact statistical/advanced APIs, saved-source
 dependencies and persistence, and the real analysis builder/chart/four-feature
-browser flow. With `--frontend` it now expects 16 named checks plus the 18 assistant
-PostgreSQL tests. Account/dataset suites remain included.
+browser flow. Checkpoint 4 adds bounded dashboard queries, result-only permissions,
+revocation/copy checks and the real dashboard/collaboration browser workflow.
+With `--frontend` it now expects 18 named checks plus the 18 assistant PostgreSQL
+tests. Account/dataset/analytics suites remain included. Between independent browser
+suites, only the disposable project’s auth throttle fixture counters are cleared;
+normal runtime limits and sessions are unchanged.
 The dedicated
 `npm --prefix services/platform run test:postgres` and
 `npm --prefix apps/web run test:accounts` checks cover account adversarial and

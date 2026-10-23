@@ -8,7 +8,8 @@ test('visitor introduction is honest, assistant remains independent and direct U
   await mockApi(page)
   await page.goto('/')
   await expect(page.getByRole('heading', { name: 'Prochaines étapes' })).toBeVisible()
-  await expect(page.getByText(/Les tableaux de bord et le partage ne sont pas encore disponibles/)).toBeVisible()
+  await expect(page.getByText(/Les tableaux de bord interactifs et le partage en lecture seule sont disponibles avec un compte/)).toBeVisible()
+  await expect(page.getByText(/L’administration visuelle reste une prochaine étape/)).toBeVisible()
   await page.getByRole('link', { name: 'Consulter l’assistant pharmacie' }).click()
   await expect(page.getByRole('textbox', { name: 'Votre question' })).toBeVisible()
   const count = account.calls.length

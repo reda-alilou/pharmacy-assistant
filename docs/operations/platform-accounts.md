@@ -7,7 +7,8 @@ the existing database credentials for this upgrade. No command below imports
 pharmaceutical analytics samples. Checkpoint 2 now implements user-driven imports;
 see [dataset upgrade and verification](datasets.md). Existing account configuration
 must be reused. The explicit migration command applies all owned revisions;
-Checkpoint 3 adds analyses as described in [current upgrade steps](analytics.md).
+Checkpoint 4 includes analyses, dashboards and sharing as described in
+[current upgrade steps](dashboards-sharing.md).
 
 ## Existing configured workspace
 

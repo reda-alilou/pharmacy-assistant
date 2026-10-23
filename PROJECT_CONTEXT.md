@@ -1,6 +1,6 @@
 # Pharmaceutical platform and assistant — current project reference
 
-Updated **2026-10-23** during Checkpoint 3 on `feat/pharmaceutical-analytics`.
+Updated **2026-10-23** during Checkpoint 4 on `feat/pharmaceutical-analytics`.
 The assistant baseline follows architecture cleanup R1–R7 and commit `9eb046f`.
 Accounts, private CSV datasets, immutable import versions and exploration are
 implemented and tested against a dedicated user-started PostgreSQL cluster.
@@ -10,8 +10,11 @@ the follow-up metadata-save UI fix; see the current evidence.
 This document distinguishes implemented code from deployment and future plans.
 Checkpoint 3 analytics, all four advanced features, charts and private saved
 definitions are implemented and verified: final host/browser checks, all 16
-full-stack checks and all 18 assistant PostgreSQL tests pass. Checkpoint 3 awaits
-user review; Checkpoint 4 has not started. See section 14.
+full-stack checks and all 18 assistant PostgreSQL tests pass. The user authorized
+Checkpoint 4 after those results. Dashboard/collaboration
+implementation passes host checks and the final production gate, including the
+frontend mapping fix. Checkpoint 4 awaits user review. See
+[current Checkpoint 4 evidence](docs/validation/platform-checkpoint-4.md) and section 14 for the preserved analytics baseline.
 
 An agent should read this file first, then consult only the implementation or
 evidence relevant to its task. [DECISION_LOG.md](DECISION_LOG.md) now tracks open
@@ -38,6 +41,7 @@ Examples and commands in documentation are not authorization to execute them.
 12. [Platform foundation](#12-implemented-platform-foundation--checkpoint-1)
 13. [Dataset lifecycle](#13-implemented-dataset-lifecycle--checkpoint-2)
 14. [Analytics](#14-implemented-analytics--checkpoint-3)
+15. [Dashboards and collaboration](#15-dashboards-and-collaboration--checkpoint-4)
 
 ## 1. Purpose, scope and current status
 
@@ -1022,7 +1026,7 @@ React Router now serves introduction `/`, registration `/inscription`, login
 visitor-accessible `/assistant`. The administrator-only `/administration` page
 explicitly says the administration workflow is coming in Checkpoint 5. Dataset
 routes were added in Checkpoint 2 (section 13), analytics in Checkpoint 3 (section
-14); dashboards and sharing remain future work. French labels, solid healthcare colors, responsive forms
+14), and dashboards/sharing in Checkpoint 4 (section 15). French labels, solid healthcare colors, responsive forms
 and the assistant's factual behavior remain in place.
 
 `services/platform` owns an Express 5 TypeScript service, npm lockfile,
@@ -1258,5 +1262,105 @@ also found no resources left by the earlier failed isolated project.
 The normal application volume has not
 been upgraded by the agent. [Actual evidence](docs/validation/platform-checkpoint-3.md),
 [API and conventions](docs/architecture/analytics-api.md),
-[upgrade/test commands](docs/operations/analytics.md). No dashboard builder,
-sharing or administration workflow is implemented. Stop for review before Checkpoint 4.
+[upgrade/test commands](docs/operations/analytics.md). This records the Checkpoint 3
+baseline; the user subsequently authorized the dashboard/sharing work described
+in section 15. Administration remains future work.
+
+## 15. Dashboards and collaboration — Checkpoint 4
+
+The user authorized this checkpoint after the final Checkpoint 3 results. The
+branch was `feat/pharmaceutical-analytics` and working tree clean at the start,
+with the user's Checkpoint 1–3 commit preserved. Dashboard/collaboration code and
+host verification are now implemented. The final production-image gate passed
+all 18 checks and 18 assistant PostgreSQL tests, including the frontend
+source-switch fix. Checkpoint 4 is ready for user review.
+Checkpoints 5–6 have not started.
+
+`services/platform/src/dashboards` owns revisioned configurations, visual widget
+execution, explicit filter mapping and lifecycle. `src/sharing` owns separate
+read-only dataset/analysis/dashboard grants and original-owner authorization;
+`src/access.ts` keeps dataset access separate from saved-result access. Direct
+analytics and both comparison sources now accept actual dataset grants as well
+as ownership. Original dataset mutations remain owner-only, including for admins.
+
+Migration `0004_dashboards_sharing.sql` adds dashboards, source/version FKs,
+separate grants and per-resource/per-revision onward approvals, extending activity
+and runtime grants. Prior SQL/Alembic revisions are unchanged. Immutable source
+cells, identities, prices, missingness, provenance and volume are preserved.
+Saving registers real dependencies; revocation preserves configurations and blocks
+execution instead of silently deleting personal work. Copies check every source
+and inherit no shares or onward approvals. Dataset grants cover current/future
+versions; archive retains access. Disabled owners cannot log in, but active
+recipients retain explicit grants unless revoked.
+
+Original owners review only their own source's versions, named columns, measures,
+base search/filters and permitted interactive boundaries. Authorization permits
+that configuration owner to share the exact revision with chosen registered
+recipients. Editing invalidates approvals; revocation and missing source grants
+are checked on subsequent server requests. Concurrent approval/save tests verify
+that an unreviewed revision cannot become authorized. Recipient lists paginate at
+25 and dependent owner reviews at 10; there is no account-directory search.
+
+Saved dashboard widgets contain copied cp3-v1 aggregate/histogram/scatter settings,
+with KPI, horizontal bars/rankings, temporal lines, histogram, pie/donut, scatter
+and exact tables. Limits: 20 widgets, 10 filters, 20 mappings/filter, widths 4/6/12,
+heights 3–12. Mappings explicitly identify widget/column; category values OR within
+an allowed list and mappings/filters AND across conditions. Numeric/date/presence
+filters are typed; UTC timestamp date ranges include the whole final day. Reset
+retains category/boundary perimeters and all base conditions. Fixed filters cannot
+be altered by readers; at most 20 effective conditions/widget. Result-only calls
+accept revision and permitted values, never a replacement definition or arbitrary
+columns. Advanced analysis shares omit original/affected rows and row-level
+comparison details without distinct access to all underlying datasets.
+
+React `features/dashboards` supplies `/tableaux`, `/tableaux/nouveau`, `/tableaux/:id`.
+It has separate view/edit modes, explicit saving/discard, dirty/unload/in-app
+navigation warnings, pending-save locks and draft retention on failure. Desktop
+pointer and keyboard reorder/resize and width/height controls preserve one DOM
+order on mobile. Duplication retains explicit filter mappings; deletion removes
+unused mappings/filters. Switching to another dataset removes that widget's
+interactive mappings even when column identifiers match; explicit remapping is
+required. Switching versions of the same dataset retains settings for validation.
+Reader filters remain local. Widgets clear stale values,
+show source/version, loading/empty/error states, exact alternatives and explicit
+retry. Repeated landmarks are named by widget. `features/sharing` integrates
+owner controls into dataset, analysis and dashboard screens; recipients receive
+read-only views. The assistant is independently lazy-loaded and unchanged.
+
+Dashboard endpoints share a 300/account/15-minute limit, sharing creation 30;
+existing authentication/analytics limits remain. One shared two-operation heavy
+calculation bound, pool/SQL/lock/request deadlines remain. Browser requests use a
+two-slot queue and 350 ms debounce. Native pointer capture and the data router's
+navigation blocker require no added chart/grid library. Backup/restore retains
+new resource/source/grant/approval relationships while excluding sessions,
+throttles, abandoned uploads and temporary patient history.
+
+Actual host evidence: all 14 dashboard/sharing PostgreSQL results, retained
+analytics 12, datasets 10 and accounts 8 pass; 8 unit tests pass. All three dashboard
+browser workflows pass, plus retained analytics 2, dataset 2 and account 1 flows.
+Frontend/service builds and lint pass (two existing UI fast-refresh warnings).
+The focused Python operations/architecture suites pass 23 tests. All 28 offline
+browser checks pass with one deployment-only skip. A follow-up pre-logout warning
+was verified to preserve a dirty draft/session when declined. The source-switch
+regression passed the full builder workflow in 15.4 s; final build/lint pass
+with only the existing warnings. The initial user-run production verification
+passed all 18 named checks and 18 assistant PostgreSQL tests, with cleanup,
+no inference and no application-volume changes. Its report is preserved at
+[initial container evidence](docs/validation/platform-checkpoint-4-initial-container.json).
+After the final frontend fix, the user reran the isolated verifier: all 18 named
+checks and 18 assistant PostgreSQL tests passed, zero skips, at **21:49:13 UTC**.
+The dashboard browser suite includes the source-switch regression through
+production Nginx. Cleanup is confirmed, with no inference or application-volume
+modification. [Final container evidence](docs/validation/platform-checkpoint-4-container.json).
+The user started the dedicated test database; the agent has not run container
+lifecycle, changed the normal volume, regenerated credentials, run inference,
+collected new sources or published Git changes. The verifier now expects 18 named
+checks plus 18 assistant PostgreSQL tests.
+Its independent browser fixtures clear only disposable-stack throttle counters
+between suites; production limits/sessions and the normal application are intact.
+
+[API and boundaries](docs/architecture/dashboards-sharing-api.md),
+[upgrade/verification commands](docs/operations/dashboards-sharing.md),
+[actual evidence](docs/validation/platform-checkpoint-4.md).
+Normal-volume upgrade and user layout/device review remain separate. Stop for
+review before Checkpoint 5.

@@ -3,14 +3,16 @@
 The user controls every container lifecycle. Keep the existing branch, private
 configuration, administrator, migration history and application volume. No new
 credentials, automatic source import, hosted inference or Git publication is
-required. Checkpoint 4 has not started.
+required. This page retains the analytics workflow. Checkpoint 4 now implements
+dashboards/collaboration; use the [current upgrade/check guide](dashboards-sharing.md)
+for all four migrations and the current 18-check isolated gate.
 
 ## Existing workspace upgrade
 
 If platform accounts were never installed on the normal volume, first follow
 [initial platform setup](platform-accounts.md) once. Otherwise reuse
 `.runtime/platform.env` and the existing administrator. The current explicit
-migration command applies all three owned revisions without modifying old ones.
+migration command now applies all four owned revisions without modifying old ones.
 From the root, the **user runs**, in order:
 
 ```powershell
@@ -45,7 +47,8 @@ available choices and preserves the selected version.
 Deleting an analysis requires confirmation and removes its dependency registrations;
 datasets remain. A dataset with a saved dependent analysis cannot be deleted until
 the analysis is deleted or explicitly updated to another valid source.
-Dashboards, sharing and administrative supervision are future work.
+Dashboards and sharing are implemented in Checkpoint 4. Administrative supervision
+remains future work.
 
 ## Host verification
 
@@ -91,13 +94,15 @@ docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile 
 .\.venv\Scripts\pharmacy-compose-verify.exe --run-isolated --frontend --output artifacts/platform-cp3/full-stack.json
 ```
 
-The extended verifier expects **16 named checks** with `--frontend`, including
+The Checkpoint 3 baseline recorded **16 named checks** with `--frontend`, including
 exact aggregates/four advanced APIs/saved dependencies through Nginx, saved-source
 persistence after whole-stack replacement, real dataset and analytics browser
 workflows, and all 18 assistant PostgreSQL tests. It controls only its own random
 project/volume and cleans those resources; it never upgrades the normal volume.
 The user invokes this lifecycle. [Actual evidence](../validation/platform-checkpoint-3.md)
 records which gates ran and passed; earlier checkpoint reports remain historical.
+The current verifier adds dashboard/collaboration probes for **18 named checks**;
+use the current guide linked above for its commands and evidence.
 
 When finished, the **user stops** the dedicated test database:
 
@@ -114,4 +119,5 @@ docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env 
 Backup/restore now retains analyses and their sources/dependencies, plus prior
 account/dataset data, while excluding live sessions/throttles, upload staging and
 temporary patient history. Reapply explicit runtime grants after restore.
-Stop for user review before Checkpoint 4.
+The user authorized Checkpoint 4 after the analytics review. Stop for user review
+before Checkpoint 5.

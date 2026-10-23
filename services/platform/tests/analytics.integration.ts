@@ -59,7 +59,7 @@ test('Checkpoint 3 exact analytics, advanced features, private saved definitions
     await t.test('populated dataset upgrade preserves versions/prices and restricted grants',async()=>{
       await assert.rejects(analytics.ready())
       await migrate(db!);await migrate(db!);await grantRuntime(db!,'platform-test-runtime-password-at-least-32-characters')
-      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,3)
+      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,4)
       assert.equal((await datasets.rows(owner,first.datasetId,first.versionId,{page:1,pageSize:25,search:'',filters:[],sort:null})).total,12)
       for(const sql of ['UPDATE platform.dataset_rows SET source_line=source_line','DELETE FROM platform.dataset_versions','DELETE FROM platform.activity','UPDATE platform.schema_migrations SET checksum=checksum'])await assert.rejects(runtime!.query(sql),{code:'42501'})
     })

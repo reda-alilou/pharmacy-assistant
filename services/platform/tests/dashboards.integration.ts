@@ -43,7 +43,7 @@ test('Checkpoint 4 dashboards and adversarial sharing boundaries',async t=>{
     await db.query('INSERT INTO platform.analyses(id,owner_id,title,definition) VALUES($1,$2,$3,$4)',[preservedAnalysis,owner,'Preserved CP3',definitionSchema.parse({kind:'aggregate',source:{datasetId:randomUUID(),versionId:randomUUID()},measures:[{operation:'rows'}]})])
     await t.test('explicit populated CP3 upgrade preserves revisions and restricted grants',async()=>{
       await migrate(db!);await migrate(db!);await grantRuntime(db!,'platform-test-runtime-password-at-least-32-characters')
-      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,4)
+      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,5)
       assert.equal((await db!.query('SELECT title,revision FROM platform.analyses WHERE id=$1',[preservedAnalysis])).rows[0].revision,1)
       const url=new URL(adminUrl);url.username='pharmacy_platform';url.password='platform-test-runtime-password-at-least-32-characters';runtime=createPool(url.href)
       for(const sql of ['UPDATE platform.dataset_rows SET source_line=source_line','DELETE FROM platform.activity','UPDATE platform.schema_migrations SET checksum=checksum','CREATE TABLE platform.forbidden(id integer)'])await assert.rejects(runtime.query(sql),{code:'42501'})

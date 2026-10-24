@@ -2,7 +2,7 @@ import { randomUUID, createHash } from 'node:crypto'
 import type pg from 'pg'
 import { ApiError } from '../contracts.js'
 import { transaction } from '../database.js'
-import { datasetAccess, datasetPermission } from '../access.js'
+import { assertDatasetAvailable, datasetAccess, datasetPermission } from '../access.js'
 import { columnSchema, configurationSchema, LIMITS, optionsSchema, type Column, type Configuration, type DataQuery, type Metadata, type Options, type Validation } from './contracts.js'
 import { columnId, inferColumns, parseCsv, validDate, validateRows } from './csv.js'
 import { buildQuery, expression } from './query.js'
@@ -15,7 +15,7 @@ const stamp = (value: Date) => value.toISOString()
 function dataset(row: Record<string,any>) {
   return { id:row.id,ownerId:row.owner_id,ownerName:row.owner_name,title:row.title,description:row.description,category:row.category,source:row.source,
     observationDate:row.observation_date ? (row.observation_date instanceof Date ? row.observation_date.toISOString().slice(0,10):row.observation_date) : null,
-    archived:row.archived,revision:row.revision,createdAt:stamp(row.created_at),updatedAt:stamp(row.updated_at),versionCount:Number(row.version_count ?? 0) }
+    archived:row.archived,suspended:row.suspended,suspensionReason:row.suspension_reason,revision:row.revision,createdAt:stamp(row.created_at),updatedAt:stamp(row.updated_at),versionCount:Number(row.version_count ?? 0) }
 }
 const version = (row: Record<string,any>) => ({id:row.id,datasetId:row.dataset_id,number:row.version_number,rowCount:row.row_count,columnCount:row.column_count,filename:row.filename,sourceSha256:row.source_sha256,configuration:configurationSchema.parse(row.configuration),createdAt:stamp(row.created_at)})
 export class DatasetService {
@@ -30,7 +30,7 @@ export class DatasetService {
     this.busy=true
     try{return await work()}finally{this.busy=false}
   }
-  async ready() { await this.pool.query('SELECT id FROM platform.dataset_versions LIMIT 0'); await this.pool.query('SELECT receipt_id FROM platform.import_uploads LIMIT 0') }
+  async ready() { await this.pool.query('SELECT suspended,suspension_reason FROM platform.datasets LIMIT 0');await this.pool.query('SELECT id FROM platform.dataset_versions LIMIT 0'); await this.pool.query('SELECT receipt_id FROM platform.import_uploads LIMIT 0') }
   async cleanup() {
     await transaction(this.pool,async db=>{
       await db.query(`UPDATE platform.import_receipts j SET status='expired' WHERE status IN ('uploaded','invalid','validated') AND EXISTS(SELECT 1 FROM platform.import_uploads u WHERE u.receipt_id=j.id AND u.expires_at<=now())`)
@@ -92,7 +92,7 @@ export class DatasetService {
         const updated=await db.query('UPDATE platform.import_uploads SET configuration=$3,validation=$4,revision=revision+1 WHERE receipt_id=$1 AND revision=$2 RETURNING revision',[id,revision,configuration,report])
         if(!updated.rowCount) throw changed()
         await db.query('UPDATE platform.import_receipts SET status=$2,issue_count=$3 WHERE id=$1',[id,report?(report.valid?'validated':'invalid'):'uploaded',report?.issueCount ?? parsed.issueCount])
-        if(report && !report.valid) await db.query("INSERT INTO platform.activity(actor_id,action,resource_id,resource_kind,details) VALUES($1,'import.validation_failed',$2,'import',$3)",[owner,id,{issueCount:report.issueCount}])
+        if(report && !report.valid) await db.query("INSERT INTO platform.activity(actor_id,action,resource_id,resource_kind,outcome,details) VALUES($1,'import.validation_failed',$2,'import','failure',$3)",[owner,id,{issueCount:report.issueCount}])
         return updated.rows[0].revision
       })
       const warnings=[...parsed.warnings,'Types proposés sur les 200 premières lignes ; seule la validation complète autorise l’import.']
@@ -133,8 +133,9 @@ export class DatasetService {
         if(current.revision!==revision || !current.validation?.valid) throw changed()
         let datasetId=target
         if(datasetId) {
-          const own=await db.query('SELECT id,archived FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[datasetId,owner])
+          const own=await db.query('SELECT id,archived,suspended FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[datasetId,owner])
           if(!own.rowCount) throw missing()
+          assertDatasetAvailable(own.rows[0])
           if(own.rows[0].archived) throw new ApiError(409,'dataset_archived','Restaurez le jeu de données avant d’ajouter une version.')
         } else {
           datasetId=randomUUID()
@@ -161,6 +162,7 @@ export class DatasetService {
         await db.query("UPDATE platform.import_receipts SET status='imported',dataset_id=$2,completed_at=now() WHERE id=$1",[id,datasetId])
         await db.query('DELETE FROM platform.import_uploads WHERE receipt_id=$1',[id])
         await db.query("INSERT INTO platform.activity(actor_id,action,resource_id,resource_kind,details) VALUES($1,'import.succeeded',$2,'dataset',$3)",[owner,datasetId,{versionId,rows:parsed.rows.length,columns:config.columns.length,importId:id}])
+        await db.query("INSERT INTO platform.activity(actor_id,action,resource_id,resource_kind,details) VALUES($1,'dataset.version_created',$2,'dataset',$3)",[owner,datasetId,{versionId,importId:id}])
       })
       return this.published(owner,id)
     })
@@ -210,8 +212,9 @@ export class DatasetService {
     metadataDate(metadata)
     await transaction(this.pool,async db=>{
       await this.active(db,owner)
-      const own=await db.query('SELECT revision,archived FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[id,owner])
+      const own=await db.query('SELECT revision,archived,suspended FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[id,owner])
       if(!own.rowCount) throw missing()
+      assertDatasetAvailable(own.rows[0])
       if(own.rows[0].revision!==revision) throw changed()
       await db.query('UPDATE platform.datasets SET title=$3,description=$4,category=$5,source=$6,observation_date=$7,archived=$8,revision=revision+1,updated_at=now() WHERE id=$1 AND owner_id=$2',[id,owner,metadata.title,metadata.description,metadata.category,metadata.source,metadata.observationDate,archived])
       await db.query("INSERT INTO platform.activity(actor_id,action,resource_id,resource_kind,details) VALUES($1,$2,$3,'dataset',$4)",[owner,own.rows[0].archived!==archived?'dataset.archived':'dataset.updated',id,{archived}])
@@ -228,8 +231,9 @@ export class DatasetService {
   async remove(owner:string,id:string,revision:number,confirmTitle:string) {
     await transaction(this.pool,async db=>{
       await this.active(db,owner)
-      const result=await db.query('SELECT revision,title FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[id,owner])
+      const result=await db.query('SELECT revision,title,suspended FROM platform.datasets WHERE id=$1 AND owner_id=$2 FOR UPDATE',[id,owner])
       if(!result.rowCount) throw missing()
+      assertDatasetAvailable(result.rows[0])
       if(result.rows[0].revision!==revision || result.rows[0].title!==confirmTitle) throw changed()
       if((await db.query('SELECT 1 FROM platform.dataset_dependencies WHERE dataset_id=$1 LIMIT 1',[id])).rowCount) throw new ApiError(409,'dataset_dependencies','Suppression bloquée : retirez ou migrez explicitement les dépendances et les partages.')
       await db.query('DELETE FROM platform.datasets WHERE id=$1 AND owner_id=$2',[id,owner])

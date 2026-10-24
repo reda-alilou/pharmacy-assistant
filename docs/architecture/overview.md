@@ -102,8 +102,9 @@ CdC decisions from actual implementation. Accounts/navigation and Checkpoint 2
 CSV datasets/exploration plus Checkpoint 3 analytics are implemented in the
 workspace. Checkpoint 4 dashboard/collaboration host checks and the final
 production gate pass, including the frontend source-switch mapping fix.
-Administration remains future work. See the
+Checkpoint 5 administration/suspension passes host/database/browser and final
+production-image checks. See the
 [account API](platform-api.md), [dataset API](datasets-api.md),
 [analytics API](analytics-api.md), [dashboard/sharing API](dashboards-sharing-api.md),
-[explicit upgrade](../operations/dashboards-sharing.md) and
-[Checkpoint 4 evidence/limits](../validation/platform-checkpoint-4.md).
+[administration API](administration-api.md), [explicit upgrade](../operations/administration.md) and
+[Checkpoint 5 evidence/limits](../validation/platform-checkpoint-5.md).

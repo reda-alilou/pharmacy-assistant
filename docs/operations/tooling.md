@@ -55,6 +55,11 @@ Reapply explicit runtime grants after restoring. Checkpoint 3 also retains and
 compares `analyses` and `analysis_sources` with their dependency registrations.
 Checkpoint 4 also compares dashboards, dashboard source references, dataset/analysis/
 dashboard grants and original-owner approvals. [Current commands](dashboards-sharing.md).
+Checkpoint 5 adds permission/suspension columns and further activity events, all
+retained by the existing complete-table dump/comparison. Real CP5 restore and
+restored permission/suspension checks and the final 20-check/18-assistant-test
+production gate pass.
+[Current upgrade/check commands](administration.md).
 
 To read the host language ledger, first select its already configured environment:
 
@@ -95,7 +100,9 @@ Checkpoint 3 extends this to exact statistical/advanced APIs, saved-source
 dependencies and persistence, and the real analysis builder/chart/four-feature
 browser flow. Checkpoint 4 adds bounded dashboard queries, result-only permissions,
 revocation/copy checks and the real dashboard/collaboration browser workflow.
-With `--frontend` it now expects 18 named checks plus the 18 assistant PostgreSQL
+Checkpoint 5 adds explicit synthetic admin provisioning only inside the generated
+test stack, admin API/inspection/suspension/session checks and the real admin UI
+workflow. With `--frontend` it now expects 20 named checks plus the 18 assistant PostgreSQL
 tests. Account/dataset/analytics suites remain included. Between independent browser
 suites, only the disposable project’s auth throttle fixture counters are cleared;
 normal runtime limits and sessions are unchanged.

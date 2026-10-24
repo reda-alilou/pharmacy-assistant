@@ -1,5 +1,9 @@
 # Checkpoint 4 — dashboards/collaboration upgrade and checks
 
+This page retains the Checkpoint 4 workflow/evidence. Current code adds Checkpoint 5
+administration; use the [current guide](administration.md) for all five migrations
+and the 20-check verifier. Historical CP4 reports remain unchanged.
+
 The user runs every container lifecycle command. Reuse existing private
 configuration, administrator and volume; do not regenerate credentials. If the
 normal volume has never had platform accounts installed, first follow

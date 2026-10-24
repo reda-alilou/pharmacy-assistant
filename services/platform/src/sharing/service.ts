@@ -40,6 +40,7 @@ export class SharingService {
     return transaction(this.pool,async db=>{
       await activeAccount(db,user)
       const row=await own(db,user,kind,id,true),table=tables(kind)
+      if(kind==='dataset')await datasetAccess(db,user,id,true)
       if(kind!=='dataset')await onwardAccess(db,kind,row,true)
       const recipient=await db.query('SELECT id FROM platform.users WHERE email=$1 AND active FOR SHARE',[email])
       if(!recipient.rowCount)throw new ApiError(422,'recipient_unavailable','Partage indisponible pour cette adresse exacte. Le destinataire doit avoir un compte actif.')

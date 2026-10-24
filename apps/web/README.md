@@ -4,11 +4,20 @@ React, TypeScript and Vite, with Tailwind CSS and project-owned shadcn/ui contro
 React Router provides introduction, account/profile, private datasets/import/
 exploration, analysis builder/charts/private saved definitions and separate
 `/assistant` routes. Checkpoint 4 adds `/tableaux`, a dashboard builder, mapped
-filters and permission-aware collaboration. Administration remains a future
-checkpoint. Checkpoint 4 host checks and the final production gate pass,
-including the source-switch mapping fix; ready for user review. The interface is French;
+filters and permission-aware collaboration. Checkpoint 5 implements the admin
+overview/users/datasets/activity UI and suspension/inspection controls, with passing
+host/database/browser and final production-image checks; ready for user review.
+Checkpoint 4 host checks and the final production gate pass,
+including the source-switch mapping fix; the user authorized Checkpoint 5. The interface is French;
 backend multilingual answers remain unchanged. No
 frontend environment variable contains a provider key or database credential.
+
+`npm run test:administration` runs two real browser workflows against the
+user-started dedicated database (or the user-invoked verifier's isolated stack).
+It covers account/session confirmation, last-admin rejection, dataset inspection/
+activity, suspension/restoration and accessible layouts. See
+[admin operations](../../docs/operations/administration.md) and
+[actual verification](../../docs/validation/platform-checkpoint-5.md).
 
 ## Local development
 

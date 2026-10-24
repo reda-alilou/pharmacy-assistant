@@ -31,7 +31,7 @@ export class PostgresStore implements AccountStore {
       has_schema_privilege(current_user,'platform','CREATE') AS ddl,
       EXISTS (SELECT 1 FROM pg_namespace WHERE nspname IN ('core','language') AND has_schema_privilege(current_user,oid,'USAGE')) AS peers`)
     if (!boundary.rows[0].owned || boundary.rows[0].ddl || boundary.rows[0].peers) throw new Error('Invalid platform runtime permissions')
-    await this.pool.query('SELECT id FROM platform.users LIMIT 0')
+    await this.pool.query('SELECT id,permissions_revision FROM platform.users LIMIT 0')
     await this.pool.query('SELECT token_hash FROM platform.sessions LIMIT 0')
   }
   async session(token: string): Promise<Session | null> {

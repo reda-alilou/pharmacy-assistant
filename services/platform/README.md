@@ -3,9 +3,18 @@
 Express 5 / TypeScript owns accounts, private CSV datasets, analytics/saved
 definitions and the `platform` schema. It has no Python
 implementation dependency, provider key, catalogue query or patient-history API.
-Dashboard and sharing services now extend this foundation; administration workflows
-remain future work. Checkpoint 4 host checks and the final production gate pass,
-including the frontend source-switch mapping fix; ready for user review.
+Dashboard and sharing services extend this foundation. Checkpoint 5 adds admin
+overview/users/datasets/activity APIs, session/last-admin safeguards and logged
+inspection/suspension, with passing host/database/browser and final production-image
+checks; Checkpoint 5 is ready for user review. Checkpoint 4 host checks and the final production gate pass,
+including the frontend source-switch mapping fix; the user authorized Checkpoint 5.
+
+`npm run test:administration` checks migration 5, administrative roles/CSRF,
+permission/session and last-admin concurrency, audited inspection, suspension/
+restoration/onward boundaries and real backup/restore against the user-started
+dedicated cluster. See the [admin API](../../docs/architecture/administration-api.md),
+[current operations](../../docs/operations/administration.md) and
+[actual evidence](../../docs/validation/platform-checkpoint-5.md).
 
 From this directory, Node 22.23.2+:
 

@@ -244,6 +244,63 @@ finally:
                 assert client.post(dashboard_path + '/shares', headers=platform_headers,
                     json={'email': 'isolated-dashboard-reader@example.test'}).status_code == 201
             mark('platform_dashboard_filters_result_only_sharing_revocation_and_copy_boundary')
+            stage = 'platform administration, logged inspection and suspension'
+            # Explicit provisioning only in this generated disposable stack.
+            assert project.startswith('pharmacy-checkpoint4-test-') and len(project) == 58
+            admin_email, admin_password = 'isolated-cp5-admin@example.test', 'isolated-cp5-browser-admin-password'
+            compose('exec', '-T', 'platform', 'node', '--input-type=module', '-e',
+                "import {createPool} from './dist/database.js'; import {provision} from './dist/administration.js'; "
+                "let input=''; for await(const chunk of process.stdin)input+=chunk; const x=JSON.parse(input); "
+                "const p=createPool(process.env.PLATFORM_DATABASE_URL); try{await provision(p,x.email,'Isolated administration',x.password)}finally{await p.end()}",
+                stdin=json.dumps({'email': admin_email, 'password': admin_password}))
+            with httpx.Client(base_url=origin, timeout=20, trust_env=False) as administrator:
+                bootstrap = administrator.get('/platform-api/auth/session').json()
+                signed_in = administrator.post('/platform-api/auth/login',
+                    headers={'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': bootstrap['csrfToken']},
+                    json={'email': admin_email, 'password': admin_password})
+                assert signed_in.status_code == 200 and signed_in.json()['user']['role'] == 'admin'
+                admin_id = signed_in.json()['user']['id']
+                admin_headers = {'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': signed_in.json()['csrfToken']}
+                assert administrator.get('/platform-api/admin/overview').status_code == 200
+                assert client.get('/platform-api/admin/datasets').status_code == 403
+                metadata_path = '/platform-api/admin/datasets/' + analytics_source['datasetId']
+                metadata = administrator.get(metadata_path)
+                assert metadata.status_code == 200 and 'synthetic-private-dataset-row' not in metadata.text
+                own_revision = administrator.get('/platform-api/admin/users', params={'search': admin_email}).json()['users'][0]['revision']
+                assert administrator.patch('/platform-api/admin/users/' + admin_id + '/permissions', headers=admin_headers,
+                    json={'revision': own_revision, 'role': 'analyst', 'active': True, 'confirm': True}).status_code == 409
+                inspection = administrator.post(metadata_path + '/versions/' + analytics_source['versionId'] + '/inspect',
+                    headers=admin_headers, json={'reason': 'Isolated content inspection', 'confirm': True, 'query': {'pageSize': 25}})
+                assert inspection.status_code == 200 and len(inspection.json()['rows']) == 25
+                suspended = administrator.post(metadata_path + '/suspension', headers=admin_headers,
+                    json={'revision': metadata.json()['dataset']['revision'], 'suspended': True, 'reason': 'Isolated suspension check', 'confirm': True})
+                assert suspended.status_code == 204
+                assert client.post(widget_path, headers=platform_headers, json=dashboard_selection).status_code == 423
+                assert client.post('/platform-api/datasets/' + analytics_source['datasetId'] + '/versions/' + analytics_source['versionId'] + '/rows', headers=platform_headers, json={}).status_code == 423
+                latest = administrator.get(metadata_path).json()
+                assert latest['dataset']['suspended'] is True
+                assert administrator.post(metadata_path + '/suspension', headers=admin_headers,
+                    json={'revision': latest['dataset']['revision'], 'suspended': False, 'reason': 'Isolated suspension lifted', 'confirm': True}).status_code == 204
+                assert client.post(widget_path, headers=platform_headers, json=dashboard_selection).status_code == 200
+                events = administrator.get('/platform-api/admin/activity', params={'action': 'dataset.inspected', 'resource': analytics_source['datasetId']})
+                assert events.status_code == 200 and len(events.json()['events']) == 1
+                assert 'synthetic-private-dataset-row' not in events.text
+                # Disabling revokes an already logged-in recipient immediately.
+                target_id = recipient_registration.json()['user']['id']
+                with httpx.Client(base_url=origin, timeout=20, trust_env=False) as managed:
+                    anonymous_managed = managed.get('/platform-api/auth/session').json()
+                    managed_login = managed.post('/platform-api/auth/login',
+                        headers={'Origin': 'http://127.0.0.1:8080', 'X-CSRF-Token': anonymous_managed['csrfToken']},
+                        json={'email': 'isolated-dashboard-reader@example.test', 'password': 'isolated-reader-verification-password'})
+                    assert managed_login.status_code == 200
+                    target = administrator.get('/platform-api/admin/users', params={'search': 'isolated-dashboard-reader@example.test'}).json()['users'][0]
+                    assert administrator.patch('/platform-api/admin/users/' + target_id + '/permissions', headers=admin_headers,
+                        json={'revision': target['revision'], 'role': 'analyst', 'active': False, 'confirm': True}).status_code == 200
+                    assert managed.get('/platform-api/auth/session').json()['user'] is None
+                    assert managed.get('/platform-api/admin/overview').status_code == 401
+                    assert administrator.patch('/platform-api/admin/users/' + target_id + '/permissions', headers=admin_headers,
+                        json={'revision': target['revision'] + 1, 'role': 'analyst', 'active': True, 'confirm': True}).status_code == 200
+            mark('platform_administration_permissions_logged_inspection_suspension_and_resume')
             core_check = inside("core", """import importlib.util,json,os
 assert importlib.util.find_spec('groq') is None
 assert importlib.util.find_spec('pharmacy_language') is None
@@ -381,6 +438,13 @@ print(json.dumps({'ok':True}))""")
                      'tests/browser/real-dashboards.spec.ts', '--config', str(ROOT / 'apps/web/playwright.dashboards.config.ts'),
                      '--reporter=list'], env=environment, timeout=480)
                 mark('real_frontend_dashboards_accessible_layout_filters_sharing_onward_and_revocation')
+                stage = 'real frontend administration and lifecycle safeguards'
+                clear_browser_throttles()
+                admin_environment = dict(environment, DEPLOYMENT_ADMIN_EMAIL=admin_email, DEPLOYMENT_ADMIN_PASSWORD=admin_password)
+                run(['node', str(ROOT / 'apps/web/node_modules/@playwright/test/cli.js'), 'test',
+                     'tests/browser/real-administration.spec.ts', '--config', str(ROOT / 'apps/web/playwright.administration.config.ts'),
+                     '--reporter=list'], env=admin_environment, timeout=480)
+                mark('real_frontend_administration_accounts_inspection_suspension_activity_and_guards')
         # Only the temporary verification database is exposed, on a random
         # localhost port, after the normal internal-port checks have passed.
         stage = "owned PostgreSQL concurrency, backup and evaluation checks"

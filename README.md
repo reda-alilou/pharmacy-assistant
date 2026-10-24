@@ -5,7 +5,8 @@ guided CSV imports, private immutable versions, exploration, analytics and priva
 saved definitions now use a real TypeScript/Express service. Dashboard construction,
 mapped filters and read-only sharing are implemented with passing host/browser
 checks and the final production pass, including the source-switch mapping fix.
-Administration remains future work. The existing Moroccan pharmacy assistant
+Checkpoint 5 administration/suspension passes host/database/browser and final
+isolated production-image checks. The existing Moroccan pharmacy assistant
 remains separately accessible at `/assistant`.
 
 Checkpoint 2's 14 rebuilt-image checks and 18 assistant PostgreSQL tests passed;
@@ -13,9 +14,11 @@ the user authorized Checkpoint 3. Final analytics host/browser checks and all
 16 isolated full-stack checks pass, with all 18 assistant PostgreSQL tests passing
 and isolated cleanup confirmed. The user authorized Checkpoint 4; its final host
 checks and final isolated production gate pass (18 checks/18 assistant PostgreSQL
-tests); Checkpoint 4 is ready for user review. Normal-volume
+tests); the user reviewed/pushed Checkpoint 4 and authorized Checkpoint 5.
+CP5 host/database/browser checks and the final 20-check/18-assistant-test production
+gate pass; ready for user review. Normal-volume
 upgrade remains a separate user-run step. See
-[current Checkpoint 4 evidence](docs/validation/platform-checkpoint-4.md).
+[current Checkpoint 5 evidence](docs/validation/platform-checkpoint-5.md).
 
 The assistant is a local challenge demo and learning project for pharmacy requests.
 A French React chat connects to a core FastAPI service; a separate language
@@ -31,7 +34,7 @@ transformation, repository structure, configuration and validation evidence.
 
 ## Run the configured demo
 
-Follow the [Checkpoint 4 upgrade](docs/operations/dashboards-sharing.md), including the
+After Checkpoint 5 acceptance, follow the [current explicit upgrade](docs/operations/administration.md), including the
 one-time account setup if not already applied. Reuse
 existing private credentials and the database volume. After that setup, with
 Docker Desktop running, from the repository root:
@@ -78,7 +81,9 @@ IQR outliers, editable chart recommendations, explicit dataset/version compariso
 and private version-pinned saved configurations. Checkpoint 4 adds an accessible
 adjustable dashboard builder, explicit saving and mapped interactive filters,
 separate dataset/result grants, copies, revocation and revision-bound original-owner
-authorization. Administration remains future work. See [account security](docs/architecture/platform-api.md),
+authorization. Checkpoint 5 adds account/dataset/activity supervision and logged
+inspection/suspension, with passing host/database/browser and final image checks.
+See [account security](docs/architecture/platform-api.md),
 [dataset API](docs/architecture/datasets-api.md) and
 [analytics/calculation contract](docs/architecture/analytics-api.md),
 [dashboard/sharing contract](docs/architecture/dashboards-sharing-api.md), plus

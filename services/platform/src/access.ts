@@ -3,6 +3,9 @@ import { ApiError } from './contracts.js'
 
 export type Database = pg.Pool | pg.PoolClient
 export const unavailable=()=>new ApiError(404,'resource_unavailable','Ressource introuvable ou accès révoqué pour ce compte.')
+export function assertDatasetAvailable(row:{suspended:boolean}){
+  if(row.suspended)throw new ApiError(423,'dataset_suspended','Source indisponible : ce jeu de données est suspendu par l’administration. Les données et configurations sont conservées.')
+}
 export async function activeAccount(db:Database,user:string){
   if(!(await db.query('SELECT id FROM platform.users WHERE id=$1 AND active FOR SHARE',[user])).rowCount)
     throw new ApiError(401,'authentication_required','Connectez-vous pour continuer.')
@@ -10,12 +13,13 @@ export async function activeAccount(db:Database,user:string){
 // Fixed SQL fragment: $1 dataset, $2 actor. Result grants never grant dataset access.
 export const datasetPermission=`(d.owner_id=$2 OR EXISTS(SELECT 1 FROM platform.dataset_grants g WHERE g.dataset_id=d.id AND g.recipient_id=$2))`
 export async function datasetAccess(db:Database,user:string,id:string,lock=false,absent=unavailable){
-  const selected=await db.query(`SELECT d.id,d.owner_id FROM platform.datasets d WHERE d.id=$1 ${lock?'FOR SHARE OF d':''}`,[id])
+  const selected=await db.query(`SELECT d.id,d.owner_id,d.suspended FROM platform.datasets d WHERE d.id=$1 ${lock?'FOR SHARE OF d':''}`,[id])
   if(!selected.rowCount)throw absent()
   if(selected.rows[0].owner_id!==user){
     const grant=await db.query(`SELECT id FROM platform.dataset_grants WHERE dataset_id=$1 AND recipient_id=$2 ${lock?'FOR SHARE':''}`,[id,user])
     if(!grant.rowCount)throw absent()
   }
+  assertDatasetAvailable(selected.rows[0])
   return selected.rows[0].owner_id as string
 }
 export type ResourceKind='dashboard'|'analysis'

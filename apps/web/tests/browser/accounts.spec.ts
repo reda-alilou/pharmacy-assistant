@@ -7,9 +7,9 @@ test('visitor introduction is honest, assistant remains independent and direct U
   const account = await mockAccounts(page)
   await mockApi(page)
   await page.goto('/')
-  await expect(page.getByRole('heading', { name: 'Prochaines étapes' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Tableaux de bord et collaboration' })).toBeVisible()
   await expect(page.getByText(/Les tableaux de bord interactifs et le partage en lecture seule sont disponibles avec un compte/)).toBeVisible()
-  await expect(page.getByText(/L’administration visuelle reste une prochaine étape/)).toBeVisible()
+  await expect(page.getByText(/Les administrateurs disposent d’un espace de supervision/)).toBeVisible()
   await page.getByRole('link', { name: 'Consulter l’assistant pharmacie' }).click()
   await expect(page.getByRole('textbox', { name: 'Votre question' })).toBeVisible()
   const count = account.calls.length
@@ -62,15 +62,16 @@ test('responsive account screens and unavailable-service recovery', async ({ pag
   await expect(page.getByRole('button', { name: 'Réessayer la connexion au service' })).toBeVisible()
   await expect(page.getByRole('link', { name: 'Ouvrir l’assistant pharmacie' })).toBeVisible()
 })
-test('administrator navigation clearly labels the future administration workflow', async ({ page }) => {
+test('administrator navigation opens the implemented supervision overview', async ({ page }) => {
   await mockAccounts(page, { admin: true })
   await page.goto('/connexion')
   await page.getByLabel('Adresse e-mail').fill('admin@example.test')
   await page.getByLabel('Mot de passe', { exact: true }).fill('admin-password-test')
   await page.getByRole('button', { name: 'Se connecter' }).click()
-  await page.getByRole('link', { name: 'Administration · à venir' }).click()
-  await expect(page.getByRole('heading', { name: 'Administration · à venir' })).toBeVisible()
-  await expect(page.getByText('Aucun tableau de bord d’administration n’est encore disponible.')).toBeVisible()
+  await page.getByRole('link', { name: 'Administration',exact:true }).click()
+  await expect(page.getByRole('heading', { name: 'Administration',exact:true })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Vue globale' })).toBeVisible()
+  await expect(page.getByText('Aucun import.',{exact:true})).toBeVisible()
 })
 
 test('protected analytics deep link retains its explicit dataset/version through login', async ({ page }) => {

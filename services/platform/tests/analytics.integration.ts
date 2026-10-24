@@ -15,7 +15,8 @@ import { PostgresStore } from '../src/store.js'
 import { AnalyticsService } from '../src/analytics/service.js'
 import { definitionSchema,sourceSchema } from '../src/analytics/contracts.js'
 import { optionsSchema, type Column } from '../src/datasets/contracts.js'
-import { columnId } from '../src/datasets/csv.js'
+import { columnId, inferColumns, parseCsv, validateRows } from '../src/datasets/csv.js'
+import { expression } from '../src/datasets/query.js'
 import { createApp } from '../src/app.js'
 import { csrfFor,newToken } from '../src/security.js'
 
@@ -55,11 +56,28 @@ test('Checkpoint 3 exact analytics, advanced features, private saved definitions
       '007,B,4,14,,2026-01-03,Capsule,4,0,Alpha','008,B,4,14,,2026-02-03,Capsule,4,0,Beta','009,B,4,14,,2026-03-03,Capsule,4,0,Alpha',
       '010,B,4,14,,2026-03-04,Capsule,4,0,Beta','011,C,5,15,,2026-03-05,Syrup,5,0,Alpha','012,C,,16,,2026-03-06,Syrup,,0,Beta',
     ].join('\n')+'\n'
-    const first=await imported(fixture),source=sourceSchema.parse(first)
+    // Seed the actual CP2 representation before upgrading. Current production
+    // code intentionally requires its current migration and emits newer events;
+    // it must not be run against this historical two-revision schema.
+    const parsed=await parseCsv(Buffer.from(fixture),optionsSchema.parse({})),configuration={...optionsSchema.parse({}),delimiter:parsed.delimiter,columns:inferColumns(parsed,optionsSchema.parse({}))}
+    const checked=await validateRows(parsed,configuration);assert.equal(checked.report.valid,true)
+    const first={datasetId:randomUUID(),versionId:randomUUID()},receiptId=randomUUID(),checksum=createHash('sha256').update(fixture).digest('hex')
+    await db.query('INSERT INTO platform.datasets(id,owner_id,title,source,revision) VALUES($1,$2,$3,$4,2)',[first.datasetId,owner,'Analytics fixture','Synthetic exact fixture'])
+    await db.query("INSERT INTO platform.import_receipts(id,owner_id,dataset_id,filename,source_sha256,byte_count,status,completed_at) VALUES($1,$2,$3,'analytics.csv',$4,$5,'imported',now())",[receiptId,owner,first.datasetId,checksum,Buffer.byteLength(fixture)])
+    await db.query("INSERT INTO platform.dataset_versions(id,dataset_id,receipt_id,version_number,row_count,column_count,configuration,source_sha256,filename) VALUES($1,$2,$3,1,$4,$5,$6,$7,'analytics.csv')",[first.versionId,first.datasetId,receiptId,checked.rows.length,configuration.columns.length,configuration,checksum])
+    for(const row of checked.rows)await db.query('INSERT INTO platform.dataset_rows(version_id,row_number,source_line,values,original_values) VALUES($1,$2,$3,$4,$5)',[first.versionId,row.rowNumber,row.sourceLine,row.values,row.original])
+    for(const [ordinal,column] of configuration.columns.entries()){
+      const value=expression(column,'$2'),numeric=['integer','decimal'].includes(column.type),comparable=column.type==='boolean'?`(${value})::text`:value
+      const stats=(await db.query(`SELECT count(*)::int total,count(${value})::int present,count(DISTINCT ${value})::int distinct,min(${comparable})::text minimum,max(${comparable})::text maximum ${numeric?`,avg(${value})::text mean`:''} FROM platform.dataset_rows r WHERE r.version_id=$1`,[first.versionId,column.id])).rows[0]
+      await db.query('INSERT INTO platform.dataset_columns(version_id,id,ordinal,original_name,display_name,data_type,interpretation,profile) VALUES($1,$2,$3,$4,$5,$6,$7,$8)',[first.versionId,column.id,ordinal,column.originalName,column.name,column.type,column,{...stats,missing:stats.total-stats.present}])
+    }
+    const source=sourceSchema.parse(first),preserved=new Map<string,unknown>()
+    for(const table of ['dataset_versions','dataset_columns','dataset_rows'])preserved.set(table,(await db.query(`SELECT row_to_json(t)::text data FROM platform.${table} t ORDER BY row_to_json(t)::text`)).rows)
     await t.test('populated dataset upgrade preserves versions/prices and restricted grants',async()=>{
       await assert.rejects(analytics.ready())
       await migrate(db!);await migrate(db!);await grantRuntime(db!,'platform-test-runtime-password-at-least-32-characters')
-      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,4)
+      assert.equal((await db!.query('SELECT count(*)::int n FROM platform.schema_migrations')).rows[0].n,5)
+      for(const [table,before] of preserved)assert.deepEqual((await db!.query(`SELECT row_to_json(t)::text data FROM platform.${table} t ORDER BY row_to_json(t)::text`)).rows,before)
       assert.equal((await datasets.rows(owner,first.datasetId,first.versionId,{page:1,pageSize:25,search:'',filters:[],sort:null})).total,12)
       for(const sql of ['UPDATE platform.dataset_rows SET source_line=source_line','DELETE FROM platform.dataset_versions','DELETE FROM platform.activity','UPDATE platform.schema_migrations SET checksum=checksum'])await assert.rejects(runtime!.query(sql),{code:'42501'})
     })

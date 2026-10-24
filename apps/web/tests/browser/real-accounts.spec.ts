@@ -6,6 +6,7 @@ import { createPool } from '../../../../services/platform/src/database'
 import { migrate, grantRuntime } from '../../../../services/platform/src/migrations'
 import { permissions, provision } from '../../../../services/platform/src/administration'
 import { PostgresStore } from '../../../../services/platform/src/store'
+import { DatasetService } from '../../../../services/platform/src/datasets/service'
 
 const cluster = createPool('postgresql://platform_test_admin:isolated-test-only-password@127.0.0.1:55433/platform_checkpoint1_test')
 const database = `platform_cp1_${randomUUID().replaceAll('-', '')}`
@@ -23,7 +24,7 @@ test.beforeAll(async () => {
   await grantRuntime(admin, 'platform-test-runtime-password-at-least-32-characters')
   await provision(admin, 'browser-admin@example.test', 'Administrateur test', 'browser-admin-password')
   runtime = createPool(`postgresql://pharmacy_platform:platform-test-runtime-password-at-least-32-characters@127.0.0.1:55433/${database}`)
-  const app = createApp(new PostgresStore(runtime), { origin: 'http://127.0.0.1:5178', secureCookie: false, trustProxy: false })
+  const app = createApp(new PostgresStore(runtime), { origin: 'http://127.0.0.1:5178', secureCookie: false, trustProxy: false },new DatasetService(runtime))
   server = await new Promise<Server>((resolve, reject) => {
     const listening = app.listen(3002, '127.0.0.1', () => resolve(listening))
     listening.on('error', reject)
@@ -79,8 +80,9 @@ test('real React → Express → PostgreSQL account lifecycle and immediate auth
   await page.getByLabel('Adresse e-mail').fill('browser-admin@example.test')
   await page.getByLabel('Mot de passe', { exact: true }).fill('browser-admin-password')
   await page.getByRole('button', { name: 'Se connecter' }).click()
-  await page.getByRole('link', { name: 'Administration · à venir' }).click()
-  await expect(page.getByRole('heading', { name: 'Administration · à venir' })).toBeVisible()
+  await page.getByRole('link', { name: 'Administration',exact:true }).click()
+  await expect(page.getByRole('heading', { name: 'Administration',exact:true })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Vue globale',exact:true })).toBeVisible()
   expect((await context.request.get('/platform-api/admin/access')).status()).toBe(200)
   await page.getByRole('button', { name: 'Se déconnecter' }).click()
   await expect(page).toHaveURL(/\/connexion$/)

@@ -12,6 +12,8 @@ import { DashboardService } from './dashboards/service.js'
 import { dashboardRoutes } from './dashboards/routes.js'
 import { SharingService } from './sharing/service.js'
 import { sharingRoutes } from './sharing/routes.js'
+import { AdminService } from './admin/service.js'
+import { adminRoutes } from './admin/routes.js'
 
 export type AppConfig = { origin: string; secureCookie: boolean; trustProxy: boolean }
 type Context = { token: string | null; session: Session | null }
@@ -33,7 +35,7 @@ export function createApp(store: AccountStore, config: AppConfig, datasets?:Data
   app.get('/ready', async (_req, res) => { await store.ready();await datasets?.ready();await analytics?.ready();await dashboards?.ready(); res.json({ status: 'ready' }) })
   const accountJson=express.json({limit:'16kb',strict:true})
   const datasetJson=express.json({limit:'128kb',strict:true})
-  app.use((req,res,next)=>/^\/(datasets|imports|analytics|analyses|dashboards)(\/|$)/.test(req.path)?datasetJson(req,res,next):accountJson(req,res,next))
+  app.use((req,res,next)=>/^\/(datasets|imports|analytics|analyses|dashboards|admin)(\/|$)/.test(req.path)?datasetJson(req,res,next):accountJson(req,res,next))
   const cookieOptions = { httpOnly: true, secure: config.secureCookie, sameSite: 'lax' as const, path: '/platform-api' }
   app.use(async (req, res, next) => {
     const token = cookieToken(req)
@@ -119,17 +121,18 @@ export function createApp(store: AccountStore, config: AppConfig, datasets?:Data
   })
   app.get('/admin/access', (_req, res) => {
     requireRole(context(res).session?.user ?? null, 'admin')
-    res.json({ role: 'admin', administrationAvailable: false, plannedCheckpoint: 5 })
+    res.json({ role: 'admin', administrationAvailable: Boolean(datasets) })
   })
   if(datasets) app.use(datasetRoutes(datasets,store))
   if(analytics)app.use(analyticsRoutes(analytics,store))
   if(dashboards)app.use(dashboardRoutes(dashboards,store))
   if(datasets)app.use(sharingRoutes(new SharingService(datasets.pool),store))
+  if(datasets)app.use(adminRoutes(new AdminService(datasets.pool),store))
   app.use((_req, _res, next) => next(new ApiError(404, 'not_found', 'Ressource introuvable.')))
   const errors: ErrorRequestHandler = (error: unknown, req, res, _next) => {
     let safe: ApiError
     if (error instanceof ApiError) safe = error
-    else if (error instanceof ZodError) safe = new ApiError(422, 'invalid_input', /^\/(datasets|imports|analytics|analyses|dashboards)(\/|$)/.test(req.path)?'Champs invalides. Vérifiez les métadonnées, la configuration et les limites de filtre.':'Champs invalides. Vérifiez le nom, l’adresse et les règles de mot de passe.')
+    else if (error instanceof ZodError) safe = new ApiError(422, 'invalid_input', /^\/(datasets|imports|analytics|analyses|dashboards|admin)(\/|$)/.test(req.path)?'Champs invalides. Vérifiez les métadonnées, la configuration et les limites de filtre.':'Champs invalides. Vérifiez le nom, l’adresse et les règles de mot de passe.')
     else if (error && typeof error === 'object' && 'code' in error && error.code === '23505')
       safe = new ApiError(409, 'registration_unavailable', 'Inscription indisponible pour cette adresse. Essayez de vous connecter.')
     else if (error && typeof error === 'object' && 'type' in error && error.type === 'entity.too.large')

@@ -20,7 +20,8 @@ export async function mockAccounts(page: Page, options: { unavailable?: boolean;
     }
     if (path === '/auth/logout') { authenticated = false; return route.fulfill({ status: 204 }) }
     if (path.startsWith('/users/')) { user.displayName = route.request().postDataJSON().displayName; return route.fulfill({ json: { user } }) }
-    if (path === '/admin/access') return route.fulfill({ json: { role: 'admin', administrationAvailable: false, plannedCheckpoint: 5 } })
+    if (path === '/admin/access') return route.fulfill({ json: { role: 'admin', administrationAvailable: true } })
+    if (path === '/admin/overview') return route.fulfill({json:{totals:{users:1,active_users:1,active_admins:1,datasets:0,suspended_datasets:0,versions:0,imported_rows:'0',analyses:0,dashboards:0,failures_last_week:0},recentImports:[],recentFailures:[]}})
     return route.fulfill({ status: 404 })
   })
   return { calls, expire: () => { authenticated = false } }

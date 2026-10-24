@@ -1,0 +1,6 @@
+.admin-totals { display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin:1.5rem 0; }
+.admin-totals > div { padding:1rem;border:1px solid #c8dad2;border-radius:.6rem;background:#f5f8f6; }
+.admin-totals dt { color:#3c5b50;font-size:.9rem; }
+.admin-totals dd { font-size:1.8rem;margin:.5rem 0 0;font-weight:650; }
+.admin-controls { min-width:0;border:1px solid #c8dad2;border-radius:.5rem;padding:1rem; }
+.dataset-tabs a[aria-current="page"] { font-weight:700;text-decoration:underline;text-underline-offset:.3rem; }

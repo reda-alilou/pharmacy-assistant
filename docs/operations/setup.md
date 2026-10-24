@@ -12,8 +12,10 @@ Checkpoint 2 adds an explicit dataset migration and grants. Follow the
 [dataset upgrade guide](datasets.md) before starting updated images; reuse the
 existing platform configuration and administrator. Startup does not migrate.
 Checkpoint 3 adds saved analyses and source relationships. Use the current
-[dashboard/collaboration upgrade guide](dashboards-sharing.md) for all four explicit revisions/grants;
+[administration upgrade guide](administration.md) for all five explicit revisions/grants;
 keep existing credentials, datasets and the application volume.
+The normal-volume upgrade is deferred until Checkpoint 5 acceptance. Independent
+and isolated tests do not upgrade that volume.
 
 ## Existing configured workspace
 

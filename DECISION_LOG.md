@@ -1,6 +1,6 @@
 # Full Stack CdC — decisions and remaining work
 
-Updated **2026-10-23**. Submission: **2026-10-25**. Demonstration: **Monday 2026-10-26**.
+Updated **2026-10-24**. Submission: **2026-10-25**. Demonstration: **Monday 2026-10-26**.
 
 Requirement source: [CdC_Application_Full_Stack.md](CdC_Application_Full_Stack.md).
 Implemented baseline: [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md).
@@ -51,8 +51,10 @@ private saved definitions now pass final host/browser and isolated production
 checks. All 16 Checkpoint 3 full-stack checks and 18 assistant PostgreSQL tests pass.
 The user authorized Checkpoint 4: dashboards/collaboration pass host checks and
 the final isolated gate, including the frontend mapping fix (18 checks/18 assistant
-PostgreSQL tests). Checkpoint 4 is ready for user review. Administration remains
-future work. All 14
+PostgreSQL tests). The user reviewed/pushed Checkpoint 4 and authorized Checkpoint 5.
+Administration/suspension UI/API pass host/database/browser and final isolated
+production-image checks (20 named checks and 18 assistant PostgreSQL tests).
+Checkpoint 5 is ready for user review. All 14
 Checkpoint 2 container checks pass, including the follow-up metadata-save fix
 verified after rebuilding web. Normal-volume upgrade and checkpoint
 review are tracked separately below.
@@ -61,8 +63,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 | ID | Topic | CdC sections | Implementation status |
 | --- | --- | --- | --- |
 | D021 | Product scope | 1–2 | Accounts, CSV/exploration, analytics and dashboard/sharing implemented; final CP4 host/image checks pass |
-| D022 | Express backend | 11 | Accounts/datasets/analytics/dashboard/sharing APIs implemented; administration future |
-| D023 | Navigation and screens | 3, 11 | Accounts/datasets/analyses/charts/dashboards/sharing/separate assistant implemented |
+| D022 | Express backend | 11 | Accounts/datasets/analytics/dashboard/sharing/administration APIs implemented and verified in host and isolated image checks |
+| D023 | Navigation and screens | 3, 11 | Accounts/datasets/analyses/charts/dashboards/sharing/admin/separate assistant implemented; host/browser and image checks pass |
 | D024 | Accounts, roles and security | 3, 12 | Implemented and locally verified for Checkpoint 1 |
 | D025 | Dataset management and CSV | 4 | Implemented and verified; user authorized continuation after rebuilt-image checks |
 | D026 | Exploration and profiling | 5 | Table, typed filters, profiles and versions implemented; Analysis view is Checkpoint 3 |
@@ -70,7 +72,7 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 | D028 | Charts and dashboard builder | 7 | Analysis charts and accessible dashboard builder implemented; final host/image checks pass |
 | D029 | Saved analyses and sharing | 8 | Saved definitions, separate grants, copies/revocation and onward approvals implemented; final host/image checks pass |
 | D030 | Four advanced data features | 9 | All four implemented and verified in host/browser and production-image checks |
-| D031 | Administration | 10 | Account CLI/activity/safeguards only; administration UI future |
+| D031 | Administration | 10 | Four admin sections, session/last-admin safeguards, suspension and logged inspection implemented; host/database/browser and image checks pass |
 | D032 | Platform persistence and setup | 11–13 | Accounts/datasets/analyses/dashboards/sharing, explicit migrations/grants and verified backup/restore implemented |
 | D033 | Validation and demo | 12, 14 | Account/dataset/analytics/dashboard/sharing API/browser evidence; admin/full demo future |
 | D034 | Submission deliverables | 13–14 | Checkpoint 1–4 API/setup/evidence and attributed CSV added; final delivery future |
@@ -82,7 +84,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   and private saved definitions implemented. Checkpoint 4 now adds dashboards and
   collaboration with passing host checks and the final 18-check production pass,
   including the frontend mapping fix. Administration
-  remains later. Checkpoint 3 host and isolated production checks pass.
+  is implemented in Checkpoint 5 with passing host/database/browser and final
+  isolated production-image checks. Checkpoint 3
+  host and isolated production checks pass.
 - **Requirement:** Import → exploration → analysis → visualization → sharing.
 - **Decision:** Extend the project into a pharmaceutical data-analysis
   platform; retain the assistant as an additional feature.
@@ -101,7 +105,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   host/isolated image checks. Analytics/saved configurations now pass both host and
   final image checks. Dashboard/sharing APIs pass Checkpoint 4 host checks and the
   final production gate, including the frontend mapping fix.
-  Administration remains future.
+  Administration passes Checkpoint 5 host/database/browser and final isolated
+  production-image checks.
 - **Decision:** Use React, Node.js/Express and PostgreSQL for the analytics platform.
   Express owns accounts, datasets, analytics, dashboards, sharing and administration.
   Keep the existing Python services backing the additional assistant screen.
@@ -131,7 +136,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 - **Implementation status:** Router/accounts/separate assistant and Checkpoint 2
   dataset/import/exploration screens implemented and browser-verified. Checkpoint 3
   adds analysis/chart/saved-configuration routes. Checkpoint 4 implements dashboard
-  routes and sharing controls; administration remains future.
+  routes and sharing controls; Checkpoint 5 now implements administration, with
+  passing host/browser and final isolated image checks.
 - **Proposed approach:** Reuse React/TypeScript/Vite and existing UI controls. Add
   introduction, login/register, datasets, exploration, dashboards, profile and
   administration routes; place the assistant on its own screen.
@@ -141,7 +147,8 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   patient history; existing temporary conversations remain separate.
 - **Checkpoint 1 details resolved:** French introduction `/`, `/inscription`,
   `/connexion`, `/espace`, `/profil`, visitor `/assistant`; role-guarded
-  `/administration` explicitly labels its future workflow. Checkpoint 2 adds
+  `/administration` originally labeled its future workflow and now provides the
+  Checkpoint 5 supervision UI (host/browser and final image checks pass). Checkpoint 2 adds
   `/donnees`, `/donnees/importer`, resumable `/donnees/imports/:id` and
   `/donnees/:id` with overview/data/columns/quality/versions views. Checkpoint 3
   adds `/analyses`, `/analyses/nouvelle`, `/analyses/:id` and a dataset Analysis
@@ -415,7 +422,12 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 ## D031 — Administration and activity
 
 - **Date / decision status:** 2026-10-23 / Finalized by the user.
-- **Implementation status:** No administration workflow/UI yet. Checkpoint 1 includes explicit account provisioning/status/role CLI, account activity and last-active-admin protection as security foundation.
+- **Implementation status:** Checkpoint 5 implements four admin UI/API sections,
+  permission revisions/session invalidation, last-admin safeguards, reasoned dataset
+  suspension/restoration, explicit logged content inspection and activity filters.
+  Builds, unit/offline browser, focused operations, real database/backup and browser
+  checks and the final production-image gate pass. Checkpoint 5 is implemented
+  and verified, awaiting user review.
 - **Decision:** Four administration sections:
   - Overview: total/active users, datasets/versions, imported rows, saved analyses/
     dashboards, recent imports and failures.
@@ -442,8 +454,15 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   dashboard creation and updates, sharing/revocation, account status/role changes,
   dataset suspension and administrative content inspection. Do not record passwords,
   session tokens or patient conversations.
-- **Still open:** Activity retention, exact disabled-owner resource policy,
-  suspension lifecycle and detailed UI/API contracts.
+- **Checkpoint 5 details resolved:** Keep activity without an automatic purge for
+  this local project, with no deletion API. Disabled-owner policy follows D032:
+  resources and active recipients' explicit grants remain unless revoked/suspended.
+  Suspension blocks source use/import/mutation/new sharing, preserves configurations,
+  allows revocation and explicit logged admin inspection; restoration revives only
+  still-valid rights. Reasons required for both state changes. Permission revisions
+  and dataset revisions reject stale forms. Content inspection requires fresh
+  confirmation/audit per bounded page/query; audit failure prevents its response.
+  [Contracts and limits](docs/architecture/administration-api.md).
 - **Acceptance:** Admin can manage accounts and supervise real datasets/activity;
   analysts cannot invoke those APIs. Logs exclude secrets and unnecessary patient text.
 - **Verification:** Check immediate permission changes, revocation, blocked onward
@@ -458,6 +477,9 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   Checkpoint 3 adds analyses/source relationships and extends backup verification;
   Checkpoint 4 adds dashboard/source/grant/approval relationships and verifies
   maintained restore and permission behavior. Earlier owned revisions are preserved.
+  Checkpoint 5 adds permission/suspension fields and activity indexes/actions in a
+  new migration only. Real CP5 restore/lifecycle verification passes for these
+  fields, retaining suspension/permissions without reviving sessions or staging.
 - **Decision:** Retain one PostgreSQL server/database and existing volume. Add a
   separately owned platform schema and runtime permissions alongside core/language.
   No direct access to peer services' private tables.
@@ -513,7 +535,10 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   isolated gate passed all 16 checks and all 18 assistant PostgreSQL tests.
   Checkpoint 4 host/API/browser checks and final production gate pass (18 checks
   and 18 assistant PostgreSQL tests), including the final frontend mapping fix.
-  No administration/full-product pass is claimed.
+  Checkpoint 5 now passes host/admin database/backup/browser, retained regression
+  and the final 20-check production-image gate with 18 assistant PostgreSQL tests.
+  Complete delivery/
+  normal-volume upgrade and user demonstration remain separate.
 - **Decision / scenario:** Login → CSV upload → exploration/filtering → advanced
   analyses → dashboard → save/reopen → share with second account → admin activity.
 - **Reason:** Prove the full workflow, not just disconnected screens.
@@ -731,6 +756,59 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   first, then provide the required user-run commands and stop until results
   arrive. Do not continue changing source while the user verifies it.
 
+## Checkpoint 5 implementation record — 2026-10-24
+
+- User authorized continuation after Checkpoint 4 review/push. Verified a clean,
+  synchronized `feat/pharmaceutical-analytics` tree with user commit `888159d`.
+  No new branch/commit/push or container lifecycle by the agent. The normal-volume
+  upgrade is intentionally deferred until after this checkpoint, before delivery.
+- Added migration `0005_administration.sql` only: permission revisions, dataset
+  suspension state/reason/actor/time, activity indexes/actions and a revised guard
+  preserving last-admin/session protections. Earlier revisions/source inputs are
+  unchanged. Existing validation-failure events retain identity/timestamps/details
+  with their incorrect success flag corrected to failure. New version publication
+  records a version-created event alongside import success.
+- Implemented administration overview, bounded searchable users, reviewed role/
+  status changes, metadata-only dataset supervision, explicitly confirmed/audited
+  inspection, reasoned suspension/restoration and activity actor/action/resource/
+  outcome/UTC date filters. No implicit raw access through ordinary analyst APIs,
+  no permanent account deletion, audit purge or patient-conversation administration.
+- Source-use guards cover owners, grantees, direct/saved analyses/comparisons,
+  dashboards/previews/copies, imports/mutations/new sharing/onward authorization.
+  Revocation and preserved configuration management remain available. Metadata
+  displays source suspension; widgets report source unavailability. Runtime stays
+  restricted to platform; maintained backup retains new columns automatically.
+- Independent evidence: builds/lint pass, 8 Node tests, 23 focused Python tests;
+  initial offline browser run 26 pass/2 failed refresh assertions/1 skip, then a
+  sequential full rerun passes all 28 checks with one deployment-only skip. No
+  assistant source change was needed. The user then started the dedicated test
+  cluster: all 12 new administration PostgreSQL results pass, including maintained
+  backup/restore and concurrent last-admin/permission boundaries. Retained accounts
+  8, datasets 10, analytics 12 and dashboard/sharing 14 results pass, zero skips.
+  Two real admin browser workflows pass (24.7 s), including explicit inspection,
+  self-role/session changes, suspended owner/shared execution, recovery, activity
+  and mobile/desktop axe/overflow. Retained account 1, dataset 2, analytics 2 and
+  dashboard 3 browser workflows pass. Screenshots were viewed.
+- Test corrections preserve genuine upgrade coverage: the old analytics fixture
+  now seeds the historical schema before migration, comparing immutable versions/
+  profiles/source values; current importer code is never run on an old schema.
+  Browser permission checks await committed responses, select by accessible role
+  and honor remembered admin return URLs. ISO year zero is now rejected with 422;
+  the real HTTP regression passes. [Findings](docs/validation/platform-checkpoint-5.md).
+- The user-invoked production verifier now has 20 named checks plus 18 assistant
+  PostgreSQL tests, explicitly provisioning a synthetic admin only in its generated
+  isolated stack. Its mocked admin API/reporting/cleanup path passes.
+- Final user-run production verification passed all **20 named checks** and all
+  **18 assistant PostgreSQL tests**, zero skips, at **2026-10-24 07:06:35 UTC**.
+  This includes real admin/browser behavior through Nginx and all retained
+  assistant/dataset/analytics/dashboard/collaboration workflows. Isolated cleanup
+  is confirmed; no hosted inference or application-volume changes occurred.
+  [Retained report](docs/validation/platform-checkpoint-5-container.json),
+  [actual evidence](docs/validation/platform-checkpoint-5.md).
+- Source remained unchanged during the user-run gate. After receipt, only
+  documentation/evidence was updated. All CP5 automated gates now pass.
+  Stop for review before Checkpoint 6. No normal application volume was upgraded.
+
 ## Approved implementation checkpoints
 
 Approved by the user on 2026-10-23. Checkpoint 1 is **implemented and verified**;
@@ -740,15 +818,18 @@ the user authorized continuation**. Normal-volume upgrade remains a user-run
 operation. Checkpoint 3 is **implemented and verified in host/browser and isolated
 production-image checks; the user authorized continuation**. Checkpoint 4 is
 **implemented and verified in host/browser and final isolated production-image
-checks; awaiting user review**. Checkpoints 5–6 are **not started**.
+checks; user reviewed/pushed and authorized continuation**. Checkpoint 5 is
+**implemented and verified in host/database/browser and final isolated production-image
+checks; awaiting user review**. Checkpoint 6
+is **not started**.
 
 | Checkpoint | Working result | Completion evidence |
 | --- | --- | --- |
 | 1 — Foundation and accounts | Implemented: Express service, account schema/migrations, Router, registration/login/logout/profile, role/ownership guards | PostgreSQL/API/browser and 12 full-stack checks passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-1.md) |
 | 2 — Dataset lifecycle | Implemented: CSV preview/validation/import, private versions, exploration, metadata/archive/deletion | All 14 rebuilt-image checks/18 assistant PostgreSQL tests passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-2.md) |
 | 3 — Analytics | Implemented: aggregations, pharmaceutical templates, all four advanced features, charts/private saved definitions | Final host checks, all 16 full-stack checks and 18 assistant PostgreSQL tests pass; user authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-3.md) |
-| 4 — Dashboards and collaboration | Implemented: adjustable builder, revisioned persistence, mapped filters, separate grants and onward authorization | All 14 PostgreSQL results, 3 real browser workflows and final production 18-check/18-test gate pass, including the frontend mapping fix; awaiting user review. Normal-volume upgrade separate. [Current evidence](docs/validation/platform-checkpoint-4.md) |
-| 5 — Administration and integration | User controls, suspension, activity, assistant integration, backup/restore | Lifecycle, last-admin protection and regression checks |
+| 4 — Dashboards and collaboration | Implemented: adjustable builder, revisioned persistence, mapped filters, separate grants and onward authorization | All 14 PostgreSQL results, 3 real browser workflows and final production 18-check/18-test gate pass, including the frontend mapping fix; user reviewed/pushed and authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-4.md) |
+| 5 — Administration and integration | Implemented: user controls, suspension, logged inspection, activity and integration/backup checks | Host builds/unit/offline/operations, 12 new PostgreSQL results/real restore, both admin browser workflows, retained suites and final 20-check/18-assistant-test production gate pass; awaiting user review. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-5.md) |
 | 6 — Delivery | Clean setup, complete demonstration, documentation, presentation | CdC coverage checklist, final verification and rehearsal |
 
 At each completed checkpoint, provide changes, validation evidence and remaining

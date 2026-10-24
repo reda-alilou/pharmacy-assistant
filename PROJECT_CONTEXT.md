@@ -1,6 +1,6 @@
 # Pharmaceutical platform and assistant — current project reference
 
-Updated **2026-10-23** during Checkpoint 4 on `feat/pharmaceutical-analytics`.
+Updated **2026-10-24** during Checkpoint 5 on `feat/pharmaceutical-analytics`.
 The assistant baseline follows architecture cleanup R1–R7 and commit `9eb046f`.
 Accounts, private CSV datasets, immutable import versions and exploration are
 implemented and tested against a dedicated user-started PostgreSQL cluster.
@@ -13,7 +13,9 @@ definitions are implemented and verified: final host/browser checks, all 16
 full-stack checks and all 18 assistant PostgreSQL tests pass. The user authorized
 Checkpoint 4 after those results. Dashboard/collaboration
 implementation passes host checks and the final production gate, including the
-frontend mapping fix. Checkpoint 4 awaits user review. See
+frontend mapping fix. The user reviewed/pushed Checkpoint 4 and authorized
+Checkpoint 5. Administration/suspension passes host/database/browser and final
+isolated production-image checks; ready for user review (section 16). See
 [current Checkpoint 4 evidence](docs/validation/platform-checkpoint-4.md) and section 14 for the preserved analytics baseline.
 
 An agent should read this file first, then consult only the implementation or
@@ -42,12 +44,14 @@ Examples and commands in documentation are not authorization to execute them.
 13. [Dataset lifecycle](#13-implemented-dataset-lifecycle--checkpoint-2)
 14. [Analytics](#14-implemented-analytics--checkpoint-3)
 15. [Dashboards and collaboration](#15-dashboards-and-collaboration--checkpoint-4)
+16. [Administration and integration](#16-administration-and-integration--checkpoint-5)
 
 ## 1. Purpose, scope and current status
 
 The workspace contains the implemented account/Express/Router foundation and
 private CSV dataset lifecycle/exploration and analytics, detailed in sections
-12–14. Dashboard construction, sharing and administration remain later checkpoints.
+12–14. Section 15 covers implemented/verified dashboards and sharing; section 16
+covers administration with passing host/database/browser and isolated image checks.
 The following purpose and capability descriptions refer to the retained assistant.
 
 This is a **local challenge demo and learning project** for Moroccan
@@ -1024,7 +1028,7 @@ those guides provide deeper procedures/evidence when a task needs them.
 React Router now serves introduction `/`, registration `/inscription`, login
 `/connexion`, own profile `/profil`, account workspace `/espace`, and separate
 visitor-accessible `/assistant`. The administrator-only `/administration` page
-explicitly says the administration workflow is coming in Checkpoint 5. Dataset
+now opens the Checkpoint 5 supervision UI (host/browser and image checks pass). Dataset
 routes were added in Checkpoint 2 (section 13), analytics in Checkpoint 3 (section
 14), and dashboards/sharing in Checkpoint 4 (section 15). French labels, solid healthcare colors, responsive forms
 and the assistant's factual behavior remain in place.
@@ -1274,7 +1278,8 @@ with the user's Checkpoint 1–3 commit preserved. Dashboard/collaboration code 
 host verification are now implemented. The final production-image gate passed
 all 18 checks and 18 assistant PostgreSQL tests, including the frontend
 source-switch fix. Checkpoint 4 is ready for user review.
-Checkpoints 5–6 have not started.
+This section records the Checkpoint 4 baseline. Section 16 covers the subsequently
+authorized Checkpoint 5; Checkpoint 6 has not started.
 
 `services/platform/src/dashboards` owns revisioned configurations, visual widget
 execution, explicit filter mapping and lifecycle. `src/sharing` owns separate
@@ -1364,3 +1369,80 @@ between suites; production limits/sessions and the normal application are intact
 [actual evidence](docs/validation/platform-checkpoint-4.md).
 Normal-volume upgrade and user layout/device review remain separate. Stop for
 review before Checkpoint 5.
+
+## 16. Administration and integration — Checkpoint 5
+
+The user reviewed/pushed Checkpoint 4 (`888159d`) and authorized this work. The
+branch was clean and synchronized before editing. The user chose to defer the
+normal installation upgrade until after Checkpoint 5 acceptance. No container
+lifecycle, credential regeneration, normal-volume changes, hosted inference,
+scraping or Git publication has been performed by the agent.
+
+`services/platform/src/admin` owns admin-only overview/users/datasets/activity
+APIs. `features/admin` is lazy-loaded at `/administration`, with four query-routed
+sections, bounded search/pagination, explicit action confirmation, loading/error/
+retry states and state-change feedback. Navigation no longer calls administration
+a future placeholder. Visitors/analysts cannot use its backend APIs.
+
+Migration `0005_administration.sql` adds permission revisions and dataset suspension
+state/reason/actor/time, activity indexes and version/suspension/inspection actions.
+Earlier SQL/Alembic revisions and source cells/provenance are preserved. Startup
+readiness checks the new columns; migrations remain explicit. Permission changes
+use the existing CLI-compatible advisory lock and last-admin trigger, invalidate
+all affected sessions and reject stale permission revisions. Disabled owners keep
+resources and active recipients retain explicit grants absent revocation/suspension.
+There is no account deletion or automatic activity purge.
+
+Admin dataset metadata excludes contents/profiles. Reading actual rows requires
+an explicit POST with reason/confirmation per bounded page/query, and the audit
+must commit before content can be returned. Original cells are preserved and
+available in that inspected table. Logs contain IDs, reason and counts, excluding
+row/search contents, passwords, tokens and patient conversations. Activity filters
+cover actor/action/resource/outcome and inclusive UTC calendar dates. Existing
+validation-failure events have only their outcome corrected; new versions record
+an explicit version-created event alongside import publication.
+
+Dataset suspension increments the dataset revision and blocks ordinary content/
+profiles, direct/saved analytics/comparison/templates, dashboard use/previews/
+copies, new versions, metadata/archive/deletion, grants and onward approval for
+all ordinary owners/grantees. Permitted metadata still indicates suspension.
+Configurations, immutable source versions, grants/dependencies/history survive;
+revocation and explicit admin inspection remain possible. Restoration requires a
+reason and restores only still-valid permissions. Snapshot reads already in
+progress can finish; subsequent requests enforce the committed state.
+
+Admin endpoints share 300 requests/account/15 minutes; inspection adds a 60 limit.
+Lists return 25 with one extra record for `hasMore`; version metadata is paged and
+receipts bounded to 10. Existing 100-row inspection maximum and SQL/pool/lock/
+request deadlines remain. Backup retains new columns through complete table dumps
+while sessions/throttles/upload staging and temporary patient history stay excluded.
+
+Independent evidence: source builds/lint pass (two preexisting UI warnings),
+8 Node tests, 23 focused Python operations/architecture tests, 28 offline browser
+checks with one deployment-only skip on a sequential rerun. The initial concurrent
+offline run had two assistant refresh assertion failures (26 pass), recorded in
+the evidence. The user started the dedicated test cluster; all 12 new admin
+PostgreSQL results pass, including maintained real backup/restore, suspension/
+permission state and concurrent last-admin protection. Retained account 8,
+dataset 10, analytics 12 and dashboard/sharing 14 database results pass. Both
+admin browser workflows pass (24.7 s), with self-role/session invalidation,
+inspection consent/pagination/recovery, suspended owner/shared results, restore,
+activity filters and mobile/desktop axe/overflow. Retained account 1, dataset 2,
+analytics 2 and dashboard 3 browser workflows pass; screenshots were viewed.
+ISO year zero now receives 422 rather than reaching PostgreSQL. The retained
+analytics upgrade test seeds actual historical data before migrating and compares
+immutable versions/columns/original rows; no production schema compatibility
+shortcut was added. The final user-run production gate passed all 20 named checks
+and all 18 assistant PostgreSQL tests, zero skips, at **2026-10-24 07:06:35 UTC**.
+It verifies real admin workflows through production Nginx and retained assistant/
+dataset/analytics/dashboard/collaboration regressions and persistence. The report
+confirms complete isolated cleanup, no hosted inference and no application-volume
+changes. [Retained final report](docs/validation/platform-checkpoint-5-container.json).
+No application source changed during that run; only documentation/evidence was
+updated after receiving the result. All CP5 automated gates pass; normal-volume
+upgrade and manual user/device acceptance remain separate.
+
+[API/lifecycle contract](docs/architecture/administration-api.md),
+[user-run operations](docs/operations/administration.md),
+[actual evidence](docs/validation/platform-checkpoint-5.md).
+Stop for user review before Checkpoint 6.

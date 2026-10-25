@@ -3,16 +3,17 @@
 The user controls every container lifecycle. Keep the existing branch, private
 configuration, administrator, migration history and application volume. No new
 credentials, automatic source import, hosted inference or Git publication is
-required. This page retains the analytics workflow. Checkpoint 4 now implements
-dashboards/collaboration; use the [current upgrade/check guide](dashboards-sharing.md)
-for all four migrations and the current 18-check isolated gate.
+required. This page retains the analytics workflow. Dashboards/collaboration and
+administration are implemented; use the [current upgrade/check guide](administration.md)
+for all five migrations and the current 20-check isolated gate. Existing normal
+installations first follow the [backup phases](local-upgrade.md).
 
 ## Existing workspace upgrade
 
 If platform accounts were never installed on the normal volume, first follow
 [initial platform setup](platform-accounts.md) once. Otherwise reuse
 `.runtime/platform.env` and the existing administrator. The current explicit
-migration command now applies all four owned revisions without modifying old ones.
+migration command now applies all five owned revisions without modifying old ones.
 From the root, the **user runs**, in order:
 
 ```powershell

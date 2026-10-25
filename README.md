@@ -1,6 +1,6 @@
 # Pharmaceutical analysis platform — datasets and assistant
 
-A local pharmaceutical data platform under construction. Accounts, profiles,
+A local pharmaceutical data platform. Accounts, profiles,
 guided CSV imports, private immutable versions, exploration, analytics and private
 saved definitions now use a real TypeScript/Express service. Dashboard construction,
 mapped filters and read-only sharing are implemented with passing host/browser
@@ -16,9 +16,18 @@ and isolated cleanup confirmed. The user authorized Checkpoint 4; its final host
 checks and final isolated production gate pass (18 checks/18 assistant PostgreSQL
 tests); the user reviewed/pushed Checkpoint 4 and authorized Checkpoint 5.
 CP5 host/database/browser checks and the final 20-check/18-assistant-test production
-gate pass; ready for user review. Normal-volume
-upgrade remains a separate user-run step. See
-[current Checkpoint 5 evidence](docs/validation/platform-checkpoint-5.md).
+gate pass. The user reviewed/pushed CP5 and authorized engineering completion:
+normal-volume backup/restore and upgrade are verified, all five services are
+healthy, and installed service/API/public-browser checks pass. User basic
+signed-in review is positive; the authentication-card centering fix is deployed
+and verified. CP6 engineering implementation/verification and the agreed installed
+feature review are complete: listed CSV/analytics checks and all four focused
+workflows passed by user reports/screenshots. Ready for checkpoint review;
+minor tweaks remain deferred and Git publication stays under the user's control.
+Presentation/submission materials are outside this work. See
+[current engineering evidence](docs/validation/platform-checkpoint-6.md).
+The [Full Stack technical coverage map](docs/project/full-stack-coverage.md)
+links current requirements to implemented screens/APIs and verification.
 
 The assistant is a local challenge demo and learning project for pharmacy requests.
 A French React chat connects to a core FastAPI service; a separate language
@@ -34,7 +43,9 @@ transformation, repository structure, configuration and validation evidence.
 
 ## Run the configured demo
 
-After Checkpoint 5 acceptance, follow the [current explicit upgrade](docs/operations/administration.md), including the
+For an existing assistant installation, start with the
+[safe backup/upgrade phases](docs/operations/local-upgrade.md), then the
+[explicit upgrade](docs/operations/administration.md), including the
 one-time account setup if not already applied. Reuse
 existing private credentials and the database volume. After that setup, with
 Docker Desktop running, from the repository root:

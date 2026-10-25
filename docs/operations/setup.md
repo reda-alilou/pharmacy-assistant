@@ -14,8 +14,9 @@ existing platform configuration and administrator. Startup does not migrate.
 Checkpoint 3 adds saved analyses and source relationships. Use the current
 [administration upgrade guide](administration.md) for all five explicit revisions/grants;
 keep existing credentials, datasets and the application volume.
-The normal-volume upgrade is deferred until Checkpoint 5 acceptance. Independent
-and isolated tests do not upgrade that volume.
+Checkpoint 5 has been reviewed/pushed. For the existing installation, first follow
+the [safe backup/upgrade phases](local-upgrade.md). Independent and isolated tests
+do not upgrade that volume; inspect existing state before first platform setup.
 
 ## Existing configured workspace
 
@@ -61,7 +62,9 @@ initialize new credentials and translate them into the container configuration:
 .\.venv\Scripts\pharmacy-db.exe init-env
 .\.venv\Scripts\pharmacy-compose-setup.exe
 npm ci --prefix services/platform
-npm --prefix services/platform run admin -- configure --source .runtime/compose.env --output .runtime/platform.env
+$platformSource = (Resolve-Path .runtime/compose.env).Path
+$platformOutput = Join-Path (Get-Location).Path '.runtime/platform.env'
+npm --prefix services/platform run admin -- configure --source $platformSource --output $platformOutput
 docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools build
 docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml up -d --wait postgres
 ```

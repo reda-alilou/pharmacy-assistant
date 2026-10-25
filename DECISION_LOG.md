@@ -1,6 +1,6 @@
 # Full Stack CdC — decisions and remaining work
 
-Updated **2026-10-24**. Submission: **2026-10-25**. Demonstration: **Monday 2026-10-26**.
+Updated **2026-10-25**. Submission: **2026-10-25**. Demonstration: **Monday 2026-10-26**.
 
 Requirement source: [CdC_Application_Full_Stack.md](CdC_Application_Full_Stack.md).
 Implemented baseline: [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md).
@@ -59,6 +59,19 @@ Checkpoint 2 container checks pass, including the follow-up metadata-save fix
 verified after rebuilding web. Normal-volume upgrade and checkpoint
 review are tracked separately below.
 The previous requirements audit concerns Challenge 1, not this CdC.
+
+The user reviewed/pushed Checkpoint 5 as `fc2538a` and authorized Checkpoint 6
+engineering work. Their explicit scope excludes presentations, submission
+packaging and demonstration scripts. Remaining work is safe normal-installation
+backup/upgrade, actual functional/UI review and fixes, reproducible technical
+setup/verification and documentation. Excluded external CdC deliverables are not
+being claimed complete. The normal-volume backup/restore is verified;
+platform migrations/grants, administrator and full startup are verified;
+user basic signed-in review is positive; the auth-card centering fix is deployed
+and verified. The agreed installed feature review is now complete: listed CSV/
+analytics checks and all four focused workflows passed by user reports/screenshots.
+Engineering implementation/verification is ready for checkpoint review. Minor
+tweaks remain deferred; publication remains under the user's control.
 
 | ID | Topic | CdC sections | Implementation status |
 | --- | --- | --- | --- |
@@ -558,9 +571,16 @@ The previous requirements audit concerns Challenge 1, not this CdC.
 ## D034 — Submission and presentation deliverables
 
 - **Date / decision status:** 2026-10-23 / Finalized by the user.
-- **Implementation status:** Checkpoint 1–3 architecture/API/setup/evidence and an
-  attributed pharmaceutical sample CSV added; final packaging, CdC coverage and
-  presentation remain future work.
+- **Current work scope (user update, 2026-10-24):** No presentation, slide deck,
+  submission package or demonstration script is to be prepared by the agent.
+  Focus on the actual software and necessary technical setup/API documentation.
+  The original CdC deliverable list remains a requirement reference, not a claim
+  those excluded materials were delivered.
+- **Implementation status:** Current architecture, all platform/assistant API
+  references, explicit migrations/setup/backup instructions and attributed CSV
+  sample are present. CP6 adds [Full Stack technical coverage](docs/project/full-stack-coverage.md)
+  and real installation evidence. Submission packaging/presentation/demo scripts
+  are excluded by the user's current work scope; no external delivery claim.
 - **Required:** Complete source; database scripts/migrations; architecture summary;
   API documentation or Postman collection; project presentation.
 - **Approved additions:** Clean setup instructions, architecture diagram, attributed
@@ -809,6 +829,181 @@ The previous requirements audit concerns Challenge 1, not this CdC.
   documentation/evidence was updated. All CP5 automated gates now pass.
   Stop for review before Checkpoint 6. No normal application volume was upgraded.
 
+## Checkpoint 6 engineering record — 2026-10-24
+
+- User reviewed/pushed CP5 (`fc2538a`) and explicitly authorized continuing with
+  engineering only. Verified clean/synchronized `feat/pharmaceutical-analytics`
+  before editing. No branch/commit/push by the agent.
+- Read-only normal-installation inventory: existing named volume is present,
+  normal containers absent, dedicated test PostgreSQL running. Existing private
+  Compose/host database credentials match, checked in memory without printing
+  values. Initially `.runtime/platform.env` was absent. The user then started only
+  normal PostgreSQL. Inspection confirmed `core_0001`, `language_0001`, no platform
+  installation/runtime role and zero platform administrators.
+- Added guarded `pharmacy-backup --compose` transport/status using only native
+  clients through the existing normal PostgreSQL container. No host port exposure,
+  container lifecycle or credential changes. Binary dumps and private exclusive
+  SHA-256 manifests retain all persistent owned tables, excluding temporary
+  conversations/sessions/throttles/staging as before. Verification restores only
+  its own fresh temporary database, compares persistent fingerprints/exclusions,
+  detects source changes and removes only that temporary restore database.
+- Independent evidence: 7 new unit safety tests, a real PG17 dump/restore stream
+  check in a new dedicated-cluster database, all 12 retained admin/backup PostgreSQL
+  results, and maintained operations/architecture checks (18 + 12 = 30) pass. These
+  are independent from the normal-volume verification below. [Actual evidence](docs/validation/platform-checkpoint-6.md).
+- Real normal-volume backup/restore passed through native container clients:
+  all 14 persistent tables matched, excluded temporary state was absent, the
+  original source unchanged and generated restore DB removed. Private dump and
+  manifest remain in `.runtime/backups/`; no container lifecycle by the agent.
+- After that verified backup, created only the first `.runtime/platform.env`;
+  original configuration hashes unchanged, no existing credential rotated.
+  Internal identity/origin and quiet Compose validation pass; private files are
+  Git-ignored. Corrected documented `configure` paths after finding that
+  `npm --prefix` resolves relative paths from the service directory. Absolute
+  paths succeeded; the failed attempt created no file.
+- Refreshed obsolete setup/account documentation to describe implemented features;
+  [normal upgrade phases](docs/operations/local-upgrade.md) keep first-time setup
+  distinct from reuse and require verified backup before migrations. No frozen
+  service migrations/source inputs or historical validation reports are changed.
+- User-run platform migration/grant steps are now confirmed: all five revisions,
+  expected runtime account/activity/sequence permissions, no private peer-schema
+  access and unchanged fingerprints for all 14 pre-upgrade assistant persistent
+  tables. Failed provisioning attempts created zero users/events; the user
+  confirmed the latest password was outside the required 12–128 characters.
+- The valid user retry provisioned one active administrator and one activity
+  event; user full startup succeeded for all five normal services. Installed
+  checks pass 41 assertions: migration checksums, actual per-service restricted
+  role/schema ownership, no administrative runtime credential, healthy gateway/
+  services, only loopback web port, visitor denials, scoped HttpOnly cookie,
+  missing-CSRF rejection and anonymous logout. All 14 original persistent
+  assistant table fingerprints remain unchanged; 9,936 catalogue records loaded.
+- Installed public browser checks pass all eight desktop/mobile screens, zero
+  axe violations/overflow/page errors, 12 protected redirects and assistant reload
+  without inference. Probe sessions revoked; no extra normal users/datasets or
+  privileged content changes. [Retained installed evidence](docs/validation/platform-checkpoint-6-installed.json).
+- User reports workspace/profile/administration look correct, defers other minor
+  tweaks, and identifies the left-aligned login card. Added an auth-only class
+  with automatic inline margins for login/registration. Profile/import forms and
+  assistant layout unchanged. Build and three retained account browser tests
+  pass; lint exits 0 with two preexisting Fast Refresh warnings. Production-build
+  preview geometry checks pass both routes at 320/390/1440/1920px with zero
+  centering error/overflow; screenshots visually reviewed.
+- Next: user rebuilds/recreates only normal web and reviews the refreshed auth
+  layout; stop work at that handoff until results arrive. No password in chat.
+  Basic signed-in screen review is not exhaustive workflow acceptance; final
+  technical acceptance remains and CP6 is not yet complete.
+- User web rebuild failed before compilation on Docker Hub base-image metadata
+  timeouts; independent host HTTPS probe also failed. Local base tags absent,
+  existing five normal services still healthy on the previous image. Auth-layout
+  deployment remains pending registry connectivity and successful user rebuild/
+  recreation. No network settings or application source changed after handoff.
+- Resolved: user confirms the updated login layout is good. Deployed real
+  Nginx/API browser probes verify both auth routes at all four widths with zero
+  centering error/overflow; probe session revoked, five services still healthy.
+  No code change after successful build/review.
+- Added the current Full Stack technical coverage map, separate from the older
+  challenge audit, and corrected stale sharing/admin/current capability text in
+  technical API docs. No presentation/demo/submission artifacts or historical
+  validation rewrites. Engineering implementation/verification is ready for user
+  checkpoint review; no known blocker remains. Minor tweaks deferred by user,
+  two preexisting Fast Refresh warnings and manual-review limits are documented.
+- User correction: full normal-app feature workflows have not yet been manually
+  tested; moving from basic screen review to commit/push was premature. Retained
+  isolated automated feature passes remain valid, but are distinct evidence.
+  CP6 acceptance/publication now waits for [installed functional review](docs/validation/platform-checkpoint-6-functional-review.md)
+  of datasets/exploration, four advanced features, pinned analyses/versions,
+  dashboards/filters, sharing/authorization, administration and lifecycle/recovery.
+  Prepared labelled synthetic CSVs with known expected results; all phases are
+  pending. Do not change existing real resources/permissions. Stop at each
+  user-run phase and continue only after results; no Git publication by the agent.
+- Installed feature-review progress: user reports successful v1 synthetic CSV
+  import. Phase A remains in progress until original-value/exploration and
+  invalid-file observations are recorded; phases B–G remain pending.
+- User confirms all original-value/exploration checks passed: nine rows, text
+  IDs/zero/missing distinction, exact search/filter results, descending numeric
+  sort with missing last and dataset/version persistence after reload. Phase A
+  now awaits invalid-file rejection/recovery; phases B–G remain pending.
+- User confirms both invalid-file rejection/recovery checks behaved exactly as
+  expected: publication blocked for malformed structure and invalid numeric
+  price, staging cancelled, original v1 preserved and no extra dataset created.
+  Installed phase A passed by user report; phase B analysis review is next.
+- Installed phase B progress: user returns global mean 51.25, sum 410, minimum
+  0, maximum 200; screenshot confirms A mean 15 (4 present/0 missing) and B mean
+  87.5 (4 present/1 missing), 9 rows/no filters/search. Basic/grouped aggregates
+  pass; charts, advanced features and phases C–G remain pending.
+- Installed phase B screenshots also confirm the grouped bar chart, price
+  missingness (8 present/1 missing, 11.11%, source line 10) and IQR (Q1 17.5/Q3
+  52.5, IQR 35, bounds -35/105, only 200 at source line 9 flagged). Chart
+  recommendations, remaining chart checks, comparison and phases C–G pending.
+- Installed phase B recommendation review passes: user screenshot shows the
+  expected options for category/price; user confirms applying grouped means
+  B=87.5/A=15 and editing the operation to sums B=350/A=60. Missingness, IQR and
+  chart recommendations are now manually exercised; comparison and remaining
+  chart/saved/dashboard/sharing/admin/lifecycle review are still pending.
+- Pie-review guidance correction: assistant requested an unsupported sum-based
+  pie; current chart contract permits additive counts only. User screenshots
+  confirm the expected rejection and stale-result clearing. Corrected next
+  check to row counts by group B=5/A=4; successful pie rendering pending.
+  No application code change or relaxation of chart rules.
+- Installed chart review continues: user screenshot confirms row-count pie
+  B=5/A=4 (55.56%/44.44%) and histogram bins 5/2/0/1 with eight present/one
+  missing. User confirms scatter X=quantity/Y=price gives eight points/one
+  excluded missing pair, including (8,200). Temporal/KPI checks, comparison,
+  saved resources and phases C–G remain pending.
+- User confirms temporal monthly means January=15/February=87.5 and ungrouped
+  KPI mean=51.25. All scoped phase B calculations, chart types, missingness/IQR
+  and recommendation checks now pass. Fourth advanced feature (comparison),
+  saved/reopened/version-pinned analyses and phases C–G remain pending.
+- Installed phase C progress: user confirms saving/listing the synthetic v1 mean
+  KPI, then reopening/refreshing preserves source version 1, mean/price/KPI
+  settings and recalculated 51.25. V2 publication, post-publication source pinning,
+  explicit v2 mean/comparison and phases D–G remain pending.
+- 2026-10-25: user confirms publication of v2 (10 rows) and post-publication
+  saved-analysis pinning: v1 stays selected without manual changes and still
+  returns 51.25. Direct version comparison/v2 statistics and the focused remaining
+  dashboard/sharing/suspension workflows are pending.
+- 2026-10-25 comparison screenshots confirm explicit v1/v2 sources, rows 9/10,
+  means 51.25/45, sums 410/450, missing prices 1/0 and keyed differences
+  1 added/0 removed/2 changed/7 unchanged (`008` 200→80, `009` null→70,
+  `010` added 90). Phase C/focused workflow 1 passes. All four advanced data
+  features are manually exercised; dashboards, sharing/revocation and dataset
+  suspension/restoration are the three focused workflows still pending.
+- Dashboard review progress: user confirms saved dashboard with v1 mean KPI
+  51.25 and a second saved grouped-count chart B=5/A=4. Explicit interactive
+  filter mappings/save/reopen, sharing/revocation and suspension/restoration pending.
+- 2026-10-25 manual-review scope update accepted by user: finish four installed
+  workflows (versions/pinning/comparison; dashboard filter/save/reopen; sharing/
+  revocation; dataset suspension/restoration). Retain isolated automated evidence
+  for other detailed cases instead of repeating all cases manually. Do not claim
+  those unexecuted cases passed manually; preserve completed observations and
+  resolve any failure. Git publication remains after the focused review.
+
+- 2026-10-25 focused dashboard review passed by user report: saved category
+  filter explicitly maps to both v1 widgets; A gives mean 15/count 4. Reopening/
+  refreshing preserves mappings, B gives mean 87.5/count 5, and reader reset
+  restores mean 51.25/counts A=4/B=5. Detailed layout cases retain isolated
+  coverage. Sharing/read-only/revocation and dataset suspension/restoration
+  remain the two focused installed workflows before CP6 acceptance/publication.
+
+- 2026-10-25 focused sharing/revocation review passed by user report: separate
+  synthetic reader sees dashboard-only results/allowed filters in read-only
+  mode, cannot open the unshared dataset's rows by direct URL, and loses all
+  dashboard results on refresh after owner revocation. Reader account retained,
+  grant revoked, dataset never shared. Only test-dataset suspension/restoration
+  remains in the focused installed acceptance; broader cases retain isolated
+  automated evidence. CP6 acceptance/publication remains pending.
+
+- 2026-10-25 final focused suspension/restoration review passed by user report:
+  suspension removes both owner widget results; restoration returns mean 51.25/
+  counts A=4/B=5, while the previously revoked reader remains denied. All four
+  agreed installed workflows and listed CSV/analytics checks pass. CP6 engineering
+  implementation/verification is complete in the user-narrowed scope, ready for
+  checkpoint review. Other detailed cases retain isolated automated evidence.
+  Restored/unshared TEST CP6 v1/v2 dataset, saved analysis/dashboard and reader
+  account retained; grant revoked. Cleanup is optional and not performed. Minor
+  tweaks/two preexisting Fast Refresh warnings remain documented. No agent commit,
+  push, container lifecycle, hosted inference or external deliverable claim.
+
 ## Approved implementation checkpoints
 
 Approved by the user on 2026-10-23. Checkpoint 1 is **implemented and verified**;
@@ -820,17 +1015,23 @@ production-image checks; the user authorized continuation**. Checkpoint 4 is
 **implemented and verified in host/browser and final isolated production-image
 checks; user reviewed/pushed and authorized continuation**. Checkpoint 5 is
 **implemented and verified in host/database/browser and final isolated production-image
-checks; awaiting user review**. Checkpoint 6
-is **not started**.
+checks; user reviewed/pushed and authorized continuation**. Checkpoint 6
+is **implemented and verified within the user-narrowed engineering scope, ready
+for checkpoint review**: real backup/normal installation, infrastructure/public-
+screen checks, deployed auth-layout fix, listed installed CSV/analytics checks
+and all four agreed focused workflows pass. Isolated automated evidence remains
+separate. No required review test remains; minor tweaks are deferred and the user
+retains Git publication control.
+This does not claim completion of excluded presentation/submission materials.
 
 | Checkpoint | Working result | Completion evidence |
 | --- | --- | --- |
-| 1 — Foundation and accounts | Implemented: Express service, account schema/migrations, Router, registration/login/logout/profile, role/ownership guards | PostgreSQL/API/browser and 12 full-stack checks passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-1.md) |
-| 2 — Dataset lifecycle | Implemented: CSV preview/validation/import, private versions, exploration, metadata/archive/deletion | All 14 rebuilt-image checks/18 assistant PostgreSQL tests passed; user authorized continuation. Normal-volume upgrade pending. [Evidence](docs/validation/platform-checkpoint-2.md) |
+| 1 — Foundation and accounts | Implemented: Express service, account schema/migrations, Router, registration/login/logout/profile, role/ownership guards | PostgreSQL/API/browser and 12 full-stack checks passed; user authorized continuation. Normal-volume upgrade completed during CP6. [Evidence](docs/validation/platform-checkpoint-1.md) |
+| 2 — Dataset lifecycle | Implemented: CSV preview/validation/import, private versions, exploration, metadata/archive/deletion | All 14 rebuilt-image checks/18 assistant PostgreSQL tests passed; user authorized continuation. Normal-volume upgrade completed during CP6. [Evidence](docs/validation/platform-checkpoint-2.md) |
 | 3 — Analytics | Implemented: aggregations, pharmaceutical templates, all four advanced features, charts/private saved definitions | Final host checks, all 16 full-stack checks and 18 assistant PostgreSQL tests pass; user authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-3.md) |
 | 4 — Dashboards and collaboration | Implemented: adjustable builder, revisioned persistence, mapped filters, separate grants and onward authorization | All 14 PostgreSQL results, 3 real browser workflows and final production 18-check/18-test gate pass, including the frontend mapping fix; user reviewed/pushed and authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-4.md) |
-| 5 — Administration and integration | Implemented: user controls, suspension, logged inspection, activity and integration/backup checks | Host builds/unit/offline/operations, 12 new PostgreSQL results/real restore, both admin browser workflows, retained suites and final 20-check/18-assistant-test production gate pass; awaiting user review. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-5.md) |
-| 6 — Delivery | Clean setup, complete demonstration, documentation, presentation | CdC coverage checklist, final verification and rehearsal |
+| 5 — Administration and integration | Implemented: user controls, suspension, logged inspection, activity and integration/backup checks | Host builds/unit/offline/operations, 12 new PostgreSQL results/real restore, both admin browser workflows, retained suites and final 20-check/18-assistant-test production gate pass; user reviewed/pushed and authorized continuation. Normal-volume upgrade separate. [Evidence](docs/validation/platform-checkpoint-5.md) |
+| 6 — Engineering completion (user-narrowed scope) | Implemented and verified; ready for checkpoint review | Real backup/restore, normal upgrade, infrastructure/public checks and auth-layout deployment pass. Listed installed CSV/analytics checks and all four focused workflows passed by user reports/screenshots; detailed cases retain isolated automated evidence. No required review test remains. Minor tweaks deferred; external presentation/submission/demo materials excluded. [Current evidence](docs/validation/platform-checkpoint-6.md) |
 
 At each completed checkpoint, provide changes, validation evidence and remaining
 issues for user review before proceeding to the next. Security and verification

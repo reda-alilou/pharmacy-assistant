@@ -1,4 +1,4 @@
-# Platform accounts API — Checkpoint 1
+# Platform accounts API — current account foundation
 
 Browser base path: `/platform-api`. Nginx removes this prefix and forwards to
 Express on internal port 3000. `/api` still belongs to the assistant core; its
@@ -18,7 +18,7 @@ stack is returned. There is no automatic replay of writes.
 | GET `/users/:id` | `{user}` | Current user only, including administrators |
 | PATCH `/users/:id` | `{displayName}` → `{user}` | Current user and CSRF |
 | POST `/auth/password` | `{currentPassword, password}` → 204 | Current user and CSRF; revokes all account sessions |
-| GET `/admin/access` | `{role:"admin", administrationAvailable:false, plannedCheckpoint:5}` | Active administrator; capability check only |
+| GET `/admin/access` | `{role:"admin", administrationAvailable:true}` in the configured service | Active administrator; capability check; management routes documented in [administration API](administration-api.md) |
 
 `user` is `{id, email, displayName, role, createdAt}`. Email is trimmed and
 lowercased, valid and at most 254 characters. The displayed name is trimmed,
@@ -75,8 +75,8 @@ visitor sessions); `auth_throttles` stores expiring counters. `activity` stores
 account registration/provisioning, profile/password and permission-change events,
 with resource/actor references and bounded account-change details. No passwords,
 tokens or patient conversations are logged. Account activity is retained without
-automatic pruning in Checkpoint 1; general activity retention is still a later
-administration decision. `schema_migrations` records version/checksum/application
+automatic pruning; administration provides bounded filtered activity queries.
+No automatic audit purge is implemented. `schema_migrations` records version/checksum/application
 time separately from the unchanged Python Alembic histories.
 
 Every authenticated request joins back to current active account state. The SQL
@@ -93,9 +93,10 @@ migration-table changes, activity deletion, role membership or peer-schema acces
 The grant command refuses an unexpectedly privileged existing role and never
 resets an existing role password. The service refuses an administrative runtime
 identity. Password/status/role changes also work through explicit CLI operations;
-the user-management screen remains Checkpoint 5 work. Disabling preserves the
-account, activity and owned datasets. Future recipients' explicit access and
-sharing controls follow D032; sharing is not implemented yet.
+the user-management screen and session/permission revision rules are implemented
+in [administration](administration-api.md). Disabling preserves the account,
+activity and owned resources. Active recipients retain explicit grants unless
+revoked or their source dataset suspended; see [sharing](dashboards-sharing-api.md).
 
 ## Technical references
 

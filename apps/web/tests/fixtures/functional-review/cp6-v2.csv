@@ -1,0 +1,11 @@
+presentation_id,name,group,form,ppv_price_mad,quantity,observation_date,source
+001,Synthetic A,A,Tablet,0,1,2026-01-01,SYNTHETIC_CP6_REVIEW
+002,Synthetic B,A,Tablet,10,2,2026-01-02,SYNTHETIC_CP6_REVIEW
+003,Synthetic C,A,Tablet,20,3,2026-01-03,SYNTHETIC_CP6_REVIEW
+004,Synthetic D,A,Tablet,30,4,2026-01-04,SYNTHETIC_CP6_REVIEW
+005,Synthetic E,B,Capsule,40,5,2026-02-01,SYNTHETIC_CP6_REVIEW
+006,Synthetic F,B,Capsule,50,6,2026-02-02,SYNTHETIC_CP6_REVIEW
+007,Synthetic G,B,Capsule,60,7,2026-02-03,SYNTHETIC_CP6_REVIEW
+008,Synthetic H,B,Capsule,80,8,2026-02-04,SYNTHETIC_CP6_REVIEW
+009,Synthetic I,B,Capsule,70,9,2026-02-05,SYNTHETIC_CP6_REVIEW
+010,Synthetic J,B,Capsule,90,10,2026-02-06,SYNTHETIC_CP6_REVIEW

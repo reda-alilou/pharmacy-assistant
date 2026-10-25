@@ -46,6 +46,14 @@ runtime service receives migration credentials, and no startup runs migrations.
 and quotas with the original. PostgreSQL 17 `pg_dump` and `pg_restore` must be on
 PATH or installed in the standard Windows PostgreSQL 17 location.
 
+For the normal installation without a host database port, use `pharmacy-backup
+status --compose --env-file .runtime/compose.env` and the explicit `backup`/`verify`
+actions with `--compose`. The helper pins the normal project/data volume and
+streams native client binary data with credentials kept inside PostgreSQL's
+container; it never starts/stops containers or restores over the source database.
+It requires application writers stopped and compares persistent table fingerprints
+against an exclusive private dump manifest. See [safe upgrade phases](local-upgrade.md).
+
 The dump excludes `platform.sessions`, `platform.auth_throttles` and temporary
 `platform.import_uploads`, while retaining accounts, activity, datasets, immutable
 versions/columns/typed and original rows, dependencies and permanent import receipts.

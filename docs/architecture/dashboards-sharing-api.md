@@ -3,7 +3,8 @@
 Express exclusively owns this domain in `platform`; it never reads the private
 Python schemas. React routes are `/tableaux`, `/tableaux/nouveau` and
 `/tableaux/:id`. The existing assistant stays independent at `/assistant`.
-Administration screens and dataset suspension remain Checkpoint 5.
+Administration screens and dataset suspension are implemented in
+[Checkpoint 5 administration](administration-api.md).
 
 ## Permission model
 

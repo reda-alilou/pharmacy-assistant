@@ -74,7 +74,7 @@ export function AuthPage({ register = false }: { register?: boolean }) {
     } catch (error) { setError(message(error)); if (error instanceof AccountError && error.code === 'csrf_rejected') await refresh() }
     finally { setBusy(false) }
   }
-  return <section className="platform-form-card"><h1>{register ? 'Créer un compte' : 'Connexion'}</h1>{location.state?.passwordChanged && <p role="status">Mot de passe modifié. Reconnectez-vous avec le nouveau mot de passe.</p>}<p>{register ? 'Votre compte analyste vous donne accès à votre espace personnel.' : 'Retrouvez votre espace personnel.'}</p>
+  return <section className="platform-form-card platform-auth-card"><h1>{register ? 'Créer un compte' : 'Connexion'}</h1>{location.state?.passwordChanged && <p role="status">Mot de passe modifié. Reconnectez-vous avec le nouveau mot de passe.</p>}<p>{register ? 'Votre compte analyste vous donne accès à votre espace personnel.' : 'Retrouvez votre espace personnel.'}</p>
     <form onSubmit={event => { void submit(event) }} aria-label={register ? 'Inscription' : 'Connexion'}>
       {register && <label>Nom affiché<input name="displayName" autoComplete="name" required maxLength={80} /></label>}
       <label>Adresse e-mail<input name="email" type="email" autoComplete="email" required maxLength={254} /></label>

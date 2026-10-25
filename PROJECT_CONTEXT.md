@@ -1,10 +1,11 @@
 # Pharmaceutical platform and assistant — current project reference
 
-Updated **2026-10-24** during Checkpoint 5 on `feat/pharmaceutical-analytics`.
+Updated **2026-10-25** after Checkpoint 6 engineering verification on `feat/pharmaceutical-analytics`.
 The assistant baseline follows architecture cleanup R1–R7 and commit `9eb046f`.
 Accounts, private CSV datasets, immutable import versions and exploration are
 implemented and tested against a dedicated user-started PostgreSQL cluster.
-The normal volume has not been upgraded by the agent. All 14 final Checkpoint 2
+The user has now upgraded the normal volume during CP6, with source preservation
+verified; the agreed signed-in review has passed. All 14 final Checkpoint 2
 image/gateway/full-stack checks passed, with isolated cleanup confirmed, including
 the follow-up metadata-save UI fix; see the current evidence.
 This document distinguishes implemented code from deployment and future plans.
@@ -15,8 +16,17 @@ Checkpoint 4 after those results. Dashboard/collaboration
 implementation passes host checks and the final production gate, including the
 frontend mapping fix. The user reviewed/pushed Checkpoint 4 and authorized
 Checkpoint 5. Administration/suspension passes host/database/browser and final
-isolated production-image checks; ready for user review (section 16). See
-[current Checkpoint 4 evidence](docs/validation/platform-checkpoint-4.md) and section 14 for the preserved analytics baseline.
+isolated production-image checks (section 16). The user reviewed/pushed CP5 and
+authorized engineering-only Checkpoint 6 (section 17); presentation/submission
+materials are out of scope. The normal-volume backup/restore is verified;
+platform migrations/grants and one administrator are installed, all five services
+are healthy and installed service/API/public-browser checks pass. Signed-in
+administrator screen review is positive; the auth-card alignment fix is deployed
+and verified. The agreed installed feature review is complete: listed CSV/
+analytics checks and all four focused workflows passed by user reports/screenshots.
+CP6 engineering implementation/verification is ready for checkpoint review;
+minor tweaks remain deferred and the user retains Git publication control. See
+[current engineering evidence](docs/validation/platform-checkpoint-6.md) and section 14 for the preserved analytics baseline.
 
 An agent should read this file first, then consult only the implementation or
 evidence relevant to its task. [DECISION_LOG.md](DECISION_LOG.md) now tracks open
@@ -45,6 +55,7 @@ Examples and commands in documentation are not authorization to execute them.
 14. [Analytics](#14-implemented-analytics--checkpoint-3)
 15. [Dashboards and collaboration](#15-dashboards-and-collaboration--checkpoint-4)
 16. [Administration and integration](#16-administration-and-integration--checkpoint-5)
+17. [Normal installation and engineering completion](#17-normal-installation-and-engineering-completion--checkpoint-6)
 
 ## 1. Purpose, scope and current status
 
@@ -1446,3 +1457,133 @@ upgrade and manual user/device acceptance remain separate.
 [user-run operations](docs/operations/administration.md),
 [actual evidence](docs/validation/platform-checkpoint-5.md).
 Stop for user review before Checkpoint 6.
+
+## 17. Normal installation and engineering completion — Checkpoint 6
+
+The user reviewed/pushed CP5 as `fc2538a`; the branch was clean/synchronized when
+this work began. They explicitly exclude presentations, submission packaging and
+demo scripts. Scope is actual software: backup/upgrade of the existing normal
+installation, functional/UI review and fixes, reproducible technical setup and
+verification/documentation. No excluded delivery material is claimed complete.
+
+Read-only Docker inventory confirmed the existing normal volume
+`pharmacy-assistant-architecture_postgres_data`, no normal application containers,
+and a running dedicated test PostgreSQL. Existing private Compose/host database
+identities/credentials agree, checked in memory without printing secrets.
+Initially `.runtime/platform.env` was absent. The user started only normal
+PostgreSQL; inspection confirmed `core_0001`, `language_0001`, no platform
+installation/runtime role and zero platform administrators. The real private
+backup/restore then passed for all 14 persistent tables; temporary state was
+excluded, the source unchanged and the generated restore database removed.
+The dump/manifest remain under ignored `.runtime/backups/`.
+Only after verification, first-time `.runtime/platform.env` was created with a
+new platform-only credential. Existing environment hashes remain unchanged;
+internal database/origin and quiet Compose configuration checks pass. No existing
+credential was rotated and no normal database schema/table data was changed.
+
+The maintained `pharmacy-backup` CLI adds `--compose` and a read-only `status`
+action. It validates the normal project/container/data mount/database/PG17,
+requires application writers stopped and runs native PostgreSQL clients via
+`docker exec` without container lifecycle, host-port exposure or password argv.
+Custom dump bytes stream directly to a binary file with an exclusive private
+SHA-256 manifest. Persistent tables across core/language/platform are compared
+via SHA-256 fingerprints after restoring into a new temporary database only;
+temporary conversation/session/throttle/upload state remains excluded. Source
+changes/overwrites/tampered dumps are refused; the temporary restore is removed.
+The original host transport and its exclusions remain available.
+
+Seven new safety unit tests, one real PG17 binary stream/restore test against a
+new dedicated-cluster fixture DB, all 12 retained admin/backup PostgreSQL results
+and all 30 maintained operations/architecture tests pass. These are independent
+preparation checks. The real normal-volume backup/restore also passed;
+the user subsequently upgraded and started the normal installation. No agent
+check opens a host port or starts/stops a container.
+Earlier service migrations, assistant facts/prices/nulls/provenance and historical
+validation reports remain unchanged. No hosted inference or Git publication.
+
+The first documented `configure` command failed because `npm --prefix` changes
+the working directory; resolved absolute paths succeeded and setup guides are
+corrected. No file was created by the failed attempt.
+
+The user then applied all five platform migrations and runtime grants. Read-only
+inspection confirms runtime users/activity INSERT and sequence USAGE, no private
+core/language schema access and preservation of all 14 original assistant
+persistent table fingerprints. Failed provisioning attempts created no account
+or provisioning event; the user confirmed a password outside the 12–128 character
+requirement in the latest attempt. No password was shared.
+
+The valid retry provisioned exactly one active administrator and one provisioning
+event; the user started all five healthy normal services. Installed verification
+passed 41 assertions for identity, migration checksums, actual runtime-role/schema
+isolation, readiness/gateway, visitor denials, scoped HttpOnly cookie and CSRF/
+anonymous logout. All 14 original persistent assistant tables still match the
+pre-upgrade backup; the loaded catalogue has 9,936 records. Only the loopback web
+entry point is exposed. No administrative credential is passed to runtime apps.
+
+Eight public desktop/mobile browser screens render without axe violations,
+overflow or page errors; 12 protected-route visits redirect to login. Assistant
+entry/reload works without questions/inference. Probe anonymous sessions were
+revoked; no extra accounts/datasets or privileged writes were created. Exact
+aggregate results are in [installed evidence](docs/validation/platform-checkpoint-6-installed.json).
+Desktop home and mobile assistant screenshots were visually reviewed. The user
+reports workspace/profile/administration look correct and defers other minor
+tweaks, but identified the login card's left alignment. Login/registration now
+use an auth-only class with automatic inline margins; shared profile/import
+forms and assistant layout are unchanged. Build and three retained account
+browser tests pass; lint exits 0 with two preexisting Fast Refresh warnings.
+Production-preview geometry checks show zero centering error/overflow on both
+auth routes at 320/390/1440/1920px; screenshots visually inspected. This basic signed-in screen
+review does not claim every authenticated workflow was manually exercised.
+Never ask for the password in chat; stop work at the deployment/review handoff.
+The first user-run rebuild failed fetching unchanged base-image metadata from
+Docker Hub before frontend compilation; a host registry HTTPS probe also failed.
+The user later confirmed the fix is good. Final deployed Nginx/API browser checks
+verify the updated auth class and zero centering error/overflow for both routes
+at all four widths. All five services remain healthy and probe sessions were
+revoked. No network settings changed and no code changed after the successful
+build/review. This resolves the visual deployment issue.
+
+[Full Stack technical coverage](docs/project/full-stack-coverage.md) now maps
+mandatory engineering requirements to actual screens/APIs/evidence, separately
+from the old challenge audit. Obsolete future-sharing/admin statements in current
+API docs were corrected. The user identified that only basic installed screens,
+not the complete feature workflow, had been manually reviewed. The earlier move
+toward Git publication was premature. CP6 is in progress pending the
+[installed functional review](docs/validation/platform-checkpoint-6-functional-review.md):
+imports/exploration, analyses/four advanced features, saved versions, dashboards/
+filters, sharing/permissions, administration and lifecycle/recovery. Synthetic
+CSV fixtures with known expected values are prepared; no execution or normal-app
+test-account/data creation is claimed by preparation. Pause at each user-run
+phase until results arrive; publication waits for the review/fixes. Other minor
+tweaks are deferred and two existing Fast Refresh warnings remain. No commit/push
+by the agent.
+[Upgrade phases](docs/operations/local-upgrade.md),
+[actual evidence](docs/validation/platform-checkpoint-6.md).
+
+Installed functional-review update, 2026-10-25: synthetic import/exploration and
+validation recovery, listed aggregate/chart checks, all four advanced features,
+saved version pinning/comparison and the focused dashboard workflow pass by
+user reports/screenshots. Dashboard mappings survive reopen/refresh; A gives
+mean 15/count 4, B gives mean 87.5/count 5, and reset restores mean 51.25 and
+counts A=4/B=5. Sharing/read-only/revocation and dataset suspension/restoration
+remain the two focused installed workflows. Other detailed cases retain prior
+isolated automated evidence and are not claimed manually exercised. CP6 remains
+in progress; no application code changed during these manual checks.
+
+The focused sharing/revocation workflow subsequently passed by user report:
+the separate synthetic reader can view/filter dashboard-only results without
+editing; direct unshared dataset access is denied without rows, and dashboard
+access is denied without widget results after grant revocation and refresh.
+Reader account retained, dashboard grant revoked, no dataset grant created.
+Only test-dataset suspension/restoration remains in the focused installed review.
+
+Final installed-review result, 2026-10-25: user confirms suspension blocks both
+owner widgets without old results, restoration returns mean 51.25/counts A=4/B=5,
+and the revoked reader stays denied. All four agreed focused workflows now pass;
+the listed CSV/analytics checks and retained isolated evidence remain separate.
+CP6 engineering implementation/verification is complete within the user-narrowed
+scope and ready for checkpoint review. No further required manual test remains.
+Minor tweaks and two preexisting Fast Refresh warnings remain documented.
+The restored test dataset (v1/v2), saved analysis/dashboard and synthetic reader
+are retained; dashboard grant revoked, dataset unshared. Cleanup is optional and
+was not performed. No commit/push by the agent; external deliverables excluded.

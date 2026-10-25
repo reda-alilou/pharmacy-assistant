@@ -14,6 +14,11 @@ from sqlalchemy.engine import make_url
 from pharmacy_infrastructure.database import create_database_engine
 from pharmacy_ops.database import ENV, configuration
 
+TEMPORARY_TABLES = (
+    'core.conversations', 'core.conversation_messages', 'core.conversation_states', 'core.pending_choices',
+    'platform.sessions', 'platform.auth_throttles', 'platform.import_uploads',
+)
+
 
 def tool(name):
     path = shutil.which(name)
@@ -44,10 +49,7 @@ def backup(values, output):
         pass
     try:
         run_tool("pg_dump", values["MIGRATION_DATABASE_URL"], ["--format=custom", "--no-owner", "--no-privileges",
-            "--exclude-table-data=core.conversations", "--exclude-table-data=core.conversation_messages",
-            "--exclude-table-data=core.conversation_states", "--exclude-table-data=core.pending_choices",
-            "--exclude-table-data=platform.sessions", "--exclude-table-data=platform.auth_throttles",
-            "--exclude-table-data=platform.import_uploads",
+            *("--exclude-table-data=" + table for table in TEMPORARY_TABLES),
             "--file", str(output)])
     except Exception:
         output.unlink(missing_ok=True)
@@ -121,13 +123,23 @@ def verify_backup(values, backup_path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=("backup", "verify"))
-    parser.add_argument("path", type=Path)
+    parser.add_argument("action", choices=("backup", "verify", "status"))
+    parser.add_argument("path", type=Path, nargs='?')
     parser.add_argument("--env-file", type=Path, default=ENV)
+    parser.add_argument('--compose', action='store_true', help='Use only the existing normal PostgreSQL container; never starts/stops services or opens host ports. Pass --env-file .runtime/compose.env.')
     args = parser.parse_args()
+    if args.action != 'status' and args.path is None:
+        parser.error('A backup path is required.')
+    if args.action == 'status' and (not args.compose or args.path is not None):
+        parser.error('Status requires --compose and no backup path.')
     try:
-        values = configuration(args.env_file)
-        result = backup(values, args.path) if args.action == "backup" else verify_backup(values, args.path)
+        if args.compose:
+            from pharmacy_ops.compose_backup import ComposeBackup
+            operation = ComposeBackup(args.env_file)
+            result = operation.status() if args.action == 'status' else operation.backup(args.path) if args.action == 'backup' else operation.verify(args.path)
+        else:
+            values = configuration(args.env_file)
+            result = backup(values, args.path) if args.action == "backup" else verify_backup(values, args.path)
     except Exception:
         parser.exit(1, "Backup operation failed; no existing database was overwritten. Check service/client readiness and use a new output path.\n")
     print(json.dumps(result, indent=2))

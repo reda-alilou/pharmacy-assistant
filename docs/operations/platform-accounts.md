@@ -1,4 +1,10 @@
-# Checkpoint 1: explicit platform setup and verification
+# Platform first-time configuration and account setup
+
+The account foundation began in Checkpoint 1. Current code also implements
+datasets, analytics, dashboards, collaboration and administration (all CP5 gates
+pass). Existing normal installations should first follow the
+[backup/upgrade phases](local-upgrade.md). This is a technical setup guide;
+historical CP1 validation reports remain unchanged.
 
 The user runs all container lifecycle commands. These commands preserve the
 existing `pharmacy-assistant-architecture_postgres_data` volume, Python revisions,
@@ -7,8 +13,8 @@ the existing database credentials for this upgrade. No command below imports
 pharmaceutical analytics samples. Checkpoint 2 now implements user-driven imports;
 see [dataset upgrade and verification](datasets.md). Existing account configuration
 must be reused. The explicit migration command applies all owned revisions;
-Checkpoint 4 includes analyses, dashboards and sharing as described in
-[current upgrade steps](dashboards-sharing.md).
+The current five owned revisions and administration are described in
+[current upgrade steps](administration.md).
 
 ## Existing configured workspace
 
@@ -19,7 +25,9 @@ for the new role; it never changes existing credentials or overwrites a file:
 ```powershell
 npm ci --prefix services/platform
 npm ci --prefix apps/web
-npm --prefix services/platform run admin -- configure --source .runtime/compose.env --output .runtime/platform.env
+$platformSource = (Resolve-Path .runtime/compose.env).Path
+$platformOutput = Join-Path (Get-Location).Path '.runtime/platform.env'
+npm --prefix services/platform run admin -- configure --source $platformSource --output $platformOutput
 ```
 
 Run `configure` only once for this new service. If `.runtime/platform.env` already
@@ -27,6 +35,8 @@ exists, reuse it. Its runtime URL is derived from the existing Compose database
 address, with a new `pharmacy_platform` identity. Do not print either file or
 expanded Compose configuration. The second env file is required for the upgraded
 stack. Existing `.runtime/compose.env` and `.runtime/postgres.env` remain unchanged.
+Absolute paths are required here because `npm --prefix` runs the CLI from the
+service directory, rather than the repository root.
 
 Then **the user runs**, in order:
 
@@ -49,8 +59,9 @@ investigate, not a reason to edit migration history or reset data.
 Open <http://127.0.0.1:8080> for the introduction, `/inscription` or `/connexion`
 for accounts, `/profil` for the own profile, `/espace` for the account workspace,
 and `/assistant` for the visitor-accessible assistant. Dataset, analysis,
-dashboard, sharing and administration workflows are explicitly unavailable.
-The admin route shows its later-checkpoint status; it is not an administration UI.
+dashboard, sharing and administration workflows are implemented. Analysts access
+their own and explicitly shared resources; administrators use `/administration`
+for overview, users, datasets and activity. Content inspection is explicit/logged.
 
 For later start/stop operations reuse both env files:
 
@@ -73,8 +84,9 @@ workspaces must use the upgrade procedure above instead of `init-env`.
 
 ## Account operations and host development
 
-The future Users screen is not implemented. Explicit operations remain available
-to the database administrator. Example, **user-run**:
+The Users administration screen implements confirmed account status/role changes
+and last-admin protection. Explicit operations also remain available to the
+database administrator. Example, **user-run**:
 
 ```powershell
 docker compose --env-file .runtime/compose.env --env-file .runtime/platform.env -f deploy/compose.yaml --profile tools run --rm platform-setup set-account --email analyst@example.com --role analyst --active false --confirm
@@ -84,8 +96,8 @@ This invalidates account sessions immediately and preserves the account/activity
 To reenable, set `--active true`. Role changes require the desired role and active
 status explicitly; all permission changes are logged. The final active admin
 cannot be disabled/demoted. No permanent account-delete command is provided.
-`--confirm` acknowledges the CLI's immediate effects; no user-management UI is
-claimed. For automated provisioning only, the host CLI also accepts a private
+`--confirm` acknowledges the CLI's immediate effects. For automated provisioning
+only, the host CLI also accepts a private
 `--password-file`; never pass passwords as command-line arguments.
 
 For host development, use a dedicated private env file or process environment
@@ -154,7 +166,8 @@ scenarios. It does not replace the dedicated account tests above. The full
 container verification and normal-volume upgrade are separate evidence gates;
 see [actual results and limits](../validation/platform-checkpoint-1.md).
 
-Backups now retain platform accounts/activity and exclude sessions/auth throttles
-alongside the existing temporary-conversation exclusions. Restored runtime grants
-must be applied explicitly. Later dataset/upload/sharing backup coverage belongs
-to the checkpoints introducing those resources; no such tables exist yet.
+Backups retain platform accounts/activity, datasets/immutable versions, saved
+analyses/dashboards, dependencies, grants and onward authorizations. Sessions,
+auth throttles, temporary upload staging and patient conversations remain excluded.
+Permission/suspension fields are retained and tested through CP5. Restored runtime
+grants must be applied explicitly. See [normal backup phases](local-upgrade.md).

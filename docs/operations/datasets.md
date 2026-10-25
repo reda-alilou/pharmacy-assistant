@@ -1,8 +1,8 @@
 # Checkpoint 2 setup and checks
 
-Current code also includes analytics and Checkpoint 4 dashboards/collaboration.
-Use the [current upgrade/check guide](dashboards-sharing.md) for all four
-migrations, test scripts and the 18-check isolated verifier; this page retains
+Current code also includes analytics, dashboards/collaboration and administration.
+Use the [current upgrade/check guide](administration.md) for all five
+migrations, test scripts and the 20-check isolated verifier; this page retains
 the CSV workflow.
 
 The user controls container startup/shutdown and all isolated stack lifecycles.

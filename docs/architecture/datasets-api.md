@@ -8,7 +8,9 @@ APIs require an active account and account-session protections. Mutations remain
 owner-only; Checkpoint 4 read routes also accept an explicit dataset grant. A
 result-only grant does not authorize these dataset routes.
 Administrators have no implicit access to another owner's dataset contents.
-Sharing and administrative inspection remain later work. Checkpoint 3 adds
+Separate grants and explicit logged inspection/suspension are implemented; see
+[sharing](dashboards-sharing-api.md) and [administration](administration-api.md).
+Checkpoint 3 adds
 [analytical tools and private saved definitions](analytics-api.md).
 
 ## API
@@ -98,7 +100,7 @@ Uploads have revision checks so old validation/configuration cannot authorize a
 changed draft. A one-minute cleanup removes expired upload bodies/configurations/
 reports and marks their receipts expired. Cancellation removes staging immediately.
 Import receipts and activity are retained without automatic pruning for now;
-general retention remains an administration decision. Reloading the import URL
+no automatic audit purge is implemented. Reloading the import URL
 checks its actual status after an uncertain response. Publication is idempotent
 per receipt and never creates a duplicate version when a response was lost.
 
@@ -163,8 +165,9 @@ Column profiles are immutable full-version summaries: total, present, missing,
 nonmissing distinct count, min/max, and exact PostgreSQL numeric average where
 applicable. Missing cells are excluded from statistics; present count is shown
 as the denominator. Empty text/zero/false remain distinct from missing. The
-Quality view is this initial completeness profile, not the later advanced
-missingness/group/outlier/comparison features. Cross-medicine averages do not
+Quality view shows the immutable import completeness profile. Advanced
+missingness/group/outlier/comparison features are in the analysis workspace.
+Cross-medicine averages do not
 measure therapeutic value. Grouping, quartiles, charting and the four advanced
 features are now available through [Checkpoint 3 analytics](analytics-api.md).
 New import means use numeric(80,24) inputs; old immutable profiles remain stored

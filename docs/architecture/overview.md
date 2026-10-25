@@ -1,11 +1,13 @@
 # Processing and service ownership
 
 One French React/TypeScript application now uses React Router for the platform
-introduction, accounts/profile, CSV exploration, analytics/private saved configurations
+introduction, accounts/profile, CSV exploration, analytics/saved configurations,
+dashboards/collaboration and administration,
 and a separate visitor-accessible `/assistant`. Nginx serves its static
 assets and forwards same-origin `/api` requests to core. Core and language are
 separate FastAPI services. Express/TypeScript owns accounts, PostgreSQL sessions,
-guided CSV imports, immutable dataset versions and analytics through
+guided CSV imports, immutable dataset versions, analytics, dashboards, sharing
+and administration through
 `/platform-api`. A single PostgreSQL instance stores `platform`, `core` and
 `language` with separate runtime credentials; each running service is restricted to its own schema and does not import its
 peers’ implementations.
@@ -108,3 +110,8 @@ production-image checks. See the
 [analytics API](analytics-api.md), [dashboard/sharing API](dashboards-sharing-api.md),
 [administration API](administration-api.md), [explicit upgrade](../operations/administration.md) and
 [Checkpoint 5 evidence/limits](../validation/platform-checkpoint-5.md).
+The normal installation is now upgraded and verified, including the follow-up
+authentication layout fix. [CP6 evidence](../validation/platform-checkpoint-6.md)
+distinguishes isolated full workflows, installed checks and the user's basic
+signed-in review. [Full Stack technical coverage](../project/full-stack-coverage.md)
+maps the current CdC to screens, APIs and actual evidence.

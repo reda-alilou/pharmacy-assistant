@@ -14,6 +14,7 @@
 .platform-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 1.8rem 0 2.4rem; }
 .platform-panel, .platform-form-card { border: 1px solid #d8e4df; border-radius: 1rem; padding: clamp(1.2rem, 3vw, 2rem); margin: 1.3rem 0; background: white; }
 .platform-form-card { max-width: 550px; }
+.platform-auth-card { margin-inline: auto; }
 .platform-form-card form { display: grid; gap: 1rem; }
 .platform-form-card label { display: grid; gap: .4rem; margin: 1rem 0; font-size: .95rem; font-weight: 600; }
 .platform-form-card input { width: 100%; border: 1px solid #9db7ab; border-radius: .45rem; padding: .75rem; font: inherit; color: #183c34; background: white; }

@@ -1,0 +1,716 @@
+{
+  "normal_installed": {
+    "checks": {
+      "loopback_origin": true,
+      "one_active_administrator": true,
+      "postgres_healthy": true,
+      "postgres_no_host_port": true,
+      "platform_healthy": true,
+      "platform_no_host_port": true,
+      "platform_no_migration_credential": true,
+      "platform_read_only_runtime": true,
+      "platform_expected_runtime_configuration": true,
+      "core_healthy": true,
+      "core_no_host_port": true,
+      "core_no_migration_credential": true,
+      "core_read_only_runtime": true,
+      "core_expected_runtime_configuration": true,
+      "language_healthy": true,
+      "language_no_host_port": true,
+      "language_no_migration_credential": true,
+      "language_read_only_runtime": true,
+      "language_expected_runtime_configuration": true,
+      "web_healthy": true,
+      "only_loopback_web_port": true,
+      "five_migration_checksums_match_source": true,
+      "all_14_assistant_persistent_tables_unchanged": true,
+      "one_account_and_provisioning_event": true,
+      "platform_actual_runtime_identity_and_schema_isolation": true,
+      "core_actual_runtime_identity_and_schema_isolation": true,
+      "language_actual_runtime_identity_and_schema_isolation": true,
+      "http_/healthz": true,
+      "http_/platform-api/health": true,
+      "http_/platform-api/ready": true,
+      "http_/api/ready": true,
+      "http_/api/health": true,
+      "assistant_catalogue_and_language_available": true,
+      "visitor_denied_/platform-api/datasets": true,
+      "visitor_denied_/platform-api/analyses": true,
+      "visitor_denied_/platform-api/dashboards": true,
+      "visitor_denied_/platform-api/admin/access": true,
+      "visitor_session_http_only_and_scoped": true,
+      "csrf_missing_rejected": true,
+      "anonymous_session_logout": true,
+      "assistant_preserved_after_probes": true
+    },
+    "container_lifecycle_performed": false,
+    "live_inference_performed": false,
+    "platform_migrations": [
+      "0001_accounts.sql",
+      "0002_datasets.sql",
+      "0003_analyses.sql",
+      "0004_dashboards_sharing.sql",
+      "0005_administration.sql"
+    ],
+    "assistant_catalogue_records": 9936,
+    "passed": true,
+    "verified_at_utc": "2026-10-24T08:48:21.916939+00:00"
+  },
+  "normal_public_browser": {
+    "screens": [
+      {
+        "viewport": "desktop",
+        "route": "/",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "desktop",
+        "route": "/connexion",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "desktop",
+        "route": "/inscription",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "desktop",
+        "route": "/assistant",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "mobile",
+        "route": "/",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "mobile",
+        "route": "/connexion",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "mobile",
+        "route": "/inscription",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      },
+      {
+        "viewport": "mobile",
+        "route": "/assistant",
+        "rendered": true,
+        "horizontal_overflow": false,
+        "axe_violations": 0
+      }
+    ],
+    "authenticated_workflows_reviewed": false,
+    "live_inference_performed": false,
+    "container_lifecycle_performed": false,
+    "protected_redirects": 12,
+    "page_errors": 0,
+    "unexpected_api_mutations": 0,
+    "anonymous_sessions_revoked": true,
+    "passed": true,
+    "verified_at_utc": "2026-10-24T08:49:47.471Z"
+  },
+  "authenticated_administrator_review": {
+    "user_reported_workspace_profile_administration_look_correct": true,
+    "minor_tweaks_deferred_by_user": true,
+    "identified_issue": "login_card_left_aligned",
+    "exhaustive_signed_in_workflow_review_claimed": false
+  },
+  "checkpoint_6_complete": true,
+  "authentication_layout_followup": {
+    "production_build_preview": true,
+    "account_api_mocked": true,
+    "checks": [
+      {
+        "width": 1920,
+        "route": "/connexion",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 550,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 1920,
+        "route": "/inscription",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 550,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 1440,
+        "route": "/connexion",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 550,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 1440,
+        "route": "/inscription",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 550,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 390,
+        "route": "/connexion",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 350,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 390,
+        "route": "/inscription",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 350,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 320,
+        "route": "/connexion",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 280,
+        "horizontal_overflow": false
+      },
+      {
+        "width": 320,
+        "route": "/inscription",
+        "horizontal_center_error_px": 0,
+        "card_width_px": 280,
+        "horizontal_overflow": false
+      }
+    ],
+    "normal_stack_modified": false,
+    "passed": true,
+    "verified_at_utc": "2026-10-24T09:03:06.037Z",
+    "frontend_build_passed": true,
+    "retained_account_browser_tests_passed": 3,
+    "lint_exit_code": 0,
+    "preexisting_fast_refresh_warnings": 2,
+    "installed_image_verification_pending": false,
+    "normal_web_image_update": {
+      "status": "verified_deployed",
+      "previous_failed_attempt": {
+        "status": "blocked_registry_connectivity",
+        "user_build_failed_before_frontend_compilation": true,
+        "docker_hub_metadata_timeout": true,
+        "independent_host_registry_https_probe_reachable": false,
+        "existing_five_services_still_healthy": true,
+        "base_images_available_as_local_tags": false,
+        "network_settings_changed": false,
+        "application_source_changed_after_handoff": false
+      },
+      "all_five_services_healthy_after_update": true,
+      "user_confirmed_centering": true,
+      "deployed_browser": {
+        "deployed_production_image": true,
+        "mocked_api": false,
+        "checks": [
+          {
+            "viewport_width": 1920,
+            "route": "/connexion",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 1920,
+            "route": "/inscription",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 1440,
+            "route": "/connexion",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 1440,
+            "route": "/inscription",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 390,
+            "route": "/connexion",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 390,
+            "route": "/inscription",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 320,
+            "route": "/connexion",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          },
+          {
+            "viewport_width": 320,
+            "route": "/inscription",
+            "centering_error_px": 0,
+            "horizontal_overflow": false
+          }
+        ],
+        "container_lifecycle_performed": false,
+        "live_inference_performed": false,
+        "anonymous_probe_session_revoked": true,
+        "passed": true,
+        "verified_at_utc": "2026-10-24T09:15:05.903Z"
+      }
+    }
+  },
+  "checkpoint_6_engineering_implementation_complete": true,
+  "checkpoint_review_status": "engineering_scope_verified_ready_for_user_checkpoint_review",
+  "technical_requirements_coverage": "docs/project/full-stack-coverage.md",
+  "checkpoint_6_verification_complete": true,
+  "installed_feature_review": {
+    "requested_by_user": true,
+    "fixture_expected_values_checked": true,
+    "execution_claimed": true,
+    "phases": {
+      "A": "passed_user_report",
+      "B": "passed_listed_checks_user_reports_and_screenshots_comparison_in_phase_C",
+      "C": "passed_user_reports_and_comparison_screenshots",
+      "D": "focused_workflow_passed_user_reports_layout_cases_retain_isolated_coverage",
+      "E": "focused_workflow_passed_user_reports_other_cases_retain_isolated_coverage",
+      "F": "focused_suspension_restoration_passed_user_report_other_cases_retain_isolated_coverage",
+      "G": "outside_focused_manual_remainder_isolated_coverage_retained_optional_cleanup_not_performed"
+    },
+    "record": "docs/validation/platform-checkpoint-6-functional-review.md",
+    "observations": [
+      {
+        "date": "2026-10-24",
+        "check": "synthetic_v1_csv_import",
+        "result": "succeeded",
+        "source": "user_report",
+        "individual_value_checks_explicitly_confirmed": false
+      },
+      {
+        "date": "2026-10-24",
+        "check": "synthetic_v1_original_values_search_filters_sort_and_reload",
+        "result": "all_requested_checks_passed",
+        "source": "user_report",
+        "checks": [
+          "9_rows_8_columns_and_leading_zero_id",
+          "zero_present_missing_distinct",
+          "search_synthetic_h_returns_008",
+          "group_a_returns_4_rows",
+          "price_gt_20_returns_5_rows",
+          "missing_price_returns_009",
+          "descending_price_200_first_missing_last",
+          "reload_preserves_dataset_version_9_rows"
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "check": "invalid_structure_and_forced_decimal_rejection_cancellation",
+        "result": "all_requested_checks_passed",
+        "source": "user_report",
+        "original_dataset_preserved": true,
+        "no_extra_dataset_created": true
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_global_aggregate_values",
+        "source": "user_report",
+        "result": "passed",
+        "actual": {
+          "mean": "51.250000000000000000000000",
+          "sum": "410",
+          "min": "0",
+          "max": "200"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_grouped_means_and_denominators",
+        "source": "user_screenshot",
+        "result": "passed",
+        "filtered_rows": 9,
+        "filters": 0,
+        "search": null,
+        "groups": {
+          "A": {
+            "rows": 4,
+            "present": 4,
+            "missing": 0,
+            "mean": "15"
+          },
+          "B": {
+            "rows": 5,
+            "present": 4,
+            "missing": 1,
+            "mean": "87.5"
+          }
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "grouped_bar_chart_matches_exact_table",
+        "source": "user_screenshot",
+        "result": "passed",
+        "groups": {
+          "A": "15.00",
+          "B": "87.50"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_price_missingness",
+        "source": "user_screenshot",
+        "result": "passed",
+        "rows": 9,
+        "present": 8,
+        "missing": 1,
+        "displayed_missing_percent": "11.11",
+        "affected_source_line": 10,
+        "original_empty_text_retained": true
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_ungrouped_price_iqr_1_5",
+        "source": "user_screenshot",
+        "result": "passed",
+        "present": 8,
+        "excluded_missing": 1,
+        "q1": "17.50",
+        "q3": "52.50",
+        "iqr": "35.00",
+        "lower": "-35.000",
+        "upper": "105.000",
+        "flagged_rows": 1,
+        "flagged_source_line": 9,
+        "flagged_value": "200"
+      },
+      {
+        "date": "2026-10-24",
+        "check": "chart_recommendations_for_category_and_numeric",
+        "source": "user_screenshot",
+        "result": "passed",
+        "includes": "Mesure par cat\u00e9gorie"
+      },
+      {
+        "date": "2026-10-24",
+        "check": "apply_recommended_grouped_mean_bar_configuration",
+        "source": "user_report",
+        "result": "passed",
+        "groups": {
+          "A": "15",
+          "B": "87.5"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "edit_recommended_configuration_to_grouped_sum",
+        "source": "user_report",
+        "result": "passed",
+        "groups": {
+          "A": "60",
+          "B": "350"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "reject_incompatible_sum_pie_and_clear_obsolete_result",
+        "source": "user_screenshots",
+        "result": "expected_validation_passed",
+        "incorrect_assistant_test_guidance": true,
+        "documented_pie_measure_rule": "additive_counts_only",
+        "successful_pie_rendering_verified": false
+      },
+      {
+        "date": "2026-10-24",
+        "check": "grouped_row_count_pie",
+        "source": "user_screenshot",
+        "result": "passed",
+        "rows": 9,
+        "counts": {
+          "A": 4,
+          "B": 5
+        },
+        "displayed_shares_percent": {
+          "A": "44.44",
+          "B": "55.56"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_price_histogram_four_bins",
+        "source": "user_screenshot",
+        "result": "passed",
+        "bin_edges": [
+          "0",
+          "50",
+          "100",
+          "150",
+          "200"
+        ],
+        "counts": [
+          5,
+          2,
+          0,
+          1
+        ],
+        "maximum_included": true,
+        "present": 8,
+        "missing": 1
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_quantity_price_scatter",
+        "source": "user_report",
+        "result": "passed",
+        "x": "quantity",
+        "y": "ppv_price_mad",
+        "points": 8,
+        "excluded_missing_pairs": 1,
+        "high_point": [
+          "8",
+          "200"
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_temporal_mean_by_observation_month",
+        "source": "user_report",
+        "result": "passed",
+        "means": {
+          "2026-01": "15",
+          "2026-02": "87.5"
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "check": "v1_global_mean_kpi",
+        "source": "user_report",
+        "result": "passed",
+        "grouping": null,
+        "mean": "51.25"
+      },
+      {
+        "date": "2026-10-24",
+        "check": "save_v1_mean_kpi_and_list",
+        "source": "user_report",
+        "result": "passed",
+        "title": "TEST CP6 \u2014 prix moyen v1"
+      },
+      {
+        "date": "2026-10-24",
+        "check": "reopen_refresh_recalculate_saved_v1_kpi",
+        "source": "user_report",
+        "result": "passed",
+        "version": 1,
+        "operation": "mean",
+        "column": "ppv_price_mad",
+        "visualization": "kpi",
+        "value": "51.25"
+      },
+      {
+        "date": "2026-10-25",
+        "check": "append_v2_to_same_test_dataset",
+        "source": "user_report",
+        "result": "passed",
+        "version": 2,
+        "rows": 10,
+        "version_1_remains_available": true
+      },
+      {
+        "date": "2026-10-25",
+        "check": "saved_v1_analysis_pinning_after_v2_publication",
+        "source": "user_report",
+        "result": "passed",
+        "source_manually_changed": false,
+        "selected_version": 1,
+        "recalculated_mean": "51.25"
+      },
+      {
+        "date": "2026-10-25",
+        "check": "direct_v1_v2_price_comparison_unique_presentation_id",
+        "source": "user_screenshots",
+        "result": "passed",
+        "versions": {
+          "left": 1,
+          "right": 2
+        },
+        "rows": {
+          "left": 9,
+          "right": 10
+        },
+        "present": {
+          "left": 8,
+          "right": 10
+        },
+        "missing": {
+          "left": 1,
+          "right": 0
+        },
+        "sums": {
+          "left": "410",
+          "right": "450"
+        },
+        "means": {
+          "left": "51.25",
+          "right": "45"
+        },
+        "differences": {
+          "added": 1,
+          "removed": 0,
+          "changed": 2,
+          "unchanged": 7
+        },
+        "changed_ids": [
+          "008",
+          "009"
+        ],
+        "added_id": "010"
+      },
+      {
+        "date": "2026-10-25",
+        "check": "create_save_dashboard_from_saved_v1_mean_kpi",
+        "source": "user_report",
+        "result": "passed",
+        "value": "51.25"
+      },
+      {
+        "date": "2026-10-25",
+        "check": "add_save_second_dashboard_widget_grouped_row_counts_v1",
+        "source": "user_report",
+        "result": "passed",
+        "widgets": 2,
+        "mean_kpi": "51.25",
+        "row_count_chart": {
+          "A": 4,
+          "B": 5
+        }
+      },
+      {
+        "date": "2026-10-25",
+        "check": "saved_dashboard_group_filter_explicit_mappings_both_widgets_select_A",
+        "source": "user_report",
+        "result": "passed",
+        "selected_group": "A",
+        "mean_kpi": "15",
+        "row_count_chart": {
+          "A": 4
+        },
+        "reopen_and_reset_verified": false
+      },
+      {
+        "date": "2026-10-25",
+        "check": "dashboard_reopen_refresh_select_B_and_reset_reader_filters",
+        "source": "user_report",
+        "result": "passed",
+        "saved_filter_mappings_persist": true,
+        "selected_B": {
+          "mean_kpi": "87.5",
+          "row_count_chart": {
+            "B": 5
+          }
+        },
+        "after_reset": {
+          "mean_kpi": "51.25",
+          "row_count_chart": {
+            "A": 4,
+            "B": 5
+          }
+        }
+      },
+      {
+        "date": "2026-10-25",
+        "check": "dashboard_only_grant_separate_reader_results_filters_and_no_edit_control",
+        "source": "user_report",
+        "result": "passed",
+        "dataset_shared": false,
+        "unfiltered": {
+          "mean_kpi": "51.25",
+          "row_count_chart": {
+            "A": 4,
+            "B": 5
+          }
+        },
+        "selected_A": {
+          "mean_kpi": "15",
+          "row_count_chart": {
+            "A": 4
+          }
+        },
+        "read_only_label": true,
+        "dashboard_edit_button_absent": true,
+        "direct_dataset_denial_verified": false,
+        "revocation_verified": false
+      },
+      {
+        "date": "2026-10-25",
+        "check": "reader_unshared_dataset_direct_url_denied_and_dashboard_revocation_enforced_on_refresh",
+        "source": "user_report",
+        "result": "passed",
+        "dataset_rows_denied": true,
+        "dashboard_grant_revoked": true,
+        "dashboard_widget_results_denied_after_refresh": true,
+        "reader_account_retained": true,
+        "dataset_grant_created": false
+      },
+      {
+        "date": "2026-10-25",
+        "check": "test_dataset_suspension_blocks_owner_widgets_restore_returns_valid_owner_access_revoked_reader_stays_denied",
+        "source": "user_report",
+        "result": "passed",
+        "suspended_owner_widgets_unavailable_without_previous_results": true,
+        "restored_owner": {
+          "mean_kpi": "51.25",
+          "row_count_chart": {
+            "A": 4,
+            "B": 5
+          }
+        },
+        "revoked_reader_still_denied_after_restoration": true
+      }
+    ],
+    "next_check": null,
+    "remaining_manual_scope": {
+      "date": "2026-10-25",
+      "accepted_by_user": true,
+      "workflows": {
+        "versions_pinning_comparison": "passed",
+        "dashboard_filters_save_reopen": "passed_user_report",
+        "sharing_readonly_revocation": "passed_user_report",
+        "dataset_suspension_restoration": "passed_user_report"
+      },
+      "other_detailed_cases": "retain_prior_isolated_automated_evidence_not_claimed_manually_passed"
+    },
+    "completed_date": "2026-10-25",
+    "required_manual_checks_remaining": 0,
+    "retained_review_resources": {
+      "dataset": "TEST CP6",
+      "versions": [
+        1,
+        2
+      ],
+      "dataset_restored": true,
+      "dataset_shared": false,
+      "saved_analysis_retained": true,
+      "dashboard_retained": true,
+      "ordinary_reader_account_retained": true,
+      "dashboard_grant_revoked": true,
+      "cleanup_performed": false
+    }
+  },
+  "checkpoint_completion_scope": "user_narrowed_engineering_scope_and_agreed_focused_installed_review"
+}

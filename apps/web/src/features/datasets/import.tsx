@@ -1,23 +1,26 @@
+import { VerifySavedState } from '@/shared/editing/editing-feedback'
 import { useState, type FormEvent } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router'
 import { z } from 'zod'
 import { useAccounts } from '@/features/accounts/account-context'
 import { datasetRequest, detailSchema, importSchema, metadataSchema, previewSchema, publishedSchema, TYPE_LABELS, uploadSchema, useDatasetResource, type Configuration, type Metadata, type Options, type Preview } from './api'
 import { MetadataFields, Status } from './shared'
+import { mutationMessage, useUnsavedChanges } from '@/shared/editing/unsaved-changes'
 
 export function UploadPage(){
   const{session}=useAccounts(),navigate=useNavigate(),[search]=useSearchParams()
   const[file,setFile]=useState<File|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState('')
   const target=search.get('dataset')
+  const guard=useUnsavedChanges({dirty:!!file,pending:busy,label:'Fichier CSV sélectionné'})
   async function upload(event:FormEvent){
     event.preventDefault();if(!file)return
     if(file.size>10*1024*1024||file.size===0){setError('Choisissez un fichier non vide, de 10 Mio maximum.');return}
     setBusy(true);setError('')
-    try{const result=await datasetRequest('/imports',uploadSchema,{method:'POST',csrfToken:session!.csrfToken,file});navigate(`/donnees/imports/${result.id}${target?'?dataset='+encodeURIComponent(target):''}`)}
-    catch(error){setError(error instanceof Error?error.message:'Import indisponible.')}
+    try{const result=await datasetRequest('/imports',uploadSchema,{method:'POST',csrfToken:session!.csrfToken,file});guard.allowNavigation(()=>navigate(`/donnees/imports/${result.id}${target?'?dataset='+encodeURIComponent(target):''}`))}
+    catch(error){setError(mutationMessage(error))}
     finally{setBusy(false)}
   }
-  return <><Link to="/donnees">← Mes jeux de données</Link><h1>{target?'Ajouter une version CSV':'Importer un CSV'}</h1><p>Le fichier reste privé. Aucun jeu de données ne sera publié avant la validation complète et votre confirmation.</p><ol className="dataset-steps"><li aria-current="step">1. Fichier</li><li>2. Configuration</li><li>3. Description</li><li>4. Validation et publication</li></ol>
+  return <>{guard.dialog}<Link to="/donnees">← Mes jeux de données</Link><h1>{target?'Ajouter une version CSV':'Importer un CSV'}</h1><p>Le fichier reste privé. Aucun jeu de données ne sera publié avant la validation complète et votre confirmation.</p><ol className="dataset-steps"><li aria-current="step">1. Fichier</li><li>2. Configuration</li><li>3. Description</li><li>4. Validation et publication</li></ol>
     <form className="platform-form-card" onSubmit={event=>{void upload(event)}}><label>Fichier CSV<input type="file" accept=".csv,text/csv" required onChange={event=>{setFile(event.target.files?.[0]??null);setError('')}} /></label><p>UTF-8 (avec ou sans BOM) ou Windows-1252. Maximum : 10 Mio, 25 000 lignes, 100 colonnes, 1 000 000 de cellules. Les autres formats ne sont pas encore pris en charge.</p>{error&&<p role="alert" className="platform-error">{error}</p>}<button className="platform-primary" type="submit" disabled={busy||!file}>{busy?'Transfert en cours…':'Préparer l’aperçu'}</button></form><p><a href="/samples/pharmaceutical-presentations.csv" download>Télécharger un exemple pharmaceutique attribué</a> · Observations datées, prix inconnus conservés. <a href="/samples/README.md">Provenance et règles de l’exemple</a></p>
   </>
 }
@@ -36,6 +39,8 @@ function ImportEditor({initial,id,target,targetMetadata}:{initial:Preview&{filen
   const[state,setState]=useState<Preview>(initial),[configuration,setConfiguration]=useState<Configuration>(initial.configuration)
   const[dirty,setDirty]=useState(false),[busy,setBusy]=useState(false),[error,setError]=useState('')
   const[metadata,setMetadata]=useState<Metadata>(targetMetadata?metadataSchema.parse(targetMetadata):{title:initial.filename.replace(/\.csv$/i,''),description:'',category:'',source:'',observationDate:null})
+  const[metadataBaseline]=useState(()=>JSON.stringify(metadata))
+  const guard=useUnsavedChanges({dirty:dirty||JSON.stringify(metadata)!==metadataBaseline,pending:busy,label:'Configuration et description de l’import CSV'})
   const[markers,setMarkers]=useState(configuration.missingMarkers.filter(value=>value!=='').join('\n'))
   function updateOptions(patch:Partial<Options>){setConfiguration(current=>({...current,...patch}));setDirty(true);setError('')}
   function updateColumn(index:number,patch:Partial<Configuration['columns'][number]>){setConfiguration(current=>({...current,columns:current.columns.map((column,ordinal)=>ordinal===index?{...column,...patch}:column)}));setDirty(true);setError('')}
@@ -45,24 +50,24 @@ function ImportEditor({initial,id,target,targetMetadata}:{initial:Preview&{filen
       const{columns,...options}=configuration
       const result=await datasetRequest(`/imports/${id}/${validate?'validate':'preview'}`,previewSchema,{method:'POST',csrfToken:session!.csrfToken,body:{revision:state.revision,options,...(validate&&columns.length&&state.structure.valid?{columns}: {})}})
       setState(result);setConfiguration(result.configuration);setDirty(false)
-    }catch(error){setError(error instanceof Error?error.message:'Configuration indisponible.')}
+    }catch(error){setError(mutationMessage(error))}
     finally{setBusy(false)}
   }
   async function publish(){
     setBusy(true);setError('')
-    try{const result=await datasetRequest(`/imports/${id}/publish`,publishedSchema,{method:'POST',csrfToken:session!.csrfToken,body:{revision:state.revision,metadata,...(target?{datasetId:target}:{})}});navigate(`/donnees/${result.datasetId}?version=${result.versionId}`)}
-    catch(error){setError(error instanceof Error?error.message:'Publication indisponible.')}
+    try{const result=await datasetRequest(`/imports/${id}/publish`,publishedSchema,{method:'POST',csrfToken:session!.csrfToken,body:{revision:state.revision,metadata,...(target?{datasetId:target}:{})}});guard.allowNavigation(()=>navigate(`/donnees/${result.datasetId}?version=${result.versionId}`,{state:{savedNotice:'Version publiée. Les données et leur interprétation ont été enregistrées.'}}))}
+    catch(error){setError(mutationMessage(error))}
     finally{setBusy(false)}
   }
   async function cancel(){
     setBusy(true);setError('')
-    try{await datasetRequest('/imports/'+id,z.undefined(),{method:'DELETE',csrfToken:session!.csrfToken});navigate('/donnees')}
-    catch(error){setError(error instanceof Error?error.message:'Annulation indisponible.')}
+    try{await datasetRequest('/imports/'+id,z.undefined(),{method:'DELETE',csrfToken:session!.csrfToken});guard.allowNavigation(()=>navigate('/donnees'))}
+    catch(error){setError(mutationMessage(error))}
     finally{setBusy(false)}
   }
   const report=dirty?null:state.validation
-  return <><Link to="/donnees">← Mes jeux de données</Link><h1>Préparer {initial.filename}</h1><p>Import temporaire privé · Expire le {new Date(initial.expiresAt).toLocaleString('fr-FR')} (une heure après le transfert). Rechargez cette URL pour vérifier l’état après une interruption.</p><ol className="dataset-steps"><li>1. Fichier transféré</li><li>2. Configuration</li><li>3. Description</li><li>4. Validation et publication</li></ol>
-    {error&&<p role="alert" className="platform-error">{error}</p>}
+  return <>{guard.dialog}<Link to="/donnees">← Mes jeux de données</Link><h1>Préparer {initial.filename}</h1><p>Import temporaire privé · Expire le {new Date(initial.expiresAt).toLocaleString('fr-FR')} (une heure après le transfert). Après une interruption, vérifiez le dernier état accepté dans un autre onglet. Les saisies non enregistrées ne sont pas récupérables après un rechargement accepté.</p><ol className="dataset-steps"><li>1. Fichier transféré</li><li>2. Configuration</li><li>3. Description</li><li>4. Validation et publication</li></ol>
+    {error&&<><p role="alert" className="platform-error">{error}</p><VerifySavedState href={'/donnees/imports/'+id+(target?'?dataset='+encodeURIComponent(target):'')}/></>}
     <fieldset className="dataset-import-controls" disabled={busy} aria-busy={busy}><legend className="sr-only">Configuration et publication du fichier CSV</legend>
     <section className="platform-panel"><h2>Configuration du fichier</h2><div className="dataset-form-grid"><label>Séparateur<select aria-label="Séparateur" value={configuration.delimiter} onChange={event=>updateOptions({delimiter:event.target.value as Options['delimiter']})}><option value="auto">Détection automatique</option><option value=",">Virgule</option><option value=";">Point-virgule</option><option value={'\t'}>Tabulation</option></select></label><label>Encodage<select aria-label="Encodage" value={configuration.encoding} onChange={event=>updateOptions({encoding:event.target.value as Options['encoding']})}><option value="utf-8">UTF-8</option><option value="windows-1252">Windows-1252</option></select></label><label>Séparateur décimal<select aria-label="Séparateur décimal" value={configuration.decimalSeparator} onChange={event=>updateOptions({decimalSeparator:event.target.value as '.'|','})}><option value=".">Point (12.50)</option><option value=",">Virgule (12,50)</option></select></label></div>
       <label className="dataset-checkbox"><input type="checkbox" checked={configuration.trim} onChange={event=>updateOptions({trim:event.target.checked})}/>Retirer les espaces de bord pour l’interprétation (originaux conservés)</label>
@@ -86,7 +91,7 @@ function ImportEditor({initial,id,target,targetMetadata}:{initial:Preview&{filen
     <section className="platform-panel"><h2>{target?'Nouvelle version du jeu de données':'Description du jeu de données'}</h2>{target?<p>Une nouvelle version sera ajoutée à « {metadata.title} ». Les versions existantes et les métadonnées seront conservées.</p>:<MetadataFields value={metadata} onChange={setMetadata}/>}</section>
     <section className="platform-panel"><h2>Valider et publier</h2><p>La validation vérifie toutes les lignes. Aucune ligne mal formée ni valeur invalide n’est supprimée silencieusement.</p><button type="button" disabled={busy} onClick={()=>{void configure(true)}}>{busy?'Traitement en cours…':'Valider tout le fichier'}</button>
       {report&&<div role={report.valid?'status':'alert'}><p>{report.valid?`Validation réussie : ${report.rowCount} lignes, ${report.columnCount} colonnes.`:`Validation refusée : ${report.issueCount} erreur(s). Corrigez la configuration ou le fichier.`}</p>{report.truncated&&<p>Rapport limité aux 1 000 premières erreurs. Corrigez-les puis relancez la validation pour obtenir les suivantes.</p>}{report.issues.slice(0,20).map((issue,index)=><p key={index}>Ligne {issue.row} (source {issue.line}), {issue.column??'structure'} : {issue.message}</p>)}{!report.valid&&<a href={`/platform-api/imports/${id}/report`}>Télécharger le rapport de validation CSV</a>}</div>}
-      <div className="platform-actions"><button type="button" className="platform-primary" disabled={busy||dirty||!report?.valid||!metadata.title.trim()} onClick={()=>{void publish()}}>{target?'Publier la nouvelle version':'Importer et créer le jeu de données'}</button><button type="button" disabled={busy} onClick={()=>{void cancel()}}>Annuler cet import temporaire</button></div>
+      <div className="platform-actions"><button type="button" className="platform-primary" disabled={busy||dirty||!report?.valid||!metadata.title.trim()} onClick={()=>{void publish()}}>{target?'Publier la nouvelle version':'Importer et créer le jeu de données'}</button><button type="button" disabled={busy} onClick={()=>guard.confirmDiscard(()=>{void cancel()})}>Annuler cet import temporaire</button></div>
     </section>
     </fieldset>
   </>

@@ -1,0 +1,172 @@
+{
+  "id": "direction-a",
+  "name": "REGISTRE",
+  "status": "candidate-only",
+  "mode": "operate",
+  "description": "Authoritative analytical editorial system with horizontal navigation, ruled white surfaces and an always-visible desktop parameter/source rail.",
+  "tokens": {
+    "colors": {
+      "ink": "#172b45",
+      "muted": "#52647a",
+      "action": "#174bcc",
+      "actionHover": "#123caa",
+      "focus": "#174bcc",
+      "tint": "#eef3ff",
+      "paper": "#ffffff",
+      "ground": "#f4f6f9",
+      "line": "#cbd4e1",
+      "subtle": "#e6ebf2",
+      "danger": "#a3272d",
+      "success": "#176346",
+      "warning": "#775000",
+      "chartPrimary": "#174bcc",
+      "chartSecondary": "#758aa9",
+      "chartMissing": "#ad5d28"
+    },
+    "typography": {
+      "family": "Segoe UI, sans-serif",
+      "basePx": 16,
+      "bodyLineHeight": 1.5,
+      "headingPx": 30,
+      "mobileHeadingPx": 25,
+      "sectionPx": 19,
+      "dataPx": 14,
+      "chartLabelMinPx": 12,
+      "numerals": "tabular-nums",
+      "headingTracking": "-0.02em"
+    },
+    "spacingPx": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      40,
+      48
+    ],
+    "radiusPx": {
+      "control": 4,
+      "dialog": 6
+    },
+    "borderPx": {
+      "rule": 1,
+      "sectionTop": 3
+    },
+    "shadow": {
+      "dialog": "0 16px 60px #172b4533"
+    }
+  },
+  "layout": {
+    "maxWidthPx": 1512,
+    "desktopPaddingPx": 40,
+    "mobilePaddingPx": 16,
+    "navigation": "Horizontal primary text navigation with 3px current-view underline; wraps into independent horizontal scrolling on narrow phones.",
+    "analysis": "288px fixed configuration rail plus flexible result surface; 260px at intermediate desktop widths. Source remains visible above both. Mobile stacks a closed configuration disclosure followed by legible chart/table results.",
+    "dashboard": "Broad analytical grid: grouped means plus exact table at left, counts and overall mean at right; lower row joins missingness and IQR provenance. No metric tiles.",
+    "assistant": "Conversation and selected-presentation dossier in parallel on desktop; dossier precedes conversation on mobile to expose provenance and recorded price before the composer."
+  },
+  "components": [
+    "Primary/secondary/text buttons",
+    "Native select and labeled textarea",
+    "Source/version band",
+    "Desktop parameter rail / mobile disclosure",
+    "HTML horizontal bar chart",
+    "Scrollable exact data table",
+    "In-flow status",
+    "Provenance disclosure",
+    "Native unsaved-change dialog",
+    "Medication dossier",
+    "Loading/error/empty specimens"
+  ],
+  "states": {
+    "hover": "Restrained pale-blue fill and darker control border",
+    "focus": "3px cobalt outline, offset 4px",
+    "disabled": "Gray text/fill; unavailable save after configuration changes",
+    "changed": "Results cleared immediately; explicit calculation required",
+    "loading": "Static skeleton specimen in system view",
+    "error": "Readable pale-red inline specimen with explicit retry simulation",
+    "empty": "Inline explanation and filter reset simulation",
+    "unsaved": "Native dialog; Stay preserves current fields and Discard allows navigation",
+    "save": "Explicit simulation announcement, never a persisted-success claim"
+  },
+  "motion": {
+    "durationMs": 180,
+    "purpose": "Bar width transition only when fixture state changes; reduced-motion removes transitions; no page entrance sequence"
+  },
+  "breakpointsPx": {
+    "intermediateDesktop": 1100,
+    "stackedWorkspace": 900,
+    "phone": 600,
+    "requiredInspection": [
+      320,
+      390,
+      768,
+      1440
+    ]
+  },
+  "prototype": {
+    "entry": "direction-a.html?view=analysis",
+    "views": [
+      "analysis",
+      "dashboard",
+      "assistant",
+      "system"
+    ],
+    "network": false,
+    "storage": false,
+    "dependencies": false,
+    "realSaving": false,
+    "fixtures": [
+      "cp6-v1.csv",
+      "responses.json"
+    ],
+    "dashboardFilters": "Precomputed all/A/B states; IQR reference remains entire v1 and is explicitly labeled"
+  },
+  "tradeoffs": [
+    "Dense explicit source and method information uses more vertical space than a summary card layout.",
+    "Horizontal navigation is clear for the three proposed views; more production destinations would need deliberate grouping.",
+    "Mobile intentionally prioritizes the selected medication dossier before conversation history; future usability review should verify this ordering."
+  ],
+  "proposedFeedback": {
+    "success": {
+      "foreground": "#176346",
+      "behavior": "Persistent contextual text naming the confirmed operation and saved revision; never inferred from Calculate or a local simulation"
+    },
+    "warning": {
+      "foreground": "#775000",
+      "behavior": "Explicit consequence and next action, color accompanied by text"
+    },
+    "validation": {
+      "foreground": "#a3272d",
+      "behavior": "Linked summary and field-specific instruction; aria-invalid and aria-describedby; retain current input"
+    },
+    "unknownOutcome": "Explain uncertainty; read-only verification before explicit retry, no automatic mutation replay"
+  },
+  "proposedChartSystem": {
+    "categoricalSeries": [
+      "#174bcc",
+      "#007c83",
+      "#8b4c9b",
+      "#8b5c00",
+      "#a53d4d",
+      "#3d6d45",
+      "#5b5f79",
+      "#805749"
+    ],
+    "continuousScale": "Light neutral through the primary data hue; explicit numeric legend and units",
+    "minimumTextPx": {
+      "axis": 12,
+      "value": 14,
+      "exactTable": 14
+    },
+    "redundancy": "Text labels, line dashes/point markers and exact tables; do not rely on hue alone",
+    "scope": "Proposal for all existing chart types; the HTML specimens demonstrate bars only, plus exact tables/missingness. No production palette adopted."
+  },
+  "centralVerification": "REVIEW.md, browser-verification.json and review-verification.json; candidate remains unapproved"
+}

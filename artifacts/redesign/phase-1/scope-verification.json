@@ -1,0 +1,51 @@
+{
+  "verifiedAtUTC": "2026-10-25T23:57:44.622487+00:00",
+  "branch": "feature/ui-ux-redesign",
+  "baseline": "phase-0/production-before.json; tracked apps/web, services, packages/deploy where present, PRODUCT.md and DESIGN.md",
+  "baselineFiles": 254,
+  "changedBaselineFiles": [
+    "apps/web/src/features/accounts/pages.tsx",
+    "apps/web/src/features/analytics/pages.tsx",
+    "apps/web/src/features/analytics/shared.tsx",
+    "apps/web/src/features/chat/components/chat.tsx",
+    "apps/web/src/features/dashboards/pages.tsx",
+    "apps/web/src/features/datasets/api.ts",
+    "apps/web/src/features/datasets/import.tsx",
+    "apps/web/src/features/datasets/pages.tsx"
+  ],
+  "unchangedBaselineFiles": 246,
+  "unexpectedChanges": [],
+  "backendAndContractFilesUnchanged": true,
+  "productAndDesignBaselineUnchanged": true,
+  "packageManifestsUnchanged": true,
+  "newProductionAndTestFiles": [
+    "apps/web/src/shared/editing/unsaved-changes.tsx",
+    "apps/web/src/shared/editing/editing-feedback.tsx",
+    "apps/web/src/shared/editing/unsaved-changes.css",
+    "apps/web/playwright.editing.config.ts",
+    "apps/web/tests/support/editing-api.ts",
+    "apps/web/tests/browser/editing.spec.ts"
+  ],
+  "documentsChanged": [
+    "REDESIGN_PLAN.md",
+    "artifacts/redesign/phase-0/REVIEW.md"
+  ],
+  "implementationSHA256": {
+    "apps/web/src/features/accounts/pages.tsx": "37a9d949e985c792eab09f44040ae81e96053496f144d1a21c2485fc1e8f474b",
+    "apps/web/src/features/analytics/pages.tsx": "e06feaaeba030fc25754cae25f406dcfa4cb7dfac5dacbb00fcb1d45db162d1d",
+    "apps/web/src/features/analytics/shared.tsx": "65f70e9ce4f3f96685136a7f0cf0cf69aec85ad7152ee834060fb06552a12489",
+    "apps/web/src/features/chat/components/chat.tsx": "47ed7856ee66e56a60d948206eef384bba02115f0f6e3ceff927ac53e8f33804",
+    "apps/web/src/features/dashboards/pages.tsx": "3b2e75e2f969f54a09d650096cdc0063af23020dcb0773365ecf0cd8db715066",
+    "apps/web/src/features/datasets/api.ts": "21d8f8e05a8c5c7a1e9d94d99e0d0fb87450e2a2c6c7bb113dfcb49f979f4aad",
+    "apps/web/src/features/datasets/import.tsx": "870875ed8eea3d4969a448ff9d4226bee24ed83d1737b8350c33e7ebb878b1f2",
+    "apps/web/src/features/datasets/pages.tsx": "460dfb355ffa6138c549a4ae3de6d2ac97a03a380a014ee5b0b15aa2ec0b942c",
+    "apps/web/src/shared/editing/unsaved-changes.tsx": "dbf7b134e3f239e2a8458c770f893dc814336fda7e900ad147ddffc929e1dc39",
+    "apps/web/src/shared/editing/editing-feedback.tsx": "c579add7b2516deb3be53d9d892253ff315ebddd215278c92682ab9c2d30eed2",
+    "apps/web/src/shared/editing/unsaved-changes.css": "f086c6ed72b61e8d516af00b3cb0ef49e083e260165da5a45e08cc5a6c956431",
+    "apps/web/playwright.editing.config.ts": "aa89e5402548ed91fb593453f508a8ece2e40abee4996275a7f5242b2df69aa2",
+    "apps/web/tests/support/editing-api.ts": "84cc32ef678e17fb7009797322d7af7b0ab61d03b703d73923a93a4b3184a189",
+    "apps/web/tests/browser/editing.spec.ts": "e1ed6ba4a5df28e954b0dc95e34ef1d8083bea7081435e23f3a35fac99a3d015"
+  },
+  "noNewDraftStorageOrNetworkInGuard": true,
+  "gitCommandsExecutedByThisCheck": false
+}

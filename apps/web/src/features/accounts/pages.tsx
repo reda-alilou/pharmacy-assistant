@@ -1,8 +1,10 @@
+import { VerifySavedState } from '@/shared/editing/editing-feedback'
 import { useEffect, useState, type FormEvent } from 'react'
 import { Link, Navigate, Outlet, useLocation, useNavigate } from 'react-router'
 import { z } from 'zod'
 import { AccountError, accountRequest, sessionSchema, userSchema } from './api'
 import { useAccounts } from './account-context'
+import { mutationMessage, useUnsavedChanges } from '@/shared/editing/unsaved-changes'
 
 function message(error: unknown) { return error instanceof Error ? error.message : 'Le service est indisponible.' }
 export function PlatformLayout() {
@@ -14,8 +16,11 @@ export function PlatformLayout() {
   useEffect(() => { document.title = 'Pharma Analyse'; window.scrollTo(0, 0) }, [location.pathname])
   async function logout() {
     if (!session) return
-    // Editors can warn before session invalidation removes their protected view.
-    if(!window.dispatchEvent(new Event('platform:before-logout',{cancelable:true})))return
+    const event = new CustomEvent('platform:before-logout', { cancelable: true, detail: { proceed: () => { void performLogout() } } })
+    if (window.dispatchEvent(event)) await performLogout()
+  }
+  async function performLogout() {
+    if (!session) return
     setBusy(true); setLogoutError('')
     try {
       await accountRequest('/auth/logout', z.undefined(), { method: 'POST', csrfToken: session.csrfToken })
@@ -51,7 +56,7 @@ export function Protected({ admin = false }: { admin?: boolean }) {
   const location = useLocation()
   if (!session?.user) return <Navigate to="/connexion" state={{ from: location.pathname+location.search }} replace />
   if (admin && session.user.role !== 'admin') return <><h1>Accès non autorisé</h1><p>Cette page est réservée aux administrateurs.</p><Link to="/espace">Retour à mon espace</Link></>
-  return <Outlet />
+  return <Outlet key={session.user.id} />
 }
 export function AuthPage({ register = false }: { register?: boolean }) {
   const { session, setSession, refresh } = useAccounts()
@@ -98,26 +103,38 @@ export function Profile() {
   const [notice, setNotice] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
+  const [displayName, setDisplayName] = useState(user.displayName)
+  const [currentPassword, setCurrentPassword] = useState('')
+  const [password, setPassword] = useState('')
+  const guard = useUnsavedChanges({ dirty: displayName !== user.displayName || !!currentPassword || !!password, pending: busy, label: 'Mon profil' })
   const navigate = useNavigate()
-  async function submit(event: FormEvent<HTMLFormElement>, changePassword: boolean) {
-    event.preventDefault(); const form = new FormData(event.currentTarget)
+  function submit(event: FormEvent<HTMLFormElement>, changePassword: boolean) {
+    event.preventDefault()
     const element = event.currentTarget
+    if (changePassword && displayName !== user.displayName) guard.confirmDiscard(() => { void saveForm(element, true) })
+    else void saveForm(element, changePassword)
+  }
+  async function saveForm(element: HTMLFormElement, changePassword: boolean) {
+    const form = new FormData(element)
     setBusy(true); setNotice(''); setError('')
     try {
       if (changePassword) {
         await accountRequest('/auth/password', z.undefined(), { method: 'POST', csrfToken: session!.csrfToken, body: { currentPassword: form.get('currentPassword'), password: form.get('password') } })
-        element.reset(); setSession(null); await refresh()
+        if (!guard.isActive()) { await refresh(); return }
+        element.reset(); setCurrentPassword(''); setPassword(''); setSession(null); await refresh()
+        // Forced session invalidation has already removed the protected editor.
         navigate('/connexion', { state: { passwordChanged: true } })
       } else {
         const result = await accountRequest(`/users/${user.id}`, z.object({ user: userSchema }).strict(), { method: 'PATCH', csrfToken: session!.csrfToken, body: { displayName: form.get('displayName') } })
-        setSession({ ...session!, user: result.user }); setNotice('Profil enregistré.')
+        if (!guard.isActive()) { await refresh(); return }
+        setSession({ ...session!, user: result.user }); setDisplayName(result.user.displayName); setNotice('Profil enregistré.')
       }
-    } catch (error) { setError(message(error)); if (error instanceof AccountError && [401, 403].includes(error.status)) await refresh() }
+    } catch (error) { setError(mutationMessage(error)); if (error instanceof AccountError && [401, 403].includes(error.status)) await refresh() }
     finally { setBusy(false) }
   }
   return <><h1>Mon profil</h1><p>{user.email} · {user.role === 'admin' ? 'Administrateur' : 'Analyste'}</p><p>L’adresse de connexion reste inchangée. Les conversations de l’assistant restent temporaires et séparées de ce compte.</p>
-    {notice && <p role="status">{notice}</p>}{error && <p role="alert" className="platform-error">{error}</p>}
-    <form className="platform-form-card" aria-label="Modifier le profil" onSubmit={event => { void submit(event, false) }}><h2>Informations personnelles</h2><label>Nom affiché<input key={user.id} name="displayName" defaultValue={user.displayName} required maxLength={80} autoComplete="name" /></label><button type="submit" className="platform-primary" disabled={busy}>Enregistrer le profil</button></form>
-    <form className="platform-form-card" aria-label="Modifier le mot de passe" onSubmit={event => { void submit(event, true) }}><h2>Changer le mot de passe</h2><p>Cette action déconnecte toutes vos sessions. Reconnectez-vous avec le nouveau mot de passe.</p><label>Mot de passe actuel<input name="currentPassword" type="password" autoComplete="current-password" required maxLength={128} /></label><label>Nouveau mot de passe<input name="password" type="password" autoComplete="new-password" required minLength={12} maxLength={128} aria-describedby="new-password-help" /></label><p id="new-password-help">12 à 128 caractères.</p><button type="submit" className="platform-primary" disabled={busy}>Changer le mot de passe</button></form>
+    {guard.dialog}{notice && <p role="status">{notice}</p>}{error && <><p role="alert" className="platform-error">{error}</p><VerifySavedState href="/profil" /></>}
+    <form className="platform-form-card" aria-label="Modifier le profil" onSubmit={event => { void submit(event, false) }}><h2>Informations personnelles</h2><label>Nom affiché<input name="displayName" value={displayName} onChange={event => { setDisplayName(event.target.value); setNotice('') }} disabled={busy} required maxLength={80} autoComplete="name" /></label><button type="submit" className="platform-primary" disabled={busy}>Enregistrer le profil</button></form>
+    <form className="platform-form-card" aria-label="Modifier le mot de passe" onSubmit={event => { void submit(event, true) }}><h2>Changer le mot de passe</h2><p>Cette action déconnecte toutes vos sessions. Reconnectez-vous avec le nouveau mot de passe.</p><label>Mot de passe actuel<input name="currentPassword" value={currentPassword} onChange={event => { setCurrentPassword(event.target.value); setNotice('') }} disabled={busy} type="password" autoComplete="current-password" required maxLength={128} /></label><label>Nouveau mot de passe<input name="password" value={password} onChange={event => { setPassword(event.target.value); setNotice('') }} disabled={busy} type="password" autoComplete="new-password" required minLength={12} maxLength={128} aria-describedby="new-password-help" /></label><p id="new-password-help">12 à 128 caractères.</p><button type="submit" className="platform-primary" disabled={busy}>Changer le mot de passe</button></form>
   </>
 }

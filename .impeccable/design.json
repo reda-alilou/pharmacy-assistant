@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T17:10:19.716Z",
+  "title": "Design Record: Pharma Analyse / Assistant pharmacie",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Shared / assistant teal",
+        "canonical": "#216b60"
+      },
+      "platform-primary": {
+        "role": "primary",
+        "displayName": "Platform green",
+        "canonical": "#17674f"
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Shared / assistant page",
+        "canonical": "#f7f9f6"
+      },
+      "platform-background": {
+        "role": "neutral",
+        "displayName": "Platform page",
+        "canonical": "#f5f8f7"
+      },
+      "destructive": {
+        "role": "tertiary",
+        "displayName": "Shared destructive action",
+        "canonical": "#a14731"
+      },
+      "platform-danger": {
+        "role": "tertiary",
+        "displayName": "Platform error / destructive action",
+        "canonical": "#9f2929"
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "Body",
+        "purpose": "Global Segoe UI and system fallback stack."
+      },
+      "platform-headline": {
+        "displayName": "Platform heading",
+        "purpose": "Sans-serif platform page headings; fluid size."
+      },
+      "assistant-display": {
+        "displayName": "Assistant welcome display",
+        "purpose": "Georgia welcome heading only; width and height rules override the base size."
+      },
+      "technical": {
+        "displayName": "Technical identifiers",
+        "purpose": "Hashes and administrative identifiers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "prompt-hover",
+        "value": "0 3px 9px #15392108",
+        "purpose": "Assistant example-card hover."
+      },
+      {
+        "name": "composer",
+        "value": "0 3px 16px #244d3110",
+        "purpose": "Assistant composer resting state."
+      },
+      {
+        "name": "composer-focus",
+        "value": "0 0 0 2px #3c785011",
+        "purpose": "Composer focus-within; replaces its rest shadow."
+      },
+      {
+        "name": "jump-control",
+        "value": "0 2px 8px #254b2210",
+        "purpose": "Jump-to-latest message control."
+      },
+      {
+        "name": "shared-xs",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "purpose": "Tailwind shared primitive default, sometimes overridden by chat CSS."
+      },
+      {
+        "name": "shared-dialog-lg",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Shared dialog elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "prompt-transition",
+        "value": "border-color 140ms, background-color 140ms, box-shadow 140ms",
+        "purpose": "Assistant prompt-card transition."
+      },
+      {
+        "name": "composer-transition",
+        "value": "border-color 140ms",
+        "purpose": "Assistant composer border change."
+      },
+      {
+        "name": "thinking-dots",
+        "value": "breathe 1.4s infinite",
+        "purpose": "Opacity .35 at 0/60/100%, 1 at 30%; stagger .2s and .4s."
+      },
+      {
+        "name": "spinner",
+        "value": "spin 1s linear infinite",
+        "purpose": "Tailwind loading icon animation."
+      },
+      {
+        "name": "dialog-declared-duration",
+        "value": "200ms",
+        "purpose": "Shared dialog class declaration; does not establish animation-plugin availability."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion: reduce)",
+        "purpose": "Disable animation/transition and smooth scrolling globally."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "assistant-mobile-max",
+        "value": "560px"
+      },
+      {
+        "name": "platform-mobile-max",
+        "value": "650px"
+      },
+      {
+        "name": "assistant-tablet-max",
+        "value": "800px"
+      },
+      {
+        "name": "dashboard-stack-max",
+        "value": "899px"
+      },
+      {
+        "name": "assistant-wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "assistant-short-min-width",
+        "value": "561px"
+      },
+      {
+        "name": "assistant-short-max-height",
+        "value": "800px"
+      },
+      {
+        "name": "shared-sm-min",
+        "value": "40rem"
+      },
+      {
+        "name": "shared-md-min",
+        "value": "48rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Platform primary action",
+      "kind": "button",
+      "refersTo": "platform-primary",
+      "description": "Solid-green platform action, distinct from the shared assistant Button primitive. No custom hover fill is defined in platform CSS.",
+      "html": "<button class=\"ds-platform-primary\">Enregistrer les modifications</button>",
+      "css": ".ds-platform-primary{font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:16px;line-height:1.5;color:#183c34;background:#fff;border:1px solid #a9c4ba;border-radius:.5rem;padding:.65rem 1rem;cursor:pointer;display:inline-block;width:fit-content;background:#17674f;color:#fff;border-color:#17674f;padding:.75rem 1rem;font-weight:600;}.ds-platform-primary:focus-visible{outline:3px solid #31806a;outline-offset:4px;}.ds-platform-primary:disabled{opacity:.6;cursor:wait;}"
+    },
+    {
+      "name": "Platform plain action",
+      "kind": "button",
+      "refersTo": "platform-button",
+      "description": "White native platform button with green-gray border; default action and logout vocabulary.",
+      "html": "<button class=\"ds-platform-button\">Rechercher</button>",
+      "css": ".ds-platform-button{font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:16px;line-height:1.5;color:#183c34;background:#fff;border:1px solid #a9c4ba;border-radius:.5rem;padding:.65rem 1rem;cursor:pointer;}.ds-platform-button:focus-visible{outline:3px solid #31806a;outline-offset:4px;}.ds-platform-button:disabled{opacity:.6;cursor:wait;}"
+    },
+    {
+      "name": "Shared default Button",
+      "kind": "button",
+      "description": "Defined shared default variant as used for dialog actions; individual chat classes may override its dimensions.",
+      "html": "<button class=\"ds-shared-default\">Nouvelle conversation</button>",
+      "css": ".ds-shared-default{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:14px;line-height:20px;font-weight:500;white-space:nowrap;border:0;border-radius:8px;height:36px;padding:8px 16px;cursor:pointer;transition:all 150ms cubic-bezier(.4,0,.2,1);background:#216b60;color:#fff;}.ds-shared-default:hover{background:rgb(33 107 96 / .9);}.ds-shared-default:focus-visible{outline:3px solid #277958;outline-offset:4px;box-shadow:0 0 0 3px rgb(75 128 90 / .5);}.ds-shared-default:disabled{pointer-events:none;opacity:.5;}"
+    },
+    {
+      "name": "Shared outline Button",
+      "kind": "button",
+      "description": "Defined shared outline variant before candidate, new-conversation and retry-specific CSS overrides.",
+      "html": "<button class=\"ds-shared-outline\">Réessayer la question</button>",
+      "css": ".ds-shared-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:14px;line-height:20px;font-weight:500;white-space:nowrap;border:0;border-radius:8px;height:36px;padding:8px 16px;cursor:pointer;transition:all 150ms cubic-bezier(.4,0,.2,1);background:#f7f9f6;color:#304536;border:1px solid #d8e2d5;box-shadow:0 1px 2px 0 rgb(0 0 0 / .05);}.ds-shared-outline:hover{background:#edf3e8;color:#2d5035;}.ds-shared-outline:focus-visible{outline:3px solid #277958;outline-offset:4px;box-shadow:0 0 0 3px rgb(75 128 90 / .5);}.ds-shared-outline:disabled{pointer-events:none;opacity:.5;}"
+    },
+    {
+      "name": "Shared secondary Button",
+      "kind": "button",
+      "description": "Secondary variant used by the assistant refinement action.",
+      "html": "<button class=\"ds-shared-secondary\">Préciser</button>",
+      "css": ".ds-shared-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:14px;line-height:20px;font-weight:500;white-space:nowrap;border:0;border-radius:8px;height:36px;padding:8px 16px;cursor:pointer;transition:all 150ms cubic-bezier(.4,0,.2,1);background:#eaf0e7;color:#37563c;}.ds-shared-secondary:hover{background:rgb(234 240 231 / .8);}.ds-shared-secondary:focus-visible{outline:3px solid #277958;outline-offset:4px;box-shadow:0 0 0 3px rgb(75 128 90 / .5);}.ds-shared-secondary:disabled{pointer-events:none;opacity:.5;}"
+    },
+    {
+      "name": "Shared ghost Button",
+      "kind": "button",
+      "description": "Defined ghost variant; the assistant more-presentations instance adds smaller text and its own green text color.",
+      "html": "<button class=\"ds-shared-ghost\">Présentations suivantes</button>",
+      "css": ".ds-shared-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:14px;line-height:20px;font-weight:500;white-space:nowrap;border:0;border-radius:8px;height:36px;padding:8px 16px;cursor:pointer;transition:all 150ms cubic-bezier(.4,0,.2,1);background:transparent;color:#304536;}.ds-shared-ghost:hover{background:#edf3e8;color:#2d5035;}.ds-shared-ghost:focus-visible{outline:3px solid #277958;outline-offset:4px;box-shadow:0 0 0 3px rgb(75 128 90 / .5);}.ds-shared-ghost:disabled{pointer-events:none;opacity:.5;}"
+    },
+    {
+      "name": "Platform text field",
+      "kind": "input",
+      "refersTo": "platform-input",
+      "description": "Panel field with the effective later .65rem padding. Auth fields additionally inherit 600 weight.",
+      "html": "<label class=\"ds-field-label\">Titre<input class=\"ds-platform-field\" value=\"Analyse pharmaceutique\" /></label>",
+      "css": ".ds-field-label{display:grid;gap:.35rem;margin:.7rem 0;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:.95rem;line-height:1.5;color:#183c34;}.ds-platform-field{max-width:100%;font:inherit;color:#183c34;background:#fff;border:1px solid #9db7ab;border-radius:.45rem;padding:.65rem;}.ds-platform-field:focus-visible{outline:3px solid #31806a;outline-offset:4px;}"
+    },
+    {
+      "name": "Platform header navigation",
+      "kind": "nav",
+      "description": "Wrapping text-link navigation with a separate brand. The header stacks at 650px; no drawer or active global marker is defined.",
+      "html": "<header class=\"ds-platform-header\"><a class=\"ds-platform-brand\" href=\"#accueil\">Pharma Analyse</a><nav class=\"ds-platform-nav\" aria-label=\"Navigation principale\"><a href=\"#donnees\">Mes données</a><a href=\"#analyses\">Mes analyses</a><a href=\"#tableaux\">Mes tableaux de bord</a></nav></header>",
+      "css": ".ds-platform-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.2rem;font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;line-height:1.5;background:white;color:#183c34;border-bottom:1px solid #d8e4df;}.ds-platform-header a{color:#17674f;text-underline-offset:4px;}.ds-platform-brand{font-size:1.2rem;font-weight:750;white-space:nowrap;text-decoration:none;}.ds-platform-nav{display:flex;flex-wrap:wrap;align-items:center;gap:1rem;font-size:.9rem;}.ds-platform-nav a{text-decoration:none;}.ds-platform-header a:focus-visible{outline:3px solid #31806a;outline-offset:4px;}@media(max-width:650px){.ds-platform-header{align-items:flex-start;flex-direction:column;}.ds-platform-nav{gap:.9rem;}}"
+    },
+    {
+      "name": "Active dataset filter chip",
+      "kind": "chip",
+      "description": "Outlined active-filter text with an inline plain removal button; distinct from the dosage Badge.",
+      "html": "<span class=\"ds-filter-chip\">group : Égal à A <button class=\"ds-filter-remove\">Retirer</button></span>",
+      "css": ".ds-filter-chip{font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:.85rem;line-height:1.5;color:#183c34;border:1px solid #b8ccc2;border-radius:.4rem;padding:.4rem;overflow-wrap:anywhere;}.ds-filter-remove{font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:16px;line-height:1.5;color:#183c34;background:#fff;border:1px solid #a9c4ba;border-radius:.5rem;padding:.65rem 1rem;cursor:pointer;font:inherit;}.ds-filter-remove:focus-visible{outline:3px solid #31806a;outline-offset:4px;}.ds-filter-remove:disabled{opacity:.6;cursor:wait;}"
+    },
+    {
+      "name": "Platform panel",
+      "kind": "card",
+      "refersTo": "platform-panel",
+      "description": "White bordered panel used for platform forms, lists, descriptions and feedback sections, without an elevation shadow.",
+      "html": "<section class=\"ds-platform-panel\"><h2>Sources et périmètre</h2><p>Version explicite et filtres de la source.</p></section>",
+      "css": ".ds-platform-panel{font-family:'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;font-size:16px;line-height:1.5;color:#183c34;border:1px solid #d8e4df;border-radius:1rem;padding:clamp(1.2rem,3vw,2rem);margin:1.3rem 0;background:white;}.ds-platform-panel h2{font-size:1.2rem;font-weight:650;margin:0 0 .75rem;}.ds-platform-panel p{line-height:1.65;margin:.8rem 0;max-width:760px;}"
+    }
+  ],
+  "narrative": {
+    "overview": "This is a descriptive record of the frontend in `apps/web/`, captured on **2026-10-25**. It records implemented values, layout patterns and states. It does not endorse their quality, establish a new creative direction, or make every incidental value a requirement for a future redesign. A separate comprehensive UI/UX critique is pending. Product facts remain in [PRODUCT.md](PRODUCT.md).\n\nThere are two related but distinct presentations. The platform uses a pale green-gray page, white bordered panels, green sans-serif headings, native form controls and long vertical task pages. The assistant uses a lighter green-tinted page, a centered serif welcome heading with an italic second line, compact example prompts, message bubbles, source-aware result cards and a bottom composer. Both use rounded rectangles and green accents. Neither has a user-facing theme switch; the root declares a light color scheme, although shared component definitions contain some dark-mode utility variants.",
+    "keyCharacteristics": [
+      "Platform panels and forms define most screen structure; the assistant has its own narrower conversation layout.",
+      "Platform styling is predominantly direct CSS; assistant controls combine shared Tailwind/Radix primitives with direct CSS overrides.",
+      "Most grouping uses borders and pale surfaces; small shadows occur on assistant interaction surfaces and shared dialogs.",
+      "Navigation is a wrapping text-link header, with local tabs and back links inside task pages.",
+      "Type, spacing, corner radii and color values vary by surface. There is no single enforced scale covering the whole application."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** distinguish the platform and assistant values, including their separate accent colors, typography and control systems.",
+      "**Do** follow current source order and specificity when reconstructing a state; retain the final mobile corrections and the short-viewport override in baseline comparisons.",
+      "**Do** identify whether evidence is a current live capture, current source or an older retained screenshot.",
+      "**Do** keep source/version labels, exact table alternatives, state feedback and keyboard paths visible when evaluating the existing design."
+    ],
+    "donts": [
+      "**Don't** treat this inventory as an endorsement, redesign brief or instruction to preserve every visual choice indefinitely.",
+      "**Don't** invent a creative north star, palette ramp, universal spacing scale, active-navigation treatment, dark theme or component state that the current implementation does not establish.",
+      "**Don't** turn an old screenshot into evidence of current global navigation or fresh authenticated verification.",
+      "**Don't** change application code, styles, components or functionality as part of this documentation pass. Design decisions follow the separate UI/UX critique requested by the user."
+    ]
+  }
+}

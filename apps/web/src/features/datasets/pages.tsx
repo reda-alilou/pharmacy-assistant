@@ -1,3 +1,4 @@
+import { VerifySavedState } from '@/shared/editing/editing-feedback'
 import { useState, type FormEvent } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router'
 import { z } from 'zod'
@@ -5,6 +6,7 @@ import { useAccounts } from '@/features/accounts/account-context'
 import { datasetRequest, dependenciesSchema, detailSchema, listSchema, rowsSchema, TYPE_LABELS, useDatasetResource, versionDetailSchema, versionSchema, type Column, type DataQuery, type Dataset, type Filter, type Metadata } from './api'
 import { Cell, MetadataFields, Status } from './shared'
 import { SharingPanel } from '@/features/sharing/panel'
+import { mutationMessage, useSaveNotice, useUnsavedChanges } from '@/shared/editing/unsaved-changes'
 
 export function DatasetsPage(){
   const{session}=useAccounts()
@@ -17,36 +19,38 @@ export function DatasetsPage(){
 const tabs=[['overview','Vue d’ensemble'],['data','Données'],['columns','Colonnes'],['analysis','Analyse'],['quality','Qualité'],['versions','Versions']] as const
 export function DatasetPage(){
   const{session}=useAccounts()
-  const{id}=useParams<{id:string}>(),[search,setSearch]=useSearchParams(),[nonce,setNonce]=useState(0)
-  const detail=useDatasetResource(id?'/datasets/'+id:null,detailSchema,nonce)
+  const{id}=useParams<{id:string}>(),[search,setSearch]=useSearchParams()
+  const detail=useDatasetResource(id?'/datasets/'+id:null,detailSchema)
+  const[publicationNotice,setPublicationNotice]=useSaveNotice()
   if(!detail.data)return <Status error={detail.error}/>
   const dataset=detail.data.dataset
   const own=dataset.ownerId===session?.user?.id
   const versionId=search.get('version')??detail.data.versions[0]?.id
   const active=tabs.some(([tab])=>tab===search.get('tab'))?search.get('tab')!:'overview'
-  const tab=(value:string)=>setSearch(current=>{current.set('tab',value);return current})
+  const tab=(value:string)=>{setPublicationNotice('');setSearch(current=>{const next=new URLSearchParams(current);next.set('tab',value);return next})}
   if(dataset.suspended)return <><Link to="/donnees">← Mes jeux de données</Link><h1>{dataset.title}</h1><p role="alert">Source indisponible : dataset suspendu par l’administration.</p><p>{dataset.suspensionReason}</p><p>Les données et configurations sont conservées. Seule l’administration peut rétablir l’utilisation. Les révocations restent possibles.</p>{own&&<SharingPanel path={'/datasets/'+dataset.id} kind="dataset"/>}</>
   return <><Link to="/donnees">← Mes jeux de données</Link><h1>{dataset.title}</h1><p>{dataset.archived?'Archivé · ':''}{own?'vous êtes propriétaire':'partagé en lecture seule'} · Propriétaire : {dataset.ownerName} · {dataset.versionCount} version(s)</p>
-    <div className="platform-actions">{own&&!dataset.archived&&<Link className="platform-primary" to={'/donnees/importer?dataset='+id}>Ajouter une version CSV</Link>}<label>Version consultée<select aria-label="Version consultée" value={versionId} onChange={event=>setSearch(current=>{current.set('version',event.target.value);return current})}>{versionId&&!detail.data.versions.some(version=>version.id===versionId)&&<option value={versionId}>Version de l’URL</option>}{detail.data.versions.map(version=><option key={version.id} value={version.id}>Version {version.number} · {version.filename}</option>)}</select></label></div>
-    <nav className="dataset-tabs" aria-label="Vues du jeu de données">{tabs.map(([key,label])=><button type="button" key={key} aria-current={active===key?'page':undefined} onClick={()=>tab(key)}>{label}</button>)}</nav>
+    <div className="platform-actions">{own&&!dataset.archived&&<Link className="platform-primary" to={'/donnees/importer?dataset='+id}>Ajouter une version CSV</Link>}<label>Version consultée<select aria-label="Version consultée" value={versionId} onChange={event=>setSearch(current=>{const next=new URLSearchParams(current);next.set('version',event.target.value);return next})}>{versionId&&!detail.data.versions.some(version=>version.id===versionId)&&<option value={versionId}>Version de l’URL</option>}{detail.data.versions.map(version=><option key={version.id} value={version.id}>Version {version.number} · {version.filename}</option>)}</select></label></div>
+    {publicationNotice&&<p role="status">{publicationNotice}</p>}<nav className="dataset-tabs" aria-label="Vues du jeu de données">{tabs.map(([key,label])=><button type="button" key={key} aria-current={active===key?'page':undefined} onClick={()=>tab(key)}>{label}</button>)}</nav>
     {versionId&&active==='analysis'&&<section className="platform-panel"><h2>Analyser cette version</h2><p>Agrégations, modèles pharmaceutiques, valeurs manquantes, signalements IQR, recommandations et comparaison explicite. Les configurations peuvent être enregistrées en privé.</p><Link className="platform-primary" to={`/analyses/nouvelle?dataset=${dataset.id}&version=${versionId}`}>Créer une analyse de cette version</Link></section>}
-    {active==='overview'&&<Overview key={dataset.revision} dataset={dataset} refresh={()=>setNonce(nonce+1)}/>}
+    {active==='overview'&&<Overview key={dataset.id} dataset={dataset} refresh={detail.update}/>}
     {versionId&&active==='data'&&<DataTable key={versionId} datasetId={dataset.id} versionId={versionId}/>}
     {versionId&&(active==='columns'||active==='quality')&&<ColumnProfiles datasetId={dataset.id} versionId={versionId} quality={active==='quality'}/>}
     {active==='versions'&&<Versions datasetId={dataset.id} count={dataset.versionCount} onSelect={version=>setSearch({version,tab:'data'})}/>}
     {active==='overview'&&own&&<SharingPanel path={'/datasets/'+dataset.id} kind="dataset"/>}
   </>
 }
-function Overview({dataset,refresh}:{dataset:Dataset;refresh:()=>void}){
+function Overview({dataset,refresh}:{dataset:Dataset;refresh:(data:z.infer<typeof detailSchema>)=>void}){
   const{session}=useAccounts(),navigate=useNavigate()
   const[metadata,setMetadata]=useState<Metadata>({title:dataset.title,description:dataset.description,category:dataset.category,source:dataset.source,observationDate:dataset.observationDate})
   const[busy,setBusy]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState(''),[dependencies,setDependencies]=useState<z.infer<typeof dependenciesSchema>|null>(null),[confirmTitle,setConfirmTitle]=useState('')
   const stored:Metadata={title:dataset.title,description:dataset.description,category:dataset.category,source:dataset.source,observationDate:dataset.observationDate}
   const dirty=JSON.stringify(stored)!==JSON.stringify(metadata)
+  const guard=useUnsavedChanges({dirty:dataset.ownerId===session?.user?.id&&dirty,pending:busy,label:'Métadonnées du jeu de données',shouldBlock:({currentLocation,nextLocation})=>currentLocation.pathname!==nextLocation.pathname||!['overview',null].includes(new URLSearchParams(nextLocation.search).get('tab'))})
   async function update(archive:boolean){
     setBusy(true);setError('');setNotice('')
-    try{await datasetRequest('/datasets/'+dataset.id,detailSchema,{method:'PATCH',csrfToken:session!.csrfToken,body:{...metadata,archived:archive,revision:dataset.revision}});setNotice('Modifications enregistrées.');refresh()}
-    catch(error){setError(error instanceof Error?error.message:'Modification indisponible.')}
+    try{const response=await datasetRequest('/datasets/'+dataset.id,detailSchema,{method:'PATCH',csrfToken:session!.csrfToken,body:{...metadata,archived:archive,revision:dataset.revision}});const saved=response.dataset;setMetadata({title:saved.title,description:saved.description,category:saved.category,source:saved.source,observationDate:saved.observationDate});setNotice('Modifications enregistrées.');refresh(response)}
+    catch(error){setError(mutationMessage(error))}
     finally{setBusy(false)}
   }
   async function inspectDelete(){
@@ -58,13 +62,13 @@ function Overview({dataset,refresh}:{dataset:Dataset;refresh:()=>void}){
   async function remove(){
     if(!dependencies)return
     setBusy(true);setError('')
-    try{await datasetRequest('/datasets/'+dataset.id,z.undefined(),{method:'DELETE',csrfToken:session!.csrfToken,body:{revision:dependencies.revision,confirmTitle}});navigate('/donnees')}
+    try{await datasetRequest('/datasets/'+dataset.id,z.undefined(),{method:'DELETE',csrfToken:session!.csrfToken,body:{revision:dependencies.revision,confirmTitle}});guard.allowNavigation(()=>navigate('/donnees'))}
     catch(error){setError(error instanceof Error?error.message:'Suppression indisponible.')}
     finally{setBusy(false)}
   }
   if(dataset.ownerId!==session?.user?.id)return <section className="platform-panel"><h2>Informations et provenance</h2><p>Dataset partagé en lecture seule. Vous pouvez explorer et créer vos analyses ; seul le propriétaire modifie les métadonnées, les versions et les accès.</p><dl><dt>Description</dt><dd>{dataset.description||'Aucune.'}</dd><dt>Catégorie</dt><dd>{dataset.category||'Non renseignée.'}</dd><dt>Source déclarée</dt><dd>{dataset.source||'Non renseignée.'}</dd><dt>Date d’observation</dt><dd>{dataset.observationDate||'Non renseignée.'}</dd></dl></section>
-  return <>{error&&<p role="alert" className="platform-error">{error}</p>}{notice&&<p role="status">{notice}</p>}<section className="platform-panel"><h2>Informations et provenance</h2><p>Créé le {new Date(dataset.createdAt).toLocaleString('fr-FR')}. La source et la date d’observation sont déclarées par le propriétaire ; elles ne prouvent pas une donnée actuelle.</p><form onSubmit={event=>{event.preventDefault();void update(dataset.archived)}}><MetadataFields value={metadata} onChange={setMetadata} disabled={busy}/><button type="submit" className="platform-primary" disabled={busy}>Enregistrer les métadonnées</button></form></section>
-    <section className="platform-panel"><h2>{dataset.archived?'Restaurer dans mon espace':'Archiver'}</h2><p>L’archivage masque ce jeu de données de la liste normale tout en conservant ses versions et ses dépendances.</p>{dirty&&<p>Enregistrez les métadonnées avant l’archivage, ou <button type="button" disabled={busy} onClick={()=>setMetadata(stored)}>Annuler les modifications des métadonnées</button>.</p>}<button type="button" disabled={busy||dirty} onClick={()=>{void update(!dataset.archived)}}>{dataset.archived?'Restaurer le jeu de données':'Archiver le jeu de données'}</button></section>
+  return <>{guard.dialog}{error&&<><p role="alert" className="platform-error">{error}</p><VerifySavedState href={'/donnees/'+dataset.id}/></>}{notice&&<p role="status">{notice}</p>}<section className="platform-panel"><h2>Informations et provenance</h2><p>Créé le {new Date(dataset.createdAt).toLocaleString('fr-FR')}. La source et la date d’observation sont déclarées par le propriétaire ; elles ne prouvent pas une donnée actuelle.</p><form onSubmit={event=>{event.preventDefault();void update(dataset.archived)}}><MetadataFields value={metadata} onChange={value=>{setMetadata(value);setNotice('')}} disabled={busy}/><button type="submit" className="platform-primary" disabled={busy}>Enregistrer les métadonnées</button></form></section>
+    <section className="platform-panel"><h2>{dataset.archived?'Restaurer dans mon espace':'Archiver'}</h2><p>L’archivage masque ce jeu de données de la liste normale tout en conservant ses versions et ses dépendances.</p>{dirty&&<p>Enregistrez les métadonnées avant l’archivage, ou <button type="button" disabled={busy} onClick={()=>guard.confirmDiscard(()=>{setMetadata(stored);setNotice('Modifications abandonnées.');setError('')})}>Annuler les modifications des métadonnées</button>.</p>}<button type="button" disabled={busy||dirty} onClick={()=>{void update(!dataset.archived)}}>{dataset.archived?'Restaurer le jeu de données':'Archiver le jeu de données'}</button></section>
     <section className="platform-panel"><h2>Suppression définitive</h2><p>La suppression retire toutes les versions et leurs lignes. Les dépendances et les partages doivent être examinés avant confirmation.</p><button type="button" disabled={busy} onClick={()=>{void inspectDelete()}}>Vérifier les dépendances avant suppression</button>
       {dependencies&&<div className="dataset-delete-review"><h3>Confirmer la suppression</h3><p>{dependencies.versionCount} version(s) seront supprimées. {dependencies.dependencies.filter(dependency=>dependency.kind==='share').length} partage(s), {dependencies.dependencies.filter(dependency=>dependency.kind!=='share').length} analyse(s)/tableau(x) dépendant(s).</p>{dependencies.dependencies.map(dependency=><p key={dependency.resourceId}>{dependency.kind} : {dependency.label}</p>)}{!dependencies.canDelete?<p role="alert">Suppression bloquée : retirez ou migrez explicitement les dépendances. Gérez les analyses, les tableaux de bord et les accès partagés concernés avant de supprimer les données.</p>:<><label>Recopiez le titre pour confirmer<input value={confirmTitle} onChange={event=>setConfirmTitle(event.target.value)}/></label><button type="button" className="dataset-danger" disabled={busy||confirmTitle!==dependencies.title} onClick={()=>{void remove()}}>Supprimer définitivement toutes les versions</button></>}<button type="button" onClick={()=>{setDependencies(null);setConfirmTitle('')}} disabled={busy}>Annuler la suppression</button></div>}
     </section></>

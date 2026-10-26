@@ -1,0 +1,83 @@
+{
+  "kind": "static prototype specimens only",
+  "interactions": [
+    {
+      "direction": "a",
+      "escapeRetainsEditedValue": true,
+      "calculatePreset": "sum"
+    },
+    {
+      "direction": "a",
+      "groupB": {
+        "rows": 5,
+        "mean": "87,50",
+        "missingPercent": 20
+      },
+      "localPresetVisible": true
+    },
+    {
+      "direction": "a",
+      "assistantIdentityPriceDateSourceVisible": true
+    },
+    {
+      "direction": "b",
+      "escapeRetainsEditedValue": true,
+      "calculatePreset": "count"
+    },
+    {
+      "direction": "b",
+      "groupB": {
+        "rows": 5,
+        "mean": "87,50",
+        "missingPercent": 20
+      },
+      "localPresetVisible": true
+    },
+    {
+      "direction": "b",
+      "assistantIdentityPriceDateSourceVisible": true
+    },
+    {
+      "direction": "c",
+      "escapeRetainsEditedValue": true,
+      "calculatePreset": "sum"
+    },
+    {
+      "direction": "c",
+      "groupB": {
+        "rows": 5,
+        "mean": "87,50",
+        "missingPercent": 20
+      },
+      "localPresetVisible": true
+    },
+    {
+      "direction": "c",
+      "assistantIdentityPriceDateSourceVisible": true
+    }
+  ],
+  "gallery": [
+    {
+      "width": 1440,
+      "horizontalOverflow": false,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "horizontalOverflow": false,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "horizontalOverflow": false,
+      "violations": []
+    },
+    {
+      "width": 320,
+      "horizontalOverflow": false,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

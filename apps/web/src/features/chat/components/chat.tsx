@@ -6,6 +6,7 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, 
 import { Results } from '@/features/results/components/results'
 import { ConversationController } from '@/features/chat/state/conversation'
 import { Link } from 'react-router'
+import { useUnsavedChanges } from '@/shared/editing/unsaved-changes'
 
 const examples = [
   { title: 'Le prix d’un médicament', question: 'Quel est le prix de ABIP ?', icon: Pill },
@@ -17,6 +18,7 @@ function Chat() {
   const [controller] = useState(() => new ConversationController())
   const state = useSyncExternalStore(controller.subscribe, controller.getSnapshot)
   const [draft, setDraft] = useState('')
+  const guard = useUnsavedChanges({ dirty: draft.length > 0, pending: state.busy, label: 'Question non envoyée' })
   const [resetOpen, setResetOpen] = useState(false)
   const [resetFailed, setResetFailed] = useState(false)
   const [now, setNow] = useState(() => Date.now())
@@ -45,7 +47,7 @@ function Chat() {
     else setResetFailed(true)
   }
 
-  return <div className={state.messages.length ? 'app-shell is-chat' : 'app-shell is-welcome'}><a className="skip-link" href="#conversation">Aller à la conversation</a>
+  return <div className={state.messages.length ? 'app-shell is-chat' : 'app-shell is-welcome'}>{guard.dialog}<a className="skip-link" href="#conversation">Aller à la conversation</a>
     <nav className="assistant-platform-nav" aria-label="Navigation plateforme"><Link to="/">Pharma Analyse · Accueil</Link><Link to="/espace">Mon espace</Link></nav>
     <header className="app-header"><div className="header-inner"><a className="brand" href="#conversation" aria-label="Assistant pharmacie, accueil"><span className="brand-mark"><Cross size={22} strokeWidth={1.8} aria-hidden="true" /></span><span>Assistant<span className="brand-second"> pharmacie</span></span></a>
       <div className="header-right"><span className="header-context">Un repère, des informations sourcées.</span><AlertDialog open={resetOpen} onOpenChange={setResetOpen}><AlertDialogTrigger asChild><Button variant="outline" className="new-conversation" disabled={state.busy || state.loading || !hasConversation}><MessageSquarePlus size={16} aria-hidden="true" /><span>Nouvelle conversation</span></Button></AlertDialogTrigger>

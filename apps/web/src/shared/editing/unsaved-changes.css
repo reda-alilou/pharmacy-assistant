@@ -1,0 +1,26 @@
+.editing-confirmation {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(32rem, calc(100% - 2rem));
+  max-height: calc(100svh - 2rem);
+  overflow: auto;
+  padding: 1.5rem;
+  border: 0;
+  border-radius: .5rem;
+  background: #fff;
+  color: #203b32;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 22%);
+  font: 1rem/1.5 'Segoe UI', sans-serif;
+}
+.editing-confirmation::backdrop { background: rgb(23 62 52 / 45%); }
+dialog.editing-confirmation h2 { font-size: 1.375rem; font-weight: 650; margin: 0 0 .75rem; }
+dialog.editing-confirmation p { margin: .75rem 0; line-height: 1.5; }
+.editing-confirmation-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .75rem; margin-top: 1.5rem; }
+.editing-confirmation button { min-height: 2.75rem; padding: .625rem 1rem; border: 1px solid #9eaf9f; border-radius: .375rem; background: white; color: #203b32; font: inherit; cursor: pointer; }
+.editing-confirmation button:hover { background: #edf3ee; }
+.editing-confirmation button.editing-stay { background: #173e34; border-color: #173e34; color: white; }
+.editing-confirmation button.editing-stay:hover { background: #255246; }
+.editing-confirmation :focus-visible { outline: 3px solid #9d6615; outline-offset: 3px; }
+.editing-confirmation ::selection { background: #dfe8d7; color: #173e34; }
+@media (max-width: 390px) { .editing-confirmation-actions { flex-direction: column; } }

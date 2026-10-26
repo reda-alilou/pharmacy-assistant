@@ -1,0 +1,17 @@
+{
+  "verifiedAtUTC": "2026-10-25T21:57:48.978190+00:00",
+  "baselineFiles": 254,
+  "changed": [],
+  "missing": [],
+  "newUntrackedProductionFiles": [],
+  "scope": "tracked production files from apps/web, services, packages, deploy; PRODUCT.md and DESIGN.md",
+  "baselineContextUnchanged": true,
+  "prototypeNetworkOrStorageAPIMatches": {
+    "direction-a.html": [],
+    "direction-b.html": [],
+    "direction-c.html": []
+  },
+  "result": "pass",
+  "preexistingWork": "services/platform/README.md was already modified; its bytes match the Phase 0 starting snapshot",
+  "outsideArtifactModification": "REDESIGN_PLAN.md modified; .impeccable/config.json created by requested hook triage with file-scoped proposal exceptions only"
+}

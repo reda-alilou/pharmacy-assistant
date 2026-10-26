@@ -1,0 +1,27 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "artifacts/redesign/phase-0/direction-b.html",
+          "artifacts/redesign/phase-0/direction-c.html"
+        ],
+        "createdAt": "2026-10-25T21:57:03.393Z",
+        "reason": "Agent: intentional isolated Phase 0 comparison studies. Traverse uses a forest and sage palette with a warm work canvas; Cahier uses warm paper with oxblood document styling. Documented in candidate specifications. User authorized different visual proposals but has not selected either direction."
+      },
+      {
+        "rule": "design-system-font",
+        "value": "cambria",
+        "files": [
+          "artifacts/redesign/phase-0/direction-c.html"
+        ],
+        "createdAt": "2026-10-25T21:57:12.723Z",
+        "reason": "Agent: intentional Cambria headings in the isolated Cahier Phase 0 report proposal, documented in direction-c-system.md. User authorized replacing incumbent typography for exploration; DESIGN.md remains the unchanged current implementation baseline. This is not approval of Cahier."
+      }
+    ]
+  }
+}

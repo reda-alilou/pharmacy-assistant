@@ -1,0 +1,1137 @@
+{
+  "kind": "isolated static fixtures; no production or API verification",
+  "captures": [
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Nouvelle analyse",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 992,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/a-analysis-desktop.png"
+    },
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Nouvelle analyse",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 390.234375,
+          "scrollRegion": true
+        }
+      ],
+      "screenshot": "screenshots/a-analysis-mobile.png"
+    },
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Nouvelle analyse",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 390.234375,
+          "scrollRegion": true
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Nouvelle analyse",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 672,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Tableau de bord CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 777.65625,
+          "scrollRegion": false
+        },
+        {
+          "width": 485.328125,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/a-dashboard-desktop.png"
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Tableau de bord CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 390.234375,
+          "scrollRegion": true
+        },
+        {
+          "width": 326,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/a-dashboard-mobile.png"
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Tableau de bord CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 390.234375,
+          "scrollRegion": true
+        },
+        {
+          "width": 256,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Tableau de bord CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 422.234375,
+          "scrollRegion": true
+        },
+        {
+          "width": 312,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/a-assistant-desktop.png"
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/a-assistant-mobile.png"
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Composants et états",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/a-system-desktop.png"
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Composants et états",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/a-system-mobile.png"
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Composants et états",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Composants et états",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 419.625,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-analysis-desktop.png"
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 322,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-analysis-mobile.png"
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 252,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 670,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-dashboard-desktop.png"
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-dashboard-mobile.png"
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-assistant-desktop.png"
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-assistant-mobile.png"
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-system-desktop.png"
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/b-system-mobile.png"
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Du jeu de données au résultat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 0,
+          "scrollRegion": false
+        },
+        {
+          "width": 0,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Prix public par groupe",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 516.671875,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-analysis-desktop.png"
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Prix public par groupe",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 358,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-analysis-mobile.png"
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Prix public par groupe",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 288,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Prix public par groupe",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 316.671875,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Revue des observations CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 420,
+          "scrollRegion": false
+        },
+        {
+          "width": 420,
+          "scrollRegion": false
+        },
+        {
+          "width": 420,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-dashboard-desktop.png"
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Revue des observations CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 358,
+          "scrollRegion": false
+        },
+        {
+          "width": 358,
+          "scrollRegion": false
+        },
+        {
+          "width": 358,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-dashboard-mobile.png"
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Revue des observations CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 288,
+          "scrollRegion": false
+        },
+        {
+          "width": 288,
+          "scrollRegion": false
+        },
+        {
+          "width": 288,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Revue des observations CP6",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 484,
+          "scrollRegion": false
+        },
+        {
+          "width": 484,
+          "scrollRegion": false
+        },
+        {
+          "width": 484,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 920,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-assistant-desktop.png"
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 358,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": "screenshots/c-assistant-mobile.png"
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 288,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Assistant pharmacie",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [
+        {
+          "width": 712,
+          "scrollRegion": false
+        }
+      ],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "heading": "Cahier · système candidat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/c-system-desktop.png"
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "mobile",
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "viewport": 390,
+      "heading": "Cahier · système candidat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": "screenshots/c-system-mobile.png"
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "narrow",
+      "width": 320,
+      "height": 720,
+      "documentWidth": 320,
+      "viewport": 320,
+      "heading": "Cahier · système candidat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "tablet",
+      "width": 768,
+      "height": 1024,
+      "documentWidth": 768,
+      "viewport": 768,
+      "heading": "Cahier · système candidat",
+      "horizontalOverflow": false,
+      "smallText": [],
+      "tables": [],
+      "screenshot": null
+    }
+  ],
+  "interactions": [
+    {
+      "direction": "a",
+      "warning": true,
+      "stayRetainsView": true,
+      "discardNavigates": true
+    },
+    {
+      "direction": "b",
+      "warning": true,
+      "stayRetainsView": true,
+      "discardNavigates": true
+    },
+    {
+      "direction": "c",
+      "warning": true,
+      "stayRetainsView": true,
+      "discardNavigates": true
+    }
+  ],
+  "externalRequests": [],
+  "errors": [],
+  "accessibility": [
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "analysis",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "dashboard",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "assistant",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "a",
+      "view": "system",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "analysis",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "dashboard",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "assistant",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "b",
+      "view": "system",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "analysis",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "dashboard",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "assistant",
+      "label": "mobile",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "desktop",
+      "violations": []
+    },
+    {
+      "direction": "c",
+      "view": "system",
+      "label": "mobile",
+      "violations": []
+    }
+  ]
+}

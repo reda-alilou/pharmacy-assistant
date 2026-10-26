@@ -53,7 +53,8 @@ export function useDatasetResource<T>(path:string|null,schema:z.ZodType<T>,nonce
     if(path)void datasetRequest(path,schema,csrf?{method:'POST',csrfToken:csrf,body:JSON.parse(body!)}:undefined).then(data=>{if(active)setState({key,data,error:''})}).catch(error=>{if(active)setState({key,data:null,error:error instanceof Error?error.message:'Service indisponible.'})})
     return()=>{active=false}
   },[path,schema,body,csrf,key])
-  return state.key===key?state:{key,data:null,error:''}
+  const update=(data:T)=>setState({key,data,error:''})
+  return {...(state.key===key?state:{key,data:null,error:''}),update}
 }
 export const DEFAULT_OPTIONS:Options={delimiter:'auto',encoding:'utf-8',decimalSeparator:'.',trim:false,missingMarkers:['']}
 export const TYPE_LABELS:Record<Column['type'],string>={text:'Texte',integer:'Entier',decimal:'Décimal',boolean:'Booléen',date:'Date',datetime:'Date et heure'}

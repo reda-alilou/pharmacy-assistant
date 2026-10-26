@@ -1,0 +1,52 @@
+import {createRequire} from 'node:module';
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+const out=dirname(fileURLToPath(import.meta.url));
+const require=createRequire(resolve(out,'../../..','apps/web/package.json'));
+const {chromium}=require('@playwright/test');
+const AxeBuilder=require('@axe-core/playwright').default;
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const context=await browser.newContext({reducedMotion:'reduce'}), page=await context.newPage();
+const report={kind:'static prototype specimens only',interactions:[],gallery:[],errors:[],externalRequests:[]};
+await context.route(/^https?:/,route=>{report.externalRequests.push(route.request().url());return route.abort()});
+page.on('pageerror',e=>report.errors.push(e.message));
+const url=(d,v)=>pathToFileURL(resolve(out,`direction-${d}.html`)).href+`?view=${v}`;
+for(const d of ['a','b','c']){
+  await page.setViewportSize({width:1440,height:1000});await page.goto(url(d,'analysis'));
+  if(d==='b')await page.getByRole('button',{name:/^Paramètres$/}).click();
+  const measure=page.locator('#measure');await measure.selectOption({index:1});
+  const changed=await measure.inputValue();
+  const nav=page.locator('a[href*="view=dashboard"]').first();await nav.click();
+  assert.equal(await page.locator('dialog[open]').count(),1);
+  await page.screenshot({path:resolve(out,`screenshots/${d}-warning-desktop.png`),fullPage:false});
+  await page.keyboard.press('Escape');assert.equal(await measure.inputValue(),changed);
+  const calculate=page.locator(d==='a'?'#calculate':d==='b'?'#recalculate':'[data-action="calculate"]');
+  await calculate.click();
+  await page.getByText(d==='b'?'Nombre de lignes par groupe':d==='a'?'Somme des prix présents':'Somme des prix par groupe',{exact:false}).first().waitFor();
+  report.interactions.push({direction:d,escapeRetainsEditedValue:true,calculatePreset:changed});
+  await page.setViewportSize({width:390,height:844});await page.goto(url(d,'analysis'));
+  if(d==='a')await page.locator('.params-disclosure').evaluate(el=>el.open=true);
+  if(d==='b')await page.getByRole('button',{name:/^Paramètres$/}).click();
+  if(d==='c')await page.locator('.scope details').evaluate(el=>el.open=true);
+  await page.screenshot({path:resolve(out,`screenshots/${d}-configuration-mobile.png`),fullPage:true});
+  await page.goto(url(d,'dashboard'));
+  const filter=page.locator(d==='a'?'#category':d==='b'?'#dashboardGroup':'#filter');
+  await filter.selectOption('B');
+  const text=await page.locator('main').innerText();
+  assert.match(text,/20(?:,00)?\s*%/);assert.match(text,/87,50/);assert.match(text,/5 lignes/);
+  report.interactions.push({direction:d,groupB:{rows:5,mean:'87,50',missingPercent:20},localPresetVisible:true});
+  await page.goto(url(d,'assistant'));
+  const assistant=await page.locator('main').innerText();
+  for(const value of ['ABIP','372,00','18 octobre 2026','AMMPS'])assert.ok(assistant.includes(value),`${d}: ${value}`);
+  report.interactions.push({direction:d,assistantIdentityPriceDateSourceVisible:true});
+}
+for(const width of [1440,768,390,320]){
+ await page.setViewportSize({width,height:1100});await page.goto(pathToFileURL(resolve(out,'index.html')).href);
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1);assert.equal(overflow,false);
+ const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
+ report.gallery.push({width,horizontalOverflow:overflow,violations:axe.violations.map(v=>({id:v.id,impact:v.impact}))});
+ if(width===1440)await page.screenshot({path:resolve(out,'screenshots/three-directions-desktop.png'),fullPage:true});
+}
+await browser.close();await writeFile(resolve(out,'review-verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));

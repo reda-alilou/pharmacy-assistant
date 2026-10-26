@@ -1,0 +1,235 @@
+{
+  "id": "direction-c",
+  "name": "Cahier",
+  "status": "isolated-proposal-not-approved",
+  "mode": "operate",
+  "thesis": "Un rapport analytique manipulable : source, définition et valeurs exactes suivent une lecture documentaire continue.",
+  "tokens": {
+    "colors": {
+      "paper": "#fffefa",
+      "ground": "#f3f1eb",
+      "ink": "#252822",
+      "muted": "#62665e",
+      "line": "#d4d4c9",
+      "controlBorder": "#909387",
+      "action": "#792f37",
+      "actionHover": "#62232b",
+      "actionTint": "#f6e9e9",
+      "secondaryData": "#866018",
+      "soft": "#ecebe4",
+      "focus": "#1b5975",
+      "success": "#365b42",
+      "error": "#972e2e"
+    },
+    "typography": {
+      "body": {
+        "family": "Segoe UI, system-ui, sans-serif",
+        "size": "15px",
+        "lineHeight": 1.55
+      },
+      "heading": {
+        "family": "Cambria, Georgia, serif",
+        "weight": 600,
+        "tracking": "-0.01em"
+      },
+      "h1": {
+        "desktop": "30px",
+        "mobile": "27px"
+      },
+      "h2": "23px",
+      "h3": "19px",
+      "data": "14px",
+      "labels": "13px",
+      "metadata": "13px",
+      "navigation": "14px",
+      "numeric": "tabular-nums"
+    },
+    "spacing": [
+      4,
+      8,
+      12,
+      16,
+      18,
+      20,
+      24,
+      28,
+      32,
+      40,
+      48,
+      56
+    ],
+    "radii": {
+      "control": "3px",
+      "dialog": "6px"
+    },
+    "borders": {
+      "default": "1px solid #d4d4c9",
+      "emphasis": "1px solid #909387",
+      "selected": "2px solid #792f37"
+    },
+    "elevation": {
+      "dialog": "0 15px 55px #25282230",
+      "other": "none"
+    },
+    "width": {
+      "document": "1240px",
+      "consultation": "920px",
+      "prose": "72ch"
+    }
+  },
+  "navigation": {
+    "primary": "slim horizontal top navigation",
+    "secondary": "document/context tabs",
+    "withinAnalysis": "compact jump links",
+    "noPrimarySidebar": true,
+    "views": [
+      "analysis",
+      "dashboard",
+      "assistant"
+    ],
+    "optionalView": "system",
+    "comparisonLink": "index.html"
+  },
+  "composition": {
+    "analysis": "source strip, horizontal calculation form, chart plus exact table, method disclosures",
+    "dashboard": "three ruled plot/table report sections, scope and provenance alongside",
+    "assistant": "contextual question, selected medication identity and fact table, dated source, temporary conversation and next-question composer"
+  },
+  "components": {
+    "actions": {
+      "primary": "solid oxblood, white text",
+      "secondary": "paper, neutral outline",
+      "tertiary": "underlined text or quiet text button",
+      "minimumHeight": "40px desktop / 44px mobile"
+    },
+    "inputs": {
+      "native": "select, textarea, button",
+      "labels": "visible, linked to input",
+      "focus": "3px #1b5975 outline, 3px offset",
+      "selection": "#e8c9c9 / #252822",
+      "caret": "#792f37"
+    },
+    "tables": {
+      "headers": "warm neutral, small sans",
+      "numbers": "right aligned and tabular",
+      "overflow": "focusable horizontal scrolling wrapper",
+      "rowRules": "1px neutral",
+      "missing": "explicit text, never zero"
+    },
+    "charts": {
+      "type": "HTML horizontal bars, exact HTML labels",
+      "primary": "#792f37",
+      "secondary": "#866018",
+      "minimumLabel": "12px",
+      "alternative": "adjacent exact value table"
+    },
+    "disclosures": "native details and summary",
+    "confirmation": "native dialog with Rester / Abandonner; Escape preserves in-page values",
+    "feedback": "inline live status; source errors and empty state examples in optional system specimen"
+  },
+  "states": {
+    "default": "fully populated fixture",
+    "hover": "neutral fill / deeper oxblood",
+    "focus": "visible blue outline",
+    "active": "deeper fill",
+    "disabled": "muted neutral native button",
+    "loading": "short local Calculate state; obsolete results removed",
+    "error": "optional system specimen only; explicit example",
+    "empty": "changed configuration hides old results; reset assistant yields empty context; optional system example",
+    "dirty": "navigation confirmation, in-memory changes only",
+    "save": "explicit simulation message; never claims persistence"
+  },
+  "interactions": {
+    "analysis": [
+      "mean/sum presets",
+      "bar/table choice",
+      "recalculate removes stale output",
+      "method details",
+      "save simulation",
+      "dirty navigation confirmation"
+    ],
+    "dashboard": [
+      "all/A/B filter updates all affected figures from fixed fixture presets",
+      "inspect widget method",
+      "move sections using buttons",
+      "save simulation"
+    ],
+    "assistant": [
+      "source details",
+      "predefined two-package example at 744.00 MAD",
+      "unknown questions announce simulation",
+      "reset context with confirmation",
+      "reload local example"
+    ]
+  },
+  "responsive": {
+    "1000px": "narrow report margins, dashboard plots stack inside each section",
+    "760px": "main outcome stacks; source strip reduces to two columns; dashboard context follows report",
+    "480px": "single-column dashboard plots, full-width action targets, stacked composer, 44px controls",
+    "320px": "two-column concise configuration; wrapped source metadata; exact tables contain their scrolling"
+  },
+  "motion": {
+    "duration": "160ms color state change; 350ms local calculation demonstration",
+    "pageEntrance": "none",
+    "reducedMotion": "remove transitions, animation and smooth scrolling"
+  },
+  "data": {
+    "analysis": "TEST CP6 · Observations synthétiques, cp6-v1.csv v1, SYNTHETIC_CP6_REVIEW",
+    "assistant": "local responses.json selected ABIP 15 mg, 30 film-coated tablets, recorded public price 372.00 MAD, AMMPS observation 2026-10-18",
+    "notCurrentMarketData": true
+  },
+  "boundaries": {
+    "selfContained": true,
+    "network": false,
+    "storage": false,
+    "backend": false,
+    "realSaving": false,
+    "applicationChanges": false
+  },
+  "qa": {
+    "renderedByAuthor": false,
+    "handoff": "root performs browser and responsive inspection"
+  },
+  "tradeoffs": [
+    "Longer reading flow than a persistent configuration rail",
+    "Document tabs consume less space but expose fewer global resource destinations",
+    "Restrained serif headings create a report voice; controls and data stay in familiar sans",
+    "Dashboard prioritizes inspection and comparability over freeform tile arrangement"
+  ],
+  "proposedFeedback": {
+    "success": {
+      "foreground": "#365b42",
+      "behavior": "Persistent contextual text naming the confirmed operation and saved revision; never inferred from Calculate or a local simulation"
+    },
+    "warning": {
+      "foreground": "#866018",
+      "behavior": "Explicit consequence and next action, color accompanied by text"
+    },
+    "validation": {
+      "foreground": "#972e2e",
+      "behavior": "Linked summary and field-specific instruction; aria-invalid and aria-describedby; retain current input"
+    },
+    "unknownOutcome": "Explain uncertainty; read-only verification before explicit retry, no automatic mutation replay"
+  },
+  "proposedChartSystem": {
+    "categoricalSeries": [
+      "#792f37",
+      "#866018",
+      "#1b5975",
+      "#765284",
+      "#3a5c91",
+      "#365b42",
+      "#815941",
+      "#51565e"
+    ],
+    "continuousScale": "Light neutral through the primary data hue; explicit numeric legend and units",
+    "minimumTextPx": {
+      "axis": 12,
+      "value": 14,
+      "exactTable": 14
+    },
+    "redundancy": "Text labels, line dashes/point markers and exact tables; do not rely on hue alone",
+    "scope": "Proposal for all existing chart types; the HTML specimens demonstrate bars only, plus exact tables/missingness. No production palette adopted."
+  },
+  "centralVerification": "REVIEW.md, browser-verification.json and review-verification.json; candidate remains unapproved"
+}

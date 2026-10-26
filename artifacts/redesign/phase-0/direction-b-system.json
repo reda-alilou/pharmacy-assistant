@@ -1,0 +1,293 @@
+{
+  "id": "direction-b",
+  "name": "TRAVERSE",
+  "status": "unapproved-phase-0-candidate",
+  "mode": "Operate",
+  "scope": "Isolated static prototype. No production token changes.",
+  "principle": "A steady navigation rail anchors a warm analytical canvas. Source, question, result and explicit save form one horizontal progression. Data and provenance carry the hierarchy.",
+  "tokens": {
+    "color": {
+      "forest": "#173e34",
+      "forestHover": "#255246",
+      "forestPressed": "#102c25",
+      "railText": "#d9e8e0",
+      "canvas": "#f6f5ef",
+      "paper": "#fffefa",
+      "ink": "#203b32",
+      "muted": "#596b60",
+      "line": "#d6ddd3",
+      "controlBorder": "#9eaf9f",
+      "sage": "#dfe8d7",
+      "sageStrong": "#567451",
+      "groupA": "#9aab7d",
+      "groupB": "#567451",
+      "ochre": "#916519",
+      "ochrePale": "#f4ead3",
+      "warningText": "#71521c",
+      "danger": "#9e3e35",
+      "dangerPale": "#fae9e5",
+      "focus": "#9d6615",
+      "disabled": "#e6e9e1",
+      "selection": "#d2e1bb"
+    },
+    "typography": {
+      "family": "'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+      "technicalFamily": "monospace",
+      "body": {
+        "size": "15px",
+        "lineHeight": 1.5,
+        "weight": 400
+      },
+      "proseMeasure": "65–75ch",
+      "h1": {
+        "size": "30px",
+        "mobileSize": "26px",
+        "lineHeight": 1.2,
+        "weight": 650,
+        "tracking": "-0.025em"
+      },
+      "h2": {
+        "size": "21px",
+        "lineHeight": 1.3,
+        "weight": 650,
+        "tracking": "-0.015em"
+      },
+      "h3": {
+        "size": "16px",
+        "lineHeight": 1.4,
+        "weight": 650
+      },
+      "labels": {
+        "size": "13px",
+        "weight": 600
+      },
+      "control": {
+        "size": "14px",
+        "weight": 600
+      },
+      "sourceAndPresentation": {
+        "minimumSize": "14px"
+      },
+      "table": {
+        "size": "14px",
+        "headerSize": "12px",
+        "numerals": "tabular-nums"
+      },
+      "chartLabels": {
+        "minimumSize": "12px",
+        "valuesSize": "16px",
+        "mobileValuesSize": "14px"
+      },
+      "supporting": {
+        "size": "13px",
+        "minimumSize": "12px"
+      }
+    },
+    "space": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      38,
+      44
+    ],
+    "radii": {
+      "control": "6px",
+      "workingStage": "8px",
+      "dialog": "12px",
+      "chat": "12px",
+      "smallStatus": "50px",
+      "bar": "3px"
+    },
+    "elevation": {
+      "workingSurfaces": "none",
+      "toast": "0 8px 24px rgba(0,0,0,.14)",
+      "dialog": "0 18px 70px rgba(0,0,0,.22)"
+    },
+    "focus": {
+      "outline": "3px solid #9d6615",
+      "offset": "4px"
+    }
+  },
+  "layout": {
+    "navigationRail": "184px, deep forest, sticky desktop, primary navigation above distinct account utility area",
+    "canvas": "Warm off-white, 38px desktop padding, maximum main width 1420px",
+    "analysis": "Horizontal Source → Question → Résultat → Enregistrer sequence, compact source ribbon, progressive parameter form, broad result stage, plot and exact aggregate table side by side",
+    "dashboard": "Compact real filter toolbar, asymmetric 1.65:1 mean/count layout, full-width quality strip",
+    "assistant": "Conversation-centered content with 286px evidence rail; presentation, date, recorded price and source visible without opening a disclosure",
+    "surfaceGrammar": "Flat tonal grouping. Rounded corners reserved for controls, result stages, messages and dialogs. No gradients or decorative side strips.",
+    "responsive": [
+      {
+        "max": "1100px",
+        "behavior": "Analysis exact table moves below chart; forms use two columns; dashboard and evidence columns tighten."
+      },
+      {
+        "max": "850px",
+        "behavior": "Forest rail becomes a compact top band; primary navigation is a second horizontal row; account utility remains separate; 22px canvas padding."
+      },
+      {
+        "max": "650px",
+        "behavior": "Single-column forms and widgets; conversation above evidence; 17px canvas padding; journey retains four compact sequence steps; explicit horizontal scrolling for the wide exact table."
+      },
+      {
+        "widthsToReview": [
+          1440,
+          768,
+          390,
+          320
+        ],
+        "status": "Central visual QA delegated to root; this document makes no rendering claim."
+      }
+    ]
+  },
+  "components": {
+    "button": {
+      "default": "44px minimum height, restrained six-pixel corners",
+      "hover": "Tonal sage or lighter forest",
+      "focus": "Ocre ring with four-pixel separation",
+      "active": "Darker forest / deeper sage",
+      "disabled": "Pale neutral, muted text, unavailable cursor",
+      "loading": "Use a stable label and disable repeat action; skeleton specimen is in system view",
+      "error": "Field-level or adjacent recovery copy; no unexplained icon"
+    },
+    "navigation": {
+      "default": "Low emphasis light forest text",
+      "hover": "Forest-hover fill",
+      "selected": "Sage fill and forest label, aria-current page",
+      "focus": "Shared focus ring",
+      "dirtyLeave": "Native dialog with Rester or Abandonner et quitter only; Escape keeps in-page values"
+    },
+    "inputs": {
+      "default": "Native labels, selects and textarea; 44px height",
+      "hover": "Stronger sage border",
+      "focus": "Shared focus ring",
+      "changed": "Obsolete result removed, compute required",
+      "disabled": "Measured-column selector unavailable for row count",
+      "error": "aria-invalid and human recovery instruction; empty assistant question blocks submission",
+      "loading": "Retain values while pending; no automatic replay"
+    },
+    "journey": {
+      "default": "Four meaningful numbered steps",
+      "selected": "Forest underline and solid numbered marker",
+      "interaction": "Source opens source dialog; Question reveals parameters; Result scrolls to valid stage or announces recalculation; Enregistrer opens explicit simulation"
+    },
+    "result": {
+      "ready": "Chart, exact table, denominator, source and method",
+      "stale": "Result removed and explicit recalculate notice",
+      "loading": "Skeleton specimen, content remains understandable",
+      "empty": "Choose rules then calculate instruction in system specimen",
+      "error": "Unavailable-column recovery specimen",
+      "chartTabs": "Keyboard arrows/Home/End, selected ARIA tab, named panels"
+    },
+    "dashboard": {
+      "default": "Three populated statistical views",
+      "filtered": "Precomputed all/A/B presets update means visibility, row counts, percentages and price missingness together",
+      "inspect": "Named native dialog with exact values and scope",
+      "edit": "Memory-only width change and clearly announced movement specimen",
+      "readOnly": "Normal mode has no arrangement handles",
+      "unavailable": "Disabled state vocabulary retained; no live source availability emulated"
+    },
+    "assistant": {
+      "default": "Selected ABIP 15mg 30-tablet package fixture",
+      "source": "Evidence rail with readable identity/presentation/source/date, expandable provenance",
+      "submit": "Typed text rendered as text nodes; local two-box or provenance fixture response, otherwise announced service simulation",
+      "error": "Empty question is labeled and focus returns to composer",
+      "reset": "Clears only in-memory local conversation and announces no server invalidation",
+      "expiry": "Product's 30-minute behavior explained; no expiry or persistence falsely emulated"
+    },
+    "dialogs": {
+      "default": "Native modal dialog, twelve-pixel corners, neutral elevation",
+      "focus": "Native focus containment and restoration",
+      "dismiss": "Escape or explicit cancel/close",
+      "unsaved": "Only Stay and Discard actions; no recovery persistence"
+    },
+    "notices": {
+      "info": "Forest toast with polite live region",
+      "warning": "Ocre on pale ocre",
+      "error": "Brick on pale brick, text describes recovery",
+      "empty": "Instructional, dashed boundary specimen",
+      "loading": "Static reduced-distraction tonal skeleton specimen"
+    }
+  },
+  "motion": {
+    "purpose": "Only result geometry changes after an explicit fixture calculation",
+    "duration": "200ms",
+    "easing": "cubic-bezier(.16,1,.3,1)",
+    "reducedMotion": "All animation and transition disabled; result navigation uses immediate scrolling",
+    "entrance": "No page-load choreography; complete content visible immediately"
+  },
+  "prototype": {
+    "views": [
+      "?view=analysis",
+      "?view=dashboard",
+      "?view=assistant",
+      "?view=system"
+    ],
+    "interactions": [
+      "source dialog",
+      "parameter disclosure",
+      "mean/count presets",
+      "bar/exact-table selection",
+      "recalculate state",
+      "save validation specimen",
+      "dirty navigation dialog",
+      "dashboard all/A/B filtering",
+      "exact widget inspection",
+      "memory-only widget width",
+      "assistant follow-up fixture",
+      "assistant provenance disclosure",
+      "empty-composer validation",
+      "local reset"
+    ],
+    "storage": "None. State is JavaScript memory only.",
+    "network": "None. No dependencies, fetch, XHR, service workers or remote assets.",
+    "save": "Announced simulation; never clears dirty state or claims a persisted save",
+    "data": "Synthetic CP6 v1 and provided ABIP responses.json fixture, explicitly labeled",
+    "verification": "No browser run by candidate author; root owns visual and interaction QA."
+  },
+  "tradeoffs": [
+    "Progressive parameters make results easier to read but add one reveal before editing the full configuration.",
+    "The rail consumes 184px on desktop, giving stable cross-view navigation and a separate account area.",
+    "The assistant evidence column keeps provenance nearby but moves below the conversation on narrow displays."
+  ],
+  "proposedFeedback": {
+    "success": {
+      "foreground": "#255246",
+      "behavior": "Persistent contextual text naming the confirmed operation and saved revision; never inferred from Calculate or a local simulation"
+    },
+    "warning": {
+      "foreground": "#71521c",
+      "behavior": "Explicit consequence and next action, color accompanied by text"
+    },
+    "validation": {
+      "foreground": "#9e3e35",
+      "behavior": "Linked summary and field-specific instruction; aria-invalid and aria-describedby; retain current input"
+    },
+    "unknownOutcome": "Explain uncertainty; read-only verification before explicit retry, no automatic mutation replay"
+  },
+  "proposedChartSystem": {
+    "categoricalSeries": [
+      "#567451",
+      "#286b80",
+      "#8b4c65",
+      "#906218",
+      "#325690",
+      "#6d548f",
+      "#745746",
+      "#356864"
+    ],
+    "continuousScale": "Light neutral through the primary data hue; explicit numeric legend and units",
+    "minimumTextPx": {
+      "axis": 12,
+      "value": 14,
+      "exactTable": 14
+    },
+    "redundancy": "Text labels, line dashes/point markers and exact tables; do not rely on hue alone",
+    "scope": "Proposal for all existing chart types; the HTML specimens demonstrate bars only, plus exact tables/missingness. No production palette adopted."
+  },
+  "centralVerification": "REVIEW.md, browser-verification.json and review-verification.json; candidate remains unapproved"
+}

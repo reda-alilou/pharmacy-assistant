@@ -17,13 +17,13 @@ class ComposeConfigurationTests(unittest.TestCase):
         config = yaml.safe_load((ROOT / 'deploy/compose.yaml').read_text(encoding='utf-8'))
         services = config['services']
         self.assertEqual(config['name'], 'pharmacy-assistant-architecture')
-        self.assertEqual({key for key, service in services.items() if not service.get('profiles')}, {'web', 'core', 'language', 'postgres'})
+        self.assertEqual({key for key, service in services.items() if not service.get('profiles')}, {'web', 'core', 'language', 'image', 'postgres'})
         for key, service in services.items():
             if key != 'web':
                 self.assertNotIn('ports', service)
             self.assertIn('healthcheck', service) if key != 'database-setup' else None
         self.assertEqual(services['web']['ports'], ['127.0.0.1:${WEB_PORT:-8080}:8080'])
-        self.assertEqual(set(services['core']['environment']), {'STORAGE_BACKEND', 'CORE_DATABASE_URL', 'LANGUAGE_SERVICE_URL', 'LANGUAGE_SERVICE_TIMEOUT_SECONDS'})
+        self.assertEqual(set(services['core']['environment']), {'STORAGE_BACKEND', 'CORE_DATABASE_URL', 'LANGUAGE_SERVICE_URL', 'LANGUAGE_SERVICE_TIMEOUT_SECONDS', 'IMAGE_SERVICE_URL', 'IMAGE_SERVICE_TIMEOUT_SECONDS', 'IMAGE_TOP_K', 'IMAGE_MIN_SCORE'})
         self.assertNotIn('CORE_DATABASE_URL', services['language']['environment'])
         self.assertNotIn('MIGRATION_DATABASE_URL', services['language']['environment'])
         self.assertNotIn('environment', services['web'])

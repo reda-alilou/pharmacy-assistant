@@ -298,6 +298,70 @@
         }
       }
     },
+    "/chat/image": {
+      "post": {
+        "summary": "Chat Image",
+        "operationId": "chat_image_chat_image_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_chat_image_chat_image_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Image too large"
+          },
+          "422": {
+            "description": "Invalid image or conversation"
+          },
+          "502": {
+            "description": "Bad Gateway",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          },
+          "504": {
+            "description": "Gateway Timeout",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InferenceErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/medications/search": {
       "get": {
         "summary": "Search Medication Endpoint",
@@ -435,6 +499,42 @@
   },
   "components": {
     "schemas": {
+      "Body_chat_image_chat_image_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "contentMediaType": "application/octet-stream",
+            "title": "File"
+          },
+          "session_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Session Id"
+          },
+          "request_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Request Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_chat_image_chat_image_post"
+      },
       "ChatRequest": {
         "properties": {
           "request_id": {
@@ -1103,7 +1203,8 @@
             "enum": [
               "groq",
               "opencode",
-              "gemini"
+              "gemini",
+              "local"
             ],
             "title": "Provider",
             "default": "groq"

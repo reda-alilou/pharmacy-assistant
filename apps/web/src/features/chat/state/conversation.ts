@@ -4,6 +4,8 @@ import { z } from 'zod'
 
 const SESSION_KEY = 'pharmacy.active-conversation.v1'
 const COOLDOWN_KEY = 'pharmacy.inference-cooldown.v1'
+const IMAGE_LABEL = 'Photo de médicament envoyée'
+const MAX_IMAGE_BYTES = 15_000_000
 const sessionSchema = z.object({ token: tokenSchema, expiresAt: z.string().refine(value => Number.isFinite(Date.parse(value))) })
 const refinementLabels: Record<string, string> = { strength: 'Dosage', form: 'Forme', presentation: 'Présentation', brand_name: 'Nom commercial', page: 'Autres présentations' }
 
@@ -17,6 +19,7 @@ export interface DisplayMessage {
   role: 'user' | 'assistant'
   outcome: 'pending' | 'answered' | 'failed'
   text: string
+  imageUrl?: string
   response?: PatientResponse
   errorCode?: string
 }
@@ -79,6 +82,8 @@ export class ConversationController {
   private storage: Storage | null = null
   private lastSequence = -1
   private undelivered: DisplayMessage | null = null
+  private imagePreviews = new Map<number, string>()
+  private imageUrls = new Set<string>()
   private service: ConversationApi
   constructor(service: ConversationApi = api) {
     this.service = service
@@ -94,8 +99,22 @@ export class ConversationController {
       this.storage?.setItem(COOLDOWN_KEY, String(this.state.cooldownUntil))
     } catch { this.update({ storageWarning: true }) }
   }
+  private rememberImage(view: Conversation, imageUrl: string | null, afterSequence: number, storedText: string | null) {
+    if (!imageUrl || !storedText) return
+    const saved = view.messages.findLast(message => message.role === 'user' && message.sequence > afterSequence && message.text === storedText)
+    if (saved) this.imagePreviews.set(saved.sequence, imageUrl)
+  }
+  private clearImages() {
+    this.imageUrls.forEach(url => URL.revokeObjectURL(url))
+    this.imageUrls.clear()
+    this.imagePreviews.clear()
+  }
   private accept(view: Conversation) {
-    const messages = displays(view)
+    const messages = displays(view).map(message => {
+      if (message.role !== 'user' || message.text !== IMAGE_LABEL) return message
+      const imageUrl = this.imagePreviews.get(Number(message.key.slice('server-'.length)))
+      return imageUrl ? { ...message, imageUrl } : message
+    })
     this.lastSequence = view.messages.at(-1)?.sequence ?? -1
     const latest = messages.findLast(message => message.role === 'assistant')
     if (latest && view.response) latest.response = view.response
@@ -106,6 +125,7 @@ export class ConversationController {
   expire() {
     if (this.state.busy) return // The backend decides whether an in-flight response renewed expiry.
     this.undelivered = null
+    this.clearImages()
     this.update({ messages: [], activeKey: null, response: null, token: null, expiresAt: null, recoveryRequired: false,
       error: null, retryText: null, notice: 'Cette conversation a expiré après 30 minutes d’inactivité. Vous pouvez commencer une nouvelle conversation.' })
     this.persist()
@@ -139,7 +159,8 @@ export class ConversationController {
     else if (latest?.outcome === 'failed') {
       const code = typeof latest.payload?.error_code === 'string' ? latest.payload.error_code : 'request_failed'
       const failure = error ?? new ApiError(code, 0, recoverable.has(code))
-      this.update({ recoveryRequired: false, error: failure, retryText: latest.text })
+      this.update({ recoveryRequired: false, error: failure,
+        retryText: latest.text === IMAGE_LABEL ? null : latest.text })
     } else this.update({ recoveryRequired: false, error: null, retryText: null })
   }
   async recover() {
@@ -160,11 +181,29 @@ export class ConversationController {
     const value = text.trim()
     if (!value || [...value].length > 2000 || !/[^\s\p{M}]/u.test(value)) return
     if (Date.now() < this.state.cooldownUntil) return
-    await this.submit({ text: value }, value)
+    await this.submitRequest(value, token => this.service.chat({ text: value, request_id: randomId(), session_id: token }), value, value)
   }
-  async choose(action: Omit<ChatRequest, 'request_id'>, label: string) { await this.submit(action, label) }
+  async sendImage(file: File) {
+    if (this.state.busy || this.state.recoveryRequired) return
+    if (!file.type.startsWith('image/')) {
+      this.update({ error: new ApiError('image_invalid') }); return
+    }
+    if (file.size > MAX_IMAGE_BYTES) {
+      this.update({ error: new ApiError('image_too_large') }); return
+    }
+    const imageUrl = URL.createObjectURL(file)
+    this.imageUrls.add(imageUrl)
+    await this.submitRequest(IMAGE_LABEL, token => this.service.chatImage(file, {
+      session_id: token, request_id: randomId(),
+    }), null, IMAGE_LABEL, imageUrl)
+  }
+  async choose(action: Omit<ChatRequest, 'request_id'>, label: string) {
+    await this.submitRequest(label, token => this.service.chat({ ...action, request_id: randomId(),
+      ...(action.text ? { session_id: token } : {}) }), action.text ?? null, action.text ?? null)
+  }
   async retry() { if (this.state.retryText && this.state.error?.retryable) await this.send(this.state.retryText) }
-  private async submit(action: Omit<ChatRequest, 'request_id'>, label: string) {
+  private async submitRequest(label: string, call: (token: string) => Promise<PatientResponse>,
+                              retryText: string | null, storedText: string | null, imageUrl: string | null = null) {
     if (this.state.busy || this.state.recoveryRequired) return
     this.update({ busy: true, error: null, retryText: null, notice: null })
     let token = this.state.token
@@ -177,11 +216,10 @@ export class ConversationController {
         this.accept(fresh); token = fresh.session_id
       }
       beforeSequence = this.lastSequence
-      this.update({ messages: [...this.state.messages, { key: localKey, role: 'user', outcome: 'pending', text: label }] })
+      this.update({ messages: [...this.state.messages, { key: localKey, role: 'user', outcome: 'pending', text: label,
+        ...(imageUrl ? { imageUrl } : {}) }] })
       optimisticAdded = true
-      const body: ChatRequest = { ...action, request_id: randomId(),
-        ...(action.text ? { session_id: token } : {}) }
-      const response = await this.service.chat(body)
+      const response = await call(token)
       if (!response.session_id || !response.session_expires_at_utc) throw new ApiError('invalid_response')
       this.undelivered = null
       this.update({ token: response.session_id, expiresAt: response.session_expires_at_utc, response,
@@ -189,7 +227,9 @@ export class ConversationController {
           { key: localKey + '-answer', role: 'assistant', outcome: 'answered', text: response.answer, response }] })
       this.persist()
       try {
-        this.accept(await this.service.restore(response.session_id))
+        const view = await this.service.restore(response.session_id)
+        this.rememberImage(view, imageUrl, beforeSequence, storedText)
+        this.accept(view)
       } catch (cause) {
         const error = asError(cause)
         this.update({ error, recoveryRequired: true, retryText: null })
@@ -200,19 +240,20 @@ export class ConversationController {
         this.update({ cooldownUntil: Math.max(this.state.cooldownUntil, Date.now() + error.retryAfter * 1000) }); this.persist()
       }
       if (error.expired) { this.update({ busy: false }); this.expire(); return }
-      this.update({ error, retryText: action.text ?? null,
+      this.update({ error, retryText,
         messages: optimisticAdded ? this.state.messages.map(message => message.key === localKey ? { ...message, outcome: 'failed', errorCode: error.code } : message)
           : [...this.state.messages, { key: localKey, role: 'user', outcome: 'failed', text: label, errorCode: error.code }] })
       if (token) {
         try {
           const view = await this.service.restore(this.state.token ?? token)
+          this.rememberImage(view, imageUrl, beforeSequence, storedText)
           const local = this.state.messages.find(message => message.key === localKey)
           this.accept(view)
-          const serverSaved = view.messages.some(message => message.role === 'user' && message.sequence > beforeSequence && message.text === (action.text ?? null))
+          const serverSaved = view.messages.some(message => message.role === 'user' && message.sequence > beforeSequence && message.text === storedText)
           if (optimisticAdded && local && !serverSaved && !view.messages.some(message => message.outcome === 'pending')) {
             // A network failure before core received the request must not erase the user's text.
             this.undelivered = local
-            this.update({ messages: [...this.state.messages, local], error, retryText: action.text ?? null, recoveryRequired: error.uncertain })
+            this.update({ messages: [...this.state.messages, local], error, retryText, recoveryRequired: error.uncertain })
           } else this.failureState(view, error)
         } catch (restoreCause) {
           if (asError(restoreCause).expired) { this.update({ busy: false }); this.expire() }
@@ -228,6 +269,7 @@ export class ConversationController {
       if (this.state.token) {
         try { await this.service.reset(this.state.token) } catch (cause) { if (!asError(cause).expired) throw cause }
       }
+      this.clearImages()
       this.update({ messages: [], activeKey: null, response: null, token: null, expiresAt: null,
         recoveryRequired: false, error: null, retryText: null, notice: null })
       this.undelivered = null

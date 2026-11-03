@@ -7,6 +7,7 @@ ChatErrorCode = Literal[
     "session_expired", "clarification_expired", "invalid_reference",
     "invalid_selection", "invalid_refinement",
     "conversation_conflict", "request_in_progress", "request_conflict",
+    "image_unavailable",
 ]
 
 

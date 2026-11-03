@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
-import { mockApi, TOKEN, raw } from '../support/mock-api'
+import { IMAGE_LABEL, mockApi, TOKEN, raw } from '../support/mock-api'
 
 const question = 'Quel est le prix de ABIP 15mg ?'
 const input = (page: import('@playwright/test').Page) => page.getByRole('textbox', { name: 'Votre question' })
@@ -24,6 +24,25 @@ test('French empty state, examples prepare without sending, keyboard focus and n
   expect(api.calls).toHaveLength(0)
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
   await page.screenshot({ path: testInfo.outputPath('desktop-empty.png'), fullPage: true })
+})
+
+test('medication photo upload uses the image route and rejects non-images', async ({ page }) => {
+  const api = await mockApi(page)
+  await page.goto('/')
+  const chooser = page.locator('input[type="file"]')
+  await chooser.setInputFiles({ name: 'boite.txt', mimeType: 'text/plain', buffer: Buffer.from('not an image') })
+  await expect(page.getByRole('alert')).toContainText('Envoyez une photo valide')
+  expect(api.calls).toHaveLength(0)
+  await chooser.setInputFiles({ name: 'boite.png', mimeType: 'image/png', buffer: Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=', 'base64') })
+  const preview = page.locator('.user-image')
+  await expect(preview).toBeVisible()
+  await expect(preview).toHaveAttribute('src', /^blob:/)
+  await expect(page.getByText(IMAGE_LABEL, { exact: true })).toBeVisible()
+  await expect(page.getByText('Photo analysée : ABIP 15 MG figure parmi les candidats.', { exact: true })).toBeVisible()
+  expect(api.calls).toHaveLength(1)
+  expect(api.calls[0]).toMatchObject({ image: true })
+  expect(String(api.calls[0].content_type)).toContain('multipart/form-data')
+  expect(api.calls[0]).not.toHaveProperty('text')
 })
 
 test('chat, explicit presentation, two packages and refresh restoration without inference', async ({ page }, testInfo) => {

@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState, useSyncExternalStore } from 'react'
-import { ArrowRight, ArrowUp, Check, Cross, Info, LoaderCircle, MapPin, MessageSquarePlus, Pill, RefreshCw, ShieldCheck, TriangleAlert } from 'lucide-react'
+import { useEffect, useRef, useState, useSyncExternalStore, type ChangeEvent } from 'react'
+import { ArrowRight, ArrowUp, Check, Cross, ImagePlus, Info, LoaderCircle, MapPin, MessageSquarePlus, Pill, RefreshCw, ShieldCheck, TriangleAlert } from 'lucide-react'
 import { Button } from '@/shared/ui/button'
 import { Textarea } from '@/shared/ui/textarea'
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/shared/ui/alert-dialog'
@@ -21,11 +21,13 @@ function Chat() {
   const [now, setNow] = useState(() => Date.now())
   const [showJump, setShowJump] = useState(false)
   const textarea = useRef<HTMLTextAreaElement>(null)
+  const imageInput = useRef<HTMLInputElement>(null)
   const end = useRef<HTMLDivElement>(null)
   const form = useRef<HTMLFormElement>(null)
   const length = [...draft].length
   const cooldownSeconds = Math.max(0, Math.ceil((state.cooldownUntil - now) / 1000))
   const inputBlocked = state.busy || state.loading || state.recoveryRequired || cooldownSeconds > 0
+  const attachBlocked = state.busy || state.loading || state.recoveryRequired
   const canSubmit = !inputBlocked && length <= 2000 && /[^\s\p{M}]/u.test(draft)
   const hasConversation = state.messages.length > 0 || state.token !== null
 
@@ -38,6 +40,11 @@ function Chat() {
   useEffect(() => { if (state.messages.length && !showJump) end.current?.scrollIntoView({ block: 'end', behavior: 'instant' }) }, [state.messages.length, state.busy, showJump])
 
   function prepare(question: string) { setDraft(question); textarea.current?.focus() }
+  function attachImage(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+    if (file) void controller.sendImage(file)
+  }
   async function newConversation() {
     setResetFailed(false)
     if (await controller.reset()) { setResetOpen(false); setDraft(''); window.scrollTo({ top: 0 }); textarea.current?.focus() }
@@ -61,7 +68,7 @@ function Chat() {
           <p className="welcome-footnote"><Check size={14} aria-hidden="true" />Des réponses à partir de données collectées au Maroc</p>
         </section>}
 
-      {state.messages.length > 0 && <div className="message-list" role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions">{state.messages.map(message => message.role === 'user' ? <div className="user-message" key={message.key}><span className="sr-only">Vous</span><p dir="auto">{message.text}</p>
+      {state.messages.length > 0 && <div className="message-list" role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions">{state.messages.map(message => message.role === 'user' ? <div className={message.imageUrl ? 'user-message has-image' : 'user-message'} key={message.key}><span className="sr-only">Vous</span>{message.imageUrl && <img className="user-image" src={message.imageUrl} alt="Photo de médicament envoyée" />}<p dir="auto">{message.text}</p>
         {message.outcome === 'failed' && <span className="message-status"><TriangleAlert size={12} aria-hidden="true" />Demande non aboutie</span>}{message.outcome === 'pending' && !state.busy && <span className="message-status">Résultat à vérifier</span>}
       </div> : <article className="assistant-message" key={message.key} aria-label="Réponse de l’assistant"><h2 className="assistant-label"><span className="assistant-mark"><Cross size={13} aria-hidden="true" /></span>Assistant pharmacie</h2>
         {message.response && <Results response={message.response} active={message.key === state.activeKey} token={state.token} disabled={state.busy || state.recoveryRequired} onAction={(action, label) => { void controller.choose(action, label) }} />}
@@ -80,6 +87,8 @@ function Chat() {
 
     <footer className="composer-area"><div className="composer-inner">{showJump && state.messages.length > 0 && <Button className="jump-button" variant="outline" size="sm" onClick={() => end.current?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'end' })}>Derniers messages<ArrowUp className="rotate-180" size={14} aria-hidden="true" /></Button>}
       <form ref={form} className="composer" aria-label="Envoyer une question" onSubmit={event => { event.preventDefault(); if (canSubmit) { const text = draft; setDraft(''); void controller.send(text) } }}><label htmlFor="question" className="sr-only">Votre question</label>
+        <input ref={imageInput} type="file" accept="image/*" className="sr-only" onChange={attachImage} tabIndex={-1} aria-hidden="true" />
+        <Button type="button" variant="ghost" size="icon" className="attach-button" aria-label="Envoyer une photo de médicament" title="Envoyer une photo de médicament" disabled={attachBlocked} onClick={() => imageInput.current?.click()}><ImagePlus size={19} aria-hidden="true" /></Button>
         <Textarea id="question" ref={textarea} value={draft} onChange={event => setDraft(event.target.value)} placeholder="Écrivez votre question, par exemple : quel est le prix de ABIP ?" className="question-input" dir="auto" disabled={state.loading || state.busy} rows={1} aria-describedby="composer-help question-count" aria-invalid={length > 2000}
           onKeyDown={event => { if (event.key === 'Enter' && !event.shiftKey && !event.nativeEvent.isComposing) { event.preventDefault(); if (canSubmit) form.current?.requestSubmit() } }} />
         <Button type="submit" size="icon" className="send-button" aria-label="Envoyer la question" disabled={!canSubmit}>{state.busy ? <LoaderCircle className="animate-spin" size={19} aria-hidden="true" /> : <ArrowUp size={21} aria-hidden="true" />}</Button>

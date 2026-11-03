@@ -1,6 +1,7 @@
 import unittest
 from unittest.mock import AsyncMock
 from pharmacy_core.conversation.errors import ChatError
+from pharmacy_core.conversation.image import IMAGE_MESSAGE, ImageCandidate, ImageIdentification
 from pharmacy_core.medications.catalog import MedicationCatalog
 from pharmacy_core.conversation.service import ChatService
 from pharmacy_core.conversation.models import ChatRequest
@@ -194,3 +195,24 @@ class ConversationTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(final.context.effective_interpretation.intents, ['price'])
         self.assertIn('intents', final.context.inherited_fields)
         self.assertEqual(final.medications[0].medication.source_record_id, '9080')
+
+    async def test_image_identification_resolves_candidates_and_keeps_context(self):
+        identifier = AsyncMock()
+        identifier.identify.return_value = ImageIdentification(
+            query='ABIP 15 MG', candidates=(ImageCandidate('9080', 92.5),), elapsed_ms=12.5)
+        service = ChatService(self.catalog, AsyncMock(), self.directory, image_identifier=identifier)
+        result = await service.respond_image(ChatRequest(text=IMAGE_MESSAGE), b'image', 'image/png')
+        self.assertEqual(result.medications[0].medication.source_record_id, '9080')
+        self.assertEqual(result.inference.provider, 'local')
+        self.assertFalse(result.inference_performed)
+        self.assertIn('Texte détecté', result.answer)
+        identifier.identify.assert_awaited_once_with(b'image', content_type='image/png')
+        service.interpreter.interpret.return_value = response([mention(None, quantity='deux')])
+        followup = await service.respond(ChatRequest(text='Et deux boîtes ?', session_id=result.session_id))
+        self.assertEqual(followup.medications[0].medication.source_record_id, '9080')
+
+    async def test_image_identification_requires_a_configured_identifier(self):
+        service = ChatService(self.catalog, AsyncMock(), self.directory)
+        with self.assertRaises(ChatError) as raised:
+            await service.respond_image(ChatRequest(text=IMAGE_MESSAGE), b'image', 'image/png')
+        self.assertEqual(raised.exception.code, 'image_unavailable')

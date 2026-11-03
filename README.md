@@ -2,10 +2,12 @@
 
 A local challenge demo and learning project for Moroccan pharmacy requests.
 A French React chat connects to a core FastAPI service; a separate language
-service uses hosted Qwen extraction through Groq. Local code matches medication
-and pharmacy records, manages clarification and temporary conversations, and
-calculates prices from recorded facts. Backend interpretation and answers support
-French, Arabic, Darija and mixed language; the patient interface is French only.
+service uses hosted Qwen extraction through Groq. A local image service uses
+EasyOCR and fuzzy matching to identify medication boxes from uploaded photos.
+Local code matches medication and pharmacy records, manages clarification and
+temporary conversations, and calculates prices from recorded facts. Backend
+interpretation and answers support French, Arabic, Darija and mixed language;
+the patient interface is French only.
 
 For a self-contained explanation of the current system, read
 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md): architecture and request flow,
@@ -50,6 +52,9 @@ There is no automatic provider switch, paid fallback or saved-answer fallback.
 - Medication identity, strength, form and presentation matching; ambiguous
   results require clarification. Reviewed aliases and spelling suggestions never
   silently select an uncertain product.
+- Medication photo identification through a local OCR/fuzzy-matching service;
+  the top candidates are ranked and explained without inventing unavailable
+  catalogue facts.
 - Follow-ups, explicit offered choices and complete-package quantity totals.
   Arithmetic uses recorded prices and decimal rules; missing prices stay unknown.
 - Source-aware medication cards and a partial Rabat pharmacy directory with
@@ -61,7 +66,8 @@ There is no automatic provider switch, paid fallback or saved-answer fallback.
   and safe errors when inference or storage is unavailable.
 
 Try `Quel est le prix de ABIP ?`, choose a presentation, then ask
-`Et pour deux boîtes ?`. Recorded prices are historical observations, not live offers.
+`Et pour deux boîtes ?`. The paperclip button sends a medication-box photo to the
+local image service. Recorded prices are historical observations, not live offers.
 The [demo guide and spoken script](docs/project/demo-guide.md) provides startup
 commands, a presentation sequence, verified examples and an architecture walkthrough.
 
@@ -72,6 +78,7 @@ commands, a presentation sequence, verified examples and an architecture walkthr
 | `apps/web/` | React/TypeScript chat, result cards and browser tests |
 | `services/core/` | Conversation, matching, pricing, HTTP API and owned migrations |
 | `services/language/` | Provider adapters, extraction validation, quotas and owned migrations |
+| `services/image/` | Standalone EasyOCR and fuzzy-matching service for medication photos |
 | `packages/contracts/` | Shared schemas, protocols and errors |
 | `packages/infrastructure/` | Environment, database, workspace and evidence-path helpers |
 | `tools/operations/` | Explicit setup/import/backup, verification and offline checks |
@@ -84,7 +91,9 @@ commands, a presentation sequence, verified examples and an architecture walkthr
 | `artifacts/` | Ignored generated logs, builds, reports and screenshots |
 
 The root is a virtual uv coordinator. Six Python members own their dependencies
-and are independently installable from one lockfile. Streamlit, the old
+and are independently installable from one lockfile. `services/image` is kept
+outside that workspace because EasyOCR/PyTorch would otherwise inflate every
+Python install; it has its own requirements and container image. Streamlit, the old
 `pharmacy_assistant` package, collection/enrichment workflows and obsolete root
 tests have been retired after their useful coverage was migrated.
 
@@ -154,7 +163,7 @@ or universal extraction accuracy is claimed.
 ## Project status and navigation
 
 Architecture checkpoints 1–5 and cleanup R1–R7 are complete. R7 passed independent
-installs/builds, 247 offline Python tests, 22 browser tests, all ten isolated stack
+installs/builds, 269 offline Python tests, 23 browser tests, all ten isolated stack
 checks and all 18 PostgreSQL tests. The user accepted the laptop demo and waived
 the final physical-phone review; automated mobile checks passed. See
 [the final R7 evidence and limits](docs/validation/cleanup-r7.md). Follow

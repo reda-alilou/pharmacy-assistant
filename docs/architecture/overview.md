@@ -2,9 +2,10 @@
 
 The patient interface is a French React/TypeScript chat. Nginx serves its static
 assets and forwards same-origin `/api` requests to core. Core and language are
-separate FastAPI services. A single PostgreSQL instance stores their independent
-schemas with separate credentials; neither running service accesses the other's
-tables or imports its implementation.
+separate FastAPI services. A standalone image service performs local OCR and
+fuzzy matching for uploaded medication photos. A single PostgreSQL instance
+stores the core and language schemas with separate credentials; neither running
+service accesses the other's tables or imports its implementation.
 
 ```mermaid
 flowchart LR
@@ -12,6 +13,8 @@ flowchart LR
     Gateway --> Core[Core FastAPI]
     Core -->|HTTP/JSON interpretation| Language[Language FastAPI]
     Language -->|Budgeted extraction| Hosted[Hosted provider]
+    Core -->|HTTP multipart photo| Image[Image FastAPI]
+    Image --> ImageCatalog[(Copied AMMPS catalogue)]
     Core --> CoreSchema[(PostgreSQL core schema)]
     Language --> LanguageSchema[(PostgreSQL language schema)]
 ```
@@ -37,6 +40,14 @@ flowchart LR
 6. React displays the response, medication/pharmacy cards, sources and current
    choices. It formats server amounts without doing price arithmetic.
 
+A photo turn follows the same temporary-conversation flow. Core validates the
+multipart image and calls the image service. That service runs EasyOCR and
+field-aware RapidFuzz matching against its copied AMMPS catalogue, then returns
+the recognized text and ranked source IDs. Core maps those IDs to its own loaded
+records, builds the normal answer/cards response with `provider: "local"`, and
+saves the session so a typed follow-up can inherit the candidate. OCR never
+invents a catalogue fact; empty or unmatched text is reported explicitly.
+
 Offered choices use validated saved state and can avoid inference entirely.
 Missing prices remain unknown. Ambiguous products are never silently substituted.
 Provider/model selection is explicit, with no paid or automatic provider fallback.
@@ -60,8 +71,9 @@ are available only through explicit offline tooling/test injection.
 
 Core owns `api/`, `conversation/`, `medications/`, `pharmacies/`, `clients/` and
 `storage/postgres/`. Language owns `api/`, `extraction/`, `providers/`, `quota/`
-and `storage/postgres/`. Each service owns its settings, tables, migration history,
-dependency manifest, image and tests.
+and `storage/postgres/`. Image owns `medid/` (API, OCR, matching, catalogue and
+pipeline). Each service owns its settings, dependency manifest, image and tests;
+the image service has no database or conversation state.
 
 `pharmacy-contracts` contains schemas, protocols and errors. Shared infrastructure
 contains environment/connection/path helpers and read-only archive resolution;
@@ -69,8 +81,10 @@ it owns no business rules or tables. Maintenance and evaluation packages may
 depend explicitly on both services, but services do not depend on those tools.
 
 The virtual uv root coordinates six installable members and one lockfile. The
-four normal containers are web, core, language and PostgreSQL. The operations
-image runs only explicit setup jobs. Only web is exposed by default; phone/debug
-overlays are explicit opt-ins. See [setup](../operations/setup.md),
+image service is standalone (own `requirements.txt` and container) so EasyOCR and
+PyTorch do not burden every Python install. The five normal containers are web,
+core, language, image and PostgreSQL. The operations image runs only explicit
+setup jobs. Only web is exposed by default; phone/debug overlays are explicit
+opt-ins. See [setup](../operations/setup.md),
 [administration](../operations/tooling.md), [evaluation](../development/evaluation-tools.md)
 and [finalized decisions](../../DECISION_LOG.md).

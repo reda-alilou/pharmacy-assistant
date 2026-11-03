@@ -3,6 +3,7 @@ import raw from '../fixtures/responses.json' with { type: 'json' }
 
 export const TOKEN = 'test_session_token_long_enough_1234567890'
 export const CONTINUATION = 'test_continuation_long_enough_1234567890'
+export const IMAGE_LABEL = 'Photo de médicament envoyée'
 export type MockOptions = { delay?: number; expired?: boolean; pending?: boolean; failure?: string; cooldown?: number; invalid?: boolean }
 
 export async function mockApi(page: Page, options: MockOptions = {}) {
@@ -59,6 +60,16 @@ export async function mockApi(page: Page, options: MockOptions = {}) {
         : typeof body.text === 'string' && body.text.includes('Agdal') ? raw.pharmacy : raw.initial)
       if (lostAfterCompletion) return route.abort('connectionreset')
       if (options.invalid) return fulfill(route, 200, { answer: 'UNTRUSTED UNVALIDATED PRICE 999999' })
+      return fulfill(route, 200, current)
+    }
+    if (path === '/api/chat/image') {
+      calls.push({ image: true, content_type: request.headers()['content-type'] })
+      user(IMAGE_LABEL, 'answered')
+      expires = new Date(Date.now() + 1_800_000).toISOString()
+      const selected = structuredClone(raw.selected)
+      selected.interpretation.intents = ['medication_information', 'availability']
+      answer({ ...selected,
+        answer: 'Photo analysée : ABIP 15 MG figure parmi les candidats.' })
       return fulfill(route, 200, current)
     }
     return fulfill(route, 404, {})

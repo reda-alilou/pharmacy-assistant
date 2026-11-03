@@ -53,11 +53,12 @@ class MemoryQuotaStore:
             now = time.time()
             return dict(scope=scope, local_attempts_reserved=row['attempts'], spacing_remaining_seconds=max(0, row['next_at'] - now), cooldown_remaining_seconds=max(0, row['blocked_until'] - now), cooldown_code=row['code'] if row['blocked_until'] > now else None)
 
-def core_app(settings=None, *, interpreter=None):
+def core_app(settings=None, *, interpreter=None, image_identifier=None):
     config = core_settings(settings)
     interpreter = interpreter if interpreter is not None else core_api.create_interpreter(config)
     catalog, directory = (MedicationCatalog.from_path(), PharmacyDirectory.from_path())
-    resources = CoreResources(catalog, directory, interpreter, ChatService(catalog, interpreter, directory))
+    chat = ChatService(catalog, interpreter, directory, image_identifier=image_identifier)
+    resources = CoreResources(catalog, directory, interpreter, chat)
     return core_api.create_app(settings=config, resources=resources)
 
 def language_app(settings=None, *, interpreter=None, store=None):

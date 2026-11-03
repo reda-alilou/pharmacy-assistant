@@ -91,6 +91,23 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/chat/image": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Chat Image */
+        post: operations["chat_image_chat_image_post"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
     "/medications/search": {
         parameters: {
             query?: never;
@@ -129,6 +146,15 @@ export interface paths {
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        /** Body_chat_image_chat_image_post */
+        Body_chat_image_chat_image_post: {
+            /** File */
+            file: string;
+            /** Session Id */
+            session_id?: string | null;
+            /** Request Id */
+            request_id?: string | null;
+        };
         /** ChatRequest */
         ChatRequest: {
             /** Request Id */
@@ -336,7 +362,7 @@ export interface components {
              * @default groq
              * @enum {string}
              */
-            provider: "groq" | "opencode" | "gemini";
+            provider: "groq" | "opencode" | "gemini" | "local";
             /**
              * Output Mode
              * @default json_schema
@@ -1041,6 +1067,71 @@ export interface operations {
                 content: {
                     "application/json": components["schemas"]["InferenceErrorResponse"];
                 };
+            };
+            /** @description Bad Gateway */
+            502: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InferenceErrorResponse"];
+                };
+            };
+            /** @description Service Unavailable */
+            503: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InferenceErrorResponse"];
+                };
+            };
+            /** @description Gateway Timeout */
+            504: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InferenceErrorResponse"];
+                };
+            };
+        };
+    };
+    chat_image_chat_image_post: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "multipart/form-data": components["schemas"]["Body_chat_image_chat_image_post"];
+            };
+        };
+        responses: {
+            /** @description Successful Response */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["ChatResponse"];
+                };
+            };
+            /** @description Image too large */
+            413: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
+            };
+            /** @description Invalid image or conversation */
+            422: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content?: never;
             };
             /** @description Bad Gateway */
             502: {

@@ -1,7 +1,8 @@
 # Pharmacy Assistant — complete current project reference
 
-Updated **2026-10-20**, after architecture migration, repository cleanup R1–R7,
-and publication of commit `9eb046f` on `refactor/web-architecture`.
+Updated **2026-11-03**, after architecture migration, repository cleanup R1–R7,
+publication of commit `9eb046f` on `refactor/web-architecture`, and integration
+of the Challenge 2 medication-photo identifier.
 This document describes the implemented system, not a proposed redesign.
 The documentation expansion itself is a later working-tree change.
 
@@ -43,6 +44,8 @@ Implemented capabilities include:
 
 - Medication identity, strength, form and presentation lookup; reviewed aliases,
   spelling suggestions, explicit refinement and presentation selection.
+- Medication-box photo upload: a local EasyOCR/fuzzy-matching service returns
+  ranked catalogue candidates, and core renders their recorded details.
 - Contextual follow-ups, medication-reference clarification and package totals.
 - Recorded pharmacy names, contacts and addresses in a partial Rabat directory.
 - Source links, collection dates, secondary observations and disagreements.
@@ -73,8 +76,8 @@ deployment, clinical validation and production readiness are not claimed.
 
 ## 2. Architecture and ownership
 
-The runtime has **four normal containers**: web, core, language and PostgreSQL.
-An additional operations image runs explicit administrative jobs only.
+The runtime has **five normal containers**: web, core, language, image and
+PostgreSQL. An additional operations image runs explicit administrative jobs only.
 
 ```mermaid
 flowchart LR
@@ -82,6 +85,8 @@ flowchart LR
     Web -->|/api prefix removed; HTTP/JSON| Core[core: FastAPI :8000]
     Core -->|POST /v1/interpret| Language[language: FastAPI :8001]
     Language -->|HTTPS: prompt + current message| Provider[Selected hosted provider]
+    Core -->|POST /identify/image| Image[image: FastAPI :8002]
+    Image -->|EasyOCR + RapidFuzz| ImageCatalog[(Copied AMMPS catalogue)]
     Core -->|SQL: own runtime role| CoreDB[(PostgreSQL: core schema)]
     Language -->|SQL: own runtime role| LanguageDB[(PostgreSQL: language schema)]
     Ops[Explicit operations jobs] -->|Admin migrations/import/backup| CoreDB
@@ -95,8 +100,9 @@ independent database instances. A database/server outage affects both services.
 | --- | --- | --- |
 | React/TypeScript frontend | Chat, transcript state, selection/refinement controls, medication/pharmacy cards, sources and recovery UI | Calls core through `/api`; no provider keys or SQL access; displays server-calculated amounts |
 | Nginx in web image | Static frontend serving, same-origin reverse proxy, gateway failure response | Removes `/api` before forwarding; never automatically retries a request upstream |
-| Core FastAPI | Conversation flow, context, medication matching, pharmacy lookup, pricing and templated answers | Calls language over HTTP; no provider SDK, peer implementation import or language-table access |
+| Core FastAPI | Conversation flow, context, medication matching, pharmacy lookup, pricing, photo-response construction and templated answers | Calls language and image over HTTP; no provider SDK, peer implementation import or language-table access |
 | Language FastAPI | Provider selection/adapters, extraction prompt, schema/span validation and attempt control | No catalogue/conversation access; no final factual answer generation |
+| Image FastAPI | EasyOCR packaging-text extraction and RapidFuzz field-aware matching against the AMMPS catalogue | Standalone service and dependency set; no conversation, provider or PostgreSQL access |
 | PostgreSQL `core` | Catalogue, provenance, aliases, directory and temporary conversations | Runtime role `pharmacy_core` restricted to its schema |
 | PostgreSQL `language` | Attempt counters, spacing, cooldowns, evaluation budgets and import receipts | Runtime role `pharmacy_language` restricted to its schema |
 | Contracts package | Pydantic interpretations, interpreter protocol, transport health/errors | No business rules, tables or provider implementation |
@@ -128,15 +134,18 @@ in-memory resources; no environment setting enables a file/SQLite runtime mode.
 ### Network paths and exposure
 
 The default browser entry point is `http://127.0.0.1:8080`. Docker's private
-network resolves `core`, `language` and `postgres` by service name. Only web has a
-host port in normal Compose. PostgreSQL listens internally on 5432; core on 8000;
-language on 8001. Core's Compose language URL is `http://language:8001`.
+network resolves `core`, `language`, `image` and `postgres` by service name.
+Only web has a host port in normal Compose. PostgreSQL listens internally on
+5432; core on 8000; language on 8001; image on 8002. Core's Compose URLs are
+`http://language:8001` and `http://image:8002`.
 
 Nginx forwards `/api/chat` to core `/chat`, `/api/conversation` to
-`/conversation`, and similarly for the other core routes. Core's interactive API
-documentation is reachable through `/api/docs`. Nginx resolves the core name
-again after container replacement; it preserves application error bodies and
-`Retry-After` rather than replacing them with generic errors.
+`/conversation`, `/api/chat/image` to core `/chat/image`, and similarly for the
+other core routes. The image route has a dedicated 15 MB body limit; other API
+routes keep the small global limit. Core's interactive API documentation is
+reachable through `/api/docs`. Nginx resolves the core name again after container
+replacement; it preserves application error bodies and `Retry-After` rather than
+replacing them with generic errors.
 
 | Owner | Method/path inside service | Purpose |
 | --- | --- | --- |
@@ -147,12 +156,15 @@ again after container replacement; it preserves application error bodies and
 | Core | `GET /medications/{record_id}` | One presentation by its preserved public source ID |
 | Core | `POST /interpret` | Validated extraction through language; no factual retrieval/answer orchestration |
 | Core | `POST /chat` | Text turn, offered record/refinement choice or offered context-reference choice |
+| Core | `POST /chat/image` | Multipart medication photo; identifies candidates and returns the normal chat response |
 | Core | `POST /conversation` | Create temporary conversation and issue opaque session token |
 | Core | `GET /conversation` | Restore transcript/latest response using `Authorization: Bearer <session token>` |
 | Core | `DELETE /conversation` | Invalidate/delete that conversation using its bearer token |
 | Language | `GET /health` | Provider/model configuration and contract version; not proof a hosted request will succeed |
 | Language | `GET /ready` | Configuration and own PostgreSQL quota-store readiness |
 | Language | `POST /v1/interpret` | Internal version-1 extraction request/response contract |
+| Image | `GET /health` | Catalogue/OCR configuration readiness |
+| Image | `POST /identify/image` | Internal multipart OCR + fuzzy-matching identification |
 
 There is no separate public pharmacy REST route: pharmacy retrieval is part of
 chat orchestration. Language is normally internal to the Compose network.
@@ -268,6 +280,23 @@ that turn reuses the validated interpretation **without hosted inference**.
 `Et pour deux boîtes ?` is a new typed turn: language extracts that fragment,
 then core can inherit the already selected medication and calculate its total.
 ABIP boxes of 20 and 30 are distinct records (recorded prices 268 and 372 MAD).
+
+### Photo turns
+
+The paperclip control sends multipart `file`, `session_id` and `request_id` to
+`POST /chat/image`. Core validates the content type and 15 MB limit, then calls
+the internal image service with the image bytes. The image service preprocesses
+the photo, runs EasyOCR, normalizes the recognized text and ranks catalogue
+records with field-aware RapidFuzz scoring. It returns only the query and ranked
+source IDs/scores; it does not return prices or final prose.
+
+Core maps those IDs to its own loaded catalogue, builds a normal `ChatResponse`
+with `inference.provider = "local"` and `inference_performed = false`, and stores
+the session so a typed follow-up can inherit the selected candidate. Unknown IDs
+are ignored. No catalogue fact is invented when OCR finds no text or no match.
+Image failures use explicit codes such as `image_invalid`, `image_too_large`,
+`image_service_unavailable`, `image_service_timeout` and
+`image_identification_failed`.
 
 ### Persistent state around the local conversation engine
 
@@ -681,17 +710,20 @@ pharmacy-assistant/
 │   │   │   └── storage/postgres/
 │   │   │       └── models.py, catalogue.py, chat.py, conversations.py, state_codec.py
 │   │   └── tests/unit/, integration/
-│   └── language/
-│       ├── pyproject.toml, Dockerfile, alembic.ini
-│       ├── migrations/env.py, script.py.mako, versions/0001_initial.py
-│       ├── src/pharmacy_language/
-│       │   ├── config.py
-│       │   ├── api/app.py
-│       │   ├── extraction/prompt.py, service.py, validation.py
-│       │   ├── providers/groq.py, gemini.py, opencode.py
-│       │   ├── quota/control.py
-│       │   └── storage/postgres/models.py, quota.py
-│       └── tests/unit/
+│   ├── language/
+│   │   ├── pyproject.toml, Dockerfile, alembic.ini
+│   │   ├── migrations/env.py, script.py.mako, versions/0001_initial.py
+│   │   ├── src/pharmacy_language/
+│   │   │   ├── config.py
+│   │   │   ├── api/app.py
+│   │   │   ├── extraction/prompt.py, service.py, validation.py
+│   │   │   ├── providers/groq.py, gemini.py, opencode.py
+│   │   │   ├── quota/control.py
+│   │   │   └── storage/postgres/models.py, quota.py
+│   │   └── tests/unit/
+│   └── image/                            # standalone, outside the uv workspace
+│       ├── requirements.txt, Dockerfile
+│       └── medid/                        # api, service, OCR, matching, catalogue
 ├── packages/
 │   ├── contracts/
 │   │   ├── pyproject.toml
@@ -721,7 +753,7 @@ pharmacy-assistant/
 │       │   └── reporting/analysis.py, freeze.py, io.py, merge.py, state.py
 │       └── tests/
 ├── deploy/
-│   ├── compose.yaml                   # four normal services + tools-profile job
+│   ├── compose.yaml                   # five normal services + tools-profile job
 │   ├── compose.phone.yaml             # opt-in web-only Wi-Fi exposure
 │   ├── compose.debug.yaml             # opt-in localhost backend/database ports
 │   └── nginx/nginx.conf
@@ -764,6 +796,9 @@ Six installable Python members are `pharmacy-core`, `pharmacy-language`,
 `pharmacy-evaluation`. Each has its own manifest, source namespace and tests.
 uv coordinates them with one lockfile; independent installed packages/images
 must not rely on importing another member's uninstalled source tree.
+`services/image` is deliberately outside this workspace: EasyOCR/PyTorch would
+otherwise inflate every Python install. It owns `requirements.txt`, a separate
+Docker image and no shared workspace lock entry.
 
 ## 9. Configuration, builds and operation
 
@@ -782,8 +817,17 @@ only `postgres` in running service settings.
 | `LANGUAGE_DATABASE_URL` | Language-owned PostgreSQL URL and quota storage |
 | `MIGRATION_DATABASE_URL` | Administrative URL for explicit jobs, not normal service environment |
 | `LANGUAGE_SERVICE_URL`, `LANGUAGE_SERVICE_TIMEOUT_SECONDS` | Core's language HTTP origin/deadline |
+| `IMAGE_SERVICE_URL`, `IMAGE_SERVICE_TIMEOUT_SECONDS`, `IMAGE_TOP_K`, `IMAGE_MIN_SCORE` | Core's image HTTP origin/deadline and identification limits |
+| `MEDID_*` | Image service catalogue, OCR language/confidence, GPU and model-directory settings |
 | `INFERENCE_PROVIDER`, provider-specific model/key/output/timeout settings | Explicit language adapter/configuration |
 | `INFERENCE_QUOTA_SCOPE`, `INFERENCE_MIN_INTERVAL_SECONDS` | Shared attempt scope/optional local spacing; zero spacing does not disable provider limits |
+
+The image container installs its own `requirements.txt`, copies the authoritative
+AMMPS JSONL into `/app/data/metadata/`, and stores downloaded EasyOCR models in
+the `easyocr_models` named volume at `/models`. The first photo request may need
+network access to download those models; later starts reuse the volume. The
+container runs read-only with a writable 256 MB `/tmp` for logs and transient
+files.
 
 Database engines use pre-ping, bounded pools, a five-second connection timeout,
 ten-second SQL statement timeout, three-second lock timeout and UTC sessions.
@@ -870,11 +914,11 @@ commit. This reference expansion is documentation work after that checkpoint.
 | Verification gate | Result recorded in R7 |
 | --- | --- |
 | Frozen noneditable independent package installs | All six members passed outside the original source tree |
-| Offline Python | 247 passed; 18 PostgreSQL tests intentionally skipped offline |
-| Offline browser | 22 passed, including mobile layouts; one deployment-only skip covered by real-stack check |
+| Offline Python | 269 passed; 18 PostgreSQL tests intentionally skipped offline |
+| Offline browser | 23 passed, including mobile layouts and photo upload; one deployment-only skip covered by real-stack check |
 | Full isolated deployment | All ten aggregated stack scenarios passed |
 | Real PostgreSQL | All 18 tests passed, zero skips |
-| Builds | Six wheels/source distributions, fresh frontend dependency install/build, all four production image builds and installed-image checks passed |
+| Builds | Six wheels/source distributions and frontend build passed; Docker image builds, including the new image service, require explicit stack verification |
 | Contracts, archives, fixtures | Original OpenAPI/types preserved, all 1,004 archive mappings verified, deterministic fixture checks passed |
 | Lint | Zero errors; two preexisting shadcn hot-refresh warnings |
 | Manual acceptance | Laptop passed; final physical-phone repeat explicitly waived |

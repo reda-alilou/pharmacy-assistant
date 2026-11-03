@@ -17,7 +17,10 @@ docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wa
 ```
 
 Open <http://127.0.0.1:8080>. The normal configuration exposes only web on localhost.
-Startup never changes migration state or re-imports facts. Cleanup has preserved
+The stack now includes the `image` service on the private network. Its first
+photo request may download EasyOCR models into the `easyocr_models` named volume;
+this needs network access once, then later starts reuse the volume. Startup never
+changes migration state or re-imports facts. Cleanup has preserved
 the project name `pharmacy-assistant-architecture`, service names and
 `postgres_data` named-volume identity. Do not regenerate credentials or reset
 the database merely because package/input paths changed.

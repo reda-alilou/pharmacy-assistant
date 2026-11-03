@@ -102,7 +102,7 @@ class TokenUsage(BaseModel):
 
 class InferenceMetadata(BaseModel):
     model_config = ConfigDict(extra="forbid", strict=True)
-    provider: Literal["groq", "opencode", "gemini"] = "groq"
+    provider: Literal["groq", "opencode", "gemini", "local"] = "groq"
     output_mode: Literal["json_schema", "json_object"] = "json_schema"
     requested_model: str
     model: str

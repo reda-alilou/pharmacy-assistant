@@ -12,8 +12,37 @@ from pharmacy_core.storage.postgres.state_codec import encode_state, decode_stat
 
 
 class PersistentChatService:
-    def __init__(self, catalog, interpreter, directory, store):
+    def __init__(self, catalog, interpreter, directory, store, image_identifier=None):
         self.catalog, self.interpreter, self.directory, self.store = catalog, interpreter, directory, store
+        self.image_identifier = image_identifier
+
+    async def respond_image(self, request, image_bytes, content_type="image/jpeg"):
+        turn = await asyncio.to_thread(self.store.begin, request)
+        if "replay" in turn:
+            return ChatResponse.model_validate(turn["replay"]["response"])
+        service = ChatService(self.catalog, self.interpreter, self.directory, ttl_seconds=1800,
+                              image_identifier=self.image_identifier)
+        effective_request = request
+        try:
+            if turn["state"]:
+                if turn["state"].get("version") != 1:
+                    raise StorageUnavailable()
+                if request.session_id is not None and turn["state"]["state"] is not None:
+                    service.sessions[request.session_id] = decode_state(turn["state"]["state"])
+                else:
+                    effective_request = request.model_copy(update={"session_id": None})
+            response = await service.respond_image(effective_request, image_bytes, content_type)
+            state = encode_state(service.sessions[response.session_id])
+            return await asyncio.to_thread(self.store.complete, turn, response, state, None)
+        except Exception as error:
+            code = getattr(error, "code", None) or getattr(getattr(error, "detail", None), "code", "request_failed")
+            try:
+                await asyncio.to_thread(self.store.fail, turn, code)
+            except StorageUnavailable:
+                pass
+            if isinstance(error, (KeyError, ValidationError)):
+                raise StorageUnavailable() from None
+            raise
 
     async def respond(self, request):
         turn = await asyncio.to_thread(self.store.begin, request)

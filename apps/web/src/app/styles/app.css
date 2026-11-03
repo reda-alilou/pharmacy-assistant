@@ -37,6 +37,9 @@ button:disabled { cursor: not-allowed; }
 .question-input { border: 0; border-radius: 0; box-shadow: none; background: transparent; width: 100%; min-height: 52px; max-height: 148px; resize: none; padding: 16px 0 10px; font-size: 13px; line-height: 1.65; color: #2f4639; }
 .question-input::placeholder { color: #5f6e62; }
 .question-input:focus-visible { box-shadow: none; outline: none; border: 0; }
+.attach-button { width: 36px; height: 36px; flex: 0 0 36px; border-radius: 10px; color: #426b55; margin: 6px 0; }
+.attach-button:hover { background: #edf3ed; }
+.attach-button:disabled { opacity: .45; }
 .send-button { width: 39px; height: 39px; flex: 0 0 39px; border-radius: 10px; background: #216b60; margin: 6px 0; }
 .send-button:hover { background: #19523d; }
 .send-button:disabled { background: #e4ebe4; color: #6b7a6f; opacity: 1; }
@@ -50,6 +53,9 @@ button:disabled { cursor: not-allowed; }
 .message-list { display: flex; flex-direction: column; gap: 31px; padding-bottom: 20px; }
 .user-message { align-self: flex-end; max-width: 84%; background: #e9f0e9; border-radius: 16px 16px 4px 16px; padding: 13px 18px; color: #2a4234; font-size: 14px; line-height: 1.75; overflow-wrap: anywhere; }
 .user-message > p { white-space: pre-wrap; }
+.user-message.has-image { padding: 8px 8px 11px; }
+.user-message.has-image > p { padding: 0 9px; }
+.user-image { display: block; width: 100%; max-width: 300px; max-height: 240px; object-fit: cover; border-radius: 11px; margin-bottom: 8px; background: #fff; border: 1px solid #d7e0d7; }
 .message-status { color: #775940; font-size: 10px; display: flex; gap: 5px; align-items: center; margin-top: 7px; }
 .assistant-message { width: 100%; min-width: 0; }
 .assistant-label { color: #5f6e62; font-size: 11px; font-weight: 550; display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
@@ -146,7 +152,7 @@ button:disabled { cursor: not-allowed; }
   .header-inner { height: 70px; padding: 0 18px; gap: 12px; }.brand { font-size: 15px; gap: 8px; }.brand-mark { width: 32px; height: 32px; border-radius: 10px; }.brand-mark svg { width: 19px; }.brand-second { display: none; }.new-conversation { font-size: 10px; gap: 6px; padding: 0 9px; height: 33px; }.new-conversation svg { width: 14px; }
   .conversation-main { padding: 0 18px; }.welcome { padding: 47px 0 32px; }.eyebrow { font-size: 8px; letter-spacing: 1.4px; margin-bottom: 20px; }.welcome h1 { font-size: 37px; letter-spacing: -1.5px; }.welcome-description { font-size: 12px; margin: 20px auto 26px; max-width: 310px; line-height: 1.85; }.desktop-break { display: none; }
   .examples { grid-template-columns: 1fr; gap: 9px; }.example-card { min-height: 78px; padding: 15px 40px 15px 53px; gap: 5px; border-radius: 11px; }.example-card > svg:first-child { position: absolute; left: 17px; top: 22px; }.example-title { font-size: 12px; }.example-question { font-size: 10px; }.example-arrow { top: 30px; right: 17px; }.welcome-footnote { font-size: 9px; margin-top: 21px; gap: 5px; }
-  .composer-area { padding: 12px 15px 15px; }.composer { padding: 8px 9px 8px 13px; border-radius: 13px; gap: 7px; }.question-input { font-size: 12px; }.send-button { width: 35px; height: 35px; flex-basis: 35px; margin-bottom: 8px; }.composer-meta { font-size: 8px; gap: 8px; padding-top: 9px; }.composer-meta > span { display: none; }.limitations { font-size: 8px; gap: 5px; margin-top: 12px; }.limitations svg { width: 11px; }
+  .composer-area { padding: 12px 15px 15px; }.composer { padding: 8px 9px 8px 13px; border-radius: 13px; gap: 7px; }.question-input { font-size: 12px; }.attach-button { width: 32px; height: 32px; flex-basis: 32px; margin-bottom: 8px; }.send-button { width: 35px; height: 35px; flex-basis: 35px; margin-bottom: 8px; }.composer-meta { font-size: 8px; gap: 8px; padding-top: 9px; }.composer-meta > span { display: none; }.limitations { font-size: 8px; gap: 5px; margin-top: 12px; }.limitations svg { width: 11px; }
   .has-messages { padding-top: 24px; }.message-list { gap: 26px; }.user-message { font-size: 13px; max-width: 90%; padding: 11px 14px; }.assistant-content { padding-left: 0; }.answer-text { font-size: 13px; }.assistant-label { font-size: 10px; margin-bottom: 11px; }.medication-card { padding: 18px 17px 16px; border-radius: 12px; }.medicine-heading h3 { font-size: 17px; }.unit-price, .total-price > p:last-child { font-size: 19px; }.price-row { gap: 10px; }.price-label { font-size: 9px; }.commercialization { font-size: 10px; }.card-source { font-size: 9px; }.collection-date { font-size: 9px; }.candidate-button { padding: 14px 12px; gap: 8px; }.candidate-price { font-size: 10px; gap: 6px; }.candidate-presentation { font-size: 10px; }.candidate-name { font-size: 12px; }.error-notice { margin-left: 0; padding: 14px; }.working { padding-left: 0; }.refinement-row { align-items: stretch; flex-direction: column; }.refinement-row button { align-self: flex-start; }
 }
 @media(prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }

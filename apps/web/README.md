@@ -1,8 +1,10 @@
 # Patient chat frontend
 
 React, TypeScript and Vite, with Tailwind CSS and project-owned shadcn/ui controls.
-The interface is French; backend multilingual answers remain unchanged. No
-frontend environment variable contains a provider key or database credential.
+The interface is French; backend multilingual answers remain unchanged. The
+paperclip control uploads a medication photo to core, which forwards it to the
+local image service. No frontend environment variable contains a provider key or
+database credential.
 
 ## Local development
 
@@ -19,7 +21,7 @@ Set `DEV_API_ORIGIN` before starting Vite if using another core address. This is
 development proxy configuration, not a value embedded in production assets.
 Starting backend services remains an explicit user action.
 
-For the integrated demo, use the four-container stack from the repository root:
+For the integrated demo, use the five-container stack from the repository root:
 
 ```powershell
 docker compose --env-file .runtime/compose.env -f deploy/compose.yaml build web
@@ -42,7 +44,7 @@ docker compose --env-file .runtime/compose.env -f deploy/compose.yaml -f deploy/
 Open `http://192.168.1.7:8080/` on the phone, using the actual address above.
 The core, language service and database remain internal. This overlay binds web
 to the specified Wi-Fi address instead of localhost; use that URL on the laptop
-too during testing. Leave the other three services running. It is intended for
+too during testing. Leave the other four services running. It is intended for
 local testing on a trusted Wi-Fi network, not public deployment. If blocked,
 check Windows Firewall and router guest/client isolation; do not disable the
 firewall. New questions use the same server-side inference quota on both devices.

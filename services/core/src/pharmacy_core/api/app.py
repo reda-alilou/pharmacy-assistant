@@ -10,6 +10,7 @@ from pharmacy_core.api.resources import CoreResources
 from pharmacy_core.config import CoreSettings
 from pharmacy_contracts.errors import StorageUnavailable
 from pharmacy_core.clients.language import create_interpreter
+from pharmacy_core.clients.medid import create_image_identifier
 from pharmacy_contracts.interpretation import InferenceError, InferenceErrorResponse
 
 
@@ -36,11 +37,13 @@ def create_app(settings: CoreSettings | None = None, *, resources: CoreResources
                 raise RuntimeError("Core PostgreSQL storage unavailable. Check connectivity and run explicit migrations/import validation; no file fallback is available.") from None
             try:
                 app.state.interpreter = create_interpreter(app.state.settings)
+                app.state.image_identifier = create_image_identifier(app.state.settings)
             except Exception:
                 engine.dispose()
                 raise
             app.state.chat = PersistentChatService(app.state.catalog, app.state.interpreter,
-                                                  app.state.directory, app.state.conversations)
+                                                  app.state.directory, app.state.conversations,
+                                                  image_identifier=app.state.image_identifier)
         else:
             # Only an explicit caller supplies offline resources; no settings/env
             # value can select file-mode or an in-memory service at startup.
@@ -65,11 +68,14 @@ def create_app(settings: CoreSettings | None = None, *, resources: CoreResources
                 with suppress(asyncio.CancelledError):
                     await cleanup_task
             try:
+                image_identifier = getattr(app.state, "image_identifier", None)
+                if image_identifier is not None:
+                    await image_identifier.close()
                 await app.state.interpreter.close()
             finally:
                 if engine:
                     await asyncio.to_thread(engine.dispose)
-                for name in ("conversations", "chat", "directory", "interpreter", "settings", "catalog"):
+                for name in ("conversations", "chat", "directory", "image_identifier", "interpreter", "settings", "catalog"):
                     if hasattr(app.state, name):
                         delattr(app.state, name)
 
@@ -91,6 +97,7 @@ def create_app(settings: CoreSettings | None = None, *, resources: CoreResources
             "conversation_conflict": 409,
             "request_in_progress": 409,
             "request_conflict": 409,
+            "image_unavailable": 503,
         }[error.code]
         return JSONResponse(
             status_code=status,

@@ -12,6 +12,10 @@ class CoreSettings(EnvironmentSettings):
     core_database_url: SecretStr = Field(repr=False)
     language_service_url: str = "http://127.0.0.1:8001"
     language_service_timeout_seconds: float = Field(default=160, ge=1, le=180, allow_inf_nan=False)
+    image_service_url: str = "http://127.0.0.1:8002"
+    image_service_timeout_seconds: float = Field(default=150, ge=1, le=180, allow_inf_nan=False)
+    image_top_k: int = Field(default=5, ge=1, le=10)
+    image_min_score: float = Field(default=50.0, ge=0, le=100, allow_inf_nan=False)
 
     @field_validator("language_service_url")
     @classmethod
@@ -26,6 +30,21 @@ class CoreSettings(EnvironmentSettings):
             parsed.port
         except ValueError:
             raise ValueError("Language service URL has an invalid port.") from None
+        return value
+
+    @field_validator("image_service_url")
+    @classmethod
+    def validate_image_origin(cls, value):
+        from urllib.parse import urlsplit
+        value = value.strip().rstrip("/")
+        parsed = urlsplit(value)
+        if (parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username
+                or parsed.password or parsed.path or parsed.query or parsed.fragment):
+            raise ValueError("Image service URL must be an HTTP(S) origin without credentials or a path.")
+        try:
+            parsed.port
+        except ValueError:
+            raise ValueError("Image service URL has an invalid port.") from None
         return value
 
     @field_validator("core_database_url")

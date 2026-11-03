@@ -14,6 +14,7 @@ import time
 from pharmacy_core.conversation.errors import ChatError
 
 from pharmacy_core.conversation.answers import MEDICATION_INTENTS, PHARMACY_INTENTS, render_answer
+from pharmacy_core.conversation.image import ImageIdentifier, build_image_response
 from pharmacy_core.medications.catalog import MedicationCatalog
 from pharmacy_core.conversation.models import ChatRequest, ChatResponse, ConversationContext, MedicationResult, SourceInfo
 from pharmacy_core.conversation.state import ConversationSnapshot, anchors_for, merge_context, ordinal_index
@@ -35,10 +36,12 @@ class PendingChoice:
 
 class ChatService:
     def __init__(self, catalog: MedicationCatalog, interpreter: Interpreter,
-                 directory: PharmacyDirectory, *, ttl_seconds: float = 900, capacity: int = 128):
+                 directory: PharmacyDirectory, *, ttl_seconds: float = 900, capacity: int = 128,
+                 image_identifier: ImageIdentifier | None = None):
         self.catalog = catalog
         self.interpreter = interpreter
         self.directory = directory
+        self.image_identifier = image_identifier
         self.ttl_seconds = ttl_seconds
         self.capacity = capacity
         self.pending: OrderedDict[str, PendingChoice] = OrderedDict()
@@ -52,6 +55,29 @@ class ChatService:
         for token in list(self.sessions):
             if self.sessions[token].expires <= now:
                 del self.sessions[token]
+
+    async def respond_image(self, request: ChatRequest, image_bytes: bytes,
+                            content_type: str = "image/jpeg") -> ChatResponse:
+        self.prune()
+        if self.image_identifier is None:
+            raise ChatError("image_unavailable", "L'identification des photos n'est pas configurée.")
+        if request.session_id is not None and self.sessions.get(request.session_id) is None:
+            raise ChatError("session_expired", "Conversation expired or server restarted. Start a new conversation with a complete question.")
+        identification = await self.image_identifier.identify(image_bytes, content_type=content_type)
+        while len(self.sessions) >= self.capacity:
+            self.sessions.popitem(last=False)
+        session_id = secrets.token_urlsafe(32)
+        session_expires = (datetime.now(timezone.utc) + timedelta(seconds=self.ttl_seconds)).isoformat()
+        response = build_image_response(identification, self.catalog, session_id=session_id,
+                                        session_expires_at_utc=session_expires)
+        self.sessions[session_id] = ConversationSnapshot(
+            expires=time.monotonic() + self.ttl_seconds,
+            effective=response.interpretation.model_copy(deep=True),
+            anchors=anchors_for(response.medications),
+            results=[result.model_copy(deep=True) for result in response.medications],
+            pending_fragment=None,
+        )
+        return response
 
     async def respond(self, request: ChatRequest) -> ChatResponse:
         self.prune()

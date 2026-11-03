@@ -35,8 +35,13 @@ services:
       CORE_DATABASE_URL: ${CORE_DATABASE_URL:?Run compose_setup first}
       LANGUAGE_SERVICE_URL: http://language:8001
       LANGUAGE_SERVICE_TIMEOUT_SECONDS: "160"
+      IMAGE_SERVICE_URL: http://image:8002
+      IMAGE_SERVICE_TIMEOUT_SECONDS: "150"
+      IMAGE_TOP_K: ${IMAGE_TOP_K:-5}
+      IMAGE_MIN_SCORE: ${IMAGE_MIN_SCORE:-50}
     depends_on:
       postgres: {condition: service_healthy}
+      image: {condition: service_healthy}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready', timeout=3).close()"]
       interval: 5s
@@ -79,6 +84,29 @@ services:
       start_period: 10s
       retries: 12
 
+  image:
+    <<: *python-runtime
+    image: pharmacy-assistant-image:local
+    build:
+      context: ..
+      dockerfile: services/image/Dockerfile
+    environment:
+      MEDID_CATALOG_PATH: /app/data/metadata/ammps_medications_enriched.jsonl
+      MEDID_MODEL_DIR: /models
+      MEDID_LOG_FILE: /tmp/medid.log
+      MEDID_OCR_LANGUAGES: ${MEDID_OCR_LANGUAGES:-fr}
+      MEDID_OCR_MIN_CONFIDENCE: ${MEDID_OCR_MIN_CONFIDENCE:-0.20}
+      MEDID_USE_GPU: "false"
+    tmpfs: ["/tmp:rw,noexec,nosuid,size=256m"]
+    volumes:
+      - easyocr_models:/models
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8002/health', timeout=3).close()"]
+      interval: 10s
+      timeout: 5s
+      start_period: 20s
+      retries: 12
+
   web:
     image: pharmacy-assistant-web:local
     build:
@@ -89,7 +117,7 @@ services:
     depends_on:
       core: {condition: service_healthy}
     read_only: true
-    tmpfs: ["/tmp:rw,noexec,nosuid,size=16m"]
+    tmpfs: ["/tmp:rw,noexec,nosuid,size=64m"]
     security_opt: ["no-new-privileges:true"]
     cap_drop: ["ALL"]
     restart: "no"
@@ -118,3 +146,4 @@ services:
 volumes:
   # Same project and volume as checkpoint 2: no copy, reset, or re-import.
   postgres_data:
+  easyocr_models:

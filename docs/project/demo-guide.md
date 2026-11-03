@@ -1,6 +1,6 @@
 # Demo guide and spoken presentation
 
-Prepared 2026-10-20 for the current four-container laptop demo. The narration is
+Prepared 2026-11-03 for the current five-container laptop demo. The narration is
 in English; patient prompts are in French, matching the interface. Suggested
 length: 7–9 minutes. The presenter runs all lifecycle commands.
 
@@ -14,7 +14,7 @@ docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wa
 docker compose --env-file .runtime/compose.env -f deploy/compose.yaml ps
 ```
 
-The four normal services should be healthy: `web`, `core`, `language`, `postgres`.
+The five normal services should be healthy: `web`, `core`, `language`, `image`, `postgres`.
 Open these pages:
 
 - Patient interface: <http://127.0.0.1:8080>
@@ -50,6 +50,7 @@ listed prices and contacts are verified saved facts, not newly checked live fact
 | 1 | Type **`Quel est le prix de ABIP 15 mg ?`** | The catalogue contains two presentations. Point out that the app asks which package the patient means rather than silently picking one |
 | 2 | Click the offered **box of 30 tablets** (`BOITE DE 30 COMPRIMES PELLICULES`) | Selected presentation is record `9080`, recorded public price **372.00 MAD**. A button selection reuses saved interpretation and makes no new model call |
 | 3 | Type **`Et pour deux boîtes ?`** | Core inherits the selected medication; expected total **744.00 MAD**. New typed text does use extraction; multiplication uses local Decimal arithmetic |
+| 3b, optional | Click the paperclip and choose a clear ABIP box photo | Core calls the local image service; EasyOCR text and ranked catalogue candidates appear as normal cards. Point out that this path uses no hosted model and never invents a price |
 | 4 | Open **Sources et détails** | Show source attribution and collection dates. Explain that source dates qualify the information; prices are recorded observations |
 | 5 | Refresh the page | Transcript, selected context and total return. Refresh restores server state; it does not repeat the question or call the model |
 | 6 | Click **Nouvelle conversation** and confirm if prompted | Previous conversation is invalidated on the server; the interface clears only after reset succeeds |
@@ -124,8 +125,8 @@ implementation.
 
 ### Architecture — show PROJECT_CONTEXT section 2 and optionally Compose services
 
-> “The application runs as four normal containers: web, core, language and
-> PostgreSQL.
+> “The application runs as five normal containers: web, core, language, image
+> and PostgreSQL.
 >
 > The web container serves the built React and TypeScript interface through
 > Nginx. The browser sends requests to the same web address under `/api`, and
@@ -140,6 +141,11 @@ implementation.
 > through Groq—and validates the structured output. It checks both the schema
 > and whether extracted entity values actually appear in the message. It returns
 > an interpretation, not a generated factual answer.
+>
+> For a photo, core calls a separate local image service. That service runs
+> EasyOCR and fuzzy matching against its copy of the AMMPS catalogue, then returns
+> ranked source IDs. Core maps them to its own records and renders the normal
+> answer and cards. The OCR service never invents a price or a catalogue record.
 >
 > Core then merges valid conversation context, searches its loaded records,
 > calculates any totals and saves the result. Keeping language separate gives
@@ -215,7 +221,7 @@ implementation.
 
 ### Verification and close — show docs/validation/cleanup-r7.md if needed
 
-> “The final engineering validation passed 247 offline Python tests, 22 browser
+> “The final engineering validation passed 269 offline Python tests, 23 browser
 > tests, ten full-stack verification scenarios and 18 real PostgreSQL tests.
 > These cover behavior such as clarification, refresh and reset, concurrent
 > quotas, service outages, persistent container replacement and backup restore.
@@ -235,7 +241,7 @@ You do not need to open every implementation file. Use this small sequence:
 | Open | Show/explain |
 | --- | --- |
 | `PROJECT_CONTEXT.md`, section 2 | Full architecture diagram and ownership |
-| `deploy/compose.yaml` | Four normal services; only web published by default; persistent volume |
+| `deploy/compose.yaml` | Five normal services; only web published by default; persistent volumes |
 | `services/core/src/pharmacy_core/api/routes/chat.py` | Thin HTTP entry point |
 | `services/core/src/pharmacy_core/clients/language.py` | HTTP contract boundary and no core-side replay |
 | `services/language/src/pharmacy_language/extraction/prompt.py` | Extraction instructions, not final-answer generation |

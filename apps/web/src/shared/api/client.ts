@@ -23,6 +23,12 @@ export const errorMessages: Record<string, string> = {
   provider_daily_quota_exhausted: 'La limite quotidienne est atteinte. Les choix déjà proposés restent utilisables.',
   quota_state_unavailable: 'Le suivi des demandes est indisponible. Les nouvelles questions sont temporairement bloquées.',
   provider_refused: 'Cette demande n’a pas pu être traitée. Reformulez votre question.',
+  image_invalid: 'Envoyez une photo valide au format JPEG, PNG ou WebP.',
+  image_too_large: 'La photo dépasse la taille maximale de 15 Mo.',
+  image_service_unavailable: 'Le service d’identification des photos est temporairement indisponible.',
+  image_service_timeout: 'L’identification de la photo a dépassé le délai autorisé.',
+  image_identification_failed: 'La photo n’a pas pu être identifiée. Aucun médicament n’a été inventé.',
+  image_unavailable: 'L’identification des photos n’est pas configurée sur ce service.',
   session_expired: 'Cette conversation a expiré. Commencez une nouvelle conversation.',
   clarification_expired: 'Ce choix a expiré. Reprenez votre question dans une nouvelle conversation.',
   invalid_selection: 'Ce choix n’est plus valide. Actualisez la conversation pour retrouver les choix disponibles.',
@@ -54,13 +60,14 @@ export class ApiError extends Error {
 const errorSchema = z.object({ detail: z.object({ code: z.string(), retryable: z.boolean().optional(),
   retry_after_seconds: z.number().finite().nonnegative().nullable().optional() }) })
 
-async function request<T>(method: string, path: string, schema: z.ZodType<T> | null, body?: ChatRequest, token?: string): Promise<T> {
+async function request<T>(method: string, path: string, schema: z.ZodType<T> | null, body?: ChatRequest | FormData, token?: string): Promise<T> {
   let response: Response
+  const isForm = body instanceof FormData
   try {
     response = await fetch('/api' + path, { method, cache: 'no-store', referrerPolicy: 'no-referrer',
-      signal: AbortSignal.timeout(method === 'POST' && path === '/chat' ? 175_000 : 20_000),
-      headers: { ...(body ? { 'Content-Type': 'application/json' } : {}), ...(token ? { Authorization: `Bearer ${token}` } : {}) },
-      body: body ? JSON.stringify(body) : undefined })
+      signal: AbortSignal.timeout(method === 'POST' && (path === '/chat' || path === '/chat/image') ? 175_000 : 20_000),
+      headers: { ...(body && !isForm ? { 'Content-Type': 'application/json' } : {}), ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+      body: body ? (isForm ? body : JSON.stringify(body)) : undefined })
   } catch (error) {
     throw new ApiError(error instanceof DOMException && ['TimeoutError', 'AbortError'].includes(error.name) ? 'api_timeout' : 'api_unreachable')
   }
@@ -89,5 +96,12 @@ export const api = {
   restore: (token: string) => request('GET', '/conversation', conversationSchema, undefined, token),
   reset: (token: string) => request<void>('DELETE', '/conversation', null, undefined, token),
   chat: (body: ChatRequest) => request('POST', '/chat', responseSchema, body),
+  chatImage: (file: File, options: { session_id: string; request_id: string }) => {
+    const form = new FormData()
+    form.append('file', file)
+    form.append('session_id', options.session_id)
+    form.append('request_id', options.request_id)
+    return request('POST', '/chat/image', responseSchema, form)
+  },
 }
 export type ConversationApi = typeof api

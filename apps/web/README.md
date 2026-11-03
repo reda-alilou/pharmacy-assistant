@@ -6,6 +6,37 @@ paperclip control uploads a medication photo to core, which forwards it to the
 local image service. No frontend environment variable contains a provider key or
 database credential.
 
+## Photo upload
+
+The paperclip button opens a file picker accepting `image/*`. The selected file is
+shown immediately in the user bubble with a temporary object URL, then sent as
+`multipart/form-data` to `POST /api/chat/image`.
+
+- Maximum size: 15 MB.
+- The browser rejects non-image files before sending.
+- The image service is internal to Compose; nginx proxies the request to core,
+  which calls `image` at `http://image:8002/identify/image`.
+- The server stores the message text and conversation state, not the image bytes.
+  The preview therefore remains visible in the current tab but is not restored
+  after a full page refresh.
+- OCR results are rendered through the normal medication cards. The first card is
+  the highest-ranked candidate; lower-ranked candidates remain visible with their
+  scores.
+
+Image error codes shown in the interface:
+
+| Code | Meaning |
+| --- | --- |
+| `image_invalid` | Missing, empty or unsupported image |
+| `image_too_large` | Image exceeds 15 MB |
+| `image_service_unavailable` | Core cannot reach the image service |
+| `image_service_timeout` | OCR exceeded the configured deadline |
+| `image_identification_failed` | OCR/matching returned an unusable result |
+| `image_unavailable` | Image support is not configured in core |
+
+For service setup, model download and troubleshooting, see the root
+[setup guide](../../docs/operations/setup.md#image-service-and-ocr-models).
+
 ## Local development
 
 From `apps/web/` with Node 22.23.2 and npm available:
@@ -84,8 +115,8 @@ core contract changes; review the resulting diff.
 Browser tests use offline fixtures and mocked API responses. On Windows they
 use installed Edge by default. Set `PLAYWRIGHT_CHANNEL=chrome` for installed
 Chrome, or install Playwright Chromium and set the channel to `chromium`.
-Tests cover actual interactions, restore/reset, expiry, uncertain requests,
-quota errors, responsive layout, safe links and accessibility. Reports,
+Tests cover actual interactions, photo upload/preview, restore/reset, expiry,
+uncertain requests, quota errors, responsive layout, safe links and accessibility. Reports,
 screenshots and traces go to ignored root `artifacts/web/`, preserving historical
 evidence. Playwright starts and stops its own local Vite server for offline tests.
 

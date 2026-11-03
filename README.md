@@ -14,97 +14,286 @@ For a self-contained explanation of the current system, read
 service communication, database tables and relationships, data collection and
 transformation, repository structure, configuration and validation evidence.
 
-## Run the configured demo
+## What the application does
 
-With Docker Desktop running, from the repository root:
+- Accepts typed questions and medication-box photos in the French web interface.
+- Extracts intent and entities with a hosted language model, while keeping raw
+  message spans separate from conversation context.
+- Matches medication identity, strength, form and presentation against the local
+  catalogue. Ambiguous matches require an explicit user choice.
+- Identifies medication boxes locally with EasyOCR, normalisation and fuzzy
+  matching. The image path does not call the hosted model.
+- Shows ranked OCR candidates and then the normal medication cards, prices and
+  sources from the local database.
+- Supports follow-ups, offered clarification choices, complete-package quantity
+  totals and exact decimal arithmetic. Missing prices stay unknown.
+- Keeps temporary conversations for 30 minutes of inactivity, restores them after
+  refresh, exposes failed messages, supports explicit retry and server-side reset.
+- Shares PostgreSQL quota reservations and cooldowns across the running services.
+
+Try `Quel est le prix de ABIP ?`, choose a presentation, then ask
+`Et pour deux boîtes ?`. The paperclip button sends a medication-box photo to the
+local image service. The uploaded photo is previewed in the current conversation;
+after a full page refresh, the server restores the message label but not the image
+binary. Recorded prices are historical observations, not live offers.
+
+The [demo guide and spoken script](docs/project/demo-guide.md) provides a
+presentation sequence, verified examples and an architecture walkthrough.
+
+## Architecture at a glance
+
+| Component | Container | Responsibility | Host exposure |
+| --- | --- | --- | --- |
+| `web` | nginx + built React assets | French chat, photo preview, result cards | `127.0.0.1:8080` |
+| `core` | FastAPI | Conversation state, matching, pricing, API | Internal only |
+| `language` | FastAPI | Hosted provider adapters, extraction validation, quotas | Internal only |
+| `image` | FastAPI + EasyOCR | Local OCR, normalisation and fuzzy matching | Internal only |
+| `postgres` | PostgreSQL 17 | Catalogue, conversations, quota ledger | Internal only |
+
+Text request flow:
+
+1. `web` sends `POST /api/chat` to nginx.
+2. nginx proxies `/api/*` to `core`.
+3. `core` calls `language` over the private Compose network.
+4. `language` calls the configured hosted provider and validates the structured
+   interpretation.
+5. `core` resolves local records, calculates recorded prices, stores the
+   conversation and returns the response.
+6. `web` validates the response at runtime before rendering it.
+
+Photo request flow:
+
+1. `web` previews the selected image locally and sends `multipart/form-data` to
+   `POST /api/chat/image`.
+2. nginx allows up to 15 MB on that exact route.
+3. `core` validates the content type and size, then calls `image` at
+   `http://image:8002/identify/image`.
+4. `image` runs EasyOCR, normalises the detected text and ranks catalogue records
+   with field-aware fuzzy matching.
+5. `core` maps the returned source IDs to its own records, renders the answer and
+   cards, and persists the conversation.
+
+The image service is intentionally separate from the uv workspace because
+EasyOCR/PyTorch would otherwise inflate every Python install. It has its own
+`requirements.txt` and Dockerfile, which installs CPU-only PyTorch.
+
+## Prerequisites
+
+- Docker Desktop with Linux containers and Compose.
+- Python 3.12 or later.
+- `uv` 0.11 or later.
+- Node 22.23.2 and npm for frontend development/tests only. The container build
+  does not require Node on the host.
+- Internet access for the first image build, the first EasyOCR model download and
+  hosted inference. Valid offered choices and photo matching do not call the
+  hosted provider.
+- Enough disk space for Docker images, PostgreSQL data and EasyOCR models. The
+  CPU PyTorch layer is several hundred MB.
+
+Check the tools:
+
+```powershell
+docker version
+docker compose version
+uv --version
+python --version
+node --version
+npm --version
+```
+
+The isolated PostgreSQL backup tests additionally require PostgreSQL 17 client
+tools; see [tooling](docs/operations/tooling.md).
+
+## Quick start: existing configured workspace
+
+Use this when `.env`, `.runtime/postgres.env`, `.runtime/compose.env` and the
+named database volume already exist.
+
+```powershell
+cd C:\Users\msi\Desktop\pharmacy-assistant
+
+uv sync --frozen
+
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml --profile tools build
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml up -d --wait
+```
+
+Open <http://127.0.0.1:8080>.
+
+Check service health:
+
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml ps
+```
+
+All five services should become healthy: `web`, `core`, `language`, `image` and
+`postgres`. The normal configuration exposes only `web` on localhost.
+
+After source changes, rebuild the affected images before recreating services. To
+rebuild every application/setup image:
+
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml --profile tools build
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml up -d --wait
+```
+
+Startup never migrates the database or re-imports catalogue data. Existing
+credentials, migration revisions, Compose project/service names and named volumes
+are retained.
+
+## First run from a fresh clone
+
+From the repository root:
+
+```powershell
+uv sync --frozen
+Copy-Item .env.example .env
+```
+
+Edit `.env` locally and provide the selected provider key. Keep it private. The
+default provider is Groq:
+
+```dotenv
+INFERENCE_PROVIDER=groq
+GROQ_API_KEY=your-private-key
+```
+
+Then create the ignored runtime configuration files:
+
+```powershell
+.\.venv\Scripts\pharmacy-db.exe init-env
+.\.venv\Scripts\pharmacy-compose-setup.exe
+```
+
+`pharmacy-db init-env` creates `.runtime/postgres.env` with random database
+credentials. `pharmacy-compose-setup` reads `.env` plus the database file and
+creates `.runtime/compose.env` with container hostnames. Both commands refuse to
+overwrite existing files and never print secrets.
+
+Build all images, then start PostgreSQL alone for the explicit setup jobs:
+
+```powershell
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools build
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait postgres
+```
+
+Run migrations and data setup explicitly, in this order:
+
+```powershell
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup migrate
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup grant
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup import
+docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools run --rm database-setup verify
+```
+
+Finally start the full stack:
 
 ```powershell
 docker compose --env-file .runtime/compose.env -f deploy/compose.yaml up -d --wait
 ```
 
-Open <http://127.0.0.1:8080>. After source updates, build the affected images
-first, or build all application/setup images:
+Open <http://127.0.0.1:8080>.
 
-```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml --profile tools build
-```
+The importer reads the two authoritative JSONL inputs in `data/imports/`, keeps
+recorded presentation IDs and source conflicts, and validates transactionally.
+Verification compares all 9,936 medication presentations and 327 pharmacy records
+and checks role isolation. Repeating an unchanged import is recognised; normal
+startup does not import.
 
-Stop the stack while preserving its database:
+## Environment files and configuration
 
-```powershell
-docker compose --env-file .runtime/compose.env -f deploy/compose.yaml down
-```
+| File | Created by | Purpose | Commit? |
+| --- | --- | --- | --- |
+| `.env.example` | Repository | Documented template for local settings | Yes |
+| `.env` | Developer | Provider key and local service settings | No |
+| `.runtime/postgres.env` | `pharmacy-db init-env` | Random PostgreSQL credentials and host URLs | No |
+| `.runtime/compose.env` | `pharmacy-compose-setup` | Container hostnames, ports and selected provider settings | No |
 
-Startup never migrates or re-imports data. Existing credentials, migration
-revisions, Compose project/service names and named volume are retained.
-Fresh checkout instructions and explicit setup actions are in the
-[setup guide](docs/operations/setup.md). Phone testing is in
-[the frontend guide](apps/web/README.md#test-on-a-phone-over-wi-fi).
+Never publish `.env`, `.runtime/postgres.env`, `.runtime/compose.env`, expanded
+Compose output or logs containing private values. The browser receives neither
+provider keys nor database credentials.
 
-New typed questions require available hosted inference and internet access.
-Valid offered clarification choices can work without another model call.
-There is no automatic provider switch, paid fallback or saved-answer fallback.
+Frequently used settings:
 
-## Implemented behavior
+| Variable | Default | Meaning |
+| --- | --- | --- |
+| `INFERENCE_PROVIDER` | `groq` | Selected hosted provider |
+| `GROQ_API_KEY` | empty | Private Groq key; required for typed questions with Groq |
+| `GROQ_MODEL` | `qwen/qwen3.8-27b` | Extraction model |
+| `DATABASE_ENV_FILE` | `.runtime/postgres.env` | Host-side database URL file |
+| `STORAGE_BACKEND` | `postgres` | Only supported runtime storage |
+| `LANGUAGE_SERVICE_URL` | `http://127.0.0.1:8001` | Host/debug language URL |
+| `LANGUAGE_SERVICE_TIMEOUT_SECONDS` | `160` | Total core-to-language deadline |
+| `IMAGE_SERVICE_URL` | `http://127.0.0.1:8002` | Host/debug image URL |
+| `IMAGE_SERVICE_TIMEOUT_SECONDS` | `150` | Total core-to-image deadline |
+| `IMAGE_TOP_K` | `5` | Number of OCR candidates requested |
+| `IMAGE_MIN_SCORE` | `50` | Minimum fuzzy score for an OCR candidate |
+| `MEDID_OCR_LANGUAGES` | `fr` | EasyOCR language list |
+| `MEDID_OCR_MIN_CONFIDENCE` | `0.20` | Minimum OCR token confidence |
+| `WEB_PORT` | `8080` | Host port used by the normal web binding |
 
-- Validated multilingual intent/entity extraction, with raw spans kept separate
-  from inherited conversation context.
-- Medication identity, strength, form and presentation matching; ambiguous
-  results require clarification. Reviewed aliases and spelling suggestions never
-  silently select an uncertain product.
-- Medication photo identification through a local OCR/fuzzy-matching service;
-  the top candidates are ranked and explained without inventing unavailable
-  catalogue facts.
-- Follow-ups, explicit offered choices and complete-package quantity totals.
-  Arithmetic uses recorded prices and decimal rules; missing prices stay unknown.
-- Source-aware medication cards and a partial Rabat pharmacy directory with
-  recorded names, addresses and phone numbers.
-- Temporary conversations with a 30-minute inactivity expiry, refresh restoration,
-  failed-message visibility, explicit retry and server-side reset. Refresh never
-  repeats a question or renews expiry.
-- Shared PostgreSQL quota reservations and cooldowns, explicit evaluation budgets,
-  and safe errors when inference or storage is unavailable.
+Compose overrides internal URLs with container hostnames such as
+`http://language:8001` and `http://image:8002`. The host values in `.env` are for
+explicit debug tools.
 
-Try `Quel est le prix de ABIP ?`, choose a presentation, then ask
-`Et pour deux boîtes ?`. The paperclip button sends a medication-box photo to the
-local image service. Recorded prices are historical observations, not live offers.
-The [demo guide and spoken script](docs/project/demo-guide.md) provides startup
-commands, a presentation sequence, verified examples and an architecture walkthrough.
+## Photo identification and OCR models
 
-## Repository structure
+The `image` service stores downloaded EasyOCR models in the named volume
+`easyocr_models`, mounted at `/models`. The container root filesystem is read-only;
+the service uses `HOME=/tmp` and writes its EasyOCR user-network files under
+`/models/user_network`.
 
-| Location | Responsibility |
+The first photo request may download the detection and recognition models. This
+needs internet access once and can take longer than a normal request. Later starts
+reuse the volume. The model files are not committed to Git.
+
+The service is internal to Compose. Do not try to open port 8002 from the host in
+the normal configuration. Test it through the paperclip button in the web UI.
+
+Image error codes shown by the API/client:
+
+| Code | Meaning |
 | --- | --- |
-| `apps/web/` | React/TypeScript chat, result cards and browser tests |
-| `services/core/` | Conversation, matching, pricing, HTTP API and owned migrations |
-| `services/language/` | Provider adapters, extraction validation, quotas and owned migrations |
-| `services/image/` | Standalone EasyOCR and fuzzy-matching service for medication photos |
-| `packages/contracts/` | Shared schemas, protocols and errors |
-| `packages/infrastructure/` | Environment, database, workspace and evidence-path helpers |
-| `tools/operations/` | Explicit setup/import/backup, verification and offline checks |
-| `tools/evaluation/` | Datasets, scoring, budgeted runners and evidence validation |
-| `deploy/` | Compose configurations and nginx gateway |
-| `data/imports/`, `data/evaluation/` | Authoritative import inputs and active annotations |
-| `tests/` | Architecture/integration checks and shared test fixtures |
-| `docs/` | Current architecture, development, operations, project and validation guides |
-| `archive/` | Immutable historical data, reports and documents with an exact hash manifest |
-| `artifacts/` | Ignored generated logs, builds, reports and screenshots |
+| `image_invalid` | Missing, empty or unsupported image |
+| `image_too_large` | Image exceeds 15 MB |
+| `image_service_unavailable` | Core cannot reach the image service |
+| `image_service_timeout` | OCR exceeded the configured deadline |
+| `image_identification_failed` | OCR/matching returned an unusable result |
+| `image_unavailable` | Image support is not configured in core |
 
-The root is a virtual uv coordinator. Six Python members own their dependencies
-and are independently installable from one lockfile. `services/image` is kept
-outside that workspace because EasyOCR/PyTorch would otherwise inflate every
-Python install; it has its own requirements and container image. Streamlit, the old
-`pharmacy_assistant` package, collection/enrichment workflows and obsolete root
-tests have been retired after their useful coverage was migrated.
+A photo may return several candidates. The first card is the highest-ranked match;
+the others are lower-scoring OCR candidates. The UI never invents a price or a
+catalogue record for an uncertain match.
 
-Local environments, credentials and generated output remain ignored. Verified
-obsolete scratch directories and legacy caches have been removed. Previously
-ignored raw downloads/staging data are preserved privately in `archive/local/`;
-they are not application inputs or part of the tracked historical archive.
+## Stop, restart and reset
 
-## Checks
+Stop the stack while preserving the database and OCR models:
 
-After `uv sync --frozen`, run maintained offline Python checks:
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml down
+```
+
+`stop`/`start` also reuse existing containers:
+
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml stop
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml start
+```
+
+Do not add `--volumes` to a normal shutdown. It removes PostgreSQL data and the
+EasyOCR model volume. Use it only when a deliberate full reset is intended:
+
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml down --volumes
+```
+
+A full reset also requires new credentials and a new explicit migrate/import cycle.
+The separate old `compose.database.yaml` and Streamlit launcher are retired; use
+the maintained Compose configuration for database-only work too.
+
+## Checks and validation
+
+After `uv sync --frozen`, run the maintained offline Python checks:
 
 ```powershell
 .\.venv\Scripts\pharmacy-check.exe
@@ -132,6 +321,70 @@ It exercises the real frontend/services and 18 PostgreSQL scenarios with mocked
 inference, then removes its own stack and volume. It preserves application data.
 See [administration commands](docs/operations/tooling.md) and
 [evaluation commands and budgets](docs/development/evaluation-tools.md).
+
+Current offline validation: **269 Python tests** pass, **23 browser tests** pass
+and one deployment-only browser test is skipped in the normal suite. The isolated
+Compose verification covers the real web/core/PostgreSQL path and its 18
+PostgreSQL scenarios.
+
+## Troubleshooting
+
+| Symptom | Likely cause | Action |
+| --- | --- | --- |
+| `required variable ... is missing` | `.runtime/compose.env` absent | Run `pharmacy-compose-setup` |
+| `Run database_setup init-env first` | `.runtime/postgres.env` absent | Run `pharmacy-db init-env` |
+| `image` unhealthy or restarting | Image build/model filesystem issue | Inspect `logs image`, rebuild `image` |
+| Photo returns an immediate error | Old image without the writable EasyOCR home fix | Rebuild `image`, then `up -d --wait image` |
+| First photo is slow or times out | EasyOCR models are downloading | Keep internet access; wait or pre-download models |
+| `image_identification_failed` | OCR found no usable match | Use a clearer, well-lit photo with visible text |
+| Typed question fails but photo works | Hosted provider quota/key/network issue | Check `logs language` and `.runtime/compose.env` |
+| `core` not ready | PostgreSQL unavailable or not migrated | Check `logs core postgres`; run explicit migrations |
+| Port 8080 already in use | Another process owns the port | Stop it or change `WEB_PORT` deliberately |
+| Image preview disappears after refresh | Server stores text, not image bytes | Expected; the current-session preview is local only |
+
+Useful diagnostics:
+
+```powershell
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml ps
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml logs --tail=120 image core language web postgres
+docker compose --env-file .runtime\compose.env -f deploy\compose.yaml config --quiet
+```
+
+If readiness fails, inspect the affected service's logs and configuration.
+Missing or unavailable PostgreSQL is an error, not a signal to switch storage
+modes. Do not publish environment files, expanded Compose configuration or private
+logs.
+
+## Repository structure
+
+| Location | Responsibility |
+| --- | --- |
+| `apps/web/` | React/TypeScript chat, photo preview, result cards and browser tests |
+| `services/core/` | Conversation, matching, pricing, HTTP API and owned migrations |
+| `services/language/` | Provider adapters, extraction validation, quotas and owned migrations |
+| `services/image/` | Standalone EasyOCR and fuzzy-matching service for medication photos |
+| `packages/contracts/` | Shared schemas, protocols and errors |
+| `packages/infrastructure/` | Environment, database, workspace and evidence-path helpers |
+| `tools/operations/` | Explicit setup/import/backup, verification and offline checks |
+| `tools/evaluation/` | Datasets, scoring, budgeted runners and evidence validation |
+| `deploy/` | Compose configurations and nginx gateway |
+| `data/imports/`, `data/evaluation/` | Authoritative import inputs and active annotations |
+| `tests/` | Architecture/integration checks and shared test fixtures |
+| `docs/` | Current architecture, development, operations, project and validation guides |
+| `archive/` | Immutable historical data, reports and documents with an exact hash manifest |
+| `artifacts/` | Ignored generated logs, builds, reports and screenshots |
+
+The root is a virtual uv coordinator. Six Python members own their dependencies
+and are independently installable from one lockfile. `services/image` is kept
+outside that workspace because EasyOCR/PyTorch would otherwise inflate every
+Python install; it has its own requirements and container image. Streamlit, the old
+`pharmacy_assistant` package, collection/enrichment workflows and obsolete root
+tests have been retired after their useful coverage was migrated.
+
+Local environments, credentials and generated output remain ignored. Verified
+obsolete scratch directories and legacy caches have been removed. Previously
+ignored raw downloads/staging data are preserved privately in `archive/local/`;
+they are not application inputs or part of the tracked historical archive.
 
 ## Data, evidence and limits
 
